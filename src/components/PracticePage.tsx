@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
+import { useState, useCallback, useMemo, useRef } from 'react'
 import { getTextbookById } from '@/data/content'
 import { textbookVocabList } from '@/data/textbookDict'
 import { usePracticeStore } from '@/hooks/usePracticeStore'

@@ -4831,7 +4831,6 @@ const CURATED_EX_HSK3: Record<string, { cn: string; en: string }> = {
   '后来': { cn: '后来他又来了一次，但是还是没找到你。', en: 'Later he came again, but still couldn\'t find you.' },
   '护照': { cn: '出国旅行必须带护照，别忘了。', en: 'You must bring your passport when traveling abroad, don\'t forget.' },
   '花': { cn: '我花了五十块钱买了这本书。', en: 'I spent fifty yuan to buy this book.' },
-  '花': { cn: '花园里开了很多漂亮的花。', en: 'Many beautiful flowers have bloomed in the garden.' },
   '画': { cn: '他很喜欢画画，画得特别好。', en: 'He really likes to draw and does it very well.' },
   '坏': { cn: '我的电脑坏了，需要拿去修。', en: 'My computer is broken, I need to take it to get repaired.' },
   '还': { cn: '我明天把书还给你，谢谢你借给我。', en: 'I\'ll return the book to you tomorrow, thank you for lending it to me.' },

@@ -1,4 +1,4 @@
-import { categories, getTextbooksByCategory } from '@/data/content'
+import { categories } from '@/data/content'
 import type { CategorySlug } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
@@ -19,7 +19,6 @@ export function CategoryGrid({ onSelectCategory, lang }: CategoryGridProps) {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-5">
       {categories.map((cat, i) => {
-        const bookCount = getTextbooksByCategory(cat.slug).length
         return (
           <button
             key={cat.slug}

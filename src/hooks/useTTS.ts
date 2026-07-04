@@ -74,7 +74,7 @@ function getAudioById(id: string): HTMLAudioElement | null {
 }
 
 export function useTTS() {
-  const [ready, setReady] = useState(true)
+  const [ready] = useState(true)
   const voicesRef = useRef<SpeechSynthesisVoice[]>([])
   const currentAudioRef = useRef<HTMLAudioElement | null>(null)
 

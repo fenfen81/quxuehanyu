@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { hskWordsByLevel, hskWords } from '../data/hskWords'
 import type { HskWord } from '../data/hskWords'
 import { genExample } from '../data/examples'
@@ -274,7 +274,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [typeInput, setTypeInput]           = useState('')
   const [typeHintMode, setTypeHintMode]     = useState<TypeHintMode>('english')
   const [typedCorrect, setTypedCorrect]     = useState<boolean | null>(null)
-  const [typeMistakes, setTypeMistakes]     = useState(0)
+  const [, setTypeMistakes]     = useState(0)
   const typeInputRef = useRef<HTMLInputElement>(null)
   const touchRef = useRef({ x: 0, y: 0, swiping: false })
   // 收藏
@@ -328,8 +328,6 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     } catch {}
   }, [])
 
-  const learnedWords = useMemo(() => levelWords.filter(w => learnedSet.has(w.id)), [levelWords, learnedSet])
-
   // ── 操作函数 ──────────────────────────────────────────────────────────────
   const startLearningSession = useCallback(() => {
     const reviewPart = plan.reviewIds.map(id => levelWords.find(w => w.id === id)).filter(Boolean) as HskWord[]
@@ -364,7 +362,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     setPlan(prev => ({ ...prev, learnedIds: prev.learnedIds.includes(wordId) ? prev.learnedIds : [...prev.learnedIds, wordId], reviewIds: prev.reviewIds.filter(id => id !== wordId), dailyLog: { ...prev.dailyLog, [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), learned:(prev.dailyLog[todayStr()]?.learned||0)+1 } } }))
   }, [])
   const markForReview = useCallback((wordId: string) => {
-    setPlan(prev => ({ ...prev, reviewIds: prev.reviewIds.includes(wordId) ? prev.reviewIds : [...prev.reviewIds, wordId], dailyLog: { ...prev.dailyLog, [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), reviewed:(prev.dailyLog[todayStr()]?.reviewd||0)+1 } } }))
+    setPlan(prev => ({ ...prev, reviewIds: prev.reviewIds.includes(wordId) ? prev.reviewIds : [...prev.reviewIds, wordId], dailyLog: { ...prev.dailyLog, [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), reviewed:(prev.dailyLog[todayStr()]?.reviewed||0)+1 } } }))
   }, [])
   const updatePlan = (patch: Partial<StudyPlan>) => { setPlan(prev => ({ ...prev, ...patch })) }
   const saveNewPlan = (level: 1|2|3|4|5|6, dailyGoal: number) => { updatePlan({ level, dailyGoal, startedAt: plan.startedAt || todayStr() }); setShowPlanModal(false); setView('dashboard'); sfx.play('levelChange') }
@@ -696,7 +694,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                 <div className="border-t border-slate-100"/>
                 <div className="px-6 pb-7 pt-5 space-y-4">
                   <div className="text-center"><span className={`text-sm font-extrabold tracking-[0.25em] uppercase ${typedCorrect===false?'text-red-400':typedCorrect===true?'text-green-500':'text-slate-300'}`}>{typedCorrect===false?tt('words_try_again'):typedCorrect===true?tt('words_correct_excl'):tt('words_type_word')}</span></div>
-                  <div className="flex justify-center gap-2">{current.hanzi.split('').map((char,i)=><div key={i} className={`w-3 h-3 rounded-full ${typedCorrect!==null?(typedCorrect?'bg-green-400':'bg-red-300'):i<typeInput.length?'bg-indigo-400':'bg-slate-200'}`} />)}</div>
+                  <div className="flex justify-center gap-2">{current.hanzi.split('').map((_,i)=><div key={i} className={`w-3 h-3 rounded-full ${typedCorrect!==null?(typedCorrect?'bg-green-400':'bg-red-300'):i<typeInput.length?'bg-indigo-400':'bg-slate-200'}`} />)}</div>
                   <div className="flex justify-center"><input ref={typeInputRef} type="text" value={typeInput} onChange={e=>{setTypeInput(e.target.value);sfx.play('keyboard');setTypedCorrect(null)}} onKeyDown={e=>{if(e.key==='Enter'){e.preventDefault();handleTypeSubmit()}else if(e.key==='Backspace'&&!e.nativeEvent.metaKey&&!e.nativeEvent.ctrlKey)sfx.play('delete')}} placeholder={`${current.hanzi.split('').map(()=>'_').join(' ')}`} className={`text-center text-3xl font-black tracking-[0.3em] outline-none border-b-2 bg-transparent px-4 py-2 w-[240px] autoComplete="off" autoCapitalize="off" spellCheck={false} ${typedCorrect===false?'border-red-400 text-red-500 placeholder-red-200':typedCorrect===true?'border-green-400 text-green-600':'border-slate-300 text-slate-800 placeholder-slate-200 focus:border-indigo-400'}`} style={{fontFamily:'"Noto Sans SC","Microsoft YaHei",sans-serif'}}/></div>
                   {!typedCorrect && (<div className="flex justify-center gap-3 pt-1"><button onClick={handleTypeSubmit} className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-sm font-bold hover:from-indigo-600 hover:to-purple-600 shadow-md active:scale-95">✓ {tt('words_type_confirm')} (Enter)</button><button onClick={handleTypeSkip} className="px-5 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-500 text-sm hover:bg-slate-50">{tt('skip')} →</button></div>)}
                   {typedCorrect!==null && (<div className="text-center">{typedCorrect?(<div className="text-green-600 font-bold">✅ {tt('words_type_correct')} {current.hanzi}</div>):(<div className="text-red-500 font-medium">❌ {tt('words_type_wrong')}<span className="font-bold text-lg ml-1">{current.hanzi}</span></div>)}</div>)}
@@ -765,14 +763,14 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       )}
 
       {/* 修改计划弹窗 */}
-      {showPlanModal && (<div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={(e)=>{if(e.target===e.currentTarget){setShowPlanModal(false);sfx.play('click')}}}><div className="absolute inset-0 bg-black/40 backdrop-blur-sm"/><div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden"><div className="flex items-center justify-between px-6 pt-5 pb-2"><div><h3 className="text-lg font-bold text-slate-800">{tt('plan_title')}</h3><p className="text-xs text-slate-400 mt-0.5">{tt('plan_subtitle')}</p></div><button onClick={()=>{setShowPlanModal(false);sfx.play('click')}} className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 text-lg">×</button></div><div className="px-6 pb-6 pt-4"><PlanModalInner currentLevel={plan.level} currentDailyGoal={plan.dailyGoal} onSave={(l,g)=>saveNewPlan(l,g)} onClose={()=>setShowPlanModal(false)} lang={lang}/></div></div></div>)}
+      {showPlanModal && (<div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={(e)=>{if(e.target===e.currentTarget){setShowPlanModal(false);sfx.play('click')}}}><div className="absolute inset-0 bg-black/40 backdrop-blur-sm"/><div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden"><div className="flex items-center justify-between px-6 pt-5 pb-2"><div><h3 className="text-lg font-bold text-slate-800">{tt('plan_title')}</h3><p className="text-xs text-slate-400 mt-0.5">{tt('plan_subtitle')}</p></div><button onClick={()=>{setShowPlanModal(false);sfx.play('click')}} className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 text-lg">×</button></div><div className="px-6 pb-6 pt-4"><PlanModalInner currentLevel={plan.level} currentDailyGoal={plan.dailyGoal} onSave={(l,g)=>saveNewPlan(l as 1|2|3|4|5|6,g)} onClose={()=>setShowPlanModal(false)} lang={lang}/></div></div></div>)}
     </div>
   )
 }
 
 // PlanModalInner 组件
 interface PlanModalInnerProps { currentLevel: 1|2|3|4|5|6; currentDailyGoal: number; onSave(l: number, g: number): void; onClose(): void; lang?: Lang }
-function PlanModalInner({ currentLevel, currentDailyGoal, onSave, onClose, lang = 'zh' }: PlanModalInnerProps) {
+function PlanModalInner({ currentLevel, currentDailyGoal, onSave, lang = 'zh' }: PlanModalInnerProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
   const [level,setLevel]=useState<1|2|3|4|5|6>(currentLevel), [dailyGoal,setDailyGoal]=useState(currentDailyGoal)
   const wordsInLevel=WORD_COUNTS[level], estDays=dailyGoal>0?Math.ceil(wordsInLevel/dailyGoal):0

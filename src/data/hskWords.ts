@@ -9,7 +9,7 @@ export interface HskWord {
   fullEnglish: string
   pos: string      // v / n / adj / adv ...
   posCn: string    // 动 / 名 / 形 ...
-  level: 1 | 2 | 3 | 4 | 5 | 6
+  level: number
   emoji: string
 }
 

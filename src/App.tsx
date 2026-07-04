@@ -9,7 +9,6 @@ import type { CategorySlug } from '@/types'
 import type { HskWord } from '@/data/hskWords'
 import { useLang } from '@/i18n/useLang'
 import { t } from '@/i18n/translations'
-import type { Lang } from '@/i18n/translations'
 
 type Page = 'home' | 'category' | 'practice' | 'words'
 
