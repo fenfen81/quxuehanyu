@@ -1,0 +1,32 @@
+Found lesson 16 from paragraph: 第十六课 你常去图书馆
+Lesson 16 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 16: 36 words
+Found lesson 17 from paragraph: 第十七课 他在做什么呢
+Lesson 17 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 17: 26 words
+Found lesson 18 from paragraph: 第十八课 我去超市买东西
+Lesson 18 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 18: 24 words
+Found lesson 19 from paragraph: 第十九课 可以试试吗
+Lesson 19 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 19: 17 words
+Found lesson 20 from paragraph: 第二十课 祝你生日快乐
+Lesson 20 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 20: 24 words
+Found lesson 21 from paragraph: 第二十一课 我们明天七点一刻出发
+Lesson 21 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 21: 32 words
+Found lesson 22 from paragraph: 第二十二课 我打算请老师教我京剧
+Lesson 22 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 22: 29 words
+Found lesson 23 from paragraph: 第二十三课 学校里边有银行吗
+Lesson 23 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 23: 38 words
+Found lesson 24 from paragraph: 第二十四课 我想学太极拳
+Lesson 24 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 24: 26 words
+Found lesson 25 from paragraph: 第二十五课 她学得很好
+Lesson 25 table header (7 cols): ['序号', '生词', '拼音', '词性', '释义', '中文例句', '英文翻译']
+Lesson 25: 33 words
+
+// Total: 10 lessons, 285 words

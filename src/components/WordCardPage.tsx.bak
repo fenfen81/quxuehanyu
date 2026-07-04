@@ -1,0 +1,878 @@
+import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
+import { hskWordsByLevel, hskWords, HskWord } from '../data/hskWords'
+import { sfx } from '../utils/sfx'
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  TTS 朗读（不变）
+// ══════════════════════════════════════════════════════════════════════════════
+const synth = typeof window !== 'undefined' ? window.speechSynthesis : null
+let zhVoice: SpeechSynthesisVoice | null = null
+function refreshVoice() {
+  if (!synth) return
+  const voices = synth.getVoices()
+  zhVoice = voices.find(v => v.lang === 'zh-CN') || voices.find(v => v.lang.startsWith('zh')) || null
+}
+if (synth) {
+  refreshVoice()
+  synth.addEventListener('voiceschanged', refreshVoice)
+  setInterval(refreshVoice, 2000)
+}
+function speakWord(text: string) {
+  if (!synth) return
+  synth.cancel()
+  const u = new SpeechSynthesisUtterance(text)
+  if (zhVoice) u.voice = zhVoice
+  u.lang = 'zh-CN'
+  u.rate = 0.85
+  u.volume = 1
+  synth.speak(u)
+}
+
+/** 小喇叭按钮 */
+function SpeakBtn({ text, className = '' }: { text: string; className?: string }) {
+  const [playing, setPlaying] = useState(false)
+  return (
+    <button onClick={(e) => { e.stopPropagation(); speakWord(text); setPlaying(true); setTimeout(() => setPlaying(false), 1200); sfx.play('click') }}
+            className={`inline-flex items-center justify-center rounded-full transition-all duration-150 hover:scale-110 active:scale-95 ${playing ? 'animate-pulse' : ''} ${className}`}
+            title="点击朗读" aria-label="朗读">
+      {playing ? '🔊' : '🔈'}
+    </button>
+  )
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  工具函数
+// ══════════════════════════════════════════════════════════════════════════════
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+function pickDistractors(correct: HskWord, pool: HskWord[], n = 3): HskWord[] {
+  const samePOS = pool.filter(w => w.id !== correct.id && w.pos === correct.pos)
+  const rest    = pool.filter(w => w.id !== correct.id && w.pos !== correct.pos)
+  return shuffle([...samePOS, ...rest]).slice(0, n)
+}
+function todayStr(): string { return new Date().toISOString().slice(0, 10) }
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  学习计划 数据模型 & 持久化
+// ══════════════════════════════════════════════════════════════════════════════
+interface StudyPlan {
+  level: 1|2|3|4|5|6
+  dailyGoal: number
+  startedAt: string
+  learnedIds: string[]
+  reviewIds: string[]
+  dailyLog: Record<string, { learned: number; reviewed: number }>
+}
+const DEFAULT_PLAN: StudyPlan = {
+  level: 1, dailyGoal: 30, startedAt: todayStr(),
+  learnedIds: [], reviewIds: [], dailyLog: {},
+}
+const PLAN_KEY = 'quxue-study-plan'
+function loadPlan(): StudyPlan {
+  try { const raw = localStorage.getItem(PLAN_KEY); if (raw) return JSON.parse(raw) } catch {}
+  return { ...DEFAULT_PLAN }
+}
+function savePlan(p: StudyPlan) { localStorage.setItem(PLAN_KEY, JSON.stringify(p)) }
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  类型
+// ══════════════════════════════════════════════════════════════════════════════
+type Mode = 'flashcard' | 'quiz' | 'type'
+type View = 'dashboard' | 'learning' | 'search'
+type TypeHintMode = 'english' | 'pinyin'
+
+interface Props {
+  onXP?: (pts: number) => void
+  onWrongWord?: (word: HskWord) => void
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  常量
+// ══════════════════════════════════════════════════════════════════════════════
+const LEVELS: Array<1|2|3|4|5|6> = [1,2,3,4,5,6]
+const WORD_COUNTS: Record<number,number> = {1:150,2:150,3:300,4:600,5:1300,6:2501}
+const LEVEL_NAMES: Record<number,string> = {
+  1:'HSK 一级', 2:'HSK 二级', 3:'HSK 三级',
+  4:'HSK 四级', 5:'HSK 五级', 6:'HSK 六级',
+}
+const LEVEL_GRADIENTS: Record<number,string> = {
+  1:'linear-gradient(135deg,#34d399,#10b981)',
+  2:'linear-gradient(135deg,#60a5fa,#3b82f6)',
+  3:'linear-gradient(135deg,#818cf8,#6366f1)',
+  4:'linear-gradient(135deg,#a78bfa,#8b5cf6)',
+  5:'linear-gradient(135deg,#fb923c,#f97316)',
+  6:'linear-gradient(135deg,#f87171,#ef4444)',
+}
+const DAILY_OPTIONS = [15, 30, 50, 100]
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  组件
+// ══════════════════════════════════════════════════════════════════════════════
+export default function WordCardPage({ onXP, onWrongWord }: Props) {
+
+  // ── 学习计划 state ──────────────────────────────────────────────────────
+  const [plan, setPlan] = useState<StudyPlan>(loadPlan)
+
+  // ── UI state ─────────────────────────────────────────────────────────────
+  const [view, setView]           = useState<View>('dashboard')
+  const [mode, setMode]           = useState<Mode>('flashcard')
+  const [showPlanModal, setShowPlanModal]     = useState(false)
+  const [autoSpeak, setAutoSpeak]             = useState(true)
+  const [searchQ, setSearchQ]                 = useState('')
+  const [searchResults, setSearchResults]     = useState<HskWord[]>([])
+  const [showSettings, setShowSettings]       = useState(false)
+
+  // ── 学习会话 state ───────────────────────────────────────────────────────
+  const [sessionQueue, setSessionQueue] = useState<HskWord[]>([])
+  const [idx, setIdx]                   = useState(0)
+  const [flipped, setFlipped]           = useState(false)
+  const [options, setOptions]           = useState<HskWord[]>([])
+  const [chosen, setChosen]             = useState<string | null>(null)
+  const [score, setScore]               = useState({ correct: 0, wrong: 0 })
+  const [showResult, setShowResult]     = useState(false)
+
+  // ── 打字模式 state ────────────────────────────────────────────────────────
+  const [typeInput, setTypeInput]               = useState('')
+  const [typeHintMode, setTypeHintMode]         = useState<TypeHintMode>('english')
+  const [typedCorrect, setTypedCorrect]         = useState<boolean | null>(null) // null=输入中, true=对, false=错
+  const [typeMistakes, setTypeMistakes]         = useState(0) // 本词错误次数
+  const typeInputRef                            = useRef<HTMLInputElement>(null)
+
+  // ── 派生数据 ──────────────────────────────────────────────────────────────
+  const levelWords = useMemo(() => hskWordsByLevel(plan.level), [plan.level])
+  const totalWords = levelWords.length
+  const learnedSet = useMemo(() => new Set(plan.learnedIds), [plan.learnedIds])
+  const newWordsToLearn = useMemo(
+    () => levelWords.filter(w => !learnedSet.has(w.id) && !plan.reviewIds.includes(w.id)),
+    [levelWords, learnedSet, plan.reviewIds]
+  )
+  const progressPct = totalWords > 0 ? Math.round((learnedSet.size / totalWords) * 100) : 0
+  const todayLog = plan.dailyLog[todayStr()] || { learned: 0, reviewed: 0 }
+  const remainingToday = Math.max(0, plan.dailyGoal - todayLog.learned)
+  const daysRemaining = plan.dailyGoal > 0 ? Math.ceil(newWordsToLearn.length / plan.dailyGoal) : 0
+  const estimatedFinishDate = (() => {
+    const d = new Date(); d.setDate(d.getDate() + daysRemaining)
+    return d.toLocaleDateString('zh-CN', { month:'long', day:'numeric' })
+  })()
+
+  // 持久化
+  useEffect(() => { savePlan(plan) }, [plan])
+
+  // 自动朗读当前词
+  useEffect(() => {
+    if (autoSpeak && view === 'learning' && !showResult && sessionQueue[idx]) {
+      const t = setTimeout(() => speakWord(sessionQueue[idx].hanzi), 300)
+      return () => clearTimeout(t)
+    }
+  }, [idx, autoSpeak, showResult, view, sessionQueue])
+
+  // 测验选项生成
+  useEffect(() => {
+    if (!sessionQueue[idx] || mode !== 'quiz' || view !== 'learning') return
+    const pool = levelWords.filter(w => w.id !== sessionQueue[idx].id)
+    const distractors = pickDistractors(sessionQueue[idx], pool, 3)
+    setOptions(shuffle([sessionQueue[idx], ...distractors]))
+    setChosen(null)
+  }, [idx, mode, view, sessionQueue, levelWords])
+
+  // 搜索
+  useEffect(() => {
+    if (!searchQ.trim()) { setSearchResults([]); return }
+    const q = searchQ.trim().toLowerCase()
+    setSearchResults(hskWords.filter(w =>
+      w.hanzi.includes(q) || w.pinyin.toLowerCase().includes(q) || w.english.toLowerCase().includes(q)
+    ).slice(0, 12))
+  }, [searchQ])
+
+  // 打字模式：切换到新词时重置输入
+  useEffect(() => {
+    if (mode === 'type' && view === 'learning' && sessionQueue[idx]) {
+      setTypeInput('')
+      setTypedCorrect(null)
+      setTypeMistakes(0)
+      // 自动聚焦输入框（延迟一帧等DOM渲染完）
+      setTimeout(() => typeInputRef.current?.focus(), 100)
+    }
+  }, [idx, mode, view, sessionQueue])
+
+  // 首次交互时预热 AudioContext
+  useEffect(() => {
+    const warmup = () => sfx.warmup()
+    document.addEventListener('click', warmup, { once: true })
+    document.addEventListener('keydown', warmup, { once: true })
+    return () => { document.removeEventListener('click', warmup); document.removeEventListener('keydown', warmup) }
+  }, [])
+
+  // ── 核心操作函数 ─────────────────────────────────────────────────────────
+
+  const startLearningSession = useCallback(() => {
+    const reviewPart = plan.reviewIds
+      .map(id => levelWords.find(w => w.id === id)).filter(Boolean) as HskWord[]
+    const newPart = newWordsToLearn.slice(0, plan.dailyGoal)
+    const combined = shuffle([...reviewPart, ...newPart]).slice(0, Math.max(plan.dailyGoal, 20))
+    if (combined.length === 0) { alert(`🎉 太棒了！HSK${plan.level} 的 ${totalWords} 个词你已经全部学过了！`); return }
+    setSessionQueue(combined); setIdx(0); setFlipped(false); setChosen(null)
+    setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning')
+    sfx.play('complete')
+  }, [plan.level, plan.dailyGoal, plan.reviewIds, newWordsToLearn, totalWords, levelWords])
+
+  const markLearned = useCallback((wordId: string) => {
+    setPlan(prev => ({
+      ...prev,
+      learnedIds: prev.learnedIds.includes(wordId) ? prev.learnedIds : [...prev.learnedIds, wordId],
+      reviewIds: prev.reviewIds.filter(id => id !== wordId),
+      dailyLog: { ...prev.dailyLog,
+        [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), learned:(prev.dailyLog[todayStr()]?.learned||0)+1 },
+      },
+    }))
+  }, [])
+
+  const markForReview = useCallback((wordId: string) => {
+    setPlan(prev => ({
+      ...prev,
+      reviewIds: prev.reviewIds.includes(wordId) ? prev.reviewIds : [...prev.reviewIds, wordId],
+      dailyLog: { ...prev.dailyLog,
+        [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), reviewed:(prev.dailyLog[todayStr()]?.reviewd||0)+1 },
+      },
+    }))
+  }, [])
+
+  const updatePlan = (patch: Partial<StudyPlan>) => { setPlan(prev => ({ ...prev, ...patch })) }
+
+  const saveNewPlan = (level: 1|2|3|4|5|6, dailyGoal: number) => {
+    updatePlan({ level, dailyGoal, startedAt: plan.startedAt || todayStr() })
+    setShowPlanModal(false); setView('dashboard'); sfx.play('levelChange')
+  }
+
+  // 答题处理（测验模式）
+  const handleAnswer = (word: HskWord) => {
+    if (chosen) return
+    setChosen(word.id)
+    const isCorrect = word.id === sessionQueue[idx].id
+    setScore(s => ({ correct: s.correct + (isCorrect?1:0), wrong: s.wrong + (isCorrect?0:1) }))
+    if (isCorrect) { markLearned(sessionQueue[idx].id); onXP?.(10); sfx.play('correct') }
+    else { markForReview(sessionQueue[idx].id); onWrongWord?.(sessionQueue[idx]); sfx.play('wrong') }
+    setTimeout(() => {
+      if (idx + 1 >= sessionQueue.length) setShowResult(true)
+      else { setIdx(i=>i+1); setChosen(null) }
+    }, 1000)
+  }
+
+  const nextCard = () => {
+    if (idx + 1 >= sessionQueue.length) { setShowResult(true); return }
+    setIdx(i=>i+1); setFlipped(false); sfx.play('flip')
+  }
+
+  const handleFlashcardNext = () => { markLearned(sessionQueue[idx].id); nextCard() }
+
+  // ── 打字模式处理 ─────────────────────────────────────────────────────────
+
+  /** 打字模式下提交答案 */
+  const handleTypeSubmit = () => {
+    if (!current || typedCorrect !== null) return
+    const input = typeInput.trim()
+    if (!input) return
+
+    // 判断正误：逐字匹配（忽略空格）
+    const expected = current.hanzi.replace(/\s/g, '')
+    const actual   = input.replace(/\s/g, '')
+    const isCorrect = expected === actual
+
+    if (isCorrect) {
+      setTypedCorrect(true)
+      markLearned(current.id)
+      onXP?.(10)
+      sfx.play('correct')
+      // 延迟后自动进入下一个
+      setTimeout(() => {
+        if (idx + 1 >= sessionQueue.length) { setShowResult(true) }
+        else { setIdx(i=>i+1); sfx.play('flip') }
+      }, 1200)
+    } else {
+      setTypedCorrect(false)
+      setTypeMistakes(m => m + 1)
+      sfx.play('wrong')
+      // 错误后短暂显示，然后清空重新输入
+      setTimeout(() => { setTypedCorrect(null); setTypeInput('') }, 800)
+    }
+  }
+
+  /** 打字模式跳过 */
+  const handleTypeSkip = () => {
+    markForReview(sessionQueue[idx].id)
+    if (idx + 1 >= sessionQueue.length) { setShowResult(true); return }
+    setIdx(i=>i+1); sfx.play('delete')
+  }
+
+  const current = sessionQueue[idx]
+
+  // ════════════════════════════════════════════════════════════════════════════
+  //  RENDER
+  // ════════════════════════════════════════════════════════════════════════════
+  return (
+    <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
+
+      {/* ══════════ 顶部标题栏 ══════════ */}
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-2xl font-bold text-slate-800">📖 背单词</h2>
+          <p className="text-sm text-slate-500 mt-0.5">HSK 1-6 级词汇，图文卡片记忆</p>
+        </div>
+        <div className="flex gap-2">
+          <button onClick={() => setShowSettings(s => !s)}
+                  className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium transition-all shadow-sm border
+                    ${sfx.enabled
+                      ? 'bg-indigo-50 text-indigo-600 border-indigo-200'
+                      : 'bg-white border-slate-200 text-slate-500 hover:border-slate-300'}`}
+                  title="音效与设置">
+            🔊 {sfx.enabled?'ON':'OFF'}
+          </button>
+          <button onClick={() => { setShowPlanModal(true); sfx.play('click') }}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium bg-white
+                             border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600
+                             hover:bg-indigo-50 transition-all shadow-sm">
+            ⚙️ 设置
+          </button>
+        </div>
+      </div>
+
+      {/* ══════════ 音效设置浮层 ══════════ */}
+      {showSettings && (
+        <div className="rounded-xl bg-white border border-slate-200 p-4 shadow-md animate-in fade-in slide-in-from-top-2 duration-200">
+          <h4 className="text-sm font-bold text-slate-700 mb-3">⌨️ 练习设置</h4>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {/* 音效开关 */}
+            <button onClick={() => { sfx.enabled = !sfx.enabled; sfx.play('click') }}
+                    className={`flex items-center justify-between px-3 py-2.5 rounded-lg border text-sm font-medium transition-all
+                      ${sfx.enabled ? 'bg-emerald-50 border-emerald-300 text-emerald-700' : 'bg-slate-50 border-slate-200 text-slate-500'}`}>
+              <span>键盘音效</span>
+              <span className={`text-xs font-black px-2 py-0.5 rounded-full ${sfx.enabled ? 'bg-emerald-500 text-white' : 'bg-slate-200 text-slate-400'}`}>
+                {sfx.enabled ? 'ON' : 'OFF'}
+              </span>
+            </button>
+            {/* 自动朗读 */}
+            <button onClick={() => { setAutoSpeak(a=>!a); sfx.play('click') }}
+                    className={`flex items-center justify-between px-3 py-2.5 rounded-lg border text-sm font-medium transition-all
+                      ${autoSpeak ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-slate-50 border-slate-200 text-slate-500'}`}>
+              <span>自动朗读</span>
+              <span className={`text-xs font-black px-2 py-0.5 rounded-full ${autoSpeak ? 'bg-blue-500 text-white' : 'bg-slate-200 text-slate-400'}`}>
+                {autoSpeak ? 'ON' : 'OFF'}
+              </span>
+            </button>
+            {/* 提示文字 */}
+            <button onClick={() => setShowSettings(false)}
+                    className="col-span-2 sm:col-span-1 flex items-center justify-center gap-1 px-3 py-2.5 rounded-lg
+                               bg-slate-100 text-slate-500 text-xs font-medium hover:bg-slate-200 transition-all">
+              收起 ✕
+            </button>
+          </div>
+          <p className="text-[11px] text-slate-400 mt-2">💡 音效使用浏览器合成音效，无需下载任何音频文件</p>
+        </div>
+      )}
+
+      {/* ══════════ 搜索栏 ══════════ */}
+      <div className="relative">
+        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
+        <input type="text" placeholder="搜索汉字、拼音或英文..." value={searchQ}
+               onChange={e => { setSearchQ(e.target.value); sfx.play('type') }}
+               onFocus={() => { if(searchQ) setView('search'); sfx.warmup() }}
+               onKeyDown={e => { if(e.key==='Enter'&&searchResults[0]) {
+                 const w=searchResults[0]; setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard')
+                 setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning');sfx.play('click')
+               }}}
+               className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-sm
+                          shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+        {searchResults.length > 0 && (
+          <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+              {searchResults.map(w => (
+                <div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-indigo-50 cursor-pointer border-b border-slate-100"
+                     onClick={() => { sfx.play('click'); setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard')
+                       setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning') }}>
+                  <span className="text-2xl leading-none">{w.emoji}</span>
+                  <div className="min-w-0 flex-1">
+                    <div className="font-bold text-slate-800 text-sm">{w.hanzi}</div>
+                    <div className="text-xs text-indigo-600">{w.pinyin}</div>
+                    <div className="text-xs text-slate-400 truncate">{w.english}</div>
+                  </div>
+                  <SpeakBtn text={w.hanzi} className="w-7 h-7 text-sm bg-slate-50 text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 shrink-0" />
+                  <span className="text-[10px] bg-slate-100 text-slate-500 rounded px-1.5 py-0.5 shrink-0">HSK{w.level}</span>
+                </div>
+              ))}
+            </div>
+            <div className="text-center text-xs text-slate-400 py-1.5 border-t border-slate-100">点击词条查看详情</div>
+          </div>
+        )}
+      </div>
+
+      {/* ══════════ 视图：进度仪表盘 ══════════ */}
+      {view === 'dashboard' && (
+        <>
+          {/* ── 学习计划卡 ── */}
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200/60">
+            <div className="relative px-6 sm:px-8 pt-7 pb-9" style={{ background: LEVEL_GRADIENTS[plan.level] }}>
+              <div className="absolute top-4 right-4 sm:right-6 bg-white/20 backdrop-blur-md rounded-xl px-3 py-2 text-center min-w-[64px]">
+                <div className="text-2xl font-black text-white leading-none">{daysRemaining}</div>
+                <div className="text-[10px] font-semibold text-white/80 uppercase tracking-wider">Days</div>
+              </div>
+              <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-white/10" />
+              <div className="absolute bottom-0 right-20 w-24 h-24 rounded-full bg-white/5" />
+              <div className="relative z-10">
+                <h3 className="text-xl sm:text-2xl font-black text-white">{LEVEL_NAMES[plan.level]}</h3>
+                <p className="text-sm text-white/75 mt-1">共 {totalWords} 词 · 预计{estimatedFinishDate}完成</p>
+              </div>
+            </div>
+            <div className="px-6 sm:px-8 pb-6 space-y-5 bg-white">
+              <div>
+                <div className="flex items-baseline gap-2 mb-1.5"><span className="text-xs text-slate-500 font-medium">总学习进度</span></div>
+                <div className="flex items-end gap-2 mb-2">
+                  <span className="text-3xl sm:text-4xl font-black text-slate-800">{progressPct}%</span>
+                  <span className="text-xs text-slate-400 pb-1">({learnedSet.size}/{totalWords})</span>
+                </div>
+                <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
+                  <div className="h-full rounded-full transition-all duration-700 ease-out"
+                       style={{ width: `${progressPct}%`, background: LEVEL_GRADIENTS[plan.level] }} />
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-3">
+                <div className="text-center p-3 rounded-xl bg-slate-50">
+                  <div className="text-lg font-bold text-slate-400">🎯</div><div className="text-base font-black text-slate-800 mt-0.5">{plan.dailyGoal}</div>
+                  <div className="text-[11px] text-slate-400 mt-0.5">每日目标</div>
+                </div>
+                <div className="text-center p-3 rounded-xl bg-blue-50">
+                  <div className="text-lg font-bold text-blue-400">⚡</div><div className="text-base font-black text-blue-600 mt-0.5">{todayLog.learned||0}</div>
+                  <div className="text-[11px] text-blue-400 mt-0.5">今日已学</div>
+                </div>
+                <div className="text-center p-3 rounded-xl bg-orange-50">
+                  <div className="text-lg font-bold text-orange-400">🔄</div><div className="text-base font-black text-orange-600 mt-0.5">{plan.reviewIds.length}</div>
+                  <div className="text-[11px] text-orange-400 mt-0.5">待复习</div>
+                </div>
+              </div>
+              <button onClick={startLearningSession}
+                      className="w-full py-3.5 rounded-xl text-white font-bold text-base transition-all duration-200 active:scale-[0.98]
+                                 flex items-center justify-center gap-2" style={{ background: '#1e293b' }}>
+                ▶ 继续{remainingToday>0 ? `背词（今日还剩${remainingToday}词）` : '背词'}
+              </button>
+            </div>
+          </div>
+
+          {/* 快捷入口 */}
+          <div className="grid grid-cols-3 gap-3">
+            <button onClick={startLearningSession}
+                    className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-300 hover:shadow-md transition-all group">
+              <div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🆕</div>
+              <div className="text-sm font-bold text-slate-700">学新词</div>
+              <div className="text-xs text-slate-400">剩余 {newWordsToLearn.length}</div>
+            </button>
+            <button onClick={() => {
+              if(plan.reviewIds.length===0){alert('暂无待复习词汇 ✅');return}
+              const rw = plan.reviewIds.map(id=>levelWords.find(w=>w.id===id)).filter(Boolean) as HskWord[]
+              if(rw.length===0)return
+              setSessionQueue(shuffle(rw));setIdx(0);setFlipped(false);setScore({correct:0,wrong:0})
+              setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')
+            }}
+                    className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-orange-300 hover:shadow-md transition-all group">
+              <div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🔄</div>
+              <div className="text-sm font-bold text-slate-700">复习错词</div>
+              <div className="text-xs text-slate-400">{plan.reviewIds.length} 个待复习</div>
+            </button>
+            <button onClick={() => {
+              const nw = newWordsToLearn.slice(0, plan.dailyGoal)
+              if(nw.length===0){alert('没有更多新词了 ✅');return}
+              setSessionQueue(shuffle(nw));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false)
+              setView('learning');setMode('type');sfx.play('click')
+            }}
+                    className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-purple-300 hover:shadow-md transition-all group">
+              <div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">⌨️</div>
+              <div className="text-sm font-bold text-slate-700">打字练习</div>
+              <div className="text-xs text-slate-400">看释义打汉字</div>
+            </button>
+          </div>
+
+          {/* HSK级别快捷切换 */}
+          <div className="pt-2">
+            <p className="text-xs text-slate-400 mb-2 font-medium">切换词库浏览：</p>
+            <div className="flex gap-2 flex-wrap">
+              {LEVELS.map(l => (
+                <button key={l} onClick={() => { updatePlan({ level: l }); sfx.play('levelChange') }}
+                        className={`px-3.5 py-1.5 rounded-full text-xs font-semibold border transition-all
+                          ${plan.level===l ? 'shadow-sm text-white border-transparent':'bg-white text-slate-600 border-slate-200 hover:border-slate-300'}`}
+                        style={plan.level===l ? {background:LEVEL_GRADIENTS[l]}:{}}>
+                  {LEVEL_NAMES[l]} <span className="ml-1 opacity-70">{WORD_COUNTS[l]}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* ══════════ 视图：学习中 ══════════ */}
+      {view === 'learning' && (
+        <>
+          {/* 顶栏：返回 + 进度 */}
+          <div className="flex items-center gap-3">
+            <button onClick={() => { setView('dashboard'); setShowResult(false); sfx.play('click') }}
+                    className="flex items-center gap-1 text-sm text-slate-500 hover:text-indigo-600 font-medium px-2 py-1 rounded-lg hover:bg-indigo-50 transition-colors">
+              ← 返回
+            </button>
+            <div className="flex-1">
+              <div className="flex justify-between text-xs text-slate-400 mb-1">
+                <span>{idx+1} / {sessionQueue.length}</span>
+                <span>✅ {score.correct} &nbsp;❌ {score.wrong}</span>
+              </div>
+              <div className="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                <div className="h-full rounded-full bg-gradient-to-r from-indigo-400 to-purple-400 transition-all duration-300"
+                     style={{ width: `${((idx+1)/sessionQueue.length)*100}%` }} />
+              </div>
+            </div>
+          </div>
+
+          {/* 模式切换栏 */}
+          <div className="flex gap-2 justify-center items-center flex-wrap">
+            {( ['flashcard','quiz','type'] as Mode[] ).map(m => (
+              <button key={m} onClick={() => { setMode(m); sfx.play('click') }}
+                      className={`flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-xs font-semibold transition-all border
+                        ${mode===m ? 'bg-indigo-500 text-white border-indigo-500 shadow':'bg-white text-slate-600 border-slate-200 hover:border-indigo-300'}`}>
+                {m==='flashcard'?'🃏 词卡':m==='quiz'?'🎯 测验':'⌨️ 打字'}
+              </button>
+            ))}
+            <button onClick={()=>{setAutoSpeak(a=>!a);sfx.play('click')}}
+                    className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border
+                      ${autoSpeak?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>
+              {autoSpeak?'🔊':'🔇'} 自动读
+            </button>
+
+            {/* 打字模式的提示方式选择 */}
+            {mode === 'type' && (
+              <div className="flex rounded-lg border border-slate-200 overflow-hidden ml-1">
+                <button onClick={()=>{setTypeHintMode('english');sfx.play('click')}}
+                        className={`px-3 py-1.5 text-xs font-semibold transition-all
+                          ${typeHintMode==='english'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>
+                  英文释义
+                </button>
+                <button onClick={()=>{setTypeHintMode('pinyin');sfx.play('click')}}
+                        className={`px-3 py-1.5 text-xs font-semibold transition-all border-l border-slate-200
+                          ${typeHintMode==='pinyin'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>
+                  拼音
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* ── 翻转词卡 ── */}
+          {mode === 'flashcard' && current && !showResult && (
+            <div className="space-y-4">
+              <div onClick={()=>{setFlipped(f=>!f);sfx.play('flip')}} className="relative cursor-pointer select-none" style={{perspective:'1000px'}}>
+                <div className="relative w-full transition-all duration-500"
+                     style={{ transformStyle:'preserve-3d', transform: flipped?'rotateY(180deg)':'rotateY(0deg)', minHeight:'220px' }}>
+                  {/* 正面 */}
+                  <div className="absolute inset-0 rounded-2xl bg-white border border-slate-200 shadow-md flex flex-col items-center justify-center gap-3 p-6" style={{backfaceVisibility:'hidden'}}>
+                    <div className="text-6xl">{current.emoji}</div>
+                    <div className="flex items-center gap-2">
+                      <div className="text-4xl font-black text-slate-800">{current.hanzi}</div>
+                      <SpeakBtn text={current.hanzi} className="w-8 h-8 text-lg bg-indigo-50 text-indigo-600" />
+                    </div>
+                    <div className="text-base text-indigo-500 font-medium">{current.pinyin}</div>
+                    <div className="text-xs text-slate-400 mt-1">点击翻转查看释义</div>
+                  </div>
+                  {/* 背面 */}
+                  <div className="absolute inset-0 rounded-2xl shadow-md flex flex-col items-center justify-center gap-3 p-6"
+                       style={{backfaceVisibility:'hidden',transform:'rotateY(180deg)',background:'linear-gradient(135deg,#eef2ff,#f5f3ff)'}}>
+                    <div className="flex items-center gap-2">
+                      <div className="text-2xl font-black text-indigo-700">{current.hanzi}</div>
+                      <SpeakBtn text={current.hanzi} className="w-7 h-7 text-base bg-white/60 text-indigo-600" />
+                    </div>
+                    <div className="text-base text-indigo-500">{current.pinyin}</div>
+                    <div className="text-lg font-semibold text-slate-700 text-center">{current.english}</div>
+                    <div className="text-sm text-slate-500 text-center italic">{current.fullEnglish}</div>
+                    <span className="mt-2 text-xs bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full">{current.posCn} · HSK{current.level}</span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-3 justify-center">
+                <button onClick={()=>{if(idx>0){setIdx(i=>i-1);setFlipped(false);sfx.play('click')}}}
+                        className="px-5 py-2 rounded-xl border border-slate-200 text-slate-600 text-sm font-medium hover:bg-slate-50 disabled:opacity-40" disabled={idx===0}>
+                  ← 上一个
+                </button>
+                <button onClick={handleFlashcardNext}
+                        className="px-6 py-2 rounded-xl bg-indigo-500 text-white text-sm font-semibold hover:bg-indigo-600 shadow-sm">
+                  {idx+1>=sessionQueue.length?'完成 ✓':'下一个 →'}
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* ── 四选一测验 ── */}
+          {mode === 'quiz' && current && !showResult && (
+            <div className="space-y-4">
+              <div className="rounded-2xl bg-white border border-slate-200 shadow-md p-6 flex flex-col items-center gap-3 min-h-[180px] justify-center">
+                <div className="text-5xl">{current.emoji}</div>
+                <div className="flex items-center gap-2">
+                  <div className="text-4xl font-black text-slate-800">{current.hanzi}</div>
+                  <SpeakBtn text={current.hanzi} className="w-8 h-8 text-lg bg-indigo-50 text-indigo-600" />
+                </div>
+                <div className="text-sm text-indigo-500 font-medium">{current.pinyin}</div>
+                <p className="text-xs text-slate-400">选出正确的英文释义</p>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {options.map(opt => {
+                  let cls = 'bg-white border-slate-200 text-slate-700 hover:border-indigo-300 hover:bg-indigo-50'
+                  if(chosen){
+                    if(opt.id===current.id) cls='bg-green-50 border-green-400 text-green-800'
+                    else if(opt.id===chosen) cls='bg-red-50 border-red-400 text-red-800'
+                    else cls='bg-white border-slate-100 text-slate-400 opacity-60'
+                  }
+                  return (
+                    <button key={opt.id} onClick={() => handleAnswer(opt)}
+                            className={`rounded-xl border-2 px-4 py-3 text-left text-sm font-medium transition-all duration-150 ${cls}`}>
+                      <div className="font-semibold text-[13px] leading-snug">{opt.english}</div>
+                      <div className="text-[11px] opacity-60 mt-0.5">{opt.pos}</div>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* ══════════ 打字模式（看英文打中文 / 看拼音打中文）═══════════ */}
+          {mode === 'type' && current && !showResult && (
+            <div className="space-y-5">
+              {/* 提示区：图片 + Emoji + 提示信息 */}
+              <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md"
+                   style={{ background: typedCorrect === false ? 'linear-gradient(135deg,#fef2f2,#fff1f2)' :
+                                   typedCorrect === true ? 'linear-gradient(135deg,#f0fdf4,#f0fff4)' :
+                                   'white' }}>
+
+                {/* 图片/Emoji展示区（参考图2的插画区域） */}
+                <div className="relative px-8 pt-8 pb-6 text-center"
+                     style={{
+                       background: typedCorrect===false ? 'rgba(239,68,68,0.03)' :
+                                  typedCorrect===true ? 'rgba(34,197,94,0.03)' : 'transparent'
+                     }}>
+                  {/* 左上角眼睛图标（隐藏/显示） */}
+                  <div className="absolute top-3 left-3 opacity-30">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  </div>
+                  {/* 右上角喇叭 */}
+                  <div className="absolute top-3 right-3">
+                    <SpeakBtn text={current.hanzi} className="w-8 h-8 text-base bg-white/80 text-slate-600 shadow-sm" />
+                  </div>
+
+                  {/* 大Emoji/图标 */}
+                  <div className={`text-7xl my-4 transition-transform duration-300 ${typedCorrect===false?'animate-shake':''}`}
+                       style={{ transform: typedCorrect===true ? 'scale(1.05)' : undefined }}>
+                    {current.emoji}
+                  </div>
+
+                  {/* 提示文本（根据 hintMode 显示） */}
+                  <div className="mt-3">
+                    {typeHintMode === 'english' ? (
+                      <>
+                        <div className="text-base font-bold text-slate-700">{current.fullEnglish || current.english}</div>
+                        <div className="text-sm text-indigo-500 font-medium mt-1">{current.pinyin}</div>
+                      </>
+                    ) : (
+                      <>
+                        <div className="text-2xl font-black text-slate-800 tracking-wide">{current.pinyin}</div>
+                        <div className="text-sm text-slate-500 mt-1">{current.english}</div>
+                      </>
+                    )}
+                  </div>
+
+                  {/* 词性标签 */}
+                  <div className="inline-flex mt-3 px-2.5 py-0.5 rounded-full text-[11px] font-medium bg-slate-100 text-slate-500">
+                    {current.posCn} · HSK{current.level}
+                  </div>
+                </div>
+
+                {/* 分隔线 */}
+                <div className="border-t border-slate-100" />
+
+                {/* TYPE WORD 输入区 */}
+                <div className="px-6 pb-7 pt-5 space-y-4">
+                  {/* TYPE WORD 标签 */}
+                  <div className="text-center">
+                    <span className={`text-sm font-extrabold tracking-[0.25em] uppercase
+                      ${typedCorrect===false ? 'text-red-400' : typedCorrect===true ? 'text-green-500' : 'text-slate-300'}`}>
+                      {typedCorrect === false ? 'TRY AGAIN' : typedCorrect === true ? 'CORRECT!' : 'TYPE WORD'}
+                    </span>
+                  </div>
+
+                  {/* 字符点位指示器（参考图2的圆点） */}
+                  <div className="flex justify-center gap-2">
+                    {current.hanzi.split('').map((char, i) => (
+                      <div key={i}
+                           className={`w-3 h-3 rounded-full transition-all duration-150
+                             ${typedCorrect!==null
+                               ? (typedCorrect ? 'bg-green-400' : 'bg-red-300')
+                               : i < typeInput.length ? 'bg-indigo-400' : 'bg-slate-200'}`} />
+                    ))}
+                  </div>
+
+                  {/* 输入框 */}
+                  <div className="flex justify-center">
+                    <input ref={typeInputRef}
+                           type="text"
+                           value={typeInput}
+                           onChange={e => { setTypeInput(e.target.value); sfx.play('type'); setTypedCorrect(null) }}
+                           onKeyDown={e => {
+                             if (e.key === 'Enter') { e.preventDefault(); handleTypeSubmit() }
+                             else if (e.key === 'Backspace' && !e.nativeEvent.metaKey && !e.nativeEvent.ctrlKey) { sfx.play('delete') }
+                           }}
+                           placeholder={`${current.hanzi.split('').map(()=>'_').join(' ')}`}
+                           className={`text-center text-3xl font-black tracking-[0.3em] outline-none border-b-2 bg-transparent px-4 py-2 w-[240px]
+                             ${typedCorrect===false ? 'border-red-400 text-red-500 placeholder-red-200' :
+                               typedCorrect===true ? 'border-green-400 text-green-600' :
+                               'border-slate-300 text-slate-800 placeholder-slate-200 focus:border-indigo-400'`}
+                           autoComplete="off" autoCapitalize="off" spellCheck={false}
+                           style={{ fontFamily: '"Noto Sans SC","Microsoft YaHei",sans-serif' }} />
+                  </div>
+
+                  {/* 操作按钮 */}
+                  {!typedCorrect && (
+                    <div className="flex justify-center gap-3 pt-1">
+                      <button onClick={handleTypeSubmit}
+                              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-sm font-bold
+                                         hover:from-indigo-600 hover:to-purple-600 transition-all shadow-md active:scale-95">
+                        ✓ 确认 (Enter)
+                      </button>
+                      <button onClick={handleTypeSkip}
+                              className="px-5 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-500 text-sm font-medium
+                                         hover:bg-slate-50 hover:border-slate-300 transition-all">
+                        跳过 →
+                      </button>
+                    </div>
+                  )}
+
+                  {/* 正确/错误反馈 */}
+                  {typedCorrect !== null && (
+                    <div className="text-center animate-fade-in">
+                      {typedCorrect ? (
+                        <div className="text-green-600 font-bold text-base">✅ 太棒了！{current.hanzi}</div>
+                      ) : (
+                        <div className="text-red-500 font-medium text-sm">
+                          ❌ 正确答案是：<span className="font-bold text-lg ml-1">{current.hanzi}</span>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* 底部快捷键提示 */}
+              <div className="flex justify-center gap-4 text-[11px] text-slate-400">
+                <kbd className="px-1.5 py-0.5 bg-slate-100 rounded border border-slate-200 font-mono">Enter</kbd> 确认
+                <kbd className="px-1.5 py-0.5 bg-slate-100 rounded border border-slate-200 font-mono">Esc</kbd> 跳过
+              </div>
+            </div>
+          )}
+
+          {/* ── 结果页 ── */}
+          {showResult && (
+            <div className="rounded-2xl bg-white border border-slate-200 shadow-md p-8 text-center space-y-4">
+              <div className="text-5xl">{score.correct>=sessionQueue.length*0.8?'🎉':score.correct>=sessionQueue.length*0.5?'😊':'😅'}</div>
+              <h3 className="text-xl font-bold text-slate-800">本轮完成！</h3>
+              <div className="flex justify-center gap-8">
+                <div><div className="text-3xl font-black text-green-500">{score.correct}</div><div className="text-xs text-slate-400">答对</div></div>
+                <div><div className="text-3xl font-black text-red-400">{score.wrong}</div><div className="text-xs text-slate-400">答错</div></div>
+                <div><div className="text-3xl font-black text-indigo-500">{Math.round((score.correct/sessionQueue.length)*100)}%</div><div className="text-xs text-slate-400">正确率</div></div>
+              </div>
+              {(mode==='quiz'||mode==='type')&&<div className="text-sm text-indigo-600 font-medium">+{score.correct*10} XP 🌟</div>}
+              <div className="flex gap-3 justify-center">
+                <button onClick={startLearningSession}
+                        className="px-6 py-2.5 bg-indigo-500 text-white rounded-xl font-bold hover:bg-indigo-600 transition-colors shadow-sm">
+                  🔄 再来一轮
+                </button>
+                <button onClick={() => { setView('dashboard'); sfx.play('click') }}
+                        className="px-6 py-2.5 bg-white text-slate-600 rounded-xl font-bold border border-slate-200 hover:bg-slate-50 transition-colors">
+                  ← 回到首页
+                </button>
+              </div>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* ══════════ 修改计划弹窗 ══════════ */}
+      {showPlanModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4"
+             onClick={(e)=>{if(e.target===e.currentTarget){setShowPlanModal(false);sfx.play('click')}}}>
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden">
+            <div className="flex items-center justify-between px-6 pt-5 pb-2">
+              <div>
+                <h3 className="text-lg font-bold text-slate-800">修改计划</h3>
+                <p className="text-xs text-slate-400 mt-0.5">设置你的每日挑战目标，系统将自动分配学习任务</p>
+              </div>
+              <button onClick={()=>{setShowPlanModal(false);sfx.play('click')}}
+                      className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors text-lg">×</button>
+            </div>
+            <div className="px-6 pb-6 pt-4">
+              <PlanModalInner currentLevel={plan.level} currentDailyGoal={plan.dailyGoal}
+                              onSave={(l,g)=>saveNewPlan(l,g)} onClose={()=>setShowPlanModal(false)} />
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+//  修改计划弹窗内部组件
+// ══════════════════════════════════════════════════════════════════════════════
+function PlanModalInner({
+  currentLevel, currentDailyGoal, onSave, onClose
+}: {
+  currentLevel: 1|2|3|4|5|6; currentDailyGoal: number;
+  onSave: (level: 1|2|3|4|5|6, dailyGoal: number) => void; onClose: () => void
+}) {
+  const [level, setLevel] = useState<1|2|3|4|5|6>(currentLevel)
+  const [dailyGoal, setDailyGoal] = useState(currentDailyGoal)
+  const wordsInLevel = WORD_COUNTS[level]
+  const estDays = dailyGoal > 0 ? Math.ceil(wordsInLevel / dailyGoal) : 0
+  return (
+    <div className="space-y-5">
+      <div className="rounded-xl border border-slate-200 p-4 flex items-center gap-3">
+        <div className="w-12 h-12 rounded-xl flex items-center justify-center text-xl font-black text-white shrink-0" style={{ background: LEVEL_GRADIENTS[level] }}>H{level}</div>
+        <div className="min-w-0 flex-1">
+          <div className="font-bold text-slate-800 text-sm">{LEVEL_NAMES[level]}</div>
+          <div className="text-xs text-slate-400">{wordsInLevel} 词 · {level<=2?'初级':level<=4?'中级':'高级'}</div>
+        </div>
+        <div className="flex gap-1">
+          {LEVELS.map(l => (
+            <button key={l} onClick={()=>{setLevel(l);sfx.play('levelChange')}}
+                    className={`w-7 h-7 rounded-lg text-[11px] font-bold transition-all ${l===level?'text-white shadow':'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+                    style={l===level?{background:LEVEL_GRADIENTS[l]}:{}}>{l}</button>
+          ))}
+        </div>
+      </div>
+      <div>
+        <label className="flex items-center gap-1.5 text-sm font-medium text-slate-600 mb-2.5"><span className="text-base">◎</span> 每日目标词数</label>
+        <div className="grid grid-cols-4 gap-2">
+          {DAILY_OPTIONS.map(opt => (
+            <button key={opt} onClick={()=>{setDailyGoal(opt);sfx.play('click')}}
+                    className={`py-2.5 rounded-xl text-base font-bold transition-all border
+                      ${dailyGoal===opt?'border-indigo-500 bg-indigo-500 text-white shadow-md scale-[1.02]':'border-slate-200 bg-white text-slate-600 hover:border-slate-300'}`}>{opt}</button>
+          ))}
+        </div>
+      </div>
+      <div className="rounded-xl bg-slate-50 p-4 flex items-center gap-3">
+        <div className="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center shrink-0"><span className="text-blue-500 text-base">🕐</span></div>
+        <div>
+          <div className="text-sm font-medium text-slate-700">预计学习周期</div>
+          <div className="text-xs text-slate-400">每天<span className="font-bold text-slate-600 mx-0.5">{dailyGoal}</span>词，约<span className="font-bold text-indigo-600 mx-0.5">{estDays}</span>天学完</div>
+        </div>
+      </div>
+      <button onClick={()=>{onSave(level,dailyGoal);sfx.play('complete')}}
+              className="w-full py-3.5 rounded-xl bg-slate-900 text-white font-bold text-base hover:bg-slate-800 transition-colors active:scale-[0.98] flex items-center justify-center gap-2">
+        修改这份计划 <span className="opacity-60">›</span>
+      </button>
+    </div>
+  )
+}

@@ -1,0 +1,804 @@
+[
+  {
+    "id": "hanyu-jiaocheng-1a",
+    "categoryId": "comprehensive",
+    "title": "《汉语教程》第一册（上）",
+    "titleEn": "Chinese Course Vol.1A",
+    "level": "初级",
+    "lessons": [
+      {
+        "id": "lesson3",
+        "title": "第三课",
+        "titleEn": "Lesson 3",
+        "texts": [
+          {
+            "id": "lesson3-text1",
+            "label": "课文",
+            "sentences": [
+              {
+                "id": "l3t1s1",
+                "cn": "你学英语吗？",
+                "split": "你 学 英语 吗",
+                "en": "Do you study English?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "学": "xué / study, learn",
+                  "英语": "Yīngyǔ / English",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "l3t1s2",
+                "cn": "不，学汉语。",
+                "split": "不 学 汉语",
+                "en": "No, I study Chinese.",
+                "dict": {
+                  "不": "bù / no, not",
+                  "学": "xué / study, learn",
+                  "汉语": "Hànyǔ / Chinese language"
+                }
+              },
+              {
+                "id": "l3t1s3",
+                "cn": "去北京吗？",
+                "split": "去 北京 吗",
+                "en": "Are you going to Beijing?",
+                "dict": {
+                  "去": "qù / go",
+                  "北京": "Běijīng / Beijing",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "l3t1s4",
+                "cn": "对。",
+                "split": "对",
+                "en": "Yes.",
+                "dict": {
+                  "对": "duì / yes, right"
+                }
+              },
+              {
+                "id": "l3t1s5",
+                "cn": "你去邮局寄信吗？",
+                "split": "你 去 邮局 寄信 吗",
+                "en": "Are you going to the post office to mail a letter?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "去": "qù / go",
+                  "邮局": "yóujú / post office",
+                  "寄信": "jì xìn / mail a letter",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "l3t1s6",
+                "cn": "不去。去银行取钱。",
+                "split": "不 去 去 银行 取钱",
+                "en": "No. I’m going to the bank to withdraw money.",
+                "dict": {
+                  "不": "bù / no, not",
+                  "去": "qù / go",
+                  "银行": "yínháng / bank",
+                  "取钱": "qǔ qián / withdraw money"
+                }
+              },
+              {
+                "id": "l3t1s7",
+                "cn": "明天见！",
+                "split": "明天 见",
+                "en": "See you tomorrow!",
+                "dict": {
+                  "明天": "míngtiān / tomorrow",
+                  "见": "jiàn / see, meet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanyu-jiaocheng-1b",
+    "categoryId": "comprehensive",
+    "title": "《汉语教程》第一册（下）",
+    "titleEn": "Chinese Course Vol.1B",
+    "level": "初级",
+    "lessons": [
+      {
+        "id": "lesson20",
+        "title": "第二十课",
+        "titleEn": "Lesson 20",
+        "texts": [
+          {
+            "id": "lesson20-text1",
+            "label": "课文一：你哪一年大学毕业",
+            "sentences": [
+              {
+                "id": "l20t1s1",
+                "cn": "你哪一年大学毕业？",
+                "split": "你 哪一年 大学 毕业",
+                "en": "In which year will you graduate from university?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "哪一年": "nǎ yì nián / which year",
+                  "大学": "dà xué / university",
+                  "毕业": "bì yè / graduate"
+                }
+              },
+              {
+                "id": "l20t1s2",
+                "cn": "明年。你呢？",
+                "split": "明年 你呢",
+                "en": "Next year. What about you?",
+                "dict": {
+                  "明年": "míng nián / next year",
+                  "你呢": "nǐ ne / what about you"
+                }
+              },
+              {
+                "id": "l20t1s3",
+                "cn": "我后年。你今年多大？",
+                "split": "我 后年 你 今年 多大",
+                "en": "The year after next. How old are you this year?",
+                "dict": {
+                  "我": "wǒ / I",
+                  "后年": "hòu nián / the year after next",
+                  "今年": "jīn nián / this year",
+                  "多大": "duō dà / how old"
+                }
+              },
+              {
+                "id": "l20t1s4",
+                "cn": "我二十二岁。",
+                "split": "我 二十二 岁",
+                "en": "I'm twenty-two years old.",
+                "dict": {
+                  "二十二": "èr shí èr / twenty-two",
+                  "岁": "suì / year old"
+                }
+              },
+              {
+                "id": "l20t1s5",
+                "cn": "你属狗？",
+                "split": "你 属狗",
+                "en": "Were you born in the Year of the Dog?",
+                "dict": {
+                  "属狗": "shǔ gǒu / born in dog year"
+                }
+              },
+              {
+                "id": "l20t1s6",
+                "cn": "对，我属狗。你属什么？",
+                "split": "对 我 属狗 你 属什么",
+                "en": "Yes, I was born in the Dog year. What animal sign are you?",
+                "dict": {
+                  "对": "duì / yes",
+                  "属什么": "shǔ shén me / what zodiac sign"
+                }
+              },
+              {
+                "id": "l20t1s7",
+                "cn": "我属猪。",
+                "split": "我 属猪",
+                "en": "I was born in the Year of the Pig.",
+                "dict": {
+                  "属猪": "shǔ zhū / born in pig year"
+                }
+              }
+            ]
+          },
+          {
+            "id": "lesson20-text2",
+            "label": "课文二：祝你生日快乐",
+            "sentences": [
+              {
+                "id": "l20t2s8",
+                "cn": "你的生日是几月几号？",
+                "split": "你的 生日 是 几月几号",
+                "en": "What's the date of your birthday?",
+                "dict": {
+                  "你的": "nǐ de / your",
+                  "生日": "shēng rì / birthday",
+                  "几月几号": "jǐ yuè jǐ hào / what date"
+                }
+              },
+              {
+                "id": "l20t2s9",
+                "cn": "我的生日是十月十八号，正好是星期六。",
+                "split": "我的 生日 是 十月十八号 正好 是 星期六",
+                "en": "My birthday is October 18th, it's just Saturday.",
+                "dict": {
+                  "我的": "wǒ de / my",
+                  "十月十八号": "shí yuè shí bā hào / Oct.18",
+                  "正好": "zhèng hǎo / just right",
+                  "星期六": "xīng qī liù / Saturday"
+                }
+              },
+              {
+                "id": "l20t2s10",
+                "cn": "是吗？你打算怎么过？",
+                "split": "是吗 你 打算 怎么过",
+                "en": "Really? How do you plan to celebrate it?",
+                "dict": {
+                  "是吗": "shì ma / really",
+                  "打算": "dǎ suàn / plan",
+                  "怎么过": "zěn me guò / how to spend"
+                }
+              },
+              {
+                "id": "l20t2s11",
+                "cn": "我准备举行一个生日晚会。你也来参加，好吗？",
+                "split": "我 准备 举行 一个 生日晚会 你 也 来 参加 好吗",
+                "en": "I'm going to have a birthday party. Would you come?",
+                "dict": {
+                  "准备": "zhǔn bèi / prepare",
+                  "举行": "jǔ xíng / hold",
+                  "一个": "yí gè / a",
+                  "生日晚会": "shēng rì wǎn huì / birthday party",
+                  "也": "yě / also",
+                  "参加": "cān jiā / take part in",
+                  "好吗": "hǎo ma / okay?"
+                }
+              },
+              {
+                "id": "l20t2s12",
+                "cn": "什么时间举行？",
+                "split": "什么时间 举行",
+                "en": "What time will it be held?",
+                "dict": {
+                  "什么时间": "shén me shí jiān / what time"
+                }
+              },
+              {
+                "id": "l20t2s13",
+                "cn": "星期六晚上七点。",
+                "split": "星期六 晚上 七点",
+                "en": "Seven o'clock on Saturday evening.",
+                "dict": {
+                  "晚上": "wǎn shang / evening",
+                  "七点": "qī diǎn / seven o'clock"
+                }
+              },
+              {
+                "id": "l20t2s14",
+                "cn": "在哪儿？",
+                "split": "在哪儿",
+                "en": "Where?",
+                "dict": {
+                  "在哪儿": "zài nǎr / where"
+                }
+              },
+              {
+                "id": "l20t2s15",
+                "cn": "就在我的房间。",
+                "split": "就 在 我的 房间",
+                "en": "Right in my room.",
+                "dict": {
+                  "就": "jiù / just",
+                  "房间": "fáng jiān / room"
+                }
+              },
+              {
+                "id": "l20t2s16",
+                "cn": "好。我一定去。",
+                "split": "好 我 一定 去",
+                "en": "OK, I will definitely come.",
+                "dict": {
+                  "好": "hǎo / ok",
+                  "一定": "yí dìng / must",
+                  "去": "qù / come"
+                }
+              },
+              {
+                "id": "l20t2s17",
+                "cn": "祝你生日快乐！",
+                "split": "祝 你 生日 快乐",
+                "en": "Happy birthday to you!",
+                "dict": {
+                  "祝": "zhù / wish",
+                  "快乐": "kuài lè / happy"
+                }
+              },
+              {
+                "id": "l20t2s18",
+                "cn": "谢谢！",
+                "split": "谢谢",
+                "en": "Thank you!",
+                "dict": {
+                  "谢谢": "xiè xie / thank you"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson21",
+        "title": "第二十一课",
+        "titleEn": "Lesson 21",
+        "texts": [
+          {
+            "id": "lesson21-text1",
+            "label": "课文一：我的一天",
+            "sentences": [
+              {
+                "id": "l21t1s1",
+                "cn": "我每天早上六点半起床，七点吃早饭。",
+                "split": "我 每天 早上 六点半 起床 七点 吃早饭",
+                "en": "I get up at half past six every morning and have breakfast at seven.",
+                "dict": {
+                  "我": "wǒ / I",
+                  "每天": "měi tiān / every day",
+                  "早上": "zǎo shang / morning",
+                  "六点半": "liù diǎn bàn / half past six",
+                  "起床": "qǐ chuáng / get up",
+                  "七点": "qī diǎn / seven o'clock",
+                  "吃早饭": "chī zǎo fàn / have breakfast"
+                }
+              },
+              {
+                "id": "l21t1s2",
+                "cn": "差十分八点去教室，八点上课。",
+                "split": "差十分八点 去 教室 八点 上课",
+                "en": "I go to the classroom at ten to eight and start class at eight.",
+                "dict": {
+                  "差十分八点": "chà shí fēn bā diǎn / ten to eight",
+                  "去": "qù / go",
+                  "教室": "jiào shì / classroom",
+                  "八点": "bā diǎn / eight o'clock",
+                  "上课": "shàng kè / have class"
+                }
+              },
+              {
+                "id": "l21t1s3",
+                "cn": "上午我们有四节课，十二点下课。",
+                "split": "上午 我们 有 四节课 十二点 下课",
+                "en": "We have four classes in the morning and finish class at twelve.",
+                "dict": {
+                  "上午": "shàng wǔ / morning",
+                  "我们": "wǒ men / we",
+                  "有": "yǒu / have",
+                  "四节课": "sì jié kè / four classes",
+                  "十二点": "shí èr diǎn / twelve o'clock",
+                  "下课": "xià kè / finish class"
+                }
+              },
+              {
+                "id": "l21t1s4",
+                "cn": "中午我去食堂吃午饭。",
+                "split": "中午 我 去 食堂 吃午饭",
+                "en": "I go to the dining hall for lunch at noon.",
+                "dict": {
+                  "中午": "zhōng wǔ / noon",
+                  "食堂": "shí táng / dining hall",
+                  "吃午饭": "chī wǔ fàn / have lunch"
+                }
+              },
+              {
+                "id": "l21t1s5",
+                "cn": "午饭以后，我常常去朋友那儿聊天儿。",
+                "split": "午饭以后 我 常常 去 朋友那儿 聊天儿",
+                "en": "After lunch, I often go to my friend's place to chat.",
+                "dict": {
+                  "午饭以后": "wǔ fàn yǐ hòu / after lunch",
+                  "常常": "cháng cháng / often",
+                  "朋友那儿": "péng you nàr / friend's place",
+                  "聊天儿": "liáo tiānr / chat"
+                }
+              },
+              {
+                "id": "l21t1s6",
+                "cn": "下午没有课的时候，我常去图书馆看书，或者跟中国朋友一起练习口语。",
+                "split": "下午 没有课 的时候 我 常 去 图书馆 看书 或者 跟 中国朋友 一起 练习 口语",
+                "en": "When there is no class in the afternoon, I often read in the library or practice oral Chinese with Chinese friends.",
+                "dict": {
+                  "下午": "xià wǔ / afternoon",
+                  "没有课": "méi yǒu kè / no class",
+                  "时候": "shí hou / time",
+                  "常": "cháng / often",
+                  "图书馆": "tú shū guǎn / library",
+                  "看书": "kàn shū / read books",
+                  "或者": "huò zhě / or",
+                  "跟": "gēn / with",
+                  "中国朋友": "zhōng guó péng you / Chinese friend",
+                  "一起": "yì qǐ / together",
+                  "练习": "liàn xí / practice",
+                  "口语": "kǒu yǔ / spoken Chinese"
+                }
+              },
+              {
+                "id": "l21t1s7",
+                "cn": "有时候在宿舍上网，看电影或电视剧。",
+                "split": "有时候 在 宿舍 上网 看电影 或 电视剧",
+                "en": "Sometimes I surf online in the dorm to watch movies or TV dramas.",
+                "dict": {
+                  "有时候": "yǒu shí hou / sometimes",
+                  "宿舍": "sù shè / dormitory",
+                  "上网": "shàng wǎng / surf online",
+                  "看电影": "kàn diàn yǐng / watch movie",
+                  "或": "huò / or",
+                  "电视剧": "diàn shì jù / TV drama"
+                }
+              },
+              {
+                "id": "l21t1s8",
+                "cn": "四点我去操场锻炼身体。",
+                "split": "四点 我 去 操场 锻炼身体",
+                "en": "At four I go to the playground to do exercise.",
+                "dict": {
+                  "四点": "sì diǎn / four o'clock",
+                  "操场": "cāo chǎng / playground",
+                  "锻炼身体": "duàn liàn shēn tǐ / do exercise"
+                }
+              },
+              {
+                "id": "l21t1s9",
+                "cn": "五点回宿舍洗澡，洗衣服，六点半或者七点吃晚饭。",
+                "split": "五点 回 宿舍 洗澡 洗衣服 六点半 或者 七点 吃晚饭",
+                "en": "At five I go back to dorm to take a shower and wash clothes, have dinner at half past six or seven.",
+                "dict": {
+                  "五点": "wǔ diǎn / five o'clock",
+                  "回": "huí / return",
+                  "宿舍": "sù shè / dormitory",
+                  "洗澡": "xǐ zǎo / take a shower",
+                  "洗衣服": "xǐ yī fu / wash clothes",
+                  "六点半": "liù diǎn bàn / half past six",
+                  "或者": "huò zhě / or",
+                  "七点": "qī diǎn / seven o'clock",
+                  "吃晚饭": "chī wǎn fàn / have dinner"
+                }
+              },
+              {
+                "id": "l21t1s10",
+                "cn": "晚上我做练习，写汉字，预习课文和生词，然后上上网，听听音乐，十一点睡觉。",
+                "split": "晚上 我 做练习 写汉字 预习 课文 和 生词 然后 上上网 听听 音乐 十一点 睡觉",
+                "en": "In the evening I do exercises, write characters, preview text and new words, then surf online, listen to music and go to bed at eleven.",
+                "dict": {
+                  "晚上": "wǎn shang / evening",
+                  "做练习": "zuò liàn xí / do exercises",
+                  "写汉字": "xiě hàn zì / write Chinese characters",
+                  "预习": "yù xí / preview",
+                  "课文": "kè wén / text",
+                  "和": "hé / and",
+                  "生词": "shēng cí / new words",
+                  "然后": "rán hòu / then",
+                  "上上网": "shàng shàng wǎng / surf online",
+                  "听听": "tīng ting / listen",
+                  "音乐": "yīn yuè / music",
+                  "十一点": "shí yī diǎn / eleven o'clock",
+                  "睡觉": "shuì jiào / go to bed"
+                }
+              }
+            ]
+          },
+          {
+            "id": "lesson21-text2",
+            "label": "课文二：明天早上七点一刻出发",
+            "sentences": [
+              {
+                "id": "l21t2s11",
+                "cn": "同学们，明天我们去爬山。",
+                "split": "同学们 明天 我们 去 爬山",
+                "en": "Class, we will go mountain climbing tomorrow.",
+                "dict": {
+                  "同学们": "tóng xué men / classmates",
+                  "明天": "míng tiān / tomorrow",
+                  "我们": "wǒ men / we",
+                  "去": "qù / go",
+                  "爬山": "pá shān / climb mountains"
+                }
+              },
+              {
+                "id": "l21t2s12",
+                "cn": "太好了！老师，您去吗？",
+                "split": "太好了 老师 您 去 吗",
+                "en": "Great! Teacher, are you going?",
+                "dict": {
+                  "太好了": "tài hǎo le / great",
+                  "老师": "lǎo shī / teacher",
+                  "您": "nín / you(honorific)",
+                  "去": "qù / go",
+                  "吗": "ma / question particle"
+                }
+              },
+              {
+                "id": "l21t2s13",
+                "cn": "去。一年级的老师和学生都去。",
+                "split": "去 一年级 的 老师 和 学生 都 去",
+                "en": "Yes. All Grade One teachers and students will go.",
+                "dict": {
+                  "去": "qù / go",
+                  "一年级": "yī nián jí / Grade One",
+                  "老师": "lǎo shī / teacher",
+                  "和": "hé / and",
+                  "学生": "xué sheng / student",
+                  "都": "dōu / all"
+                }
+              },
+              {
+                "id": "l21t2s14",
+                "cn": "明天什么时候出发？",
+                "split": "明天 什么时候 出发",
+                "en": "When do we set off tomorrow?",
+                "dict": {
+                  "明天": "míng tiān / tomorrow",
+                  "什么时候": "shén me shí hou / when",
+                  "出发": "chū fā / set off"
+                }
+              },
+              {
+                "id": "l21t2s15",
+                "cn": "明天早上七点在楼前集合上车，七点一刻准时出发。",
+                "split": "明天早上 七点 在 楼前 集合 上车 七点一刻 准时 出发",
+                "en": "We gather and get on the bus before the building at seven tomorrow morning and depart on time at a quarter past seven.",
+                "dict": {
+                  "明天早上": "míng tiān zǎo shang / tomorrow morning",
+                  "七点": "qī diǎn / seven o'clock",
+                  "在": "zài / at",
+                  "楼前": "lóu qián / in front of building",
+                  "集合": "jí hé / gather",
+                  "上车": "shàng chē / get on bus",
+                  "七点一刻": "qī diǎn yí kè / a quarter past seven",
+                  "准时": "zhǔn shí / on time",
+                  "出发": "chū fā / set off"
+                }
+              },
+              {
+                "id": "l21t2s16",
+                "cn": "中午回来吗？",
+                "split": "中午 回来 吗",
+                "en": "Will we come back at noon?",
+                "dict": {
+                  "中午": "zhōng wǔ / noon",
+                  "回来": "huí lái / come back",
+                  "吗": "ma / question particle"
+                }
+              },
+              {
+                "id": "l21t2s17",
+                "cn": "不回来，要带午饭。",
+                "split": "不 回来 要 带 午饭",
+                "en": "We won't come back; we need to bring lunch.",
+                "dict": {
+                  "不": "bù / not",
+                  "回来": "huí lái / come back",
+                  "要": "yào / need",
+                  "带": "dài / bring",
+                  "午饭": "wǔ fàn / lunch"
+                }
+              },
+              {
+                "id": "l21t2s18",
+                "cn": "什么时候回来？",
+                "split": "什么时候 回来",
+                "en": "When will we be back?",
+                "dict": {
+                  "什么时候": "shén me shí hou / when",
+                  "回来": "huí lái / come back"
+                }
+              },
+              {
+                "id": "l21t2s19",
+                "cn": "下午四点。",
+                "split": "下午 四点",
+                "en": "At four o'clock in the afternoon.",
+                "dict": {
+                  "下午": "xià wǔ / afternoon",
+                  "四点": "sì diǎn / four o'clock"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson22",
+        "title": "第二十二课",
+        "titleEn": "Lesson 22",
+        "texts": [
+          {
+            "id": "lesson22-text1",
+            "label": "课文一：我打算请老师教我京剧",
+            "sentences": [
+              {
+                "id": "l22t1s1",
+                "cn": "今天想请大家谈谈自己的爱好。谁先说呢？",
+                "split": "今天 想 请 大家 谈谈 自己 的 爱好 谁 先说 呢",
+                "en": "Today I'd like to ask everyone to talk about their hobbies. Who wants to speak first?",
+                "dict": {
+                  "今天": "jīn tiān / today",
+                  "想": "xiǎng / want to",
+                  "请": "qǐng / ask",
+                  "大家": "dà jiā / everyone",
+                  "谈谈": "tán tan / talk about",
+                  "自己": "zì jǐ / oneself",
+                  "爱好": "ài hào / hobby",
+                  "谁": "shuí / who",
+                  "先说": "xiān shuō / speak first",
+                  "呢": "ne / modal particle"
+                }
+              },
+              {
+                "id": "l22t1s2",
+                "cn": "老师，让我先说吧。",
+                "split": "老师 让 我 先说 吧",
+                "en": "Teacher, let me speak first.",
+                "dict": {
+                  "老师": "lǎo shī / teacher",
+                  "让": "ràng / let",
+                  "我": "wǒ / I",
+                  "先说": "xiān shuō / speak first",
+                  "吧": "ba / modal particle"
+                }
+              },
+              {
+                "id": "l22t1s3",
+                "cn": "好，你说吧。你有什么爱好？",
+                "split": "好 你 说 吧 你 有 什么 爱好",
+                "en": "OK, go ahead. What hobbies do you have?",
+                "dict": {
+                  "好": "hǎo / OK",
+                  "你": "nǐ / you",
+                  "说": "shuō / speak",
+                  "吧": "ba / modal particle",
+                  "有": "yǒu / have",
+                  "什么": "shén me / what",
+                  "爱好": "ài hào / hobby"
+                }
+              },
+              {
+                "id": "l22t1s4",
+                "cn": "我的爱好是看京剧。",
+                "split": "我的 爱好 是 看 京剧",
+                "en": "My hobby is watching Peking Opera.",
+                "dict": {
+                  "我的": "wǒ de / my",
+                  "爱好": "ài hào / hobby",
+                  "是": "shì / be",
+                  "看": "kàn / watch",
+                  "京剧": "jīng jù / Peking Opera"
+                }
+              },
+              {
+                "id": "l22t1s5",
+                "cn": "你喜欢看京剧？",
+                "split": "你 喜欢 看 京剧",
+                "en": "You like watching Peking Opera?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "喜欢": "xǐ huān / like",
+                  "看": "kàn / watch",
+                  "京剧": "jīng jù / Peking Opera"
+                }
+              },
+              {
+                "id": "l22t1s6",
+                "cn": "是啊，非常喜欢。我还想学唱京剧，打算请一个老师教我。",
+                "split": "是啊 非常 喜欢 我 还 想 学唱 京剧 打算 请 一个 老师 教 我",
+                "en": "Yes, I like it very much. I also want to learn to sing Peking Opera and plan to ask a teacher to teach me.",
+                "dict": {
+                  "是啊": "shì a / yes",
+                  "非常": "fēi cháng / very",
+                  "喜欢": "xǐ huān / like",
+                  "还": "hái / also",
+                  "想": "xiǎng / want to",
+                  "学唱": "xué chàng / learn to sing",
+                  "京剧": "jīng jù / Peking Opera",
+                  "打算": "dǎ suàn / plan",
+                  "请": "qǐng / invite, ask",
+                  "一个": "yí gè / a",
+                  "老师": "lǎo shī / teacher",
+                  "教": "jiào / teach",
+                  "我": "wǒ / me"
+                }
+              },
+              {
+                "id": "l22t1s7",
+                "cn": "麦克，你喜欢做什么？",
+                "split": "麦克 你 喜欢 做 什么",
+                "en": "Mike, what do you like to do?",
+                "dict": {
+                  "麦克": "mài kè / Mike",
+                  "你": "nǐ / you",
+                  "喜欢": "xǐ huān / like",
+                  "做": "zuò / do",
+                  "什么": "shén me / what"
+                }
+              },
+              {
+                "id": "l22t1s8",
+                "cn": "我喜欢玩儿电脑游戏。",
+                "split": "我 喜欢 玩儿 电脑游戏",
+                "en": "I like playing computer games.",
+                "dict": {
+                  "我": "wǒ / I",
+                  "喜欢": "xǐ huān / like",
+                  "玩儿": "wánr / play",
+                  "电脑游戏": "diàn nǎo yóu xì / computer game"
+                }
+              },
+              {
+                "id": "l22t1s9",
+                "cn": "罗兰呢？",
+                "split": "罗兰 呢",
+                "en": "What about Luolan?",
+                "dict": {
+                  "罗兰": "luó lán / Luolan",
+                  "呢": "ne / modal particle"
+                }
+              },
+              {
+                "id": "l22t1s10",
+                "cn": "我喜欢听音乐。下课以后，听听音乐或者跟朋友聊聊儿天，感到心情很愉快。",
+                "split": "我 喜欢 听音乐 下课以后 听听 音乐 或者 跟 朋友 聊聊儿天 感到 心情 很 愉快",
+                "en": "I like listening to music. After class, listening to music or chatting with friends makes me feel happy.",
+                "dict": {
+                  "我": "wǒ / I",
+                  "喜欢": "xǐ huān / like",
+                  "听音乐": "tīng yīn yuè / listen to music",
+                  "下课以后": "xià kè yǐ hòu / after class",
+                  "听听": "tīng ting / listen to",
+                  "音乐": "yīn yuè / music",
+                  "或者": "huò zhě / or",
+                  "跟": "gēn / with",
+                  "朋友": "péng you / friend",
+                  "聊聊儿天": "liáo liao tiānr / chat",
+                  "感到": "gǎn dào / feel",
+                  "心情": "xīn qíng / mood",
+                  "很": "hěn / very",
+                  "愉快": "yú kuài / happy, pleasant"
+                }
+              },
+              {
+                "id": "l22t1s11",
+                "cn": "田中，业余时间常常做什么？",
+                "split": "田中 业余时间 常常 做 什么",
+                "en": "Tanaka, what do you usually do in your spare time?",
+                "dict": {
+                  "田中": "tián zhōng / Tanaka",
+                  "业余时间": "yú yè shí jiān / spare time",
+                  "常常": "cháng cháng / often",
+                  "做": "zuò / do",
+                  "什么": "shén me / what"
+                }
+              },
+              {
+                "id": "l22t1s12",
+                "cn": "我来中国以前就对书法特别感兴趣。今年公司派我来中国，我非常高兴。现在我正跟一个老师学书法，还学画中国画儿。",
+                "split": "我 来 中国 以前 就 对 书法 特别 感兴趣 今年 公司 派 我 来 中国 我 非常 高兴 现在 我 正 跟 一个 老师 学 书法 还 学画 中国画儿",
+                "en": "I was especially interested in calligraphy before I came to China. The company sent me to China this year, and I'm very happy. Now I'm learning calligraphy with a teacher and also learning Chinese painting.",
+                "dict": {
+                  "我": "wǒ / I",
+                  "来": "lái / come",
+                  "中国": "zhōng guó / China",
+                  "以前": "yǐ qián / before",
+                  "就": "jiù / already",
+                  "对": "duì / towards",
+                  "书法": "shū fǎ / calligraphy",
+                  "特别": "tè bié / especially",
+                  "感兴趣": "gǎn xìng qù / be interested in",
+                  "今年": "jīn nián / this year",
+                  "公司": "gōng sī / company",
+                  "派": "pài / send",
+                  "非常": "fēi cháng / very",
+                  "高兴": "gāo xìng / happy",
+                  "现在": "xiàn zài / now",
+                  "正": "zhèng / be doing",
+                  "跟": "gēn / with",
+                  "一个": "yí gè / a",
+                  "老师": "lǎo shī / teacher",
+                  "学": "xué / learn",
+                  "还": "hái / also",
+                  "学画": "xué huà / learn to paint",
+                  "中国画儿": "zhōng guó huàr / Chinese painting"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

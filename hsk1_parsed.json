@@ -1,0 +1,921 @@
+[
+  {
+    "title": "第一课 你好",
+    "scenes": [
+      {
+        "label": "场景 1",
+        "sentences": [
+          {
+            "pinyin": "Nǐ hǎo!",
+            "cn": "你好！"
+          },
+          {
+            "pinyin": "Nǐ hǎo!",
+            "cn": "你好！"
+          }
+        ]
+      },
+      {
+        "label": "场景 2",
+        "sentences": [
+          {
+            "pinyin": "Nín hǎo!",
+            "cn": "您好！"
+          },
+          {
+            "pinyin": "Nǐmen hǎo!",
+            "cn": "你们好！"
+          }
+        ]
+      },
+      {
+        "label": "场景 3",
+        "sentences": [
+          {
+            "pinyin": "Duìbuqǐ!",
+            "cn": "对不起！"
+          },
+          {
+            "pinyin": "Méi guānxi!",
+            "cn": "没关系！"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第二课 谢谢你",
+    "scenes": [
+      {
+        "label": "场景 1",
+        "sentences": [
+          {
+            "pinyin": "Xièxie!",
+            "cn": "谢谢！"
+          },
+          {
+            "pinyin": "Bú xiè!",
+            "cn": "不谢！"
+          }
+        ]
+      },
+      {
+        "label": "场景 2",
+        "sentences": [
+          {
+            "pinyin": "Xièxie nǐ!",
+            "cn": "谢谢你！"
+          },
+          {
+            "pinyin": "Bú kèqi!",
+            "cn": "不客气！"
+          }
+        ]
+      },
+      {
+        "label": "场景 3",
+        "sentences": [
+          {
+            "pinyin": "Zàijiàn!",
+            "cn": "再见！"
+          },
+          {
+            "pinyin": "Zàijiàn!",
+            "cn": "再见！"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第三课 你叫什么名字",
+    "scenes": [
+      {
+        "label": "场景 1 在学校",
+        "sentences": [
+          {
+            "pinyin": "Nǐ jiào shénme míngzi?",
+            "cn": "你叫什么名字？"
+          },
+          {
+            "pinyin": "Wǒ jiào Lǐ Yuè.",
+            "cn": "我叫李月。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在教室",
+        "sentences": [
+          {
+            "pinyin": "Nǐ shì lǎoshī ma?",
+            "cn": "你是老师吗？"
+          },
+          {
+            "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+            "cn": "我不是老师，我是学生。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在学校",
+        "sentences": [
+          {
+            "pinyin": "Nǐ shì Zhōngguó rén ma?",
+            "cn": "你是中国人吗？"
+          },
+          {
+            "pinyin": "Wǒ bú shì Zhōngguó rén, wǒ shì Měiguó rén.",
+            "cn": "我不是中国人，我是美国人。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第四课 她是我的汉语老师",
+    "scenes": [
+      {
+        "label": "场景 1 在教室",
+        "sentences": [
+          {
+            "pinyin": "Tā shì shéi?",
+            "cn": "她是谁？"
+          },
+          {
+            "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè.",
+            "cn": "她是我的汉语老师，她叫李月。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在图书馆",
+        "sentences": [
+          {
+            "pinyin": "Nǐ shì nǎ guó rén?",
+            "cn": "你是哪国人？"
+          },
+          {
+            "pinyin": "Wǒ shì Měiguó rén. Nǐ ne?",
+            "cn": "我是美国人。你呢？"
+          },
+          {
+            "pinyin": "Wǒ shì Zhōngguó rén.",
+            "cn": "我是中国人。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 看图片",
+        "sentences": [
+          {
+            "pinyin": "Tā shì shéi?",
+            "cn": "他是谁？"
+          },
+          {
+            "pinyin": "Tā shì wǒ tóngxué.",
+            "cn": "他是我同学。"
+          },
+          {
+            "pinyin": "Tā ne? Tā shì nǐ tóngxué ma?",
+            "cn": "她呢？她是你同学吗？"
+          },
+          {
+            "pinyin": "Tā bú shì wǒ tóngxué, tā shì wǒ péngyou.",
+            "cn": "她不是我同学，她是我朋友。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第五课 她女儿今年二十岁",
+    "scenes": [
+      {
+        "label": "场景 1 在学校",
+        "sentences": [
+          {
+            "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+            "cn": "你家有几口人？"
+          },
+          {
+            "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+            "cn": "我家有三口人。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在办公室",
+        "sentences": [
+          {
+            "pinyin": "Nǐ nǚ'ér jǐ suì le?",
+            "cn": "你女儿几岁了？"
+          },
+          {
+            "pinyin": "Tā jīnnián sì suì le.",
+            "cn": "她今年四岁了。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在办公室",
+        "sentences": [
+          {
+            "pinyin": "Lǐ lǎoshī duō dà le?",
+            "cn": "李老师多大了？"
+          },
+          {
+            "pinyin": "Tā jīnnián wǔshí suì le.",
+            "cn": "她今年五十岁了。"
+          },
+          {
+            "pinyin": "Tā nǚ'ér ne?",
+            "cn": "她女儿呢？"
+          },
+          {
+            "pinyin": "Tā nǚ'ér jīnnián èrshí suì.",
+            "cn": "她女儿今年二十岁。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第六课 我会说汉语",
+    "scenes": [
+      {
+        "label": "场景 1 在学校",
+        "sentences": [
+          {
+            "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+            "cn": "你会说汉语吗？"
+          },
+          {
+            "pinyin": "Wǒ huì shuō Hànyǔ.",
+            "cn": "我会说汉语。"
+          },
+          {
+            "pinyin": "Nǐ māma huì shuō Hànyǔ ma?",
+            "cn": "你妈妈会说汉语吗？"
+          },
+          {
+            "pinyin": "Tā bú huì shuō.",
+            "cn": "她不会说。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在厨房",
+        "sentences": [
+          {
+            "pinyin": "Zhōngguó cài hǎo chī ma?",
+            "cn": "中国菜好吃吗？"
+          },
+          {
+            "pinyin": "Zhōngguó cài hěn hǎochī.",
+            "cn": "中国菜很好吃。"
+          },
+          {
+            "pinyin": "Nǐ huì zuò Zhōngguó cài ma?",
+            "cn": "你会做中国菜吗？"
+          },
+          {
+            "pinyin": "Wǒ bú huì zuò.",
+            "cn": "我不会做。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在图书馆",
+        "sentences": [
+          {
+            "pinyin": "Nǐ huì xiě Hànzì ma?",
+            "cn": "你会写汉字吗？"
+          },
+          {
+            "pinyin": "Wǒ huì xiě.",
+            "cn": "我会写。"
+          },
+          {
+            "pinyin": "Zhège zì zěnme xiě?",
+            "cn": "这个字怎么写？"
+          },
+          {
+            "pinyin": "Duìbuqǐ, zhège zì wǒ huì dú, bú huì xiě.",
+            "cn": "对不起，这个字我会读，不会写。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第七课 今天几号",
+    "scenes": [
+      {
+        "label": "场景 1 在银行",
+        "sentences": [
+          {
+            "pinyin": "Qǐngwèn, jīntiān jǐ hào?",
+            "cn": "请问，今天几号？"
+          },
+          {
+            "pinyin": "Jīntiān jiǔ yuè yī hào.",
+            "cn": "今天 9 月 1 号。"
+          },
+          {
+            "pinyin": "Jīntiān xīngqī jǐ?",
+            "cn": "今天星期几？"
+          },
+          {
+            "pinyin": "Xīngqī sān.",
+            "cn": "星期三。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 看日历",
+        "sentences": [
+          {
+            "pinyin": "Zuótiān shì jǐ yuè jǐ hào?",
+            "cn": "昨天是几月几号？"
+          },
+          {
+            "pinyin": "Zuótiān shì bā yuè sānshíyī hào, xīngqī èr.",
+            "cn": "昨天是 8 月 31 号，星期二。"
+          },
+          {
+            "pinyin": "Míngtiān ne?",
+            "cn": "明天呢？"
+          },
+          {
+            "pinyin": "Míngtiān shì jiǔ yuè èr hào, xīngqī sì.",
+            "cn": "明天是 9 月 2 号，星期四。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在咖啡馆儿",
+        "sentences": [
+          {
+            "pinyin": "Míngtiān xīngqī liù, nǐ qù xuéxiào ma?",
+            "cn": "明天星期六，你去学校吗？"
+          },
+          {
+            "pinyin": "Wǒ qù xuéxiào.",
+            "cn": "我去学校。"
+          },
+          {
+            "pinyin": "Nǐ qù xuéxiào zuò shénme?",
+            "cn": "你去学校做什么？"
+          },
+          {
+            "pinyin": "Wǒ qù xuéxiào kàn shū.",
+            "cn": "我去学校看书。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第八课 我想喝茶",
+    "scenes": [
+      {
+        "label": "场景1 在饭馆儿",
+        "sentences": [
+          {
+            "pinyin": "Nǐ xiǎng hē shénme?",
+            "cn": "你想喝什么？"
+          },
+          {
+            "pinyin": "Wǒ xiǎng hē chá.",
+            "cn": "我想喝茶。"
+          },
+          {
+            "pinyin": "Nǐ xiǎng chī shénme?",
+            "cn": "你想吃什么？"
+          },
+          {
+            "pinyin": "Wǒ xiǎng chī mǐfàn.",
+            "cn": "我想吃米饭。"
+          }
+        ]
+      },
+      {
+        "label": "场景2 在客厅",
+        "sentences": [
+          {
+            "pinyin": "Xiàwǔ nǐ xiǎng zuò shénme?",
+            "cn": "下午你想做什么？"
+          },
+          {
+            "pinyin": "Xiàwǔ wǒ xiǎng qù shāngdiàn.",
+            "cn": "下午我想去商店。"
+          },
+          {
+            "pinyin": "Nǐ xiǎng mǎi shénme?",
+            "cn": "你想买什么？"
+          },
+          {
+            "pinyin": "Wǒ xiǎng mǎi yí gè bēizi.",
+            "cn": "我想买一个杯子。"
+          }
+        ]
+      },
+      {
+        "label": "场景3 在商店",
+        "sentences": [
+          {
+            "pinyin": "Nǐ hǎo! Zhège bēizi duōshao qián?",
+            "cn": "你好！这个杯子多少钱？È"
+          },
+          {
+            "pinyin": "rshíbā kuài.",
+            "cn": "二十八块。"
+          },
+          {
+            "pinyin": "Nàge bēizi duōshao qián?",
+            "cn": "那个杯子多少钱？"
+          },
+          {
+            "pinyin": "Nàge bēizi shíbā kuài qián.",
+            "cn": "那个杯子十八块钱。"
+          },
+          {
+            "pinyin": "Xiǎo māo zài nǎr?",
+            "cn": "小猫在哪儿？"
+          },
+          {
+            "pinyin": "Xiǎo māo zài nàr.",
+            "cn": "小猫在那儿。"
+          },
+          {
+            "pinyin": "Xiǎo gǒu zài nǎr?",
+            "cn": "小狗在哪儿？"
+          },
+          {
+            "pinyin": "Xiǎo gǒu zài yǐzi xiàmian.",
+            "cn": "小狗在椅子下面。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第九课 你儿子在哪儿工作场景1 在家",
+    "scenes": [
+      {
+        "label": "场景2 在车站",
+        "sentences": [
+          {
+            "pinyin": "Nǐ zài nǎr gōngzuò?",
+            "cn": "你在哪儿工作？"
+          },
+          {
+            "pinyin": "Wǒ zài xuéxiào gōngzuò.",
+            "cn": "我在学校工作。"
+          },
+          {
+            "pinyin": "Nǐ érzi zài nǎr gōngzuò?",
+            "cn": "你儿子在哪儿工作？"
+          },
+          {
+            "pinyin": "Wǒ érzi zài yīyuàn gōngzuò, tā shì yīshēng.",
+            "cn": "我儿子在医院工作，他是医生。"
+          }
+        ]
+      },
+      {
+        "label": "场景3 打电话",
+        "sentences": [
+          {
+            "pinyin": "Nǐ bàba zài jiā ma?",
+            "cn": "你爸爸在家吗？"
+          },
+          {
+            "pinyin": "Bú zài jiā.",
+            "cn": "不在家。"
+          },
+          {
+            "pinyin": "Tā zài nǎr ne?",
+            "cn": "他在哪儿呢？"
+          },
+          {
+            "pinyin": "Tā zài yīyuàn.",
+            "cn": "他在医院。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十课 我能坐这儿吗",
+    "scenes": [
+      {
+        "label": "场景 1 在办公室",
+        "sentences": [
+          {
+            "pinyin": "Zhuōzi shang yǒu shénme?",
+            "cn": "桌子上有什么？"
+          },
+          {
+            "pinyin": "Zhuōzi shang yǒu yí gè diànnǎo hé yì běn shū.",
+            "cn": "桌子上有一个电脑和一本书。"
+          },
+          {
+            "pinyin": "Bēizi zài nǎr?",
+            "cn": "杯子在哪儿？"
+          },
+          {
+            "pinyin": "Bēizi zài zhuōzi lǐ.",
+            "cn": "杯子在桌子里。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在健身房",
+        "sentences": [
+          {
+            "pinyin": "Qiánmiàn nàge rén jiào shénme míngzi?",
+            "cn": "前面那个人叫什么名字？"
+          },
+          {
+            "pinyin": "Tā jiào Wáng Fāng, zài yīyuàn gōngzuò.",
+            "cn": "她叫王方，在医院工作。"
+          },
+          {
+            "pinyin": "Hòumiàn nàge rén ne? Tā jiào shénme míngzi?",
+            "cn": "后面那个人呢？他叫什么名字？"
+          },
+          {
+            "pinyin": "Tā jiào Xiè Péng, zài shāngdiàn gōngzuò.",
+            "cn": "他叫谢朋，在商店工作。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在图书馆",
+        "sentences": [
+          {
+            "pinyin": "Zhèr yǒu rén ma?",
+            "cn": "这儿有人吗？"
+          },
+          {
+            "pinyin": "Méiyǒu.",
+            "cn": "没有。"
+          },
+          {
+            "pinyin": "Wǒ néng zuò zhèr ma?",
+            "cn": "我能坐这儿吗？"
+          },
+          {
+            "pinyin": "Qǐng zuò.",
+            "cn": "请坐。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十一课 现在几点",
+    "scenes": [
+      {
+        "label": "场景 1 在图书馆",
+        "sentences": [
+          {
+            "pinyin": "Xiànzài jǐ diǎn?",
+            "cn": "现在几点？"
+          },
+          {
+            "pinyin": "Xiànzài shí diǎn shí fēn.",
+            "cn": "现在十点十分。"
+          },
+          {
+            "pinyin": "Zhōngwǔ jǐ diǎn chī fàn?",
+            "cn": "中午几点吃饭？"
+          },
+          {
+            "pinyin": "Shí'èr diǎn chī fàn.",
+            "cn": "十二点吃饭。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在家",
+        "sentences": [
+          {
+            "pinyin": "Bàba shénme shíhou huí jiā?",
+            "cn": "爸爸什么时候回家？"
+          },
+          {
+            "pinyin": "Xiàwǔ wǔ diǎn.",
+            "cn": "下午五点。"
+          },
+          {
+            "pinyin": "Wǒmen shénme shíhou qù kàn diànyǐng?",
+            "cn": "我们什么时候去看电影？"
+          },
+          {
+            "pinyin": "Liù diǎn sānshí fēn.",
+            "cn": "六点三十分。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在家",
+        "sentences": [
+          {
+            "pinyin": "Wǒ xīngqīyī qù Běijīng.",
+            "cn": "我星期一去北京。"
+          },
+          {
+            "pinyin": "Nǐ xiǎng zài Běijīng zhù jǐ tiān?",
+            "cn": "你想在北京住几天？"
+          },
+          {
+            "pinyin": "Zhù sān tiān.",
+            "cn": "住三天。"
+          },
+          {
+            "pinyin": "Xīngqīwǔ qián néng huí jiā ma?",
+            "cn": "星期五前能回家吗？"
+          },
+          {
+            "pinyin": "Néng.",
+            "cn": "能。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十二课 明天天气怎么样",
+    "scenes": [
+      {
+        "label": "场景 1 在路上",
+        "sentences": [
+          {
+            "pinyin": "Zuótiān Běijīng de tiānqì zěnmeyàng?",
+            "cn": "昨天北京的天气怎么样？"
+          },
+          {
+            "pinyin": "Tài rè le.",
+            "cn": "太热了。"
+          },
+          {
+            "pinyin": "Míngtiān ne? Míngtiān tiānqì zěnmeyàng?",
+            "cn": "明天呢？明天天气怎么样？"
+          },
+          {
+            "pinyin": "Míngtiān tiānqì hěn hǎo, bù lěng bú rè.",
+            "cn": "明天天气很好，不冷不热。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在健身房",
+        "sentences": [
+          {
+            "pinyin": "Jīntiān huì xià yǔ ma?",
+            "cn": "今天会下雨吗？"
+          },
+          {
+            "pinyin": "Jīntiān bú huì xià yǔ.",
+            "cn": "今天不会下雨。"
+          },
+          {
+            "pinyin": "Wáng xiǎojie jīntiān huì lái ma?",
+            "cn": "王小姐今天会来吗？"
+          },
+          {
+            "pinyin": "Bú huì lái, tiānqì tài lěng le.",
+            "cn": "不会来，天气太冷了。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在病房",
+        "sentences": [
+          {
+            "pinyin": "Nǐ shēntǐ zěnmeyàng?",
+            "cn": "你身体怎么样？"
+          },
+          {
+            "pinyin": "Wǒ shēntǐ bú tài hǎo. Tiānqì tài rè le, bú ài chī fàn.",
+            "cn": "我身体不太好。天气太热了，不爱吃饭。"
+          },
+          {
+            "pinyin": "Nǐ duō chī xiē shuǐguǒ, duō hē shuǐ.",
+            "cn": "你多吃些水果，多喝水。"
+          },
+          {
+            "pinyin": "Xièxie nǐ, yīshēng.",
+            "cn": "谢谢你，医生。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十三课 他在学做中国菜呢",
+    "scenes": [
+      {
+        "label": "场景 1 打电话",
+        "sentences": [
+          {
+            "pinyin": "Wèi, nǐ zài zuò shénme ne?",
+            "cn": "喂，你在做什么呢？"
+          },
+          {
+            "pinyin": "Wǒ zài kàn shū ne.",
+            "cn": "我在看书呢。"
+          },
+          {
+            "pinyin": "Dàwèi yě zài kàn shū ma?",
+            "cn": "大卫也在看书吗？"
+          },
+          {
+            "pinyin": "Tā méi kàn shū, tā zài xué zuò Zhōngguó cài ne.",
+            "cn": "他没看书，他在学做中国菜呢。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在咖啡馆儿",
+        "sentences": [
+          {
+            "pinyin": "Zuótiān shàngwǔ nǐ zài zuò shénme ne?",
+            "cn": "昨天上午你在做什么呢？"
+          },
+          {
+            "pinyin": "Wǒ zài shuì jiào ne. Nǐ ne?",
+            "cn": "我在睡觉呢。你呢？"
+          },
+          {
+            "pinyin": "Wǒ zài jiā kàn diànshì ne. Nǐ xǐhuan kàn diànshì ma?",
+            "cn": "我在家看电视呢。你喜欢看电视吗？"
+          },
+          {
+            "pinyin": "Wǒ bù xǐhuan kàn diànshì, wǒ xǐhuan kàn diànyǐng.",
+            "cn": "我不喜欢看电视，我喜欢看电影。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在学校办公室",
+        "sentences": [
+          {
+            "pinyin": "Bā èr sān líng sī yī wǔ, zhè shì Lǐ lǎoshī de diànhuà ma?",
+            "cn": "82304155，这是李老师的电话吗？"
+          },
+          {
+            "pinyin": "Bú shì. Tā de diànhuà shì bā èr sān líng sì yī wǔ liù.",
+            "cn": "不是。她的电话是 82304156。"
+          },
+          {
+            "pinyin": "Hǎo, wǒ xiànzài gěi tā dǎ diànhuà.",
+            "cn": "好，我现在给她打电话。"
+          },
+          {
+            "pinyin": "Tā zài gōngzuò ne, nǐ xiàwǔ dǎ ba.",
+            "cn": "她在工作呢，你下午打吧。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十四课 她买了不少衣服",
+    "scenes": [
+      {
+        "label": "场景 1 在宿舍",
+        "sentences": [
+          {
+            "pinyin": "Zuótiān shàngwǔ nǐ qù nǎr le?",
+            "cn": "昨天上午你去哪儿了？"
+          },
+          {
+            "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi le.",
+            "cn": "我去商店买东西了。"
+          },
+          {
+            "pinyin": "Nǐ mǎi shénme le?",
+            "cn": "你买什么了？"
+          },
+          {
+            "pinyin": "Wǒ mǎile yìdiǎnr píngguǒ.",
+            "cn": "我买了一点儿苹果。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在公司",
+        "sentences": [
+          {
+            "pinyin": "Nǐ kànjiàn Zhāng xiānsheng le ma?",
+            "cn": "你看见张先生了吗？"
+          },
+          {
+            "pinyin": "Kànjiàn le, tā qù xué kāi chē le.",
+            "cn": "看见了，他去学开车了。"
+          },
+          {
+            "pinyin": "Tā shénme shíhou néng huílái?",
+            "cn": "他什么时候能回来？"
+          },
+          {
+            "pinyin": "Sìshí fēnzhōng hòu huílái.",
+            "cn": "四十分钟后回来。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在商店门口",
+        "sentences": [
+          {
+            "pinyin": "Wáng Fāng de yīfu tài piàoliang le!",
+            "cn": "王方的衣服太漂亮了！"
+          },
+          {
+            "pinyin": "Shì a, tā mǎile bùshǎo yīfu.",
+            "cn": "是啊，她买了不少衣服。"
+          },
+          {
+            "pinyin": "Nǐ mǎi shénme le?",
+            "cn": "你买什么了？"
+          },
+          {
+            "pinyin": "Wǒ méi mǎi, zhèxiē dōu shì Wáng Fāng de dōngxi.",
+            "cn": "我没买，这些都是王方的东西。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "第十五课 我是坐飞机来的",
+    "scenes": [
+      {
+        "label": "场景 1 在餐桌旁",
+        "sentences": [
+          {
+            "pinyin": "Nǐ hé Lǐ xiǎojie shì shénme shíhou rènshi de?",
+            "cn": "你和李小姐是什么时候认识的？"
+          },
+          {
+            "pinyin": "Wǒmen shì èr líng yī yī nián jiǔ yuè rènshi de.",
+            "cn": "我们是 2011 年 9 月认识的。"
+          },
+          {
+            "pinyin": "Nǐmen zài nǎr rènshi de?",
+            "cn": "你们在哪儿认识的？"
+          },
+          {
+            "pinyin": "Wǒmen shì zài xuéxiào rènshi de, tā shì wǒ dàxué tóngxué.",
+            "cn": "我们是在学校认识的，她是我大学同学。"
+          }
+        ]
+      },
+      {
+        "label": "场景 2 在饭店门口",
+        "sentences": [
+          {
+            "pinyin": "Nǐmen shì zěnme lái fàndiàn de?",
+            "cn": "你们是怎么来饭店的？"
+          },
+          {
+            "pinyin": "Wǒmen shì zuò chūzūchē lái de.",
+            "cn": "我们是坐出租车来的。"
+          },
+          {
+            "pinyin": "Lǐ xiānsheng ne?",
+            "cn": "李先生呢？"
+          },
+          {
+            "pinyin": "Tā shì hé péngyou yìqǐ kāi chē lái de.",
+            "cn": "他是和朋友一起开车来的。"
+          }
+        ]
+      },
+      {
+        "label": "场景 3 在公司",
+        "sentences": [
+          {
+            "pinyin": "Hěn gāoxìng rènshi nín! Lǐ xiǎojie.",
+            "cn": "很高兴认识您！李小姐。"
+          },
+          {
+            "pinyin": "Rènshi nǐ wǒ yě hěn gāoxìng!",
+            "cn": "认识你我也很高兴！"
+          },
+          {
+            "pinyin": "Tīng Zhāng xiānsheng shuō, nín shì zuò fēijī lái Běijīng de?",
+            "cn": "听张先生说，您是坐飞机来北京的？"
+          },
+          {
+            "pinyin": "Shì de.",
+            "cn": "是的。"
+          }
+        ]
+      }
+    ]
+  }
+]
