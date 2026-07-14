@@ -9,6 +9,7 @@ import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
 import { useLang } from '@/i18n/useLang'
 import { categories } from '../data/content'
+import { WordPopup } from './practice/WordPopup'
 
 // ── 教材生词 → HskWord 适配器 ──
 function textbookWordToHskWord(w: TextbookWord): HskWord {
@@ -277,6 +278,10 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [, setTypeMistakes]     = useState(0)
   const typeInputRef = useRef<HTMLInputElement>(null)
   const touchRef = useRef({ x: 0, y: 0, swiping: false })
+  // 笔顺弹窗
+  const [strokeOpen, setStrokeOpen] = useState(false)
+  const [strokeWord, setStrokeWord] = useState<string | null>(null)
+  const openStroke = useCallback((hanzi: string) => { setStrokeWord(hanzi); setStrokeOpen(true); sfx.play('click') }, [])
   // 收藏
   const [favIds, setFavIds] = useState<string[]>(loadFavs)
   const favSet = useMemo(() => new Set(favIds), [favIds])
@@ -627,6 +632,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                   {/* 正面 */}
                   <div className="absolute inset-0 rounded-2xl bg-white border border-slate-200 shadow-md flex flex-col items-center justify-center gap-3 p-6 sm:p-8" style={{backfaceVisibility:'hidden'}}>
                     <button onClick={(e)=>{e.stopPropagation();handleToggleFav(current.id)}} className="absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full hover:bg-amber-50 transition-all text-2xl" title={tt('words_fav')}>{favSet.has(current.id)?'⭐':'☆'}</button>
+                    <button onClick={(e)=>{e.stopPropagation();openStroke(current.hanzi)}} className="absolute top-3 left-3 w-10 h-10 flex items-center justify-center rounded-full hover:bg-indigo-50 transition-all text-lg" title={tt('words_view_strokes')}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></button>
                     <div className="text-6xl sm:text-7xl">{current.emoji}</div>
                     <div className="flex items-center gap-2"><div className="text-4xl sm:text-5xl font-black text-slate-800">{current.hanzi}</div><SpeakBtn text={current.hanzi} wordId={current.id} className="w-9 h-9 sm:w-10 sm:h-10 text-lg bg-indigo-50 text-indigo-600"/></div>
                     {showPinyin && <div className="text-base sm:text-lg text-indigo-500 font-medium">{current.pinyin}</div>}
@@ -636,6 +642,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                   {/* 背面：删拼音，加HSK例句 */}
                   <div className="absolute inset-0 rounded-2xl shadow-md flex flex-col items-center justify-center gap-2.5 p-6 sm:p-8" style={{backfaceVisibility:'hidden',transform:'rotateY(180deg)',background:'linear-gradient(135deg,#eef2ff,#f5f3ff)'}}>
                     <button onClick={(e)=>{e.stopPropagation();handleToggleFav(current.id)}} className="absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full hover:bg-amber-50 transition-all text-2xl" title={tt('words_fav')}>{favSet.has(current.id)?'⭐':'☆'}</button>
+                    <button onClick={(e)=>{e.stopPropagation();openStroke(current.hanzi)}} className="absolute top-3 left-3 w-9 h-9 flex items-center justify-center rounded-full hover:bg-white/60 transition-all" title={tt('words_view_strokes')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></button>
                     <div className="flex items-center gap-2"><div className="text-3xl sm:text-4xl font-black text-indigo-700">{current.hanzi}</div><SpeakBtn text={current.hanzi} wordId={current.id} className="w-8 h-8 sm:w-9 sm:h-9 text-base bg-white/60 text-indigo-600"/></div>
                     <div className="text-lg sm:text-xl font-semibold text-slate-700 text-center">{current.english}</div>
                     <div className="text-sm text-slate-500 text-center italic">{current.fullEnglish}</div>
@@ -665,7 +672,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           {/* 四选一测验 */}
           {mode==='quiz' && current && !showResult && (
             <div className="space-y-4">
-              <div className="rounded-2xl bg-white border border-slate-200 shadow-md p-6 flex flex-col items-center gap-3 min-h-[180px] justify-center">
+              <div className="rounded-2xl bg-white border border-slate-200 shadow-md p-6 flex flex-col items-center gap-3 min-h-[180px] justify-center relative">
+                <button onClick={()=>openStroke(current.hanzi)} className="absolute top-3 left-3 w-9 h-9 flex items-center justify-center rounded-full hover:bg-indigo-50 transition-all" title={tt('words_view_strokes')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></button>
                 <div className="text-5xl">{current.emoji}</div>
                 <div className="flex items-center gap-2"><div className="text-4xl font-black text-slate-800">{current.hanzi}</div><SpeakBtn text={current.hanzi} wordId={current.id} className="w-8 h-8 text-lg bg-indigo-50 text-indigo-600"/></div>
                 {showPinyin && <div className="text-sm text-indigo-500 font-medium">{current.pinyin}</div>}<p className="text-xs text-slate-400">{tt('words_select_correct')}</p>
@@ -685,7 +693,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
             <div className="space-y-5">
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md" style={{background:typedCorrect===false?'linear-gradient(135deg,#fef2f2,#fff1f2)':typedCorrect===true?'linear-gradient(135deg,#f0fdf4,#f0fff4)':'white'}}>
                 <div className="relative px-8 pt-8 pb-6 text-center" style={{background:typedCorrect===false?'rgba(239,68,68,0.03)':typedCorrect===true?'rgba(34,197,94,0.03)':'transparent'}}>
-                  <div className="absolute top-3 left-3 opacity-30"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+                  <button onClick={()=>openStroke(current.hanzi)} className="absolute top-3 left-3 w-9 h-9 flex items-center justify-center rounded-full hover:bg-indigo-50 transition-all" title={tt('words_view_strokes')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></button>
                   <div className="absolute top-3 right-3"><SpeakBtn text={current.hanzi} wordId={current.id} className="w-8 h-8 bg-white/80 text-slate-600 shadow-sm"/></div>
                   <div className={`text-7xl my-4 ${typedCorrect===false?'animate-shake':''}`} style={{transform:typedCorrect===true?'scale(1.05)':undefined}}>{current.emoji}</div>
                   <div className="mt-3">{typeHintMode==='english'?(<><div className="text-base font-bold text-slate-700">{current.fullEnglish||current.english}</div>{showPinyin && <div className="text-sm text-indigo-500 font-medium mt-1">{current.pinyin}</div>}</>):(<><div className="text-2xl font-black text-slate-800 tracking-wide">{current.pinyin}</div><div className="text-sm text-slate-500 mt-1">{current.english}</div></>)}</div>
@@ -764,6 +772,9 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
 
       {/* 修改计划弹窗 */}
       {showPlanModal && (<div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={(e)=>{if(e.target===e.currentTarget){setShowPlanModal(false);sfx.play('click')}}}><div className="absolute inset-0 bg-black/40 backdrop-blur-sm"/><div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden"><div className="flex items-center justify-between px-6 pt-5 pb-2"><div><h3 className="text-lg font-bold text-slate-800">{tt('plan_title')}</h3><p className="text-xs text-slate-400 mt-0.5">{tt('plan_subtitle')}</p></div><button onClick={()=>{setShowPlanModal(false);sfx.play('click')}} className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 text-lg">×</button></div><div className="px-6 pb-6 pt-4"><PlanModalInner currentLevel={plan.level} currentDailyGoal={plan.dailyGoal} onSave={(l,g)=>saveNewPlan(l as 1|2|3|4|5|6,g)} onClose={()=>setShowPlanModal(false)} lang={lang}/></div></div></div>)}
+
+      {/* 笔顺弹窗 */}
+      <WordPopup word={strokeWord} pinyin={current?.pinyin || ''} meaning={current?.english || ''} open={strokeOpen} onOpenChange={setStrokeOpen} lang={lang} />
     </div>
   )
 }

@@ -235,6 +235,7 @@ export const translations = {
   vocab_practice_btn: { zh: '📖 背本课生词', en: '📖 Lesson Vocab' },
   words_pinyin_toggle: { zh: '拼音', en: 'Pinyin' },
   words_pinyin_hidden: { zh: '点击显示拼音', en: 'Tap to reveal pinyin' },
+  words_view_strokes: { zh: '查看笔顺', en: 'Stroke Order' },
 } as const
 
 export type TranslationKey = keyof typeof translations
