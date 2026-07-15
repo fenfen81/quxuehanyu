@@ -8,6 +8,7 @@ import { LessonSelector } from '@/components/LessonSelector'
 import { DragPractice } from '@/components/practice/DragPractice'
 import { TypePractice } from '@/components/practice/TypePractice'
 import { DictationPractice } from '@/components/practice/DictationPractice'
+import { ChunkedTypePractice } from '@/components/practice/ChunkedTypePractice'
 import { WordPopup } from '@/components/practice/WordPopup'
 import { sfx } from '@/utils/sfx'
 import type { Sentence } from '@/types'
@@ -67,6 +68,7 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
   const [popupPinyin, setPopupPinyin] = useState('')
   const [popupMeaning, setPopupMeaning] = useState('')
   const [popupOpen, setPopupOpen] = useState(false)
+  const [chunked, setChunked] = useState(false)
 
   const refreshWrongList = useCallback(() => {
     setWrongList(loadWrongSentences())
@@ -343,6 +345,22 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
           <span className="text-sm font-semibold text-slate-500 flex-1">
             {wrongMode ? tt('practice_wrong_review') : mode === 'drag' ? tt('drag_words_hint') : mode === 'type' ? tt('type_placeholder') : tt('dict_label')}
           </span>
+          {!wrongMode && (mode === 'type' || mode === 'dictation') && (
+            <div className="flex items-center gap-0.5 bg-slate-100 rounded-lg p-0.5">
+              <button
+                onClick={() => { setChunked(false); sfx.play('click') }}
+                className={`px-2.5 py-1 rounded-md text-xs font-semibold transition-all ${!chunked ? 'bg-white text-slate-700 shadow-sm' : 'text-slate-400'}`}
+              >
+                {tt('practice_full_mode')}
+              </button>
+              <button
+                onClick={() => { setChunked(true); sfx.play('click') }}
+                className={`px-2.5 py-1 rounded-md text-xs font-semibold transition-all ${chunked ? 'bg-white text-slate-700 shadow-sm' : 'text-slate-400'}`}
+              >
+                {tt('practice_chunk_mode')}
+              </button>
+            </div>
+          )}
           {!wrongMode && mode === 'drag' && wrongList.length > 0 && (
             <button
               onClick={() => { setWrongMode(true); setWrongIdx(0); setTipText('') }}
@@ -359,10 +377,20 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
             sentence={activeSentence} onWordClick={handleWordClick} onAnswer={handleAnswer} lang={lang} />
         )}
         {!wrongMode && mode === 'type' && sentence && (
-          <TypePractice key={`type-${currentIndex}`} sentence={sentence} onAnswer={handleAnswer} lang={lang} />
+          chunked ? (
+            <ChunkedTypePractice key={`chunk-type-${currentIndex}`} sentence={sentence} mode="type"
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+          ) : (
+            <TypePractice key={`type-${currentIndex}`} sentence={sentence} onAnswer={handleAnswer} lang={lang} />
+          )
         )}
-        {!wrongMode && mode === 'dictation' && (
-          <DictationPractice key={`dict-${currentIndex}`} onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+        {!wrongMode && mode === 'dictation' && sentence && (
+          chunked ? (
+            <ChunkedTypePractice key={`chunk-dict-${currentIndex}`} sentence={sentence} mode="dictation"
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+          ) : (
+            <DictationPractice key={`dict-${currentIndex}`} onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+          )
         )}
 
         {tipText && (

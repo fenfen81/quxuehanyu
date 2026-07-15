@@ -236,6 +236,19 @@ export const translations = {
   words_pinyin_toggle: { zh: '拼音', en: 'Pinyin' },
   words_pinyin_hidden: { zh: '点击显示拼音', en: 'Tap to reveal pinyin' },
   words_view_strokes: { zh: '查看笔顺', en: 'Stroke Order' },
+
+  // ── 分段练习 ──
+  practice_full_mode: { zh: '整句', en: 'Full' },
+  practice_chunk_mode: { zh: '分段', en: 'Chunked' },
+  chunk_step: { zh: '分段', en: 'Step' },
+  chunk_show_en: { zh: '显示英文', en: 'Show EN' },
+  chunk_hide_en: { zh: '隐藏英文', en: 'Hide EN' },
+  chunk_correct_answer: { zh: '正确答案', en: 'Correct' },
+  chunk_completed: { zh: '已完成段落', en: 'Completed' },
+  chunk_final: { zh: '整句输入', en: 'Full Sentence' },
+  chunk_hint: { zh: '分段提示', en: 'Chunks' },
+  chunk_full_input: { zh: '输入完整句子', en: 'Type Full Sentence' },
+  chunk_no_translation: { zh: '(无翻译)', en: '(N/A)' },
 } as const
 
 export type TranslationKey = keyof typeof translations
