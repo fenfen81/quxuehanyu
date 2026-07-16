@@ -12,10 +12,11 @@ interface ChunkedTypePracticeProps {
   onAnswer: (userAnswer: string) => boolean
   onPlayAudio: () => void
   onPlayChunkAudio?: (chunkIdx: number, chunkText: string) => void
+  preloadChunkAudio?: (chunkIdx: number) => void
   lang?: Lang
 }
 
-export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onPlayChunkAudio, lang = 'zh' }: ChunkedTypePracticeProps) {
+export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onPlayChunkAudio, preloadChunkAudio, lang = 'zh' }: ChunkedTypePracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const chunks = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence])
@@ -49,7 +50,11 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
       const chunkText = (chunks[chunkIdx] || '').replace(/\s/g, '')
       onPlayChunkAudio(chunkIdx, chunkText)
     }
-  }, [chunkIdx, phase, mode, onPlayChunkAudio, chunks])
+    // 预热下一段音频：当前段一进入就开始加载下一段
+    if (preloadChunkAudio && chunkIdx + 1 < chunks.length) {
+      preloadChunkAudio(chunkIdx + 1)
+    }
+  }, [chunkIdx, phase, mode, onPlayChunkAudio, preloadChunkAudio, chunks])
 
   const handleChunkCheck = useCallback(() => {
     sfx.play('click')

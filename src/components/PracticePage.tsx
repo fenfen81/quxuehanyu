@@ -52,7 +52,7 @@ interface PracticePageProps {
 export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: PracticePageProps) {
   const { mode, currentTextbookId, currentLessonId, currentTextId, currentIndex, setCurrentIndex } =
     usePracticeStore()
-  const { speak, speakChunk } = useTTS()
+  const { speak, speakChunk, preload, preloadChunk } = useTTS()
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const [tipText, setTipText] = useState('')
@@ -83,6 +83,15 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
   }, [currentTextbookId, currentLessonId, currentTextId, currentIndex])
 
   const activeSentence: Sentence | null = wrongMode ? (wrongList[wrongIdx] ?? null) : sentence
+
+  // 下一句（用于提前预热音频，避免自动播放时冷缓存回退机械音）
+  const nextSentence: Sentence | null = useMemo(() => {
+    if (!currentTextbookId || !currentLessonId || !currentTextId) return null
+    const book = getTextbookById(currentTextbookId)
+    const lesson = book?.lessons.find((l) => l.id === currentLessonId)
+    const text = lesson?.texts.find((t) => t.id === currentTextId)
+    return text?.sentences[currentIndex + 1] ?? null
+  }, [currentTextbookId, currentLessonId, currentTextId, currentIndex])
 
   const totalSentences = useMemo(() => {
     if (!currentTextbookId || !currentLessonId || !currentTextId) return 0
@@ -224,6 +233,18 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
     if (!activeSentence) return
     speak(activeSentence.id, activeSentence.cn)
   }, [activeSentence?.id, mode, chunked, wrongMode, speak])
+
+  // 预热下一句音频：当前句一进入就开始加载下一句，自动播放时已是热缓存
+  useEffect(() => {
+    if (nextSentence?.id) preload(nextSentence.id)
+  }, [nextSentence?.id, preload])
+
+  // 分段练习：预热下一段音频
+  const handlePreloadChunkAudio = useCallback((chunkIdx: number) => {
+    const cur = wrongMode ? wrongList[wrongIdx] : sentence
+    if (!cur) return
+    preloadChunk(cur.id, chunkIdx)
+  }, [wrongMode, wrongList, wrongIdx, sentence, preloadChunk])
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) { sfx.play('click'); goToIndex(currentIndex - 1) }
@@ -393,7 +414,8 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
         {!wrongMode && mode === 'type' && sentence && (
           chunked ? (
             <ChunkedTypePractice key={`chunk-type-${currentIndex}`} sentence={sentence} mode="type"
-              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio} lang={lang} />
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio}
+              preloadChunkAudio={handlePreloadChunkAudio} lang={lang} />
           ) : (
             <TypePractice key={`type-${currentIndex}`} sentence={sentence} onAnswer={handleAnswer} lang={lang} />
           )
@@ -401,7 +423,8 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
         {!wrongMode && mode === 'dictation' && sentence && (
           chunked ? (
             <ChunkedTypePractice key={`chunk-dict-${currentIndex}`} sentence={sentence} mode="dictation"
-              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio} lang={lang} />
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio}
+              preloadChunkAudio={handlePreloadChunkAudio} lang={lang} />
           ) : (
             <DictationPractice key={`dict-${currentIndex}`} onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
           )
