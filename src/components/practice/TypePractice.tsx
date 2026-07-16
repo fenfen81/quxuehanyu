@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
 import type { Sentence } from '@/types'
@@ -14,6 +14,13 @@ interface TypePracticeProps {
 export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
   const [value, setValue] = useState('')
+
+  // 切到下一句（组件重新挂载）时自动聚焦输入框，回车提交后无需鼠标点击
+  const inputRef = useRef<HTMLInputElement>(null)
+  useEffect(() => {
+    const timer = setTimeout(() => inputRef.current?.focus(), 100)
+    return () => clearTimeout(timer)
+  }, [])
 
   const handleCheck = useCallback(() => {
     sfx.play('click')
@@ -36,6 +43,7 @@ export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticePr
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wide">{tt('type_input_label')}</span>
         </div>
         <Input
+          ref={inputRef}
           value={value}
           onChange={(e) => { setValue(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
