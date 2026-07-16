@@ -42,6 +42,15 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
     return () => clearTimeout(timer)
   }, [chunkIdx, phase])
 
+  // 分段听写：进入下一段（含初次进入）时自动播放该段对应音频
+  useEffect(() => {
+    if (mode !== 'dictation' || phase !== 'chunk') return
+    if (onPlayChunkAudio) {
+      const chunkText = (chunks[chunkIdx] || '').replace(/\s/g, '')
+      onPlayChunkAudio(chunkIdx, chunkText)
+    }
+  }, [chunkIdx, phase, mode, onPlayChunkAudio, chunks])
+
   const handleChunkCheck = useCallback(() => {
     sfx.play('click')
     const target = chunks[chunkIdx]

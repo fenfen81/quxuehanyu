@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useRef } from 'react'
+import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
 import { getTextbookById } from '@/data/content'
 import { textbookVocabList } from '@/data/textbookDict'
 import { usePracticeStore } from '@/hooks/usePracticeStore'
@@ -217,6 +217,13 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
     if (!cur) return
     speakChunk(cur.id, chunkIdx, text)
   }, [wrongMode, wrongList, wrongIdx, sentence, speakChunk])
+
+  // 听写模式（整句）：进入下一句（含初次进入）时自动播放整句音频
+  useEffect(() => {
+    if (mode !== 'dictation' || chunked || wrongMode) return
+    if (!activeSentence) return
+    speak(activeSentence.id, activeSentence.cn)
+  }, [activeSentence?.id, mode, chunked, wrongMode, speak])
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) { sfx.play('click'); goToIndex(currentIndex - 1) }

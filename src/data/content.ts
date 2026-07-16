@@ -176,7 +176,7 @@ export const textbooks: Textbook[] = [
                 id: 'l3t2s6',
                 cn: "不去。",
                 split: "不 去",
-                en: "No. I'm going to the bank to withdraw money.",
+                en: "No.",
                 dict: {
                   "不": "bù / no, not",
                   "去": "qù / go",
@@ -186,7 +186,7 @@ export const textbooks: Textbook[] = [
                 id: 'l3t2s6-2',
                 cn: "去银行取钱。",
                 split: "去 银行 取钱",
-                en: "No. I'm going to the bank to withdraw money.",
+                en: "I'm going to the bank to withdraw money.",
                 dict: {
                   "去": "qù / go",
                   "银行": "yínháng / bank",
@@ -364,7 +364,7 @@ export const textbooks: Textbook[] = [
                 id: 'l5t1s3',
                 cn: "您好！",
                 split: "您 好",
-                en: "Hello! Please come in! Please sit down! Please have some tea!",
+                en: "Hello!",
                 dict: {
                   "您": "nín / you (honorific)",
                   "好": "hǎo / good",
@@ -374,7 +374,7 @@ export const textbooks: Textbook[] = [
                 id: 'l5t1s3-2',
                 cn: "请进！",
                 split: "请 进",
-                en: "Hello! Please come in! Please sit down! Please have some tea!",
+                en: "Please come in!",
                 dict: {
                   "请": "qǐng / please",
                   "进": "jìn / enter",
@@ -384,7 +384,7 @@ export const textbooks: Textbook[] = [
                 id: 'l5t1s3-3',
                 cn: "请坐！",
                 split: "请 坐",
-                en: "Hello! Please come in! Please sit down! Please have some tea!",
+                en: "Please sit down!",
                 dict: {
                   "请": "qǐng / please",
                   "坐": "zuò / sit",
@@ -394,7 +394,7 @@ export const textbooks: Textbook[] = [
                 id: 'l5t1s3-4',
                 cn: "请喝茶！",
                 split: "请 喝 茶",
-                en: "Hello! Please come in! Please sit down! Please have some tea!",
+                en: "Please have some tea!",
                 dict: {
                   "请": "qǐng / please",
                   "喝": "hē / drink",
@@ -537,7 +537,7 @@ export const textbooks: Textbook[] = [
                 id: 'l6t1s6',
                 cn: "我是中国人。",
                 split: "我 是 中国人",
-                en: "I am Chinese. What is your nationality?",
+                en: "I am Chinese.",
                 dict: {
                   "我": "wǒ / I",
                   "是": "shì / am",
@@ -548,7 +548,7 @@ export const textbooks: Textbook[] = [
                 id: 'l6t1s6-2',
                 cn: "你是哪国人？",
                 split: "你 是 哪国 人",
-                en: "I am Chinese. What is your nationality?",
+                en: "What is your nationality?",
                 dict: {
                   "是": "shì / am",
                   "你": "nǐ / you",
@@ -840,7 +840,7 @@ export const textbooks: Textbook[] = [
                 id: 'l7t1s6',
                 cn: "一个。",
                 split: "一个",
-                en: "One. Do you want to eat?",
+                en: "One.",
                 dict: {
                   "一个": "yí gè / one",
                 },
@@ -849,7 +849,7 @@ export const textbooks: Textbook[] = [
                 id: 'l7t1s6-2',
                 cn: "你吃吗？",
                 split: "你 吃 吗",
-                en: "One. Do you want to eat?",
+                en: "Do you want to eat?",
                 dict: {
                   "你": "nǐ / you",
                   "吃": "chī / eat",
@@ -967,7 +967,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s2',
                 cn: "我买水果。",
                 split: "我 买 水果",
-                en: "I'm buying fruit. How much is one jin of apples?",
+                en: "I'm buying fruit.",
                 dict: {
                   "我": "wǒ / I",
                   "买": "mǎi / buy",
@@ -978,7 +978,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s2-2',
                 cn: "苹果一斤多少钱？",
                 split: "苹果 一斤 多少 钱",
-                en: "I'm buying fruit. How much is one jin of apples?",
+                en: "How much is one jin of apples?",
                 dict: {
                   "苹果": "píngguǒ / apple",
                   "一斤": "yì jīn / one jin (half kilo)",
@@ -998,7 +998,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s4',
                 cn: "三块？",
                 split: "三 块",
-                en: "Three yuan? Too expensive. How about two point five?",
+                en: "Three yuan?",
                 dict: {
                   "三": "sān / three",
                   "块": "kuài / yuan",
@@ -1008,7 +1008,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s4-2',
                 cn: "太贵了。",
                 split: "太 贵 了",
-                en: "Three yuan? Too expensive. How about two point five?",
+                en: "Too expensive.",
                 dict: {
                   "太": "tài / too",
                   "贵": "guì / expensive",
@@ -1019,7 +1019,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s4-3',
                 cn: "两块五吧。",
                 split: "两 块 五 吧",
-                en: "Three yuan? Too expensive. How about two point five?",
+                en: "How about two point five?",
                 dict: {
                   "块": "kuài / yuan",
                   "两": "liǎng / two",
@@ -1088,7 +1088,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s10',
                 cn: "要两斤。",
                 split: "要 两斤",
-                en: "I want two jin. How much altogether?",
+                en: "I want two jin.",
                 dict: {
                   "要": "yào / want",
                   "两斤": "liǎng jīn / two jin",
@@ -1098,7 +1098,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s10-2',
                 cn: "一共多少钱？",
                 split: "一共 多少 钱",
-                en: "I want two jin. How much altogether?",
+                en: "How much altogether?",
                 dict: {
                   "一共": "yígòng / altogether",
                 },
@@ -1107,7 +1107,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s11',
                 cn: "一共十六块五。",
                 split: "一共 十六块 五",
-                en: "Altogether sixteen yuan fifty. You can give sixteen yuan.",
+                en: "Altogether sixteen yuan fifty.",
                 dict: {
                   "一共": "yígòng / altogether",
                   "十六块": "shíliù kuài / sixteen yuan",
@@ -1118,7 +1118,7 @@ export const textbooks: Textbook[] = [
                 id: 'l8t1s11-2',
                 cn: "你给十六块吧。",
                 split: "你 给 十六块 吧",
-                en: "Altogether sixteen yuan fifty. You can give sixteen yuan.",
+                en: "You can give sixteen yuan.",
                 dict: {
                   "十六块": "shíliù kuài / sixteen yuan",
                   "给": "gěi / give",
@@ -1181,7 +1181,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s2',
                 cn: "我不去。",
                 split: "我 不 去",
-                en: "I'm not going. I need to go to the bank to exchange money.",
+                en: "I'm not going.",
                 dict: {
                   "我": "wǒ / I",
                   "不": "bù / not",
@@ -1192,7 +1192,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s2-2',
                 cn: "我要去银行换钱。",
                 split: "我 要 去 银行 换钱",
-                en: "I'm not going. I need to go to the bank to exchange money.",
+                en: "I need to go to the bank to exchange money.",
                 dict: {
                   "我": "wǒ / I",
                   "去": "qù / go",
@@ -1259,7 +1259,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s8',
                 cn: "请等一会儿。",
                 split: "请 等 一会儿",
-                en: "Please wait a moment... Sir, here is your money.",
+                en: "Please wait a moment...",
                 dict: {
                   "请": "qǐng / please",
                   "等": "děng / wait",
@@ -1270,7 +1270,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s8-2',
                 cn: "先生给您钱。",
                 split: "先生 给 您 钱",
-                en: "Please wait a moment... Sir, here is your money.",
+                en: "Sir, here is your money.",
                 dict: {
                   "先生": "xiānsheng / sir",
                   "给": "gěi / give",
@@ -1292,7 +1292,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s10',
                 cn: "对了。",
                 split: "对了",
-                en: "That's right. Thank you!",
+                en: "That's right.",
                 dict: {
                   "对了": "duì le / correct",
                 },
@@ -1301,7 +1301,7 @@ export const textbooks: Textbook[] = [
                 id: 'l9t1s10-2',
                 cn: "谢谢！",
                 split: "谢谢",
-                en: "That's right. Thank you!",
+                en: "Thank you!",
                 dict: {
                   "谢谢": "xièxie / thank you",
                 },
@@ -1346,7 +1346,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s2',
                 cn: "是。",
                 split: "是",
-                en: "Yes. Who are you looking for?",
+                en: "Yes.",
                 dict: {
                   "是": "shì / yes",
                 },
@@ -1355,7 +1355,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s2-2',
                 cn: "你找谁？",
                 split: "你 找 谁",
-                en: "Yes. Who are you looking for?",
+                en: "Who are you looking for?",
                 dict: {
                   "你": "nǐ / you",
                   "找": "zhǎo / look for",
@@ -1366,7 +1366,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s3',
                 cn: "王老师在吗？",
                 split: "王老师 在 吗",
-                en: "Is Teacher Wang here? I am his student.",
+                en: "Is Teacher Wang here?",
                 dict: {
                   "王老师": "Wáng lǎoshī / Teacher Wang",
                   "在": "zài / be present",
@@ -1377,7 +1377,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s3-2',
                 cn: "我是他的学生。",
                 split: "我 是 他 的 学生",
-                en: "Is Teacher Wang here? I am his student.",
+                en: "I am his student.",
                 dict: {
                   "我": "wǒ / I",
                   "是": "shì / am",
@@ -1390,7 +1390,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s4',
                 cn: "他不在。",
                 split: "他 不 在",
-                en: "He's not here. He is at home.",
+                en: "He's not here.",
                 dict: {
                   "他": "tā / he",
                   "在": "zài / be at",
@@ -1400,7 +1400,7 @@ export const textbooks: Textbook[] = [
                 id: 'l10t1s4-2',
                 cn: "他在家呢。",
                 split: "他 在 家 呢",
-                en: "He's not here. He is at home.",
+                en: "He is at home.",
                 dict: {
                   "他": "tā / he",
                   "在": "zài / be at",
@@ -1603,7 +1603,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t2s8',
                 cn: "她也是留学生。",
                 split: "她 也 是 留学生",
-                en: "She is also an international student. We are all international students.",
+                en: "She is also an international student.",
                 dict: {
                   "她": "tā / she",
                   "也": "yě / also",
@@ -1615,7 +1615,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t2s8-2',
                 cn: "我们都是留学生。",
                 split: "我们 都 是 留学生",
-                en: "She is also an international student. We are all international students.",
+                en: "We are all international students.",
                 dict: {
                   "是": "shì / is",
                   "留学生": "liúxuéshēng / international student",
@@ -1643,7 +1643,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t2s10',
                 cn: "不他们俩不是留学生。",
                 split: "不 他们俩 不 是 留学生",
-                en: "No, the two of them are not international students. They are both Chinese students.",
+                en: "No, the two of them are not international students.",
                 dict: {
                   "不": "bù / no",
                   "他们俩": "tāmen liǎ / the two of them",
@@ -1655,7 +1655,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t2s10-2',
                 cn: "他们都是中国学生。",
                 split: "他们 都 是 中国学生",
-                en: "No, the two of them are not international students. They are both Chinese students.",
+                en: "They are both Chinese students.",
                 dict: {
                   "他们": "tāmen / they",
                   "都": "dōu / both",
@@ -1707,7 +1707,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t3s14',
                 cn: "不是。",
                 split: "不 是",
-                en: "No. I am Korean.",
+                en: "No.",
                 dict: {
                   "是": "shì / am",
                 },
@@ -1716,7 +1716,7 @@ export const textbooks: Textbook[] = [
                 id: 'l11t3s14-2',
                 cn: "我是韩国人。",
                 split: "我 是 韩国人",
-                en: "No. I am Korean.",
+                en: "I am Korean.",
                 dict: {
                   "我": "wǒ / I",
                   "是": "shì / am",
@@ -1817,7 +1817,7 @@ export const textbooks: Textbook[] = [
                 id: 'l12t1s6',
                 cn: "我觉得语法不太难。",
                 split: "我 觉得 语法 不 太 难",
-                en: "I think grammar is not too difficult. Listening and speaking are also relatively easy, but reading and writing are very difficult.",
+                en: "I think grammar is not too difficult.",
                 dict: {
                   "我": "wǒ / I",
                   "觉得": "juéde / think",
@@ -1829,7 +1829,7 @@ export const textbooks: Textbook[] = [
                 id: 'l12t1s6-2',
                 cn: "听和说也比较容易但是读和写很难。",
                 split: "听 和 说 也 比较 容易 但是 读 和 写 很 难",
-                en: "I think grammar is not too difficult. Listening and speaking are also relatively easy, but reading and writing are very difficult.",
+                en: "Listening and speaking are also relatively easy, but reading and writing are very difficult.",
                 dict: {
                   "难": "nán / difficult",
                   "听": "tīng / listen",
@@ -1946,7 +1946,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t1s2',
                 cn: "有啊。",
                 split: "有 啊",
-                en: "Yes I do. Mine is right here.",
+                en: "Yes I do.",
                 dict: {
                   "有": "yǒu / have",
                   "啊": "a / (particle)",
@@ -1956,7 +1956,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t1s2-2',
                 cn: "我的在这儿呢。",
                 split: "我 的 在 这儿 呢",
-                en: "Yes I do. Mine is right here.",
+                en: "Mine is right here.",
                 dict: {
                   "我": "wǒ / my",
                   "的": "de / (possessive particle)",
@@ -2015,7 +2015,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t1s6',
                 cn: "那个新的是朋友的。",
                 split: "那个 新 的 是 朋友 的",
-                en: "That new one belongs to a friend. This old one is mine.",
+                en: "That new one belongs to a friend.",
                 dict: {
                   "那个": "nà ge / that one",
                   "新": "xīn / new",
@@ -2028,7 +2028,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t1s6-2',
                 cn: "这个旧的是我的。",
                 split: "这个 旧 的 是 我 的",
-                en: "That new one belongs to a friend. This old one is mine.",
+                en: "This old one is mine.",
                 dict: {
                   "的": "de / (modifier particle)",
                   "是": "shì / is",
@@ -2127,7 +2127,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t2s14',
                 cn: "都是日用品。",
                 split: "都 是 日用品",
-                en: "They are all daily necessities. There are two pieces of clothing, an umbrella and a bottle of perfume, also a book, a dictionary, two CDs and three pens.",
+                en: "They are all daily necessities.",
                 dict: {
                   "都": "dōu / all",
                   "是": "shì / are",
@@ -2138,7 +2138,7 @@ export const textbooks: Textbook[] = [
                 id: 'l13t2s14-2',
                 cn: "有两件衣服一把雨伞和一瓶香水还有一本书一本词典两张光盘和三支笔。",
                 split: "有 两件 衣服 一把 雨伞 和 一瓶 香水 还有 一本书 一本词典 两张 光盘 和 三支 笔",
-                en: "They are all daily necessities. There are two pieces of clothing, an umbrella and a bottle of perfume, also a book, a dictionary, two CDs and three pens.",
+                en: "There are two pieces of clothing, an umbrella and a bottle of perfume, also a book, a dictionary, two CDs and three pens.",
                 dict: {
                   "两件": "liǎng jiàn / two (pieces)",
                   "衣服": "yīfu / clothes",
@@ -2181,7 +2181,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s2',
                 cn: "啊！",
                 split: "啊",
-                en: "Ah! Manager Guan, welcome, welcome!",
+                en: "Ah!",
                 dict: {
                   "啊": "à / ah",
                 },
@@ -2190,7 +2190,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s2-2',
                 cn: "关经理欢迎欢迎！",
                 split: "关经理 欢迎 欢迎",
-                en: "Ah! Manager Guan, welcome, welcome!",
+                en: "Manager Guan, welcome, welcome!",
                 dict: {
                   "关经理": "Guān jīnglǐ / Manager Guan",
                   "欢迎": "huānyíng / welcome",
@@ -2212,7 +2212,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s4',
                 cn: "很好。",
                 split: "很 好",
-                en: "Very good. How is your health?",
+                en: "Very good.",
                 dict: {
                   "很": "hěn / very",
                   "好": "hǎo / good",
@@ -2222,7 +2222,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s4-2',
                 cn: "您身体怎么样？",
                 split: "您 身体 怎么样",
-                en: "Very good. How is your health?",
+                en: "How is your health?",
                 dict: {
                   "您": "nín / you (honorific)",
                   "身体": "shēntǐ / health, body",
@@ -2267,7 +2267,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s8',
                 cn: "刚开学有点儿忙。",
                 split: "刚 开学 有点儿 忙",
-                en: "School just started, a bit busy. Would you like something to drink? Tea or coffee?",
+                en: "School just started, a bit busy.",
                 dict: {
                   "刚": "gāng / just",
                   "开学": "kāi xué / start of school",
@@ -2279,7 +2279,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s8-2',
                 cn: "喝点儿什么？",
                 split: "喝 点儿 什么",
-                en: "School just started, a bit busy. Would you like something to drink? Tea or coffee?",
+                en: "Would you like something to drink?",
                 dict: {
                   "喝": "hē / drink",
                   "点儿": "diǎnr / a little",
@@ -2290,7 +2290,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t1s8-3',
                 cn: "茶还是咖啡？",
                 split: "茶 还是 咖啡",
-                en: "School just started, a bit busy. Would you like something to drink? Tea or coffee?",
+                en: "Tea or coffee?",
                 dict: {
                   "茶": "chá / tea",
                   "还是": "háishi / or",
@@ -2411,7 +2411,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t2s18',
                 cn: "不是。",
                 split: "不 是",
-                en: "No... Ah, my bike is over there.",
+                en: "No...",
                 dict: {
                 },
               },
@@ -2419,7 +2419,7 @@ export const textbooks: Textbook[] = [
                 id: 'l14t2s18-2',
                 cn: "啊我的车在那儿呢。",
                 split: "啊 我 的 车 在 那儿 呢",
-                en: "No... Ah, my bike is over there.",
+                en: "Ah, my bike is over there.",
                 dict: {
                   "啊": "à / ah",
                   "我": "wǒ / my",
@@ -2489,7 +2489,7 @@ export const textbooks: Textbook[] = [
                 id: 'l15t1s4',
                 cn: "有一张。",
                 split: "有 一张",
-                en: "I have one. Look, this is our family photo. Do you have brothers and sisters?",
+                en: "I have one.",
                 dict: {
                   "有": "yǒu / have",
                   "一张": "yì zhāng / one (for flat objects)",
@@ -2499,7 +2499,7 @@ export const textbooks: Textbook[] = [
                 id: 'l15t1s4-2',
                 cn: "你看这是我们全家的照片。",
                 split: "你 看 这 是 我们 全家 的 照片",
-                en: "I have one. Look, this is our family photo. Do you have brothers and sisters?",
+                en: "Look, this is our family photo.",
                 dict: {
                   "你": "nǐ / you",
                   "看": "kàn / look",
@@ -2515,7 +2515,7 @@ export const textbooks: Textbook[] = [
                 id: 'l15t1s4-3',
                 cn: "你有哥哥姐姐吗？",
                 split: "你 有 哥哥 姐姐 吗",
-                en: "I have one. Look, this is our family photo. Do you have brothers and sisters?",
+                en: "Do you have brothers and sisters?",
                 dict: {
                   "有": "yǒu / have",
                   "你": "nǐ / you",
@@ -2771,7 +2771,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s4',
                 cn: "常去。",
                 split: "常 去",
-                en: "Often. I often borrow books, and also often read books there. How about you? Do you go often?",
+                en: "Often.",
                 dict: {
                   "常": "cháng / often",
                   "去": "qù / to go",
@@ -2781,7 +2781,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s4-2',
                 cn: "我常借书也常在那儿看书。",
                 split: "我 常 借 书 也 常 在 那儿 看 书",
-                en: "Often. I often borrow books, and also often read books there. How about you? Do you go often?",
+                en: "I often borrow books, and also often read books there.",
                 dict: {
                   "常": "cháng / often",
                   "我": "wǒ / I",
@@ -2797,7 +2797,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s4-3',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "Often. I often borrow books, and also often read books there. How about you? Do you go often?",
+                en: "How about you?",
                 dict: {
                   "你": "nǐ / you",
                   "呢": "ne / (question particle)",
@@ -2807,7 +2807,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s4-4',
                 cn: "常去吗？",
                 split: "常 去 吗",
-                en: "Often. I often borrow books, and also often read books there. How about you? Do you go often?",
+                en: "Do you go often?",
                 dict: {
                   "常": "cháng / often",
                   "去": "qù / to go",
@@ -2818,7 +2818,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s5',
                 cn: "我也常去。",
                 split: "我 也 常 去",
-                en: "I also go often. Sometimes I borrow books, sometimes I go online to look up information, but I don't often read books there. I always read in the dormitory.",
+                en: "I also go often.",
                 dict: {
                   "我": "wǒ / I",
                   "也": "yě / also",
@@ -2830,7 +2830,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s5-2',
                 cn: "有时候借书有时候上网查资料但不常在那儿看书。",
                 split: "有时候 借 书 有时候 上网 查 资料 但 不 常 在 那儿 看 书",
-                en: "I also go often. Sometimes I borrow books, sometimes I go online to look up information, but I don't often read books there. I always read in the dormitory.",
+                en: "Sometimes I borrow books, sometimes I go online to look up information, but I don't often read books there.",
                 dict: {
                   "常": "cháng / often",
                   "有时候": "yǒu shíhou / sometimes",
@@ -2850,7 +2850,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t1s5-3',
                 cn: "我总在宿舍看书。",
                 split: "我 总 在 宿舍 看 书",
-                en: "I also go often. Sometimes I borrow books, sometimes I go online to look up information, but I don't often read books there. I always read in the dormitory.",
+                en: "I always read in the dormitory.",
                 dict: {
                   "我": "wǒ / I",
                   "书": "shū / book",
@@ -2906,7 +2906,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t2s9',
                 cn: "复习课文预习生词或者做练习。",
                 split: "复习 课文 预习 生词 或者 做 练习",
-                en: "Review the text, preview new words, or do exercises. Sometimes I go online to chat with friends, sometimes I send WeChat messages or send and receive emails.",
+                en: "Review the text, preview new words, or do exercises.",
                 dict: {
                   "复习": "fùxí / to review",
                   "课文": "kèwén / text",
@@ -2921,7 +2921,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t2s9-2',
                 cn: "有时候上网跟朋友聊天儿有时候发微信或者收发邮件。",
                 split: "有时候 上网 跟 朋友 聊 天儿 有时候 发 微信 或者 收发 邮件",
-                en: "Review the text, preview new words, or do exercises. Sometimes I go online to chat with friends, sometimes I send WeChat messages or send and receive emails.",
+                en: "Sometimes I go online to chat with friends, sometimes I send WeChat messages or send and receive emails.",
                 dict: {
                   "或者": "huòzhě / or",
                   "有时候": "yǒu shíhou / sometimes",
@@ -2938,7 +2938,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t2s10',
                 cn: "我也是。",
                 split: "我 也是",
-                en: "Me too. I also often watch Chinese movies and TV dramas. Do you often watch?",
+                en: "Me too.",
                 dict: {
                   "我": "wǒ / I",
                   "也是": "yě shì / me too",
@@ -2948,7 +2948,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t2s10-2',
                 cn: "我还常看中文电影和电视剧。",
                 split: "我 还 常 看 中文 电影 和 电视剧",
-                en: "Me too. I also often watch Chinese movies and TV dramas. Do you often watch?",
+                en: "I also often watch Chinese movies and TV dramas.",
                 dict: {
                   "我": "wǒ / I",
                   "还": "hái / also, still",
@@ -2964,7 +2964,7 @@ export const textbooks: Textbook[] = [
                 id: 'l16t2s10-3',
                 cn: "你常看吗？",
                 split: "你 常 看 吗",
-                en: "Me too. I also often watch Chinese movies and TV dramas. Do you often watch?",
+                en: "Do you often watch?",
                 dict: {
                   "常": "cháng / often",
                   "看": "kàn / to watch",
@@ -3370,7 +3370,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t1s2',
                 cn: "我去修车顺便去超市买点儿东西。",
                 split: "我 去 修 车 顺便 去 超市 买 点儿 东西",
-                en: "I'm going to fix my bike, and also go to the supermarket to buy some things. Are you going?",
+                en: "I'm going to fix my bike, and also go to the supermarket to buy some things.",
                 dict: {
                   "我": "wǒ / I",
                   "去": "qù / to go",
@@ -3387,7 +3387,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t1s2-2',
                 cn: "你去吗？",
                 split: "你 去 吗",
-                en: "I'm going to fix my bike, and also go to the supermarket to buy some things. Are you going?",
+                en: "Are you going?",
                 dict: {
                   "去": "qù / to go",
                   "你": "nǐ / you",
@@ -3398,7 +3398,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t1s3',
                 cn: "不去一会儿玛丽来找我。",
                 split: "不 去 一会儿 玛丽 来 找 我",
-                en: "I'm not going. Mary will come to find me in a while. Could you buy me a box of paper clips and a copy of Reader on the way?",
+                en: "I'm not going. Mary will come to find me in a while.",
                 dict: {
                   "不": "bù / not",
                   "去": "qù / to go",
@@ -3413,7 +3413,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t1s3-2',
                 cn: "你顺便替我买一盒曲别针和一本读者吧。",
                 split: "你 顺便 替 我 买 一 盒 曲别针 和 一 本 读者 吧",
-                en: "I'm not going. Mary will come to find me in a while. Could you buy me a box of paper clips and a copy of Reader on the way?",
+                en: "Could you buy me a box of paper clips and a copy of Reader on the way?",
                 dict: {
                   "我": "wǒ / me",
                   "你": "nǐ / you",
@@ -3561,7 +3561,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t2s13',
                 cn: "八号回来。",
                 split: "八 号 回来",
-                en: "I'll come back on the 8th. Do me a favor, OK?",
+                en: "I'll come back on the 8th.",
                 dict: {
                   "八": "bā / eight",
                   "号": "hào / date, number",
@@ -3572,7 +3572,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t2s13-2',
                 cn: "帮我一个忙行吗？",
                 split: "帮 我 一 个 忙 行 吗",
-                en: "I'll come back on the 8th. Do me a favor, OK?",
+                en: "Do me a favor, OK?",
                 dict: {
                   "帮": "bāng / to help",
                   "我": "wǒ / me",
@@ -3587,7 +3587,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t2s14',
                 cn: "什么事儿？",
                 split: "什么 事儿",
-                en: "What is it? Tell me.",
+                en: "What is it?",
                 dict: {
                   "什么": "shénme / what",
                   "事儿": "shìr / matter",
@@ -3597,7 +3597,7 @@ export const textbooks: Textbook[] = [
                 id: 'l18t2s14-2',
                 cn: "你说吧。",
                 split: "你 说 吧",
-                en: "What is it? Tell me.",
+                en: "Tell me.",
                 dict: {
                   "你": "nǐ / you",
                   "说": "shuō / to say, tell",
@@ -3645,7 +3645,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s1',
                 cn: "欢迎光临！",
                 split: "欢迎 光临",
-                en: "Welcome! What would you like to buy?",
+                en: "Welcome!",
                 dict: {
                   "欢迎": "huānyíng / to welcome",
                   "光临": "guānglín / to visit (polite)",
@@ -3655,7 +3655,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s1-2',
                 cn: "你想买什么？",
                 split: "你 想 买 什么",
-                en: "Welcome! What would you like to buy?",
+                en: "What would you like to buy?",
                 dict: {
                   "你": "nǐ / you",
                   "想": "xiǎng / to want",
@@ -3678,7 +3678,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s3',
                 cn: "你看这件怎么样？",
                 split: "你 看 这 件 怎么样",
-                en: "How about this one? It's both nice-looking and cheap.",
+                en: "How about this one?",
                 dict: {
                   "你": "nǐ / you",
                   "看": "kàn / to look",
@@ -3691,7 +3691,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s3-2',
                 cn: "又好看又便宜。",
                 split: "又 好看 又 便宜",
-                en: "How about this one? It's both nice-looking and cheap.",
+                en: "It's both nice-looking and cheap.",
                 dict: {
                   "又": "yòu / both...and",
                   "好看": "hǎokàn / good-looking",
@@ -3702,7 +3702,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s4',
                 cn: "这件有一点儿长。",
                 split: "这 件 有 一点儿 长",
-                en: "This one is a bit long. Do you have a shorter one?",
+                en: "This one is a bit long.",
                 dict: {
                   "这": "zhè / this",
                   "件": "jiàn / (measure word)",
@@ -3715,7 +3715,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t1s4-2',
                 cn: "有短一点儿的吗？",
                 split: "有 短 一点儿 的 吗",
-                en: "This one is a bit long. Do you have a shorter one?",
+                en: "Do you have a shorter one?",
                 dict: {
                   "有": "yǒu / to have",
                   "一点儿": "yìdiǎnr / a little bit",
@@ -3858,7 +3858,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t2s14',
                 cn: "太贵了！",
                 split: "太 贵 了",
-                en: "Too expensive! Make it cheaper, how about 600?",
+                en: "Too expensive!",
                 dict: {
                   "太": "tài / too",
                   "贵": "guì / expensive",
@@ -3869,7 +3869,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t2s14-2',
                 cn: "便宜一点儿吧六百怎么样？",
                 split: "便宜 一点儿 吧 六百 怎么样",
-                en: "Too expensive! Make it cheaper, how about 600?",
+                en: "Make it cheaper, how about 600?",
                 dict: {
                   "便宜": "piányi / cheap",
                   "一点儿": "yìdiǎnr / a little bit",
@@ -3882,7 +3882,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t2s15',
                 cn: "六百太少了不卖。",
                 split: "六百 太 少 了 不 卖",
-                en: "600 is too little, I won't sell it. I can give a 20% discount. You pay 720.",
+                en: "600 is too little, I won't sell it.",
                 dict: {
                   "六百": "liùbǎi / six hundred",
                   "太": "tài / too",
@@ -3896,7 +3896,7 @@ export const textbooks: Textbook[] = [
                 id: 'l19t2s15-2',
                 cn: "可以打八折你给七百二吧。",
                 split: "可以 打 八 折 你 给 七百二 吧",
-                en: "600 is too little, I won't sell it. I can give a 20% discount. You pay 720.",
+                en: "I can give a 20% discount. You pay 720.",
                 dict: {
                   "可以": "kěyǐ / can",
                   "打": "dǎ / to give (discount)",
@@ -3961,7 +3961,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s2',
                 cn: "明年。",
                 split: "明年",
-                en: "Next year. How about you?",
+                en: "Next year.",
                 dict: {
                   "明年": "míngnián / next year",
                 },
@@ -3970,7 +3970,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s2-2',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "Next year. How about you?",
+                en: "How about you?",
                 dict: {
                   "你": "nǐ / you",
                   "呢": "ne / (question particle)",
@@ -3980,7 +3980,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s3',
                 cn: "我后年。",
                 split: "我 后年",
-                en: "The year after next. How old are you this year?",
+                en: "The year after next.",
                 dict: {
                   "我": "wǒ / I",
                   "后年": "hòunián / the year after next",
@@ -3990,7 +3990,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s3-2',
                 cn: "你今年多大？",
                 split: "你 今年 多大",
-                en: "The year after next. How old are you this year?",
+                en: "How old are you this year?",
                 dict: {
                   "你": "nǐ / you",
                   "今年": "jīnnián / this year",
@@ -4023,7 +4023,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s6',
                 cn: "对我属狗。",
                 split: "对 我 属 狗",
-                en: "Right, I was born in the Year of the Dog. What year were you born in?",
+                en: "Right, I was born in the Year of the Dog.",
                 dict: {
                   "对": "duì / right, correct",
                   "我": "wǒ / I",
@@ -4035,7 +4035,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t1s6-2',
                 cn: "你属什么？",
                 split: "你 属 什么",
-                en: "Right, I was born in the Year of the Dog. What year were you born in?",
+                en: "What year were you born in?",
                 dict: {
                   "属": "shǔ / to be born in the year of",
                   "你": "nǐ / you",
@@ -4095,7 +4095,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s10',
                 cn: "是吗？",
                 split: "是 吗",
-                en: "Really? How do you plan to celebrate?",
+                en: "Really?",
                 dict: {
                   "是": "shì / is",
                   "吗": "ma / (question particle)",
@@ -4105,7 +4105,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s10-2',
                 cn: "你打算怎么过？",
                 split: "你 打算 怎么 过",
-                en: "Really? How do you plan to celebrate?",
+                en: "How do you plan to celebrate?",
                 dict: {
                   "你": "nǐ / you",
                   "打算": "dǎsuàn / to plan",
@@ -4117,7 +4117,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s11',
                 cn: "我准备举行一个生日晚会。",
                 split: "我 准备 举行 一 个 生日 晚会",
-                en: "I'm planning to hold a birthday party. Will you come too?",
+                en: "I'm planning to hold a birthday party.",
                 dict: {
                   "我": "wǒ / I",
                   "准备": "zhǔnbèi / to prepare",
@@ -4132,7 +4132,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s11-2',
                 cn: "你也来参加好吗？",
                 split: "你 也 来 参加 好 吗",
-                en: "I'm planning to hold a birthday party. Will you come too?",
+                en: "Will you come too?",
                 dict: {
                   "你": "nǐ / you",
                   "也": "yě / also",
@@ -4192,7 +4192,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s16',
                 cn: "好。",
                 split: "好",
-                en: "OK. I'll definitely go.",
+                en: "OK.",
                 dict: {
                   "好": "hǎo / OK",
                 },
@@ -4201,7 +4201,7 @@ export const textbooks: Textbook[] = [
                 id: 'l20t2s16-2',
                 cn: "我一定去。",
                 split: "我 一定 去",
-                en: "OK. I'll definitely go.",
+                en: "I'll definitely go.",
                 dict: {
                   "我": "wǒ / I",
                   "一定": "yídìng / definitely",
@@ -4443,7 +4443,7 @@ export const textbooks: Textbook[] = [
                 id: 'l21t2s12',
                 cn: "太好了！",
                 split: "太 好了",
-                en: "Great! Teacher, are you going?",
+                en: "Great!",
                 dict: {
                   "太": "tài / too, very",
                   "好了": "hǎo le / good",
@@ -4453,7 +4453,7 @@ export const textbooks: Textbook[] = [
                 id: 'l21t2s12-2',
                 cn: "老师您去吗？",
                 split: "老师 您 去 吗",
-                en: "Great! Teacher, are you going?",
+                en: "Teacher, are you going?",
                 dict: {
                   "老师": "lǎoshī / teacher",
                   "您": "nín / you (polite)",
@@ -4465,7 +4465,7 @@ export const textbooks: Textbook[] = [
                 id: 'l21t2s13',
                 cn: "去。",
                 split: "去",
-                en: "Yes. All the first-year teachers and students are going.",
+                en: "Yes.",
                 dict: {
                   "去": "qù / to go",
                 },
@@ -4474,7 +4474,7 @@ export const textbooks: Textbook[] = [
                 id: 'l21t2s13-2',
                 cn: "一年级的老师和学生都去。",
                 split: "一年级 的 老师 和 学生 都 去",
-                en: "Yes. All the first-year teachers and students are going.",
+                en: "All the first-year teachers and students are going.",
                 dict: {
                   "去": "qù / to go",
                   "一年级": "yì niánjí / first year",
@@ -4580,7 +4580,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s1',
                 cn: "今天想请大家谈谈自己的爱好。",
                 split: "今天 想 请 大家 谈谈 自己 的 爱好",
-                en: "Today I'd like to invite everyone to talk about your hobbies. Who will go first?",
+                en: "Today I'd like to invite everyone to talk about your hobbies.",
                 dict: {
                   "今天": "jīntiān / today",
                   "想": "xiǎng / to want",
@@ -4596,7 +4596,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s1-2',
                 cn: "谁先说呢？",
                 split: "谁 先 说 呢",
-                en: "Today I'd like to invite everyone to talk about your hobbies. Who will go first?",
+                en: "Who will go first?",
                 dict: {
                   "谁": "shéi / who",
                   "先": "xiān / first",
@@ -4622,7 +4622,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s3',
                 cn: "好你说吧。",
                 split: "好 你 说 吧",
-                en: "OK, go ahead. What hobbies do you have?",
+                en: "OK, go ahead.",
                 dict: {
                   "好": "hǎo / OK",
                   "你": "nǐ / you",
@@ -4634,7 +4634,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s3-2',
                 cn: "你有什么爱好？",
                 split: "你 有 什么 爱好",
-                en: "OK, go ahead. What hobbies do you have?",
+                en: "What hobbies do you have?",
                 dict: {
                   "你": "nǐ / you",
                   "有": "yǒu / to have",
@@ -4672,7 +4672,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s6',
                 cn: "是啊非常喜欢。",
                 split: "是 啊 非常 喜欢",
-                en: "Yes, I like it very much. I also want to learn to sing Peking opera, and plan to find a teacher to teach me.",
+                en: "Yes, I like it very much.",
                 dict: {
                   "是": "shì / yes",
                   "啊": "a / (modal particle)",
@@ -4684,7 +4684,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s6-2',
                 cn: "我还想学唱京剧打算请一个老师教我。",
                 split: "我 还 想 学 唱 京剧 打算 请 一 个 老师 教 我",
-                en: "Yes, I like it very much. I also want to learn to sing Peking opera, and plan to find a teacher to teach me.",
+                en: "I also want to learn to sing Peking opera, and plan to find a teacher to teach me.",
                 dict: {
                   "我": "wǒ / me",
                   "还": "hái / also",
@@ -4740,7 +4740,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s10',
                 cn: "我喜欢听音乐。",
                 split: "我 喜欢 听 音乐",
-                en: "I like listening to music. After class, listening to music or chatting with friends makes me feel very happy.",
+                en: "I like listening to music.",
                 dict: {
                   "我": "wǒ / I",
                   "喜欢": "xǐhuan / to like",
@@ -4752,7 +4752,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s10-2',
                 cn: "下课以后听听音乐或者跟朋友聊聊天儿感到心情很愉快。",
                 split: "下课 以后 听听 音乐 或者 跟 朋友 聊聊天儿 感到 心情 很 愉快",
-                en: "I like listening to music. After class, listening to music or chatting with friends makes me feel very happy.",
+                en: "After class, listening to music or chatting with friends makes me feel very happy.",
                 dict: {
                   "音乐": "yīnyuè / music",
                   "下课": "xià kè / after class",
@@ -4786,7 +4786,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s12',
                 cn: "我来中国以前就对书法特别感兴趣。",
                 split: "我 来 中国 以前 就 对 书法 特别 感 兴趣",
-                en: "Before coming to China, I was already especially interested in calligraphy. This year my company sent me to China, and I'm very happy. Now I'm learning calligraphy from a teacher, and also learning to paint Chinese paintings.",
+                en: "Before coming to China, I was already especially interested in calligraphy.",
                 dict: {
                   "我": "wǒ / I",
                   "来": "lái / to come",
@@ -4802,7 +4802,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s12-2',
                 cn: "今年公司派我来中国我非常高兴。",
                 split: "今年 公司 派 我 来 中国 我 非常 高兴",
-                en: "Before coming to China, I was already especially interested in calligraphy. This year my company sent me to China, and I'm very happy. Now I'm learning calligraphy from a teacher, and also learning to paint Chinese paintings.",
+                en: "This year my company sent me to China, and I'm very happy.",
                 dict: {
                   "我": "wǒ / I",
                   "来": "lái / to come",
@@ -4818,7 +4818,7 @@ export const textbooks: Textbook[] = [
                 id: 'l22t1s12-3',
                 cn: "现在我正跟一个老师学书法还学画中国画儿。",
                 split: "现在 我 正 跟 一 个 老师 学 书法 还 学 画 中国画儿",
-                en: "Before coming to China, I was already especially interested in calligraphy. This year my company sent me to China, and I'm very happy. Now I'm learning calligraphy from a teacher, and also learning to paint Chinese paintings.",
+                en: "Now I'm learning calligraphy from a teacher, and also learning to paint Chinese paintings.",
                 dict: {
                   "我": "wǒ / I",
                   "书法": "shūfǎ / calligraphy",
@@ -4907,7 +4907,7 @@ export const textbooks: Textbook[] = [
                 id: 'l23t1s6',
                 cn: "不远。",
                 split: "不 远",
-                en: "Not far. Very close.",
+                en: "Not far.",
                 dict: {
                   "不": "bù / not",
                   "远": "yuǎn / far",
@@ -4917,7 +4917,7 @@ export const textbooks: Textbook[] = [
                 id: 'l23t1s6-2',
                 cn: "很近。",
                 split: "很 近",
-                en: "Not far. Very close.",
+                en: "Very close.",
                 dict: {
                   "很": "hěn / very",
                   "近": "jìn / close, near",
@@ -5109,7 +5109,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s2',
                 cn: "不会。",
                 split: "不会",
-                en: "No, I can't. How about you?",
+                en: "No, I can't.",
                 dict: {
                   "不会": "bú huì / cannot",
                 },
@@ -5118,7 +5118,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s2-2',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "No, I can't. How about you?",
+                en: "How about you?",
                 dict: {
                   "你": "nǐ / you",
                   "呢": "ne / (question particle)",
@@ -5128,7 +5128,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s3',
                 cn: "我也不会。",
                 split: "我 也 不会",
-                en: "I can't either. Do you want to learn?",
+                en: "I can't either.",
                 dict: {
                   "我": "wǒ / I",
                   "也": "yě / also",
@@ -5139,7 +5139,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s3-2',
                 cn: "你想不想学？",
                 split: "你 想 不 想 学",
-                en: "I can't either. Do you want to learn?",
+                en: "Do you want to learn?",
                 dict: {
                   "你": "nǐ / you",
                   "想": "xiǎng / to want",
@@ -5161,7 +5161,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s5',
                 cn: "我也想学。",
                 split: "我 也 想 学",
-                en: "I also want to learn. I heard the PE teacher will teach tai chi next week. Let's go sign up.",
+                en: "I also want to learn.",
                 dict: {
                   "我": "wǒ / I",
                   "也": "yě / also",
@@ -5173,7 +5173,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t1s5-2',
                 cn: "听说体育老师下星期教太极拳我们去报名吧。",
                 split: "听说 体育 老师 下 星期 教 太极拳 我们 去 报名 吧",
-                en: "I also want to learn. I heard the PE teacher will teach tai chi next week. Let's go sign up.",
+                en: "I heard the PE teacher will teach tai chi next week. Let's go sign up.",
                 dict: {
                   "听说": "tīngshuō / I heard that",
                   "体育": "tǐyù / physical education",
@@ -5283,7 +5283,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t2s13',
                 cn: "对不起您能不能再说一遍？",
                 split: "对不起 您 能 不能 再 说 一 遍",
-                en: "Sorry, could you say that again? I don't understand what 'one-three-five' means.",
+                en: "Sorry, could you say that again?",
                 dict: {
                   "对不起": "duìbuqǐ / sorry",
                   "您": "nín / you (polite)",
@@ -5299,7 +5299,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t2s13-2',
                 cn: "我不懂一三五是什么意思。",
                 split: "我 不 懂 一三五 是 什么 意思",
-                en: "Sorry, could you say that again? I don't understand what 'one-three-five' means.",
+                en: "I don't understand what 'one-three-five' means.",
                 dict: {
                   "我": "wǒ / I",
                   "不": "bù / not",
@@ -5340,7 +5340,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t2s16',
                 cn: "四点半到五点半。",
                 split: "四 点 半 到 五 点 半",
-                en: "From 4:30 to 5:30. One hour per session.",
+                en: "From 4:30 to 5:30.",
                 dict: {
                   "四": "sì / four",
                   "到": "dào / to, until",
@@ -5351,7 +5351,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t2s16-2',
                 cn: "一次一个小时。",
                 split: "一 次 一 个 小时",
-                en: "From 4:30 to 5:30. One hour per session.",
+                en: "One hour per session.",
                 dict: {
                   "一": "yí / one",
                   "次": "cì / (measure word for times)",
@@ -5369,7 +5369,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t3s17',
                 cn: "玛丽！",
                 split: "玛丽",
-                en: "Mary! ... Why didn't Mary come?",
+                en: "Mary! ...",
                 dict: {
                   "玛丽": "Mǎlì / Mary (name)",
                 },
@@ -5378,7 +5378,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t3s17-2',
                 cn: "玛丽怎么没来？",
                 split: "玛丽 怎么 没 来",
-                en: "Mary! ... Why didn't Mary come?",
+                en: "Why didn't Mary come?",
                 dict: {
                   "玛丽": "Mǎlì / Mary (name)",
                   "怎么": "zěnme / how come",
@@ -5390,7 +5390,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t3s18',
                 cn: "老师玛丽让我给她请个假。",
                 split: "老师 玛丽 让 我 给 她 请 个 假",
-                en: "Teacher, Mary asked me to request leave for her. She's a bit unwell today — headache, fever, cough — it might be a cold. She needs to go to the hospital to see a doctor and can't come to class.",
+                en: "Teacher, Mary asked me to request leave for her.",
                 dict: {
                   "老师": "lǎoshī / teacher",
                   "玛丽": "Mǎlì / Mary (name)",
@@ -5407,7 +5407,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t3s18-2',
                 cn: "她今天有点儿不舒服头疼发烧咳嗽可能是感冒。",
                 split: "她 今天 有点儿 不 舒服 头疼 发烧 咳嗽 可能 是 感冒",
-                en: "Teacher, Mary asked me to request leave for her. She's a bit unwell today — headache, fever, cough — it might be a cold. She needs to go to the hospital to see a doctor and can't come to class.",
+                en: "She's a bit unwell today — headache, fever, cough — it might be a cold.",
                 dict: {
                   "她": "tā / she",
                   "今天": "jīntiān / today",
@@ -5426,7 +5426,7 @@ export const textbooks: Textbook[] = [
                 id: 'l24t3s18-3',
                 cn: "她要去医院看病不能来上课。",
                 split: "她 要 去 医院 看病 不能 来 上课",
-                en: "Teacher, Mary asked me to request leave for her. She's a bit unwell today — headache, fever, cough — it might be a cold. She needs to go to the hospital to see a doctor and can't come to class.",
+                en: "She needs to go to the hospital to see a doctor and can't come to class.",
                 dict: {
                   "她": "tā / she",
                   "要": "yào / to want, will",
@@ -5534,7 +5534,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s6',
                 cn: "哪里我发音发得不准说得也不流利。",
                 split: "哪里 我 发音 发 得 不准 说 得 也 不 流利",
-                en: "Not at all. My pronunciation isn't accurate and I don't speak fluently either. Let Mary go. She learns Chinese very well and speaks fluently. Mary can also sing Peking opera.",
+                en: "Not at all. My pronunciation isn't accurate and I don't speak fluently either.",
                 dict: {
                   "哪里": "nǎlǐ / not at all (modest)",
                   "我": "wǒ / I",
@@ -5552,7 +5552,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s6-2',
                 cn: "让玛丽去吧。",
                 split: "让 玛丽 去 吧",
-                en: "Not at all. My pronunciation isn't accurate and I don't speak fluently either. Let Mary go. She learns Chinese very well and speaks fluently. Mary can also sing Peking opera.",
+                en: "Let Mary go.",
                 dict: {
                   "让": "ràng / to let",
                   "玛丽": "Mǎlì / Mary (name)",
@@ -5564,7 +5564,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s6-3',
                 cn: "她汉语学得很好说得很流利。",
                 split: "她 汉语 学 得 很 好 说 得 很 流利",
-                en: "Not at all. My pronunciation isn't accurate and I don't speak fluently either. Let Mary go. She learns Chinese very well and speaks fluently. Mary can also sing Peking opera.",
+                en: "She learns Chinese very well and speaks fluently.",
                 dict: {
                   "得": "de / (complement particle)",
                   "说": "shuō / to speak",
@@ -5580,7 +5580,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s6-4',
                 cn: "玛丽还会唱京剧。",
                 split: "玛丽 还 会 唱 京剧",
-                en: "Not at all. My pronunciation isn't accurate and I don't speak fluently either. Let Mary go. She learns Chinese very well and speaks fluently. Mary can also sing Peking opera.",
+                en: "Mary can also sing Peking opera.",
                 dict: {
                   "玛丽": "Mǎlì / Mary (name)",
                   "还": "hái / also",
@@ -5593,7 +5593,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s7',
                 cn: "是吗？",
                 split: "是 吗",
-                en: "Really? How does she sing Peking opera?",
+                en: "Really?",
                 dict: {
                   "是": "shì / is",
                   "吗": "ma / (question particle)",
@@ -5603,7 +5603,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t1s7-2',
                 cn: "她京剧唱得怎么样？",
                 split: "她 京剧 唱 得 怎么样",
-                en: "Really? How does she sing Peking opera?",
+                en: "How does she sing Peking opera?",
                 dict: {
                   "她": "tā / she",
                   "京剧": "jīngjù / Peking opera",
@@ -5736,7 +5736,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s16',
                 cn: "刚才我看你跑得很快。",
                 split: "刚才 我 看 你 跑 得 很 快",
-                en: "I just saw you running very fast. How's your basketball?",
+                en: "I just saw you running very fast.",
                 dict: {
                   "刚才": "gāngcái / just now",
                   "我": "wǒ / I",
@@ -5752,7 +5752,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s16-2',
                 cn: "你篮球打得怎么样？",
                 split: "你 篮球 打 得 怎么样",
-                en: "I just saw you running very fast. How's your basketball?",
+                en: "How's your basketball?",
                 dict: {
                   "你": "nǐ / you",
                   "得": "de / (complement particle)",
@@ -5765,7 +5765,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s17',
                 cn: "打得还可以。",
                 split: "打 得 还 可以",
-                en: "I play OK. Teacher, do you come to exercise every day?",
+                en: "I play OK.",
                 dict: {
                   "打": "dǎ / to play",
                   "得": "de / (complement particle)",
@@ -5775,7 +5775,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s17-2',
                 cn: "老师您每天都来锻炼吗？",
                 split: "老师 您 每天 都 来 锻炼 吗",
-                en: "I play OK. Teacher, do you come to exercise every day?",
+                en: "Teacher, do you come to exercise every day?",
                 dict: {
                   "老师": "lǎoshī / teacher",
                   "您": "nín / you (polite)",
@@ -5790,7 +5790,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s18',
                 cn: "对我每天都坚持锻炼。",
                 split: "对 我 每天 都 坚持 锻炼",
-                en: "Yes, I persist in exercising every day. How about you?",
+                en: "Yes, I persist in exercising every day.",
                 dict: {
                   "对": "duì / right, yes",
                   "我": "wǒ / I",
@@ -5804,7 +5804,7 @@ export const textbooks: Textbook[] = [
                 id: 'l25t2s18-2',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "Yes, I persist in exercising every day. How about you?",
+                en: "How about you?",
                 dict: {
                   "你": "nǐ / you",
                   "呢": "ne / (question particle)",
@@ -6165,7 +6165,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l4s2n22',
                 cn: "我是美国人。",
                 split: "我 是 美国 人",
-                en: "I am American. And you?",
+                en: "I am American.",
                 dict: {
                   "我": "wǒ / I",
                   "是": "shì / to be",
@@ -6177,7 +6177,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l4s2n22-2',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "I am American. And you?",
+                en: "And you?",
                 dict: {
                   "你": "nǐ / you",
                   "呢": "ne / (question particle)",
@@ -6228,7 +6228,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l4s3n26',
                 cn: "她呢？",
                 split: "她 呢",
-                en: "What about her? Is she your classmate?",
+                en: "What about her?",
                 dict: {
                   "她": "tā / she",
                   "呢": "ne / (question particle)",
@@ -6238,7 +6238,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l4s3n26-2',
                 cn: "她是你同学吗？",
                 split: "她 是 你 同学 吗",
-                en: "What about her? Is she your classmate?",
+                en: "Is she your classmate?",
                 dict: {
                   "她": "tā / she",
                   "是": "shì / to be",
@@ -6863,7 +6863,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l8s3n68',
                 cn: "你好！",
                 split: "你好",
-                en: "Hello! How much is this cup?",
+                en: "Hello!",
                 dict: {
                   "你好": "nǐ hǎo / hello",
                 },
@@ -6872,7 +6872,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l8s3n68-2',
                 cn: "这个杯子多少钱？",
                 split: "这个 杯子 多少 钱",
-                en: "Hello! How much is this cup?",
+                en: "How much is this cup?",
                 dict: {
                   "这个": "zhège / this",
                   "杯子": "bēizi / cup",
@@ -7189,7 +7189,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l10s2n90',
                 cn: "后面那个人呢？",
                 split: "后面 那个 人 呢",
-                en: "What about the person behind? What is his name?",
+                en: "What about the person behind?",
                 dict: {
                   "后面": "hòumiàn / behind",
                   "那个": "nàge / that",
@@ -7201,7 +7201,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l10s2n90-2',
                 cn: "他叫什么名字？",
                 split: "他 叫 什么 名字",
-                en: "What about the person behind? What is his name?",
+                en: "What is his name?",
                 dict: {
                   "他": "tā / he",
                   "叫": "jiào / to be called",
@@ -7496,7 +7496,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l12s1n111',
                 cn: "明天呢？",
                 split: "明天 呢",
-                en: "What about tomorrow? How will the weather be tomorrow?",
+                en: "What about tomorrow?",
                 dict: {
                   "明天": "míngtiān / tomorrow",
                   "呢": "ne / (question particle)",
@@ -7506,7 +7506,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l12s1n111-2',
                 cn: "明天天气怎么样？",
                 split: "明天 天气 怎么样",
-                en: "What about tomorrow? How will the weather be tomorrow?",
+                en: "How will the weather be tomorrow?",
                 dict: {
                   "明天": "míngtiān / tomorrow",
                   "天气": "tiānqì / weather",
@@ -7606,7 +7606,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l12s3n118',
                 cn: "我身体不太好。",
                 split: "我 身体 不太 好",
-                en: "I am not feeling well. The weather is too hot, I don't want to eat.",
+                en: "I am not feeling well.",
                 dict: {
                   "我": "wǒ / I",
                   "身体": "shēntǐ / body/health",
@@ -7618,7 +7618,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l12s3n118-2',
                 cn: "天气太热了不爱吃饭。",
                 split: "天气 太 热 了 不 爱 吃饭",
-                en: "I am not feeling well. The weather is too hot, I don't want to eat.",
+                en: "The weather is too hot, I don't want to eat.",
                 dict: {
                   "天气": "tiānqì / weather",
                   "太": "tài / too",
@@ -7749,7 +7749,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s2n126',
                 cn: "我在睡觉呢。",
                 split: "我 在 睡觉 呢",
-                en: "I was sleeping. And you?",
+                en: "I was sleeping.",
                 dict: {
                   "我": "wǒ / I",
                   "在": "zài / at",
@@ -7761,7 +7761,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s2n126-2',
                 cn: "你呢？",
                 split: "你 呢",
-                en: "I was sleeping. And you?",
+                en: "And you?",
                 dict: {
                   "呢": "ne / (question particle)",
                   "你": "nǐ / you",
@@ -7771,7 +7771,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s2n127',
                 cn: "我在家看电视呢。",
                 split: "我 在 家 看 电视 呢",
-                en: "I was watching TV at home. Do you like watching TV?",
+                en: "I was watching TV at home.",
                 dict: {
                   "我": "wǒ / I",
                   "在": "zài / at",
@@ -7785,7 +7785,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s2n127-2',
                 cn: "你喜欢看电视吗？",
                 split: "你 喜欢 看 电视 吗",
-                en: "I was watching TV at home. Do you like watching TV?",
+                en: "Do you like watching TV?",
                 dict: {
                   "看": "kàn / to see/watch",
                   "电视": "diànshì / TV",
@@ -7832,7 +7832,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s3n130',
                 cn: "不是。",
                 split: "不是",
-                en: "No. Her phone number is 82304156.",
+                en: "No.",
                 dict: {
                   "不是": "bú shì / not is",
                 },
@@ -7841,7 +7841,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l13s3n130-2',
                 cn: "她的电话是82304156。",
                 split: "她的 电话 是 82304156",
-                en: "No. Her phone number is 82304156.",
+                en: "Her phone number is 82304156.",
                 dict: {
                   "她的": "tā de / her",
                   "电话": "diànhuà / phone",
@@ -8209,7 +8209,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l15s3n153',
                 cn: "很高兴认识您！",
                 split: "很 高兴 认识 您",
-                en: "Very nice to meet you! Miss Li.",
+                en: "Very nice to meet you!",
                 dict: {
                   "很": "hěn / very",
                   "高兴": "gāoxìng / happy/glad",
@@ -8221,7 +8221,7 @@ export const textbooks: Textbook[] = [
                 id: 'hsk1-l15s3n153-2',
                 cn: "李小姐。",
                 split: "李 小姐",
-                en: "Very nice to meet you! Miss Li.",
+                en: "Miss Li.",
                 dict: {
                   "李": "Lǐ / Li (surname)",
                   "小姐": "xiǎojie / Miss",
