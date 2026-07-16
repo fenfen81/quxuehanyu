@@ -247,6 +247,8 @@ export const translations = {
   chunk_completed: { zh: '已完成段落', en: 'Completed' },
   chunk_final: { zh: '整句输入', en: 'Full Sentence' },
   chunk_hint: { zh: '分段提示', en: 'Chunks' },
+  chunk_show_hint: { zh: '显示分段提示', en: 'Show Chunks' },
+  chunk_hide_hint: { zh: '隐藏分段提示', en: 'Hide Chunks' },
   chunk_full_input: { zh: '输入完整句子', en: 'Type Full Sentence' },
   chunk_no_translation: { zh: '(无翻译)', en: '(N/A)' },
 } as const

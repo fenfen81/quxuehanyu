@@ -28,6 +28,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
   const [chunkInput, setChunkInput] = useState('')
   const [fullInput, setFullInput] = useState('')
   const [showEn, setShowEn] = useState(false)
+  const [showHint, setShowHint] = useState(false)
   const [feedback, setFeedback] = useState<'none' | 'correct' | 'wrong'>('none')
 
   const inputRef = useRef<HTMLInputElement>(null)
@@ -55,6 +56,12 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
       preloadChunkAudio(chunkIdx + 1)
     }
   }, [chunkIdx, phase, mode, onPlayChunkAudio, preloadChunkAudio, chunks])
+
+  // 整句听写：从分段过渡到整句阶段时自动播放整句音频（与分段一致，不手动点）
+  useEffect(() => {
+    if (mode !== 'dictation' || phase !== 'full') return
+    onPlayAudio()
+  }, [phase, mode, onPlayAudio])
 
   const handleChunkCheck = useCallback(() => {
     sfx.play('click')
@@ -299,16 +306,29 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
         </div>
       )}
 
-      {/* 分段提示 */}
+      {/* 分段提示：默认隐藏，需要时再展开 */}
       <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-        <p className="text-xs text-slate-400 mb-1.5">{tt('chunk_hint')}</p>
-        <div className="flex flex-wrap gap-2">
-          {chunks.map((c, i) => (
-            <span key={i} className="text-sm text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200">
-              {c.replace(/\s/g, '')}
-            </span>
-          ))}
-        </div>
+        <button
+          onClick={() => { sfx.play('click'); setShowHint(v => !v) }}
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-500 hover:text-slate-700 transition-all"
+        >
+          {showHint ? tt('chunk_hide_hint') : tt('chunk_show_hint')}
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+            <path d={showHint ? 'M4 10l4-4 4 4' : 'M4 6l4 4 4-4'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </button>
+        {showHint && (
+          <>
+            <p className="text-xs text-slate-400 mb-1.5 mt-2">{tt('chunk_hint')}</p>
+            <div className="flex flex-wrap gap-2">
+              {chunks.map((c, i) => (
+                <span key={i} className="text-sm text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200">
+                  {c.replace(/\s/g, '')}
+                </span>
+              ))}
+            </div>
+          </>
+        )}
       </div>
 
       {/* 输入框 */}
