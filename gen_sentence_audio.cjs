@@ -24,18 +24,23 @@ execSync(`"${NODE}" "${ESBUILD}" src/utils/chunkSentence.ts --bundle --format=cj
 const { textbooks } = require('./tmp_content_bundle.cjs');
 const { chunkSentence } = require('./tmp_chunk_bundle.cjs');
 
-// ── 2. 删除旧句子级 mp3（保留单词音频 w-*.mp3）──
+// ── 2. 删除旧分段音频（保留单词音频 + 完整句子音频）──
+// 切分规则已变：所有 -c{n} 分段文件需重建；完整句子音频只取决于 cn，与切分无关，保留。
 if (fs.existsSync(OUTPUT_DIR)) {
   let removed = 0;
   for (const f of fs.readdirSync(OUTPUT_DIR)) {
     if (!f.endsWith('.mp3')) continue;
     if (/^w-\S+\.mp3$/.test(f)) continue;     // 保留单词音频(hash 命名)
     if (/^l\d+-w\d+\.mp3$/.test(f)) continue; // 保留教材单词音频
-    if (/^l.*\.mp3$/.test(f)) continue;       // 保留教材句子音频(本次运行已重新生成，内容正确)
-    // 其余句子级 mp3（如 hsk1-* 旧长句录音）属于上一版遗留，删除后重建
+    if (/-c\d+\.mp3$/.test(f)) {              // 分段音频：切分规则已变，一律删除重建
+      try { fs.unlinkSync(path.join(OUTPUT_DIR, f)); removed++; } catch (e) {}
+      continue;
+    }
+    if (/^(l|hsk).*\.mp3$/.test(f)) continue; // 保留完整句子音频(内容只取决于 cn)
+    // 其它遗留文件删除
     try { fs.unlinkSync(path.join(OUTPUT_DIR, f)); removed++; } catch (e) {}
   }
-  console.log(`Removed ${removed} old sentence-level mp3 files`);
+  console.log(`Removed ${removed} stale segment (-c) mp3 files`);
 }
 if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 

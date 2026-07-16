@@ -64,6 +64,27 @@ const ADV = new Set([
   '忽然', '慢慢', '马上', '正在', '已经', '刚才', '一直', '总是', '终于', '渐渐',
 ])
 const COMIT = new Set(['和', '跟', '同', '与', '及'])
+// 数词（含日期数字）
+const NUM_WORDS = new Set([
+  '零', '一', '二', '两', '三', '四', '五', '六', '七', '八', '九', '十',
+  '十一', '十二', '十三', '十四', '十五', '十六', '十七', '十八', '十九',
+  '二十', '二十一', '二十二', '二十三', '二十四', '二十五', '二十六', '二十七', '二十八', '二十九',
+  '三十', '三十一', '半', '几', '多少', '哪',
+])
+// 量词
+const MEASURE = new Set([
+  '个', '本', '只', '张', '把', '条', '件', '位', '名', '双', '对', '瓶', '杯', '碗', '盘', '棵', '颗', '朵',
+  '头', '匹', '辆', '架', '艘', '间', '层', '页', '句', '首', '篇', '封', '场', '次', '回', '遍', '顿', '些',
+  '种', '类', '点', '块', '片', '座', '根', '支', '枝', '台', '部', '套', '盒', '袋', '团', '群', '帮', '班',
+  '伙', '列', '排', '行', '队', '串', '堆', '束', '番', '倍', '克', '公斤', '斤', '米', '厘米', '公里', '元',
+  '毛', '分', '岁', '天', '年', '周', '星期', '礼拜', '日', '月', '号', '小时', '分钟', '点钟',
+])
+// 判断“号”是否构成日期单元（前面是“月”或数字）
+const isDateHao = (cur: string[], w: string): boolean => {
+  if (w !== '号') return false
+  const last = cur[cur.length - 1]
+  return last === '月' || NUM_WORDS.has(last)
+}
 
 /**
  * 将句子自动切分为语义语块
@@ -156,22 +177,31 @@ export function chunkSentence(_cn: string, split: string): string[] {
   return chunks
 }
 
-/** 轻量兜底：话题块 / 伴随词向前贴 / 副词独立 / 连动另起 */
+/** 轻量兜底：话题块 / 伴随词向前贴 / 副词独立 / 连动另起 / 数量词绑定 / 日期号单元 / 量词后名词短语 */
 function fallbackChunk(words: string[]): string[] {
   const chunks: string[] = []
   let cur: string[] = []
+  let forceBreakNext = false
+  let nounPhrase = false
   const flush = () => {
     if (cur.length) {
       chunks.push(cur.join(' '))
       cur = []
+      nounPhrase = false
     }
   }
   for (let i = 0; i < words.length; i++) {
     const w = words[i]
     let b = false
-    if (cur.length > 0) {
-      if (COMIT.has(w)) b = true // 和/跟 前断，但和 后词贴在一起（向前贴）
+    if (forceBreakNext) {
+      b = true
+      forceBreakNext = false
+    } else if (cur.length > 0) {
+      if (COMIT.has(w)) b = true
       else if (ADV.has(w)) b = true
+      else if (isDateHao(cur, w)) b = false
+      else if (MEASURE.has(w) && NUM_WORDS.has(cur[cur.length - 1])) b = false
+      else if (nounPhrase) b = false
       // 连动：块尾已有 2 个连续实词且本词也是实词 → 另起一块
       else if (
         cur.length >= 2 &&
@@ -184,7 +214,21 @@ function fallbackChunk(words: string[]): string[] {
       }
     }
     if (b) flush()
+    const prevTok = cur[cur.length - 1]
     cur.push(w)
+    // 日期“号”单元后，下一块强制断开
+    if (w === '号' && (prevTok === '月' || NUM_WORDS.has(prevTok))) forceBreakNext = true
+    // 量词后接非动词/非功能词 → 进入名词短语（量词+名词整体成块）；日期“号”除外
+    if (MEASURE.has(w) && w !== '号') {
+      const nx = words[i + 1]
+      if (
+        nx && !PRED_VERB.has(nx) && !ADV.has(nx) && !CONJ2.has(nx) &&
+        !NEG.has(nx) && !NENGYUAN.has(nx) && !COMIT.has(nx) &&
+        !SUBJECT.has(nx) && !DEMO.has(nx)
+      ) {
+        nounPhrase = true
+      }
+    }
   }
   flush()
   return chunks
