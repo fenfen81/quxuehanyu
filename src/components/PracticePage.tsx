@@ -52,7 +52,7 @@ interface PracticePageProps {
 export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: PracticePageProps) {
   const { mode, currentTextbookId, currentLessonId, currentTextId, currentIndex, setCurrentIndex } =
     usePracticeStore()
-  const { speak } = useTTS()
+  const { speak, speakChunk } = useTTS()
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const [tipText, setTipText] = useState('')
@@ -210,6 +210,13 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
       setTipColor('green')
     }
   }, [sentence, wrongMode, wrongList, wrongIdx, speak, lang])
+
+  // 分段练习：播放某一段的对应音频
+  const handlePlayChunkAudio = useCallback((chunkIdx: number, text: string) => {
+    const cur = wrongMode ? wrongList[wrongIdx] : sentence
+    if (!cur) return
+    speakChunk(cur.id, chunkIdx, text)
+  }, [wrongMode, wrongList, wrongIdx, sentence, speakChunk])
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) { sfx.play('click'); goToIndex(currentIndex - 1) }
@@ -379,7 +386,7 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
         {!wrongMode && mode === 'type' && sentence && (
           chunked ? (
             <ChunkedTypePractice key={`chunk-type-${currentIndex}`} sentence={sentence} mode="type"
-              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio} lang={lang} />
           ) : (
             <TypePractice key={`type-${currentIndex}`} sentence={sentence} onAnswer={handleAnswer} lang={lang} />
           )
@@ -387,7 +394,7 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
         {!wrongMode && mode === 'dictation' && sentence && (
           chunked ? (
             <ChunkedTypePractice key={`chunk-dict-${currentIndex}`} sentence={sentence} mode="dictation"
-              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
+              onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} onPlayChunkAudio={handlePlayChunkAudio} lang={lang} />
           ) : (
             <DictationPractice key={`dict-${currentIndex}`} onAnswer={handleAnswer} onPlayAudio={handlePlayAudio} lang={lang} />
           )

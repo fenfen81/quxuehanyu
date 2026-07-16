@@ -11,10 +11,11 @@ interface ChunkedTypePracticeProps {
   mode: 'type' | 'dictation'
   onAnswer: (userAnswer: string) => boolean
   onPlayAudio: () => void
+  onPlayChunkAudio?: (chunkIdx: number, chunkText: string) => void
   lang?: Lang
 }
 
-export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, lang = 'zh' }: ChunkedTypePracticeProps) {
+export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onPlayChunkAudio, lang = 'zh' }: ChunkedTypePracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const chunks = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence])
@@ -88,6 +89,17 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, lan
     onPlayAudio()
   }, [onPlayAudio])
 
+  // 分段阶段：播放当前段的对应音频（无 MP3 时回退朗读本段汉字）
+  const handlePlayChunk = useCallback(() => {
+    sfx.play('click')
+    if (onPlayChunkAudio) {
+      const chunkText = (chunks[chunkIdx] || '').replace(/\s/g, '')
+      onPlayChunkAudio(chunkIdx, chunkText)
+    } else {
+      onPlayAudio()
+    }
+  }, [onPlayChunkAudio, onPlayAudio, chunkIdx, chunks])
+
   // ── 阶段一：逐段练习 ──
   if (phase === 'chunk') {
     const currentEn = chunkEns[chunkIdx] || ''
@@ -122,22 +134,24 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, lan
           </div>
         )}
 
-        {/* dictation 模式：播放按钮 + 可选英文 */}
-        {!isType && (
-          <div className="space-y-3">
-            <div className="flex items-center justify-center gap-3">
-              <button
-                onClick={handlePlayAudio}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teal-500 to-emerald-500
-                           text-white rounded-2xl text-sm font-semibold shadow-sm hover:shadow-md
-                           hover:from-teal-600 hover:to-emerald-600 transition-all active:scale-[0.97]"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <path d="M11 5L6 9H2v6h4l5 4V5zM19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.08"
-                        stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                {tt('dict_play')}
-              </button>
+        {/* 分段播放：type/dictation 都播放当前段的对应音频 */}
+        <div className="space-y-3">
+          <div className="flex items-center justify-center">
+            <button
+              onClick={handlePlayChunk}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teal-500 to-emerald-500
+                         text-white rounded-2xl text-sm font-semibold shadow-sm hover:shadow-md
+                         hover:from-teal-600 hover:to-emerald-600 transition-all active:scale-[0.97]"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M11 5L6 9H2v6h4l5 4V5zM19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.08"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              {tt('dict_play')}
+            </button>
+          </div>
+          {!isType && (
+            <div className="flex items-center justify-center">
               <button
                 onClick={() => { sfx.play('click'); setShowEn(!showEn) }}
                 className={`inline-flex items-center gap-1.5 px-4 py-3 rounded-2xl text-sm font-semibold transition-all
@@ -146,13 +160,13 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, lan
                 {showEn ? tt('chunk_hide_en') : tt('chunk_show_en')}
               </button>
             </div>
-            {showEn && (
-              <div className="p-3 rounded-xl bg-blue-50/60 border border-blue-200/40 text-center">
-                <p className="text-sm text-slate-700 font-medium">{currentEn || tt('chunk_no_translation')}</p>
-              </div>
-            )}
-          </div>
-        )}
+          )}
+          {showEn && !isType && (
+            <div className="p-3 rounded-xl bg-blue-50/60 border border-blue-200/40 text-center">
+              <p className="text-sm text-slate-700 font-medium">{currentEn || tt('chunk_no_translation')}</p>
+            </div>
+          )}
+        </div>
 
         {/* 输入框 */}
         <div className="space-y-1.5">
