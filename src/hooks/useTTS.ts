@@ -98,6 +98,7 @@ export function useTTS() {
         const onCanPlay = () => {
           audio.removeEventListener('canplay', onCanPlay)
           audio.removeEventListener('error', onError)
+          if (timer) clearTimeout(timer) // MP3 确认可播即取消机械音兜底，避免长句超 4s 后叠加机械音
           audio.onended = () => finish('ok')
           audio.play().catch(() => safeFallback(fallbackText))
         }
@@ -131,6 +132,7 @@ export function useTTS() {
         if (audio.readyState >= 2) {
           audio.removeEventListener('canplay', onCanPlay)
           audio.removeEventListener('error', onError)
+          if (timer) clearTimeout(timer) // 同上：可直接播时取消机械音兜底
           audio.onended = () => finish('ok')
           audio.play().catch(() => safeFallback(fallbackText))
         } else if (
