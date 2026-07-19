@@ -19,8 +19,8 @@ execSync(`"${NODE}" "${ESBUILD}" src/utils/chunkSentence.ts --bundle --format=cj
 const { textbooks } = require('./tmp_content_bundle.cjs');
 const { chunkSentence } = require('./tmp_chunk_bundle.cjs');
 
-// 断点续传模式：不再删除已生成的 HSK5 分段音频，已存在(>1000字节)的文件会在生成阶段自动跳过。
-// content.ts 自首次生成以来未变更，已有分段文件有效。若需强制重建，取消下方注释。
+// 断点续传模式：已生成的 -c 分段文件有效（来自新的带标点 chunks），不再强制删除。
+// 仅首次重建时取消下方注释以清除旧 -c 文件。本段保持注释以保留已生成的 226 个有效分段。
 // if (fs.existsSync(OUTPUT_DIR)) {
 //   let removed = 0;
 //   for (const f of fs.readdirSync(OUTPUT_DIR)) {

@@ -123,7 +123,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
 
   // ── 阶段一：逐段练习 ──
   if (phase === 'chunk') {
-    const currentEn = chunkEns[chunkIdx] || ''
+    const currentEn = chunkEns[chunkIdx] || sentence.en
     const currentCn = chunks[chunkIdx] || ''
     const isType = mode === 'type'
 

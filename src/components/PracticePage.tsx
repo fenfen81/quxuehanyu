@@ -128,7 +128,8 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
     (userAnswer: string) => {
       const cur = wrongMode ? wrongList[wrongIdx] : sentence
       if (!cur) return false
-      const reg = /[。？！，、；：]/g
+      // 仅保留汉字与字母数字后比对（自动忽略所有标点/引号/空格，兼容拼句意群含内部空格、HSK5 课文带引号等情况）
+      const reg = /[^一-鿿a-zA-Z0-9]/g
       const std = cur.cn.replace(reg, '')
       const user = userAnswer.replace(reg, '')
       const correct = user === std

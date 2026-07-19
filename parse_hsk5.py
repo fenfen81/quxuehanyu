@@ -28,6 +28,24 @@ with open('src/data/hskWords.ts', encoding='utf-8') as f:
             hsk[m.group('hanzi')] = (m.group('pinyin'), m.group('english'))
 print(f'  hskWords entries: {len(hsk)}')
 
+# ── 用 hskWords 词表 + 补充短语构建 jieba 用户词典，修正分词边界 ──
+print('Building jieba user dict ...')
+_userdict_path = 'hsk5_userdict.txt'
+_extra_words = [
+    '几年如一日', '几年如一日地', '红过脸', '事红过脸', '离婚', '全身', '起来', '可能性',
+    '第一', '第二', '第三', '他俩', '婚姻生活', '暗暗', '点头', '对比', '入围', '瘫痪',
+    '恩爱', '评委', '鼓励', '照顾', '感动', '感人', '爱护', '努力', '故事', '相亲相爱',
+    '相敬如宾', '前几年', '全身瘫痪', '一直', '从来', '为了', '由于', '对于', '通过',
+]
+with open(_userdict_path, 'w', encoding='utf-8') as ud:
+    for w in hsk.keys():
+        if len(w) >= 2:
+            ud.write(f'{w} 100000 n\n')
+    for w in _extra_words:
+        ud.write(f'{w} 100000 n\n')
+jieba.load_userdict(_userdict_path)
+print(f'  user dict size: {len(hsk) + len(_extra_words)}')
+
 def word_pinyin(w):
     return ''.join(x[0] for x in pinyin(w, style=Style.TONE, heteronym=False))
 
@@ -84,7 +102,8 @@ for li, lesson in enumerate(lessons, 1):
     sentences = []
     for si, s in enumerate(lesson['sentences'], 1):
         cn = s['cn']
-        seg = [w for w in jieba.cut(cn) if not is_punct(w)]
+        # 保留标点 token（逗号/句号等），供 chunkSentence 做分句切分
+        seg = list(jieba.cut(cn))
         split = ' '.join(seg)
         # dict：每个分词查 hskWords，否则 pypinyin 兜底
         d = {}

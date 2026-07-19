@@ -3,6 +3,7 @@ import { sfx } from '@/utils/sfx'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
+import { chunkSentence } from '@/utils/chunkSentence'
 
 interface DragPracticeProps {
   sentence: Sentence
@@ -33,7 +34,8 @@ const isTouchDevice = (() => {
 
 export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: DragPracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
-  const words = useMemo(() => sentence.split.split(' '), [sentence.split])
+  // 拼句碎片改为"意群 chunks"（与打字/听写分段练习保持一致），不再逐词拆分
+  const words = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence.cn, sentence.split])
 
   const [sourceItems, setSourceItems] = useState<string[]>(() => shuffle([...words]))
   const [targetItems, setTargetItems] = useState<string[]>([])
@@ -105,7 +107,8 @@ export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: D
 
   const handleCheck = useCallback(() => {
     sfx.play('click')
-    onAnswer(targetItems.join(''))
+    // chunks 可能含内部空格，标准化为无空格字符串再与 cn 比对
+    onAnswer(targetItems.join('').replace(/\s/g, ''))
   }, [targetItems, onAnswer])
 
   const handleReset = useCallback(() => {
