@@ -13,7 +13,6 @@ import { hskWords } from '../data/hskWords'
 
 /** 标点符号 token（逗号/句号/分号/冒号/顿号等） */
 const PUNCT = new Set(['。', '！', '？', '；', '…', '，', '、', '：', '“', '”', '‘', '’', '（', '）'])
-const STRONG = new Set(['。', '！', '？', '；', '…'])
 
 /** 连接词 / 复句关联词：单独独立成碎片，给学习者语序提示 */
 const CONJ = new Set([
@@ -53,6 +52,11 @@ const MAX_CHUNK = 13
 /** 把一组词（可能含内部空格）合并成展示字符串 */
 function joinWords(words: string[]): string {
   return words.join(' ').replace(/\s+/g, ' ').trim()
+}
+
+/** 规范化输入：移除空格、标点等非核心字符，仅保留汉字与字母数字，用于答案比对 */
+export function normalizeText(s: string): string {
+  return s.replace(/[^一-鿿a-zA-Z0-9]/g, '').toLowerCase()
 }
 
 /**
