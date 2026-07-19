@@ -1,7 +1,7 @@
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
-import { chunkSentence, getChunkEns, normalizeText } from '@/utils/chunkSentence'
+import { chunkSentence, normalizeText } from '@/utils/chunkSentence'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
@@ -20,7 +20,6 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const chunks = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence])
-  const chunkEns = useMemo(() => getChunkEns(chunks, sentence.dict), [chunks, sentence.dict])
   const isSingleChunk = chunks.length <= 1
 
   const [phase, setPhase] = useState<'chunk' | 'full'>('chunk')
@@ -123,7 +122,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
 
   // ── 阶段一：逐段练习 ──
   if (phase === 'chunk') {
-    const currentEn = chunkEns[chunkIdx] || sentence.en
+    const currentEn = sentence.en || ''
     const currentCn = chunks[chunkIdx] || ''
     const isType = mode === 'type'
 
