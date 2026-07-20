@@ -11676,7 +11676,7 @@ export const textbooks: Textbook[] = [
         "texts": [
           {
             "id": "hsk5-l7",
-            "label": "课文",
+            "label": "课文一：盲人摸象",
             "sentences": [
               {
                 "id": "hsk5-l7n1",
@@ -11917,6 +11917,12 @@ export const textbooks: Textbook[] = [
                   "”": "”"
                 }
               },
+            ]
+          },
+          {
+            "id": "hsk5-l7-2",
+            "label": "课文二：精诚所至，金石为开",
+            "sentences": [
               {
                 "id": "hsk5-l7n10",
                 "cn": "西汉时期有一位著名的将军叫李广，他善于骑马射箭，作战勇敢，被称为 “飞将军”。",
