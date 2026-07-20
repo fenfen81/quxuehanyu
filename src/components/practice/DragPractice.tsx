@@ -34,8 +34,13 @@ const isTouchDevice = (() => {
 
 export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: DragPracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
-  // 拼句碎片改为"意群 chunks"（与打字/听写分段练习保持一致），不再逐词拆分
-  const words = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence.cn, sentence.split])
+  // 仅 HSK5（上）使用新意群分段；其余教材（汉语教程、HSK1-4）按原始 sentence.split 逐词分词
+  const isHsk5 = sentence.id.startsWith('hsk5-')
+  const words = useMemo(() => {
+    return isHsk5
+      ? chunkSentence(sentence.cn, sentence.split)
+      : sentence.split.split(/\s+/).filter(Boolean)
+  }, [sentence.cn, sentence.split, isHsk5])
 
   const [sourceItems, setSourceItems] = useState<string[]>(() => shuffle([...words]))
   const [targetItems, setTargetItems] = useState<string[]>([])

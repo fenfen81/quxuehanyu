@@ -19,7 +19,13 @@ interface ChunkedTypePracticeProps {
 export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onPlayChunkAudio, preloadChunkAudio, lang = 'zh' }: ChunkedTypePracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
-  const chunks = useMemo(() => chunkSentence(sentence.cn, sentence.split), [sentence])
+  // 仅 HSK5（上）使用新意群分段；其余教材按原始 sentence.split 逐词分词
+  const isHsk5 = sentence.id.startsWith('hsk5-')
+  const chunks = useMemo(() => {
+    return isHsk5
+      ? chunkSentence(sentence.cn, sentence.split)
+      : sentence.split.split(/\s+/).filter(Boolean)
+  }, [sentence])
   const isSingleChunk = chunks.length <= 1
 
   const [phase, setPhase] = useState<'chunk' | 'full'>('chunk')
