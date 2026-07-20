@@ -36,6 +36,8 @@ export interface Sentence {
   split: string
   en: string
   dict: Record<string, string>
+  /** 分段英文：与 chunkSentence(cn, split) 输出一一对应；打字/听写模式按段展示英文 */
+  chunkEn?: string[]
 }
 
 export type PracticeMode = 'drag' | 'type' | 'dictation'

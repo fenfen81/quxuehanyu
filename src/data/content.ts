@@ -1,4 +1,5 @@
 import type { Category, CategorySlug, Textbook } from '@/types'
+import { hsk5ChunkEn } from './hsk5ChunkEn'
 
 export const categories: Category[] = [
   { slug: 'comprehensive', name: '综合汉语', nameEn: 'Comprehensive Chinese', description: '系统学习听、说、读、写，全面提高汉语水平', icon: '📚' },
@@ -18052,6 +18053,19 @@ export const textbooks: Textbook[] = [
     ]
   }
 ]
+
+// 将 HSK5(上) 分段英文（chunkEn，按 chunkSentence 输出顺序）挂载到对应句子，
+// 供打字 / 听写模式按段展示英文。无对应数据时该句保持 chunkEn 未定义（UI 回退整句英文）。
+for (const tb of textbooks) {
+  for (const lesson of tb.lessons) {
+    for (const text of lesson.texts) {
+      for (const s of text.sentences) {
+        const ce = hsk5ChunkEn[s.id]
+        if (ce) s.chunkEn = ce
+      }
+    }
+  }
+}
 
 export function getTextbookById(id: string): Textbook | undefined {
   return textbooks.find((t) => t.id === id)
