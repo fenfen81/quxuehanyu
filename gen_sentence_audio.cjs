@@ -4,6 +4,11 @@
 //         public/audio/{sentenceId}-c{n}.mp3 (segment n, only when chunks > 1)
 // Voice: zh-CN-XiaoxiaoNeural (natural female). Old sentence-level mp3s are removed;
 // textbook word audio (lN-wN.mp3) is preserved.
+//
+// 分段规则必须与练习组件一致（见 DragPractice.tsx / ChunkedTypePractice.tsx）：
+//   - HSK5（id 以 'hsk5-' 开头）：意群分段 chunkSentence(cn, split)
+//   - 其余教材（汉语教程、HSK1 等）：原始逐词分词 split.split(/\s+/)
+// 删除阶段保留 HSK5 的 -c 分段（已对齐、避免重生成），仅重建非 HSK5 分段。
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
@@ -32,8 +37,10 @@ if (fs.existsSync(OUTPUT_DIR)) {
     if (!f.endsWith('.mp3')) continue;
     if (/^w-\S+\.mp3$/.test(f)) continue;     // 保留单词音频(hash 命名)
     if (/^l\d+-w\d+\.mp3$/.test(f)) continue; // 保留教材单词音频
-    if (/-c\d+\.mp3$/.test(f)) {              // 分段音频：切分规则已变，一律删除重建
-      try { fs.unlinkSync(path.join(OUTPUT_DIR, f)); removed++; } catch (e) {}
+    if (/-c\d+\.mp3$/.test(f)) {              // 分段音频
+      if (f.startsWith('hsk5-')) continue;    // 保留 HSK5 意群分段（已对齐，避免重生成 1760 段）
+      if (process.env.RESUME_SEG) continue;   // 续跑模式：保留已生成的非 HSK5 逐词分段，仅补齐缺失
+      try { fs.unlinkSync(path.join(OUTPUT_DIR, f)); removed++; } catch (e) {} // 非 HSK5：改回逐词分段，删除旧意群分段重建
       continue;
     }
     if (/^(l|hsk).*\.mp3$/.test(f)) continue; // 保留完整句子音频(内容只取决于 cn)
@@ -55,7 +62,11 @@ for (const tb of textbooks) {
         sentenceCount++;
         const fullText = clean(s.cn);
         if (fullText) tasks.push({ file: `${s.id}.mp3`, text: fullText });
-        const chunks = chunkSentence(s.cn, s.split);
+        // 分段规则与练习组件保持一致：HSK5 用意群，其余教材用原始逐词分词
+        const isH5 = s.id.startsWith('hsk5-');
+        const chunks = isH5
+          ? chunkSentence(s.cn, s.split)
+          : s.split.split(/\s+/).filter(Boolean);
         if (chunks.length > 1) {
           chunks.forEach((c, i) => {
             const ct = clean(c);
