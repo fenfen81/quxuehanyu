@@ -12,7 +12,7 @@ const tsContent = fs.readFileSync(path.join(__dirname, 'src', 'data', 'textbookD
 
 // Match pattern: id: 'lN-wN', hanzi: '...', pinyin: '...'
 // Handle both single quotes and escaped quotes in values
-const wordRegex = /\{\s*id:\s*'((?:l\d+|hsk1-l\d+)-w\d+)'\s*,\s*hanzi:\s*'([^']+)'/g;
+const wordRegex = /\{\s*id:\s*'((?:l\d+|hsk1-l\d+|hsk5-l\d+)-w\d+)'\s*,\s*hanzi:\s*'([^']+)'/g;
 const words = [];
 let match;
 while ((match = wordRegex.exec(tsContent)) !== null) {
@@ -51,7 +51,7 @@ const existing = new Set(
 
 // Filter to only textbook word IDs (start with 'l' and contain '-w')
 const existingTextbook = new Set(
-  [...existing].filter(id => /^(?:l\d+|hsk1-l\d+)-w\d+$/.test(id))
+  [...existing].filter(id => /^(?:l\d+|hsk1-l\d+|hsk5-l\d+)-w\d+$/.test(id))
 );
 
 const toGenerate = targetWords.filter(w => !existingTextbook.has(w.id));
@@ -153,7 +153,7 @@ async function main() {
 
   // Count textbook audio files
   const tbFiles = fs.readdirSync(OUTPUT_DIR)
-    .filter(f => f.endsWith('.mp3') && /^(?:l\d+|hsk1-l\d+)-w\d+\.mp3$/.test(f));
+    .filter(f => f.endsWith('.mp3') && /^(?:l\d+|hsk1-l\d+|hsk5-l\d+)-w\d+\.mp3$/.test(f));
   console.log(`\n${'='.repeat(50)}`);
   console.log(`Done! Success: ${success}, Failed: ${failed}`);
   console.log(`Textbook audio files: ${tbFiles.length}`);
