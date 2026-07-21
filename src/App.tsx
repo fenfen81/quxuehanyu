@@ -1,16 +1,20 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { categories } from '@/data/content'
 import { usePracticeStore } from '@/hooks/usePracticeStore'
 import { CategoryGrid } from '@/components/CategoryGrid'
 import { TextbookList } from '@/components/TextbookList'
 import { PracticePage } from '@/components/PracticePage'
 import WordCardPage from '@/components/WordCardPage'
+import RegisterPage from '@/components/RegisterPage'
+import { supabase } from '@/lib/supabaseClient'
+import { loadProgress, saveProgress } from '@/lib/progress'
+import type { Session } from '@supabase/supabase-js'
 import type { CategorySlug } from '@/types'
 import type { HskWord } from '@/data/hskWords'
 import { useLang } from '@/i18n/useLang'
 import { t } from '@/i18n/translations'
 
-type Page = 'home' | 'category' | 'practice' | 'words'
+type Page = 'home' | 'category' | 'practice' | 'words' | 'register'
 
 export function App() {
   const [page, setPage] = useState<Page>('home')
@@ -23,6 +27,23 @@ export function App() {
   })
   const { lang, toggle } = useLang()
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
+
+  // ── 登录状态：未登录则全站仅显示注册/登录 ──
+  const [session, setSession] = useState<Session | null>(null)
+  const [authLoading, setAuthLoading] = useState(true)
+  const [progressReady, setProgressReady] = useState(false)
+  const loadedUserIdRef = useRef<string | null>(null)
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data }) => {
+      setSession(data.session)
+      setAuthLoading(false)
+    })
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => {
+      setSession(s)
+      if (s) setPage('home')
+    })
+    return () => sub.subscription.unsubscribe()
+  }, [])
 
   // ── 游戏化状态 ──
   const [xp, setXp] = useState(() => {
@@ -43,6 +64,39 @@ export function App() {
   useEffect(() => { localStorage.setItem('juyou-streak', String(streak)) }, [streak])
   useEffect(() => { localStorage.setItem('juyou-done', String(totalDone)) }, [totalDone])
   useEffect(() => { localStorage.setItem('quxue-wrong-words', JSON.stringify(wrongWords)) }, [wrongWords])
+
+  // ── 登录后：从云端读取学习进度（仅在该用户尚未加载时）──
+  useEffect(() => {
+    if (!session) {
+      // 退出登录：重置标记，下次登录重新加载
+      loadedUserIdRef.current = null
+      setProgressReady(false)
+      return
+    }
+    const uid = session.user.id
+    if (loadedUserIdRef.current === uid) return
+    let cancelled = false
+    loadProgress(uid).then((res) => {
+      if (cancelled) return
+      setXp(res.xp)
+      setStreak(res.streak)
+      setTotalDone(res.totalDone)
+      setWrongWords(res.wrongWords)
+      loadedUserIdRef.current = uid
+      setProgressReady(true)
+    })
+    return () => { cancelled = true }
+  }, [session])
+
+  // ── 改动后防抖写回云端（仅在已加载、且登录状态下）──
+  useEffect(() => {
+    if (!session || !progressReady) return
+    const uid = session.user.id
+    const handle = setTimeout(() => {
+      saveProgress(uid, { xp, streak, totalDone, wrongWords })
+    }, 400)
+    return () => clearTimeout(handle)
+  }, [xp, streak, totalDone, wrongWords, session, progressReady])
 
   const level = Math.floor(xp / 100) + 1
   const xpInLevel = xp % 100
@@ -69,6 +123,16 @@ export function App() {
     setSidebarOpen(false)
   }
 
+  const goRegister = () => {
+    setPage('register')
+    setSidebarOpen(false)
+  }
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut()
+    setPage('home')
+  }
+
   const handleWrongWord = (word: HskWord) => {
     setWrongWords(prev => {
       if (prev.find(w => w.id === word.id)) return prev
@@ -87,6 +151,31 @@ export function App() {
       vocational: t('cat_vocational_desc', lang),
     }
     return map[c.slug] || c.description
+  }
+
+  // ── 加载中 ──
+  if (authLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center" style={{ background: '#F8F6FF' }}>
+        <div className="text-slate-400 text-sm animate-pulse">加载中…</div>
+      </div>
+    )
+  }
+
+  // ── 登录墙：未登录只显示注册/登录页 ──
+  if (!session) {
+    return (
+      <div className="min-h-screen flex flex-col" style={{ background: '#F8F6FF' }}>
+        <div className="flex-1 flex items-center justify-center px-4 py-10">
+          <RegisterPage onGoHome={goHome} />
+        </div>
+        <footer className="bg-white py-5 text-center border-t" style={{ borderColor: 'rgba(0,0,0,0.04)' }}>
+          <div className="max-w-5xl mx-auto px-4 text-xs" style={{ color: '#A69BBF' }}>
+            {tt('footer')}
+          </div>
+        </footer>
+      </div>
+    )
   }
 
   return (
@@ -152,6 +241,17 @@ export function App() {
             {tt('lang_toggle')}
           </button>
 
+          {/* 退出登录 */}
+          {session && (
+            <button
+              onClick={handleLogout}
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 hover:bg-red-100 text-slate-600 hover:text-red-600 border border-slate-200"
+              title="退出登录"
+            >
+              退出
+            </button>
+          )}
+
           {/* 游戏化状态栏 */}
           <div className="flex items-center gap-3 sm:gap-4">
             {streak > 0 && (
@@ -196,6 +296,11 @@ export function App() {
         `}>
           <NavItem icon="🏠" label={tt('nav_home')} active={page === 'home'} onClick={goHome} />
           <NavItem icon="📖" label={tt('nav_words')} active={page === 'words'} onClick={goWords} badge={wrongWords.length > 0 ? wrongWords.length : undefined} />
+          {session ? (
+            <NavItem icon="🚪" label={lang === 'en' ? 'Log out' : '退出登录'} active={false} onClick={handleLogout} />
+          ) : (
+            <NavItem icon="🔐" label={lang === 'en' ? 'Sign up / Log in' : '注册 / 登录'} active={page === 'register'} onClick={goRegister} />
+          )}
           <div className="mx-4 my-2 border-t border-slate-100" />
           <p className="px-4 text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">{tt('nav_practice')}</p>
           {categories.map(c => (
@@ -377,6 +482,11 @@ export function App() {
             />
           )}
 
+          {/* ── 注册 / 登录页 ── */}
+          {page === 'register' && (
+            <RegisterPage onGoHome={goHome} />
+          )}
+
         </main>
       </div>
 
@@ -385,6 +495,11 @@ export function App() {
         <MobileNavBtn icon="🏠" label={tt('nav_home')}   active={page==='home'}  onClick={goHome} />
         <MobileNavBtn icon="📖" label={tt('nav_words_short')}   active={page==='words'} onClick={goWords} />
         <MobileNavBtn icon="📚" label={tt('nav_practice_short')}   active={page==='category'||page==='practice'} onClick={() => handleSelectCategory(categories[0]?.slug as CategorySlug)} />
+        {session ? (
+          <MobileNavBtn icon="🚪" label={lang === 'en' ? 'Log out' : '退出'} active={false} onClick={handleLogout} />
+        ) : (
+          <MobileNavBtn icon="🔐" label={lang === 'en' ? 'Account' : '账号'} active={page==='register'} onClick={goRegister} />
+        )}
       </nav>
       <div className="sm:hidden h-16" /> {/* 底部导航占位 */}
 

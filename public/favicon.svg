@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+  <!-- 对话气泡（代表听说 / TTS 语音核心功能） -->
+  <path d="M16 18 h32 a8 8 0 0 1 8 8 v14 a8 8 0 0 1 -8 8 h-18 l-9 8 v-8 h-5 a8 8 0 0 1 -8 -8 v-14 a8 8 0 0 1 8 -8 z" fill="#ffffff"/>
+  <!-- 声波（紫，寓意“听汉语、说汉语”） -->
+  <g fill="none" stroke="#7C3AED" stroke-width="3.2" stroke-linecap="round">
+    <path d="M26 28 q3.5 6 0 12"/>
+    <path d="M33 24 q4.5 10 0 20"/>
+    <path d="M40 28 q3.5 6 0 12"/>
+  </g>
+</svg>
