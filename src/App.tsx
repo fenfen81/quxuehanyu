@@ -40,7 +40,8 @@ export function App() {
     })
     const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => {
       setSession(s)
-      if (s) setPage('home')
+      // 仅"刚登录"时回到首页；token 刷新(TOKEN_REFRESHED)等不应重置当前页面
+      if (_event === 'SIGNED_IN') setPage('home')
     })
     return () => sub.subscription.unsubscribe()
   }, [])

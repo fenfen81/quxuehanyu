@@ -159,3 +159,4 @@ const chunks = isHsk5
 6. **安卓 speechSynthesis 在 useEffect/setTimeout 被丢弃** → 唯一可靠方案预生成 MP3 + Audio.play()。
 7. **Node 替代 Python**：沙盒有时拦截 Python 文件操作，Node fs 更可靠。
 8. **后台任务约 2 分钟上限**；前台长 timeout（如 580000）可绕过。
+9. **onAuthStateChange 误重置页面**：`supabase.auth.onAuthStateChange` 回调里曾写 `if (s) setPage('home')`，但 Supabase 在标签页失焦再聚焦（`visibilitychange`）/ 网络恢复时会自动刷新 token 并触发该回调，导致用户切窗口/开文件夹就被弹回首页。修复：仅在 `_event === 'SIGNED_IN'`（真正登录）时才 `setPage('home')`，token 刷新（TOKEN_REFRESHED）等不得重置当前页面。
