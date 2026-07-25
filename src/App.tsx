@@ -40,8 +40,10 @@ export function App() {
     })
     const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => {
       setSession(s)
-      // 仅"刚登录"时回到首页；token 刷新(TOKEN_REFRESHED)等不应重置当前页面
-      if (_event === 'SIGNED_IN') setPage('home')
+      // 注意：绝不要在此处 setPage('home')。Supabase 会在标签页失焦再聚焦
+      // (visibilitychange) 或网络恢复时自动刷新 token 并触发本回调，任何把页面
+      // 重置为首页的逻辑都会把正在使用中的用户弹回首页。登录成功后的首页由
+      // useState 默认值 'home' 保证，无需在此干预。
     })
     return () => sub.subscription.unsubscribe()
   }, [])
