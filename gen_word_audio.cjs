@@ -15,9 +15,11 @@ while ((match = wordRegex.exec(tsContent)) !== null) {
   words.push({ id: match[1], hanzi: match[2] });
 }
 
-// Generate HSK 1-3 (600 words)
-const targetWords = words.filter(w => w.id.startsWith('hsk1_') || w.id.startsWith('hsk2_') || w.id.startsWith('hsk3_'));
-console.log(`Total words: ${words.length}, generating for HSK1-3: ${targetWords.length}`);
+// Target levels: env HSK_LEVELS (default "4,5,6") — regenerate natural voice for HSK4-6
+// (HSK1-3 already have natural XiaoxiaoNeural audio; only 4-6 fell back to mechanical speechSynthesis)
+const targetLevels = (process.env.HSK_LEVELS || '4,5,6').split(',').map(s => `hsk${s.trim()}_`);
+const targetWords = words.filter(w => targetLevels.some(p => w.id.startsWith(p)));
+console.log(`Total words: ${words.length}, generating for levels [${targetLevels.join(', ')}]: ${targetWords.length}`);
 
 // Create output directory
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -85,7 +87,7 @@ function generateWord(word) {
 }
 
 async function main() {
-  const BATCH_SIZE = 3;
+  const BATCH_SIZE = 4;
   let success = 0;
   let failed = 0;
   const failedWords = [];
