@@ -17,11 +17,11 @@ function textbookWordToHskWord(w: TextbookWord): HskWord {
 }
 
 // 教材生词例句查找
-const tbExampleMap = new Map<string, { cn: string; en: string }>()
+const tbExampleMap = new Map<string, { cn: string; en: string; pinyin?: string }>()
 for (const tb of textbookVocabList) {
   for (const lesson of tb.lessons) {
     for (const w of lesson.words) {
-      tbExampleMap.set(w.id, { cn: w.exampleCn, en: w.exampleEn })
+      tbExampleMap.set(w.id, { cn: w.exampleCn, en: w.exampleEn, pinyin: w.examplePinyin })
     }
   }
 }
@@ -251,6 +251,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [showPlanModal, setShowPlanModal]     = useState(false)
   const [autoSpeak, setAutoSpeak]             = useState(true)
   const [showPinyin, setShowPinyin]           = useState(true)
+  const [showExamplePinyin, setShowExamplePinyin] = useState(true)
+  const [showExampleAudio, setShowExampleAudio]   = useState(true)
   const [searchQ, setSearchQ]                 = useState('')
   const [searchResults, setSearchResults]     = useState<HskWord[]>([])
   const [showSettings, setShowSettings]       = useState(false)
@@ -610,6 +612,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
             {( ['flashcard','quiz','type'] as Mode[]).map(m=><button key={m} onClick={()=>{setMode(m);sfx.play('click')}} className={`flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-xs font-semibold transition-all border ${mode===m?'bg-indigo-500 text-white border-indigo-500 shadow':'bg-white text-slate-600 border-slate-200 hover:border-indigo-300'}`}>{m==='flashcard'?'🃏 '+tt('words_card'):m==='quiz'?'🎯 '+tt('words_quiz'):'⌨️ '+tt('words_type')}</button>)}
             <button onClick={()=>{setAutoSpeak(a=>!a);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${autoSpeak?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{autoSpeak?'🔊':'🔇'}{tt('words_auto_read')}</button>
             <button onClick={()=>{setShowPinyin(p=>!p);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showPinyin?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showPinyin?'🔤':'🙈'}{tt('words_pinyin_toggle')}</button>
+            <button onClick={()=>{setShowExamplePinyin(p=>!p);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showExamplePinyin?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showExamplePinyin?'🈶':'🙈'}{tt('words_example_pinyin_toggle')}</button>
+            <button onClick={()=>{setShowExampleAudio(a=>!a);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showExampleAudio?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showExampleAudio?'🔊':'🔇'}{tt('words_example_audio_toggle')}</button>
             {mode==='type' && (<div className="flex rounded-lg border border-slate-200 overflow-hidden ml-1"><button onClick={()=>{setTypeHintMode('english');sfx.play('click')}} className={`px-3 py-1.5 text-xs font-semibold ${typeHintMode==='english'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>英文释义</button><button onClick={()=>{setTypeHintMode('pinyin');sfx.play('click')}} className={`px-3 py-1.5 text-xs font-semibold border-l border-slate-200 ${typeHintMode==='pinyin'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>拼音</button></div>)}
           </div>
 
@@ -649,10 +653,14 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                     {/* 例句：教材优先使用自带例句，HSK使用genExample */}
                     {(() => {
                       const tbEx = tbExampleMap.get(current.id)
-                      const ex = tbEx || genExample(current)
+                      const ex: { cn: string; en: string; pinyin?: string } = tbEx || genExample(current)
                       return (
                         <div className="mt-1 px-4 py-2.5 rounded-xl bg-white/60 border border-indigo-100 max-w-[92%]">
-                          <div className="text-sm font-medium text-slate-700">{ex.cn}</div>
+                          <div className="flex items-center gap-2">
+                            <div className="text-sm font-medium text-slate-700">{ex.cn}</div>
+                            {showExampleAudio && <SpeakBtn text={ex.cn} wordId={current.id + '-ex'} className="w-7 h-7 text-xs bg-indigo-50 text-indigo-600 shrink-0" />}
+                          </div>
+                          {showExamplePinyin && ex.pinyin && <div className="text-xs text-indigo-400 mt-0.5 font-medium">{ex.pinyin}</div>}
                           <div className="text-xs text-slate-400 mt-0.5">{ex.en}</div>
                         </div>
                       )

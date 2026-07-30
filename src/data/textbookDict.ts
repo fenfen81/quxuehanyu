@@ -13,6 +13,7 @@ export interface TextbookWord {
   english: string
   exampleCn: string
   exampleEn: string
+  examplePinyin?: string
 }
 
 export interface LessonVocab {
@@ -52,6 +53,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'you（单数）',
             exampleCn: '你好！',
             exampleEn: 'Hello to you!',
+            examplePinyin: 'Nǐ hǎo!',
           },
           {
             id: 'l1-w2',
@@ -61,6 +63,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'good；fine；well',
             exampleCn: '我很好。',
             exampleEn: 'I’m fine.',
+            examplePinyin: 'Wǒ hěn hǎo.',
           },
           {
             id: 'l1-w3',
@@ -70,6 +73,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one',
             exampleCn: '这是一本书。',
             exampleEn: 'This is one book.',
+            examplePinyin: 'Zhè shì yì běn shū.',
           },
           {
             id: 'l1-w4',
@@ -79,6 +83,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'five',
             exampleCn: '我有五个朋友。',
             exampleEn: 'I have five friends.',
+            examplePinyin: 'Wǒ yǒu wǔ gè péngyou.',
           },
           {
             id: 'l1-w5',
@@ -88,6 +93,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'eight',
             exampleCn: '这里有八张桌子。',
             exampleEn: 'There are eight desks here.',
+            examplePinyin: 'Zhèlǐ yǒu bā zhāng zhuōzi.',
           },
           {
             id: 'l1-w6',
@@ -97,6 +103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'big；large',
             exampleCn: '这个箱子很大。',
             exampleEn: 'This box is big.',
+            examplePinyin: 'Zhège xiāngzi hěn dà.',
           },
           {
             id: 'l1-w7',
@@ -106,6 +113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not',
             exampleCn: '我不好。',
             exampleEn: 'I’m not fine.',
+            examplePinyin: 'Wǒ bù hǎo.',
           },
           {
             id: 'l1-w8',
@@ -115,6 +123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mouth；measure word for people',
             exampleCn: '我家有三口人。',
             exampleEn: 'There are three people in my family.',
+            examplePinyin: 'Wǒ jiā yǒu sān kǒu rén.',
           },
           {
             id: 'l1-w9',
@@ -124,6 +133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'white',
             exampleCn: '这是白马。',
             exampleEn: 'This is a white horse.',
+            examplePinyin: 'Zhè shì bái mǎ.',
           },
           {
             id: 'l1-w10',
@@ -133,6 +143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'horse',
             exampleCn: '白马很大。',
             exampleEn: 'The white horse is big.',
+            examplePinyin: 'Bái mǎ hěn dà.',
           },
           {
             id: 'l1-w11',
@@ -142,6 +153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'female；woman',
             exampleCn: '她是女生。',
             exampleEn: 'She is a girl.',
+            examplePinyin: 'Tā shì nǚshēng.',
           },
         ],
       },
