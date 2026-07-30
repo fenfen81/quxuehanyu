@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { hskWordsByLevel, hskWords } from '../data/hskWords'
 import type { HskWord } from '../data/hskWords'
 import { genExample } from '../data/examples'
+import { examplePinyinMap } from '../data/examplePinyin'
 import { textbookVocabList } from '../data/textbookDict'
 import type { TextbookWord } from '../data/textbookDict'
 import { sfx } from '../utils/sfx'
@@ -654,13 +655,14 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                     {(() => {
                       const tbEx = tbExampleMap.get(current.id)
                       const ex: { cn: string; en: string; pinyin?: string } = tbEx || genExample(current)
+                      const exPinyin = ex.pinyin || examplePinyinMap[current.id]
                       return (
                         <div className="mt-1 px-4 py-2.5 rounded-xl bg-white/60 border border-indigo-100 max-w-[92%]">
                           <div className="flex items-center gap-2">
                             <div className="text-sm font-medium text-slate-700">{ex.cn}</div>
                             {showExampleAudio && <SpeakBtn text={ex.cn} wordId={current.id + '-ex'} className="w-7 h-7 text-xs bg-indigo-50 text-indigo-600 shrink-0" />}
                           </div>
-                          {showExamplePinyin && ex.pinyin && <div className="text-xs text-indigo-400 mt-0.5 font-medium">{ex.pinyin}</div>}
+                          {showExamplePinyin && exPinyin && <div className="text-xs text-indigo-400 mt-0.5 font-medium">{exPinyin}</div>}
                           <div className="text-xs text-slate-400 mt-0.5">{ex.en}</div>
                         </div>
                       )
