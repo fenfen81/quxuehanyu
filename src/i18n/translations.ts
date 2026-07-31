@@ -236,7 +236,7 @@ export const translations = {
   words_pinyin_toggle: { zh: '拼音', en: 'Pinyin' },
   words_pinyin_hidden: { zh: '点击显示拼音', en: 'Tap to reveal pinyin' },
   words_example_pinyin_toggle: { zh: '例句拼音', en: 'Ex. Pinyin' },
-  words_example_audio_toggle: { zh: '例句语音', en: 'Ex. Audio' },
+  words_example_audio_toggle: { zh: '自动读例句', en: 'Auto ex.' },
   words_view_strokes: { zh: '查看笔顺', en: 'Stroke Order' },
 
   // ── 分段练习 ──
