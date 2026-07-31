@@ -12,11 +12,11 @@ const tsContent = fs.readFileSync(path.join(__dirname, 'src', 'data', 'textbookD
 
 // Match pattern: id: 'lN-wN', hanzi: '...', pinyin: '...'
 // Handle both single quotes and escaped quotes in values
-const wordRegex = /\{\s*id:\s*'((?:l\d+|hsk1-l\d+|hsk5-l\d+)-w\d+)'\s*,\s*hanzi:\s*'([^']+)'/g;
+const wordRegex = /\{\s*id:\s*'((?:l\d+|hsk1-l\d+|hsk5-l\d+)-w\d+)'\s*,\s*hanzi:\s*'([^']+)'\s*,\s*pinyin:\s*'([^']+)'/g;
 const words = [];
 let match;
 while ((match = wordRegex.exec(tsContent)) !== null) {
-  words.push({ id: match[1], hanzi: match[2] });
+  words.push({ id: match[1], hanzi: match[2], pinyin: match[3] });
 }
 
 console.log(`Extracted ${words.length} textbook words from textbookDict.ts`);
@@ -63,7 +63,9 @@ function generateWord(word) {
     try {
       tts = new MsEdgeTTS();
       await tts.setMetadata('zh-CN-XiaoxiaoNeural', OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
-      const { audioStream } = tts.toStream(word.hanzi);
+      // 单字多音词按词表拼音朗读，避免 TTS 读错声调（如"背"读成 bèi）
+      const ttsText = word.hanzi.length === 1 ? word.pinyin : word.hanzi;
+      const { audioStream } = tts.toStream(ttsText);
       const chunks = [];
 
       audioStream.on('data', (chunk) => { chunks.push(chunk); });

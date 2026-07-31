@@ -12,7 +12,7 @@ const wordRegex = /\{ id: '(hsk\d+_\d+)', hanzi: '([^']+)', pinyin: '([^']+)'/g;
 const words = [];
 let match;
 while ((match = wordRegex.exec(tsContent)) !== null) {
-  words.push({ id: match[1], hanzi: match[2] });
+  words.push({ id: match[1], hanzi: match[2], pinyin: match[3] });
 }
 
 // Target levels: env HSK_LEVELS (default "4,5,6") — regenerate natural voice for HSK4-6
@@ -47,7 +47,9 @@ function generateWord(word) {
     try {
       tts = new MsEdgeTTS();
       await tts.setMetadata('zh-CN-XiaoxiaoNeural', OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
-      const { audioStream } = tts.toStream(word.hanzi);
+      // 单字多音词按词表拼音朗读，避免 TTS 读错声调（如"背"读成 bèi）
+      const ttsText = word.hanzi.length === 1 ? word.pinyin : word.hanzi;
+      const { audioStream } = tts.toStream(ttsText);
       const chunks = [];
 
       audioStream.on('data', (chunk) => { chunks.push(chunk); });
