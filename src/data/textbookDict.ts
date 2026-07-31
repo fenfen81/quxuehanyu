@@ -5509,8 +5509,8 @@ export const textbookVocabList: TextbookVocab[] = [
             pinyin: 'yīnwèi',
             pos: '连',
             english: 'because',
-            exampleCn: '我睡得晚，所以不常锻炼。',
-            exampleEn: 'I seldom exercise because I sleep late.',
+            exampleCn: '因为我睡得晚，所以不常锻炼。',
+            exampleEn: 'Because I sleep late, I seldom exercise.',
           },
           {
             id: 'l25-w33',

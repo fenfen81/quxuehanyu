@@ -6318,7 +6318,7 @@ export const examplePinyinMap: Record<string, string> = {
   'l25-w3': 'tā yuàn yì shàng tái biǎo yǎn jīng jù',
   'l25-w30': 'tā lán qiú dǎ dé hái kě yǐ',
   'l25-w31': 'wǒ měi tiān jiān chí duàn liàn shēn tǐ',
-  'l25-w32': 'wǒ shuì dé wǎn   suǒ yǐ bù cháng duàn liàn',
+  'l25-w32': 'yīn wèi wǒ shuì de wǎn suǒ yǐ bù cháng duàn liàn',
   'l25-w33': 'wǒ měi tiān wǎn shàng shuì dé hěn wǎn',
   'l25-w4': 'wǒ men zhǔn bèi hàn yǔ biǎo yǎn jié mù',
   'l25-w5': 'luó lán bú yuàn yì qù diàn shì tái biǎo yǎn',
