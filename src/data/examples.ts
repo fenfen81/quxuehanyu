@@ -2849,7 +2849,7 @@ const CURATED_EX_HSK5: Record<string, { cn: string; en: string }> = {
   '报社': { cn: '他在报社工作，是一名记者。', en: 'He works at a newspaper office as a reporter.' },
   '保险': { cn: '你买保险了吗？我觉得买一份比较放心。', en: 'Do you have insurance? I think having one gives more peace of mind.' },
   '抱怨': { cn: '别总是抱怨，想想怎么解决问题吧。', en: 'Stop complaining all the time, think about how to solve the problem.' },
-  '背': { cn: '你的背包好沉啊，装了什么东西？', en: 'Your backpack is so heavy, what did you put in it?' },
+  '背': { cn: '他坐了很久，背有点疼。', en: 'He sat for a long time, and his back hurts a bit.' },
   '悲观': { cn: '别这么悲观，事情没那么糟糕。', en: 'Don\'t be so pessimistic, things aren\'t that bad.' },
   '背景': { cn: '这张照片的背景真好看，在哪里拍的？', en: 'The background of this photo is so beautiful, where was it taken?' },
   '被子': { cn: '晚上睡觉盖好被子，别着凉了。', en: 'Cover yourself with the quilt when sleeping at night, don\'t catch a cold.' },

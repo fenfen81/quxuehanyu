@@ -2121,7 +2121,7 @@ export const examplePinyinMap: Record<string, string> = {
   'hsk5_1227': 'tā zài bào shè gōng zuò   shì yì míng jì zhě',
   'hsk5_1228': 'nǐ mǎi bǎo xiǎn le ma   wǒ jué de mǎi yí fèn bǐ jiào fàng xīn',
   'hsk5_1229': 'bié zǒng shì bào yuàn   xiǎng xiǎng zěn me jiě jué wèn tí ba',
-  'hsk5_1230': 'nǐ de bēi bāo hǎo chén a   zhuāng le shén me dōng xī',
+  'hsk5_1230': 'tā zuò le hěn jiǔ bèi yǒu diǎn téng',
   'hsk5_1231': 'bié zhè me bēi guān   shì qíng méi nà me zāo gāo',
   'hsk5_1232': 'zhè zhāng zhào piàn de bèi jǐng zhēn hǎo kàn   zài nǎ lǐ pāi de',
   'hsk5_1233': 'wǎn shàng shuì jiào gài hǎo bèi zi   bié zháo liáng le',
