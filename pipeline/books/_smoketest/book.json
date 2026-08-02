@@ -1,0 +1,28 @@
+{
+  "textbookId": "_smoketest",
+  "bookCode": "smk",
+  "title": "（测试）示例教材",
+  "titleEn": "Smoke Test",
+  "categoryId": "comprehensive",
+  "level": "初级",
+  "lessons": [
+    {
+      "lessonNum": 1,
+      "lessonTitle": "第一课 测试",
+      "lessonTitleEn": "Lesson 1",
+      "texts": [
+        {
+          "label": "课文一：测试",
+          "sentences": [
+            { "cn": "你好！", "en": "Hello!", "dict": { "你好": "hello" } },
+            { "cn": "我学习汉语。", "en": "I study Chinese.", "dict": { "我": "I", "学习": "study; learn", "汉语": "Chinese language" } }
+          ]
+        }
+      ],
+      "words": [
+        { "hanzi": "你", "pos": "代", "english": "you", "exampleCn": "你好！", "exampleEn": "Hello!" },
+        { "hanzi": "学习", "pos": "动", "english": "study; learn", "exampleCn": "我学习汉语。", "exampleEn": "I study Chinese." }
+      ]
+    }
+  ]
+}

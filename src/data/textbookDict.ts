@@ -13814,7 +13814,293 @@ export const textbookVocabList: TextbookVocab[] = [
         ],
       },
     ]
-  }
+  },
+  {
+    textbookId: 'hanyu-jiaocheng-2a',
+    title: '《汉语教程》第二册（上）',
+    titleEn: 'Chinese Course Vol.2A',
+    categoryId: 'comprehensive',
+    lessons: [
+      {
+        lessonId: 'lesson1',
+        lessonNum: 1,
+        lessonTitle: '第一课 田芳去哪儿了',
+        lessonTitleEn: 'Lesson 1 Where has Tian Fang gone',
+        words: [
+          {
+            id: 'hj2a-l1-w1',
+            hanzi: '喂',
+            pinyin: 'wèi',
+            pos: '叹',
+            english: 'hello',
+            exampleCn: '喂，是田芳吗？',
+            exampleEn: 'Hello, is this Tian Fang?',
+            examplePinyin: 'Wèi shì tián fāng ma'
+          },
+          {
+            id: 'hj2a-l1-w2',
+            hanzi: '阿姨',
+            pinyin: 'ā yí',
+            pos: '名',
+            english: 'aunt (polite term for an older woman)',
+            exampleCn: '阿姨，您好！',
+            exampleEn: 'Hello, aunt!',
+            examplePinyin: 'Ā yí nín hǎo'
+          },
+          {
+            id: 'hj2a-l1-w3',
+            hanzi: '了',
+            pinyin: 'le',
+            pos: '助',
+            english: 'a particle indicating a completed action or a new situation',
+            exampleCn: '我打了，可是她关机了。',
+            exampleEn: 'I called, but her phone was off.',
+            examplePinyin: 'Wǒ dǎ le kě shì tā guān jī le'
+          },
+          {
+            id: 'hj2a-l1-w4',
+            hanzi: '中学',
+            pinyin: 'zhōng xué',
+            pos: '名',
+            english: 'middle school',
+            exampleCn: '我妹妹上中学了。',
+            exampleEn: 'My younger sister is in middle school now.',
+            examplePinyin: 'Wǒ mèi mei shàng zhōng xué le'
+          },
+          {
+            id: 'hj2a-l1-w5',
+            hanzi: '出国',
+            pinyin: 'chū guó',
+            pos: '动',
+            english: 'to go abroad',
+            exampleCn: '她的一个中学同学要出国。',
+            exampleEn: 'One of her middle-school classmates is going abroad.',
+            examplePinyin: 'Tā de yí gè zhōng xué tóng xué yào chū guó'
+          },
+          {
+            id: 'hj2a-l1-w6',
+            hanzi: '打（电话）',
+            pinyin: 'dǎ diàn huà',
+            pos: '动',
+            english: 'to make (a phone call)',
+            exampleCn: '你打她的手机吧。',
+            exampleEn: 'Just call her mobile phone.',
+            examplePinyin: 'Nǐ dǎ tā de shǒu jī ba'
+          },
+          {
+            id: 'hj2a-l1-w7',
+            hanzi: '关机',
+            pinyin: 'guān jī',
+            pos: '动',
+            english: 'to turn off one\'s mobile phone',
+            exampleCn: '睡觉前我关机。',
+            exampleEn: 'I turn off my phone before sleeping.',
+            examplePinyin: 'Shuì jiào qián wǒ guān jī'
+          },
+          {
+            id: 'hj2a-l1-w8',
+            hanzi: '饿',
+            pinyin: 'è',
+            pos: '形',
+            english: 'hungry',
+            exampleCn: '饿了吧？快吃饭吧！',
+            exampleEn: 'You must be hungry. Hurry up and eat!',
+            examplePinyin: 'È le ba kuài chī fàn ba'
+          },
+          {
+            id: 'hj2a-l1-w9',
+            hanzi: '对了',
+            pinyin: 'duì le',
+            pos: '短',
+            english: 'by the way; and',
+            exampleCn: '啊，对了，张东给你打电话了。',
+            exampleEn: 'Oh, by the way, Zhang Dong called you.',
+            examplePinyin: 'A duì le zhāng dōng gěi nǐ dǎ diàn huà le'
+          },
+          {
+            id: 'hj2a-l1-w10',
+            hanzi: '忘',
+            pinyin: 'wàng',
+            pos: '动',
+            english: 'to forget',
+            exampleCn: '我忘开机了。',
+            exampleEn: 'I forgot to turn on my phone.',
+            examplePinyin: 'Wǒ wàng kāi jī le'
+          },
+          {
+            id: 'hj2a-l1-w11',
+            hanzi: '开机',
+            pinyin: 'kāi jī',
+            pos: '动',
+            english: 'to turn on one\'s mobile phone',
+            exampleCn: '早上起床我就开机。',
+            exampleEn: 'I turn on my phone as soon as I get up.',
+            examplePinyin: 'Zǎo shàng qǐ chuáng wǒ jiù kāi jī'
+          },
+          {
+            id: 'hj2a-l1-w12',
+            hanzi: '又',
+            pinyin: 'yòu',
+            pos: '副',
+            english: 'again (for a repeated past action)',
+            exampleCn: '电话又响了。',
+            exampleEn: 'The phone rang again.',
+            examplePinyin: 'Diàn huà yòu xiǎng le'
+          },
+          {
+            id: 'hj2a-l1-w13',
+            hanzi: '响',
+            pinyin: 'xiǎng',
+            pos: '动',
+            english: 'to ring; to make a sound',
+            exampleCn: '门铃响了，你去开门吧。',
+            exampleEn: 'The doorbell rang—go open the door.',
+            examplePinyin: 'Mén líng xiǎng le nǐ qù kāi mén ba'
+          },
+          {
+            id: 'hj2a-l1-w14',
+            hanzi: '接',
+            pinyin: 'jiē',
+            pos: '动',
+            english: 'to answer (a call); to receive',
+            exampleCn: '电话又响了，你去接吧。',
+            exampleEn: 'The phone is ringing again—go answer it.',
+            examplePinyin: 'Diàn huà yòu xiǎng le nǐ qù jiē ba'
+          },
+          {
+            id: 'hj2a-l1-w15',
+            hanzi: '踢',
+            pinyin: 'tī',
+            pos: '动',
+            english: 'to kick; to play (football)',
+            exampleCn: '我去踢足球了。',
+            exampleEn: 'I went to play football.',
+            examplePinyin: 'Wǒ qù tī zú qiú le'
+          },
+          {
+            id: 'hj2a-l1-w16',
+            hanzi: '比赛',
+            pinyin: 'bǐ sài',
+            pos: '动、名',
+            english: 'match; game; to compete',
+            exampleCn: '今天我们跟留学生代表队比赛了。',
+            exampleEn: 'Today we played a match against the international students\' team.',
+            examplePinyin: 'Jīn tiān wǒ men gēn liú xué shēng dài biǎo duì bǐ sài le'
+          },
+          {
+            id: 'hj2a-l1-w17',
+            hanzi: '队',
+            pinyin: 'duì',
+            pos: '名',
+            english: 'team',
+            exampleCn: '你们队又输了吧？',
+            exampleEn: 'Your team lost again, didn\'t you?',
+            examplePinyin: 'Nǐ men duì yòu shū le ba'
+          },
+          {
+            id: 'hj2a-l1-w18',
+            hanzi: '输',
+            pinyin: 'shū',
+            pos: '动',
+            english: 'to lose (a game)',
+            exampleCn: '这场比赛我们输了。',
+            exampleEn: 'We lost this match.',
+            examplePinyin: 'Zhè chǎng bǐ sài wǒ men shū le'
+          },
+          {
+            id: 'hj2a-l1-w19',
+            hanzi: '赢',
+            pinyin: 'yíng',
+            pos: '动',
+            english: 'to win (a game)',
+            exampleCn: '这次我们赢了。',
+            exampleEn: 'This time we won.',
+            examplePinyin: 'Zhè cì wǒ men yíng le'
+          },
+          {
+            id: 'hj2a-l1-w20',
+            hanzi: '比',
+            pinyin: 'bǐ',
+            pos: '动',
+            english: 'to (used in scores, e.g. \'two to one\')',
+            exampleCn: '二比一。',
+            exampleEn: 'Two to one.',
+            examplePinyin: 'Èr bǐ yī'
+          },
+          {
+            id: 'hj2a-l1-w21',
+            hanzi: '祝贺',
+            pinyin: 'zhù hè',
+            pos: '动',
+            english: 'to congratulate',
+            exampleCn: '祝贺你们！',
+            exampleEn: 'Congratulations to you all!',
+            examplePinyin: 'Zhù hè nǐ men'
+          },
+          {
+            id: 'hj2a-l1-w22',
+            hanzi: '哎',
+            pinyin: 'āi',
+            pos: '叹',
+            english: '(interjection used to attract attention or as a reminder)',
+            exampleCn: '哎，你有什么事儿吗？',
+            exampleEn: 'Hey, do you have something to ask?',
+            examplePinyin: 'Āi nǐ yǒu shén me shì ér ma'
+          },
+          {
+            id: 'hj2a-l1-w23',
+            hanzi: '上',
+            pinyin: 'shàng',
+            pos: '动',
+            english: 'to attend (a class, program, etc.)',
+            exampleCn: '你不是要上托福班吗？',
+            exampleEn: 'Weren\'t you going to take the TOEFL class?',
+            examplePinyin: 'Nǐ bú shì yào shàng tuō fú bān ma'
+          },
+          {
+            id: 'hj2a-l1-w24',
+            hanzi: '托福',
+            pinyin: 'tuō fú',
+            pos: '名',
+            english: 'TOEFL',
+            exampleCn: '你是不是也想考托福？',
+            exampleEn: 'Do you also want to take the TOEFL test?',
+            examplePinyin: 'Nǐ shì bu shì yě xiǎng kǎo tuō fú'
+          },
+          {
+            id: 'hj2a-l1-w25',
+            hanzi: '已经',
+            pinyin: 'yǐ jīng',
+            pos: '副',
+            english: 'already',
+            exampleCn: '已经报了。',
+            exampleEn: 'I\'ve already signed up.',
+            examplePinyin: 'Yǐ jīng bào le'
+          },
+          {
+            id: 'hj2a-l1-w26',
+            hanzi: '考',
+            pinyin: 'kǎo',
+            pos: '动',
+            english: 'to take a test',
+            exampleCn: '我明天考口语。',
+            exampleEn: 'I have a speaking test tomorrow.',
+            examplePinyin: 'Wǒ míng tiān kǎo kǒu yǔ'
+          },
+          {
+            id: 'hj2a-l1-w27',
+            hanzi: '陪',
+            pinyin: 'péi',
+            pos: '动',
+            english: 'to accompany',
+            exampleCn: '你陪我一起去，好吗？',
+            exampleEn: 'Will you come with me?',
+            examplePinyin: 'Nǐ péi wǒ yì qǐ qù hǎo ma'
+          }
+        ]
+      }
+    ]
+  },
 ]
 
 // 获取所有教材生词的去重列表（用于搜索等）

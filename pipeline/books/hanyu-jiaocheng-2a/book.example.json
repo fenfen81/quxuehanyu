@@ -1,0 +1,29 @@
+{
+  "textbookId": "hanyu-jiaocheng-2a",
+  "bookCode": "hj2a",
+  "title": "《汉语教程》第二册（上）",
+  "titleEn": "Chinese Course Vol.2A",
+  "categoryId": "comprehensive",
+  "level": "初级",
+  "lessons": [
+    {
+      "lessonNum": 1,
+      "lessonTitle": "第一课 你好",
+      "lessonTitleEn": "Lesson 1",
+      "texts": [
+        {
+          "label": "课文一：你好",
+          "sentences": [
+            { "cn": "你好！", "en": "Hello!", "dict": { "你好": "hello" } },
+            { "cn": "你忙吗？", "en": "Are you busy?", "dict": { "你": "you", "忙": "busy", "吗": "(question particle)" } }
+          ]
+        }
+      ],
+      "words": [
+        { "hanzi": "你", "pos": "代", "english": "you（单数）", "exampleCn": "你好！", "exampleEn": "Hello to you!" },
+        { "hanzi": "忙", "pos": "形", "english": "busy", "exampleCn": "你忙吗？", "exampleEn": "Are you busy?" },
+        { "hanzi": "吗", "pos": "助", "english": "used to form yes-no questions", "exampleCn": "你忙吗？", "exampleEn": "Are you busy?" }
+      ]
+    }
+  ]
+}

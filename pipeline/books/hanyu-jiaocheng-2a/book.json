@@ -1,0 +1,387 @@
+{
+  "textbookId": "hanyu-jiaocheng-2a",
+  "bookCode": "hj2a",
+  "title": "《汉语教程》第二册（上）",
+  "titleEn": "Chinese Course Vol.2A",
+  "categoryId": "comprehensive",
+  "level": "初级",
+  "lessons": [
+    {
+      "lessonNum": 1,
+      "lessonTitle": "第一课 田芳去哪儿了",
+      "lessonTitleEn": "Lesson 1 Where has Tian Fang gone",
+      "texts": [
+        {
+          "label": "课文（一）田芳去哪儿了",
+          "sentences": [
+            {
+              "cn": "喂，是田芳吗？",
+              "en": "Hello, is this Tian Fang?"
+            },
+            {
+              "cn": "田芳不在。",
+              "en": "Tian Fang isn't here."
+            },
+            {
+              "cn": "是张东吧？",
+              "en": "It's Zhang Dong, right?"
+            },
+            {
+              "cn": "阿姨，您好！",
+              "en": "Aunt, hello!"
+            },
+            {
+              "cn": "田芳去哪儿了？",
+              "en": "Where has Tian Fang gone?"
+            },
+            {
+              "cn": "她四点多就去同学家了。",
+              "en": "She went to a classmate's home a little after four."
+            },
+            {
+              "cn": "她的一个中学同学要出国，她去看看她。",
+              "en": "One of her middle-school classmates is going abroad, so she went to see her off."
+            },
+            {
+              "cn": "她什么时候能回来？",
+              "en": "When will she be back?"
+            },
+            {
+              "cn": "她没说，你打她的手机吧。",
+              "en": "She didn't say; just call her mobile phone."
+            },
+            {
+              "cn": "我打了，可是她关机了。",
+              "en": "I called, but her phone was off."
+            },
+            {
+              "cn": "是吗？",
+              "en": "Is that so?"
+            },
+            {
+              "cn": "你过一会儿再打吧。",
+              "en": "Call her again in a little while."
+            }
+          ]
+        },
+        {
+          "label": "课文（二）他又来电话了",
+          "sentences": [
+            {
+              "cn": "阿姨，田芳回来了没有？",
+              "en": "Aunt, has Tian Fang come back yet?"
+            },
+            {
+              "cn": "还没有呢。",
+              "en": "Not yet."
+            },
+            {
+              "cn": "妈，我回来了。",
+              "en": "Mom, I'm back."
+            },
+            {
+              "cn": "饿了吧？",
+              "en": "You must be hungry, right?"
+            },
+            {
+              "cn": "快吃饭吧！",
+              "en": "Hurry up and eat!"
+            },
+            {
+              "cn": "啊，对了，张东给你打电话了，没有？",
+              "en": "Oh, right—Zhang Dong called you, didn't he?"
+            },
+            {
+              "cn": "没有啊。",
+              "en": "No, he didn't."
+            },
+            {
+              "cn": "他来电话找你，说打你的手机，你关机了。",
+              "en": "He called looking for you; he said he called your mobile, but it was off."
+            },
+            {
+              "cn": "啊！对了，我忘开机了。",
+              "en": "Ah! Right, I forgot to turn on my phone."
+            },
+            {
+              "cn": "快！电话又响了，你去接吧。",
+              "en": "Quick! The phone is ringing again—go answer it."
+            },
+            {
+              "cn": "喂，张东，下午你给我打电话了吧？",
+              "en": "Hello, Zhang Dong, you called me this afternoon, right?"
+            },
+            {
+              "cn": "打了，你怎么关机了？",
+              "en": "I did. Why was your phone off?"
+            },
+            {
+              "cn": "对不起，我忘开机了。",
+              "en": "Sorry, I forgot to turn on my phone."
+            },
+            {
+              "cn": "下午你做什么了？",
+              "en": "What did you do this afternoon?"
+            },
+            {
+              "cn": "我去踢足球了。",
+              "en": "I went to play football."
+            },
+            {
+              "cn": "今天我们跟留学生代表队比赛了。",
+              "en": "Today we played a match against the international students' team."
+            },
+            {
+              "cn": "你们队又输了吧？",
+              "en": "Your team lost again, didn't you?"
+            },
+            {
+              "cn": "没有。",
+              "en": "No."
+            },
+            {
+              "cn": "这次我们赢了。",
+              "en": "This time we won."
+            },
+            {
+              "cn": "几比几？",
+              "en": "What was the score?"
+            },
+            {
+              "cn": "二比一。",
+              "en": "Two to one."
+            },
+            {
+              "cn": "祝贺你们！",
+              "en": "Congratulations to you all!"
+            },
+            {
+              "cn": "哎，你有什么事儿吗？",
+              "en": "Hey, do you have something to ask?"
+            },
+            {
+              "cn": "我想问问你，你不是要上托福班吗？",
+              "en": "I want to ask you—weren't you going to take the TOEFL class?"
+            },
+            {
+              "cn": "报名了没有？",
+              "en": "Have you signed up?"
+            },
+            {
+              "cn": "已经报了。",
+              "en": "I've already signed up."
+            },
+            {
+              "cn": "你是不是也想考托福？",
+              "en": "Do you also want to take the TOEFL test?"
+            },
+            {
+              "cn": "是。",
+              "en": "Yes."
+            },
+            {
+              "cn": "我想明天去报名，你陪我一起去，好吗？",
+              "en": "I want to go sign up tomorrow; will you come with me?"
+            },
+            {
+              "cn": "好的。",
+              "en": "OK / All right."
+            }
+          ]
+        }
+      ],
+      "words": [
+        {
+          "hanzi": "喂",
+          "pos": "叹",
+          "english": "hello",
+          "exampleCn": "喂，是田芳吗？",
+          "exampleEn": "Hello, is this Tian Fang?"
+        },
+        {
+          "hanzi": "阿姨",
+          "pos": "名",
+          "english": "aunt (polite term for an older woman)",
+          "exampleCn": "阿姨，您好！",
+          "exampleEn": "Hello, aunt!"
+        },
+        {
+          "hanzi": "了",
+          "pos": "助",
+          "pinyin": "le",
+          "english": "a particle indicating a completed action or a new situation",
+          "exampleCn": "我打了，可是她关机了。",
+          "exampleEn": "I called, but her phone was off."
+        },
+        {
+          "hanzi": "中学",
+          "pos": "名",
+          "english": "middle school",
+          "exampleCn": "我妹妹上中学了。",
+          "exampleEn": "My younger sister is in middle school now."
+        },
+        {
+          "hanzi": "出国",
+          "pos": "动",
+          "english": "to go abroad",
+          "exampleCn": "她的一个中学同学要出国。",
+          "exampleEn": "One of her middle-school classmates is going abroad."
+        },
+        {
+          "hanzi": "打（电话）",
+          "pos": "动",
+          "english": "to make (a phone call)",
+          "exampleCn": "你打她的手机吧。",
+          "exampleEn": "Just call her mobile phone."
+        },
+        {
+          "hanzi": "关机",
+          "pos": "动",
+          "english": "to turn off one's mobile phone",
+          "exampleCn": "睡觉前我关机。",
+          "exampleEn": "I turn off my phone before sleeping."
+        },
+        {
+          "hanzi": "饿",
+          "pos": "形",
+          "english": "hungry",
+          "exampleCn": "饿了吧？快吃饭吧！",
+          "exampleEn": "You must be hungry. Hurry up and eat!"
+        },
+        {
+          "hanzi": "对了",
+          "pos": "短",
+          "english": "by the way; and",
+          "exampleCn": "啊，对了，张东给你打电话了。",
+          "exampleEn": "Oh, by the way, Zhang Dong called you."
+        },
+        {
+          "hanzi": "忘",
+          "pos": "动",
+          "english": "to forget",
+          "exampleCn": "我忘开机了。",
+          "exampleEn": "I forgot to turn on my phone."
+        },
+        {
+          "hanzi": "开机",
+          "pos": "动",
+          "english": "to turn on one's mobile phone",
+          "exampleCn": "早上起床我就开机。",
+          "exampleEn": "I turn on my phone as soon as I get up."
+        },
+        {
+          "hanzi": "又",
+          "pos": "副",
+          "english": "again (for a repeated past action)",
+          "exampleCn": "电话又响了。",
+          "exampleEn": "The phone rang again."
+        },
+        {
+          "hanzi": "响",
+          "pos": "动",
+          "english": "to ring; to make a sound",
+          "exampleCn": "门铃响了，你去开门吧。",
+          "exampleEn": "The doorbell rang—go open the door."
+        },
+        {
+          "hanzi": "接",
+          "pos": "动",
+          "english": "to answer (a call); to receive",
+          "exampleCn": "电话又响了，你去接吧。",
+          "exampleEn": "The phone is ringing again—go answer it."
+        },
+        {
+          "hanzi": "踢",
+          "pos": "动",
+          "english": "to kick; to play (football)",
+          "exampleCn": "我去踢足球了。",
+          "exampleEn": "I went to play football."
+        },
+        {
+          "hanzi": "比赛",
+          "pos": "动、名",
+          "english": "match; game; to compete",
+          "exampleCn": "今天我们跟留学生代表队比赛了。",
+          "exampleEn": "Today we played a match against the international students' team."
+        },
+        {
+          "hanzi": "队",
+          "pos": "名",
+          "english": "team",
+          "exampleCn": "你们队又输了吧？",
+          "exampleEn": "Your team lost again, didn't you?"
+        },
+        {
+          "hanzi": "输",
+          "pos": "动",
+          "english": "to lose (a game)",
+          "exampleCn": "这场比赛我们输了。",
+          "exampleEn": "We lost this match."
+        },
+        {
+          "hanzi": "赢",
+          "pos": "动",
+          "english": "to win (a game)",
+          "exampleCn": "这次我们赢了。",
+          "exampleEn": "This time we won."
+        },
+        {
+          "hanzi": "比",
+          "pos": "动",
+          "english": "to (used in scores, e.g. 'two to one')",
+          "exampleCn": "二比一。",
+          "exampleEn": "Two to one."
+        },
+        {
+          "hanzi": "祝贺",
+          "pos": "动",
+          "english": "to congratulate",
+          "exampleCn": "祝贺你们！",
+          "exampleEn": "Congratulations to you all!"
+        },
+        {
+          "hanzi": "哎",
+          "pos": "叹",
+          "english": "(interjection used to attract attention or as a reminder)",
+          "exampleCn": "哎，你有什么事儿吗？",
+          "exampleEn": "Hey, do you have something to ask?"
+        },
+        {
+          "hanzi": "上",
+          "pos": "动",
+          "english": "to attend (a class, program, etc.)",
+          "exampleCn": "你不是要上托福班吗？",
+          "exampleEn": "Weren't you going to take the TOEFL class?"
+        },
+        {
+          "hanzi": "托福",
+          "pos": "名",
+          "english": "TOEFL",
+          "exampleCn": "你是不是也想考托福？",
+          "exampleEn": "Do you also want to take the TOEFL test?"
+        },
+        {
+          "hanzi": "已经",
+          "pos": "副",
+          "english": "already",
+          "exampleCn": "已经报了。",
+          "exampleEn": "I've already signed up."
+        },
+        {
+          "hanzi": "考",
+          "pos": "动",
+          "english": "to take a test",
+          "exampleCn": "我明天考口语。",
+          "exampleEn": "I have a speaking test tomorrow."
+        },
+        {
+          "hanzi": "陪",
+          "pos": "动",
+          "english": "to accompany",
+          "exampleCn": "你陪我一起去，好吗？",
+          "exampleEn": "Will you come with me?"
+        }
+      ]
+    }
+  ]
+}

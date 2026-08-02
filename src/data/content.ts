@@ -18057,7 +18057,575 @@ export const textbooks: Textbook[] = [
         ]
       }
     ]
-  }
+  },
+  {
+    id: 'hanyu-jiaocheng-2a',
+    categoryId: 'comprehensive',
+    title: "《汉语教程》第二册（上）",
+    titleEn: "Chinese Course Vol.2A",
+    level: '初级',
+    lessons: [
+      {
+        id: 'lesson1',
+        title: '第一课 田芳去哪儿了',
+        titleEn: 'Lesson 1',
+        texts: [
+          {
+            id: 'hj2a-l1-t1',
+            label: "课文（一）田芳去哪儿了",
+            sentences: [
+              {
+                id: 'hj2a-l1-t1-s1',
+                cn: "喂，是田芳吗？",
+                split: "喂 是 田芳 吗",
+                en: "Hello, is this Tian Fang?",
+                dict: {
+                  "喂": "wèi / hello",
+                  "是": "shì / to be (am/is/are)",
+                  "田芳": "tián fāng / Tian Fang (name)",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s2',
+                cn: "田芳不在。",
+                split: "田芳 不 在",
+                en: "Tian Fang isn\'t here.",
+                dict: {
+                  "田芳": "tián fāng / Tian Fang (name)",
+                  "不": "bù / not",
+                  "在": "zài / to be at; (at)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s3',
+                cn: "是张东吧？",
+                split: "是 张东 吧",
+                en: "It\'s Zhang Dong, right?",
+                dict: {
+                  "是": "shì / to be (am/is/are)",
+                  "张东": "zhāng dōng / Zhang Dong (name)",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s4',
+                cn: "阿姨，您好！",
+                split: "阿姨 您 好",
+                en: "Aunt, hello!",
+                dict: {
+                  "阿姨": "ā yí / aunt (polite term for an older woman)",
+                  "您": "nín / you (polite)",
+                  "好": "hǎo / good; well; OK",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s5',
+                cn: "田芳去哪儿了？",
+                split: "田芳 去 哪儿 了",
+                en: "Where has Tian Fang gone?",
+                dict: {
+                  "田芳": "tián fāng / Tian Fang (name)",
+                  "去": "qù / to go",
+                  "哪儿": "nǎ ér / where",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s6',
+                cn: "她四点多就去同学家了。",
+                split: "她 四点多 就 去 同学 家 了",
+                en: "She went to a classmate\'s home a little after four.",
+                dict: {
+                  "她": "tā / she; her",
+                  "四点多": "sì diǎn duō / a little past four o\'clock",
+                  "就": "jiù / just; simply",
+                  "去": "qù / to go",
+                  "同学": "tóng xué / classmate",
+                  "家": "jiā / home; family",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s7',
+                cn: "她的一个中学同学要出国，她去看看她。",
+                split: "她 的 一个 中学 同学 要 出国 她 去 看 看 她",
+                en: "One of her middle-school classmates is going abroad, so she went to see her off.",
+                dict: {
+                  "她": "tā / she; her",
+                  "的": "de / (possessive/modifier particle)",
+                  "一个": "yí gè / one (a)",
+                  "中学": "zhōng xué / middle school",
+                  "同学": "tóng xué / classmate",
+                  "要": "yào / to want; to be going to",
+                  "出国": "chū guó / to go abroad",
+                  "去": "qù / to go",
+                  "看": "kàn / to look; to see; to visit",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s8',
+                cn: "她什么时候能回来？",
+                split: "她 什么 时候 能 回来",
+                en: "When will she be back?",
+                dict: {
+                  "她": "tā / she; her",
+                  "什么": "shén me / what",
+                  "时候": "shí hòu / time; moment",
+                  "能": "néng / can; to be able to",
+                  "回来": "huí lái / to return",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s9',
+                cn: "她没说，你打她的手机吧。",
+                split: "她 没 说 你 打 她 的 手机 吧",
+                en: "She didn\'t say; just call her mobile phone.",
+                dict: {
+                  "她": "tā / she; her",
+                  "没": "méi / not (past)",
+                  "说": "shuō / to say; to speak",
+                  "你": "nǐ / you",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "的": "de / (possessive/modifier particle)",
+                  "手机": "shǒu jī / mobile phone",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s10',
+                cn: "我打了，可是她关机了。",
+                split: "我 打 了 可是 她 关机 了",
+                en: "I called, but her phone was off.",
+                dict: {
+                  "我": "wǒ / I; me",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "可是": "kě shì / but; however",
+                  "她": "tā / she; her",
+                  "关机": "guān jī / to turn off one\'s mobile phone",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s11',
+                cn: "是吗？",
+                split: "是吗",
+                en: "Is that so?",
+                dict: {
+                  "是吗": "shì ma / is that so?",
+                }
+              },
+              {
+                id: 'hj2a-l1-t1-s12',
+                cn: "你过一会儿再打吧。",
+                split: "你 过一会儿 再 打 吧",
+                en: "Call her again in a little while.",
+                dict: {
+                  "你": "nǐ / you",
+                  "过一会儿": "guò yí huì er / after a while; in a bit",
+                  "再": "zài / again (future)",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              }
+            ]
+          },
+          {
+            id: 'hj2a-l1-t2',
+            label: "课文（二）他又来电话了",
+            sentences: [
+              {
+                id: 'hj2a-l1-t2-s1',
+                cn: "阿姨，田芳回来了没有？",
+                split: "阿姨 田芳 回来 了 没有",
+                en: "Aunt, has Tian Fang come back yet?",
+                dict: {
+                  "阿姨": "ā yí / aunt (polite term for an older woman)",
+                  "田芳": "tián fāng / Tian Fang (name)",
+                  "回来": "huí lái / to return",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "没有": "méi yǒu / not have; haven\'t",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s2',
+                cn: "还没有呢。",
+                split: "还 没有呢",
+                en: "Not yet.",
+                dict: {
+                  "还": "hái / still; yet",
+                  "没有呢": "méi yǒu ne / not yet",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s3',
+                cn: "妈，我回来了。",
+                split: "妈 我 回来 了",
+                en: "Mom, I\'m back.",
+                dict: {
+                  "妈": "mā / mom",
+                  "我": "wǒ / I; me",
+                  "回来": "huí lái / to return",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s4',
+                cn: "饿了吧？",
+                split: "饿 了 吧",
+                en: "You must be hungry, right?",
+                dict: {
+                  "饿": "è / hungry",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s5',
+                cn: "快吃饭吧！",
+                split: "快 吃饭 吧",
+                en: "Hurry up and eat!",
+                dict: {
+                  "快": "kuài / quick; hurry",
+                  "吃饭": "chī fàn / to eat (a meal)",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s6',
+                cn: "啊，对了，张东给你打电话了，没有？",
+                split: "啊 对了 张东 给 你 打电话 了 没有",
+                en: "Oh, right—Zhang Dong called you, didn\'t he?",
+                dict: {
+                  "啊": "a / (interjection)",
+                  "对了": "duì le / by the way; and",
+                  "张东": "zhāng dōng / Zhang Dong (name)",
+                  "给": "gěi / to give; for",
+                  "你": "nǐ / you",
+                  "打电话": "dǎ diàn huà / to make a phone call",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "没有": "méi yǒu / not have; haven\'t",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s7',
+                cn: "没有啊。",
+                split: "没有 啊",
+                en: "No, he didn\'t.",
+                dict: {
+                  "没有": "méi yǒu / not have; haven\'t",
+                  "啊": "a / (interjection)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s8',
+                cn: "他来电话找你，说打你的手机，你关机了。",
+                split: "他 来 电话 找 你 说 打 你 的 手机 你 关机 了",
+                en: "He called looking for you; he said he called your mobile, but it was off.",
+                dict: {
+                  "他": "tā / he; him",
+                  "来": "lái / to come",
+                  "电话": "diàn huà / telephone; phone",
+                  "找": "zhǎo / to look for",
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "的": "de / (possessive/modifier particle)",
+                  "手机": "shǒu jī / mobile phone",
+                  "关机": "guān jī / to turn off one\'s mobile phone",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s9',
+                cn: "啊！对了，我忘开机了。",
+                split: "啊 对了 我 忘 开机 了",
+                en: "Ah! Right, I forgot to turn on my phone.",
+                dict: {
+                  "啊": "a / (interjection)",
+                  "对了": "duì le / by the way; and",
+                  "我": "wǒ / I; me",
+                  "忘": "wàng / to forget",
+                  "开机": "kāi jī / to turn on one\'s mobile phone",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s10',
+                cn: "快！电话又响了，你去接吧。",
+                split: "快 电话 又 响 了 你 去 接 吧",
+                en: "Quick! The phone is ringing again—go answer it.",
+                dict: {
+                  "快": "kuài / quick; hurry",
+                  "电话": "diàn huà / telephone; phone",
+                  "又": "yòu / again (for a repeated past action)",
+                  "响": "xiǎng / to ring; to make a sound",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "你": "nǐ / you",
+                  "去": "qù / to go",
+                  "接": "jiē / to answer (a call); to receive",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s11',
+                cn: "喂，张东，下午你给我打电话了吧？",
+                split: "喂 张东 下午 你 给 我 打电话 了 吧",
+                en: "Hello, Zhang Dong, you called me this afternoon, right?",
+                dict: {
+                  "喂": "wèi / hello",
+                  "张东": "zhāng dōng / Zhang Dong (name)",
+                  "下午": "xià wǔ / afternoon",
+                  "你": "nǐ / you",
+                  "给": "gěi / to give; for",
+                  "我": "wǒ / I; me",
+                  "打电话": "dǎ diàn huà / to make a phone call",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s12',
+                cn: "打了，你怎么关机了？",
+                split: "打 了 你 怎么 关机 了",
+                en: "I did. Why was your phone off?",
+                dict: {
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "你": "nǐ / you",
+                  "怎么": "zěn me / how; why",
+                  "关机": "guān jī / to turn off one\'s mobile phone",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s13',
+                cn: "对不起，我忘开机了。",
+                split: "对不起 我 忘 开机 了",
+                en: "Sorry, I forgot to turn on my phone.",
+                dict: {
+                  "对不起": "duì bù qǐ / sorry",
+                  "我": "wǒ / I; me",
+                  "忘": "wàng / to forget",
+                  "开机": "kāi jī / to turn on one\'s mobile phone",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s14',
+                cn: "下午你做什么了？",
+                split: "下午 你 做 什么 了",
+                en: "What did you do this afternoon?",
+                dict: {
+                  "下午": "xià wǔ / afternoon",
+                  "你": "nǐ / you",
+                  "做": "zuò / to do; to make",
+                  "什么": "shén me / what",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s15',
+                cn: "我去踢足球了。",
+                split: "我 去 踢足球 了",
+                en: "I went to play football.",
+                dict: {
+                  "我": "wǒ / I; me",
+                  "去": "qù / to go",
+                  "踢足球": "tī zú qiú / to play football",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s16',
+                cn: "今天我们跟留学生代表队比赛了。",
+                split: "今天 我们 跟 留学生 代表队 比赛 了",
+                en: "Today we played a match against the international students\' team.",
+                dict: {
+                  "今天": "jīn tiān / today",
+                  "我们": "wǒ men / we; us",
+                  "跟": "gēn / with; and",
+                  "留学生": "liú xué shēng / international student",
+                  "代表队": "dài biǎo duì / representative team",
+                  "比赛": "bǐ sài / match; game; to compete",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s17',
+                cn: "你们队又输了吧？",
+                split: "你们 队 又 输 了 吧",
+                en: "Your team lost again, didn\'t you?",
+                dict: {
+                  "你们": "nǐ men / you (plural)",
+                  "队": "duì / team",
+                  "又": "yòu / again (for a repeated past action)",
+                  "输": "shū / to lose (a game)",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s18',
+                cn: "没有。",
+                split: "没有",
+                en: "No.",
+                dict: {
+                  "没有": "méi yǒu / not have; haven\'t",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s19',
+                cn: "这次我们赢了。",
+                split: "这次 我们 赢 了",
+                en: "This time we won.",
+                dict: {
+                  "这次": "zhè cì / this time",
+                  "我们": "wǒ men / we; us",
+                  "赢": "yíng / to win (a game)",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s20',
+                cn: "几比几？",
+                split: "几 比 几",
+                en: "What was the score?",
+                dict: {
+                  "几": "jǐ / how many; several",
+                  "比": "bǐ / to (used in scores, e.g. \'two to one\')",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s21',
+                cn: "二比一。",
+                split: "二 比 一",
+                en: "Two to one.",
+                dict: {
+                  "二": "èr / two",
+                  "比": "bǐ / to (used in scores, e.g. \'two to one\')",
+                  "一": "yī / one",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s22',
+                cn: "祝贺你们！",
+                split: "祝贺 你们",
+                en: "Congratulations to you all!",
+                dict: {
+                  "祝贺": "zhù hè / to congratulate",
+                  "你们": "nǐ men / you (plural)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s23',
+                cn: "哎，你有什么事儿吗？",
+                split: "哎 你 有 什么 事儿 吗",
+                en: "Hey, do you have something to ask?",
+                dict: {
+                  "哎": "āi / (interjection used to attract attention or as a reminder)",
+                  "你": "nǐ / you",
+                  "有": "yǒu / to have",
+                  "什么": "shén me / what",
+                  "事儿": "shì ér / thing; matter",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s24',
+                cn: "我想问问你，你不是要上托福班吗？",
+                split: "我 想 问 问 你 你 不 是 要 上 托福班 吗",
+                en: "I want to ask you—weren\'t you going to take the TOEFL class?",
+                dict: {
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / to want; to think",
+                  "问": "wèn / to ask",
+                  "你": "nǐ / you",
+                  "不": "bù / not",
+                  "是": "shì / to be (am/is/are)",
+                  "要": "yào / to want; to be going to",
+                  "上": "shàng / to attend (a class, program, etc.)",
+                  "托福班": "tuō fú bān / TOEFL class",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s25',
+                cn: "报名了没有？",
+                split: "报名 了 没有",
+                en: "Have you signed up?",
+                dict: {
+                  "报名": "bào míng / to register; to sign up",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "没有": "méi yǒu / not have; haven\'t",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s26',
+                cn: "已经报了。",
+                split: "已经 报 了",
+                en: "I\'ve already signed up.",
+                dict: {
+                  "已经": "yǐ jīng / already",
+                  "报": "bào / to report; to register",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s27',
+                cn: "你是不是也想考托福？",
+                split: "你 是不是 也 想 考 托福",
+                en: "Do you also want to take the TOEFL test?",
+                dict: {
+                  "你": "nǐ / you",
+                  "是不是": "shì bu shì / whether or not; yes or no",
+                  "也": "yě / also; too",
+                  "想": "xiǎng / to want; to think",
+                  "考": "kǎo / to take a test",
+                  "托福": "tuō fú / TOEFL",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s28',
+                cn: "是。",
+                split: "是",
+                en: "Yes.",
+                dict: {
+                  "是": "shì / to be (am/is/are)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s29',
+                cn: "我想明天去报名，你陪我一起去，好吗？",
+                split: "我 想 明天 去 报名 你 陪 我 一起 去 好 吗",
+                en: "I want to go sign up tomorrow; will you come with me?",
+                dict: {
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / to want; to think",
+                  "明天": "míng tiān / tomorrow",
+                  "去": "qù / to go",
+                  "报名": "bào míng / to register; to sign up",
+                  "你": "nǐ / you",
+                  "陪": "péi / to accompany",
+                  "一起": "yì qǐ / together",
+                  "好": "hǎo / good; well; OK",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l1-t2-s30',
+                cn: "好的。",
+                split: "好的",
+                en: "OK / All right.",
+                dict: {
+                  "好的": "hǎo de / OK; all right",
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
 ]
 
 // 将 HSK5(上) 分段英文（chunkEn，按 chunkSentence 输出顺序）挂载到对应句子，

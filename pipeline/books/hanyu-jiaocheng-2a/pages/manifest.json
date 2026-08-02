@@ -1,0 +1,115 @@
+{
+  "bookId": "hanyu-jiaocheng-2a",
+  "source": "C:/Users/Lenovo/Desktop/汉语教程 第二册-上.pdf",
+  "totalPages": 247,
+  "pages": [
+    {
+      "page": 1,
+      "file": "p001.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 250201
+    },
+    {
+      "page": 2,
+      "file": "p002.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 200150
+    },
+    {
+      "page": 3,
+      "file": "p003.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 199473
+    },
+    {
+      "page": 4,
+      "file": "p004.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 140472
+    },
+    {
+      "page": 5,
+      "file": "p005.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 231301
+    },
+    {
+      "page": 6,
+      "file": "p006.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 239142
+    },
+    {
+      "page": 7,
+      "file": "p007.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 212944
+    },
+    {
+      "page": 8,
+      "file": "p008.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 281178
+    },
+    {
+      "page": 9,
+      "file": "p009.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 274843
+    },
+    {
+      "page": 10,
+      "file": "p010.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 337334
+    },
+    {
+      "page": 11,
+      "file": "p011.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 166527
+    },
+    {
+      "page": 12,
+      "file": "p012.jpg",
+      "size": [
+        1400,
+        1866
+      ],
+      "bytes": 99231
+    }
+  ]
+}
