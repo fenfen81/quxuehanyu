@@ -91,7 +91,9 @@ function insertIntoArray(content, marker, literal) {
   if (closeIdx < 0) throw new Error('找不到数组结束: ' + marker)
   const before = content.slice(0, closeIdx)
   const after = content.slice(closeIdx)
-  const trimmed = before.replace(/\s+$/, '')
+  let trimmed = before.replace(/\s+$/, '')
+  // 去掉末尾可能已有的逗号，避免与下方前导逗号叠加成 },,（TS1005 / undefined 元素）
+  if (trimmed.endsWith(',')) trimmed = trimmed.slice(0, -1)
   const lead = trimmed.endsWith('[') ? '' : ',\n'
   const litIndented = literal.split('\n').map((l) => '  ' + l).join('\n')
   return trimmed + lead + litIndented + '\n' + after

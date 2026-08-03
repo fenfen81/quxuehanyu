@@ -837,6 +837,554 @@
         }
       ],
       "lessonId": "lesson1"
+    },
+    {
+      "lessonNum": 2,
+      "lessonTitle": "第二课 玛丽哭了",
+      "lessonTitleEn": "Lesson 2 Mary cried",
+      "texts": [
+        {
+          "label": "课文（一）你怎么了",
+          "sentences": [
+            {
+              "cn": "大夫：化验结果出来了吗？",
+              "en": "Doctor: Are the test results out?",
+              "id": "hj2a-l2-t1-s1",
+              "split": "大夫 化验 结果 出来 了 吗",
+              "dict": {
+                "大夫": "dài fu / doctor",
+                "化验": "huà yàn / to test; to assay",
+                "结果": "jié guǒ / result",
+                "出来": "chū lái / to come out; to emerge; to appear",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "吗": "ma / (question particle)"
+              }
+            },
+            {
+              "cn": "病人：出来了。",
+              "en": "Patient: Yes, they are.",
+              "id": "hj2a-l2-t1-s2",
+              "split": "病人 出来 了",
+              "dict": {
+                "病人": "bìng rén / patient",
+                "出来": "chū lái / to come out; to emerge; to appear",
+                "了": "liǎo / a particle indicating a completed action or a new situation"
+              }
+            },
+            {
+              "cn": "病人：大夫，我是不是得了肠炎？",
+              "en": "Patient: Doctor, do I have enteritis?",
+              "id": "hj2a-l2-t1-s3",
+              "split": "病人 大夫 我 是不是 得 了 肠炎",
+              "dict": {
+                "病人": "bìng rén / patient",
+                "大夫": "dài fu / doctor",
+                "我": "wǒ / I; me",
+                "是不是": "shì bu shì / whether or not; yes or no",
+                "得": "dé / to get (a disease); to contract",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "肠炎": "cháng yán / enteritis"
+              }
+            },
+            {
+              "cn": "大夫：我看了化验结果。不是肠炎，只是消化不好。先给你开一些药，再给你打一针。",
+              "en": "Doctor: I've looked at the results. It's not enteritis, just poor digestion. First I'll prescribe some medicine, then give you an injection.",
+              "id": "hj2a-l2-t1-s4",
+              "split": "大夫 我 看 了 化验 结果 不 是 肠炎 只 是 消化 不 好 先 给 你 开 一 些 药 再 给 你 打 一 针",
+              "dict": {
+                "大夫": "dài fu / doctor",
+                "我": "wǒ / I; me",
+                "看": "kàn / to look; to see; to visit",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "化验": "huà yàn / to test; to assay",
+                "结果": "jié guǒ / result",
+                "不": "bù / not",
+                "是": "shì / to be (am/is/are)",
+                "肠炎": "cháng yán / enteritis",
+                "只": "zhī",
+                "消化": "xiāo huà / to digest",
+                "好": "hǎo / good; well; OK",
+                "先": "xiān",
+                "给": "gěi / to give; for",
+                "你": "nǐ / you",
+                "开": "kāi",
+                "一": "yī / one",
+                "些": "xiē",
+                "药": "yào",
+                "再": "zài / again (future)",
+                "打": "dǎ / to hit; to make (a phone call)",
+                "针": "zhēn"
+              }
+            },
+            {
+              "cn": "病人：这药怎么吃？",
+              "en": "Patient: How do I take this medicine?",
+              "id": "hj2a-l2-t1-s5",
+              "split": "病人 这 药 怎么 吃",
+              "dict": {
+                "病人": "bìng rén / patient",
+                "这": "zhè",
+                "药": "yào",
+                "怎么": "zěn me / how; why",
+                "吃": "chī"
+              }
+            }
+          ],
+          "id": "hj2a-l2-t1"
+        },
+        {
+          "label": "课文（二）玛丽哭了",
+          "sentences": [
+            {
+              "cn": "罗兰：玛丽，你怎么哭了？病了吗？",
+              "en": "Roland: Mary, why are you crying? Are you sick?",
+              "id": "hj2a-l2-t2-s1",
+              "split": "罗 兰 玛 丽 你 怎么 哭 了 病 了 吗",
+              "dict": {
+                "罗": "luó",
+                "兰": "lán",
+                "玛": "mǎ",
+                "丽": "lì",
+                "你": "nǐ / you",
+                "怎么": "zěn me / how; why",
+                "哭": "kū / to cry; to weep",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "病": "bìng",
+                "吗": "ma / (question particle)"
+              }
+            },
+            {
+              "cn": "玛丽：不是。想家了。因为感到寂寞，所以心情不好，很难过。",
+              "en": "Mary: No. I'm homesick. Because I feel lonely, I'm in a bad mood and very sad.",
+              "id": "hj2a-l2-t2-s2",
+              "split": "玛 丽 不 是 想 家 了 因 为 感 到 寂寞 所以 心 情 不 好 很 难过",
+              "dict": {
+                "玛": "mǎ",
+                "丽": "lì",
+                "不": "bù / not",
+                "是": "shì / to be (am/is/are)",
+                "想": "xiǎng / to want; to think",
+                "家": "jiā / home; family",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "因": "yīn",
+                "为": "wèi",
+                "感": "gǎn",
+                "到": "dào",
+                "寂寞": "jì mò / lonely",
+                "所以": "suǒ yǐ / so; therefore",
+                "心": "xīn",
+                "情": "qíng",
+                "好": "hǎo / good; well; OK",
+                "很": "hěn",
+                "难过": "nán guò / sad; unhappy"
+              }
+            },
+            {
+              "cn": "罗兰：别难过了。",
+              "en": "Roland: Don't be sad.",
+              "id": "hj2a-l2-t2-s3",
+              "split": "罗 兰 别 难过 了",
+              "dict": {
+                "罗": "luó",
+                "兰": "lán",
+                "别": "bié / don't",
+                "难过": "nán guò / sad; unhappy",
+                "了": "liǎo / a particle indicating a completed action or a new situation"
+              }
+            },
+            {
+              "cn": "玛丽：我有姐姐，还有弟弟。在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
+              "en": "Mary: I have an older sister and a younger brother. At home we used to play together often, so when I feel lonely I always miss them.",
+              "id": "hj2a-l2-t2-s4",
+              "split": "玛 丽 我 有 姐 姐 还 有 弟 弟 在 家 时 我们 常 常 一起 玩 儿 所以 感 到 寂寞 时 总 想 他 们",
+              "dict": {
+                "玛": "mǎ",
+                "丽": "lì",
+                "我": "wǒ / I; me",
+                "有": "yǒu / to have",
+                "姐": "jiě",
+                "还": "hái / still; yet",
+                "弟": "dì",
+                "在": "zài / to be at; (at)",
+                "家": "jiā / home; family",
+                "时": "shí",
+                "我们": "wǒ men / we; us",
+                "常": "cháng",
+                "一起": "yì qǐ / together",
+                "玩": "wán",
+                "儿": "ér",
+                "所以": "suǒ yǐ / so; therefore",
+                "感": "gǎn",
+                "到": "dào",
+                "寂寞": "jì mò / lonely",
+                "总": "zǒng",
+                "想": "xiǎng / to want; to think",
+                "他": "tā / he; him",
+                "们": "men"
+              }
+            },
+            {
+              "cn": "罗兰：今天晚上礼堂有舞会，我们一起去跳跳舞吧。玩儿玩儿就好了。",
+              "en": "Roland: There's a dance in the auditorium tonight; let's go dance together. You'll feel better after enjoying yourself.",
+              "id": "hj2a-l2-t2-s5",
+              "split": "罗 兰 今天 晚 上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧 玩 儿 玩 儿 就 好 了",
+              "dict": {
+                "罗": "luó",
+                "兰": "lán",
+                "今天": "jīn tiān / today",
+                "晚": "wǎn",
+                "上": "shàng / to attend (a class)",
+                "礼堂": "lǐ táng / auditorium",
+                "有": "yǒu / to have",
+                "舞会": "wǔ huì / ball; dancing party",
+                "我们": "wǒ men / we; us",
+                "一起": "yì qǐ / together",
+                "去": "qù / to go",
+                "跳": "tiào",
+                "跳舞": "tiào wǔ / to dance",
+                "吧": "ba / (particle, soft suggestion/guess)",
+                "玩": "wán",
+                "儿": "ér",
+                "就": "jiù / just; simply",
+                "好": "hǎo / good; well; OK",
+                "了": "liǎo / a particle indicating a completed action or a new situation"
+              }
+            },
+            {
+              "cn": "玛丽：什么时候去？",
+              "en": "Mary: When shall we go?",
+              "id": "hj2a-l2-t2-s6",
+              "split": "玛 丽 什么 时候 去",
+              "dict": {
+                "玛": "mǎ",
+                "丽": "lì",
+                "什么": "shén me / what",
+                "时候": "shí hòu / time; moment",
+                "去": "qù / to go"
+              }
+            },
+            {
+              "cn": "罗兰：吃了晚饭就去吧。你在宿舍等我，我来叫你。",
+              "en": "Roland: Let's go after dinner. Wait for me in the dorm; I'll come get you.",
+              "id": "hj2a-l2-t2-s7",
+              "split": "罗 兰 吃 了 晚 饭 就 去 吧 你 在 宿 舍 等 我 我 来 叫 你",
+              "dict": {
+                "罗": "luó",
+                "兰": "lán",
+                "吃": "chī",
+                "了": "liǎo / a particle indicating a completed action or a new situation",
+                "晚": "wǎn",
+                "饭": "fàn",
+                "就": "jiù / just; simply",
+                "去": "qù / to go",
+                "吧": "ba / (particle, soft suggestion/guess)",
+                "你": "nǐ / you",
+                "在": "zài / to be at; (at)",
+                "宿": "sù",
+                "舍": "shè",
+                "等": "děng",
+                "我": "wǒ / I; me",
+                "来": "lái / to come",
+                "叫": "jiào"
+              }
+            }
+          ],
+          "id": "hj2a-l2-t2"
+        }
+      ],
+      "words": [
+        {
+          "hanzi": "大夫",
+          "pos": "名",
+          "english": "doctor",
+          "exampleCn": "大夫，我肚子疼。",
+          "exampleEn": "Doctor, my stomach hurts.",
+          "id": "hj2a-l2-w1",
+          "pinyin": "dài fu",
+          "examplePinyin": "Dài fu wǒ dù zǐ téng"
+        },
+        {
+          "hanzi": "病人",
+          "pos": "名",
+          "english": "patient",
+          "exampleCn": "病人在医院休息。",
+          "exampleEn": "The patient is resting in the hospital.",
+          "id": "hj2a-l2-w2",
+          "pinyin": "bìng rén",
+          "examplePinyin": "Bìng rén zài yī yuàn xiū xi"
+        },
+        {
+          "hanzi": "肚子",
+          "pos": "名",
+          "english": "stomach; abdomen",
+          "exampleCn": "我肚子饿了。",
+          "exampleEn": "My stomach is hungry.",
+          "id": "hj2a-l2-w3",
+          "pinyin": "dù zǐ",
+          "examplePinyin": "Wǒ dù zǐ è le"
+        },
+        {
+          "hanzi": "厉害",
+          "pos": "形",
+          "english": "serious; severe",
+          "exampleCn": "他病得很厉害。",
+          "exampleEn": "He is seriously ill.",
+          "id": "hj2a-l2-w4",
+          "pinyin": "lì hài",
+          "examplePinyin": "Tā bìng dé hěn lì hài"
+        },
+        {
+          "hanzi": "了",
+          "pos": "助",
+          "pinyin": "le",
+          "english": "a particle indicating a completed action or a new situation",
+          "exampleCn": "我吃了饭。",
+          "exampleEn": "I ate (a meal).",
+          "id": "hj2a-l2-w5",
+          "examplePinyin": "Wǒ chī le fàn"
+        },
+        {
+          "hanzi": "片",
+          "pos": "量",
+          "english": "measure word (for slices, tablets, etc.)",
+          "exampleCn": "我吃了一片药。",
+          "exampleEn": "I took a tablet of medicine.",
+          "id": "hj2a-l2-w6",
+          "pinyin": "piàn",
+          "examplePinyin": "Wǒ chī le yí piàn yào"
+        },
+        {
+          "hanzi": "拉肚子",
+          "pos": "动",
+          "english": "to have loose bowels; to suffer from diarrhoea",
+          "exampleCn": "昨天我拉肚子了。",
+          "exampleEn": "I had diarrhoea yesterday.",
+          "id": "hj2a-l2-w7",
+          "pinyin": "lā dù zǐ",
+          "examplePinyin": "Zuó tiān wǒ lā dù zǐ le"
+        },
+        {
+          "hanzi": "鱼",
+          "pos": "名",
+          "english": "fish",
+          "exampleCn": "我喜欢吃鱼。",
+          "exampleEn": "I like to eat fish.",
+          "id": "hj2a-l2-w8",
+          "pinyin": "yú",
+          "examplePinyin": "Wǒ xǐ huan chī yú"
+        },
+        {
+          "hanzi": "牛肉",
+          "pos": "名",
+          "english": "beef",
+          "exampleCn": "今晚我们吃牛肉。",
+          "exampleEn": "We're eating beef tonight.",
+          "id": "hj2a-l2-w9",
+          "pinyin": "niú ròu",
+          "examplePinyin": "Jīn wǎn wǒ men chī niú ròu"
+        },
+        {
+          "hanzi": "化验",
+          "pos": "动",
+          "english": "to test; to assay",
+          "exampleCn": "大夫让我化验血。",
+          "exampleEn": "The doctor asked me to have a blood test.",
+          "id": "hj2a-l2-w10",
+          "pinyin": "huà yàn",
+          "examplePinyin": "Dài fu ràng wǒ huà yàn xuè"
+        },
+        {
+          "hanzi": "大便",
+          "pos": "名、动",
+          "english": "stool; faeces; to defecate",
+          "exampleCn": "大便的颜色不正常。",
+          "exampleEn": "The colour of the stool is abnormal.",
+          "id": "hj2a-l2-w11",
+          "pinyin": "dà biàn",
+          "examplePinyin": "Dà biàn de yán sè bú zhèng cháng"
+        },
+        {
+          "hanzi": "小便",
+          "pos": "名、动",
+          "english": "urine; to urinate",
+          "exampleCn": "小便的时候疼。",
+          "exampleEn": "It hurts when urinating.",
+          "id": "hj2a-l2-w12",
+          "pinyin": "xiǎo biàn",
+          "examplePinyin": "Xiǎo biàn de shí hòu téng"
+        },
+        {
+          "hanzi": "检查",
+          "pos": "动",
+          "english": "to examine; to check up",
+          "exampleCn": "大夫给我检查身体。",
+          "exampleEn": "The doctor examined my body.",
+          "id": "hj2a-l2-w13",
+          "pinyin": "jiǎn chá",
+          "examplePinyin": "Dài fu gěi wǒ jiǎn chá shēn tǐ"
+        },
+        {
+          "hanzi": "结果",
+          "pos": "名",
+          "english": "result",
+          "exampleCn": "化验结果出来了。",
+          "exampleEn": "The test result came out.",
+          "id": "hj2a-l2-w14",
+          "pinyin": "jié guǒ",
+          "examplePinyin": "Huà yàn jié guǒ chū lái le"
+        },
+        {
+          "hanzi": "出来",
+          "pos": "动",
+          "english": "to come out; to emerge; to appear",
+          "exampleCn": "请你出来一下。",
+          "exampleEn": "Please come out for a moment.",
+          "id": "hj2a-l2-w15",
+          "pinyin": "chū lái",
+          "examplePinyin": "Qǐng nǐ chū lái yí xià"
+        },
+        {
+          "hanzi": "得",
+          "pos": "动",
+          "english": "to get (a disease); to contract",
+          "exampleCn": "我得了感冒。",
+          "exampleEn": "I caught a cold.",
+          "id": "hj2a-l2-w16",
+          "pinyin": "dé",
+          "examplePinyin": "Wǒ dé le gǎn mào"
+        },
+        {
+          "hanzi": "肠炎",
+          "pos": "名",
+          "english": "enteritis",
+          "exampleCn": "他得了肠炎。",
+          "exampleEn": "He got enteritis.",
+          "id": "hj2a-l2-w17",
+          "pinyin": "cháng yán",
+          "examplePinyin": "Tā dé le cháng yán"
+        },
+        {
+          "hanzi": "消化",
+          "pos": "动",
+          "english": "to digest",
+          "exampleCn": "我消化不好。",
+          "exampleEn": "I digest poorly.",
+          "id": "hj2a-l2-w18",
+          "pinyin": "xiāo huà",
+          "examplePinyin": "Wǒ xiāo huà bù hǎo"
+        },
+        {
+          "hanzi": "开（药）",
+          "pos": "动",
+          "english": "to prescribe (medicine)",
+          "exampleCn": "大夫给我开了药。",
+          "exampleEn": "The doctor prescribed medicine for me.",
+          "id": "hj2a-l2-w19",
+          "pinyin": "kāi yào",
+          "examplePinyin": "Dài fu gěi wǒ kāi le yào"
+        },
+        {
+          "hanzi": "打针",
+          "pos": "动",
+          "english": "to give or have an injection",
+          "exampleCn": "护士给我打针。",
+          "exampleEn": "The nurse gave me an injection.",
+          "id": "hj2a-l2-w20",
+          "pinyin": "dǎ zhēn",
+          "examplePinyin": "Hù shì gěi wǒ dǎ zhēn"
+        },
+        {
+          "hanzi": "后",
+          "pos": "名",
+          "english": "after; later",
+          "exampleCn": "吃了饭以后。",
+          "exampleEn": "After eating (a meal).",
+          "id": "hj2a-l2-w21",
+          "pinyin": "hòu",
+          "examplePinyin": "Chī le fàn yǐ hòu"
+        },
+        {
+          "hanzi": "哭",
+          "pos": "动",
+          "english": "to cry; to weep",
+          "exampleCn": "妹妹哭了。",
+          "exampleEn": "My younger sister cried.",
+          "id": "hj2a-l2-w22",
+          "pinyin": "kū",
+          "examplePinyin": "Mèi mei kū le"
+        },
+        {
+          "hanzi": "寂寞",
+          "pos": "形",
+          "english": "lonely",
+          "exampleCn": "一个人住，觉得很寂寞。",
+          "exampleEn": "Living alone, I feel lonely.",
+          "id": "hj2a-l2-w23",
+          "pinyin": "jì mò",
+          "examplePinyin": "Yí gè rén zhù jué de hěn jì mò"
+        },
+        {
+          "hanzi": "所以",
+          "pos": "连",
+          "english": "so; therefore",
+          "exampleCn": "因为下雨，所以不去。",
+          "exampleEn": "Because it rained, we didn't go.",
+          "id": "hj2a-l2-w24",
+          "pinyin": "suǒ yǐ",
+          "examplePinyin": "Yīn wèi xià yǔ suǒ yǐ bú qù"
+        },
+        {
+          "hanzi": "难过",
+          "pos": "形",
+          "english": "sad; unhappy",
+          "exampleCn": "他很难过。",
+          "exampleEn": "He is very sad.",
+          "id": "hj2a-l2-w25",
+          "pinyin": "nán guò",
+          "examplePinyin": "Tā hěn nán guò"
+        },
+        {
+          "hanzi": "别",
+          "pos": "副",
+          "english": "don't",
+          "exampleCn": "别难过了。",
+          "exampleEn": "Don't be sad.",
+          "id": "hj2a-l2-w26",
+          "pinyin": "bié",
+          "examplePinyin": "Bié nán guò le"
+        },
+        {
+          "hanzi": "礼堂",
+          "pos": "名",
+          "english": "auditorium",
+          "exampleCn": "礼堂里有舞会。",
+          "exampleEn": "There is a dance in the auditorium.",
+          "id": "hj2a-l2-w27",
+          "pinyin": "lǐ táng",
+          "examplePinyin": "Lǐ táng lǐ yǒu wǔ huì"
+        },
+        {
+          "hanzi": "舞会",
+          "pos": "名",
+          "english": "ball; dancing party",
+          "exampleCn": "今晚有舞会。",
+          "exampleEn": "There is a dance party tonight.",
+          "id": "hj2a-l2-w28",
+          "pinyin": "wǔ huì",
+          "examplePinyin": "Jīn wǎn yǒu wǔ huì"
+        },
+        {
+          "hanzi": "跳舞",
+          "pos": "动",
+          "english": "to dance",
+          "exampleCn": "我们一起跳舞吧。",
+          "exampleEn": "Let's dance together.",
+          "id": "hj2a-l2-w29",
+          "pinyin": "tiào wǔ",
+          "examplePinyin": "Wǒ men yì qǐ tiào wǔ ba"
+        }
+      ],
+      "lessonId": "lesson2"
     }
   ]
 }

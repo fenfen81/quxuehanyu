@@ -18623,9 +18623,264 @@ export const textbooks: Textbook[] = [
             ]
           }
         ]
+      },
+      {
+        id: 'lesson2',
+        title: '第二课 玛丽哭了',
+        titleEn: 'Lesson 2',
+        texts: [
+          {
+            id: 'hj2a-l2-t1',
+            label: "课文（一）你怎么了",
+            sentences: [
+              {
+                id: 'hj2a-l2-t1-s1',
+                cn: "大夫：化验结果出来了吗？",
+                split: "大夫 化验 结果 出来 了 吗",
+                en: "Doctor: Are the test results out?",
+                dict: {
+                  "大夫": "dài fu / doctor",
+                  "化验": "huà yàn / to test; to assay",
+                  "结果": "jié guǒ / result",
+                  "出来": "chū lái / to come out; to emerge; to appear",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s2',
+                cn: "病人：出来了。",
+                split: "病人 出来 了",
+                en: "Patient: Yes, they are.",
+                dict: {
+                  "病人": "bìng rén / patient",
+                  "出来": "chū lái / to come out; to emerge; to appear",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s3',
+                cn: "病人：大夫，我是不是得了肠炎？",
+                split: "病人 大夫 我 是不是 得 了 肠炎",
+                en: "Patient: Doctor, do I have enteritis?",
+                dict: {
+                  "病人": "bìng rén / patient",
+                  "大夫": "dài fu / doctor",
+                  "我": "wǒ / I; me",
+                  "是不是": "shì bu shì / whether or not; yes or no",
+                  "得": "dé / to get (a disease); to contract",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "肠炎": "cháng yán / enteritis",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s4',
+                cn: "大夫：我看了化验结果。不是肠炎，只是消化不好。先给你开一些药，再给你打一针。",
+                split: "大夫 我 看 了 化验 结果 不 是 肠炎 只 是 消化 不 好 先 给 你 开 一 些 药 再 给 你 打 一 针",
+                en: "Doctor: I\'ve looked at the results. It\'s not enteritis, just poor digestion. First I\'ll prescribe some medicine, then give you an injection.",
+                dict: {
+                  "大夫": "dài fu / doctor",
+                  "我": "wǒ / I; me",
+                  "看": "kàn / to look; to see; to visit",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "化验": "huà yàn / to test; to assay",
+                  "结果": "jié guǒ / result",
+                  "不": "bù / not",
+                  "是": "shì / to be (am/is/are)",
+                  "肠炎": "cháng yán / enteritis",
+                  "只": "zhī",
+                  "消化": "xiāo huà / to digest",
+                  "好": "hǎo / good; well; OK",
+                  "先": "xiān",
+                  "给": "gěi / to give; for",
+                  "你": "nǐ / you",
+                  "开": "kāi",
+                  "一": "yī / one",
+                  "些": "xiē",
+                  "药": "yào",
+                  "再": "zài / again (future)",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "针": "zhēn",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s5',
+                cn: "病人：这药怎么吃？",
+                split: "病人 这 药 怎么 吃",
+                en: "Patient: How do I take this medicine?",
+                dict: {
+                  "病人": "bìng rén / patient",
+                  "这": "zhè",
+                  "药": "yào",
+                  "怎么": "zěn me / how; why",
+                  "吃": "chī",
+                }
+              }
+            ]
+          },
+          {
+            id: 'hj2a-l2-t2',
+            label: "课文（二）玛丽哭了",
+            sentences: [
+              {
+                id: 'hj2a-l2-t2-s1',
+                cn: "罗兰：玛丽，你怎么哭了？病了吗？",
+                split: "罗 兰 玛 丽 你 怎么 哭 了 病 了 吗",
+                en: "Roland: Mary, why are you crying? Are you sick?",
+                dict: {
+                  "罗": "luó",
+                  "兰": "lán",
+                  "玛": "mǎ",
+                  "丽": "lì",
+                  "你": "nǐ / you",
+                  "怎么": "zěn me / how; why",
+                  "哭": "kū / to cry; to weep",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "病": "bìng",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s2',
+                cn: "玛丽：不是。想家了。因为感到寂寞，所以心情不好，很难过。",
+                split: "玛 丽 不 是 想 家 了 因 为 感 到 寂寞 所以 心 情 不 好 很 难过",
+                en: "Mary: No. I\'m homesick. Because I feel lonely, I\'m in a bad mood and very sad.",
+                dict: {
+                  "玛": "mǎ",
+                  "丽": "lì",
+                  "不": "bù / not",
+                  "是": "shì / to be (am/is/are)",
+                  "想": "xiǎng / to want; to think",
+                  "家": "jiā / home; family",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "因": "yīn",
+                  "为": "wèi",
+                  "感": "gǎn",
+                  "到": "dào",
+                  "寂寞": "jì mò / lonely",
+                  "所以": "suǒ yǐ / so; therefore",
+                  "心": "xīn",
+                  "情": "qíng",
+                  "好": "hǎo / good; well; OK",
+                  "很": "hěn",
+                  "难过": "nán guò / sad; unhappy",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s3',
+                cn: "罗兰：别难过了。",
+                split: "罗 兰 别 难过 了",
+                en: "Roland: Don\'t be sad.",
+                dict: {
+                  "罗": "luó",
+                  "兰": "lán",
+                  "别": "bié / don\'t",
+                  "难过": "nán guò / sad; unhappy",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s4',
+                cn: "玛丽：我有姐姐，还有弟弟。在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
+                split: "玛 丽 我 有 姐 姐 还 有 弟 弟 在 家 时 我们 常 常 一起 玩 儿 所以 感 到 寂寞 时 总 想 他 们",
+                en: "Mary: I have an older sister and a younger brother. At home we used to play together often, so when I feel lonely I always miss them.",
+                dict: {
+                  "玛": "mǎ",
+                  "丽": "lì",
+                  "我": "wǒ / I; me",
+                  "有": "yǒu / to have",
+                  "姐": "jiě",
+                  "还": "hái / still; yet",
+                  "弟": "dì",
+                  "在": "zài / to be at; (at)",
+                  "家": "jiā / home; family",
+                  "时": "shí",
+                  "我们": "wǒ men / we; us",
+                  "常": "cháng",
+                  "一起": "yì qǐ / together",
+                  "玩": "wán",
+                  "儿": "ér",
+                  "所以": "suǒ yǐ / so; therefore",
+                  "感": "gǎn",
+                  "到": "dào",
+                  "寂寞": "jì mò / lonely",
+                  "总": "zǒng",
+                  "想": "xiǎng / to want; to think",
+                  "他": "tā / he; him",
+                  "们": "men",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s5',
+                cn: "罗兰：今天晚上礼堂有舞会，我们一起去跳跳舞吧。玩儿玩儿就好了。",
+                split: "罗 兰 今天 晚 上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧 玩 儿 玩 儿 就 好 了",
+                en: "Roland: There\'s a dance in the auditorium tonight; let\'s go dance together. You\'ll feel better after enjoying yourself.",
+                dict: {
+                  "罗": "luó",
+                  "兰": "lán",
+                  "今天": "jīn tiān / today",
+                  "晚": "wǎn",
+                  "上": "shàng / to attend (a class)",
+                  "礼堂": "lǐ táng / auditorium",
+                  "有": "yǒu / to have",
+                  "舞会": "wǔ huì / ball; dancing party",
+                  "我们": "wǒ men / we; us",
+                  "一起": "yì qǐ / together",
+                  "去": "qù / to go",
+                  "跳": "tiào",
+                  "跳舞": "tiào wǔ / to dance",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "玩": "wán",
+                  "儿": "ér",
+                  "就": "jiù / just; simply",
+                  "好": "hǎo / good; well; OK",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s6',
+                cn: "玛丽：什么时候去？",
+                split: "玛 丽 什么 时候 去",
+                en: "Mary: When shall we go?",
+                dict: {
+                  "玛": "mǎ",
+                  "丽": "lì",
+                  "什么": "shén me / what",
+                  "时候": "shí hòu / time; moment",
+                  "去": "qù / to go",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s7',
+                cn: "罗兰：吃了晚饭就去吧。你在宿舍等我，我来叫你。",
+                split: "罗 兰 吃 了 晚 饭 就 去 吧 你 在 宿 舍 等 我 我 来 叫 你",
+                en: "Roland: Let\'s go after dinner. Wait for me in the dorm; I\'ll come get you.",
+                dict: {
+                  "罗": "luó",
+                  "兰": "lán",
+                  "吃": "chī",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "晚": "wǎn",
+                  "饭": "fàn",
+                  "就": "jiù / just; simply",
+                  "去": "qù / to go",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "你": "nǐ / you",
+                  "在": "zài / to be at; (at)",
+                  "宿": "sù",
+                  "舍": "shè",
+                  "等": "děng",
+                  "我": "wǒ / I; me",
+                  "来": "lái / to come",
+                  "叫": "jiào",
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
-  },
+  }
 ]
 
 // 将 HSK5(上) 分段英文（chunkEn，按 chunkSentence 输出顺序）挂载到对应句子，

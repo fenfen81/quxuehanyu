@@ -14098,9 +14098,307 @@ export const textbookVocabList: TextbookVocab[] = [
             examplePinyin: 'Nǐ péi wǒ yì qǐ qù hǎo ma'
           }
         ]
+      },
+      {
+        lessonId: 'lesson2',
+        lessonNum: 2,
+        lessonTitle: '第二课 玛丽哭了',
+        lessonTitleEn: 'Lesson 2 Mary cried',
+        words: [
+          {
+            id: 'hj2a-l2-w1',
+            hanzi: '大夫',
+            pinyin: 'dài fu',
+            pos: '名',
+            english: 'doctor',
+            exampleCn: '大夫，我肚子疼。',
+            exampleEn: 'Doctor, my stomach hurts.',
+            examplePinyin: 'Dài fu wǒ dù zǐ téng'
+          },
+          {
+            id: 'hj2a-l2-w2',
+            hanzi: '病人',
+            pinyin: 'bìng rén',
+            pos: '名',
+            english: 'patient',
+            exampleCn: '病人在医院休息。',
+            exampleEn: 'The patient is resting in the hospital.',
+            examplePinyin: 'Bìng rén zài yī yuàn xiū xi'
+          },
+          {
+            id: 'hj2a-l2-w3',
+            hanzi: '肚子',
+            pinyin: 'dù zǐ',
+            pos: '名',
+            english: 'stomach; abdomen',
+            exampleCn: '我肚子饿了。',
+            exampleEn: 'My stomach is hungry.',
+            examplePinyin: 'Wǒ dù zǐ è le'
+          },
+          {
+            id: 'hj2a-l2-w4',
+            hanzi: '厉害',
+            pinyin: 'lì hài',
+            pos: '形',
+            english: 'serious; severe',
+            exampleCn: '他病得很厉害。',
+            exampleEn: 'He is seriously ill.',
+            examplePinyin: 'Tā bìng dé hěn lì hài'
+          },
+          {
+            id: 'hj2a-l2-w5',
+            hanzi: '了',
+            pinyin: 'le',
+            pos: '助',
+            english: 'a particle indicating a completed action or a new situation',
+            exampleCn: '我吃了饭。',
+            exampleEn: 'I ate (a meal).',
+            examplePinyin: 'Wǒ chī le fàn'
+          },
+          {
+            id: 'hj2a-l2-w6',
+            hanzi: '片',
+            pinyin: 'piàn',
+            pos: '量',
+            english: 'measure word (for slices, tablets, etc.)',
+            exampleCn: '我吃了一片药。',
+            exampleEn: 'I took a tablet of medicine.',
+            examplePinyin: 'Wǒ chī le yí piàn yào'
+          },
+          {
+            id: 'hj2a-l2-w7',
+            hanzi: '拉肚子',
+            pinyin: 'lā dù zǐ',
+            pos: '动',
+            english: 'to have loose bowels; to suffer from diarrhoea',
+            exampleCn: '昨天我拉肚子了。',
+            exampleEn: 'I had diarrhoea yesterday.',
+            examplePinyin: 'Zuó tiān wǒ lā dù zǐ le'
+          },
+          {
+            id: 'hj2a-l2-w8',
+            hanzi: '鱼',
+            pinyin: 'yú',
+            pos: '名',
+            english: 'fish',
+            exampleCn: '我喜欢吃鱼。',
+            exampleEn: 'I like to eat fish.',
+            examplePinyin: 'Wǒ xǐ huan chī yú'
+          },
+          {
+            id: 'hj2a-l2-w9',
+            hanzi: '牛肉',
+            pinyin: 'niú ròu',
+            pos: '名',
+            english: 'beef',
+            exampleCn: '今晚我们吃牛肉。',
+            exampleEn: 'We\'re eating beef tonight.',
+            examplePinyin: 'Jīn wǎn wǒ men chī niú ròu'
+          },
+          {
+            id: 'hj2a-l2-w10',
+            hanzi: '化验',
+            pinyin: 'huà yàn',
+            pos: '动',
+            english: 'to test; to assay',
+            exampleCn: '大夫让我化验血。',
+            exampleEn: 'The doctor asked me to have a blood test.',
+            examplePinyin: 'Dài fu ràng wǒ huà yàn xuè'
+          },
+          {
+            id: 'hj2a-l2-w11',
+            hanzi: '大便',
+            pinyin: 'dà biàn',
+            pos: '名、动',
+            english: 'stool; faeces; to defecate',
+            exampleCn: '大便的颜色不正常。',
+            exampleEn: 'The colour of the stool is abnormal.',
+            examplePinyin: 'Dà biàn de yán sè bú zhèng cháng'
+          },
+          {
+            id: 'hj2a-l2-w12',
+            hanzi: '小便',
+            pinyin: 'xiǎo biàn',
+            pos: '名、动',
+            english: 'urine; to urinate',
+            exampleCn: '小便的时候疼。',
+            exampleEn: 'It hurts when urinating.',
+            examplePinyin: 'Xiǎo biàn de shí hòu téng'
+          },
+          {
+            id: 'hj2a-l2-w13',
+            hanzi: '检查',
+            pinyin: 'jiǎn chá',
+            pos: '动',
+            english: 'to examine; to check up',
+            exampleCn: '大夫给我检查身体。',
+            exampleEn: 'The doctor examined my body.',
+            examplePinyin: 'Dài fu gěi wǒ jiǎn chá shēn tǐ'
+          },
+          {
+            id: 'hj2a-l2-w14',
+            hanzi: '结果',
+            pinyin: 'jié guǒ',
+            pos: '名',
+            english: 'result',
+            exampleCn: '化验结果出来了。',
+            exampleEn: 'The test result came out.',
+            examplePinyin: 'Huà yàn jié guǒ chū lái le'
+          },
+          {
+            id: 'hj2a-l2-w15',
+            hanzi: '出来',
+            pinyin: 'chū lái',
+            pos: '动',
+            english: 'to come out; to emerge; to appear',
+            exampleCn: '请你出来一下。',
+            exampleEn: 'Please come out for a moment.',
+            examplePinyin: 'Qǐng nǐ chū lái yí xià'
+          },
+          {
+            id: 'hj2a-l2-w16',
+            hanzi: '得',
+            pinyin: 'dé',
+            pos: '动',
+            english: 'to get (a disease); to contract',
+            exampleCn: '我得了感冒。',
+            exampleEn: 'I caught a cold.',
+            examplePinyin: 'Wǒ dé le gǎn mào'
+          },
+          {
+            id: 'hj2a-l2-w17',
+            hanzi: '肠炎',
+            pinyin: 'cháng yán',
+            pos: '名',
+            english: 'enteritis',
+            exampleCn: '他得了肠炎。',
+            exampleEn: 'He got enteritis.',
+            examplePinyin: 'Tā dé le cháng yán'
+          },
+          {
+            id: 'hj2a-l2-w18',
+            hanzi: '消化',
+            pinyin: 'xiāo huà',
+            pos: '动',
+            english: 'to digest',
+            exampleCn: '我消化不好。',
+            exampleEn: 'I digest poorly.',
+            examplePinyin: 'Wǒ xiāo huà bù hǎo'
+          },
+          {
+            id: 'hj2a-l2-w19',
+            hanzi: '开（药）',
+            pinyin: 'kāi yào',
+            pos: '动',
+            english: 'to prescribe (medicine)',
+            exampleCn: '大夫给我开了药。',
+            exampleEn: 'The doctor prescribed medicine for me.',
+            examplePinyin: 'Dài fu gěi wǒ kāi le yào'
+          },
+          {
+            id: 'hj2a-l2-w20',
+            hanzi: '打针',
+            pinyin: 'dǎ zhēn',
+            pos: '动',
+            english: 'to give or have an injection',
+            exampleCn: '护士给我打针。',
+            exampleEn: 'The nurse gave me an injection.',
+            examplePinyin: 'Hù shì gěi wǒ dǎ zhēn'
+          },
+          {
+            id: 'hj2a-l2-w21',
+            hanzi: '后',
+            pinyin: 'hòu',
+            pos: '名',
+            english: 'after; later',
+            exampleCn: '吃了饭以后。',
+            exampleEn: 'After eating (a meal).',
+            examplePinyin: 'Chī le fàn yǐ hòu'
+          },
+          {
+            id: 'hj2a-l2-w22',
+            hanzi: '哭',
+            pinyin: 'kū',
+            pos: '动',
+            english: 'to cry; to weep',
+            exampleCn: '妹妹哭了。',
+            exampleEn: 'My younger sister cried.',
+            examplePinyin: 'Mèi mei kū le'
+          },
+          {
+            id: 'hj2a-l2-w23',
+            hanzi: '寂寞',
+            pinyin: 'jì mò',
+            pos: '形',
+            english: 'lonely',
+            exampleCn: '一个人住，觉得很寂寞。',
+            exampleEn: 'Living alone, I feel lonely.',
+            examplePinyin: 'Yí gè rén zhù jué de hěn jì mò'
+          },
+          {
+            id: 'hj2a-l2-w24',
+            hanzi: '所以',
+            pinyin: 'suǒ yǐ',
+            pos: '连',
+            english: 'so; therefore',
+            exampleCn: '因为下雨，所以不去。',
+            exampleEn: 'Because it rained, we didn\'t go.',
+            examplePinyin: 'Yīn wèi xià yǔ suǒ yǐ bú qù'
+          },
+          {
+            id: 'hj2a-l2-w25',
+            hanzi: '难过',
+            pinyin: 'nán guò',
+            pos: '形',
+            english: 'sad; unhappy',
+            exampleCn: '他很难过。',
+            exampleEn: 'He is very sad.',
+            examplePinyin: 'Tā hěn nán guò'
+          },
+          {
+            id: 'hj2a-l2-w26',
+            hanzi: '别',
+            pinyin: 'bié',
+            pos: '副',
+            english: 'don\'t',
+            exampleCn: '别难过了。',
+            exampleEn: 'Don\'t be sad.',
+            examplePinyin: 'Bié nán guò le'
+          },
+          {
+            id: 'hj2a-l2-w27',
+            hanzi: '礼堂',
+            pinyin: 'lǐ táng',
+            pos: '名',
+            english: 'auditorium',
+            exampleCn: '礼堂里有舞会。',
+            exampleEn: 'There is a dance in the auditorium.',
+            examplePinyin: 'Lǐ táng lǐ yǒu wǔ huì'
+          },
+          {
+            id: 'hj2a-l2-w28',
+            hanzi: '舞会',
+            pinyin: 'wǔ huì',
+            pos: '名',
+            english: 'ball; dancing party',
+            exampleCn: '今晚有舞会。',
+            exampleEn: 'There is a dance party tonight.',
+            examplePinyin: 'Jīn wǎn yǒu wǔ huì'
+          },
+          {
+            id: 'hj2a-l2-w29',
+            hanzi: '跳舞',
+            pinyin: 'tiào wǔ',
+            pos: '动',
+            english: 'to dance',
+            exampleCn: '我们一起跳舞吧。',
+            exampleEn: 'Let\'s dance together.',
+            examplePinyin: 'Wǒ men yì qǐ tiào wǔ ba'
+          }
+        ]
       }
     ]
-  },
+  }
 ]
 
 // 获取所有教材生词的去重列表（用于搜索等）
