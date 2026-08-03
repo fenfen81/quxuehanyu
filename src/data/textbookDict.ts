@@ -14113,7 +14113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'doctor',
             exampleCn: '大夫，我肚子疼。',
             exampleEn: 'Doctor, my stomach hurts.',
-            examplePinyin: 'Dài fu wǒ dù zǐ téng'
+            examplePinyin: 'Dài fu wǒ dù zi téng'
           },
           {
             id: 'hj2a-l2-w2',
@@ -14128,7 +14128,7 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w3',
             hanzi: '肚子',
-            pinyin: 'dù zǐ',
+            pinyin: 'dù zi',
             pos: '名',
             english: 'stomach; abdomen',
             exampleCn: '我肚子饿了。',
@@ -14138,12 +14138,12 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w4',
             hanzi: '厉害',
-            pinyin: 'lì hài',
+            pinyin: 'lì hai',
             pos: '形',
             english: 'serious; severe',
             exampleCn: '他病得很厉害。',
             exampleEn: 'He is seriously ill.',
-            examplePinyin: 'Tā bìng dé hěn lì hài'
+            examplePinyin: 'Tā bìng de hěn lì hai'
           },
           {
             id: 'hj2a-l2-w5',
@@ -14168,12 +14168,12 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w7',
             hanzi: '拉肚子',
-            pinyin: 'lā dù zǐ',
+            pinyin: 'lā dù zi',
             pos: '动',
             english: 'to have loose bowels; to suffer from diarrhoea',
             exampleCn: '昨天我拉肚子了。',
             exampleEn: 'I had diarrhoea yesterday.',
-            examplePinyin: 'Zuó tiān wǒ lā dù zǐ le'
+            examplePinyin: 'Zuó tiān wǒ lā dù zi le'
           },
           {
             id: 'hj2a-l2-w8',
@@ -14188,12 +14188,12 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w9',
             hanzi: '牛肉',
-            pinyin: 'niú ròu',
+            pinyin: 'niú rou',
             pos: '名',
             english: 'beef',
             exampleCn: '今晚我们吃牛肉。',
             exampleEn: 'We\'re eating beef tonight.',
-            examplePinyin: 'Jīn wǎn wǒ men chī niú ròu'
+            examplePinyin: 'Jīn wǎn wǒ men chī niú rou'
           },
           {
             id: 'hj2a-l2-w10',
@@ -14243,17 +14243,17 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'result',
             exampleCn: '化验结果出来了。',
             exampleEn: 'The test result came out.',
-            examplePinyin: 'Huà yàn jié guǒ chū lái le'
+            examplePinyin: 'Huà yàn jié guǒ chū lai le'
           },
           {
             id: 'hj2a-l2-w15',
             hanzi: '出来',
-            pinyin: 'chū lái',
+            pinyin: 'chū lai',
             pos: '动',
             english: 'to come out; to emerge; to appear',
             exampleCn: '请你出来一下。',
             exampleEn: 'Please come out for a moment.',
-            examplePinyin: 'Qǐng nǐ chū lái yí xià'
+            examplePinyin: 'Qǐng nǐ chū lai yí xià'
           },
           {
             id: 'hj2a-l2-w16',
@@ -14338,22 +14338,22 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w24',
             hanzi: '所以',
-            pinyin: 'suǒ yǐ',
+            pinyin: 'suǒ yi',
             pos: '连',
             english: 'so; therefore',
             exampleCn: '因为下雨，所以不去。',
             exampleEn: 'Because it rained, we didn\'t go.',
-            examplePinyin: 'Yīn wèi xià yǔ suǒ yǐ bú qù'
+            examplePinyin: 'Yīn wèi xià yǔ suǒ yi bú qù'
           },
           {
             id: 'hj2a-l2-w25',
             hanzi: '难过',
-            pinyin: 'nán guò',
+            pinyin: 'nán guo',
             pos: '形',
             english: 'sad; unhappy',
             exampleCn: '他很难过。',
             exampleEn: 'He is very sad.',
-            examplePinyin: 'Tā hěn nán guò'
+            examplePinyin: 'Tā hěn nán guo'
           },
           {
             id: 'hj2a-l2-w26',
@@ -14363,7 +14363,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'don\'t',
             exampleCn: '别难过了。',
             exampleEn: 'Don\'t be sad.',
-            examplePinyin: 'Bié nán guò le'
+            examplePinyin: 'Bié nán guo le'
           },
           {
             id: 'hj2a-l2-w27',
@@ -14388,12 +14388,12 @@ export const textbookVocabList: TextbookVocab[] = [
           {
             id: 'hj2a-l2-w29',
             hanzi: '跳舞',
-            pinyin: 'tiào wǔ',
+            pinyin: 'tiào wu',
             pos: '动',
             english: 'to dance',
             exampleCn: '我们一起跳舞吧。',
             exampleEn: 'Let\'s dance together.',
-            examplePinyin: 'Wǒ men yì qǐ tiào wǔ ba'
+            examplePinyin: 'Wǒ men yì qǐ tiào wu ba'
           }
         ]
       }

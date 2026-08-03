@@ -63,8 +63,10 @@ function generateWord(word) {
     try {
       tts = new MsEdgeTTS();
       await tts.setMetadata('zh-CN-XiaoxiaoNeural', OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
-      // 单字多音词按词表拼音朗读，避免 TTS 读错声调（如"背"读成 bèi）
-      const ttsText = word.hanzi.length === 1 ? word.pinyin : word.hanzi;
+      // 统一使用汉字作为 TTS 输入（XiaoxiaoNeural 对绝大多数词的默认发音准确）。
+      // 注意：不要传拼音拉丁文本（如 "dé"），中文 TTS 会将其按字母朗读导致读音错误。
+      // 如遇确需强制多音字发音的场景，应在 hanzi 后用同音字/上下文辅助，而非传 pinyin。
+      const ttsText = word.hanzi;
       const { audioStream } = tts.toStream(ttsText);
       const chunks = [];
 
