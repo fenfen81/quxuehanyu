@@ -18631,15 +18631,176 @@ export const textbooks: Textbook[] = [
         texts: [
           {
             id: 'hj2a-l2-t1',
-            label: "课文（一）你怎么了",
+            label: "课文一：你怎么了",
             sentences: [
               {
                 id: 'hj2a-l2-t1-s1',
-                cn: "大夫：化验结果出来了吗？",
-                split: "大夫 化验 结果 出来 了 吗",
-                en: "Doctor: Are the test results out?",
+                cn: "你怎么了？",
+                split: "你 怎么 了",
+                en: "What\'s wrong with you?",
                 dict: {
-                  "大夫": "dài fu / doctor",
+                  "你": "nǐ / you",
+                  "怎么": "zěn me / how; why",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s2',
+                cn: "肚子疼得厉害，在家吃了两片药，还不行。",
+                split: "肚子 疼 得 厉害 在 家 吃 了 两 片 药 还 不 行",
+                en: "My stomach hurts badly. I took two pills at home, but it still hasn\'t gotten better.",
+                dict: {
+                  "肚子": "dù zǐ / stomach; abdomen",
+                  "疼": "téng",
+                  "得": "dé / to get (a disease); to contract",
+                  "厉害": "lì hài / serious; severe",
+                  "在": "zài / to be at; (at)",
+                  "家": "jiā / home; family",
+                  "吃": "chī",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "两": "liǎng",
+                  "片": "piàn / measure word (for slices, tablets, etc.)",
+                  "药": "yào",
+                  "还": "hái / still; yet",
+                  "不": "bù / not",
+                  "行": "xíng",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s3',
+                cn: "拉肚子了吗？",
+                split: "拉肚子 了 吗",
+                en: "Do you have diarrhea?",
+                dict: {
+                  "拉肚子": "lā dù zǐ / to have loose bowels; to suffer from diarrhoea",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s4',
+                cn: "拉了。",
+                split: "拉 了",
+                en: "Yes, I do.",
+                dict: {
+                  "拉": "lā",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s5',
+                cn: "昨天吃什么了？",
+                split: "昨 天 吃 什么 了",
+                en: "What did you eat yesterday?",
+                dict: {
+                  "昨": "zuó",
+                  "天": "tiān",
+                  "吃": "chī",
+                  "什么": "shén me / what",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s6',
+                cn: "就吃了一些鱼和牛肉。",
+                split: "就 吃 了 一 些 鱼 和 牛肉",
+                en: "I just ate some fish and beef.",
+                dict: {
+                  "就": "jiù / just; simply",
+                  "吃": "chī",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "一": "yī / one",
+                  "些": "xiē",
+                  "鱼": "yú / fish",
+                  "和": "hé",
+                  "牛肉": "niú ròu / beef",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s7',
+                cn: "喝什么了？",
+                split: "喝 什么 了",
+                en: "What did you drink?",
+                dict: {
+                  "喝": "hē",
+                  "什么": "shén me / what",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s8',
+                cn: "喝了一瓶啤酒。",
+                split: "喝 了 一 瓶 啤 酒",
+                en: "I drank a bottle of beer.",
+                dict: {
+                  "喝": "hē",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "一": "yī / one",
+                  "瓶": "píng",
+                  "啤": "pí",
+                  "酒": "jiǔ",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s9',
+                cn: "发烧吗？",
+                split: "发 烧 吗",
+                en: "Do you have a fever?",
+                dict: {
+                  "发": "fā",
+                  "烧": "shāo",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s10',
+                cn: "不发烧。",
+                split: "不 发 烧",
+                en: "No, I don\'t.",
+                dict: {
+                  "不": "bù / not",
+                  "发": "fā",
+                  "烧": "shāo",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s11',
+                cn: "你先去化验一下儿大便，然后我再给你检查检查。",
+                split: "你 先 去 化验 一 下 儿 大便 然 后 我 再 给 你 检查 检查",
+                en: "Go get your stool tested first, then I\'ll examine you.",
+                dict: {
+                  "你": "nǐ / you",
+                  "先": "xiān",
+                  "去": "qù / to go",
+                  "化验": "huà yàn / to test; to assay",
+                  "一": "yī / one",
+                  "下": "xià",
+                  "儿": "ér",
+                  "大便": "dà biàn / stool; faeces; to defecate",
+                  "然": "rán",
+                  "后": "hòu / after; later",
+                  "我": "wǒ / I; me",
+                  "再": "zài / again (future)",
+                  "给": "gěi / to give; for",
+                  "检查": "jiǎn chá / to examine; to check up",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s12',
+                cn: "好吧。",
+                split: "好 吧",
+                en: "All right.",
+                dict: {
+                  "好": "hǎo / good; well; OK",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s13',
+                cn: "化验结果出来了吗？",
+                split: "化验 结果 出来 了 吗",
+                en: "Have the lab test results come out?",
+                dict: {
                   "化验": "huà yàn / to test; to assay",
                   "结果": "jié guǒ / result",
                   "出来": "chū lái / to come out; to emerge; to appear",
@@ -18648,23 +18809,21 @@ export const textbooks: Textbook[] = [
                 }
               },
               {
-                id: 'hj2a-l2-t1-s2',
-                cn: "病人：出来了。",
-                split: "病人 出来 了",
-                en: "Patient: Yes, they are.",
+                id: 'hj2a-l2-t1-s14',
+                cn: "出来了。",
+                split: "出来 了",
+                en: "Yes, they have.",
                 dict: {
-                  "病人": "bìng rén / patient",
                   "出来": "chū lái / to come out; to emerge; to appear",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
                 }
               },
               {
-                id: 'hj2a-l2-t1-s3',
-                cn: "病人：大夫，我是不是得了肠炎？",
-                split: "病人 大夫 我 是不是 得 了 肠炎",
-                en: "Patient: Doctor, do I have enteritis?",
+                id: 'hj2a-l2-t1-s15',
+                cn: "大夫，我是不是得了肠炎？",
+                split: "大夫 我 是不是 得 了 肠炎",
+                en: "Doctor, do I have enteritis?",
                 dict: {
-                  "病人": "bìng rén / patient",
                   "大夫": "dài fu / doctor",
                   "我": "wǒ / I; me",
                   "是不是": "shì bu shì / whether or not; yes or no",
@@ -18674,23 +18833,38 @@ export const textbooks: Textbook[] = [
                 }
               },
               {
-                id: 'hj2a-l2-t1-s4',
-                cn: "大夫：我看了化验结果。不是肠炎，只是消化不好。先给你开一些药，再给你打一针。",
-                split: "大夫 我 看 了 化验 结果 不 是 肠炎 只 是 消化 不 好 先 给 你 开 一 些 药 再 给 你 打 一 针",
-                en: "Doctor: I\'ve looked at the results. It\'s not enteritis, just poor digestion. First I\'ll prescribe some medicine, then give you an injection.",
+                id: 'hj2a-l2-t1-s16',
+                cn: "我看了化验结果。",
+                split: "我 看 了 化验 结果",
+                en: "I\'ve looked at the test results.",
                 dict: {
-                  "大夫": "dài fu / doctor",
                   "我": "wǒ / I; me",
                   "看": "kàn / to look; to see; to visit",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
                   "化验": "huà yàn / to test; to assay",
                   "结果": "jié guǒ / result",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s17',
+                cn: "不是肠炎，只是消化不好。",
+                split: "不 是 肠炎 只 是 消化 不 好",
+                en: "It\'s not enteritis, just indigestion.",
+                dict: {
                   "不": "bù / not",
                   "是": "shì / to be (am/is/are)",
                   "肠炎": "cháng yán / enteritis",
                   "只": "zhī",
                   "消化": "xiāo huà / to digest",
                   "好": "hǎo / good; well; OK",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s18',
+                cn: "先给你开一些药，再给你打一针。",
+                split: "先 给 你 开 一 些 药 再 给 你 打 一 针",
+                en: "I\'ll prescribe some medicine for you first, then give you an injection.",
+                dict: {
                   "先": "xiān",
                   "给": "gěi / to give; for",
                   "你": "nǐ / you",
@@ -18704,15 +18878,31 @@ export const textbooks: Textbook[] = [
                 }
               },
               {
-                id: 'hj2a-l2-t1-s5',
-                cn: "病人：这药怎么吃？",
-                split: "病人 这 药 怎么 吃",
-                en: "Patient: How do I take this medicine?",
+                id: 'hj2a-l2-t1-s19',
+                cn: "这药怎么吃？",
+                split: "这 药 怎么 吃",
+                en: "How should I take this medicine?",
                 dict: {
-                  "病人": "bìng rén / patient",
                   "这": "zhè",
                   "药": "yào",
                   "怎么": "zěn me / how; why",
+                  "吃": "chī",
+                }
+              },
+              {
+                id: 'hj2a-l2-t1-s20',
+                cn: "一天三次，一次两片，饭后吃。",
+                split: "一 天 三 次 一 次 两 片 饭 后 吃",
+                en: "Three times a day, two tablets each time, after meals.",
+                dict: {
+                  "一": "yī / one",
+                  "天": "tiān",
+                  "三": "sān",
+                  "次": "cì",
+                  "两": "liǎng",
+                  "片": "piàn / measure word (for slices, tablets, etc.)",
+                  "饭": "fàn",
+                  "后": "hòu / after; later",
                   "吃": "chī",
                 }
               }
@@ -18720,39 +18910,60 @@ export const textbooks: Textbook[] = [
           },
           {
             id: 'hj2a-l2-t2',
-            label: "课文（二）玛丽哭了",
+            label: "课文二：玛丽哭了",
             sentences: [
               {
                 id: 'hj2a-l2-t2-s1',
-                cn: "罗兰：玛丽，你怎么哭了？病了吗？",
-                split: "罗 兰 玛 丽 你 怎么 哭 了 病 了 吗",
-                en: "Roland: Mary, why are you crying? Are you sick?",
+                cn: "玛丽，你怎么哭了？",
+                split: "玛 丽 你 怎么 哭 了",
+                en: "Mary, why are you crying?",
                 dict: {
-                  "罗": "luó",
-                  "兰": "lán",
                   "玛": "mǎ",
                   "丽": "lì",
                   "你": "nǐ / you",
                   "怎么": "zěn me / how; why",
                   "哭": "kū / to cry; to weep",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
-                  "病": "bìng",
-                  "吗": "ma / (question particle)",
                 }
               },
               {
                 id: 'hj2a-l2-t2-s2',
-                cn: "玛丽：不是。想家了。因为感到寂寞，所以心情不好，很难过。",
-                split: "玛 丽 不 是 想 家 了 因 为 感 到 寂寞 所以 心 情 不 好 很 难过",
-                en: "Mary: No. I\'m homesick. Because I feel lonely, I\'m in a bad mood and very sad.",
+                cn: "病了吗？",
+                split: "病 了 吗",
+                en: "Are you sick?",
                 dict: {
-                  "玛": "mǎ",
-                  "丽": "lì",
+                  "病": "bìng",
+                  "了": "liǎo / a particle indicating a completed action or a new situation",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s3',
+                cn: "不是。",
+                split: "不 是",
+                en: "No.",
+                dict: {
                   "不": "bù / not",
                   "是": "shì / to be (am/is/are)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s4',
+                cn: "想家了。",
+                split: "想 家 了",
+                en: "I\'m homesick.",
+                dict: {
                   "想": "xiǎng / to want; to think",
                   "家": "jiā / home; family",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s5',
+                cn: "因为感到寂寞，所以心情不好，很难过。",
+                split: "因 为 感 到 寂寞 所以 心 情 不 好 很 难过",
+                en: "Because I feel lonely, I\'m in a bad mood and very sad.",
+                dict: {
                   "因": "yīn",
                   "为": "wèi",
                   "感": "gǎn",
@@ -18761,37 +18972,74 @@ export const textbooks: Textbook[] = [
                   "所以": "suǒ yǐ / so; therefore",
                   "心": "xīn",
                   "情": "qíng",
+                  "不": "bù / not",
                   "好": "hǎo / good; well; OK",
                   "很": "hěn",
                   "难过": "nán guò / sad; unhappy",
                 }
               },
               {
-                id: 'hj2a-l2-t2-s3',
-                cn: "罗兰：别难过了。",
-                split: "罗 兰 别 难过 了",
-                en: "Roland: Don\'t be sad.",
+                id: 'hj2a-l2-t2-s6',
+                cn: "别难过了。",
+                split: "别 难过 了",
+                en: "Don\'t be sad.",
                 dict: {
-                  "罗": "luó",
-                  "兰": "lán",
                   "别": "bié / don\'t",
                   "难过": "nán guò / sad; unhappy",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
                 }
               },
               {
-                id: 'hj2a-l2-t2-s4',
-                cn: "玛丽：我有姐姐，还有弟弟。在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
-                split: "玛 丽 我 有 姐 姐 还 有 弟 弟 在 家 时 我们 常 常 一起 玩 儿 所以 感 到 寂寞 时 总 想 他 们",
-                en: "Mary: I have an older sister and a younger brother. At home we used to play together often, so when I feel lonely I always miss them.",
+                id: 'hj2a-l2-t2-s7',
+                cn: "你不想家吗？",
+                split: "你 不 想 家 吗",
+                en: "Don\'t you miss home?",
                 dict: {
-                  "玛": "mǎ",
-                  "丽": "lì",
+                  "你": "nǐ / you",
+                  "不": "bù / not",
+                  "想": "xiǎng / to want; to think",
+                  "家": "jiā / home; family",
+                  "吗": "ma / (question particle)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s8',
+                cn: "我也常想家，但是不感到寂寞。",
+                split: "我 也 常 想 家 但 是 不 感 到 寂寞",
+                en: "I often miss home too, but I don\'t feel lonely.",
+                dict: {
+                  "我": "wǒ / I; me",
+                  "也": "yě / also; too",
+                  "常": "cháng",
+                  "想": "xiǎng / to want; to think",
+                  "家": "jiā / home; family",
+                  "但": "dàn",
+                  "是": "shì / to be (am/is/are)",
+                  "不": "bù / not",
+                  "感": "gǎn",
+                  "到": "dào",
+                  "寂寞": "jì mò / lonely",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s9',
+                cn: "我有姐姐，还有弟弟。",
+                split: "我 有 姐 姐 还 有 弟 弟",
+                en: "I have an older sister, and also a younger brother.",
+                dict: {
                   "我": "wǒ / I; me",
                   "有": "yǒu / to have",
                   "姐": "jiě",
                   "还": "hái / still; yet",
                   "弟": "dì",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s10',
+                cn: "在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
+                split: "在 家 时 我们 常 常 一起 玩 儿 所以 感 到 寂寞 时 总 想 他 们",
+                en: "When I was at home, we often played together, so when I feel lonely I always think of them.",
+                dict: {
                   "在": "zài / to be at; (at)",
                   "家": "jiā / home; family",
                   "时": "shí",
@@ -18811,13 +19059,11 @@ export const textbooks: Textbook[] = [
                 }
               },
               {
-                id: 'hj2a-l2-t2-s5',
-                cn: "罗兰：今天晚上礼堂有舞会，我们一起去跳跳舞吧。玩儿玩儿就好了。",
-                split: "罗 兰 今天 晚 上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧 玩 儿 玩 儿 就 好 了",
-                en: "Roland: There\'s a dance in the auditorium tonight; let\'s go dance together. You\'ll feel better after enjoying yourself.",
+                id: 'hj2a-l2-t2-s11',
+                cn: "今天晚上礼堂有舞会，我们一起去跳跳舞吧。",
+                split: "今天 晚 上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧",
+                en: "There\'s a dance in the auditorium tonight; let\'s go dancing together.",
                 dict: {
-                  "罗": "luó",
-                  "兰": "lán",
                   "今天": "jīn tiān / today",
                   "晚": "wǎn",
                   "上": "shàng / to attend (a class)",
@@ -18830,6 +19076,14 @@ export const textbooks: Textbook[] = [
                   "跳": "tiào",
                   "跳舞": "tiào wǔ / to dance",
                   "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s12',
+                cn: "玩儿玩儿就好了。",
+                split: "玩 儿 玩 儿 就 好 了",
+                en: "You\'ll feel better after having some fun.",
+                dict: {
                   "玩": "wán",
                   "儿": "ér",
                   "就": "jiù / just; simply",
@@ -18838,26 +19092,22 @@ export const textbooks: Textbook[] = [
                 }
               },
               {
-                id: 'hj2a-l2-t2-s6',
-                cn: "玛丽：什么时候去？",
-                split: "玛 丽 什么 时候 去",
-                en: "Mary: When shall we go?",
+                id: 'hj2a-l2-t2-s13',
+                cn: "什么时候去？",
+                split: "什么 时候 去",
+                en: "When should we go?",
                 dict: {
-                  "玛": "mǎ",
-                  "丽": "lì",
                   "什么": "shén me / what",
                   "时候": "shí hòu / time; moment",
                   "去": "qù / to go",
                 }
               },
               {
-                id: 'hj2a-l2-t2-s7',
-                cn: "罗兰：吃了晚饭就去吧。你在宿舍等我，我来叫你。",
-                split: "罗 兰 吃 了 晚 饭 就 去 吧 你 在 宿 舍 等 我 我 来 叫 你",
-                en: "Roland: Let\'s go after dinner. Wait for me in the dorm; I\'ll come get you.",
+                id: 'hj2a-l2-t2-s14',
+                cn: "吃了晚饭就去吧。",
+                split: "吃 了 晚 饭 就 去 吧",
+                en: "Let\'s go after dinner.",
                 dict: {
-                  "罗": "luó",
-                  "兰": "lán",
                   "吃": "chī",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
                   "晚": "wǎn",
@@ -18865,6 +19115,14 @@ export const textbooks: Textbook[] = [
                   "就": "jiù / just; simply",
                   "去": "qù / to go",
                   "吧": "ba / (particle, soft suggestion/guess)",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s15',
+                cn: "你在宿舍等我，我来叫你。",
+                split: "你 在 宿 舍 等 我 我 来 叫 你",
+                en: "Wait for me in the dorm; I\'ll come get you.",
+                dict: {
                   "你": "nǐ / you",
                   "在": "zài / to be at; (at)",
                   "宿": "sù",
@@ -18873,6 +19131,16 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "来": "lái / to come",
                   "叫": "jiào",
+                }
+              },
+              {
+                id: 'hj2a-l2-t2-s16',
+                cn: "好吧。",
+                split: "好 吧",
+                en: "All right.",
+                dict: {
+                  "好": "hǎo / good; well; OK",
+                  "吧": "ba / (particle, soft suggestion/guess)",
                 }
               }
             ]

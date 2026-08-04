@@ -1,0 +1,186 @@
+{
+  "lesson1": [
+    {
+      "cn": "你怎么了？",
+      "en": "What's wrong with you?",
+      "pinyin": "nǐ zěnme le？"
+    },
+    {
+      "cn": "肚子疼得厉害，在家吃了两片药，还不行。",
+      "en": "My stomach hurts badly. I took two pills at home, but it still hasn't gotten better.",
+      "pinyin": "dǔziténg dé lìhài， zàijiā chī le liǎngpiàn yào， hái bùxíng。"
+    },
+    {
+      "cn": "拉肚子了吗？",
+      "en": "Do you have diarrhea?",
+      "pinyin": "lādùzi le ma？"
+    },
+    {
+      "cn": "拉了。",
+      "en": "Yes, I do.",
+      "pinyin": "lā le。"
+    },
+    {
+      "cn": "昨天吃什么了？",
+      "en": "What did you eat yesterday?",
+      "pinyin": "zuótiān chī shénme le？"
+    },
+    {
+      "cn": "就吃了一些鱼和牛肉。",
+      "en": "I just ate some fish and beef.",
+      "pinyin": "jiù chī le yìxiē yú hé niúròu。"
+    },
+    {
+      "cn": "喝什么了？",
+      "en": "What did you drink?",
+      "pinyin": "hē shénme le？"
+    },
+    {
+      "cn": "喝了一瓶啤酒。",
+      "en": "I drank a bottle of beer.",
+      "pinyin": "hē le yìpíng píjiǔ。"
+    },
+    {
+      "cn": "发烧吗？",
+      "en": "Do you have a fever?",
+      "pinyin": "fāshāo ma？"
+    },
+    {
+      "cn": "不发烧。",
+      "en": "No, I don't.",
+      "pinyin": "bù fāshāo。"
+    },
+    {
+      "cn": "你先去化验一下儿大便，然后我再给你检查检查。",
+      "en": "Go get your stool tested first, then I'll examine you.",
+      "pinyin": "nǐ xiān qù huàyàn yíxiàr dàbiàn， ránhòu wǒ zài gěi nǐ jiǎnchá jiǎnchá。"
+    },
+    {
+      "cn": "好吧。",
+      "en": "All right.",
+      "pinyin": "hǎo ba。"
+    },
+    {
+      "cn": "化验结果出来了吗？",
+      "en": "Have the lab test results come out?",
+      "pinyin": "huàyàn jiéguǒ chūlái le ma？"
+    },
+    {
+      "cn": "出来了。",
+      "en": "Yes, they have.",
+      "pinyin": "chūlái le。"
+    },
+    {
+      "cn": "大夫，我是不是得了肠炎？",
+      "en": "Doctor, do I have enteritis?",
+      "pinyin": "dàfū， wǒ shìbúshì dé le chángyán？"
+    },
+    {
+      "cn": "我看了化验结果。",
+      "en": "I've looked at the test results.",
+      "pinyin": "wǒ kàn le huàyàn jiéguǒ。"
+    },
+    {
+      "cn": "不是肠炎，只是消化不好。",
+      "en": "It's not enteritis, just indigestion.",
+      "pinyin": "búshì chángyán， zhǐshì xiāohuà bùhǎo。"
+    },
+    {
+      "cn": "先给你开一些药，再给你打一针。",
+      "en": "I'll prescribe some medicine for you first, then give you an injection.",
+      "pinyin": "xiāngěi nǐ kāi yìxiē yào， zài gěi nǐ dǎ yìzhēn。"
+    },
+    {
+      "cn": "这药怎么吃？",
+      "en": "How should I take this medicine?",
+      "pinyin": "zhèyào zěnme chī？"
+    },
+    {
+      "cn": "一天三次，一次两片，饭后吃。",
+      "en": "Three times a day, two tablets each time, after meals.",
+      "pinyin": "yìtiān sāncì， yícì liǎngpiàn， fànhòu chī。"
+    }
+  ],
+  "lesson2": [
+    {
+      "cn": "玛丽，你怎么哭了？",
+      "en": "Mary, why are you crying?",
+      "pinyin": "mǎlì， nǐ zěnme kū le？"
+    },
+    {
+      "cn": "病了吗？",
+      "en": "Are you sick?",
+      "pinyin": "bìng le ma？"
+    },
+    {
+      "cn": "不是。",
+      "en": "No.",
+      "pinyin": "búshì。"
+    },
+    {
+      "cn": "想家了。",
+      "en": "I'm homesick.",
+      "pinyin": "xiǎngjiā le。"
+    },
+    {
+      "cn": "因为感到寂寞，所以心情不好，很难过。",
+      "en": "Because I feel lonely, I'm in a bad mood and very sad.",
+      "pinyin": "yīnwèi gǎndào jìmò， suǒyǐ xīnqíng bùhǎo， hěn nánguò。"
+    },
+    {
+      "cn": "别难过了。",
+      "en": "Don't be sad.",
+      "pinyin": "biénánguò le。"
+    },
+    {
+      "cn": "你不想家吗？",
+      "en": "Don't you miss home?",
+      "pinyin": "nǐ bùxiǎng jiā ma？"
+    },
+    {
+      "cn": "我也常想家，但是不感到寂寞。",
+      "en": "I often miss home too, but I don't feel lonely.",
+      "pinyin": "wǒ yě chángxiǎngjiā， dànshì bù gǎndào jìmò。"
+    },
+    {
+      "cn": "我有姐姐，还有弟弟。",
+      "en": "I have an older sister, and also a younger brother.",
+      "pinyin": "wǒ yǒu jiějie， háiyǒu dìdi。"
+    },
+    {
+      "cn": "在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
+      "en": "When I was at home, we often played together, so when I feel lonely I always think of them.",
+      "pinyin": "zàijiā shí， wǒmen chángcháng yìqǐ wánr， suǒyǐ gǎndào jìmò shí zǒngxiǎng tāmen。"
+    },
+    {
+      "cn": "今天晚上礼堂有舞会，我们一起去跳跳舞吧。",
+      "en": "There's a dance in the auditorium tonight; let's go dancing together.",
+      "pinyin": "jīntiān wǎnshàng lǐtáng yǒu wǔhuì， wǒmen yìqǐ qù tiàotiao wǔ ba。"
+    },
+    {
+      "cn": "玩儿玩儿就好了。",
+      "en": "You'll feel better after having some fun.",
+      "pinyin": "wánr wanr jiù hǎo le。"
+    },
+    {
+      "cn": "什么时候去？",
+      "en": "When should we go?",
+      "pinyin": "shénme shíhòu qù？"
+    },
+    {
+      "cn": "吃了晚饭就去吧。",
+      "en": "Let's go after dinner.",
+      "pinyin": "chī le wǎnfàn jiù qù ba。"
+    },
+    {
+      "cn": "你在宿舍等我，我来叫你。",
+      "en": "Wait for me in the dorm; I'll come get you.",
+      "pinyin": "nǐ zài sùshè děng wǒ， wǒlái jiào nǐ。"
+    },
+    {
+      "cn": "好吧。",
+      "en": "All right.",
+      "pinyin": "hǎo ba。"
+    }
+  ]
+}
