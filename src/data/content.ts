@@ -18912,11 +18912,10 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s1',
                 cn: "玛丽，你怎么哭了？",
-                split: "玛 丽 你 怎么 哭 了",
+                split: "玛丽 你 怎么 哭 了",
                 en: "Mary, why are you crying?",
                 dict: {
-                  "玛": "mǎ",
-                  "丽": "lì",
+                  "玛丽": "mǎ lì / Mary (name)",
                   "你": "nǐ / you",
                   "怎么": "zěn me / how; why",
                   "哭": "kū / to cry; to weep",
@@ -18958,15 +18957,14 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s5',
                 cn: "因为感到寂寞，所以心情不好，很难过。",
-                split: "因为 感到 寂寞 所以 心 情 不 好 很 难过",
+                split: "因为 感到 寂寞 所以 心情 不 好 很 难过",
                 en: "Because I feel lonely, I\'m in a bad mood and very sad.",
                 dict: {
                   "因为": "yīn wèi / because",
                   "感到": "gǎn dào / feel",
                   "寂寞": "jì mò / lonely",
                   "所以": "suǒ yǐ / so; therefore",
-                  "心": "xīn",
-                  "情": "qíng",
+                  "心情": "xīn qíng / mood; state of mind",
                   "不": "bù / not",
                   "好": "hǎo / good; well; OK",
                   "很": "hěn / very",
@@ -19017,20 +19015,20 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s9',
                 cn: "我有姐姐，还有弟弟。",
-                split: "我 有 姐 姐 还 有 弟 弟",
+                split: "我 有 姐姐 还 有 弟弟",
                 en: "I have an older sister, and also a younger brother.",
                 dict: {
                   "我": "wǒ / I; me",
                   "有": "yǒu / to have",
-                  "姐": "jiě",
+                  "姐姐": "jiě jie / older sister",
                   "还": "hái / still; also",
-                  "弟": "dì",
+                  "弟弟": "dì di / younger brother",
                 }
               },
               {
                 id: 'hj2a-l2-t2-s10',
                 cn: "在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
-                split: "在 家 时 我们 常常 一起 玩 儿 所以 感到 寂寞 时 总 想 他 们",
+                split: "在 家 时 我们 常常 一起 玩儿 所以 感到 寂寞 时 总 想 他 们",
                 en: "When I was at home, we often played together, so when I feel lonely I always think of them.",
                 dict: {
                   "在": "zài / to be at; (at)",
@@ -19039,8 +19037,7 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒ men / we; us",
                   "常常": "cháng cháng / often; frequently",
                   "一起": "yì qǐ / together",
-                  "玩": "wán",
-                  "儿": "ér",
+                  "玩儿": "wán ér / to have fun; to play",
                   "所以": "suǒ yǐ / so; therefore",
                   "感到": "gǎn dào / feel",
                   "寂寞": "jì mò / lonely",
@@ -19053,12 +19050,11 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s11',
                 cn: "今天晚上礼堂有舞会，我们一起去跳跳舞吧。",
-                split: "今天 晚 上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧",
+                split: "今天 晚上 礼堂 有 舞会 我们 一起 去 跳 跳舞 吧",
                 en: "There\'s a dance in the auditorium tonight; let\'s go dancing together.",
                 dict: {
                   "今天": "jīn tiān / today",
-                  "晚": "wǎn",
-                  "上": "shàng / to attend (a class)",
+                  "晚上": "wǎn shàng / evening",
                   "礼堂": "lǐ táng / auditorium",
                   "有": "yǒu / to have",
                   "舞会": "wǔ huì / ball; dancing party",
@@ -19073,11 +19069,10 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s12',
                 cn: "玩儿玩儿就好了。",
-                split: "玩 儿 玩 儿 就 好 了",
+                split: "玩儿 玩儿 就 好 了",
                 en: "You\'ll feel better after having some fun.",
                 dict: {
-                  "玩": "wán",
-                  "儿": "ér",
+                  "玩儿": "wán ér / to have fun; to play",
                   "就": "jiù / just; simply",
                   "好": "hǎo / good; well; OK",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
@@ -19097,13 +19092,12 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s14',
                 cn: "吃了晚饭就去吧。",
-                split: "吃 了 晚 饭 就 去 吧",
+                split: "吃 了 晚饭 就 去 吧",
                 en: "Let\'s go after dinner.",
                 dict: {
                   "吃": "chī",
                   "了": "liǎo / a particle indicating a completed action or a new situation",
-                  "晚": "wǎn",
-                  "饭": "fàn",
+                  "晚饭": "wǎn fàn / dinner",
                   "就": "jiù / just; simply",
                   "去": "qù / to go",
                   "吧": "ba / (particle, soft suggestion/guess)",
@@ -19112,13 +19106,12 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t2-s15',
                 cn: "你在宿舍等我，我来叫你。",
-                split: "你 在 宿 舍 等 我 我 来 叫 你",
+                split: "你 在 宿舍 等 我 我 来 叫 你",
                 en: "Wait for me in the dorm; I\'ll come get you.",
                 dict: {
                   "你": "nǐ / you",
                   "在": "zài / to be at; (at)",
-                  "宿": "sù",
-                  "舍": "shè",
+                  "宿舍": "sù shè / dormitory; dorm room",
                   "等": "děng",
                   "我": "wǒ / I; me",
                   "来": "lái / to come",

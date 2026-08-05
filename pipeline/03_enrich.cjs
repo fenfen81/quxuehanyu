@@ -92,17 +92,26 @@ const COMMON = {
   "不": "not", "在": "to be at; (at)", "张": "Zhang (surname)", "东": "east",
   "个": "(measure word)", "回": "to return; to reply", "来": "to come",
   "还": "still; yet", "他": "he; him", "找": "to look for", "问": "to ask",
-  // 常用复合词（防止 tokenize 拆成单字）：时间/程度/连接/心理/状态/生活类
-  "昨天": "yesterday", "今天": "today", "明天": "tomorrow", "啤酒": "beer",
+  // 常用复合词（防止 tokenize 拆成单字）：时间/程度/连接/心理/状态/生活/称谓类
+  "昨天": "yesterday", "今天": "today", "明天": "tomorrow", "晚上": "evening",
+  "早饭": "breakfast", "午饭": "lunch", "晚饭": "dinner", "吃饭": "to eat (a meal)",
+  "啤酒": "beer",
   "一些": "some; a few", "因为": "because", "所以": "therefore", "但是": "but; however",
   "已经": "already", "一起": "together", "可以": "can; may; OK", "感到": "feel",
   "常常": "often; frequently", "寂寞": "lonely", "难过": "sad; upset", "厉害": "serious; severe",
+  "心情": "mood; state of mind",
+  "宿舍": "dormitory; dorm room", "教室": "classroom", "食堂": "cafeteria; canteen",
+  "图书馆": "library", "礼堂": "auditorium", "操场": "playground; sports field",
+  "医院": "hospital", "医生": "doctor", "护士": "nurse", "病人": "patient",
+  "大夫": "doctor (informal)", "药品": "medicine", "药店": "pharmacy",
+  "身体": "body; health", "生病": "fall ill", "检查": "examination; to examine",
+  "化验": "laboratory test", "结果": "result", "肠炎": "enteritis", "消化": "digestion; to digest",
   "牛肉": "beef", "鱼肉": "fish (meat)", "鸡肉": "chicken", "猪肉": "pork",
   "面包": "bread", "牛奶": "milk", "咖啡": "coffee", "果汁": "fruit juice",
   "可乐": "Coke", "瓶子": "bottle", "杯子": "cup", "筷子": "chopsticks",
-  "身体": "body; health", "生病": "fall ill", "医院": "hospital", "医生": "doctor",
-  "病人": "patient", "护士": "nurse", "药品": "medicine", "药店": "pharmacy",
-  "检查": "examination; to examine", "化验": "laboratory test", "结果": "result",
+  "姐姐": "older sister", "弟弟": "younger brother", "哥哥": "older brother", "妹妹": "younger sister",
+  "爸爸": "father", "妈妈": "mother", "爷爷": "grandfather (paternal)", "奶奶": "grandmother (paternal)",
+  "玛丽": "Mary (name)", "麦克": "Mike (name)", "大卫": "David (name)",
   "出来": "come out", "进去": "go in", "回来": "come back", "起来": "get up",
   "看见": "see; spot", "听到": "hear", "遇到": "meet; encounter", "找到": "find",
   "想到": "think of", "觉得": "feel; think", "知道": "know", "认识": "know; recognize",
@@ -119,7 +128,8 @@ const COMMON = {
   "才": "only then; just", "又": "again", "再": "again (future)", "先": "first",
   "只": "only", "很": "very", "挺": "quite; rather", "较": "relatively",
   "会": "can; will", "能": "can; able to", "要": "want; need; will", "想": "want; think",
-  "应该": "should", "愿意": "willing to", "需要": "need", "可能": "possible; maybe"
+  "应该": "should", "愿意": "willing to", "需要": "need", "可能": "possible; maybe",
+  "玩儿": "to have fun; to play"
 }
 
 let totalSent = 0, totalWords = 0
