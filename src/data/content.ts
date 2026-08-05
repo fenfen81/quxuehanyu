@@ -18760,7 +18760,7 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t1-s11',
                 cn: "你先去化验一下儿大便，然后我再给你检查检查。",
-                split: "你 先 去 化验 一 下 儿 大便 然 后 我 再 给 你 检查 检查",
+                split: "你 先 去 化验 一 下 儿 大便 然后 我 再 给 你 检查 检查",
                 en: "Go get your stool tested first, then I\'ll examine you.",
                 dict: {
                   "你": "nǐ / you",
@@ -18771,8 +18771,7 @@ export const textbooks: Textbook[] = [
                   "下": "xià",
                   "儿": "ér",
                   "大便": "dà biàn / stool; faeces; to defecate",
-                  "然": "rán",
-                  "后": "hòu / after; later",
+                  "然后": "rán hòu / then; afterwards",
                   "我": "wǒ / I; me",
                   "再": "zài / again (future)",
                   "给": "gěi / give; for",
