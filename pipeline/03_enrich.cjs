@@ -91,7 +91,35 @@ const COMMON = {
   "没有呢": "not yet", "妈": "mom", "回来": "to return",
   "不": "not", "在": "to be at; (at)", "张": "Zhang (surname)", "东": "east",
   "个": "(measure word)", "回": "to return; to reply", "来": "to come",
-  "还": "still; yet", "他": "he; him", "找": "to look for", "问": "to ask"
+  "还": "still; yet", "他": "he; him", "找": "to look for", "问": "to ask",
+  // 常用复合词（防止 tokenize 拆成单字）：时间/程度/连接/心理/状态/生活类
+  "昨天": "yesterday", "今天": "today", "明天": "tomorrow", "啤酒": "beer",
+  "一些": "some; a few", "因为": "because", "所以": "therefore", "但是": "but; however",
+  "已经": "already", "一起": "together", "可以": "can; may; OK", "感到": "feel",
+  "常常": "often; frequently", "寂寞": "lonely", "难过": "sad; upset", "厉害": "serious; severe",
+  "牛肉": "beef", "鱼肉": "fish (meat)", "鸡肉": "chicken", "猪肉": "pork",
+  "面包": "bread", "牛奶": "milk", "咖啡": "coffee", "果汁": "fruit juice",
+  "可乐": "Coke", "瓶子": "bottle", "杯子": "cup", "筷子": "chopsticks",
+  "身体": "body; health", "生病": "fall ill", "医院": "hospital", "医生": "doctor",
+  "病人": "patient", "护士": "nurse", "药品": "medicine", "药店": "pharmacy",
+  "检查": "examination; to examine", "化验": "laboratory test", "结果": "result",
+  "出来": "come out", "进去": "go in", "回来": "come back", "起来": "get up",
+  "看见": "see; spot", "听到": "hear", "遇到": "meet; encounter", "找到": "find",
+  "想到": "think of", "觉得": "feel; think", "知道": "know", "认识": "know; recognize",
+  "了解": "understand", "相信": "believe", "希望": "hope; wish", "喜欢": "like; love",
+  "担心": "worry about", "关心": "care about", "注意": "pay attention to",
+  "开始": "start; begin", "结束": "end; finish", "继续": "continue", "准备": "prepare",
+  "帮助": "help", "告诉": "tell", "回答": "answer", "让": "let; allow",
+  "请": "please; invite", "叫": "call; name", "使": "make; cause", "把": "BA marker",
+  "被": "passive marker", "从": "from", "向": "towards", "往": "towards",
+  "对": "to; towards; correct", "给": "give; for", "为": "for", "跟": "with",
+  "和": "and; with", "比": "than; to compare", "或者": "or", "还": "still; also",
+  "也": "also; too", "都": "all; both", "太": "too; excessively", "更": "more",
+  "最": "most", "真": "really; truly", "正": "just; right", "刚": "just now",
+  "才": "only then; just", "又": "again", "再": "again (future)", "先": "first",
+  "只": "only", "很": "very", "挺": "quite; rather", "较": "relatively",
+  "会": "can; will", "能": "can; able to", "要": "want; need; will", "想": "want; think",
+  "应该": "should", "愿意": "willing to", "需要": "need", "可能": "possible; maybe"
 }
 
 let totalSent = 0, totalWords = 0

@@ -97,7 +97,7 @@
                 "一个": "yí gè / one (a)",
                 "中学": "zhōng xué / middle school",
                 "同学": "tóng xué / classmate",
-                "要": "yào / to want; to be going to",
+                "要": "yào / want; need; will",
                 "出国": "chū guó / to go abroad",
                 "去": "qù / to go",
                 "看": "kàn / to look; to see; to visit"
@@ -112,8 +112,8 @@
                 "她": "tā / she; her",
                 "什么": "shén me / what",
                 "时候": "shí hòu / time; moment",
-                "能": "néng / can; to be able to",
-                "回来": "huí lái / to return"
+                "能": "néng / can; able to",
+                "回来": "huí lái / come back"
               }
             },
             {
@@ -182,7 +182,7 @@
               "dict": {
                 "阿姨": "ā yí / aunt (polite term for an older woman)",
                 "田芳": "tián fāng / Tian Fang (name)",
-                "回来": "huí lái / to return",
+                "回来": "huí lái / come back",
                 "了": "liǎo / a particle indicating a completed action or a new situation",
                 "没有": "méi yǒu / not have; haven't"
               }
@@ -193,7 +193,7 @@
               "id": "hj2a-l1-t2-s2",
               "split": "还 没有呢",
               "dict": {
-                "还": "hái / still; yet",
+                "还": "hái / still; also",
                 "没有呢": "méi yǒu ne / not yet"
               }
             },
@@ -205,7 +205,7 @@
               "dict": {
                 "妈": "mā / mom",
                 "我": "wǒ / I; me",
-                "回来": "huí lái / to return",
+                "回来": "huí lái / come back",
                 "了": "liǎo / a particle indicating a completed action or a new situation"
               }
             },
@@ -240,7 +240,7 @@
                 "啊": "a / (interjection)",
                 "对了": "duì le / by the way; and",
                 "张东": "zhāng dōng / Zhang Dong (name)",
-                "给": "gěi / to give; for",
+                "给": "gěi / give; for",
                 "你": "nǐ / you",
                 "打电话": "dǎ diàn huà / to make a phone call",
                 "了": "liǎo / a particle indicating a completed action or a new situation",
@@ -317,7 +317,7 @@
                 "张东": "zhāng dōng / Zhang Dong (name)",
                 "下午": "xià wǔ / afternoon",
                 "你": "nǐ / you",
-                "给": "gěi / to give; for",
+                "给": "gěi / give; for",
                 "我": "wǒ / I; me",
                 "打电话": "dǎ diàn huà / to make a phone call",
                 "了": "liǎo / a particle indicating a completed action or a new situation",
@@ -383,7 +383,7 @@
               "dict": {
                 "今天": "jīn tiān / today",
                 "我们": "wǒ men / we; us",
-                "跟": "gēn / with; and",
+                "跟": "gēn / with",
                 "留学生": "liú xué shēng / international student",
                 "代表队": "dài biǎo duì / representative team",
                 "比赛": "bǐ sài / match; game; to compete",
@@ -477,12 +477,12 @@
               "split": "我 想 问 问 你 你 不 是 要 上 托福班 吗",
               "dict": {
                 "我": "wǒ / I; me",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "问": "wèn / to ask",
                 "你": "nǐ / you",
                 "不": "bù / not",
                 "是": "shì / to be (am/is/are)",
-                "要": "yào / to want; to be going to",
+                "要": "yào / want; need; will",
                 "上": "shàng / to attend (a class, program, etc.)",
                 "托福班": "tuō fú bān / TOEFL class",
                 "吗": "ma / (question particle)"
@@ -519,7 +519,7 @@
                 "你": "nǐ / you",
                 "是不是": "shì bu shì / whether or not; yes or no",
                 "也": "yě / also; too",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "考": "kǎo / to take a test",
                 "托福": "tuō fú / TOEFL"
               }
@@ -540,7 +540,7 @@
               "split": "我 想 明天 去 报名 你 陪 我 一起 去 好 吗",
               "dict": {
                 "我": "wǒ / I; me",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "明天": "míng tiān / tomorrow",
                 "去": "qù / to go",
                 "报名": "bào míng / to register; to sign up",
@@ -874,7 +874,7 @@
                 "两": "liǎng",
                 "片": "piàn / measure word (for slices, tablets, etc.)",
                 "药": "yào",
-                "还": "hái / still; yet",
+                "还": "hái / still; also",
                 "不": "bù / not",
                 "行": "xíng"
               }
@@ -904,10 +904,9 @@
               "cn": "昨天吃什么了？",
               "en": "What did you eat yesterday?",
               "id": "hj2a-l2-t1-s5",
-              "split": "昨 天 吃 什么 了",
+              "split": "昨天 吃 什么 了",
               "dict": {
-                "昨": "zuó",
-                "天": "tiān",
+                "昨天": "zuó tiān / yesterday",
                 "吃": "chī",
                 "什么": "shén me / what",
                 "了": "liǎo / a particle indicating a completed action or a new situation"
@@ -917,15 +916,14 @@
               "cn": "就吃了一些鱼和牛肉。",
               "en": "I just ate some fish and beef.",
               "id": "hj2a-l2-t1-s6",
-              "split": "就 吃 了 一 些 鱼 和 牛肉",
+              "split": "就 吃 了 一些 鱼 和 牛肉",
               "dict": {
                 "就": "jiù / just; simply",
                 "吃": "chī",
                 "了": "liǎo / a particle indicating a completed action or a new situation",
-                "一": "yī / one",
-                "些": "xiē",
+                "一些": "yì xiē / some; a few",
                 "鱼": "yú / fish",
-                "和": "hé",
+                "和": "hé / and; with",
                 "牛肉": "niú ròu / beef"
               }
             },
@@ -944,14 +942,13 @@
               "cn": "喝了一瓶啤酒。",
               "en": "I drank a bottle of beer.",
               "id": "hj2a-l2-t1-s8",
-              "split": "喝 了 一 瓶 啤 酒",
+              "split": "喝 了 一 瓶 啤酒",
               "dict": {
                 "喝": "hē",
                 "了": "liǎo / a particle indicating a completed action or a new situation",
                 "一": "yī / one",
                 "瓶": "píng",
-                "啤": "pí",
-                "酒": "jiǔ"
+                "啤酒": "pí jiǔ / beer"
               }
             },
             {
@@ -983,7 +980,7 @@
               "split": "你 先 去 化验 一 下 儿 大便 然 后 我 再 给 你 检查 检查",
               "dict": {
                 "你": "nǐ / you",
-                "先": "xiān",
+                "先": "xiān / first",
                 "去": "qù / to go",
                 "化验": "huà yàn / to test; to assay",
                 "一": "yī / one",
@@ -994,7 +991,7 @@
                 "后": "hòu / after; later",
                 "我": "wǒ / I; me",
                 "再": "zài / again (future)",
-                "给": "gěi / to give; for",
+                "给": "gěi / give; for",
                 "检查": "jiǎn chá / to examine; to check up"
               }
             },
@@ -1067,7 +1064,7 @@
                 "不": "bù / not",
                 "是": "shì / to be (am/is/are)",
                 "肠炎": "cháng yán / enteritis",
-                "只": "zhī",
+                "只": "zhī / only",
                 "消化": "xiāo huà / to digest",
                 "好": "hǎo / good; well; OK"
               }
@@ -1076,17 +1073,17 @@
               "cn": "先给你开一些药，再给你打一针。",
               "en": "I'll prescribe some medicine for you first, then give you an injection.",
               "id": "hj2a-l2-t1-s18",
-              "split": "先 给 你 开 一 些 药 再 给 你 打 一 针",
+              "split": "先 给 你 开 一些 药 再 给 你 打 一 针",
               "dict": {
-                "先": "xiān",
-                "给": "gěi / to give; for",
+                "先": "xiān / first",
+                "给": "gěi / give; for",
                 "你": "nǐ / you",
                 "开": "kāi",
-                "一": "yī / one",
-                "些": "xiē",
+                "一些": "yì xiē / some; a few",
                 "药": "yào",
                 "再": "zài / again (future)",
                 "打": "dǎ / to hit; to make (a phone call)",
+                "一": "yī / one",
                 "针": "zhēn"
               }
             },
@@ -1166,7 +1163,7 @@
               "id": "hj2a-l2-t2-s4",
               "split": "想 家 了",
               "dict": {
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "家": "jiā / home; family",
                 "了": "liǎo / a particle indicating a completed action or a new situation"
               }
@@ -1175,19 +1172,17 @@
               "cn": "因为感到寂寞，所以心情不好，很难过。",
               "en": "Because I feel lonely, I'm in a bad mood and very sad.",
               "id": "hj2a-l2-t2-s5",
-              "split": "因 为 感 到 寂寞 所以 心 情 不 好 很 难过",
+              "split": "因为 感到 寂寞 所以 心 情 不 好 很 难过",
               "dict": {
-                "因": "yīn",
-                "为": "wèi",
-                "感": "gǎn",
-                "到": "dào",
+                "因为": "yīn wèi / because",
+                "感到": "gǎn dào / feel",
                 "寂寞": "jì mò / lonely",
                 "所以": "suǒ yǐ / so; therefore",
                 "心": "xīn",
                 "情": "qíng",
                 "不": "bù / not",
                 "好": "hǎo / good; well; OK",
-                "很": "hěn",
+                "很": "hěn / very",
                 "难过": "nán guò / sad; unhappy"
               }
             },
@@ -1210,7 +1205,7 @@
               "dict": {
                 "你": "nǐ / you",
                 "不": "bù / not",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "家": "jiā / home; family",
                 "吗": "ma / (question particle)"
               }
@@ -1219,18 +1214,16 @@
               "cn": "我也常想家，但是不感到寂寞。",
               "en": "I often miss home too, but I don't feel lonely.",
               "id": "hj2a-l2-t2-s8",
-              "split": "我 也 常 想 家 但 是 不 感 到 寂寞",
+              "split": "我 也 常 想 家 但是 不 感到 寂寞",
               "dict": {
                 "我": "wǒ / I; me",
                 "也": "yě / also; too",
                 "常": "cháng",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "家": "jiā / home; family",
-                "但": "dàn",
-                "是": "shì / to be (am/is/are)",
+                "但是": "dàn shì / but; however",
                 "不": "bù / not",
-                "感": "gǎn",
-                "到": "dào",
+                "感到": "gǎn dào / feel",
                 "寂寞": "jì mò / lonely"
               }
             },
@@ -1243,7 +1236,7 @@
                 "我": "wǒ / I; me",
                 "有": "yǒu / to have",
                 "姐": "jiě",
-                "还": "hái / still; yet",
+                "还": "hái / still; also",
                 "弟": "dì"
               }
             },
@@ -1251,22 +1244,21 @@
               "cn": "在家时，我们常常一起玩儿，所以感到寂寞时总想他们。",
               "en": "When I was at home, we often played together, so when I feel lonely I always think of them.",
               "id": "hj2a-l2-t2-s10",
-              "split": "在 家 时 我们 常 常 一起 玩 儿 所以 感 到 寂寞 时 总 想 他 们",
+              "split": "在 家 时 我们 常常 一起 玩 儿 所以 感到 寂寞 时 总 想 他 们",
               "dict": {
                 "在": "zài / to be at; (at)",
                 "家": "jiā / home; family",
                 "时": "shí",
                 "我们": "wǒ men / we; us",
-                "常": "cháng",
+                "常常": "cháng cháng / often; frequently",
                 "一起": "yì qǐ / together",
                 "玩": "wán",
                 "儿": "ér",
                 "所以": "suǒ yǐ / so; therefore",
-                "感": "gǎn",
-                "到": "dào",
+                "感到": "gǎn dào / feel",
                 "寂寞": "jì mò / lonely",
                 "总": "zǒng",
-                "想": "xiǎng / to want; to think",
+                "想": "xiǎng / want; think",
                 "他": "tā / he; him",
                 "们": "men"
               }
@@ -1343,7 +1335,7 @@
                 "等": "děng",
                 "我": "wǒ / I; me",
                 "来": "lái / to come",
-                "叫": "jiào"
+                "叫": "jiào / call; name"
               }
             },
             {

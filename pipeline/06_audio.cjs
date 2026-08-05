@@ -38,7 +38,8 @@ for (const L of book.lessons || []) {
     for (const s of t.sentences || []) {
       if (!s.id || !s.cn) continue
       if (!skipSentences) {
-        const full = clean(s.cn)
+        // 整句音频保留原始标点（逗号/句号/问号等），TTS 据此做自然停顿
+        const full = (s.cn || '').trim()
         if (full) tasks.push({ file: `audio/${s.id}.mp3`, text: full })
       }
       if (!skipChunks) {
