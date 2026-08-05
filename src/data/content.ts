@@ -18647,11 +18647,10 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t1-s2',
                 cn: "肚子疼得厉害，在家吃了两片药，还不行。",
-                split: "肚子 疼 得 厉害 在 家 吃 了 两 片 药 还 不 行",
+                split: "肚子疼 得 厉害 在 家 吃 了 两 片 药 还 不 行",
                 en: "My stomach hurts badly. I took two pills at home, but it still hasn\'t gotten better.",
                 dict: {
-                  "肚子": "dù zǐ / stomach; abdomen",
-                  "疼": "téng",
+                  "肚子疼": "dù zǐ téng / stomachache",
                   "得": "dé / to get (a disease); to contract",
                   "厉害": "lì hài / serious; severe",
                   "在": "zài / to be at; (at)",
@@ -18741,23 +18740,21 @@ export const textbooks: Textbook[] = [
               {
                 id: 'hj2a-l2-t1-s9',
                 cn: "发烧吗？",
-                split: "发 烧 吗",
+                split: "发烧 吗",
                 en: "Do you have a fever?",
                 dict: {
-                  "发": "fā",
-                  "烧": "shāo",
+                  "发烧": "fā shāo / to have a fever",
                   "吗": "ma / (question particle)",
                 }
               },
               {
                 id: 'hj2a-l2-t1-s10',
                 cn: "不发烧。",
-                split: "不 发 烧",
+                split: "不 发烧",
                 en: "No, I don\'t.",
                 dict: {
                   "不": "bù / not",
-                  "发": "fā",
-                  "烧": "shāo",
+                  "发烧": "fā shāo / to have a fever",
                 }
               },
               {
