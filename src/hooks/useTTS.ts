@@ -212,6 +212,14 @@ export function useTTS() {
         audio.currentTime = 0
         return loadAndPlay(audio, fallbackText, token)
       }
+      // 单分词句没有 -c 段落文件（06_audio 仅对 >1 分词句生成），先回退到整句录音（神经音），
+      // 避免直接落到机械 TTS；仍失败才走 Web Speech 兜底。
+      const full = getAudioById(sentenceId)
+      if (full) {
+        currentAudioRef.current = full
+        full.currentTime = 0
+        return loadAndPlay(full, fallbackText, token)
+      }
 
       return new Promise((resolve) => {
         fallbackSpeak(fallbackText, voicesRef.current, (v) => {
