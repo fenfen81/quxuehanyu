@@ -47,7 +47,7 @@ export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticePr
           value={value}
           onChange={(e) => { setValue(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
-          className="text-lg h-14 text-center rounded-xl border-2 border-slate-200
+          className="text-lg h-14 text-center rounded-xl border-2 border-slate-200 font-kai
                      focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all
                      placeholder:text-slate-300"
           onKeyDown={(e) => {

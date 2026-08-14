@@ -49,6 +49,9 @@ module.exports = {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        kai: ['KaiTi', 'STKaiti', 'Kaiti SC', 'Kaiti TC', '楷体', 'BiauKai', 'serif'],
+      },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
         lg: "var(--radius)",

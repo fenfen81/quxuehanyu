@@ -203,7 +203,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
             <span className="text-xs font-bold text-slate-400 uppercase tracking-wide">{tt('type_input_label')}</span>
             {feedback === 'wrong' && (
               <span className="text-xs font-bold text-red-500">
-                {tt('chunk_correct_answer')}: {currentCn.replace(/\s/g, '')}
+                {tt('chunk_correct_answer')}: <span className="font-kai">{currentCn.replace(/\s/g, '')}</span>
               </span>
             )}
             {feedback === 'correct' && (
@@ -219,7 +219,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
               sfx.play('keyboard')
             }}
             placeholder={tt('type_placeholder')}
-            className={`text-lg h-14 text-center rounded-xl border-2 transition-all
+            className={`text-lg h-14 text-center rounded-xl border-2 transition-all font-kai
               ${feedback === 'correct'
                 ? 'border-emerald-400 bg-emerald-50 ring-2 ring-emerald-100'
                 : feedback === 'wrong'
@@ -263,7 +263,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
             <p className="text-xs text-slate-400 mb-1.5">{tt('chunk_completed')}</p>
             <div className="flex flex-wrap gap-2">
               {chunks.slice(0, chunkIdx).map((c, i) => (
-                <span key={i} className="text-sm text-slate-500 bg-slate-50 px-2.5 py-1 rounded-lg">
+                <span key={i} className="text-sm text-slate-500 bg-slate-50 px-2.5 py-1 rounded-lg font-kai">
                   {c.replace(/\s/g, '')}
                 </span>
               ))}
@@ -330,7 +330,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
             <p className="text-xs text-slate-400 mb-1.5 mt-2">{tt('chunk_hint')}</p>
             <div className="flex flex-wrap gap-2">
               {chunks.map((c, i) => (
-                <span key={i} className="text-sm text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200">
+                <span key={i} className="text-sm text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 font-kai">
                   {c.replace(/\s/g, '')}
                 </span>
               ))}
@@ -349,7 +349,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
           value={fullInput}
           onChange={(e) => { setFullInput(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
-          className="text-lg h-14 text-center rounded-xl border-2 border-slate-200
+          className="text-lg h-14 text-center rounded-xl border-2 border-slate-200 font-kai
                      focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all
                      placeholder:text-slate-300"
           onKeyDown={(e) => {

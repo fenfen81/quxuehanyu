@@ -143,7 +143,7 @@ export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: D
               onDragStart={e => handleDragStart(e, word, 'source', idx)}
               onClick={() => handleSourceWordTap(word, idx)}
               className="word-chip inline-flex items-center px-4 py-2.5 bg-white border border-blue-200/60 rounded-xl
-                         text-[17px] sm:text-[18px] font-medium text-blue-800 cursor-grab
+                         text-[17px] sm:text-[18px] font-medium text-blue-800 cursor-grab font-kai
                          shadow-sm hover:shadow-md active:cursor-grabbing
                          active:scale-95 transition-transform select-none"
             >
@@ -183,7 +183,7 @@ export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: D
               onTouchEnd={handleTargetWordTouchEnd}
               onTouchMove={handleTargetWordTouchEnd}
               className="word-chip inline-flex items-center px-4 py-2.5 bg-white border border-emerald-300/60 rounded-xl
-                         text-[17px] sm:text-[18px] font-medium text-emerald-800 cursor-grab
+                         text-[17px] sm:text-[18px] font-medium text-emerald-800 cursor-grab font-kai
                          shadow-sm hover:shadow-md hover:bg-emerald-50 active:cursor-grabbing
                          active:scale-95 transition-transform select-none"
             >
