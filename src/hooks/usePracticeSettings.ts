@@ -89,27 +89,36 @@ export const usePracticeSettings = create<PracticeSettings>((set, get) => {
 })
 
 // ── 字号档位 → Tailwind class 映射 ───────────────────────────────
+// shadcn/ui 的 <Input> 内部带 "md:text-sm"，所以必须同时给 md: 断点，否则桌面端会被覆盖。
 // 输入框 / 整句输入
 export const INPUT_FONT: Record<FontSize, string> = {
-  sm: 'text-base',
-  md: 'text-lg',
-  lg: 'text-xl',
-  xl: 'text-2xl',
-  xxl: 'text-3xl',
+  sm: 'text-base md:text-base',
+  md: 'text-lg md:text-lg',
+  lg: 'text-xl md:text-xl',
+  xl: 'text-2xl md:text-2xl',
+  xxl: 'text-4xl md:text-4xl',
 }
 // 拼句词块（比输入框略大，便于拖拽观察）
 export const CHIP_FONT: Record<FontSize, string> = {
-  sm: 'text-lg',
-  md: 'text-xl',
-  lg: 'text-2xl',
-  xl: 'text-3xl',
-  xxl: 'text-4xl',
+  sm: 'text-lg md:text-lg',
+  md: 'text-xl md:text-xl',
+  lg: 'text-2xl md:text-2xl',
+  xl: 'text-3xl md:text-3xl',
+  xxl: 'text-5xl md:text-5xl',
 }
 // 提示 / 已完成段等小字
 export const HINT_FONT: Record<FontSize, string> = {
-  sm: 'text-xs',
-  md: 'text-sm',
-  lg: 'text-base',
-  xl: 'text-lg',
-  xxl: 'text-xl',
+  sm: 'text-xs md:text-xs',
+  md: 'text-sm md:text-sm',
+  lg: 'text-base md:text-base',
+  xl: 'text-lg md:text-lg',
+  xxl: 'text-xl md:text-xl',
+}
+// 输入框高度随字号变化，避免超大字被截断
+export const INPUT_HEIGHT: Record<FontSize, string> = {
+  sm: 'h-12',
+  md: 'h-14',
+  lg: 'h-16',
+  xl: 'h-20',
+  xxl: 'h-24',
 }

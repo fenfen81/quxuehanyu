@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
-import { usePracticeSettings, INPUT_FONT } from '@/hooks/usePracticeSettings'
+import { usePracticeSettings, INPUT_FONT, INPUT_HEIGHT } from '@/hooks/usePracticeSettings'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
@@ -49,7 +49,7 @@ export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticePr
           value={value}
           onChange={(e) => { setValue(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
-          className={`${INPUT_FONT[fontSize]} h-16 text-center rounded-xl border-2 border-slate-200 font-kai
+          className={`${INPUT_FONT[fontSize]} ${INPUT_HEIGHT[fontSize]} text-center rounded-xl border-2 border-slate-200 font-kai
                      focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all
                      placeholder:text-slate-300`}
           onKeyDown={(e) => {

@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
 import { chunkSentence, normalizeText } from '@/utils/chunkSentence'
-import { usePracticeSettings, INPUT_FONT, HINT_FONT } from '@/hooks/usePracticeSettings'
+import { usePracticeSettings, INPUT_FONT, INPUT_HEIGHT, HINT_FONT } from '@/hooks/usePracticeSettings'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
@@ -205,7 +205,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
             <span className="text-xs font-bold text-slate-400 uppercase tracking-wide">{tt('type_input_label')}</span>
             {feedback === 'wrong' && (
               <span className="text-xs font-bold text-red-500">
-                {tt('chunk_correct_answer')}: <span className="font-kai">{currentCn.replace(/\s/g, '')}</span>
+                {tt('chunk_correct_answer')}: <span className={`font-kai ${INPUT_FONT[fontSize]}`}>{currentCn.replace(/\s/g, '')}</span>
               </span>
             )}
             {feedback === 'correct' && (
@@ -221,7 +221,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
               sfx.play('keyboard')
             }}
             placeholder={tt('type_placeholder')}
-            className={`${INPUT_FONT[fontSize]} h-16 text-center rounded-xl border-2 transition-all font-kai
+            className={`${INPUT_FONT[fontSize]} ${INPUT_HEIGHT[fontSize]} text-center rounded-xl border-2 transition-all font-kai
               ${feedback === 'correct'
                 ? 'border-emerald-400 bg-emerald-50 ring-2 ring-emerald-100'
                 : feedback === 'wrong'
@@ -351,7 +351,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
           value={fullInput}
           onChange={(e) => { setFullInput(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
-          className={`${INPUT_FONT[fontSize]} h-16 text-center rounded-xl border-2 border-slate-200 font-kai
+          className={`${INPUT_FONT[fontSize]} ${INPUT_HEIGHT[fontSize]} text-center rounded-xl border-2 border-slate-200 font-kai
                      focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all
                      placeholder:text-slate-300`}
           onKeyDown={(e) => {

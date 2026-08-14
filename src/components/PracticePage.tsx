@@ -3,7 +3,7 @@ import { getTextbookById } from '@/data/content'
 import { textbookVocabList } from '@/data/textbookDict'
 import { usePracticeStore } from '@/hooks/usePracticeStore'
 import { useTTS } from '@/hooks/useTTS'
-import { usePracticeSettings } from '@/hooks/usePracticeSettings'
+import { usePracticeSettings, INPUT_FONT } from '@/hooks/usePracticeSettings'
 import { PracticeSettingsPanel } from '@/components/PracticeSettingsPanel'
 import { ModeSwitcher } from '@/components/ModeSwitcher'
 import { LessonSelector } from '@/components/LessonSelector'
@@ -55,7 +55,7 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
   const { mode, currentTextbookId, currentLessonId, currentTextId, currentIndex, setCurrentIndex } =
     usePracticeStore()
   const { speak, speakChunk, preload, preloadChunk, setRate } = useTTS()
-  const { audioRate, autoPlayTimes, theme } = usePracticeSettings()
+  const { audioRate, autoPlayTimes, theme, fontSize } = usePracticeSettings()
   const [showSettings, setShowSettings] = useState(false)
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
@@ -465,7 +465,7 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
         {tipText && (
           <div
-            className={`mt-5 text-center text-base font-bold py-3 px-4 rounded-xl transition-all animate-scale-in break-words ${
+            className={`mt-5 text-center ${INPUT_FONT[fontSize]} font-kai font-bold py-3 px-4 rounded-xl transition-all animate-scale-in break-words ${
               tipColor === 'green'
                 ? 'text-emerald-700 bg-emerald-50 border border-emerald-200/60'
                 : 'text-red-600 bg-red-50 border border-red-200/60'
