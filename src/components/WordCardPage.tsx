@@ -657,21 +657,20 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                     <button onClick={(e)=>{e.stopPropagation();handleToggleFav(current.id)}} className="absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full hover:bg-amber-50 transition-all text-2xl" title={tt('words_fav')}>{favSet.has(current.id)?'⭐':'☆'}</button>
                     <button onClick={(e)=>{e.stopPropagation();openStroke(current.hanzi)}} className="absolute top-3 left-3 w-9 h-9 flex items-center justify-center rounded-full hover:bg-white/60 transition-all" title={tt('words_view_strokes')}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></button>
                     <div className="flex items-center gap-2"><div className="text-3xl sm:text-4xl font-black text-indigo-700 font-kai">{current.hanzi}</div><SpeakBtn text={current.hanzi} wordId={current.id} className="w-8 h-8 sm:w-9 sm:h-9 text-base bg-white/60 text-indigo-600"/></div>
-                    <div className="text-lg sm:text-xl font-semibold text-slate-700 text-center">{current.english}</div>
-                    <div className="text-sm text-slate-500 text-center italic">{current.fullEnglish}</div>
+                    <div className="text-lg sm:text-xl font-semibold text-slate-700 text-center">{current.fullEnglish && current.fullEnglish !== current.english ? current.fullEnglish : current.english}</div>
                     {/* 例句：教材优先使用自带例句，HSK使用genExample */}
                     {(() => {
                       const tbEx = tbExampleMap.get(current.id)
                       const ex: { cn: string; en: string; pinyin?: string } = tbEx || genExample(current)
                       const exPinyin = ex.pinyin || examplePinyinMap[current.id]
                       return (
-                        <div className="mt-1 px-4 py-2.5 rounded-xl bg-white/60 border border-indigo-100 max-w-[92%]">
+                        <div className="mt-1 px-4 py-3 rounded-xl bg-white/60 border border-indigo-100 max-w-[95%]">
                           <div className="flex items-center gap-2">
-                            <div className="text-sm font-medium text-slate-700 font-kai">{ex.cn}</div>
-                            <SpeakBtn text={ex.cn} wordId={current.id + '-ex'} className="w-7 h-7 text-xs bg-indigo-50 text-indigo-600 shrink-0" />
+                            <div className="text-base sm:text-lg font-medium text-slate-700 font-kai">{ex.cn}</div>
+                            <SpeakBtn text={ex.cn} wordId={current.id + '-ex'} className="w-8 h-8 text-sm bg-indigo-50 text-indigo-600 shrink-0" />
                           </div>
-                          {showExamplePinyin && exPinyin && <div className="text-xs text-indigo-400 mt-0.5 font-medium">{exPinyin}</div>}
-                          <div className="text-xs text-slate-400 mt-0.5">{ex.en}</div>
+                          {showExamplePinyin && exPinyin && <div className="text-sm sm:text-base text-indigo-400 mt-1 font-medium">{exPinyin}</div>}
+                          <div className="text-sm sm:text-base text-slate-400 mt-1">{ex.en}</div>
                         </div>
                       )
                     })()}
