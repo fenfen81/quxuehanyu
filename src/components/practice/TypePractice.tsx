@@ -1,6 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
+import { usePracticeSettings, INPUT_FONT } from '@/hooks/usePracticeSettings'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
@@ -13,6 +14,7 @@ interface TypePracticeProps {
 
 export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
+  const fontSize = usePracticeSettings((s) => s.fontSize)
   const [value, setValue] = useState('')
 
   // 切到下一句（组件重新挂载）时自动聚焦输入框，回车提交后无需鼠标点击
@@ -47,9 +49,9 @@ export function TypePractice({ sentence, onAnswer, lang = 'zh' }: TypePracticePr
           value={value}
           onChange={(e) => { setValue(e.target.value); sfx.play('keyboard') }}
           placeholder={tt('type_placeholder')}
-          className="text-lg h-14 text-center rounded-xl border-2 border-slate-200 font-kai
+          className={`${INPUT_FONT[fontSize]} h-16 text-center rounded-xl border-2 border-slate-200 font-kai
                      focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-all
-                     placeholder:text-slate-300"
+                     placeholder:text-slate-300`}
           onKeyDown={(e) => {
             if (e.key === 'Enter') { handleCheck() }
             else if (e.key === 'Backspace') { sfx.play('delete') }

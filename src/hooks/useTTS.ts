@@ -13,6 +13,9 @@ function getSynth(): SpeechSynthesis | null {
 // 音频缓存 - 避免重复加载
 const audioCache = new Map<string, HTMLAudioElement>()
 
+// 模块级播放速度（供 Web Speech 回退方案读取）
+let moduleRate = 1
+
 /**
  * 根据音频 ID 获取音频元素（按需创建，文件缺失时 onerror 回退 Web Speech API）。
  * id 约定：整句音频 = 句子ID（如 'l20t1s1'）；分段音频 = '{句子ID}-c{段号}'（如 'l20t1s1-c0'）。
@@ -34,6 +37,8 @@ export function useTTS() {
   const [ready] = useState(true)
   const voicesRef = useRef<SpeechSynthesisVoice[]>([])
   const currentAudioRef = useRef<HTMLAudioElement | null>(null)
+  // 音频播放速度（由设置面板控制）
+  const rateRef = useRef(1)
   // 播放令牌：每次新的 speak/speakChunk 递增，过期的回调（句子已切换）不再回退机械音
   const tokenRef = useRef(0)
 
@@ -100,6 +105,7 @@ export function useTTS() {
           audio.removeEventListener('error', onError)
           if (timer) clearTimeout(timer) // MP3 确认可播即取消机械音兜底，避免长句超 4s 后叠加机械音
           audio.onended = () => finish('ok')
+          audio.playbackRate = rateRef.current
           audio.play().catch(() => safeFallback(fallbackText))
         }
         const onError = () => {
@@ -134,6 +140,7 @@ export function useTTS() {
           audio.removeEventListener('error', onError)
           if (timer) clearTimeout(timer) // 同上：可直接播时取消机械音兜底
           audio.onended = () => finish('ok')
+          audio.playbackRate = rateRef.current
           audio.play().catch(() => safeFallback(fallbackText))
         } else if (
           audio.networkState === HTMLMediaElement.NETWORK_EMPTY ||
@@ -246,7 +253,13 @@ export function useTTS() {
     }
   }, [])
 
-  return { speak, speakChunk, preload, preloadChunk, ready }
+  /** 设置后续播放的语速（0.5~2） */
+  const setRate = useCallback((r: number) => {
+    rateRef.current = r
+    moduleRate = r
+  }, [])
+
+  return { speak, speakChunk, preload, preloadChunk, setRate, ready }
 }
 
 // Web Speech API 回退方案
@@ -273,7 +286,7 @@ function fallbackSpeak(
     const u = new SpeechSynthesisUtterance(text)
     if (voices[0]) u.voice = voices[0]
     u.lang = 'zh-CN'
-    u.rate = 0.9
+    u.rate = Math.max(0.1, moduleRate * 0.9)
     u.volume = 1
     u.onend = () => resolve('ok')
     u.onerror = () => resolve('error')

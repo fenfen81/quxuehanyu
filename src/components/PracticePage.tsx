@@ -3,6 +3,8 @@ import { getTextbookById } from '@/data/content'
 import { textbookVocabList } from '@/data/textbookDict'
 import { usePracticeStore } from '@/hooks/usePracticeStore'
 import { useTTS } from '@/hooks/useTTS'
+import { usePracticeSettings } from '@/hooks/usePracticeSettings'
+import { PracticeSettingsPanel } from '@/components/PracticeSettingsPanel'
 import { ModeSwitcher } from '@/components/ModeSwitcher'
 import { LessonSelector } from '@/components/LessonSelector'
 import { DragPractice } from '@/components/practice/DragPractice'
@@ -52,7 +54,9 @@ interface PracticePageProps {
 export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: PracticePageProps) {
   const { mode, currentTextbookId, currentLessonId, currentTextId, currentIndex, setCurrentIndex } =
     usePracticeStore()
-  const { speak, speakChunk, preload, preloadChunk } = useTTS()
+  const { speak, speakChunk, preload, preloadChunk, setRate } = useTTS()
+  const { audioRate, autoPlayTimes, theme } = usePracticeSettings()
+  const [showSettings, setShowSettings] = useState(false)
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
 
   const [tipText, setTipText] = useState('')
@@ -214,26 +218,40 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
   const handlePlayAudio = useCallback(async () => {
     const cur = wrongMode ? wrongList[wrongIdx] : sentence
     if (!cur) return
-    const result = await speak(cur.id, cur.cn)
-    if (result === 'loading') {
-      setTipText(`🔊 ${tt('practice_loading_audio')}`)
-      setTipColor('green')
+    setRate(audioRate)
+    const times = autoPlayTimes > 0 ? autoPlayTimes : 1
+    for (let i = 0; i < times; i++) {
+      await speak(cur.id, cur.cn)
     }
-  }, [sentence, wrongMode, wrongList, wrongIdx, speak, lang])
+  }, [sentence, wrongMode, wrongList, wrongIdx, speak, lang, audioRate, autoPlayTimes, setRate])
 
   // 分段练习：播放某一段的对应音频
   const handlePlayChunkAudio = useCallback((chunkIdx: number, text: string) => {
     const cur = wrongMode ? wrongList[wrongIdx] : sentence
     if (!cur) return
-    speakChunk(cur.id, chunkIdx, text)
-  }, [wrongMode, wrongList, wrongIdx, sentence, speakChunk])
+    setRate(audioRate)
+    const times = autoPlayTimes > 0 ? autoPlayTimes : 1
+    ;(async () => {
+      for (let i = 0; i < times; i++) {
+        await speakChunk(cur.id, chunkIdx, text)
+      }
+    })()
+  }, [wrongMode, wrongList, wrongIdx, sentence, speakChunk, audioRate, autoPlayTimes, setRate])
 
   // 听写模式（整句）：进入下一句（含初次进入）时自动播放整句音频
   useEffect(() => {
     if (mode !== 'dictation' || chunked || wrongMode) return
     if (!activeSentence) return
-    speak(activeSentence.id, activeSentence.cn)
-  }, [activeSentence?.id, mode, chunked, wrongMode, speak])
+    setRate(audioRate)
+    const times = autoPlayTimes > 0 ? autoPlayTimes : 1
+    let cancelled = false
+    ;(async () => {
+      for (let i = 0; i < times && !cancelled; i++) {
+        await speak(activeSentence.id, activeSentence.cn)
+      }
+    })()
+    return () => { cancelled = true }
+  }, [activeSentence?.id, mode, chunked, wrongMode, speak, audioRate, autoPlayTimes, setRate])
 
   // 预热下一句音频：当前句一进入就开始加载下一句，自动播放时已是热缓存
   useEffect(() => {
@@ -292,8 +310,15 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
   const bookTitle = bookInfo ? (lang === 'en' && bookInfo.titleEn ? bookInfo.titleEn : bookInfo.title) : ''
 
+  const THEME_BG: Record<string, string> = {
+    blue: 'bg-gradient-to-br from-sky-50 to-indigo-50',
+    white: 'bg-white',
+    gray: 'bg-slate-100',
+    dark: 'bg-slate-900',
+  }
+
   return (
-    <div className="max-w-2xl mx-auto space-y-4">
+    <div className={`max-w-2xl mx-auto space-y-4 rounded-2xl p-3 sm:p-4 ${THEME_BG[theme]}`}>
 
       {/* ====== 顶部：教材信息 + 选择器 ====== */}
       <div className="bg-white rounded-2xl border border-slate-200/60 shadow-sm p-4 sm:p-5 animate-slide-down">
@@ -321,6 +346,13 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
               🔊 {tt('practice_play')}
             </button>
           )}
+          <button
+            onClick={() => { sfx.play('click'); setShowSettings(true) }}
+            className="flex items-center gap-1 text-xs font-medium text-slate-500 hover:text-slate-700
+                       bg-slate-100 hover:bg-slate-200 px-2.5 py-1.5 rounded-lg transition-all"
+          >
+            ⚙️ {tt('settings_title')}
+          </button>
         </div>
 
         {!wrongMode && (
@@ -498,6 +530,10 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
       <WordPopup word={popupWord} pinyin={popupPinyin} meaning={popupMeaning}
         open={popupOpen} onOpenChange={setPopupOpen} lang={lang} />
+
+      {showSettings && (
+        <PracticeSettingsPanel lang={lang} onClose={() => setShowSettings(false)} />
+      )}
     </div>
   )
 }

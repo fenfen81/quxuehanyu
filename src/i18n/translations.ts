@@ -253,6 +253,26 @@ export const translations = {
   chunk_hide_hint: { zh: '隐藏分段提示', en: 'Hide Chunks' },
   chunk_full_input: { zh: '输入完整句子', en: 'Type Full Sentence' },
   chunk_no_translation: { zh: '(无翻译)', en: '(N/A)' },
+
+  // ── 句子练习设置面板 ──
+  settings_title: { zh: '练习设置', en: 'Practice Settings' },
+  settings_font_size: { zh: '字体大小', en: 'Font Size' },
+  settings_font_small: { zh: '小', en: 'Small' },
+  settings_font_medium: { zh: '中', en: 'Medium' },
+  settings_font_large: { zh: '大', en: 'Large' },
+  settings_font_xl: { zh: '特大', en: 'X-Large' },
+  settings_font_xxl: { zh: '超大', en: 'XX-Large' },
+  settings_audio_speed: { zh: '音频速度', en: 'Audio Speed' },
+  settings_auto_play: { zh: '自动播放次数', en: 'Auto-play Times' },
+  settings_auto_manual: { zh: '手动', en: 'Manual' },
+  settings_keyboard_sound: { zh: '键盘音效', en: 'Key Sound' },
+  settings_theme: { zh: '显示风格', en: 'Theme' },
+  settings_theme_blue: { zh: '浅蓝', en: 'Light Blue' },
+  settings_theme_white: { zh: '纯白', en: 'White' },
+  settings_theme_gray: { zh: '浅灰', en: 'Light Gray' },
+  settings_theme_dark: { zh: '深色', en: 'Dark' },
+  settings_on: { zh: '开', en: 'On' },
+  settings_off: { zh: '关', en: 'Off' },
 } as const
 
 export type TranslationKey = keyof typeof translations

@@ -4,6 +4,7 @@ import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
 import { chunkSentence } from '@/utils/chunkSentence'
+import { usePracticeSettings, CHIP_FONT } from '@/hooks/usePracticeSettings'
 
 interface DragPracticeProps {
   sentence: Sentence
@@ -34,6 +35,7 @@ const isTouchDevice = (() => {
 
 export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: DragPracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
+  const fontSize = usePracticeSettings((s) => s.fontSize)
   // 仅 HSK5（上）使用新意群分段；其余教材（汉语教程、HSK1-4）按原始 sentence.split 逐词分词
   const isHsk5 = sentence.id.startsWith('hsk5-')
   const words = useMemo(() => {
@@ -142,10 +144,10 @@ export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: D
               draggable={!isTouchDevice}
               onDragStart={e => handleDragStart(e, word, 'source', idx)}
               onClick={() => handleSourceWordTap(word, idx)}
-              className="word-chip inline-flex items-center px-4 py-2.5 bg-white border border-blue-200/60 rounded-xl
-                         text-[17px] sm:text-[18px] font-medium text-blue-800 cursor-grab font-kai
+              className={`word-chip inline-flex items-center px-5 py-3 bg-white border border-blue-200/60 rounded-xl
+                         ${CHIP_FONT[fontSize]} font-medium text-blue-800 cursor-grab font-kai
                          shadow-sm hover:shadow-md active:cursor-grabbing
-                         active:scale-95 transition-transform select-none"
+                         active:scale-95 transition-transform select-none`}
             >
               {word}
             </span>
@@ -182,10 +184,10 @@ export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: D
               onTouchStart={() => handleTargetWordTouchStart(word)}
               onTouchEnd={handleTargetWordTouchEnd}
               onTouchMove={handleTargetWordTouchEnd}
-              className="word-chip inline-flex items-center px-4 py-2.5 bg-white border border-emerald-300/60 rounded-xl
-                         text-[17px] sm:text-[18px] font-medium text-emerald-800 cursor-grab font-kai
+              className={`word-chip inline-flex items-center px-5 py-3 bg-white border border-emerald-300/60 rounded-xl
+                         ${CHIP_FONT[fontSize]} font-medium text-emerald-800 cursor-grab font-kai
                          shadow-sm hover:shadow-md hover:bg-emerald-50 active:cursor-grabbing
-                         active:scale-95 transition-transform select-none"
+                         active:scale-95 transition-transform select-none`}
             >
               {word}
               <svg className="ml-1 text-emerald-400 opacity-50" width="10" height="10" viewBox="0 0 16 16" fill="none">
