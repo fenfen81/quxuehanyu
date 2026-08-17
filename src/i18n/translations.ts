@@ -315,6 +315,25 @@ export const translations = {
   tx_survey: { zh: '问卷奖励', en: 'Survey reward' },
   tx_referral: { zh: '推荐奖励', en: 'Referral reward' },
   tx_spend: { zh: '练习消耗', en: 'Practice cost' },
+
+  // ── 顶栏用户气泡 / 赚积分 / 低余额提醒 ──
+  um_signed_in_as: { zh: '当前登录', en: 'Signed in as' },
+  logout: { zh: '退出登录', en: 'Log out' },
+  earn_title: { zh: '赚积分', en: 'Earn credits' },
+  earn_subtitle: { zh: '3 种方式快速补充', en: '3 quick ways to top up' },
+  earn_daily_title: { zh: '每日登录', en: 'Daily login' },
+  earn_daily_desc: { zh: '每天自动到账 +100 积分', en: 'Get +100 credits every day' },
+  earn_daily_cta: { zh: '去领取', en: 'Claim' },
+  earn_survey_title: { zh: '填写体验问卷', en: 'Feedback survey' },
+  earn_survey_desc: { zh: '12 题 · 2 分钟 · 一次性 +200', en: '12 questions · 2 min · one-time +200' },
+  earn_survey_cta: { zh: '去填写', en: 'Take it' },
+  earn_referral_title: { zh: '推荐同学', en: 'Refer a friend' },
+  earn_referral_desc: { zh: 'TA 注册后你自动到账 +100', en: '+100 credits when they sign up' },
+  toast_warn_title: { zh: '积分快用完啦（剩 N 分）', en: 'Credits running low (N left)' },
+  toast_warn_desc: { zh: '做问卷 +200 · 每日登录 +100 · 推荐同学 +100', en: 'Survey +200 · Daily +100 · Refer +100' },
+  toast_critical_title: { zh: '只剩 N 积分了', en: 'Only N credits left' },
+  toast_critical_desc: { zh: '快去赚积分，别让学习中断', en: 'Earn more to keep learning' },
+  toast_cta: { zh: '去赚', en: 'Earn now' },
 } as const
 
 export type TranslationKey = keyof typeof translations

@@ -6,11 +6,14 @@ import { TextbookList } from '@/components/TextbookList'
 import { PracticePage } from '@/components/PracticePage'
 import WordCardPage from '@/components/WordCardPage'
 import RegisterPage from '@/components/RegisterPage'
-import { CreditsBadge } from '@/components/CreditsBadge'
+import { UserMenu } from '@/components/UserMenu'
+import { EarnCreditsTrigger } from '@/components/EarnCreditsPopover'
+import { CreditsToast, useLowCreditToast } from '@/components/CreditsToast'
 import { ProfilePage } from '@/components/ProfilePage'
 import { SurveyPage } from '@/components/SurveyPage'
 import { supabase } from '@/lib/supabaseClient'
 import { loadProgress, saveProgress } from '@/lib/progress'
+import { useCredits, useReferralCode } from '@/hooks/useCredits'
 import type { Session } from '@supabase/supabase-js'
 import type { CategorySlug } from '@/types'
 import type { HskWord } from '@/data/hskWords'
@@ -50,6 +53,11 @@ export function App() {
     })
     return () => sub.subscription.unsubscribe()
   }, [])
+
+  // ── 积分相关：余额 / 邀请码 / 低积分提醒（依赖 session） ──
+  const { credits } = useCredits(session)
+  const referralCode = useReferralCode(session)
+  const { toast: lowCreditToast, dismiss: dismissLowCreditToast } = useLowCreditToast(credits)
 
   // ── 游戏化状态 ──
   const [xp, setXp] = useState(() => {
@@ -248,7 +256,7 @@ export function App() {
 
           <div className="flex-1" />
 
-          {/* 语言切换按钮 */}
+          {/* 语言切换 */}
           <button
             onClick={toggle}
             className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 hover:bg-indigo-100 text-slate-600 hover:text-indigo-600 border border-slate-200"
@@ -257,39 +265,34 @@ export function App() {
             {tt('lang_toggle')}
           </button>
 
-          {/* 退出登录 */}
+          {/* 赚积分（仅登录后） */}
           {session && (
-            <button
-              onClick={handleLogout}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all bg-slate-100 hover:bg-red-100 text-slate-600 hover:text-red-600 border border-slate-200"
-              title="退出登录"
-            >
-              退出
-            </button>
+            <EarnCreditsTrigger
+              lang={lang}
+              referralCode={referralCode}
+              onGoSurvey={goSurvey}
+              onGoProfile={goProfile}
+            />
           )}
 
-          {/* 游戏化状态栏 */}
-          <div className="flex items-center gap-3 sm:gap-4">
-            <CreditsBadge session={session} onClick={goProfile} lang={lang} />
-            {streak > 0 && (
-              <div className="flex items-center gap-1 animate-slide-down">
-                <span className="text-base">🔥</span>
-                <span className="text-xs font-bold text-orange-500">{streak}</span>
-              </div>
-            )}
-            <div className="flex items-center gap-2 bg-slate-50 rounded-full px-3 py-1.5 border border-slate-200/80">
-              <div className="w-5 h-5 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-sm">
-                <span className="text-[10px] font-black text-white">{level}</span>
-              </div>
-              <div className="w-16 h-1.5 bg-slate-200 rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-amber-400 to-orange-500 rounded-full transition-all duration-500"
-                     style={{ width: `${xpInLevel}%` }} />
-              </div>
+          {/* 连击天数（仅登录后且>0） */}
+          {session && streak > 0 && (
+            <div className="hidden sm:flex items-center gap-1" title={tt('progress_streak')}>
+              <span className="text-base">🔥</span>
+              <span className="text-xs font-bold text-orange-500">{streak}</span>
             </div>
-            <div className="hidden sm:flex items-center gap-1 text-xs text-slate-400">
-              <span>✅</span><span className="font-semibold">{totalDone}</span>
-            </div>
-          </div>
+          )}
+
+          {/* 用户气泡（头像+姓名+积分+下拉菜单） */}
+          {session && (
+            <UserMenu
+              session={session}
+              lang={lang}
+              onGoProfile={goProfile}
+              onGoSurvey={goSurvey}
+              onLogout={handleLogout}
+            />
+          )}
         </div>
       </header>
 
@@ -541,6 +544,17 @@ export function App() {
           {tt('footer')}
         </div>
       </footer>
+
+      {/* 低积分右下角提醒（登录后、积分 ≤100 或 ≤40 时各弹一次/会话） */}
+      {lowCreditToast && session && (
+        <CreditsToast
+          kind={lowCreditToast.kind}
+          credits={lowCreditToast.credits}
+          lang={lang}
+          onGoEarn={goProfile}
+          onClose={dismissLowCreditToast}
+        />
+      )}
     </div>
   )
 }

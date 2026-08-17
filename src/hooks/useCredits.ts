@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { getCredits } from '@/lib/credits'
+import { getCredits, getCreditInfo } from '@/lib/credits'
 import type { Session } from '@supabase/supabase-js'
 
 /**
@@ -40,4 +40,18 @@ export function useCredits(session: Session | null) {
   }, [session, refresh])
 
   return { credits, loading, refresh }
+}
+
+/** 获取当前用户的邀请码（用于赚积分面板的"复制链接"） */
+export function useReferralCode(session: Session | null) {
+  const [code, setCode] = useState<string | null>(null)
+  useEffect(() => {
+    if (!session) { setCode(null); return }
+    let cancelled = false
+    getCreditInfo()
+      .then(info => { if (!cancelled) setCode(info?.referral_code ?? null) })
+      .catch(() => { if (!cancelled) setCode(null) })
+    return () => { cancelled = true }
+  }, [session])
+  return code
 }
