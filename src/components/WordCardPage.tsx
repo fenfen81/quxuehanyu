@@ -11,6 +11,8 @@ import { t } from '@/i18n/translations'
 import { useLang } from '@/i18n/useLang'
 import { categories } from '../data/content'
 import { WordPopup } from './practice/WordPopup'
+import { PaywallDialog } from '@/components/PaywallDialog'
+import { spendCredits, CREDIT } from '@/lib/credits'
 
 // ── 教材生词 → HskWord 适配器 ──
 function textbookWordToHskWord(w: TextbookWord): HskWord {
@@ -220,7 +222,7 @@ type VocabMode = 'hsk' | 'textbook'
 type TextbookStep = 'category' | 'textbook' | 'lesson'
 type TypeHintMode = 'english' | 'pinyin'
 
-interface Props { onXP?: (pts: number) => void; onWrongWord?: (word: HskWord) => void; wrongWords?: HskWord[]; onRemoveWrongWord?: (id: string) => void; lang?: Lang }
+interface Props { onXP?: (pts: number) => void; onWrongWord?: (word: HskWord) => void; wrongWords?: HskWord[]; onRemoveWrongWord?: (id: string) => void; lang?: Lang; onGoSurvey?: () => void; onGoProfile?: () => void }
 
 // ── 收藏功能 localStorage ──
 const FAV_KEY = 'qx_fav_words'
@@ -243,12 +245,29 @@ const LEVEL_GRADIENTS: Record<number,string> = {
 }
 const DAILY_OPTIONS = [15, 30, 50, 100]
 
-export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRemoveWrongWord, lang = 'zh' }: Props) {
+export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRemoveWrongWord, lang = 'zh', onGoSurvey, onGoProfile }: Props) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
   const [vocabMode, setVocabMode] = useState<VocabMode>('hsk')
   const [plan, setPlan] = useState<StudyPlan>(loadPlan)
   const [view, setView]           = useState<View>('chooseMode')
   const [mode, setMode]           = useState<Mode>('flashcard')
+
+  // ── 积分扣减：每次"开始"一次练习扣 20（先扣后进）──
+  const [paywallOpen, setPaywallOpen] = useState(false)
+  const spendingRef = useRef(false)
+  const beginSession = useCallback(async (fn: () => void) => {
+    if (spendingRef.current) return
+    spendingRef.current = true
+    try {
+      const result = await spendCredits(CREDIT.SPEND)
+      if (result === 'ok') fn()
+      else setPaywallOpen(true)
+    } catch {
+      fn() // 网络异常放行，服务端幂等兜底
+    } finally {
+      spendingRef.current = false
+    }
+  }, [])
   const [showPlanModal, setShowPlanModal]     = useState(false)
   const [autoSpeak, setAutoSpeak]             = useState(true)
   const [showPinyin, setShowPinyin]           = useState(true)
@@ -340,39 +359,44 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       const words = lesson.words.map(textbookWordToHskWord)
       setSessionQueue(words); setIdx(0); setFlipped(false); setChosen(null)
       setScore({ correct: 0, wrong: 0 }); setShowResult(false)
-      setView('learning'); setMode('flashcard'); sfx.play('complete')
+      beginSession(() => { setView('learning'); setMode('flashcard'); sfx.play('complete') })
     } catch {}
-  }, [])
+  }, [beginSession])
 
   // ── 操作函数 ──────────────────────────────────────────────────────────────
   const startLearningSession = useCallback(() => {
-    const reviewPart = plan.reviewIds.map(id => levelWords.find(w => w.id === id)).filter(Boolean) as HskWord[]
-    const newPart = newWordsToLearn.slice(0, plan.dailyGoal)
-    const target = Math.max(plan.dailyGoal, 20)
-    let combined = shuffle([...reviewPart, ...newPart]).slice(0, target)
-    // 新词+错词不够时，用已学过的词补齐
-    if (combined.length < target) {
-      const learnedPart = shuffle(levelWords.filter(w => !combined.some(c => c.id === w.id)))
-      combined = [...combined, ...learnedPart].slice(0, target)
-    }
-    if (combined.length === 0) { combined = shuffle(levelWords).slice(0, target) }
-    setSessionQueue(combined); setIdx(0); setFlipped(false); setChosen(null); setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); sfx.play('complete')
-  }, [plan.reviewIds, plan.dailyGoal, newWordsToLearn, levelWords])
+    beginSession(() => {
+      const reviewPart = plan.reviewIds.map(id => levelWords.find(w => w.id === id)).filter(Boolean) as HskWord[]
+      const newPart = newWordsToLearn.slice(0, plan.dailyGoal)
+      const target = Math.max(plan.dailyGoal, 20)
+      let combined = shuffle([...reviewPart, ...newPart]).slice(0, target)
+      if (combined.length < target) {
+        const learnedPart = shuffle(levelWords.filter(w => !combined.some(c => c.id === w.id)))
+        combined = [...combined, ...learnedPart].slice(0, target)
+      }
+      if (combined.length === 0) { combined = shuffle(levelWords).slice(0, target) }
+      setSessionQueue(combined); setIdx(0); setFlipped(false); setChosen(null); setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); sfx.play('complete')
+    })
+  }, [plan.reviewIds, plan.dailyGoal, newWordsToLearn, levelWords, beginSession])
 
   // 全部复习：从当前级别所有词中随机抽取（含已学+未学）
   const startReviewAllSession = useCallback(() => {
-    const target = Math.max(plan.dailyGoal, 20)
-    const combined = shuffle(levelWords).slice(0, target)
-    setSessionQueue(combined); setIdx(0); setFlipped(false); setChosen(null); setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); sfx.play('complete')
-  }, [plan.dailyGoal, levelWords])
+    beginSession(() => {
+      const target = Math.max(plan.dailyGoal, 20)
+      const combined = shuffle(levelWords).slice(0, target)
+      setSessionQueue(combined); setIdx(0); setFlipped(false); setChosen(null); setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); sfx.play('complete')
+    })
+  }, [plan.dailyGoal, levelWords, beginSession])
 
   // 收藏词汇复习
   const startFavSession = useCallback(() => {
     const favWords = favIds.map(id => hskWords.find(w => w.id === id)).filter(Boolean) as HskWord[]
     if (!favWords.length) { alert(tt('words_no_fav')); return }
-    setSessionQueue(shuffle(favWords)); setIdx(0); setFlipped(false); setChosen(null)
-    setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); setMode('flashcard'); sfx.play('complete')
-  }, [favIds])
+    beginSession(() => {
+      setSessionQueue(shuffle(favWords)); setIdx(0); setFlipped(false); setChosen(null)
+      setScore({ correct: 0, wrong: 0 }); setShowResult(false); setView('learning'); setMode('flashcard'); sfx.play('complete')
+    })
+  }, [favIds, beginSession])
 
   const markLearned = useCallback((wordId: string) => {
     setPlan(prev => ({ ...prev, learnedIds: prev.learnedIds.includes(wordId) ? prev.learnedIds : [...prev.learnedIds, wordId], reviewIds: prev.reviewIds.filter(id => id !== wordId), dailyLog: { ...prev.dailyLog, [todayStr()]: { ...(prev.dailyLog[todayStr()]||{learned:0,reviewed:0}), learned:(prev.dailyLog[todayStr()]?.learned||0)+1 } } }))
@@ -389,11 +413,13 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     if (!tb) return
     const lesson = tb.lessons.find(l => l.lessonId === lessonId)
     if (!lesson || !lesson.words.length) return
-    const words = lesson.words.map(textbookWordToHskWord)
-    setSessionQueue(words); setIdx(0); setFlipped(false); setChosen(null)
-    setScore({ correct: 0, wrong: 0 }); setShowResult(false)
-    setView('learning'); setMode('flashcard'); sfx.play('complete')
-  }, [])
+    beginSession(() => {
+      const words = lesson.words.map(textbookWordToHskWord)
+      setSessionQueue(words); setIdx(0); setFlipped(false); setChosen(null)
+      setScore({ correct: 0, wrong: 0 }); setShowResult(false)
+      setView('learning'); setMode('flashcard'); sfx.play('complete')
+    })
+  }, [beginSession])
 
   const saveTbLessonProgress = useCallback((lessonKey: string, count: number) => {
     setTbLearnedLessons(prev => {
@@ -471,8 +497,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       {/* 搜索栏 — 仅 HSK 模式 */}
       {vocabMode === 'hsk' && view !== 'chooseMode' && (
         <div className="relative"><span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
-          <input type="text" placeholder={tt('words_search_placeholder')} value={searchQ} onChange={e=>{setSearchQ(e.target.value);sfx.play('type')}} onFocus={()=>{if(searchQ)setView('search')}} onKeyDown={e=>{if(e.key==='Enter'&&searchResults[0]){const w=searchResults[0];setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning');sfx.play('click')}}} className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"/>
-          {searchResults.length > 0 && (<div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto"><div className="grid grid-cols-1 sm:grid-cols-2 gap-0">{searchResults.map(w=><div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-indigo-50 cursor-pointer border-b border-slate-100" onClick={()=>{sfx.play('click');setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning')}}><span className="text-2xl">{w.emoji}</span><div className="min-w-0 flex-1"><div className="font-bold text-slate-800 text-sm">{w.hanzi}</div><div className="text-xs text-indigo-600">{w.pinyin}</div><div className="text-xs text-slate-400 truncate">{w.english}</div></div><SpeakBtn text={w.hanzi} wordId={w.id} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/><span className="text-[10px] bg-slate-100 rounded px-1.5 py-0.5 shrink-0">HSK{w.level}</span></div>)}</div></div>)}
+          <input type="text" placeholder={tt('words_search_placeholder')} value={searchQ} onChange={e=>{setSearchQ(e.target.value);sfx.play('type')}} onFocus={()=>{if(searchQ)setView('search')}} onKeyDown={e=>{if(e.key==='Enter'&&searchResults[0]){const w=searchResults[0];beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning');sfx.play('click')})}}} className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"/>
+          {searchResults.length > 0 && (<div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto"><div className="grid grid-cols-1 sm:grid-cols-2 gap-0">{searchResults.map(w=><div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-indigo-50 cursor-pointer border-b border-slate-100" onClick={()=>{sfx.play('click');beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning')})}}><span className="text-2xl">{w.emoji}</span><div className="min-w-0 flex-1"><div className="font-bold text-slate-800 text-sm">{w.hanzi}</div><div className="text-xs text-indigo-600">{w.pinyin}</div><div className="text-xs text-slate-400 truncate">{w.english}</div></div><SpeakBtn text={w.hanzi} wordId={w.id} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/><span className="text-[10px] bg-slate-100 rounded px-1.5 py-0.5 shrink-0">HSK{w.level}</span></div>)}</div></div>)}
         </div>
       )}
 
@@ -592,13 +618,13 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           {/* 快捷入口 */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button onClick={startLearningSession} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🆕</div><div className="text-sm font-bold text-slate-700">{tt('words_learn_new')}</div><div className="text-xs text-slate-400">{tt('words_remaining_count')} {newWordsToLearn.length}</div></button>
-            <button onClick={()=>{if(plan.reviewIds.length===0){alert(tt('words_no_review'));return};const rw=plan.reviewIds.map(id=>levelWords.find(w=>w.id===id)).filter(Boolean)as HskWord[];if(!rw.length)return;setSessionQueue(shuffle(rw));setIdx(0);setFlipped(false);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');sfx.play('click')}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-orange-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🔄</div><div className="text-sm font-bold text-slate-700">{tt('words_review')}</div><div className="text-xs text-slate-400">{plan.reviewIds.length}</div></button>
+            <button onClick={()=>{if(plan.reviewIds.length===0){alert(tt('words_no_review'));return};const rw=plan.reviewIds.map(id=>levelWords.find(w=>w.id===id)).filter(Boolean)as HskWord[];if(!rw.length)return;beginSession(()=>{setSessionQueue(shuffle(rw));setIdx(0);setFlipped(false);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');sfx.play('click')})}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-orange-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🔄</div><div className="text-sm font-bold text-slate-700">{tt('words_review')}</div><div className="text-xs text-slate-400">{plan.reviewIds.length}</div></button>
             <button onClick={()=>setShowWrongBook(true)} className={`rounded-xl border p-4 text-left transition-all group ${wrongWords.length>0?'bg-red-50 border-red-200 hover:border-red-300 hover:shadow-md':'border-slate-200 bg-white hover:border-slate-300'}`}><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📝</div><div className="text-sm font-bold text-slate-700">{tt('words_wrong_book')}</div><div className={`text-xs ${wrongWords.length>0?'text-red-500 font-semibold':'text-slate-400'}`}>{wrongWords.length} {tt('words_wrong_count')}</div></button>
             <button onClick={startReviewAllSession} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-emerald-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📚</div><div className="text-sm font-bold text-slate-700">{tt('words_review_all')}</div><div className="text-xs text-slate-400">{totalWords} {tt('words_random_pick')}</div></button>
-            <button onClick={()=>{const nw=newWordsToLearn.length>0?newWordsToLearn.slice(0,plan.dailyGoal):shuffle(levelWords).slice(0,Math.max(plan.dailyGoal,20));setSessionQueue(shuffle(nw));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('type');sfx.play('click')}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-purple-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">⌨️</div><div className="text-sm font-bold text-slate-700">{tt('words_type_practice')}</div><div className="text-xs text-slate-400">{tt('words_type_desc')}</div></button>
+            <button onClick={()=>{beginSession(()=>{const nw=newWordsToLearn.length>0?newWordsToLearn.slice(0,plan.dailyGoal):shuffle(levelWords).slice(0,Math.max(plan.dailyGoal,20));setSessionQueue(shuffle(nw));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('type');sfx.play('click')})}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-purple-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">⌨️</div><div className="text-sm font-bold text-slate-700">{tt('words_type_practice')}</div><div className="text-xs text-slate-400">{tt('words_type_desc')}</div></button>
             {/* 错词专项复习 */}
             {wrongWords.length > 0 && (
-              <button onClick={()=>{if(wrongWords.length===0)return;setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')}} className="rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-orange-50 p-4 text-left hover:border-red-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🎯</div><div className="text-sm font-bold text-red-700">{tt('words_wrong_practice')}</div><div className="text-xs text-red-400">{tt('words_wrong_practice_desc')}</div></button>
+              <button onClick={()=>{if(wrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-orange-50 p-4 text-left hover:border-red-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🎯</div><div className="text-sm font-bold text-red-700">{tt('words_wrong_practice')}</div><div className="text-xs text-red-400">{tt('words_wrong_practice_desc')}</div></button>
             )}
           </div>
 
@@ -764,7 +790,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                 <>
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-xs text-red-500 font-semibold">{wrongWords.length} {tt('words_wrong_words')}</span>
-                    <button onClick={()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setShowWrongBook(false);setView('learning');setMode('quiz');sfx.play('click')}} className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">🎯 {tt('words_wrong_practice')}</button>
+                    <button onClick={()=>{beginSession(()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setShowWrongBook(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">🎯 {tt('words_wrong_practice')}</button>
                   </div>
                   <div className="max-h-[360px] overflow-y-auto space-y-2 pr-1">
                     {wrongWords.map(w => (
@@ -792,6 +818,14 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
 
       {/* 笔顺弹窗 */}
       <WordPopup word={strokeWord} pinyin={current?.pinyin || ''} meaning={current?.english || ''} open={strokeOpen} onOpenChange={setStrokeOpen} lang={lang} />
+
+      {/* 积分不足付费墙 */}
+      {paywallOpen && (
+        <PaywallDialog lang={lang}
+          onClose={() => setPaywallOpen(false)}
+          onGoSurvey={() => { setPaywallOpen(false); onGoSurvey?.() }}
+          onGoProfile={() => { setPaywallOpen(false); onGoProfile?.() }} />
+      )}
     </div>
   )
 }

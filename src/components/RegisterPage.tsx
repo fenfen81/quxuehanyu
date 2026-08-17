@@ -14,6 +14,8 @@ const D = {
     password: '密码（至少 6 位）',
     wantsPaid: '会员版内测时优先通知我',
     agreed: '我已阅读并同意《用户协议》和《隐私政策》',
+    referralCode: '邀请码（选填）',
+    referralHint: '填同学/老师的邀请码，TA 可得 100 积分，你也能加入互惠名单',
     registerBtn: '立即注册',
     loginBtn: '直接登录',
     toLogin: '已有账号？去登录',
@@ -44,6 +46,8 @@ const D = {
     password: 'Password (min 6 chars)',
     wantsPaid: 'Notify me first when VIP beta opens',
     agreed: 'I have read and agree to the Terms and Privacy Policy',
+    referralCode: 'Referral code (optional)',
+    referralHint: 'Enter your classmate/teacher\u2019s code — they get +100 credits, and you join the mutual-aid list',
     registerBtn: 'Sign up now',
     loginBtn: 'Log in',
     toLogin: 'Already have an account? Log in',
@@ -171,9 +175,19 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
   const [password, setPassword] = useState('')
   const [wantsPaid, setWantsPaid] = useState(false)
   const [agreed, setAgreed] = useState(false)
+  const [referralCode, setReferralCode] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
   const [msg, setMsg] = useState('')
   const [user, setUser] = useState<{ email: string | null } | null>(null)
+
+  // 从邀请链接 ?ref=CODE 预填邀请码
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search)
+      const ref = params.get('ref')
+      if (ref) setReferralCode(ref.trim().toUpperCase().slice(0, 8))
+    } catch {}
+  }, [])
 
   // 左侧功能轮播
   const [slide, setSlide] = useState(0)
@@ -203,7 +217,7 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
-        options: { data: { full_name: fullName, phone: phoneVal, wants_paid: wantsPaid } },
+        options: { data: { full_name: fullName, phone: phoneVal, wants_paid: wantsPaid, referral_code: referralCode.trim().toUpperCase() } },
       })
       if (error) { setStatus('err'); setMsg(error.message); return }
       if (data.session) {
@@ -442,6 +456,13 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
                       onChange={(e) => setWantsPaid(e.target.checked)} />
                     {tt.wantsPaid}
                   </label>
+                  <div>
+                    <input
+                      className="w-full px-4 py-3 rounded-xl border border-[#c7d2fe] text-base bg-[#f8fafc] focus:bg-white focus:border-[#6366f1] focus:outline-none transition-colors"
+                      type="text" maxLength={8} placeholder={tt.referralCode} value={referralCode}
+                      onChange={(e) => setReferralCode(e.target.value.toUpperCase())} />
+                    <p className="text-[11px] text-slate-400 mt-1.5 px-1">{tt.referralHint}</p>
+                  </div>
                   <label className="flex items-center gap-2.5 text-slate-500 text-xs cursor-pointer select-none">
                     <input type="checkbox" className="w-4 h-4 accent-indigo-600" checked={agreed}
                       onChange={(e) => setAgreed(e.target.checked)} />

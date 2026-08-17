@@ -6,6 +6,9 @@ import { TextbookList } from '@/components/TextbookList'
 import { PracticePage } from '@/components/PracticePage'
 import WordCardPage from '@/components/WordCardPage'
 import RegisterPage from '@/components/RegisterPage'
+import { CreditsBadge } from '@/components/CreditsBadge'
+import { ProfilePage } from '@/components/ProfilePage'
+import { SurveyPage } from '@/components/SurveyPage'
 import { supabase } from '@/lib/supabaseClient'
 import { loadProgress, saveProgress } from '@/lib/progress'
 import type { Session } from '@supabase/supabase-js'
@@ -14,7 +17,7 @@ import type { HskWord } from '@/data/hskWords'
 import { useLang } from '@/i18n/useLang'
 import { t } from '@/i18n/translations'
 
-type Page = 'home' | 'category' | 'practice' | 'words' | 'register'
+type Page = 'home' | 'category' | 'practice' | 'words' | 'register' | 'profile' | 'survey'
 
 export function App() {
   const [page, setPage] = useState<Page>('home')
@@ -128,6 +131,16 @@ export function App() {
 
   const goRegister = () => {
     setPage('register')
+    setSidebarOpen(false)
+  }
+
+  const goProfile = () => {
+    setPage('profile')
+    setSidebarOpen(false)
+  }
+
+  const goSurvey = () => {
+    setPage('survey')
     setSidebarOpen(false)
   }
 
@@ -257,6 +270,7 @@ export function App() {
 
           {/* 游戏化状态栏 */}
           <div className="flex items-center gap-3 sm:gap-4">
+            <CreditsBadge session={session} onClick={goProfile} lang={lang} />
             {streak > 0 && (
               <div className="flex items-center gap-1 animate-slide-down">
                 <span className="text-base">🔥</span>
@@ -299,6 +313,7 @@ export function App() {
         `}>
           <NavItem icon="🏠" label={tt('nav_home')} active={page === 'home'} onClick={goHome} />
           <NavItem icon="📖" label={tt('nav_words')} active={page === 'words'} onClick={goWords} badge={wrongWords.length > 0 ? wrongWords.length : undefined} />
+          <NavItem icon="👤" label={tt('nav_profile')} active={page === 'profile' || page === 'survey'} onClick={goProfile} />
           {session ? (
             <NavItem icon="🚪" label={lang === 'en' ? 'Log out' : '退出登录'} active={false} onClick={handleLogout} />
           ) : (
@@ -453,6 +468,8 @@ export function App() {
               wrongWords={wrongWords}
               onRemoveWrongWord={id => setWrongWords(prev => prev.filter(w => w.id !== id))}
               lang={lang}
+              onGoSurvey={goSurvey}
+              onGoProfile={goProfile}
             />
           )}
 
@@ -482,12 +499,24 @@ export function App() {
               onWrong={() => { setStreak(0) }}
               onGoToWords={goWords}
               lang={lang}
+              onGoSurvey={goSurvey}
+              onGoProfile={goProfile}
             />
           )}
 
           {/* ── 注册 / 登录页 ── */}
           {page === 'register' && (
             <RegisterPage onGoHome={goHome} />
+          )}
+
+          {/* ── 个人中心 ── */}
+          {page === 'profile' && session && (
+            <ProfilePage session={session} lang={lang} onGoSurvey={goSurvey} onGoHome={goHome} />
+          )}
+
+          {/* ── 体验问卷 ── */}
+          {page === 'survey' && session && (
+            <SurveyPage session={session} lang={lang} onDone={goProfile} onClose={goHome} />
           )}
 
         </main>
@@ -499,7 +528,7 @@ export function App() {
         <MobileNavBtn icon="📖" label={tt('nav_words_short')}   active={page==='words'} onClick={goWords} />
         <MobileNavBtn icon="📚" label={tt('nav_practice_short')}   active={page==='category'||page==='practice'} onClick={() => handleSelectCategory(categories[0]?.slug as CategorySlug)} />
         {session ? (
-          <MobileNavBtn icon="🚪" label={lang === 'en' ? 'Log out' : '退出'} active={false} onClick={handleLogout} />
+          <MobileNavBtn icon="👤" label={tt('nav_profile')} active={page==='profile'||page==='survey'} onClick={goProfile} />
         ) : (
           <MobileNavBtn icon="🔐" label={lang === 'en' ? 'Account' : '账号'} active={page==='register'} onClick={goRegister} />
         )}

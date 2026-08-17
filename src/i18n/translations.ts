@@ -273,6 +273,48 @@ export const translations = {
   settings_theme_dark: { zh: '深色', en: 'Dark' },
   settings_on: { zh: '开', en: 'On' },
   settings_off: { zh: '关', en: 'Off' },
+
+  // ── 积分系统 ──
+  nav_profile: { zh: '个人中心', en: 'My Center' },
+  credits_balance: { zh: '我的积分', en: 'My Credits' },
+  credits_spend_hint: { zh: '每次开始练习消耗 20 积分', en: '20 credits per practice session' },
+  credits_claim_daily: { zh: '每日登录领积分', en: 'Claim daily bonus' },
+  credits_claimed_today: { zh: '今日已领取', en: 'Claimed today' },
+  credits_claim_success: { zh: '领取成功', en: 'Claimed' },
+  credits_already_claimed: { zh: '今天已经领过啦，明天再来', en: 'Already claimed today — come back tomorrow' },
+  credits_go_survey: { zh: '完成问卷得积分', en: 'Complete the survey' },
+  credits_go_profile: { zh: '去个人中心', en: 'Go to My Center' },
+  credits_copy: { zh: '复制', en: 'Copy' },
+  credits_copied: { zh: '已复制', en: 'Copied' },
+  credits_history: { zh: '积分流水', en: 'Credit History' },
+  credits_no_history: { zh: '暂无积分记录，快去学习或做问卷吧！', en: 'No records yet — go practice or take the survey!' },
+  credits_insufficient: { zh: '积分不足', en: 'Not enough credits' },
+
+  // ── 付费墙 ──
+  paywall_title: { zh: '积分不足，学不了啦 😅', en: 'Out of credits 😅' },
+  paywall_desc: { zh: '完成问卷或每天登录都能免费获得积分，继续学习！', en: 'Earn free credits by taking the survey or logging in daily!' },
+  paywall_survey_hint: { zh: '12 题 · 2 分钟 · 一次性奖励', en: '12 questions · 2 min · one-time' },
+  paywall_profile_hint: { zh: '每日领取 · 复制邀请码', en: 'Daily claim · invite friends' },
+  paywall_retry: { zh: '稍后再试', en: 'Not now' },
+
+  // ── 个人中心 ──
+  profile_title: { zh: '个人中心', en: 'My Center' },
+  profile_invite_title: { zh: '邀请好友，双方得积分', en: 'Invite friends & earn credits' },
+  profile_invite_desc: { zh: '分享你的邀请码，好友注册后你得 100 积分', en: 'Share your code — earn 100 credits per sign-up' },
+  profile_invite_reward: { zh: '好友注册成功后，你将获得 +100 积分', en: 'You get +100 credits when a friend signs up' },
+  profile_invite_loading: { zh: '邀请码生成中…', en: 'Loading your code…' },
+  profile_survey_title: { zh: '体验问卷', en: 'Feedback Survey' },
+  profile_survey_desc: { zh: '帮我们做得更好，还有积分奖励', en: 'Help us improve & earn credits' },
+  profile_survey_btn: { zh: '填写问卷', en: 'Take the survey' },
+  profile_survey_done: { zh: '问卷已填写', en: 'Survey completed' },
+  profile_back_home: { zh: '返回首页继续学习', en: 'Back to learning' },
+
+  // ── 积分流水原因 ──
+  tx_signup: { zh: '注册奖励', en: 'Sign-up bonus' },
+  tx_daily: { zh: '每日登录奖励', en: 'Daily login' },
+  tx_survey: { zh: '问卷奖励', en: 'Survey reward' },
+  tx_referral: { zh: '推荐奖励', en: 'Referral reward' },
+  tx_spend: { zh: '练习消耗', en: 'Practice cost' },
 } as const
 
 export type TranslationKey = keyof typeof translations

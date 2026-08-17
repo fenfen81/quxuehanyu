@@ -12,6 +12,8 @@ import { TypePractice } from '@/components/practice/TypePractice'
 import { DictationPractice } from '@/components/practice/DictationPractice'
 import { ChunkedTypePractice } from '@/components/practice/ChunkedTypePractice'
 import { WordPopup } from '@/components/practice/WordPopup'
+import { PaywallDialog } from '@/components/PaywallDialog'
+import { spendCredits, CREDIT } from '@/lib/credits'
 import { sfx } from '@/utils/sfx'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
@@ -49,9 +51,11 @@ interface PracticePageProps {
   onWrong: () => void
   onGoToWords?: () => void
   lang?: Lang
+  onGoSurvey?: () => void
+  onGoProfile?: () => void
 }
 
-export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: PracticePageProps) {
+export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh', onGoSurvey, onGoProfile }: PracticePageProps) {
   const { mode, currentTextbookId, currentLessonId, currentTextId, currentIndex, setCurrentIndex } =
     usePracticeStore()
   const { speak, speakChunk, preload, preloadChunk, setRate } = useTTS()
@@ -73,6 +77,48 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
   const [popupMeaning, setPopupMeaning] = useState('')
   const [popupOpen, setPopupOpen] = useState(false)
   const [chunked, setChunked] = useState(false)
+
+  // ── 积分扣减：选定课文"先扣后进" ──
+  const [creditsGate, setCreditsGate] = useState<'idle' | 'pending' | 'ready' | 'blocked'>('idle')
+  const [paywallOpen, setPaywallOpen] = useState(false)
+  const spentTextIdRef = useRef<string | null>(null)
+
+  useEffect(() => {
+    // 未选课文 / 错题复习模式：不扣分
+    if (!currentTextId || wrongMode) {
+      spentTextIdRef.current = null
+      setCreditsGate('idle')
+      return
+    }
+    // 同一课文已扣过：跳过（一次课文一次扣分）
+    if (spentTextIdRef.current === currentTextId) {
+      setCreditsGate('ready')
+      return
+    }
+    let cancelled = false
+    setCreditsGate('pending')
+    ;(async () => {
+      try {
+        const result = await spendCredits(CREDIT.SPEND)
+        if (cancelled) return
+        if (result === 'ok') {
+          spentTextIdRef.current = currentTextId
+          setCreditsGate('ready')
+        } else {
+          // 余额不足：退回选择界面 + 弹付费墙
+          usePracticeStore.getState().setText('')
+          setCreditsGate('blocked')
+          setPaywallOpen(true)
+        }
+      } catch {
+        // 网络异常：放行练习，避免功能瘫痪（服务端幂等保证不重复扣）
+        if (cancelled) return
+        spentTextIdRef.current = currentTextId
+        setCreditsGate('ready')
+      }
+    })()
+    return () => { cancelled = true }
+  }, [currentTextId, wrongMode])
 
   const refreshWrongList = useCallback(() => {
     setWrongList(loadWrongSentences())
@@ -304,6 +350,13 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
         <WordPopup word={popupWord} pinyin={popupPinyin} meaning={popupMeaning}
           open={popupOpen} onOpenChange={setPopupOpen} lang={lang} />
+
+        {paywallOpen && (
+          <PaywallDialog lang={lang}
+            onClose={() => setPaywallOpen(false)}
+            onGoSurvey={() => { setPaywallOpen(false); onGoSurvey?.() }}
+            onGoProfile={() => { setPaywallOpen(false); onGoProfile?.() }} />
+        )}
       </div>
     )
   }
@@ -395,6 +448,11 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
       {/* ====== 练习区域 ====== */}
       <div className="bg-white rounded-2xl border border-slate-200/60 shadow-sm p-5 sm:p-6 animate-scale-in relative overflow-hidden">
+        {creditsGate === 'pending' && !wrongMode && (
+          <div className="absolute inset-0 z-20 bg-white/70 backdrop-blur-[1px] flex items-center justify-center">
+            <div className="text-sm font-semibold text-slate-500 animate-pulse">⏳ {lang === 'en' ? 'Entering practice…' : '正在进入练习…'}</div>
+          </div>
+        )}
         {showXpFloat && (
           <div className="absolute top-4 right-6 text-lg font-black text-amber-500 animate-xp-float pointer-events-none z-10">
             +10 XP
@@ -533,6 +591,13 @@ export function PracticePage({ onCorrect, onWrong, onGoToWords, lang = 'zh' }: P
 
       {showSettings && (
         <PracticeSettingsPanel lang={lang} onClose={() => setShowSettings(false)} />
+      )}
+
+      {paywallOpen && (
+        <PaywallDialog lang={lang}
+          onClose={() => setPaywallOpen(false)}
+          onGoSurvey={() => { setPaywallOpen(false); onGoSurvey?.() }}
+          onGoProfile={() => { setPaywallOpen(false); onGoProfile?.() }} />
       )}
     </div>
   )
