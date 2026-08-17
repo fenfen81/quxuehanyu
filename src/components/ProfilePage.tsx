@@ -14,6 +14,10 @@ const REASON_LABELS = {
   spend: 'tx_spend',
 } as const
 
+// 邀请链接固定用线上域名（不受当前页面 origin 影响，本地预览也不会生成错误的 IP 地址）
+// 换域名时设 Vite 环境变量 VITE_PUBLIC_SITE_URL 即可，不必改代码
+const SITE_URL = (import.meta.env.VITE_PUBLIC_SITE_URL as string | undefined) || 'https://www.quxuehanyu.com'
+
 function todayStrZh(): string {
   const d = new Date()
   const y = d.getFullYear()
@@ -65,7 +69,7 @@ export function ProfilePage({ session, lang = 'zh', onGoSurvey, onGoHome }: {
   }
 
   const inviteLink = info?.referral_code
-    ? `${window.location.origin}${window.location.pathname}?ref=${info.referral_code}`
+    ? `${SITE_URL}/?ref=${info.referral_code}`
     : ''
 
   const handleCopy = async () => {
