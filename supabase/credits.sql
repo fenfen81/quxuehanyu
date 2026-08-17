@@ -59,6 +59,8 @@ create policy survey_insert_own on public.survey_responses
   for insert with check (auth.uid() = user_id);
 
 -- ── 3. 注册触发器：新用户自动建积分行（500 积分 + 随机邀请码 + 推荐人 +100）──
+-- ⚠️ 重要设计：积分逻辑必须 fail-safe —— 任何积分错误都不能阻断注册！
+-- 整体包在 begin...exception 里，出错只记 warning 日志，绝不让 auth.users 插入失败。
 
 create or replace function public.handle_new_user()
 returns trigger
@@ -70,36 +72,40 @@ declare
   v_ref  uuid;
   v_code text;
 begin
-  -- 校验邀请码（防自荐：id <> new.id；referred_by 非空时不再重复发奖）
-  select id into v_ref
-    from public.user_credits
-   where referral_code = coalesce(new.raw_user_meta_data->>'referral_code', '')
-     and id <> new.id
-   limit 1;
+  begin
+    -- 校验邀请码（防自荐：user_id <> new.id；referred_by 非空时不再重复发奖）
+    select user_id into v_ref
+      from public.user_credits
+     where referral_code = coalesce(new.raw_user_meta_data->>'referral_code', '')
+       and user_id <> new.id
+     limit 1;
 
-  -- 生成唯一邀请码（8 位大写，冲突自动重试）
-  loop
-    v_code := upper(substr(md5(random()::text), 1, 8));
-    begin
-      insert into public.user_credits (user_id, credits, referral_code, referred_by)
-        values (new.id, 500, v_code, v_ref);
-      exit;
-    exception when unique_violation then
-      null;
-    end;
-  end loop;
+    -- 生成唯一邀请码（8 位大写，冲突自动重试）
+    loop
+      v_code := upper(substr(md5(random()::text), 1, 8));
+      begin
+        insert into public.user_credits (user_id, credits, referral_code, referred_by)
+          values (new.id, 500, v_code, v_ref);
+        exit;
+      exception when unique_violation then
+        null;
+      end;
+    end loop;
 
-  -- 注册流水
-  insert into public.credit_transactions (user_id, delta, reason)
-    values (new.id, 500, 'signup');
+    -- 注册流水
+    insert into public.credit_transactions (user_id, delta, reason)
+      values (new.id, 500, 'signup');
 
-  -- 推荐奖励：推荐人 +100
-  if v_ref is not null then
-    update public.user_credits set credits = credits + 100 where user_id = v_ref;
-    insert into public.credit_transactions (user_id, delta, reason, related_user_id)
-      values (v_ref, 100, 'referral', new.id);
-  end if;
-
+    -- 推荐奖励：推荐人 +100
+    if v_ref is not null then
+      update public.user_credits set credits = credits + 100 where user_id = v_ref;
+      insert into public.credit_transactions (user_id, delta, reason, related_user_id)
+        values (v_ref, 100, 'referral', new.id);
+    end if;
+  exception when others then
+    -- 绝不让积分逻辑的错误影响注册；记录 warning 供排查
+    raise warning 'handle_new_user: user % credits-skip error: %', new.id, sqlerrm;
+  end;
   return new;
 end;
 $$;
@@ -129,13 +135,55 @@ select c.user_id, 500, 'signup'
 -- ── 4. RPC 函数（全部 SECURITY DEFINER）──────────────────────────────────────
 
 -- 4.1 查本人积分行
+-- ⚠️ 采用"懒初始化"：如果用户还没有积分行，自动补建（500 积分 + 邀请码 + 推荐人 +100）。
+--    这样注册时段触发器就算失效，用户登录后第一次看积分也会自动到账，绝不丢积分。
 create or replace function public.get_my_credits()
 returns setof public.user_credits
-language sql
+language plpgsql
 security definer
 set search_path = public
 as $$
-  select * from public.user_credits where user_id = auth.uid();
+declare
+  v_uid uuid := auth.uid();
+  v_ref uuid;
+  v_code text;
+begin
+  if v_uid is null then return; end if;
+
+  -- 懒初始化：没有积分行才补建（幂等，不会重复发）
+  if not exists (select 1 from public.user_credits where user_id = v_uid) then
+    -- 读注册时填的邀请码（存在 auth.users.raw_user_meta_data）
+    select user_id into v_ref
+      from public.user_credits
+     where referral_code = coalesce(
+       (select raw_user_meta_data->>'referral_code' from auth.users where id = v_uid), ''
+     )
+       and user_id <> v_uid
+     limit 1;
+
+    loop
+      v_code := upper(substr(md5(random()::text), 1, 8));
+      begin
+        insert into public.user_credits (user_id, credits, referral_code, referred_by)
+          values (v_uid, 500, v_code, v_ref);
+        exit;
+      exception when unique_violation then
+        null;
+      end;
+    end loop;
+
+    insert into public.credit_transactions (user_id, delta, reason)
+      values (v_uid, 500, 'signup');
+
+    if v_ref is not null then
+      update public.user_credits set credits = credits + 100 where user_id = v_ref;
+      insert into public.credit_transactions (user_id, delta, reason, related_user_id)
+        values (v_ref, 100, 'referral', v_uid);
+    end if;
+  end if;
+
+  return query select * from public.user_credits where user_id = v_uid;
+end;
 $$;
 
 -- 4.2 查本人积分流水
