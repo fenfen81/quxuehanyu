@@ -211,7 +211,7 @@ def main():
                     mismatches.append(err)
                     continue
                 split = " ".join(w["word"] for w in rw)
-                dct = {w["word"]: (f"{w['py']} / {w['en']}" if w["en"] else f"{w['py']} /") for w in rw}
+                dct = {w["word"]: f"{w['py']} / {w['en']}" for w in rw if w["en"]}
                 sid = f"hj2b-l{les['num']}-t{ti}-s{si}"
                 out_sents.append({"id": sid, "cn": s["cn"], "split": split, "en": s["en"], "dict": dct})
                 total_s += 1

@@ -133,7 +133,7 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
     const w = isHsk5 ? undefined : sentence.dict?.[chunks[chunkIdx]]
     const currentEn = isHsk5
       ? (sentence.chunkEn?.[chunkIdx] || sentence.en || '')
-      : (w ? w.split(' / ').pop()! : sentence.en || '')
+      : (w && w.includes(' / ') ? w.split(' / ').pop()! : sentence.en || '')
     const currentCn = chunks[chunkIdx] || ''
     const isType = mode === 'type'
 

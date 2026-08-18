@@ -25669,12 +25669,10 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "在": "zài / to be at; (at)",
                   "长": "cháng / to look; to appear",
-                  "城": "chéng /",
                   "照": "zhào / to take (a photo)",
                   "的": "de / (possessive/modifier particle)",
                   "照片": "zhàopiān / photo",
                   "选": "xuǎn / to choose; to select; to pick out",
-                  "好了吗": "hǎolema /",
                   "下午": "xiàwǔ / afternoon",
                   "去": "qù / to go",
                   "洗": "xǐ / to develop (film)",
@@ -25688,8 +25686,6 @@ export const textbooks: Textbook[] = [
                 "en": "Not yet. Let's select them together.",
                 "dict": {
                   "还": "hái / still; also",
-                  "没选": "méixuǎn /",
-                  "呢": "ne /",
                   "咱们": "zánmen / we (inclusive)",
                   "一起": "yìqǐ / together",
                   "选": "xuǎn / to choose; to select; to pick out",
@@ -25703,12 +25699,10 @@ export const textbooks: Textbook[] = [
                 "en": "Hurry and put them on the computer to see how they came out.",
                 "dict": {
                   "快": "kuài / quick; hurry",
-                  "放到": "fàngdào /",
                   "电脑": "diànnǎo / computer",
                   "上": "shàng / to attend (a class)",
                   "看看": "kànkan / to take a look",
                   "照": "zhào / to take (a photo)",
-                  "得": "de /",
                   "怎么样": "zěnmeyàng / how about"
                 }
               },
@@ -25720,11 +25714,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这些": "zhèxiē / these",
                   "照": "zhào / to take (a photo)",
-                  "得": "de /",
                   "都": "dōu / all; both",
                   "非常": "fēicháng / very",
                   "好": "hǎo / good; well; OK",
-                  "张张": "zhāngzhang /",
                   "很": "hěn / very",
                   "漂亮": "piàoliàng / pretty"
                 }
@@ -25737,10 +25729,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这": "zhè / this",
                   "张": "zhāng / Zhang (surname)",
-                  "没照": "méizhào /",
                   "好": "hǎo / good; well; OK",
-                  "人照": "rénzhào /",
-                  "小": "xiǎo /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -25755,14 +25744,9 @@ export const textbooks: Textbook[] = [
                   "看看": "kànkan / to take a look",
                   "这": "zhè / this",
                   "张": "zhāng / Zhang (surname)",
-                  "眼睛": "yǎnjīng /",
                   "都": "dōu / all; both",
-                  "闭上": "bìshàng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "像": "xiàng /",
-                  "睡": "shuì /",
-                  "着": "zhe / indicating the continuation of an action or a state",
-                  "一样": "yíyàng /"
+                  "着": "zhe / indicating the continuation of an action or a state"
                 }
               },
               {
@@ -25781,9 +25765,7 @@ export const textbooks: Textbook[] = [
                 "cn": "不怎么样。",
                 "split": "不怎么样",
                 "en": "Not great.",
-                "dict": {
-                  "不怎么样": "bùzěnmeyàng /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l13-t1-s9",
@@ -25792,16 +25774,12 @@ export const textbooks: Textbook[] = [
                 "en": "This one isn't very good either. It's blurry, not clear at all.",
                 "dict": {
                   "这": "zhè / this",
-                  "张照": "zhāngzhào /",
-                  "得": "de /",
                   "也": "yě / also; too",
                   "不": "bù / not",
                   "太": "tài / too; excessively",
                   "好": "hǎo / good; well; OK",
-                  "照虚": "zhàoxū /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "一点儿": "yìdiǎnr / a little bit",
-                  "清楚": "qīngchǔ /"
+                  "一点儿": "yìdiǎnr / a little bit"
                 }
               },
               {
@@ -25811,7 +25789,6 @@ export const textbooks: Textbook[] = [
                 "en": "Let's delete all the bad ones.",
                 "dict": {
                   "照": "zhào / to take (a photo)",
-                  "得": "de /",
                   "不好": "bùhǎo / not good",
                   "的": "de / (possessive/modifier particle)",
                   "都": "dōu / all; both",
@@ -25827,15 +25804,11 @@ export const textbooks: Textbook[] = [
                 "en": "These two came out the best, just like oil paintings. Let's have a few enlarged.",
                 "dict": {
                   "这": "zhè / this",
-                  "两": "liǎng /",
                   "张": "zhāng / Zhang (surname)",
                   "照": "zhào / to take (a photo)",
-                  "得": "de /",
                   "最": "zuì / most",
                   "好": "hǎo / good; well; OK",
-                  "像": "xiàng /",
                   "油画": "yóuhuà / oil painting",
-                  "一样": "yíyàng /",
                   "放大": "fàngdà / to magnify; to enlarge; to blow up",
                   "几": "jǐ / how many; several",
                   "吧": "ba / (particle, soft suggestion/guess)"
@@ -25848,9 +25821,7 @@ export const textbooks: Textbook[] = [
                 "en": "What size should we have them enlarged to?",
                 "dict": {
                   "你": "nǐ / you",
-                  "看放成": "kànfàngchéng /",
                   "多": "duō / many; much",
-                  "大": "dà /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -25860,12 +25831,9 @@ export const textbooks: Textbook[] = [
                 "split": "放成 十 寸 的 就 行 了",
                 "en": "Ten inches will be fine.",
                 "dict": {
-                  "放成": "fàngchéng /",
-                  "十": "shí /",
                   "寸": "cùn / a unit of length (=1/30 meter)",
                   "的": "de / (possessive/modifier particle)",
                   "就": "jiù / will",
-                  "行": "xíng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               }
@@ -25880,11 +25848,7 @@ export const textbooks: Textbook[] = [
                 "cn": "哎呀，差点儿迟到。",
                 "split": "哎呀 差点儿 迟到",
                 "en": "Oh dear, I almost arrived late.",
-                "dict": {
-                  "哎呀": "āiyā /",
-                  "差点儿": "chàdiǎnr /",
-                  "迟到": "chídào /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l13-t2-s2",
@@ -25894,7 +25858,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "是": "shì / to be (am/is/are)",
                   "开": "kāi / to bloom",
-                  "车": "chē /",
                   "来": "lái / to come",
                   "的": "de / (possessive/modifier particle)",
                   "吗": "ma / (question particle)"
@@ -25909,23 +25872,15 @@ export const textbooks: Textbook[] = [
                   "是": "shì / to be (am/is/are)",
                   "一": "yí / one",
                   "下": "xià / used after a verb to indicate room or space",
-                  "雪": "xuě /",
                   "就": "jiù / will",
-                  "堵车": "dǔchē /",
                   "又": "yòu / again",
-                  "碰上": "pèngshàng /",
                   "一起": "yìqǐ / together",
-                  "交通事故": "jiāotōngshìgù /",
                   "我": "wǒ / I; me",
                   "的": "de / (possessive/modifier particle)",
-                  "车": "chē /",
                   "在": "zài / to be at; (at)",
-                  "路上": "lùshàng /",
                   "整整": "zhěngzheng / full; whole",
-                  "堵": "dǔ /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "二十": "èrshí / twenty",
-                  "分钟": "fēnzhōng /"
+                  "二十": "èrshí / twenty"
                 }
               },
               {
@@ -25936,8 +25891,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "的": "de / (possessive/modifier particle)",
-                  "眼镜": "yǎnjìng /",
-                  "儿": "ér /",
                   "怎么": "zěnme / how; why",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -25948,11 +25901,9 @@ export const textbooks: Textbook[] = [
                 "split": "别提 了 今天 倒霉 得 很",
                 "en": "Don't even mention it. I've had terrible luck today.",
                 "dict": {
-                  "别提": "biétí /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "今天": "jīntiān / today",
                   "倒霉": "dǎoméi / unlucky",
-                  "得": "de /",
                   "很": "hěn / very"
                 }
               },
@@ -25966,14 +25917,10 @@ export const textbooks: Textbook[] = [
                   "刚": "gāng / just now",
                   "出门": "chūmén / to go out; to leave home",
                   "就": "jiù / will",
-                  "摔了一跤": "shuāileyìjiāo /",
-                  "眼镜": "yǎnjìng /",
-                  "儿": "ér /",
                   "也": "yě / also; too",
                   "掉": "diào / to drop; to fall",
                   "在": "zài / to be at; (at)",
                   "地上": "dìshàng / on the ground",
-                  "摔坏": "shuāihuài /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -25987,7 +25934,6 @@ export const textbooks: Textbook[] = [
                   "几": "jǐ / how many; several",
                   "点": "diǎn / to light; to kindle",
                   "从": "cóng / from",
-                  "家里": "jiālǐ /",
                   "出来": "chūlai / come out",
                   "的": "de / (possessive/modifier particle)"
                 }
@@ -25998,20 +25944,15 @@ export const textbooks: Textbook[] = [
                 "split": "六 点 钟 就 从 家里 出来 了 你 看 快 八 点 了 才 到",
                 "en": "I left home at six, and as you can see, I only just got here at almost eight.",
                 "dict": {
-                  "六": "liù /",
                   "点": "diǎn / to light; to kindle",
-                  "钟": "zhōng /",
                   "就": "jiù / will",
                   "从": "cóng / from",
-                  "家里": "jiālǐ /",
                   "出来": "chūlai / come out",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "你": "nǐ / you",
                   "看": "kàn / to look; to see; to visit",
                   "快": "kuài / quick; hurry",
-                  "八": "bā /",
-                  "才": "cái / can",
-                  "到": "dào /"
+                  "才": "cái / can"
                 }
               },
               {
@@ -26024,14 +25965,12 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "还是": "háishì / or",
                   "愿意": "yuànyì / willing to",
-                  "骑车": "qíchē /",
                   "上班": "shàngbān / to go to work",
                   "能": "néng / can; able to",
                   "保证": "bǎozhèng / to guarantee",
                   "时间": "shíjiān / time",
                   "还": "hái / still; also",
-                  "可以": "kěyǐ / can; may; OK",
-                  "锻炼身体": "duànliànshēntǐ /"
+                  "可以": "kěyǐ / can; may; OK"
                 }
               },
               {
@@ -26042,21 +25981,15 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "可是": "kěshì / but; however",
                   "你": "nǐ / you",
-                  "别忘": "biéwàng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "骑车": "qíchē /",
                   "的": "de / (possessive/modifier particle)",
-                  "人太多": "réntàiduō /",
                   "有": "yǒu / to have",
-                  "人": "rén /",
                   "又": "yòu / again",
                   "不": "bù / not",
                   "遵守": "zūnshǒu / to abide by",
-                  "交通规则": "jiāotōngguīzé /",
                   "也": "yě / also; too",
                   "是": "shì / to be (am/is/are)",
                   "造成": "zàochéng / to cause; to bring about",
-                  "交通": "jiāotōng /",
                   "拥挤": "yōngjǐ / to be crowded; crowded",
                   "主要": "zhǔyào / main",
                   "原因": "yuányīn / reason",
@@ -26075,8 +26008,6 @@ export const textbooks: Textbook[] = [
                   "就": "jiù / will",
                   "是": "shì / to be (am/is/are)",
                   "一": "yí / one",
-                  "辆": "liàng /",
-                  "自行车": "zìxíngchē /",
                   "引起": "yǐnqǐ / to cause; to lead to"
                 }
               },
@@ -26087,18 +26018,13 @@ export const textbooks: Textbook[] = [
                 "en": "More and more people own cars every year. City traffic is a big problem.",
                 "dict": {
                   "有": "yǒu / to have",
-                  "汽车": "qìchē /",
                   "的": "de / (possessive/modifier particle)",
-                  "人": "rén /",
                   "也": "yě / also; too",
                   "一": "yí / one",
-                  "年": "nián /",
                   "比": "bǐ / to compare",
                   "多": "duō / many; much",
-                  "城市交通": "chéngshìjiāotōng /",
                   "是": "shì / to be (am/is/are)",
                   "个": "gè / (measure word)",
-                  "大": "dà /",
                   "问题": "wèntí / problem"
                 }
               },
@@ -26114,8 +26040,7 @@ export const textbooks: Textbook[] = [
                   "好": "hǎo / good; well; OK",
                   "还是": "háishì / or",
                   "赶快": "gǎnkuài / hurriedly; quickly",
-                  "发展": "fāzhǎn / to develop",
-                  "地铁": "dìtiě /"
+                  "发展": "fāzhǎn / to develop"
                 }
               }
             ]
@@ -26137,16 +26062,12 @@ export const textbooks: Textbook[] = [
                 "split": "星期天 我 和 麦克 一起 骑车到 图书城 去 买 书",
                 "en": "On Sunday, Mike and I rode our bikes to the Book City to buy books.",
                 "dict": {
-                  "星期天": "xīngqītiān /",
                   "我": "wǒ / I; me",
                   "和": "hé / and; with",
                   "麦克": "màikè / Mike (name)",
                   "一起": "yìqǐ / together",
-                  "骑车到": "qíchēdào /",
                   "图书城": "túshūchéng / book mall",
-                  "去": "qù / to go",
-                  "买": "mǎi /",
-                  "书": "shū /"
+                  "去": "qù / to go"
                 }
               },
               {
@@ -26156,12 +26077,10 @@ export const textbooks: Textbook[] = [
                 "en": "The Book City is quite far from our school.",
                 "dict": {
                   "图书城": "túshūchéng / book mall",
-                  "离": "lí /",
                   "我们": "wǒmen / we; us",
                   "学校": "xuéxiào / school",
                   "比": "bǐ / to compare",
-                  "较": "jiào / relatively",
-                  "远": "yuǎn /"
+                  "较": "jiào / relatively"
                 }
               },
               {
@@ -26171,17 +26090,13 @@ export const textbooks: Textbook[] = [
                 "en": "It was windy that day, and it took us over an hour to get there by bike.",
                 "dict": {
                   "那": "nà / that",
-                  "天": "tiān /",
-                  "刮风": "guāfēng /",
                   "我们": "wǒmen / we; us",
-                  "骑": "qí /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
                   "多": "duō / many; much",
                   "小时": "xiǎoshí / hour",
-                  "才": "cái / can",
-                  "到": "dào /"
+                  "才": "cái / can"
                 }
               },
               {
@@ -26192,7 +26107,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "图书城": "túshūchéng / book mall",
                   "很": "hěn / very",
-                  "大": "dà /",
                   "里边": "lǐbiān / inside",
                   "有": "yǒu / to have",
                   "多": "duō / many; much",
@@ -26205,11 +26119,9 @@ export const textbooks: Textbook[] = [
                 "split": "每个 书店 我们 都 想进去 看看",
                 "en": "We wanted to go into every bookstore and have a look.",
                 "dict": {
-                  "每个": "měigè /",
                   "书店": "shūdiàn / bookstore",
                   "我们": "wǒmen / we; us",
                   "都": "dōu / all; both",
-                  "想进去": "xiǎngjìnqu /",
                   "看看": "kànkan / to take a look"
                 }
               },
@@ -26224,9 +26136,7 @@ export const textbooks: Textbook[] = [
                   "一": "yí / one",
                   "个": "gè / (measure word)",
                   "书店": "shūdiàn / bookstore",
-                  "走出来": "zǒuchūlai /",
                   "又": "yòu / again",
-                  "走进": "zǒujìn /",
                   "另": "lìng / other; another"
                 }
               },
@@ -26236,18 +26146,11 @@ export const textbooks: Textbook[] = [
                 "split": "除了 买 书 以外 我们 还 想 买 一些 小 礼品 带回去 送 朋友",
                 "en": "Besides books, we also wanted to buy some small gifts to take back and give to our friends.",
                 "dict": {
-                  "除了": "chúle /",
-                  "买": "mǎi /",
-                  "书": "shū /",
-                  "以外": "yǐwài /",
                   "我们": "wǒmen / we; us",
                   "还": "hái / still; also",
                   "想": "xiǎng / want; think",
                   "一些": "yìxiē / some; a few",
-                  "小": "xiǎo /",
                   "礼品": "lǐpǐn / present; gift",
-                  "带回去": "dàihuíqu /",
-                  "送": "sòng /",
                   "朋友": "péngyǒu / friend"
                 }
               },
@@ -26260,7 +26163,6 @@ export const textbooks: Textbook[] = [
                   "于是": "yúshì / so; hence; thereupon",
                   "我们": "wǒmen / we; us",
                   "又": "yòu / again",
-                  "走进": "zǒujìn /",
                   "一": "yì / one",
                   "家": "jiā / home; family",
                   "商场": "shāngchǎng / shopping mall",
@@ -26290,13 +26192,11 @@ export const textbooks: Textbook[] = [
                 "en": "I bought some small ornaments with Peking Opera facial designs, and also some silk products.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "买": "mǎi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一些": "yìxiē / some; a few",
                   "京剧": "jīngjù / Peking opera",
                   "脸谱": "liǎnpǔ / facial makeup",
                   "的": "de / (possessive/modifier particle)",
-                  "小": "xiǎo /",
                   "饰物": "shìwù / articles for personal adornment; ornament",
                   "还": "hái / still; also",
                   "丝织品": "sīzhīpǐn / silk fabric"
@@ -26309,21 +26209,15 @@ export const textbooks: Textbook[] = [
                 "en": "Mike bought many beautiful key chains and quite a few little toys, such as toy pandas and toy cars.",
                 "dict": {
                   "麦克": "màikè / Mike (name)",
-                  "买": "mǎi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "很": "hěn / very",
                   "多": "duō / many; much",
                   "漂亮": "piàoliàng / pretty",
                   "的": "de / (possessive/modifier particle)",
-                  "钥匙链": "yàoshiliàn /",
-                  "儿": "ér /",
                   "还": "hái / still; also",
                   "不少": "bùshǎo / quite a few",
-                  "小": "xiǎo /",
                   "玩具": "wánjù / toy",
                   "有": "yǒu / to have",
-                  "小熊猫": "xiǎoxióngmāo /",
-                  "小汽车": "xiǎoqìchē /",
                   "什么": "shénme / what"
                 }
               },
@@ -26337,10 +26231,6 @@ export const textbooks: Textbook[] = [
                   "说": "shuō / to say; to speak",
                   "这些": "zhèxiē / these",
                   "玩具": "wánjù / toy",
-                  "带回去": "dàihuíqu /",
-                  "送给": "sònggěi /",
-                  "小朋友": "xiǎopéngyǒu /",
-                  "们": "men /",
                   "他们": "tāmen / they",
                   "肯定": "kěndìng / definitely",
                   "喜欢": "xǐhuān / like; love"
@@ -26355,20 +26245,16 @@ export const textbooks: Textbook[] = [
                   "售货员": "shòuhuòyuán / shop assistant",
                   "看": "kàn / to look; to see; to visit",
                   "我们": "wǒmen / we; us",
-                  "买": "mǎi /",
                   "的": "de / (possessive/modifier particle)",
                   "东西": "dōngxī / thing",
                   "多": "duō / many; much",
                   "不好": "bùhǎo / not good",
-                  "拿": "ná /",
                   "就": "jiù / will",
                   "给": "gěi / give; for",
                   "一": "yí / one",
-                  "人": "rén /",
                   "找": "zhǎo / to look for",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "个": "gè / (measure word)",
-                  "小": "xiǎo /",
                   "纸箱": "zhǐxiāng / carton"
                 }
               },
@@ -26379,15 +26265,12 @@ export const textbooks: Textbook[] = [
                 "en": "All our books and gifts fit into the boxes perfectly.",
                 "dict": {
                   "我们": "wǒmen / we; us",
-                  "买": "mǎi /",
                   "的": "de / (possessive/modifier particle)",
-                  "书": "shū /",
                   "和": "hé / and; with",
                   "礼品": "lǐpǐn / present; gift",
                   "正好": "zhènghǎo / happens to be",
                   "都": "dōu / all; both",
-                  "能": "néng / can; able to",
-                  "放进去": "fàngjìnqu /"
+                  "能": "néng / can; able to"
                 }
               },
               {
@@ -26400,7 +26283,6 @@ export const textbooks: Textbook[] = [
                   "商场": "shāngchǎng / shopping mall",
                   "出来": "chūlai / come out",
                   "已经": "yǐjīng / already",
-                  "十": "shí /",
                   "二": "èr / two",
                   "点": "diǎn / to light; to kindle",
                   "多": "duō / many; much",
@@ -26416,11 +26298,8 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "和": "hé / and; with",
                   "麦克": "màikè / Mike (name)",
-                  "走进": "zǒujìn /",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
-                  "小": "xiǎo /",
-                  "饭馆儿": "fànguǎnr /",
                   "去": "qù / to go",
                   "吃": "chī / to eat",
                   "午饭": "wǔfàn / lunch"
@@ -26441,9 +26320,7 @@ export const textbooks: Textbook[] = [
                   "和": "hé / and; with",
                   "几": "jǐ / how many; several",
                   "个": "gè / (measure word)",
-                  "菜": "cài /",
                   "吃": "chī / to eat",
-                  "得": "de /",
                   "很": "hěn / very",
                   "舒服": "shūfú / comfortable, well"
                 }
@@ -26454,10 +26331,8 @@ export const textbooks: Textbook[] = [
                 "split": "吃完饭 我们 就 骑车 回来 了",
                 "en": "After the meal, we rode our bikes back.",
                 "dict": {
-                  "吃完饭": "chīwánfàn /",
                   "我们": "wǒmen / we; us",
                   "就": "jiù / will",
-                  "骑车": "qíchē /",
                   "回来": "huílai / come back",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -26468,7 +26343,6 @@ export const textbooks: Textbook[] = [
                 "split": "回到 学校 我 又 累 又 困 想 赶快 回到 宿舍 去 洗个 澡 休息 休息",
                 "en": "Back at school, I was tired and sleepy and wanted to hurry to the dormitory for a shower and a rest.",
                 "dict": {
-                  "回到": "huídào /",
                   "学校": "xuéxiào / school",
                   "我": "wǒ / I; me",
                   "又": "yòu / again",
@@ -26478,8 +26352,6 @@ export const textbooks: Textbook[] = [
                   "赶快": "gǎnkuài / hurriedly; quickly",
                   "宿舍": "sùshè / dormitory; dorm room",
                   "去": "qù / to go",
-                  "洗个": "xǐgè /",
-                  "澡": "zǎo /",
                   "休息": "xiūxī / to rest"
                 }
               },
@@ -26491,9 +26363,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "从": "cóng / from",
-                  "车上": "chēshàng /",
-                  "拿下": "náxià /",
-                  "小": "xiǎo /",
                   "纸箱": "zhǐxiāng / carton"
                 }
               },
@@ -26503,18 +26372,12 @@ export const textbooks: Textbook[] = [
                 "split": "走进 楼来 看见 电梯 门口 贴 了 张 通知 电梯 维修 请 走 楼梯",
                 "en": "As I walked into the building, I saw a notice by the elevator: “Elevator under repair. Please use the stairs.”",
                 "dict": {
-                  "走进": "zǒujìn /",
-                  "楼来": "lóulái /",
                   "看见": "kànjiàn / see; spot",
                   "电梯": "diàntī / lift; elevator",
-                  "门口": "ménkǒu /",
-                  "贴": "tiē /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "张": "zhāng / Zhang (surname)",
-                  "通知": "tōngzhī /",
                   "维修": "wéixiū / to maintain and repair",
                   "请": "qǐng / please; invite",
-                  "走": "zǒu /",
                   "楼梯": "lóutī / stairs; stairway"
                 }
               },
@@ -26525,13 +26388,8 @@ export const textbooks: Textbook[] = [
                 "en": "I live on the tenth floor, so there was nothing I could do but climb the stairs.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "住": "zhù /",
-                  "十": "shí /",
-                  "层": "céng /",
                   "没": "méi / not (past)",
-                  "办法": "bànfǎ /",
                   "只好": "zhǐhǎo / have to; cannot but",
-                  "爬楼梯": "pálóutī /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -26544,21 +26402,14 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "刚": "gāng / just now",
                   "要": "yào / want; need; will",
-                  "跑": "pǎo /",
-                  "下楼去": "xiàlóuqù /",
                   "就": "jiù / will",
                   "看见": "kànjiàn / see; spot",
                   "麦克": "màikè / Mike (name)",
                   "也": "yě / also; too",
-                  "爬上来": "páshànglai /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "他": "tā / he; him",
-                  "手里": "shǒulǐ /",
-                  "拿": "ná /",
                   "的": "de / (possessive/modifier particle)",
-                  "正是": "zhèngshì /",
                   "那": "nà / that",
-                  "串儿": "chuànr /",
                   "钥匙": "yàoshi / key"
                 }
               }
@@ -26585,7 +26436,6 @@ export const textbooks: Textbook[] = [
                   "刚才": "gāngcái / just now",
                   "进去": "jìnqu / to enter",
                   "一": "yī / one",
-                  "位": "wèi /",
                   "女士": "nǚshì / lady; madam",
                   "你": "nǐ / you",
                   "看见": "kànjiàn / see; spot",
@@ -26600,9 +26450,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "什么": "shénme / what",
                   "女士": "nǚshì / lady; madam",
-                  "长": "zhǎng / to look; to appear",
-                  "得": "de /",
-                  "什么样": "shénmeyàng /"
+                  "长": "zhǎng / to look; to appear"
                 }
               },
               {
@@ -26613,17 +26461,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "她": "tā / she; her",
                   "个子": "gèzi / height; stature",
-                  "高高": "gāogāo /",
                   "的": "de / (possessive/modifier particle)",
                   "大概": "dàgài / roughly, about",
                   "有": "yǒu / to have",
                   "一": "yì / one",
-                  "米": "mǐ /",
-                  "七": "qī /",
-                  "左右": "zuǒyòu / (used after a numeral to indicate an approximate number) about; or so",
-                  "黄头发": "huángtóufà /",
-                  "大": "dà /",
-                  "眼睛": "yǎnjīng /"
+                  "左右": "zuǒyòu / (used after a numeral to indicate an approximate number) about; or so"
                 }
               },
               {
@@ -26633,7 +26475,6 @@ export const textbooks: Textbook[] = [
                 "en": "What does she do?",
                 "dict": {
                   "是": "shì / to be (am/is/are)",
-                  "干什么": "gànshénme /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -26655,13 +26496,11 @@ export const textbooks: Textbook[] = [
                 "split": "后边 是 不是 还 跟 着 两 个 小伙子 扛 着 摄像机",
                 "en": "Were two young men with a video camera following behind her?",
                 "dict": {
-                  "后边": "hòubiān /",
                   "是": "shì / to be (am/is/are)",
                   "不是": "búshì / not is",
                   "还": "hái / still; also",
                   "跟": "gēn / with",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "两": "liǎng /",
                   "个": "gè / (measure word)",
                   "小伙子": "xiǎohuǒzi / young man; lad",
                   "扛": "káng / to carry (on one's shoulder); to shoulder",
@@ -26685,9 +26524,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "会议厅": "huìyìtīng / conference hall; assembly hall",
                   "的": "de / (possessive/modifier particle)",
-                  "门开": "ménkāi /",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "呢": "ne /",
                   "你们": "nǐmen / you (plural)",
                   "进去": "jìnqu / to enter",
                   "找": "zhǎo / to look for",
@@ -26701,10 +26538,8 @@ export const textbooks: Textbook[] = [
                 "en": "Is a meeting going on inside?",
                 "dict": {
                   "里边": "lǐbiān / inside",
-                  "正开": "zhèngkāi /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "会": "huì / can; will",
-                  "呢": "ne /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -26727,17 +26562,13 @@ export const textbooks: Textbook[] = [
                   "看": "kàn / to look; to see; to visit",
                   "是": "shì / to be (am/is/are)",
                   "不是": "búshì / not is",
-                  "手里": "shǒulǐ /",
-                  "拿": "ná /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "麦克": "màikè / Mike (name)",
-                  "风": "fēng /",
                   "对": "duì / couple; pair",
                   "摄像机": "shèxiàngjī / video camera",
                   "讲话": "jiǎnghuà / to speak; to talk",
                   "的": "de / (possessive/modifier particle)",
-                  "那": "nà / that",
-                  "位": "wèi /"
+                  "那": "nà / that"
                 }
               },
               {
@@ -26752,10 +26583,8 @@ export const textbooks: Textbook[] = [
                   "她": "tā / she; her",
                   "他们": "tāmen / they",
                   "正": "zhèng / just; right",
-                  "等": "děng /",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "我们": "wǒmen / we; us",
-                  "呢": "ne /"
+                  "我们": "wǒmen / we; us"
                 }
               },
               {
@@ -26775,8 +26604,7 @@ export const textbooks: Textbook[] = [
                 "split": "谢谢 啦",
                 "en": "Thank you!",
                 "dict": {
-                  "谢谢": "xièxie / thank you",
-                  "啦": "la /"
+                  "谢谢": "xièxie / thank you"
                 }
               },
               {
@@ -26816,13 +26644,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "张": "zhāng / Zhang (surname)",
                   "东": "dōng / east",
-                  "带我去": "dàiwǒqù /",
                   "参加": "cānjiā / to participate",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "的": "de / (possessive/modifier particle)",
                   "婚礼": "hūnlǐ / wedding"
                 }
@@ -26836,7 +26662,6 @@ export const textbooks: Textbook[] = [
                   "怎么样": "zěnmeyàng / how about",
                   "听说": "tīngshuō / I heard that",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "的": "de / (possessive/modifier particle)",
                   "婚礼": "hūnlǐ / wedding",
                   "很": "hěn / very",
@@ -26851,11 +26676,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "是": "shì / to be (am/is/are)",
                   "我": "wǒ / I; me",
-                  "第": "dì /",
                   "一": "yī / one",
-                  "次": "cì /",
                   "参加": "cānjiā / to participate",
-                  "这样": "zhèyàng /",
                   "的": "de / (possessive/modifier particle)",
                   "婚礼": "hūnlǐ / wedding"
                 }
@@ -26866,18 +26688,12 @@ export const textbooks: Textbook[] = [
                 "split": "屋子里 挂 着 大 红灯笼 墙上 贴 着 一 个 很 大 的 红双喜 字",
                 "en": "The room was decorated with big red lanterns, and a large red double-happiness character was pasted on the wall.",
                 "dict": {
-                  "屋子里": "wūzilǐ /",
                   "挂": "guà / to hang",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "大": "dà /",
-                  "红灯笼": "hóngdēnglóng /",
-                  "墙上": "qiángshàng /",
-                  "贴": "tiē /",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
                   "很": "hěn / very",
                   "的": "de / (possessive/modifier particle)",
-                  "红双喜": "hóngshuāngxǐ /",
                   "字": "zì / word; character"
                 }
               },
@@ -26893,9 +26709,7 @@ export const textbooks: Textbook[] = [
                   "着": "zhe / indicating the continuation of an action or a state",
                   "很": "hěn / very",
                   "多": "duō / many; much",
-                  "酒": "jiǔ /",
-                  "和": "hé / and; with",
-                  "菜": "cài /"
+                  "和": "hé / and; with"
                 }
               },
               {
@@ -26906,14 +26720,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "新娘": "xīnniáng / bride",
                   "长": "zhǎng / to look; to appear",
-                  "得": "de /",
                   "很": "hěn / very",
                   "漂亮": "piàoliàng / pretty",
                   "穿": "chuān / to wear (clothes)",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "一": "yí / one",
-                  "件": "jiàn /",
-                  "红": "hóng /",
                   "棉袄": "miánǎo / cotton-padded jacket"
                 }
               },
@@ -26924,7 +26735,6 @@ export const textbooks: Textbook[] = [
                 "en": "They smiled and said to us, “Welcome! Welcome!”",
                 "dict": {
                   "他们": "tāmen / they",
-                  "笑": "xiào /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "对": "duì / couple; pair",
                   "我们": "wǒmen / we; us",
@@ -26940,16 +26750,12 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "新娘": "xīnniáng / bride",
                   "热情": "rèqíng / warm-hearted; enthusiastic",
-                  "地": "de /",
                   "请": "qǐng / please; invite",
                   "客人": "kèrén / guest",
-                  "吃糖": "chītáng /",
                   "新郎": "xīnláng / bridegroom",
-                  "忙": "máng /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "给": "gěi / give; for",
-                  "倒": "dào / to fall; to topple; to tumble down",
-                  "喜酒": "xǐjiǔ /"
+                  "倒": "dào / to fall; to topple; to tumble down"
                 }
               },
               {
@@ -26958,15 +26764,8 @@ export const textbooks: Textbook[] = [
                 "split": "孩子 们 不停 地 说 着 笑 着 热 热 闹 闹 的 气氛 非常 好",
                 "en": "The children kept talking and laughing, making it very lively, and the atmosphere was wonderful.",
                 "dict": {
-                  "孩子": "háizi /",
-                  "们": "men /",
-                  "不停": "bùtíng /",
-                  "地": "de /",
                   "说": "shuō / to say; to speak",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "笑": "xiào /",
-                  "热": "rè /",
-                  "闹": "nào /",
                   "的": "de / (possessive/modifier particle)",
                   "气氛": "qìfēn / atmosphere; ambience",
                   "非常": "fēicháng / very",
@@ -26979,10 +26778,8 @@ export const textbooks: Textbook[] = [
                 "split": "喜酒 是 什么 酒",
                 "en": "What is “wedding wine”?",
                 "dict": {
-                  "喜酒": "xǐjiǔ /",
                   "是": "shì / to be (am/is/are)",
-                  "什么": "shénme / what",
-                  "酒": "jiǔ /"
+                  "什么": "shénme / what"
                 }
               },
               {
@@ -26991,18 +26788,11 @@ export const textbooks: Textbook[] = [
                 "split": "结婚 时 喝 的 酒 中国 人 叫 喜酒 吃 的 糖 叫 喜糖",
                 "en": "Chinese people call the wine drunk at weddings “wedding wine”, and the candy “wedding candy”.",
                 "dict": {
-                  "结婚": "jiéhūn /",
-                  "时": "shí /",
                   "喝": "hē / to drink",
                   "的": "de / (possessive/modifier particle)",
-                  "酒": "jiǔ /",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "叫": "jiào / by",
-                  "喜酒": "xǐjiǔ /",
-                  "吃": "chī / to eat",
-                  "糖": "táng /",
-                  "喜糖": "xǐtáng /"
+                  "吃": "chī / to eat"
                 }
               },
               {
@@ -27013,18 +26803,15 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "所以": "suǒyǐ / therefore",
                   "中国": "zhōngguó / Chinese",
-                  "人要": "rényào /",
                   "问": "wèn / to ask",
                   "什么": "shénme / what",
                   "时候": "shíhòu / time; moment",
                   "吃": "chī / to eat",
                   "你": "nǐ / you",
                   "的": "de / (possessive/modifier particle)",
-                  "喜糖": "xǐtáng /",
                   "啊": "a / (interjection)",
                   "就": "jiù / will",
-                  "是": "shì / to be (am/is/are)",
-                  "结婚": "jiéhūn /"
+                  "是": "shì / to be (am/is/are)"
                 }
               },
               {
@@ -27056,12 +26843,7 @@ export const textbooks: Textbook[] = [
                 "split": "等 车 的 人 越 来越 多 了 咱们 还是 打 的 去 吧 别 坐 公共汽车 了",
                 "en": "More and more people are waiting for the bus. Let's just take a taxi instead of the bus.",
                 "dict": {
-                  "等": "děng /",
-                  "车": "chē /",
                   "的": "de / (possessive/modifier particle)",
-                  "人": "rén /",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "多": "duō / many; much",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "咱们": "zánmen / we (inclusive)",
@@ -27069,9 +26851,7 @@ export const textbooks: Textbook[] = [
                   "打": "dǎ / to hit; to make (a phone call)",
                   "去": "qù / to go",
                   "吧": "ba / (particle, soft suggestion/guess)",
-                  "别": "bié / don't",
-                  "坐": "zuò /",
-                  "公共汽车": "gōnggòngqìchē /"
+                  "别": "bié / don't"
                 }
               },
               {
@@ -27085,14 +26865,9 @@ export const textbooks: Textbook[] = [
                   "你": "nǐ / you",
                   "看": "kàn / to look; to see; to visit",
                   "那": "nà / that",
-                  "边": "biān /",
                   "正好": "zhènghǎo / happens to be",
-                  "开过来": "kāiguòlai /",
                   "一": "yí / one",
-                  "辆": "liàng /",
-                  "空车": "kōngchē /",
                   "就": "jiù / will",
-                  "坐": "zuò /",
                   "这": "zhè / this"
                 }
               },
@@ -27103,10 +26878,8 @@ export const textbooks: Textbook[] = [
                 "en": "Do you live in a courtyard house?",
                 "dict": {
                   "你": "nǐ / you",
-                  "家住": "jiāzhù /",
                   "的": "de / (possessive/modifier particle)",
                   "是": "shì / to be (am/is/are)",
-                  "四合院儿": "sìhéyuànr /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -27129,20 +26902,12 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "家": "jiā / home; family",
                   "院子": "yuànzi / yard; courtyard",
-                  "里种": "lǐzhǒng /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "一": "yì / one",
                   "棵": "kē / a measure word for plants, etc.",
-                  "大": "dà /",
-                  "枣树": "zǎoshù /",
-                  "树上": "shùshàng /",
                   "结": "jié / to bear (fruit)",
                   "很": "hěn / very",
                   "多": "duō / many; much",
-                  "红枣": "hóngzǎo /",
-                  "远远": "yuǎnyuǎn /",
-                  "儿": "ér /",
-                  "地": "de /",
                   "就": "jiù / will",
                   "能": "néng / can; able to",
                   "看见": "kànjiàn / see; spot"
@@ -27158,10 +26923,7 @@ export const textbooks: Textbook[] = [
                   "看见": "kànjiàn / see; spot",
                   "那": "nà / that",
                   "棵": "kē / a measure word for plants, etc.",
-                  "大": "dà /",
-                  "枣树": "zǎoshù /",
                   "就": "jiù / will",
-                  "看到": "kàndào /",
                   "我": "wǒ / I; me",
                   "家": "jiā / home; family",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -27176,12 +26938,9 @@ export const textbooks: Textbook[] = [
                   "今天": "jīntiān / today",
                   "请": "qǐng / please; invite",
                   "你们": "nǐmen / you (plural)",
-                  "尝尝": "chángchang /",
                   "我": "wǒ / I; me",
                   "家": "jiā / home; family",
                   "的": "de / (possessive/modifier particle)",
-                  "红枣": "hóngzǎo /",
-                  "可甜": "kětián /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27194,11 +26953,7 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "听说": "tīngshuō / I heard that",
                   "现在": "xiànzài / now",
-                  "住": "zhù /",
-                  "四合院儿": "sìhéyuànr /",
                   "的": "de / (possessive/modifier particle)",
-                  "越": "yuè /",
-                  "来越少": "láiyuèshǎo /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27210,16 +26965,10 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "是": "shì / to be (am/is/are)",
                   "现在": "xiànzài / now",
-                  "城市": "chéngshì /",
                   "里": "lǐ / inside",
-                  "大楼": "dàlóu /",
-                  "越": "yuè /",
                   "盖": "gài / to construct; to build",
                   "多": "duō / many; much",
-                  "住宅小区": "zhùzháixiǎoqū /",
-                  "也": "yě / also; too",
-                  "建越": "jiànyuè /",
-                  "大": "dà /"
+                  "也": "yě / also; too"
                 }
               },
               {
@@ -27230,18 +26979,10 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "家": "jiā / home; family",
-                  "附近": "fùjìn /",
                   "的": "de / (possessive/modifier particle)",
-                  "四合院儿": "sìhéyuànr /",
                   "一": "yi / one",
-                  "座": "zuò /",
-                  "地": "de /",
-                  "拆": "chāi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "邻居": "línjū /",
                   "也": "yě / also; too",
-                  "搬走": "bānzǒu /",
-                  "五六家": "wǔliùjiā /",
                   "明年": "míngnián / next year",
                   "我们": "wǒmen / we; us",
                   "要": "yào / want; need; will"
@@ -27268,23 +27009,15 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "虽然": "suīrán / although",
                   "也": "yě / also; too",
-                  "舍不": "shěbù /",
-                  "得": "de /",
                   "离开": "líkāi / to leave",
                   "我们": "wǒmen / we; us",
                   "家": "jiā / home; family",
                   "的": "de / (possessive/modifier particle)",
-                  "小院儿": "xiǎoyuànr /",
-                  "但": "dàn /",
                   "还是": "háishì / or",
                   "希望": "xīwàng / hope; wish",
-                  "快点儿": "kuàidiǎnr /",
-                  "搬进": "bānjìn /",
                   "现代化": "xiàndàihuà / to modernize",
-                  "楼房": "lóufáng /",
                   "里": "lǐ / inside",
-                  "去": "qù / to go",
-                  "住": "zhù /"
+                  "去": "qù / to go"
                 }
               }
             ]
@@ -27301,11 +27034,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "同学们": "tóngxuémen / classmates",
                   "已经": "yǐjīng / already",
-                  "学": "xué /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "两": "liǎng /",
                   "个": "gè / (measure word)",
-                  "多月": "duōyuè /",
                   "汉语": "hànyǔ / Chinese language"
                 }
               },
@@ -27315,19 +27045,14 @@ export const textbooks: Textbook[] = [
                 "split": "刚来 的 时候 我 不 习惯 北京 的 气候 常常 感冒 现在 越 来越 习惯 了",
                 "en": "When I first arrived, I wasn't used to Beijing's climate and caught colds often, but now I'm getting more and more used to it.",
                 "dict": {
-                  "刚来": "gānglái /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
                   "我": "wǒ / I; me",
                   "不": "bù / not",
-                  "习惯": "xíguàn /",
                   "北京": "běijīng / Beijing",
-                  "气候": "qìhòu /",
                   "常常": "chángcháng / often; frequently",
                   "感冒": "gǎnmào / to catch a cold",
                   "现在": "xiànzài / now",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27340,12 +27065,8 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "的": "de / (possessive/modifier particle)",
                   "汉语": "hànyǔ / Chinese language",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "好": "hǎo / good; well; OK",
                   "觉得": "juéde / feel; think",
-                  "学越": "xuéyuè /",
-                  "有意思": "yǒuyìsi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27358,8 +27079,6 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "的": "de / (possessive/modifier particle)",
                   "朋友": "péngyǒu / friend",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "多": "duō / many; much",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -27371,13 +27090,7 @@ export const textbooks: Textbook[] = [
                 "en": "The more friends, the better. As the saying goes, “At home one relies on one's parents; away from home, on one's friends.”",
                 "dict": {
                   "朋友": "péngyǒu / friend",
-                  "越": "yuè /",
-                  "多越好": "duōyuèhǎo /",
-                  "在家": "zàijiā /",
-                  "靠": "kào /",
-                  "父母": "fùmǔ /",
-                  "出门": "chūmén / to go out; to leave home",
-                  "嘛": "ma /"
+                  "出门": "chūmén / to go out; to leave home"
                 }
               },
               {
@@ -27387,17 +27100,13 @@ export const textbooks: Textbook[] = [
                 "en": "Chinese food is delicious. The more I eat it, the more I like it, so I'm getting fatter and fatter.",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "菜": "cài /",
                   "很": "hěn / very",
                   "好吃": "hǎochī / delicious; tasty",
                   "我": "wǒ / I; me",
-                  "越": "yuè /",
                   "吃": "chī / to eat",
                   "喜欢": "xǐhuān / like; love",
                   "所以": "suǒyǐ / therefore",
                   "也": "yě / also; too",
-                  "来越": "láiyuè /",
-                  "胖": "pàng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27411,17 +27120,11 @@ export const textbooks: Textbook[] = [
                   "觉得": "juéde / feel; think",
                   "人们": "rénmen / people",
                   "的": "de / (possessive/modifier particle)",
-                  "生活": "shēnghuó /",
                   "一": "yì / one",
-                  "天": "tiān /",
                   "比": "bǐ / to compare",
                   "丰富": "fēngfù / rich; plentiful",
-                  "年轻人": "niánqīngrén /",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "会": "huì / can; will",
                   "打扮": "dǎbàn / to dress up; to make up",
-                  "得": "de /",
                   "漂亮": "piàoliàng / pretty",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -27432,10 +27135,8 @@ export const textbooks: Textbook[] = [
                 "split": "圣诞节 和 新年 快到 了 不少 商店 都 摆 着 圣诞树 装饰 得 非常 漂亮",
                 "en": "Christmas and the New Year are approaching. Many shops have put up Christmas trees and are beautifully decorated.",
                 "dict": {
-                  "圣诞节": "shèngdànjié /",
                   "和": "hé / and; with",
                   "新年": "xīnnián / new year; New Year's Day",
-                  "快到": "kuàidào /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "不少": "bùshǎo / quite a few",
                   "商店": "shāngdiàn / store",
@@ -27444,7 +27145,6 @@ export const textbooks: Textbook[] = [
                   "着": "zhe / indicating the continuation of an action or a state",
                   "圣诞树": "shèngdànshù / Christmas tree",
                   "装饰": "zhuāngshì / to decorate; decoration",
-                  "得": "de /",
                   "非常": "fēicháng / very",
                   "漂亮": "piàoliàng / pretty"
                 }
@@ -27460,12 +27160,9 @@ export const textbooks: Textbook[] = [
                   "很": "hěn / very",
                   "多": "duō / many; much",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "也": "yě / also; too",
-                  "买": "mǎi /",
                   "圣诞树": "shèngdànshù / Christmas tree",
-                  "和": "hé / and; with",
-                  "圣诞礼物": "shèngdànlǐwù /"
+                  "和": "hé / and; with"
                 }
               },
               {
@@ -27478,12 +27175,7 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "听说": "tīngshuō / I heard that",
                   "中国": "zhōngguó / Chinese",
-                  "过": "guo /",
-                  "圣诞节": "shèngdànjié /",
                   "的": "de / (possessive/modifier particle)",
-                  "人": "rén /",
-                  "越": "yuè /",
-                  "来越": "láiyuè /",
                   "多": "duō / many; much",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "是": "shì / to be (am/is/are)",
@@ -27496,11 +27188,8 @@ export const textbooks: Textbook[] = [
                 "split": "一般 家庭 是 不过 圣诞节 的",
                 "en": "Ordinary families don't celebrate Christmas.",
                 "dict": {
-                  "一般": "yìbān /",
-                  "家庭": "jiātíng /",
                   "是": "shì / to be (am/is/are)",
                   "不过": "búguò / but; however",
-                  "圣诞节": "shèngdànjié /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -27512,9 +27201,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "有": "yǒu / to have",
                   "的": "de / (possessive/modifier particle)",
-                  "人": "rén /",
-                  "过": "guo /",
-                  "圣诞节": "shèngdànjié /",
                   "可能": "kěnéng / possible; maybe",
                   "是": "shì / to be (am/is/are)",
                   "喜欢": "xǐhuān / like; love",
@@ -27522,14 +27208,10 @@ export const textbooks: Textbook[] = [
                   "种": "zhǒng / to plant; to grow",
                   "欢乐": "huānlè / happy; joyous",
                   "气氛": "qìfēn / atmosphere; ambience",
-                  "孩子": "háizi /",
-                  "们": "men /",
                   "能": "néng / can; able to",
                   "从": "cóng / from",
-                  "爸": "bà /",
                   "妈": "mā / mom",
                   "那儿": "nàr / there",
-                  "得到": "dédào /",
                   "礼物": "lǐwù / present; gift",
                   "当然": "dāngrán / of course",
                   "也": "yě / also; too",
@@ -27546,11 +27228,9 @@ export const textbooks: Textbook[] = [
                   "不过": "búguò / but; however",
                   "中国": "zhōngguó / Chinese",
                   "最": "zuì / most",
-                  "大": "dà /",
                   "的": "de / (possessive/modifier particle)",
                   "节日": "jiérì / festival; holiday",
-                  "还是": "háishì / or",
-                  "春节": "chūnjié /"
+                  "还是": "háishì / or"
                 }
               },
               {
@@ -27605,15 +27285,12 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "最": "zuì / most",
                   "好": "hǎo / good; well; OK",
-                  "借": "jiè /",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
-                  "大": "dà /",
                   "教室": "jiàoshì / classroom",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "它": "tā / it",
                   "布置": "bùzhì / to fix up; to arrange; to decorate",
-                  "成": "chéng /",
                   "会场": "huìchǎng / meeting venue"
                 }
               },
@@ -27631,7 +27308,6 @@ export const textbooks: Textbook[] = [
                   "以后": "yǐhòu / after",
                   "请": "qǐng / please; invite",
                   "老师": "lǎoshī / teacher",
-                  "来看": "láikàn /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "看": "kàn / to look; to see; to visit"
                 }
@@ -27644,13 +27320,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "老师": "lǎoshī / teacher",
                   "高兴": "gāoxìng / happy, glad",
-                  "地": "de /",
                   "说": "shuō / to say; to speak",
                   "你们": "nǐmen / you (plural)",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "教室": "jiàoshì / classroom",
                   "布置": "bùzhì / to fix up; to arrange; to decorate",
-                  "得": "de /",
                   "真": "zhēn / really; truly",
                   "漂亮": "piàoliàng / pretty"
                 }
@@ -27667,10 +27341,8 @@ export const textbooks: Textbook[] = [
                 "split": "哎 这 幅 画儿 挂 在 什么 地方 比 较 好",
                 "en": "Hey, where would be a good place to hang this painting?",
                 "dict": {
-                  "哎": "āi /",
                   "这": "zhè / this",
                   "幅": "fú / a measure word for paintings, calligraphy works, etc.",
-                  "画儿": "huàr /",
                   "挂": "guà / to hang",
                   "在": "zài / to be at; (at)",
                   "什么": "shénme / what",
@@ -27703,12 +27375,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "对": "duì / couple; pair",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "小林": "xiǎolín /",
                   "还": "hái / still; also",
                   "没": "méi / not (past)",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "水仙花": "shuǐxiānhuā /",
-                  "送来": "sònglái /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -27719,13 +27388,10 @@ export const textbooks: Textbook[] = [
                 "en": "He's already brought them. I've put them in the bedroom.",
                 "dict": {
                   "已经": "yǐjīng / already",
-                  "送来": "sònglái /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "我": "wǒ / I; me",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "它": "tā / it",
-                  "摆在": "bǎizài /",
-                  "卧室": "wòshì /",
                   "里": "lǐ / inside"
                 }
               },
@@ -27736,10 +27402,7 @@ export const textbooks: Textbook[] = [
                 "en": "Come and look. They've bloomed beautifully.",
                 "dict": {
                   "你": "nǐ / you",
-                  "来看": "láikàn /",
                   "开": "kāi / to bloom",
-                  "得": "de /",
-                  "可好": "kěhǎo /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27751,8 +27414,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "它": "tā / it",
-                  "摆在": "bǎizài /",
-                  "客厅": "kètīng /",
                   "里": "lǐ / inside",
                   "比": "bǐ / to compare",
                   "较": "jiào / relatively",
@@ -27768,9 +27429,7 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "福": "fú / happiness; good fortune; blessing",
-                  "字贴": "zìtiē /",
                   "在": "zài / to be at; (at)",
-                  "门上": "ménshàng /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -27782,12 +27441,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "你": "nǐ / you",
-                  "写": "xiě /",
                   "的": "de / (possessive/modifier particle)",
-                  "对联": "duìlián /",
-                  "儿": "ér /",
                   "也": "yě / also; too",
-                  "贴上去": "tiēshàngqu /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -27799,8 +27454,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "哦": "ó / (expressing realization or understanding) oh",
                   "可不是": "kěbúshì / (expressing agreement) right; exactly",
-                  "嘛": "ma /",
-                  "写错": "xiěcuò /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -27814,9 +27467,7 @@ export const textbooks: Textbook[] = [
                   "是": "shì / to be (am/is/are)",
                   "新年": "xīnnián / new year; New Year's Day",
                   "新春": "xīnchūn / (new) spring; Lunar New Year and the following days",
-                  "吉祥": "jíxiáng / auspicious; lucky",
-                  "百行": "bǎixíng /",
-                  "百业兴旺": "bǎiyèxīngwàng /"
+                  "吉祥": "jíxiáng / auspicious; lucky"
                 }
               }
             ]
@@ -27831,16 +27482,12 @@ export const textbooks: Textbook[] = [
                 "split": "田 芳 这 就 是 你 说 的 对联 儿 吗",
                 "en": "Tian Fang, is this the couplet you told me about?",
                 "dict": {
-                  "田": "tián /",
-                  "芳": "fāng /",
                   "这": "zhè / this",
                   "就": "jiù / will",
                   "是": "shì / to be (am/is/are)",
                   "你": "nǐ / you",
                   "说": "shuō / to say; to speak",
                   "的": "de / (possessive/modifier particle)",
-                  "对联": "duìlián /",
-                  "儿": "ér /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -27860,12 +27507,10 @@ export const textbooks: Textbook[] = [
                 "split": "门上 这 个 字 怎么 念",
                 "en": "How do you read this character on the door?",
                 "dict": {
-                  "门上": "ménshàng /",
                   "这": "zhè / this",
                   "个": "gè / (measure word)",
                   "字": "zì / word; character",
-                  "怎么": "zěnme / how; why",
-                  "念": "niàn /"
+                  "怎么": "zěnme / how; why"
                 }
               },
               {
@@ -27886,10 +27531,7 @@ export const textbooks: Textbook[] = [
                 "cn": "没学过。",
                 "split": "没学 过",
                 "en": "I haven't learned it.",
-                "dict": {
-                  "没学": "méixué /",
-                  "过": "guo /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l17-t3-s6",
@@ -27912,14 +27554,9 @@ export const textbooks: Textbook[] = [
                 "split": "过 春节 的 时候 差不多 家家 都 贴 福 字",
                 "en": "During the Spring Festival, almost every family pastes up the character “Fu”.",
                 "dict": {
-                  "过": "guo /",
-                  "春节": "chūnjié /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
-                  "差不多": "chàbùduō /",
-                  "家家": "jiājia /",
                   "都": "dōu / all; both",
-                  "贴": "tiē /",
                   "福": "fú / happiness; good fortune; blessing",
                   "字": "zì / word; character"
                 }
@@ -27940,10 +27577,7 @@ export const textbooks: Textbook[] = [
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "倒": "dào / to fall; to topple; to tumble down",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "贴": "tiē /",
-                  "在": "zài / to be at; (at)",
-                  "门上": "ménshàng /",
-                  "呢": "ne /"
+                  "在": "zài / to be at; (at)"
                 }
               },
               {
@@ -27952,19 +27586,15 @@ export const textbooks: Textbook[] = [
                 "split": "这样 人们 一 看见 就 会 说 福倒 了 听 声音 就 是 福到 了",
                 "en": "This way, when people see it they will say “Fu dao le” (the Fu has fallen over), which sounds like “Fu dao le” (happiness has arrived).",
                 "dict": {
-                  "这样": "zhèyàng /",
                   "人们": "rénmen / people",
                   "一": "yí / one",
                   "看见": "kànjiàn / see; spot",
                   "就": "jiù / will",
                   "会": "huì / can; will",
                   "说": "shuō / to say; to speak",
-                  "福倒": "fúdào /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "听": "tīng /",
                   "声音": "shēngyīn / sound; voice",
-                  "是": "shì / to be (am/is/are)",
-                  "福到": "fúdào /"
+                  "是": "shì / to be (am/is/are)"
                 }
               },
               {
@@ -27978,18 +27608,13 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "也": "yě / also; too",
                   "去": "qù / to go",
-                  "买": "mǎi /",
                   "一些": "yìxiē / some; a few",
                   "福": "fú / happiness; good fortune; blessing",
-                  "字来": "zìlái /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "它": "tā / it",
                   "倒": "dào / to fall; to topple; to tumble down",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "贴": "tiē /",
                   "在": "zài / to be at; (at)",
-                  "门上": "ménshàng /",
-                  "床上": "chuángshàng /",
                   "桌子": "zhuōzi / table; desk",
                   "上": "shàng / to attend (a class)",
                   "椅子": "yǐzi / chair",
@@ -27997,7 +27622,6 @@ export const textbooks: Textbook[] = [
                   "冰箱": "bīngxiāng / refrigerator",
                   "洗衣机": "xǐyījī / washing machine",
                   "空调": "kōngtiáo / air conditioner",
-                  "等": "děng /",
                   "幸福": "xìngfú / happiness; happy; fortunate",
                   "来": "lái / to come",
                   "找": "zhǎo / to look for"
@@ -28062,7 +27686,6 @@ export const textbooks: Textbook[] = [
                   "托运": "tuōyùn / to consign for shipment; to check in (baggage)",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "它": "tā / it",
-                  "放上去": "fàngshàngqu /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -28074,10 +27697,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这": "zhè / this",
                   "是": "shì / to be (am/is/are)",
-                  "登机牌": "dēngjīpái /",
-                  "儿": "ér /",
                   "请": "qǐng / please; invite",
-                  "拿": "ná /",
                   "好": "hǎo / good; well; OK"
                 }
               },
@@ -28097,12 +27717,8 @@ export const textbooks: Textbook[] = [
                 "en": "Ma'am, what do you have in your pocket?",
                 "dict": {
                   "这": "zhè / this",
-                  "位": "wèi /",
                   "女士": "nǚshì / lady; madam",
                   "你": "nǐ / you",
-                  "口": "kǒu /",
-                  "袋": "dài /",
-                  "里装": "lǐzhuāng /",
                   "的": "de / (possessive/modifier particle)",
                   "是": "shì / to be (am/is/are)",
                   "什么": "shénme / what"
@@ -28115,8 +27731,7 @@ export const textbooks: Textbook[] = [
                 "en": "Nothing!",
                 "dict": {
                   "没有": "méiyǒu / not have; haven't",
-                  "什么": "shénme / what",
-                  "呀": "ya /"
+                  "什么": "shénme / what"
                 }
               },
               {
@@ -28127,13 +27742,10 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "请": "qǐng / please; invite",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "口": "kǒu /",
-                  "袋": "dài /",
                   "里": "lǐ / inside",
                   "的": "de / (possessive/modifier particle)",
                   "东西": "dōngxī / thing",
                   "都": "dōu / all; both",
-                  "掏出": "tāochū /",
                   "来": "lái / to come"
                 }
               },
@@ -28149,7 +27761,6 @@ export const textbooks: Textbook[] = [
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "钥匙": "yàoshi / key",
                   "和": "hé / and; with",
-                  "两": "liǎng /",
                   "个": "gè / (measure word)",
                   "硬币": "yìngbì / coin"
                 }
@@ -28162,7 +27773,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "好": "hǎo / good; well; OK",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "请进去": "qǐngjìnqu /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -28173,9 +27783,6 @@ export const textbooks: Textbook[] = [
                 "en": "Put the handbag in the overhead bin.",
                 "dict": {
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "手提包": "shǒutíbāo /",
-                  "放到": "fàngdào /",
-                  "行李箱": "xínglǐxiāng /",
                   "里": "lǐ / inside",
                   "去": "qù / to go",
                   "吧": "ba / (particle, soft suggestion/guess)"
@@ -28187,19 +27794,15 @@ export const textbooks: Textbook[] = [
                 "split": "等 一下儿 先 把 相机 拿出来 我 想 在 飞机 上 照 两 张 照片",
                 "en": "Wait a moment. Let me first take out the camera. I want to take a couple of photos on the plane.",
                 "dict": {
-                  "等": "děng /",
                   "一下儿": "yíxiàr / a bit",
                   "先": "xiān / first",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "相机": "xiàngjī /",
-                  "拿出来": "náchūlai /",
                   "我": "wǒ / I; me",
                   "想": "xiǎng / want; think",
                   "在": "zài / to be at; (at)",
                   "飞机": "fēijī / airplane",
                   "上": "shàng / to attend (a class)",
                   "照": "zhào / to take (a photo)",
-                  "两": "liǎng /",
                   "张": "zhāng / Zhang (surname)",
                   "照片": "zhàopiān / photo"
                 }
@@ -28222,12 +27825,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "对": "duì / couple; pair",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "相机": "xiàngjī /",
                   "里": "lǐ / inside",
                   "还": "hái / still; also",
                   "没有": "méiyǒu / not have; haven't",
-                  "电池": "diànchí /",
-                  "呢": "ne /",
                   "我": "wǒ / I; me",
                   "先": "xiān / first",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
@@ -28249,7 +27849,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这": "zhè / this",
                   "里": "lǐ / inside",
-                  "边": "biān /",
                   "有点儿": "yǒudiǎnr / a bit",
                   "暗": "àn / dim; dark"
                 }
@@ -28261,9 +27860,7 @@ export const textbooks: Textbook[] = [
                 "en": "Turn on the light.",
                 "dict": {
                   "你": "nǐ / you",
-                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "灯": "dēng /",
-                  "打开": "dǎkāi /"
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action"
                 }
               },
               {
@@ -28274,8 +27871,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "开关": "kāiguān / switch",
                   "在": "zài / to be at; (at)",
-                  "哪儿": "nǎr / where",
-                  "呢": "ne /"
+                  "哪儿": "nǎr / where"
                 }
               },
               {
@@ -28285,7 +27881,6 @@ export const textbooks: Textbook[] = [
                 "en": "It's on the armrest of the seat.",
                 "dict": {
                   "在": "zài / to be at; (at)",
-                  "座位": "zuòwèi /",
                   "的": "de / (possessive/modifier particle)",
                   "扶手": "fúshǒu / armrest",
                   "上": "shàng / to attend (a class)"
@@ -28298,7 +27893,6 @@ export const textbooks: Textbook[] = [
                 "en": "The plane is about to take off. Please fasten your seat belts and turn off your cell phones...",
                 "dict": {
                   "飞机": "fēijī / airplane",
-                  "马上": "mǎshàng /",
                   "就": "jiù / will",
                   "要": "yào / want; need; will",
                   "起飞": "qǐfēi / to take off",
@@ -28307,9 +27901,6 @@ export const textbooks: Textbook[] = [
                   "大家": "dàjiā / everyone",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "安全带": "ānquándài / safety belt; seat belt",
-                  "系好": "jìhǎo /",
-                  "把手": "bǎshǒu /",
-                  "机关": "jīguān /",
                   "上": "shàng / to attend (a class)"
                 }
               },
@@ -28324,8 +27915,7 @@ export const textbooks: Textbook[] = [
                   "不": "bú / not",
                   "会": "huì / can; will",
                   "系": "xì / to tie",
-                  "安全带": "ānquándài / safety belt; seat belt",
-                  "呢": "ne /"
+                  "安全带": "ānquándài / safety belt; seat belt"
                 }
               },
               {
@@ -28338,11 +27928,9 @@ export const textbooks: Textbook[] = [
                   "这": "zhè / this",
                   "个": "gè / (measure word)",
                   "插头": "chātóu / plug",
-                  "往里": "wǎnglǐ /",
                   "一": "yì / one",
                   "插": "chā / to stick in; to insert",
                   "就": "jiù / will",
-                  "行": "xíng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -28352,9 +27940,7 @@ export const textbooks: Textbook[] = [
                 "split": "怎么 打开 呢",
                 "en": "How do I open it?",
                 "dict": {
-                  "怎么": "zěnme / how; why",
-                  "打开": "dǎkāi /",
-                  "呢": "ne /"
+                  "怎么": "zěnme / how; why"
                 }
               },
               {
@@ -28368,7 +27954,6 @@ export const textbooks: Textbook[] = [
                   "扳": "bān / to change the direction of a fixed object; to turn",
                   "一下儿": "yíxiàr / a bit",
                   "就": "jiù / will",
-                  "打开": "dǎkāi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -28379,7 +27964,6 @@ export const textbooks: Textbook[] = [
                 "en": "Ah, it's open.",
                 "dict": {
                   "啊": "a / (interjection)",
-                  "打开": "dǎkāi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -28407,9 +27991,7 @@ export const textbooks: Textbook[] = [
                 "cn": "哎呀！",
                 "split": "哎呀",
                 "en": "Oh no!",
-                "dict": {
-                  "哎呀": "āiyā /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l18-t2-s13",
@@ -28430,10 +28012,8 @@ export const textbooks: Textbook[] = [
                   "你": "nǐ / you",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "杯子": "bēizi / cup",
-                  "碰倒": "pèngdào /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "咖啡": "kāfēi / coffee",
-                  "全洒": "quánsǎ /"
+                  "咖啡": "kāfēi / coffee"
                 }
               },
               {
@@ -28442,10 +28022,8 @@ export const textbooks: Textbook[] = [
                 "split": "快拿纸 把 桌子 擦擦",
                 "en": "Quick, grab some paper and wipe the table.",
                 "dict": {
-                  "快拿纸": "kuàinázhǐ /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "桌子": "zhuōzi / table; desk",
-                  "擦擦": "cāca /"
+                  "桌子": "zhuōzi / table; desk"
                 }
               }
             ]
@@ -28480,9 +28058,7 @@ export const textbooks: Textbook[] = [
                 "split": "星期天 我 骑车 上街 的 时候 被 一 个 小伙子 撞倒 了 从 车上 摔下来 把 腿 摔伤 了",
                 "en": "When I was riding my bike on the street on Sunday, a young man knocked me down. I fell off the bike and hurt my leg.",
                 "dict": {
-                  "星期天": "xīngqītiān /",
                   "我": "wǒ / I; me",
-                  "骑车": "qíchē /",
                   "上街": "shàngjiē / to go to the street",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
@@ -28490,14 +28066,10 @@ export const textbooks: Textbook[] = [
                   "一": "yí / one",
                   "个": "gè / (measure word)",
                   "小伙子": "xiǎohuǒzi / young man; lad",
-                  "撞倒": "zhuàngdào /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "从": "cóng / from",
-                  "车上": "chēshàng /",
-                  "摔下来": "shuāixiàlai /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "腿": "tuǐ / leg",
-                  "摔伤": "shuāishāng /"
+                  "腿": "tuǐ / leg"
                 }
               },
               {
@@ -28530,7 +28102,6 @@ export const textbooks: Textbook[] = [
                 "en": "Does it still hurt?",
                 "dict": {
                   "还": "hái / still; also",
-                  "疼": "téng /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -28541,8 +28112,7 @@ export const textbooks: Textbook[] = [
                 "en": "It still hurts a little.",
                 "dict": {
                   "还": "hái / still; also",
-                  "有点儿": "yǒudiǎnr / a bit",
-                  "疼": "téng /"
+                  "有点儿": "yǒudiǎnr / a bit"
                 }
               },
               {
@@ -28566,20 +28136,16 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "被": "bèi / by",
-                  "撞倒": "zhuàngdào /",
                   "后": "hòu / back; after",
                   "小伙子": "xiǎohuǒzi / young man; lad",
                   "看": "kàn / to look; to see; to visit",
                   "躺": "tǎng / to lie on one's back",
                   "在": "zài / to be at; (at)",
                   "地上": "dìshàng / on the ground",
-                  "马上": "mǎshàng /",
                   "叫": "jiào / by",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "辆": "liàng /",
                   "出租车": "chūzūchē / taxi",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "送到": "sòngdào /",
                   "医院": "yīyuàn / hospital"
                 }
               },
@@ -28604,7 +28170,6 @@ export const textbooks: Textbook[] = [
                 "en": "He's a student at Peking University.",
                 "dict": {
                   "是": "shì / to be (am/is/are)",
-                  "北京大学": "běijīngdàxué /",
                   "的": "de / (possessive/modifier particle)",
                   "学生": "xuéshēng / student"
                 }
@@ -28618,8 +28183,6 @@ export const textbooks: Textbook[] = [
                   "昨天": "zuótiān / yesterday",
                   "他": "tā / he; him",
                   "还": "hái / still; also",
-                  "来看": "láikàn /",
-                  "过": "guo /",
                   "我": "wǒ / I; me"
                 }
               },
@@ -28642,11 +28205,8 @@ export const textbooks: Textbook[] = [
                 "split": "街上 人多车 也 多 骑车 上街 的 时候 一定 要 特别 小心",
                 "en": "There are lots of people and cars on the streets, so you must be especially careful when cycling.",
                 "dict": {
-                  "街上": "jiēshàng /",
-                  "人多车": "rénduōchē /",
                   "也": "yě / also; too",
                   "多": "duō / many; much",
-                  "骑车": "qíchē /",
                   "上街": "shàngjiē / to go to the street",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
@@ -28698,15 +28258,10 @@ export const textbooks: Textbook[] = [
                 "en": "Alas, don't even mention it. My wallet was stolen by a thief.",
                 "dict": {
                   "唉": "āi / an interjection expressing sadness or regret",
-                  "别提": "biétí /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "我": "wǒ / I; me",
                   "的": "de / (possessive/modifier particle)",
-                  "钱包": "qiánbāo /",
-                  "儿": "ér /",
-                  "让": "ràng / by",
-                  "小偷儿": "xiǎotōur /",
-                  "偷走": "tōuzǒu /"
+                  "让": "ràng / by"
                 }
               },
               {
@@ -28715,10 +28270,8 @@ export const textbooks: Textbook[] = [
                 "split": "丢 了 多少 钱",
                 "en": "How much money did you lose?",
                 "dict": {
-                  "丢": "diū /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "多少": "duōshǎo / how much",
-                  "钱": "qián /"
+                  "多少": "duōshǎo / how much"
                 }
               },
               {
@@ -28727,11 +28280,9 @@ export const textbooks: Textbook[] = [
                 "split": "钱 不 多 才 几十块 钱",
                 "en": "Not much, just a few dozen yuan.",
                 "dict": {
-                  "钱": "qián /",
                   "不": "bù / not",
                   "多": "duō / many; much",
-                  "才": "cái / can",
-                  "几十块": "jǐshíkuài /"
+                  "才": "cái / can"
                 }
               },
               {
@@ -28740,13 +28291,10 @@ export const textbooks: Textbook[] = [
                 "split": "但 我 最 近 遇到 好 几件 倒霉 事儿 了",
                 "en": "But I've run into quite a few unlucky things recently.",
                 "dict": {
-                  "但": "dàn /",
                   "我": "wǒ / I; me",
                   "最": "zuì / most",
-                  "近": "jìn /",
                   "遇到": "yùdào / to come across; to encounter",
                   "好": "hǎo / good; well; OK",
-                  "几件": "jǐjiàn /",
                   "倒霉": "dǎoméi / unlucky",
                   "事儿": "shìr / thing; matter",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -28774,21 +28322,13 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "刚": "gāng / just now",
-                  "买": "mǎi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yí / one",
-                  "辆": "liàng /",
-                  "自行车": "zìxíngchē /",
                   "就": "jiù / will",
                   "叫": "jiào / by",
-                  "人": "rén /",
-                  "骑": "qí /",
-                  "走": "zǒu /",
-                  "到": "dào /",
                   "现在": "xiànzài / now",
                   "也": "yě / also; too",
-                  "没": "méi / not (past)",
-                  "送回来": "sònghuílai /"
+                  "没": "méi / not (past)"
                 }
               },
               {
@@ -28799,11 +28339,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "还": "hái / still; also",
-                  "等": "děng /",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "给": "gěi / give; for",
-                  "送回来": "sònghuílai /",
-                  "呀": "ya /"
+                  "给": "gěi / give; for"
                 }
               },
               {
@@ -28812,23 +28349,16 @@ export const textbooks: Textbook[] = [
                 "split": "上星期 跟 朋友 一起 去 长 城 出发 时 天气 好好儿 的 没想到 刚到 就 下 雨 了",
                 "en": "Last week I went to the Great Wall with a friend. The weather was fine when we set out, but unexpectedly it started raining as soon as we arrived.",
                 "dict": {
-                  "上星期": "shàngxīngqī /",
                   "跟": "gēn / with",
                   "朋友": "péngyǒu / friend",
                   "一起": "yìqǐ / together",
                   "去": "qù / to go",
                   "长": "cháng / to look; to appear",
-                  "城": "chéng /",
                   "出发": "chūfā / to set off, depart",
-                  "时": "shí /",
                   "天气": "tiānqì / weather",
-                  "好好儿": "hǎohǎor /",
                   "的": "de / (possessive/modifier particle)",
-                  "没想到": "méixiǎngdào /",
-                  "刚到": "gāngdào /",
                   "就": "jiù / will",
                   "下": "xià / used after a verb to indicate room or space",
-                  "雨": "yǔ /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -28838,24 +28368,16 @@ export const textbooks: Textbook[] = [
                 "split": "雨下 得 还 特别 大 我们 又 没带 雨伞 个个 都 被 淋 得 像 落汤鸡 似的 衣服 全都 湿 了",
                 "en": "It rained really hard, and we hadn't brought umbrellas, so everyone got soaked through like drowned rats, and our clothes were all wet.",
                 "dict": {
-                  "雨下": "yǔxià /",
-                  "得": "de /",
                   "还": "hái / still; also",
                   "特别": "tèbié / especially",
-                  "大": "dà /",
                   "我们": "wǒmen / we; us",
                   "又": "yòu / again",
-                  "没带": "méidài /",
                   "雨伞": "yǔsǎn / umbrella",
-                  "个个": "gège /",
                   "都": "dōu / all; both",
                   "被": "bèi / by",
                   "淋": "lín / to pour; to drench",
-                  "像": "xiàng /",
                   "落汤鸡": "luòtāngjī / (of a person) like a drenched chicken; to be soaked through",
-                  "似的": "shìde /",
                   "衣服": "yīfú / clothes",
-                  "全都": "quándōu /",
                   "湿": "shī / wet; moist; damp; humid",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -28866,19 +28388,13 @@ export const textbooks: Textbook[] = [
                 "split": "前天 我 坐 出租车 要 去 首都剧场 差点儿 被 司机 拉 到 首都机场",
                 "en": "The day before yesterday I took a taxi to the Capital Theatre, but the driver almost took me to the Capital Airport instead.",
                 "dict": {
-                  "前天": "qiántiān /",
                   "我": "wǒ / I; me",
-                  "坐": "zuò /",
                   "出租车": "chūzūchē / taxi",
                   "要": "yào / want; need; will",
                   "去": "qù / to go",
-                  "首都剧场": "shǒudūjùchǎng /",
-                  "差点儿": "chàdiǎnr /",
                   "被": "bèi / by",
                   "司机": "sījī / driver",
-                  "拉": "lā / to carry; to transport",
-                  "到": "dào /",
-                  "首都机场": "shǒudūjīchǎng /"
+                  "拉": "lā / to carry; to transport"
                 }
               },
               {
@@ -28891,12 +28407,9 @@ export const textbooks: Textbook[] = [
                   "说": "shuō / to say; to speak",
                   "我": "wǒ / I; me",
                   "的": "de / (possessive/modifier particle)",
-                  "音发": "yīnfā /",
-                  "得": "de /",
                   "不准": "bùzhǔn / inaccurate",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "剧场": "jùchǎng / theater",
-                  "说成": "shuōchéng /",
                   "机场": "jīchǎng / airport",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -28909,9 +28422,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "说": "shuō / to say; to speak",
-                  "可气": "kěqì / annoying",
-                  "不可": "bùkě /",
-                  "气": "qì /"
+                  "可气": "kěqì / annoying"
                 }
               },
               {
@@ -28927,7 +28438,6 @@ export const textbooks: Textbook[] = [
                   "都": "dōu / all; both",
                   "让": "ràng / by",
                   "你": "nǐ / you",
-                  "碰上": "pèngshàng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -28940,7 +28450,6 @@ export const textbooks: Textbook[] = [
                   "所以": "suǒyǐ / therefore",
                   "前": "qián / front; before",
                   "几": "jǐ / how many; several",
-                  "天": "tiān /",
                   "我": "wǒ / I; me",
                   "遇到": "yùdào / to come across; to encounter",
                   "一": "yí / one",
@@ -28951,7 +28460,6 @@ export const textbooks: Textbook[] = [
                   "叫": "jiào / by",
                   "他": "tā / he; him",
                   "给": "gěi / give; for",
-                  "算": "suàn /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一下儿": "yíxiàr / a bit"
                 }
@@ -28991,16 +28499,11 @@ export const textbooks: Textbook[] = [
                 "split": "为了 感谢 他 我 给 了 他 一 百 块 钱",
                 "en": "To thank him, I gave him a hundred yuan.",
                 "dict": {
-                  "为了": "wèile /",
-                  "感谢": "gǎnxiè /",
                   "他": "tā / he; him",
                   "我": "wǒ / I; me",
                   "给": "gěi / give; for",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "一": "yì / one",
-                  "百": "bǎi /",
-                  "块": "kuài /",
-                  "钱": "qián /"
+                  "一": "yì / one"
                 }
               },
               {
@@ -29010,12 +28513,10 @@ export const textbooks: Textbook[] = [
                 "en": "My friends all said I was foolish, that I had paid to be cheated.",
                 "dict": {
                   "朋友": "péngyǒu / friend",
-                  "们": "men /",
                   "都": "dōu / all; both",
                   "说": "shuō / to say; to speak",
                   "我": "wǒ / I; me",
                   "傻": "shǎ / brainless; foolish; stupid",
-                  "花钱": "huāqián /",
                   "受骗": "shòupiàn / to be deceived; to be fooled"
                 }
               },
@@ -29025,9 +28526,7 @@ export const textbooks: Textbook[] = [
                 "split": "没想到 那 天 跟 大家 一起 去 爬山 因为 在 山上 抽烟 又 被 公园 管理员 罚 了 五十块 钱",
                 "en": "Unexpectedly, the other day when we went mountain climbing together, I was fined fifty yuan by the park ranger for smoking on the mountain.",
                 "dict": {
-                  "没想到": "méixiǎngdào /",
                   "那": "nà / that",
-                  "天": "tiān /",
                   "跟": "gēn / with",
                   "大家": "dàjiā / everyone",
                   "一起": "yìqǐ / together",
@@ -29035,16 +28534,13 @@ export const textbooks: Textbook[] = [
                   "爬山": "páshān / mountain climbing",
                   "因为": "yīnwèi / because",
                   "在": "zài / to be at; (at)",
-                  "山上": "shānshàng /",
                   "抽烟": "chōuyān / to smoke",
                   "又": "yòu / again",
                   "被": "bèi / by",
                   "公园": "gōngyuán / park",
                   "管理员": "guǎnlǐyuán / custodian; manager",
                   "罚": "fá / to punish; to fine",
-                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "五十块": "wǔshíkuài /",
-                  "钱": "qián /"
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
               {
@@ -29065,10 +28561,7 @@ export const textbooks: Textbook[] = [
                 "split": "要是 山上 的 树 被 你 点 着 了 就 更 倒霉 了",
                 "en": "If you had set the trees on the mountain on fire, that would have been even worse luck.",
                 "dict": {
-                  "要是": "yàoshì /",
-                  "山上": "shānshàng /",
                   "的": "de / (possessive/modifier particle)",
-                  "树": "shù /",
                   "被": "bèi / by",
                   "你": "nǐ / you",
                   "点": "diǎn / to light; to kindle",
@@ -29087,7 +28580,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "说": "shuō / to say; to speak",
-                  "得": "de /",
                   "也": "yě / also; too",
                   "对": "duì / couple; pair"
                 }
@@ -29100,13 +28592,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "所以": "suǒyǐ / therefore",
                   "从": "cóng / from",
-                  "下星期": "xiàxīngqī /",
                   "起": "qǐ / a measure word for accidents, etc.",
                   "我": "wǒ / I; me",
                   "决定": "juédìng / to decide; decision",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "烟": "yān / cigarette",
-                  "戒掉": "jièdiào /",
                   "不": "bù / not",
                   "抽": "chōu / to find (time)",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -29120,9 +28610,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "为什么": "wèishénme / why",
                   "从": "cóng / from",
-                  "下星期": "xiàxīngqī /",
-                  "开始": "kāishǐ / start; begin",
-                  "呢": "ne /"
+                  "开始": "kāishǐ / start; begin"
                 }
               },
               {
@@ -29136,12 +28624,8 @@ export const textbooks: Textbook[] = [
                   "烟": "yān / cigarette",
                   "还": "hái / still; also",
                   "能": "néng / can; able to",
-                  "抽到": "chōudào /",
-                  "下星期": "xiàxīngqī /",
-                  "要是": "yàoshì /",
                   "不": "bù / not",
                   "抽": "chōu / to find (time)",
-                  "完": "wán /",
                   "就": "jiù / will",
                   "浪费": "làngfèi / to waste",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -29168,7 +28652,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "看": "kàn / to look; to see; to visit",
-                  "过": "guo /",
                   "京剧": "jīngjù / Peking opera",
                   "吗": "ma / (question particle)"
                 }
@@ -29180,9 +28663,7 @@ export const textbooks: Textbook[] = [
                 "en": "I've watched it once.",
                 "dict": {
                   "看": "kàn / to look; to see; to visit",
-                  "过": "guo /",
-                  "一": "yí / one",
-                  "次": "cì /"
+                  "一": "yí / one"
                 }
               },
               {
@@ -29192,8 +28673,6 @@ export const textbooks: Textbook[] = [
                 "en": "Can you understand it?",
                 "dict": {
                   "看": "kàn / to look; to see; to visit",
-                  "得": "de /",
-                  "懂": "dǒng /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -29204,10 +28683,7 @@ export const textbooks: Textbook[] = [
                 "en": "I can understand the scenes, but not the lines.",
                 "dict": {
                   "看": "kàn / to look; to see; to visit",
-                  "得": "de /",
-                  "懂": "dǒng /",
-                  "但是": "dànshì / but; however",
-                  "听不懂": "tīngbùdǒng /"
+                  "但是": "dànshì / but; however"
                 }
               },
               {
@@ -29220,7 +28696,6 @@ export const textbooks: Textbook[] = [
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "演出": "yǎnchū / to perform; to put on a show",
                   "能": "néng / can; able to",
-                  "猜出": "cāichū /",
                   "大概": "dàgài / roughly, about",
                   "的": "de / (possessive/modifier particle)",
                   "意思": "yìsi / meaning"
@@ -29236,12 +28711,9 @@ export const textbooks: Textbook[] = [
                   "也": "yě / also; too",
                   "是": "shì / to be (am/is/are)",
                   "一点儿": "yìdiǎnr / a little bit",
-                  "听不懂": "tīngbùdǒng /",
                   "演员": "yǎnyuán / actor; actress",
-                  "唱": "chàng /",
                   "的": "de / (possessive/modifier particle)",
                   "什么": "shénme / what",
-                  "只是": "zhǐshì /",
                   "觉得": "juéde / feel; think",
                   "很": "hěn / very",
                   "热闹": "rènào / lively; bustling"
@@ -29256,10 +28728,7 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "觉得": "juéde / feel; think",
                   "京剧": "jīngjù / Peking opera",
-                  "唱": "chàng /",
-                  "得": "de /",
                   "特别": "tèbié / especially",
-                  "好听": "hǎotīng /",
                   "武打": "wǔdǎ / acrobatic fighting",
                   "动作": "dòngzuò / movement; motion",
                   "也": "yě / also; too",
@@ -29278,14 +28747,10 @@ export const textbooks: Textbook[] = [
                   "服装": "fúzhuāng / clothing; costume",
                   "也": "yě / also; too",
                   "很": "hěn / very",
-                  "美": "měi /",
                   "我": "wǒ / I; me",
                   "想": "xiǎng / want; think",
-                  "买": "mǎi /",
                   "一": "yí / one",
-                  "套": "tào /",
                   "带": "dài / belt",
-                  "回国": "huíguó /",
                   "去": "qù / to go"
                 }
               },
@@ -29299,8 +28764,7 @@ export const textbooks: Textbook[] = [
                   "怎么": "zěnme / how; why",
                   "这么": "zhème / so",
                   "喜欢": "xǐhuān / like; love",
-                  "京剧": "jīngjù / Peking opera",
-                  "呢": "ne /"
+                  "京剧": "jīngjù / Peking opera"
                 }
               },
               {
@@ -29319,8 +28783,7 @@ export const textbooks: Textbook[] = [
                   "他": "tā / he; him",
                   "可是": "kěshì / but; however",
                   "一": "yí / one",
-                  "个": "gè / (measure word)",
-                  "京剧迷": "jīngjùmí /"
+                  "个": "gè / (measure word)"
                 }
               },
               {
@@ -29329,7 +28792,6 @@ export const textbooks: Textbook[] = [
                 "split": "要是 有 时间 的话 咱们 一起 去 看 一 次 好 吗",
                 "en": "If you have time, let's go watch it together sometime, okay?",
                 "dict": {
-                  "要是": "yàoshì /",
                   "有": "yǒu / to have",
                   "时间": "shíjiān / time",
                   "的话": "dehuà / (used at the end of a conditional clause) if",
@@ -29338,7 +28800,6 @@ export const textbooks: Textbook[] = [
                   "去": "qù / to go",
                   "看": "kàn / to look; to see; to visit",
                   "一": "yí / one",
-                  "次": "cì /",
                   "好": "hǎo / good; well; OK",
                   "吗": "ma / (question particle)"
                 }
@@ -29368,7 +28829,6 @@ export const textbooks: Textbook[] = [
                   "昨天": "zuótiān / yesterday",
                   "我": "wǒ / I; me",
                   "给": "gěi / give; for",
-                  "山本": "shānběn /",
                   "打": "dǎ / to hit; to make (a phone call)",
                   "电话": "diànhuà / telephone; phone",
                   "约": "yuē / to make an appointment in advance; to invite in advance",
@@ -29390,7 +28850,6 @@ export const textbooks: Textbook[] = [
                   "她": "tā / she; her",
                   "说": "shuō / to say; to speak",
                   "晚上": "wǎnshàng / evening",
-                  "有事": "yǒushì /",
                   "去": "qù / to go",
                   "不": "bù / not",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -29420,9 +28879,7 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "是": "shì / to be (am/is/are)",
                   "下午": "xiàwǔ / afternoon",
-                  "五": "wǔ /",
                   "点": "diǎn / to light; to kindle",
-                  "半": "bàn /",
                   "出发": "chūfā / to set off, depart",
                   "的": "de / (possessive/modifier particle)"
                 }
@@ -29433,10 +28890,6 @@ export const textbooks: Textbook[] = [
                 "split": "正是 下班时间 路上 人多车 也 多",
                 "en": "It was rush hour, so there were lots of people and cars on the road.",
                 "dict": {
-                  "正是": "zhèngshì /",
-                  "下班时间": "xiàbānshíjiān /",
-                  "路上": "lùshàng /",
-                  "人多车": "rénduōchē /",
                   "也": "yě / also; too",
                   "多": "duō / many; much"
                 }
@@ -29447,7 +28900,6 @@ export const textbooks: Textbook[] = [
                 "split": "公共汽车 上 不 去 我们 只好 打 的",
                 "en": "We couldn't get on the bus, so we had to take a taxi.",
                 "dict": {
-                  "公共汽车": "gōnggòngqìchē /",
                   "上": "shàng / to attend (a class)",
                   "不": "bú / not",
                   "去": "qù / to go",
@@ -29465,15 +28917,11 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "担心": "dānxīn / to be anxious about; to worry about",
-                  "买不到": "mǎibúdào /",
                   "票": "piào / ticket",
                   "但是": "dànshì / but; however",
-                  "山本": "shānběn /",
                   "说": "shuō / to say; to speak",
                   "好": "hǎo / good; well; OK",
-                  "买": "mǎi /",
-                  "肯定": "kěndìng / definitely",
-                  "得到": "dédào /"
+                  "肯定": "kěndìng / definitely"
                 }
               },
               {
@@ -29482,27 +28930,18 @@ export const textbooks: Textbook[] = [
                 "split": "到 了 剧场 山本 说 要 买 前 十 排 的 因为 她 的 眼睛 不 太 好 坐 得 太 远 看不清楚",
                 "en": "At the theatre, Yamamoto said we should buy tickets in the first ten rows, because her eyesight isn't very good and she can't see clearly from far away.",
                 "dict": {
-                  "到": "dào /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "剧场": "jùchǎng / theater",
-                  "山本": "shānběn /",
                   "说": "shuō / to say; to speak",
                   "要": "yào / want; need; will",
-                  "买": "mǎi /",
                   "前": "qián / front; before",
-                  "十": "shí /",
                   "排": "pái / row; line",
                   "的": "de / (possessive/modifier particle)",
                   "因为": "yīnwèi / because",
                   "她": "tā / she; her",
-                  "眼睛": "yǎnjīng /",
                   "不": "bú / not",
                   "太": "tài / too; excessively",
-                  "好": "hǎo / good; well; OK",
-                  "坐": "zuò /",
-                  "得": "de /",
-                  "远": "yuǎn /",
-                  "看不清楚": "kànbùqīngchǔ /"
+                  "好": "hǎo / good; well; OK"
                 }
               },
               {
@@ -29513,17 +28952,13 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "但是": "dànshì / but; however",
                   "前": "qián / front; before",
-                  "十": "shí /",
                   "排": "pái / row; line",
                   "的": "de / (possessive/modifier particle)",
                   "票": "piào / ticket",
                   "都": "dōu / all; both",
-                  "卖完": "màiwán /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "没买": "méimǎi / didn't buy",
-                  "到": "dào /",
                   "我们": "wǒmen / we; us",
-                  "买": "mǎi /",
                   "是": "shì / to be (am/is/are)",
                   "二": "èr / two"
                 }
@@ -29538,13 +28973,8 @@ export const textbooks: Textbook[] = [
                   "个": "gè / (measure word)",
                   "剧场": "jùchǎng / theater",
                   "不": "bú / not",
-                  "大": "dà /",
                   "估计": "gūjì / to reckon; to estimate",
-                  "坐": "zuò /",
-                  "不下": "búxià /",
-                  "一": "yì / one",
-                  "千": "qiān /",
-                  "人": "rén /"
+                  "一": "yì / one"
                 }
               },
               {
@@ -29557,12 +28987,7 @@ export const textbooks: Textbook[] = [
                   "演": "yǎn / to play; to act; to perform",
                   "还": "hái / still; also",
                   "有": "yǒu / to have",
-                  "十": "shí /",
-                  "多分钟": "duōfēnzhōng /",
-                  "人": "rén /",
-                  "差不多": "chàbùduō /",
                   "都": "dōu / all; both",
-                  "坐满": "zuòmǎn /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -29573,7 +28998,6 @@ export const textbooks: Textbook[] = [
                 "en": "I picked up a program.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "拿": "ná /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yì / one",
                   "张": "zhāng / Zhang (surname)",
@@ -29586,13 +29010,10 @@ export const textbooks: Textbook[] = [
                 "split": "上面 全是 中文 没有 英文 我 看不懂",
                 "en": "It was all in Chinese, with no English, so I couldn't understand it.",
                 "dict": {
-                  "上面": "shàngmiàn /",
-                  "全是": "quánshì /",
                   "中文": "zhōngwén / Chinese language",
                   "没有": "méiyǒu / not have; haven't",
                   "英文": "yīngwén / English language",
-                  "我": "wǒ / I; me",
-                  "看不懂": "kànbùdǒng /"
+                  "我": "wǒ / I; me"
                 }
               },
               {
@@ -29601,7 +29022,6 @@ export const textbooks: Textbook[] = [
                 "split": "山本 看 了 看 说 这 是 一 个 古代 神话故事",
                 "en": "Yamamoto looked at it and said, “This is an ancient fairy tale.",
                 "dict": {
-                  "山本": "shānběn /",
                   "看": "kàn / to look; to see; to visit",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "说": "shuō / to say; to speak",
@@ -29609,8 +29029,7 @@ export const textbooks: Textbook[] = [
                   "是": "shì / to be (am/is/are)",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
-                  "古代": "gǔdài / ancient times",
-                  "神话故事": "shénhuàgùshì /"
+                  "古代": "gǔdài / ancient times"
                 }
               },
               {
@@ -29629,14 +29048,9 @@ export const textbooks: Textbook[] = [
                   "很": "hěn / very",
                   "羡慕": "xiànmù / to admire; to envy",
                   "人间": "rénjiān / world; human world",
-                  "生活": "shēnghuó /",
                   "就": "jiù / will",
-                  "偷偷": "tōutou /",
-                  "儿": "ér /",
-                  "来到": "láidào /",
                   "跟": "gēn / with",
-                  "小伙子": "xiǎohuǒzi / young man; lad",
-                  "结了婚": "jiélehūn /"
+                  "小伙子": "xiǎohuǒzi / young man; lad"
                 }
               },
               {
@@ -29645,12 +29059,10 @@ export const textbooks: Textbook[] = [
                 "split": "后边 的 内容 我 也 看不懂",
                 "en": "I can't understand the rest of it either.",
                 "dict": {
-                  "后边": "hòubiān /",
                   "的": "de / (possessive/modifier particle)",
                   "内容": "nèiróng / content; substance",
                   "我": "wǒ / I; me",
-                  "也": "yě / also; too",
-                  "看不懂": "kànbùdǒng /"
+                  "也": "yě / also; too"
                 }
               },
               {
@@ -29662,12 +29074,9 @@ export const textbooks: Textbook[] = [
                   "不过": "búguò / but; however",
                   "不用": "búyòng / no need",
                   "担心": "dānxīn / to be anxious about; to worry about",
-                  "看不懂": "kànbùdǒng /",
                   "节目单": "jiémùdān / playbill; menu",
                   "一定": "yídìng / proper; fair; considerable",
                   "看": "kàn / to look; to see; to visit",
-                  "得": "de /",
-                  "懂": "dǒng /",
                   "表演": "biǎoyǎn / to perform"
                 }
               },
@@ -29678,15 +29087,12 @@ export const textbooks: Textbook[] = [
                 "en": "After the show, I more or less understood the story.",
                 "dict": {
                   "看": "kàn / to look; to see; to visit",
-                  "完": "wán /",
                   "以后": "yǐhòu / after",
                   "我": "wǒ / I; me",
                   "大概": "dàgài / roughly, about",
-                  "懂": "dǒng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "这": "zhè / this",
-                  "个": "gè / (measure word)",
-                  "故事": "gùshì /"
+                  "个": "gè / (measure word)"
                 }
               },
               {
@@ -29697,17 +29103,13 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "对": "duì / couple; pair",
-                  "山本": "shānběn /",
                   "说": "shuō / to say; to speak",
                   "以后": "yǐhòu / after",
-                  "周末": "zhōumò /",
                   "我们": "wǒmen / we; us",
                   "还": "hái / still; also",
-                  "来看": "láikàn /",
                   "吧": "ba / (particle, soft suggestion/guess)",
                   "京剧": "jīngjù / Peking opera",
-                  "真": "zhēn / really; truly",
-                  "有意思": "yǒuyìsi /"
+                  "真": "zhēn / really; truly"
                 }
               }
             ]
@@ -29729,16 +29131,11 @@ export const textbooks: Textbook[] = [
                 "split": "王 老师 咱们 怎么 上山 坐 缆车 上去 还是 爬上去",
                 "en": "Mr. Wang, how are we going up the mountain? By cable car or on foot?",
                 "dict": {
-                  "王": "wáng /",
                   "老师": "lǎoshī / teacher",
                   "咱们": "zánmen / we (inclusive)",
                   "怎么": "zěnme / how; why",
-                  "上山": "shàngshān /",
-                  "坐": "zuò /",
                   "缆车": "lǎnchē / cable car",
-                  "上去": "shàngqu /",
-                  "还是": "háishì / or",
-                  "爬上去": "páshàngqu /"
+                  "还是": "háishì / or"
                 }
               },
               {
@@ -29748,13 +29145,11 @@ export const textbooks: Textbook[] = [
                 "en": "Let's not take the cable car. Let's climb up together with the students.",
                 "dict": {
                   "别": "bié / don't",
-                  "坐": "zuò /",
                   "缆车": "lǎnchē / cable car",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "跟": "gēn / with",
                   "同学们": "tóngxuémen / classmates",
                   "一起": "yìqǐ / together",
-                  "爬上去": "páshàngqu /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -29764,13 +29159,8 @@ export const textbooks: Textbook[] = [
                 "split": "山 这么 高 你 爬 得 上去 吗",
                 "en": "The mountain is so high. Can you climb up?",
                 "dict": {
-                  "山": "shān /",
                   "这么": "zhème / so",
-                  "高": "gāo /",
                   "你": "nǐ / you",
-                  "爬": "pá /",
-                  "得": "de /",
-                  "上去": "shàngqu /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -29781,10 +29171,7 @@ export const textbooks: Textbook[] = [
                 "en": "No problem. I can climb it.",
                 "dict": {
                   "没": "méi / not (past)",
-                  "问题": "wèntí / problem",
-                  "爬": "pá /",
-                  "得": "de /",
-                  "上去": "shàngqu /"
+                  "问题": "wèntí / problem"
                 }
               },
               {
@@ -29793,21 +29180,15 @@ export const textbooks: Textbook[] = [
                 "split": "美英 我 看 你 累 得 都 喘 不 上 气来 了 还 爬 得动 吗",
                 "en": "Meiying, I see you're so tired you can hardly catch your breath. Can you still keep going?",
                 "dict": {
-                  "美英": "měiyīng /",
                   "我": "wǒ / I; me",
                   "看": "kàn / to look; to see; to visit",
                   "你": "nǐ / you",
                   "累": "lèi / tired",
-                  "得": "de /",
                   "都": "dōu / all; both",
-                  "喘": "chuǎn /",
                   "不": "bú / not",
                   "上": "shàng / to attend (a class)",
-                  "气来": "qìlái /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "还": "hái / still; also",
-                  "爬": "pá /",
-                  "得动": "dédòng /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -29817,8 +29198,6 @@ export const textbooks: Textbook[] = [
                 "split": "爬 得 动",
                 "en": "Yes, I can.",
                 "dict": {
-                  "爬": "pá /",
-                  "得": "de /",
                   "动": "dòng / to move"
                 }
               },
@@ -29828,12 +29207,8 @@ export const textbooks: Textbook[] = [
                 "split": "别着急 一 步 一 步 地 往上爬 爬不动 的 时候 就 休息 一会儿",
                 "en": "Don't rush. Climb up step by step, and rest a while whenever you can't go on.",
                 "dict": {
-                  "别着急": "biézháojí /",
                   "一": "yi / one",
                   "步": "bù / step",
-                  "地": "de /",
-                  "往上爬": "wǎngshàngpá /",
-                  "爬不动": "pábúdòng /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
                   "就": "jiù / will",
@@ -29847,12 +29222,9 @@ export const textbooks: Textbook[] = [
                 "split": "走 咱们 一起 爬 要 坚持到底 坚持 就 是 胜利",
                 "en": "Come on, let's climb together. We must persevere to the end. Persistence means victory!",
                 "dict": {
-                  "走": "zǒu /",
                   "咱们": "zánmen / we (inclusive)",
                   "一起": "yìqǐ / together",
-                  "爬": "pá /",
                   "要": "yào / want; need; will",
-                  "坚持到底": "jiānchídàodǐ /",
                   "坚持": "jiānchí / to persist; to keep on",
                   "就": "jiù / will",
                   "是": "shì / to be (am/is/are)",
@@ -29866,13 +29238,10 @@ export const textbooks: Textbook[] = [
                 "en": "I'm already sweating all over after climbing for just a moment. Let me rest a while before continuing. I can't compete with you young people.",
                 "dict": {
                   "刚": "gāng / just now",
-                  "爬": "pá /",
                   "一会儿": "yíhuìr / a while",
                   "就": "jiù / will",
-                  "出": "chū /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yì / one",
-                  "身": "shēn /",
                   "汗": "hàn / sweat",
                   "我": "wǒ / I; me",
                   "休息": "xiūxī / to rest",
@@ -29881,9 +29250,7 @@ export const textbooks: Textbook[] = [
                   "着": "zhe / indicating the continuation of an action or a state",
                   "比": "bǐ / to compare",
                   "不": "bù / not",
-                  "你们": "nǐmen / you (plural)",
-                  "年轻人": "niánqīngrén /",
-                  "啦": "la /"
+                  "你们": "nǐmen / you (plural)"
                 }
               },
               {
@@ -29894,10 +29261,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "啊": "a / (interjection)",
                   "看": "kàn / to look; to see; to visit",
-                  "王": "wáng /",
                   "老师": "lǎoshī / teacher",
                   "也": "yě / also; too",
-                  "爬上来": "páshànglai /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -29915,11 +29280,7 @@ export const textbooks: Textbook[] = [
                   "太": "tài / too; excessively",
                   "危险": "wēixiǎn / dangerous; danger",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "要": "yào / want; need; will",
-                  "注": "zhù /",
-                  "意": "yì /",
-                  "安": "ān /",
-                  "全": "quán /"
+                  "要": "yào / want; need; will"
                 }
               },
               {
@@ -29944,15 +29305,12 @@ export const textbooks: Textbook[] = [
                 "split": "爱德华 咱们 班 参加 联欢会 的 节目 准备 得 怎么样 了",
                 "en": "Edward, how is the preparation for our class's performance at the get-together coming along?",
                 "dict": {
-                  "爱德华": "àidéhuá /",
                   "咱们": "zánmen / we (inclusive)",
-                  "班": "bān /",
                   "参加": "cānjiā / to participate",
                   "联欢会": "liánhuānhuì / get-together; party",
                   "的": "de / (possessive/modifier particle)",
                   "节目": "jiémù / program",
                   "准备": "zhǔnbèi / prepare",
-                  "得": "de /",
                   "怎么样": "zěnmeyàng / how about",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -29967,9 +29325,7 @@ export const textbooks: Textbook[] = [
                   "都": "dōu / all; both",
                   "在": "zài / to be at; (at)",
                   "积极": "jījí / active",
-                  "地": "de /",
-                  "准备": "zhǔnbèi / prepare",
-                  "呢": "ne /"
+                  "准备": "zhǔnbèi / prepare"
                 }
               },
               {
@@ -29993,7 +29349,6 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "和": "hé / and; with",
                   "麦克": "màikè / Mike (name)",
-                  "说个": "shuōgè /",
                   "相声": "xiàngshēng / crosstalk; comic dialogue"
                 }
               },
@@ -30005,12 +29360,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "可是": "kěshì / but; however",
                   "我": "wǒ / I; me",
-                  "总": "zǒng /",
-                  "记不住": "jìbúzhù /",
                   "台词": "táicí / actor's lines",
-                  "正": "zhèng / just; right",
-                  "背台词": "bèitáicí /",
-                  "呢": "ne /"
+                  "正": "zhèng / just; right"
                 }
               },
               {
@@ -30019,7 +29370,6 @@ export const textbooks: Textbook[] = [
                 "split": "背会 了 吗",
                 "en": "Have you memorized them yet?",
                 "dict": {
-                  "背会": "bèihuì /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "吗": "ma / (question particle)"
                 }
@@ -30040,12 +29390,9 @@ export const textbooks: Textbook[] = [
                 "split": "山本 你们 的 小 话剧 呢",
                 "en": "Yamamoto, what about your short play?",
                 "dict": {
-                  "山本": "shānběn /",
                   "你们": "nǐmen / you (plural)",
                   "的": "de / (possessive/modifier particle)",
-                  "小": "xiǎo /",
-                  "话剧": "huàjù / drama; stage play",
-                  "呢": "ne /"
+                  "话剧": "huàjù / drama; stage play"
                 }
               },
               {
@@ -30057,8 +29404,7 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "也": "yě / also; too",
                   "正在": "zhèngzài / in the process of",
-                  "排练": "páiliàn / to rehearse",
-                  "呢": "ne /"
+                  "排练": "páiliàn / to rehearse"
                 }
               },
               {
@@ -30074,11 +29420,8 @@ export const textbooks: Textbook[] = [
                   "发": "fā / to get rich; to make a fortune",
                   "不准": "bùzhǔn / inaccurate",
                   "请": "qǐng / please; invite",
-                  "田": "tián /",
-                  "芳": "fāng /",
                   "一": "yi / one",
                   "句": "jù / a measure word for sentences",
-                  "地": "de /",
                   "给": "gěi / give; for",
                   "纠正": "jiūzhèng / to correct"
                 }
@@ -30102,7 +29445,6 @@ export const textbooks: Textbook[] = [
                 "split": "原来 是 玛丽 可是 玛丽 腿 受伤 了 参加 不 了 了",
                 "en": "It was Mary at first, but she hurt her leg and can't take part anymore.",
                 "dict": {
-                  "原来": "yuánlái /",
                   "是": "shì / to be (am/is/are)",
                   "玛丽": "mǎlì / Mary (name)",
                   "可是": "kěshì / but; however",
@@ -30151,7 +29493,6 @@ export const textbooks: Textbook[] = [
                   "自信": "zìxìn / self-confidence; confident",
                   "相信": "xiāngxìn / to believe",
                   "自己": "zìjǐ / oneself",
-                  "能演": "néngyǎn /",
                   "好": "hǎo / good; well; OK"
                 }
               },
@@ -30163,11 +29504,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "只要": "zhǐyào / as long as... will...",
                   "我们": "wǒmen / we; us",
-                  "好好儿": "hǎohǎor /",
-                  "练": "liàn /",
                   "就": "jiù / will",
                   "一定": "yídìng / proper; fair; considerable",
-                  "能演": "néngyǎn /",
                   "好": "hǎo / good; well; OK"
                 }
               },
@@ -30176,11 +29514,7 @@ export const textbooks: Textbook[] = [
                 "cn": "“世上无难事，只怕有心人”嘛！",
                 "split": "世上无难事 只怕有心人 嘛",
                 "en": "As the saying goes, “Nothing in the world is difficult for one who sets his mind to it.”",
-                "dict": {
-                  "世上无难事": "shìshàngwúnánshì /",
-                  "只怕有心人": "zhǐpàyǒuxīnrén /",
-                  "嘛": "ma /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l21-t2-s18",
@@ -30191,8 +29525,7 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "一定": "yídìng / proper; fair; considerable",
                   "努力": "nǔlì / hardworking",
-                  "争取": "zhēngqǔ / to strive for; to try to realize",
-                  "演出成功": "yǎnchūchénggōng /"
+                  "争取": "zhēngqǔ / to strive for; to try to realize"
                 }
               },
               {
@@ -30222,13 +29555,9 @@ export const textbooks: Textbook[] = [
                   "准备": "zhǔnbèi / prepare",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "一": "yì / one",
-                  "首歌": "shǒugē /",
                   "不过": "búguò / but; however",
                   "很": "hěn / very",
-                  "长时间": "zhǎngshíjiān /",
-                  "没唱": "méichàng /",
                   "恐怕": "kǒngpà / afraid that...; probably; maybe",
-                  "唱": "chàng /",
                   "不好": "bùhǎo / not good"
                 }
               },
@@ -30243,12 +29572,7 @@ export const textbooks: Textbook[] = [
                   "个": "gè / (measure word)",
                   "地方": "dìfāng / place",
                   "这么": "zhème / so",
-                  "小": "xiǎo /",
-                  "坐": "zuò /",
-                  "得": "de /",
                   "下": "xià / used after a verb to indicate room or space",
-                  "二百多": "èrbǎiduō /",
-                  "人": "rén /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -30260,15 +29584,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "联欢会": "liánhuānhuì / get-together; party",
                   "在": "zài / to be at; (at)",
-                  "楼下": "lóuxià /",
-                  "小礼堂": "xiǎolǐtáng /",
                   "举行": "jǔxíng / to hold (event)",
                   "那儿": "nàr / there",
-                  "能": "néng / can; able to",
-                  "坐下": "zuòxià /",
-                  "三四百": "sānsìbǎi /",
-                  "人": "rén /",
-                  "呢": "ne /"
+                  "能": "néng / can; able to"
                 }
               }
             ]
@@ -30292,7 +29610,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "喂": "wèi / hello",
                   "是": "shì / to be (am/is/are)",
-                  "王": "wáng /",
                   "老师": "lǎoshī / teacher",
                   "吗": "ma / (question particle)"
                 }
@@ -30315,8 +29632,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "老师": "lǎoshī / teacher",
                   "您": "nín / you (polite)",
-                  "听": "tīng /",
-                  "得": "de /",
                   "出来": "chūlai / come out",
                   "我": "wǒ / I; me",
                   "是": "shì / to be (am/is/are)",
@@ -30336,11 +29651,8 @@ export const textbooks: Textbook[] = [
                   "声音": "shēngyīn / sound; voice",
                   "有点儿": "yǒudiǎnr / a bit",
                   "熟": "shú / familiar",
-                  "但": "dàn /",
                   "一": "yí / one",
                   "下": "xià / used after a verb to indicate room or space",
-                  "子": "zi /",
-                  "想不起来": "xiǎngbùqǐlai /",
                   "谁": "shuí / who",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -30354,16 +29666,12 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "是": "shì / to be (am/is/are)",
                   "您": "nín / you (polite)",
-                  "三": "sān /",
-                  "年": "nián /",
                   "前": "qián / front; before",
                   "的": "de / (possessive/modifier particle)",
                   "学生": "xuéshēng / student",
                   "还": "hái / still; also",
                   "参加": "cānjiā / to participate",
-                  "过": "guo /",
-                  "婚礼": "hūnlǐ / wedding",
-                  "呢": "ne /"
+                  "婚礼": "hūnlǐ / wedding"
                 }
               },
               {
@@ -30374,9 +29682,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "啊": "a / (interjection)",
                   "我": "wǒ / I; me",
-                  "想起来": "xiǎngqǐlai /",
-                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "海伦": "hǎilún /"
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
               {
@@ -30456,7 +29762,6 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "是": "shì / to be (am/is/are)",
                   "应": "yīng / to accept (an invitation)",
-                  "国际广播电台": "guójìguǎngbōdiàntái /",
                   "的": "de / (possessive/modifier particle)",
                   "邀请": "yāoqǐng / to invite",
                   "来": "lái / to come",
@@ -30469,10 +29774,7 @@ export const textbooks: Textbook[] = [
                 "cn": "要待多长时间？",
                 "split": "要待 多长时间",
                 "en": "How long will you stay?",
-                "dict": {
-                  "要待": "yàodài /",
-                  "多长时间": "duōzhǎngshíjiān /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l22-t1-s14",
@@ -30485,8 +29787,6 @@ export const textbooks: Textbook[] = [
                   "他们": "tāmen / they",
                   "签": "qiān / to sign",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "两": "liǎng /",
-                  "年": "nián /",
                   "的": "de / (possessive/modifier particle)",
                   "合同": "hétóng / contract"
                 }
@@ -30496,10 +29796,7 @@ export const textbooks: Textbook[] = [
                 "cn": "保罗呢？",
                 "split": "保罗 呢",
                 "en": "What about Paul?",
-                "dict": {
-                  "保罗": "bǎoluó /",
-                  "呢": "ne /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l22-t1-s16",
@@ -30507,7 +29804,6 @@ export const textbooks: Textbook[] = [
                 "split": "保罗 也 来 了 他 在 北京 的 一 家 中外合资 公司 工作",
                 "en": "Paul came too. He works at a Sino-foreign joint venture company in Beijing.",
                 "dict": {
-                  "保罗": "bǎoluó /",
                   "也": "yě / also; too",
                   "来": "lái / to come",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
@@ -30517,7 +29813,6 @@ export const textbooks: Textbook[] = [
                   "的": "de / (possessive/modifier particle)",
                   "一": "yì / one",
                   "家": "jiā / home; family",
-                  "中外合资": "zhōngwàihézī /",
                   "公司": "gōngsī / company",
                   "工作": "gōngzuò / work"
                 }
@@ -30570,9 +29865,7 @@ export const textbooks: Textbook[] = [
                   "那": "nà / that",
                   "我": "wǒ / I; me",
                   "让": "ràng / by",
-                  "保罗": "bǎoluó /",
                   "开": "kāi / to bloom",
-                  "车": "chē /",
                   "去": "qù / to go",
                   "接": "jiē / to answer (a call); to receive",
                   "您": "nín / you (polite)"
@@ -30586,9 +29879,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "您": "nín / you (polite)",
                   "还": "hái / still; also",
-                  "住": "zhù /",
                   "在": "zài / to be at; (at)",
-                  "原来": "yuánlái /",
                   "的": "de / (possessive/modifier particle)",
                   "地方": "dìfāng / place",
                   "吗": "ma / (question particle)"
@@ -30602,18 +29893,13 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "不": "bù / not",
                   "我": "wǒ / I; me",
-                  "早就": "zǎojiù /",
                   "搬家": "bānjiā / to move house",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "搬": "bān / to move",
-                  "到": "dào /",
                   "学校": "xuéxiào / school",
-                  "附近": "fùjìn /",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
-                  "新建": "xīnjiàn /",
-                  "的": "de / (possessive/modifier particle)",
-                  "住宅小区": "zhùzháixiǎoqū /"
+                  "的": "de / (possessive/modifier particle)"
                 }
               },
               {
@@ -30643,7 +29929,6 @@ export const textbooks: Textbook[] = [
                   "喝": "hē / to drink",
                   "点儿": "diǎnr / a little",
                   "什么": "shénme / what",
-                  "茶": "chá /",
                   "还是": "háishì / or",
                   "咖啡": "kāfēi / coffee"
                 }
@@ -30655,7 +29940,6 @@ export const textbooks: Textbook[] = [
                 "en": "I can't drink either tea or coffee. If I do, I won't be able to sleep at night.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "茶": "chá /",
                   "和": "hé / and; with",
                   "咖啡": "kāfēi / coffee",
                   "都": "dōu / all; both",
@@ -30665,9 +29949,7 @@ export const textbooks: Textbook[] = [
                   "一": "yì / one",
                   "晚上": "wǎnshàng / evening",
                   "就": "jiù / will",
-                  "睡不": "shuìbù /",
-                  "着": "zhe / indicating the continuation of an action or a state",
-                  "觉": "jué /"
+                  "着": "zhe / indicating the continuation of an action or a state"
                 }
               },
               {
@@ -30678,8 +29960,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "就": "jiù / will",
                   "喝": "hē / to drink",
-                  "点儿": "diǎnr / a little",
-                  "水吧": "shuǐba /"
+                  "点儿": "diǎnr / a little"
                 }
               },
               {
@@ -30702,13 +29983,10 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这": "zhè / this",
                   "是": "shì / to be (am/is/are)",
-                  "保罗": "bǎoluó /",
                   "的": "de / (possessive/modifier particle)",
                   "公司": "gōngsī / company",
                   "给": "gěi / give; for",
-                  "我们": "wǒmen / we; us",
-                  "租": "zū /",
-                  "房子": "fángzi /"
+                  "我们": "wǒmen / we; us"
                 }
               },
               {
@@ -30717,13 +29995,9 @@ export const textbooks: Textbook[] = [
                 "split": "要是 让 我们 自己 花钱 可租 不起",
                 "en": "We couldn't afford to rent it with our own money.",
                 "dict": {
-                  "要是": "yàoshì /",
                   "让": "ràng / by",
                   "我们": "wǒmen / we; us",
-                  "自己": "zìjǐ / oneself",
-                  "花钱": "huāqián /",
-                  "可租": "kězū /",
-                  "不起": "bùqǐ /"
+                  "自己": "zìjǐ / oneself"
                 }
               },
               {
@@ -30732,7 +30006,6 @@ export const textbooks: Textbook[] = [
                 "split": "保罗 你们 公司 的 业务 是 什么",
                 "en": "Paul, what does your company do?",
                 "dict": {
-                  "保罗": "bǎoluó /",
                   "你们": "nǐmen / you (plural)",
                   "公司": "gōngsī / company",
                   "的": "de / (possessive/modifier particle)",
@@ -30752,7 +30025,6 @@ export const textbooks: Textbook[] = [
                   "是": "shì / to be (am/is/are)",
                   "搞": "gǎo / to do; to engage in",
                   "中外": "zhōngwài / China and foreign countries",
-                  "文化交流": "wénhuàjiāoliú /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -30764,7 +30036,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "公司": "gōngsī / company",
                   "成立": "chénglì / to set up; to found",
-                  "不久": "bùjiǔ /",
                   "业务": "yèwù / business",
                   "也": "yě / also; too",
                   "刚": "gāng / just now",
@@ -30780,17 +30051,14 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "老师": "lǎoshī / teacher",
                   "我": "wǒ / I; me",
-                  "和保罗": "hébǎoluó /",
                   "的": "de / (possessive/modifier particle)",
                   "工作": "gōngzuò / work",
                   "都": "dōu / all; both",
                   "需要": "xūyào / need",
-                  "用": "yòng /",
                   "汉语": "hànyǔ / Chinese language",
                   "所以": "suǒyǐ / therefore",
                   "打算": "dǎsuàn / to plan",
-                  "继续": "jìxù / to continue; to go on with",
-                  "学下去": "xuéxiàqu /"
+                  "继续": "jìxù / to continue; to go on with"
                 }
               },
               {
@@ -30801,15 +30069,12 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我们": "wǒmen / we; us",
                   "想": "xiǎng / want; think",
-                  "利用": "lìyòng /",
                   "在": "zài / to be at; (at)",
                   "北京": "běijīng / Beijing",
                   "工作": "gōngzuò / work",
                   "的": "de / (possessive/modifier particle)",
-                  "机会": "jīhuì /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "汉语": "hànyǔ / Chinese language",
-                  "学好": "xuéhǎo /"
+                  "汉语": "hànyǔ / Chinese language"
                 }
               },
               {
@@ -30819,21 +30084,15 @@ export const textbooks: Textbook[] = [
                 "en": "You two both learned well before and have a solid foundation. If you keep at it, you'll surely master it.",
                 "dict": {
                   "你们": "nǐmen / you (plural)",
-                  "俩": "liǎ /",
-                  "原来": "yuánlái /",
                   "都": "dōu / all; both",
-                  "学": "xué /",
-                  "得": "de /",
                   "不错": "búcuò / not bad, quite good",
                   "有": "yǒu / to have",
                   "一定": "yídìng / proper; fair; considerable",
                   "的": "de / (possessive/modifier particle)",
                   "基础": "jīchǔ / foundation; basis",
                   "坚持": "jiānchí / to persist; to keep on",
-                  "学下去": "xuéxiàqu /",
                   "的话": "dehuà / (used at the end of a conditional clause) if",
-                  "能": "néng / can; able to",
-                  "学好": "xuéhǎo /"
+                  "能": "néng / can; able to"
                 }
               },
               {
@@ -30843,15 +30102,11 @@ export const textbooks: Textbook[] = [
                 "en": "How time flies! It's been over three years since I left China.",
                 "dict": {
                   "时间": "shíjiān / time",
-                  "过": "guo /",
-                  "得": "de /",
                   "真": "zhēn / really; truly",
                   "快": "kuài / quick; hurry",
                   "离开": "líkāi / to leave",
                   "中国": "zhōngguó / Chinese",
                   "都": "dōu / all; both",
-                  "三": "sān /",
-                  "年": "nián /",
                   "多": "duō / many; much",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
@@ -30863,14 +30118,11 @@ export const textbooks: Textbook[] = [
                 "en": "Right after I returned home, I often listened to recordings and read the texts.",
                 "dict": {
                   "刚": "gāng / just now",
-                  "回国": "huíguó /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
                   "还": "hái / still; also",
-                  "常": "cháng /",
                   "听听": "tīngting / to listen a bit",
                   "录音": "lùyīn / recording",
-                  "读读": "dúdu /",
                   "课文": "kèwén / text"
                 }
               },
@@ -30882,11 +30134,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "后来": "hòulái / afterwards; later",
                   "因为": "yīnwèi / because",
-                  "忙": "máng /",
                   "也": "yě / also; too",
                   "没": "méi / not (past)",
                   "时间": "shíjiān / time",
-                  "学": "xué /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -30897,17 +30147,11 @@ export const textbooks: Textbook[] = [
                 "en": "Right. To learn a foreign language well, you have to keep at it and practice listening, speaking and drilling a lot.",
                 "dict": {
                   "是": "shì / to be (am/is/are)",
-                  "学": "xué /",
-                  "外语": "wàiyǔ /",
                   "只有": "zhǐyǒu / only if... can...",
-                  "坚持下去": "jiānchíxiàqu /",
                   "多": "duō / many; much",
-                  "听": "tīng /",
                   "说": "shuō / to say; to speak",
-                  "多练": "duōliàn /",
                   "才": "cái / can",
-                  "能": "néng / can; able to",
-                  "学好": "xuéhǎo /"
+                  "能": "néng / can; able to"
                 }
               },
               {
@@ -30922,12 +30166,10 @@ export const textbooks: Textbook[] = [
                   "请": "qǐng / please; invite",
                   "老师": "lǎoshī / teacher",
                   "业余": "yèyú / spare time",
-                  "教": "jiào /",
                   "不": "bù / not",
                   "知道": "zhīdào / know",
                   "能": "néng / can; able to",
                   "不能": "bùnéng / cannot",
-                  "抽出": "chōuchū /",
                   "时间": "shíjiān / time",
                   "来": "lái / to come"
                 }
@@ -30942,8 +30184,6 @@ export const textbooks: Textbook[] = [
                   "工作": "gōngzuò / work",
                   "比": "bǐ / to compare",
                   "较": "jiào / relatively",
-                  "忙": "máng /",
-                  "抽不出": "chōubùchū /",
                   "时间": "shíjiān / time",
                   "来": "lái / to come"
                 }
@@ -30956,8 +30196,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你们": "nǐmen / you (plural)",
                   "打算": "dǎsuàn / to plan",
-                  "怎么": "zěnme / how; why",
-                  "学": "xué /"
+                  "怎么": "zěnme / how; why"
                 }
               },
               {
@@ -30966,7 +30205,6 @@ export const textbooks: Textbook[] = [
                 "split": "白天 我们 都 没有 时间 只有 晚上 才 抽 得出 时间",
                 "en": "We have no time during the day; we can only find time in the evenings.",
                 "dict": {
-                  "白天": "báitiān /",
                   "我们": "wǒmen / we; us",
                   "都": "dōu / all; both",
                   "没有": "méiyǒu / not have; haven't",
@@ -30974,8 +30212,7 @@ export const textbooks: Textbook[] = [
                   "只有": "zhǐyǒu / only if... can...",
                   "晚上": "wǎnshàng / evening",
                   "才": "cái / can",
-                  "抽": "chōu / to find (time)",
-                  "得出": "déchū /"
+                  "抽": "chōu / to find (time)"
                 }
               },
               {
@@ -30984,16 +30221,13 @@ export const textbooks: Textbook[] = [
                 "split": "要是 您 晚上 有 空儿 就 教 我们 没 空儿 就 算",
                 "en": "If you're free in the evenings, you can teach us; if not, that's all right too.",
                 "dict": {
-                  "要是": "yàoshì /",
                   "您": "nín / you (polite)",
                   "晚上": "wǎnshàng / evening",
                   "有": "yǒu / to have",
                   "空儿": "kòngr / free time",
                   "就": "jiù / will",
-                  "教": "jiào /",
                   "我们": "wǒmen / we; us",
-                  "没": "méi / not (past)",
-                  "算": "suàn /"
+                  "没": "méi / not (past)"
                 }
               },
               {
@@ -31004,11 +30238,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "好": "hǎo / good; well; OK",
                   "我": "wǒ / I; me",
-                  "考虑": "kǎolǜ /",
                   "再": "zài / again (future)",
                   "跟": "gēn / with",
-                  "你们": "nǐmen / you (plural)",
-                  "联系": "liánxì /"
+                  "你们": "nǐmen / you (plural)"
                 }
               }
             ]
@@ -31038,8 +30270,7 @@ export const textbooks: Textbook[] = [
                   "吃": "chī / to eat",
                   "点儿": "diǎnr / a little",
                   "什么": "shénme / what",
-                  "你": "nǐ / you",
-                  "呢": "ne /"
+                  "你": "nǐ / you"
                 }
               },
               {
@@ -31055,7 +30286,6 @@ export const textbooks: Textbook[] = [
                   "渴": "kě / thirsty",
                   "咱们": "zánmen / we (inclusive)",
                   "去": "qù / to go",
-                  "饭馆儿": "fànguǎnr /",
                   "吧": "ba / (particle, soft suggestion/guess)"
                 }
               },
@@ -31106,8 +30336,6 @@ export const textbooks: Textbook[] = [
                 "en": "What would you two like to order?",
                 "dict": {
                   "你们": "nǐmen / you (plural)",
-                  "两": "liǎng /",
-                  "位": "wèi /",
                   "要": "yào / want; need; will",
                   "点儿": "diǎnr / a little",
                   "什么": "shénme / what"
@@ -31125,8 +30353,7 @@ export const textbooks: Textbook[] = [
                   "有": "yǒu / to have",
                   "什么": "shénme / what",
                   "好吃": "hǎochī / delicious; tasty",
-                  "的": "de / (possessive/modifier particle)",
-                  "菜": "cài /"
+                  "的": "de / (possessive/modifier particle)"
                 }
               },
               {
@@ -31138,7 +30365,6 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "这儿": "zhèr / here",
                   "什么": "shénme / what",
-                  "菜": "cài /",
                   "都": "dōu / all; both",
                   "好吃": "hǎochī / delicious; tasty",
                   "啊": "a / (interjection)"
@@ -31159,11 +30385,9 @@ export const textbooks: Textbook[] = [
                   "最": "zuì / most",
                   "好吃": "hǎochī / delicious; tasty",
                   "的": "de / (possessive/modifier particle)",
-                  "菜": "cài /",
                   "给": "gěi / give; for",
                   "我们": "wǒmen / we; us",
                   "来": "lái / to come",
-                  "两": "liǎng /",
                   "个": "gè / (measure word)"
                 }
               },
@@ -31190,7 +30414,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "那": "nà / that",
                   "就": "jiù / will",
-                  "一样": "yíyàng /",
                   "来": "lái / to come",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
@@ -31206,8 +30429,7 @@ export const textbooks: Textbook[] = [
                   "我们": "wǒmen / we; us",
                   "喝": "hē / to drink",
                   "点儿": "diǎnr / a little",
-                  "什么": "shénme / what",
-                  "呢": "ne /"
+                  "什么": "shénme / what"
                 }
               },
               {
@@ -31238,12 +30460,8 @@ export const textbooks: Textbook[] = [
                 "en": "Time flies. We'll have our winter vacation as soon as the exams finish next week.",
                 "dict": {
                   "时间": "shíjiān / time",
-                  "过": "guo /",
-                  "得": "de /",
                   "真": "zhēn / really; truly",
                   "快": "kuài / quick; hurry",
-                  "下周": "xiàzhōu /",
-                  "考完试": "kǎowánshì /",
                   "就": "jiù / will",
                   "要": "yào / want; need; will",
                   "放寒假": "fànghánjià / to take one's winter vacation",
@@ -31274,7 +30492,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "学校": "xuéxiào / school",
                   "要": "yào / want; need; will",
-                  "组织": "zǔzhī /",
                   "留学生": "liúxuéshēng / international student",
                   "去": "qù / to go",
                   "外地": "wàidì / other parts of the country",
@@ -31294,12 +30511,9 @@ export const textbooks: Textbook[] = [
                 "en": "I've heard someone mention this.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "听": "tīng /",
                   "谁": "shuí / who",
                   "说": "shuō / to say; to speak",
-                  "过": "guo /",
                   "这": "zhè / this",
-                  "件": "jiàn /",
                   "事儿": "shìr / thing; matter"
                 }
               },
@@ -31347,8 +30561,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "我": "wǒ / I; me",
                   "想": "xiǎng / want; think",
-                  "去": "qù / to go",
-                  "哈尔滨": "hā'ěrbīn /"
+                  "去": "qù / to go"
                 }
               },
               {
@@ -31357,11 +30570,9 @@ export const textbooks: Textbook[] = [
                 "split": "哈尔滨 你 是 哪儿 冷去 哪儿 啊",
                 "en": "Harbin? You're going to wherever it's coldest.",
                 "dict": {
-                  "哈尔滨": "hā'ěrbīn /",
                   "你": "nǐ / you",
                   "是": "shì / to be (am/is/are)",
                   "哪儿": "nǎr / where",
-                  "冷去": "lěngqù /",
                   "啊": "a / (interjection)"
                 }
               },
@@ -31373,12 +30584,8 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "现在": "xiànzài / now",
                   "那儿": "nàr / there",
-                  "白天": "báitiān /",
                   "已经": "yǐjīng / already",
-                  "零": "líng /",
                   "下": "xià / used after a verb to indicate room or space",
-                  "二十多": "èrshíduō /",
-                  "度": "dù /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -31389,7 +30596,6 @@ export const textbooks: Textbook[] = [
                 "en": "I've heard the ice lanterns and ice sculptures in Harbin are beautiful. I want to go see them.",
                 "dict": {
                   "听说": "tīngshuō / I heard that",
-                  "哈尔滨": "hā'ěrbīn /",
                   "的": "de / (possessive/modifier particle)",
                   "冰灯": "bīngdēng / ice lantern",
                   "冰雕": "bīngdiāo / ice sculpture; ice carving",
@@ -31419,14 +30625,9 @@ export const textbooks: Textbook[] = [
                 "split": "除了 骑 自行车 以外 怎么 去 都 行",
                 "en": "Any way is fine, as long as it's not by bike.",
                 "dict": {
-                  "除了": "chúle /",
-                  "骑": "qí /",
-                  "自行车": "zìxíngchē /",
-                  "以外": "yǐwài /",
                   "怎么": "zěnme / how; why",
                   "去": "qù / to go",
-                  "都": "dōu / all; both",
-                  "行": "xíng /"
+                  "都": "dōu / all; both"
                 }
               },
               {
@@ -31459,17 +30660,13 @@ export const textbooks: Textbook[] = [
                 "split": "街上 到处 都 写 着 有 困难 找 警察 你 找 过 警察 吗",
                 "en": "The slogan “Go to the police when in trouble” is written everywhere on the streets. Have you ever asked the police for help?",
                 "dict": {
-                  "街上": "jiēshàng /",
-                  "到处": "dàochù /",
                   "都": "dōu / all; both",
-                  "写": "xiě /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "有": "yǒu / to have",
                   "困难": "kùnnán / difficulty; trouble",
                   "找": "zhǎo / to look for",
                   "警察": "jǐngchá / police",
                   "你": "nǐ / you",
-                  "过": "guo /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -31491,10 +30688,8 @@ export const textbooks: Textbook[] = [
                   "昨天": "zuótiān / yesterday",
                   "我": "wǒ / I; me",
                   "在": "zài / to be at; (at)",
-                  "街上": "jiēshàng /",
                   "遇到": "yùdào / to come across; to encounter",
                   "一": "yí / one",
-                  "件": "jiàn /",
                   "事儿": "shìr / thing; matter"
                 }
               },
@@ -31517,14 +30712,9 @@ export const textbooks: Textbook[] = [
                   "在": "zài / to be at; (at)",
                   "一": "yí / one",
                   "个": "gè / (measure word)",
-                  "十": "shí /",
-                  "字路口": "zìlùkǒu /",
-                  "儿": "ér /",
                   "我": "wǒ / I; me",
                   "看见": "kànjiàn / see; spot",
                   "对": "duì / couple; pair",
-                  "老夫妻": "lǎofūqī /",
-                  "看样子": "kànyàngzi /",
                   "腿脚": "tuǐjiǎo / legs and feet; ability to walk",
                   "不": "bú / not",
                   "太": "tài / too; excessively",
@@ -31539,7 +30729,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "他们": "tāmen / they",
                   "要": "yào / want; need; will",
-                  "过": "guo /",
                   "马路": "mǎlù / road"
                 }
               },
@@ -31550,24 +30739,16 @@ export const textbooks: Textbook[] = [
                 "en": "At that moment, a traffic policeman saw them, immediately ran over, and helped the old couple walk across, step by step.",
                 "dict": {
                   "这": "zhè / this",
-                  "时": "shí /",
                   "一": "yi / one",
                   "个": "gè / (measure word)",
-                  "交通警察": "jiāotōngjǐngchá /",
                   "看见": "kànjiàn / see; spot",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "就": "jiù / will",
                   "立即": "lìjí / immediately; at once",
-                  "跑": "pǎo /",
-                  "过去": "guòqu /",
                   "扶": "fú / to assist; to support with the hand",
                   "着": "zhe / indicating the continuation of an action or a state",
-                  "两": "liǎng /",
-                  "位": "wèi /",
                   "老人": "lǎorén / old person",
-                  "步": "bù / step",
-                  "地": "de /",
-                  "走过来": "zǒuguòlai /"
+                  "步": "bù / step"
                 }
               },
               {
@@ -31576,7 +30757,6 @@ export const textbooks: Textbook[] = [
                 "split": "看到 这 种 情景 我 非常 感动",
                 "en": "I was deeply moved by the scene.",
                 "dict": {
-                  "看到": "kàndào /",
                   "这": "zhè / this",
                   "种": "zhǒng / to plant; to grow",
                   "情景": "qíngjǐng / scene; sight",
@@ -31616,9 +30796,7 @@ export const textbooks: Textbook[] = [
                   "地方": "dìfāng / place",
                   "还": "hái / still; also",
                   "发生": "fāshēng / to happen; to take place",
-                  "过": "guo /",
                   "警察": "jǐngchá / police",
-                  "打人": "dǎrén /",
                   "事儿": "shìr / thing; matter"
                 }
               },
@@ -31648,21 +30826,15 @@ export const textbooks: Textbook[] = [
                   "个": "gè / (measure word)",
                   "同学": "tóngxué / classmate",
                   "一": "yí / one",
-                  "次": "cì /",
                   "去": "qù / to go",
                   "外地": "wàidì / other parts of the country",
                   "旅行": "lǚxíng / travel",
-                  "丢": "diū /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "钱包": "qiánbāo /",
-                  "儿": "ér /",
-                  "连住": "liánzhù /",
                   "的": "de / (possessive/modifier particle)",
                   "地方": "dìfāng / place",
                   "都": "dōu / all; both",
                   "没有": "méiyǒu / not have; haven't",
-                  "非常": "fēicháng / very",
-                  "着急": "zháojí /"
+                  "非常": "fēicháng / very"
                 }
               },
               {
@@ -31674,19 +30846,16 @@ export const textbooks: Textbook[] = [
                   "正在": "zhèngzài / in the process of",
                   "不": "bù / not",
                   "知道": "zhīdào / know",
-                  "怎么办": "zěnmebàn /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
                   "他": "tā / he; him",
                   "想": "xiǎng / want; think",
-                  "到": "dào /",
                   "有": "yǒu / to have",
                   "困难": "kùnnán / difficulty; trouble",
                   "找": "zhǎo / to look for",
                   "警察": "jǐngchá / police",
                   "这": "zhè / this",
                   "句": "jù / a measure word for sentences",
-                  "话": "huà /",
                   "就": "jiù / will",
                   "去": "qù / to go"
                 }
@@ -31700,23 +30869,16 @@ export const textbooks: Textbook[] = [
                   "警察": "jǐngchá / police",
                   "为": "wèi / for",
                   "他": "tā / he; him",
-                  "安排": "ānpái /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "住": "zhù /",
                   "的": "de / (possessive/modifier particle)",
                   "地方": "dìfāng / place",
                   "还": "hái / still; also",
-                  "借给": "jiègěi /",
-                  "钱": "qián /",
-                  "买": "mǎi /",
                   "回": "huí / to return; to reply",
                   "北京": "běijīng / Beijing",
                   "机票": "jīpiào / air ticket",
                   "又": "yòu / again",
                   "开": "kāi / to bloom",
-                  "车": "chē /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "送到": "sòngdào /",
                   "机场": "jīchǎng / airport"
                 }
               },
@@ -31752,23 +30914,12 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "还": "hái / still; also",
                   "在": "zài / to be at; (at)",
-                  "网上": "wǎngshàng /",
-                  "看到": "kàndào /",
-                  "这样": "zhèyàng /",
                   "一": "yí / one",
-                  "件": "jiàn /",
                   "事儿": "shìr / thing; matter",
                   "个": "gè / (measure word)",
-                  "四五岁": "sìwǔsuì /",
                   "的": "de / (possessive/modifier particle)",
-                  "小": "xiǎo /",
-                  "男孩儿": "nánháir /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "球": "qiú /",
                   "滚": "gǔn / to roll",
-                  "到": "dào /",
-                  "大街": "dàjiē /",
-                  "上去": "shàngqu /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -31780,9 +30931,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "他": "tā / he; him",
                   "要": "yào / want; need; will",
-                  "跑": "pǎo /",
-                  "过去": "guòqu /",
-                  "拿": "ná /",
                   "被": "bèi / by",
                   "警察": "jǐngchá / police",
                   "看见": "kànjiàn / see; spot",
@@ -31797,11 +30945,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "警察": "jǐngchá / police",
                   "就": "jiù / will",
-                  "帮": "bāng /",
-                  "孩子": "háizi /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "球": "qiú /",
-                  "捡": "jiǎn /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "回来": "huílai / come back"
                 }
@@ -31812,13 +30956,11 @@ export const textbooks: Textbook[] = [
                 "split": "孩子 刚 要 跟 着 妈妈 走 又 回来 对 警察 说 叔叔 我 的 鞋带 儿开 了",
                 "en": "The child was about to leave with his mother, but he came back to the officer and said, “Uncle, my shoelace is untied.”",
                 "dict": {
-                  "孩子": "háizi /",
                   "刚": "gāng / just now",
                   "要": "yào / want; need; will",
                   "跟": "gēn / with",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "妈妈": "māma / mother",
-                  "走": "zǒu /",
                   "又": "yòu / again",
                   "回来": "huílai / come back",
                   "对": "duì / couple; pair",
@@ -31827,8 +30969,6 @@ export const textbooks: Textbook[] = [
                   "叔叔": "shūshu / uncle; form of address for a man about one's father's age",
                   "我": "wǒ / I; me",
                   "的": "de / (possessive/modifier particle)",
-                  "鞋带": "xiédài /",
-                  "儿开": "érkāi /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -31842,9 +30982,7 @@ export const textbooks: Textbook[] = [
                   "着": "zhe / indicating the continuation of an action or a state",
                   "就": "jiù / will",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "小脚": "xiǎojiǎo /",
                   "伸": "shēn / to reach; to stretch",
-                  "到": "dào /",
                   "警察": "jǐngchá / police",
                   "面前": "miànqián / in front of; before"
                 }
@@ -31856,23 +30994,16 @@ export const textbooks: Textbook[] = [
                 "en": "Smiling, the officer bent down and tied the child's shoelace, just as if he were taking care of his own child.",
                 "dict": {
                   "警察": "jǐngchá / police",
-                  "笑": "xiào /",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "弯": "wān / to bend; to curl; crooked",
-                  "下腰": "xiàyāo /",
                   "去": "qù / to go",
                   "给": "gěi / give; for",
-                  "孩子": "háizi /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "鞋带": "xiédài /",
-                  "儿系": "érxì /",
                   "好": "hǎo / good; well; OK",
                   "就": "jiù / will",
-                  "像": "xiàng /",
                   "照顾": "zhàogù / to take care of",
                   "自己": "zìjǐ / oneself",
-                  "的": "de / (possessive/modifier particle)",
-                  "一样": "yíyàng /"
+                  "的": "de / (possessive/modifier particle)"
                 }
               },
               {
@@ -31882,19 +31013,13 @@ export const textbooks: Textbook[] = [
                 "en": "At this point, the child's mother ran over. Seeing the scene, she was so moved that she didn't know what to say.",
                 "dict": {
                   "这": "zhè / this",
-                  "时": "shí /",
-                  "孩子": "háizi /",
                   "的": "de / (possessive/modifier particle)",
                   "妈妈": "māma / mother",
                   "也": "yě / also; too",
-                  "跑": "pǎo /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "过来": "guòlai /",
-                  "看到": "kàndào /",
                   "种": "zhǒng / to plant; to grow",
                   "情景": "qíngjǐng / scene; sight",
                   "感动": "gǎndòng / moved; touched; to affect; to move",
-                  "得": "de /",
                   "不": "bù / not",
                   "知道": "zhīdào / know",
                   "说": "shuō / to say; to speak",
@@ -31916,10 +31041,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "这": "zhè / this",
                   "幅": "fú / a measure word for paintings, calligraphy works, etc.",
-                  "红梅": "hóngméi /",
                   "图": "tú / picture; painting",
-                  "画": "huà /",
-                  "得": "de /",
                   "真": "zhēn / really; truly",
                   "好": "hǎo / good; well; OK"
                 }
@@ -31933,10 +31055,8 @@ export const textbooks: Textbook[] = [
                   "这": "zhè / this",
                   "是": "shì / to be (am/is/are)",
                   "一": "yī / one",
-                  "位": "wèi /",
                   "画家": "huàjiā / painter; artist",
                   "朋友": "péngyǒu / friend",
-                  "送": "sòng /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -31948,18 +31068,12 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "虽然": "suīrán / although",
                   "是": "shì / to be (am/is/are)",
-                  "冬天": "dōngtiān /",
                   "但是": "dànshì / but; however",
                   "一": "yí / one",
-                  "看到": "kàndào /",
                   "这": "zhè / this",
                   "幅": "fú / a measure word for paintings, calligraphy works, etc.",
-                  "画儿": "huàr /",
                   "就": "jiù / will",
-                  "感到": "gǎndào / feel",
-                  "像": "xiàng /",
-                  "春天": "chūntiān /",
-                  "一样": "yíyàng /"
+                  "感到": "gǎndào / feel"
                 }
               },
               {
@@ -31970,12 +31084,10 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "梅": "méi / plum; plum blossom",
                   "松": "sōng / pine",
-                  "竹是": "zhúshì /",
                   "中国": "zhōngguó / Chinese",
                   "画家": "huàjiā / painter; artist",
                   "最": "zuì / most",
                   "喜欢": "xǐhuān / like; love",
-                  "画": "huà /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -31986,10 +31098,7 @@ export const textbooks: Textbook[] = [
                 "en": "Chinese people call the pine, bamboo and plum blossom “the three friends of winter”.",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "松竹梅": "sōngzhúméi /",
-                  "叫作": "jiàozuò /",
                   "岁寒三友": "suìhánsānyǒu / the three friends in cold weather"
                 }
               },
@@ -31999,13 +31108,8 @@ export const textbooks: Textbook[] = [
                 "split": "松树 不怕 冷 一年四季 都 是 绿 的",
                 "en": "The pine is not afraid of the cold and stays green all year round.",
                 "dict": {
-                  "松树": "sōngshù /",
-                  "不怕": "búpà /",
-                  "冷": "lěng /",
-                  "一年四季": "yìniánsìjì /",
                   "都": "dōu / all; both",
                   "是": "shì / to be (am/is/are)",
-                  "绿": "lǜ /",
                   "的": "de / (possessive/modifier particle)"
                 }
               },
@@ -32015,18 +31119,13 @@ export const textbooks: Textbook[] = [
                 "split": "竹子 冬天 也 是 绿 的 而且 一 节 一 节 的 很 有 骨气",
                 "en": "Bamboo is also green in winter, and with its joints one after another, it looks very resilient.",
                 "dict": {
-                  "竹子": "zhúzi /",
-                  "冬天": "dōngtiān /",
                   "也": "yě / also; too",
                   "是": "shì / to be (am/is/are)",
-                  "绿": "lǜ /",
                   "的": "de / (possessive/modifier particle)",
                   "而且": "érqiě / and; moreover",
                   "一": "yi / one",
-                  "节": "jié /",
                   "很": "hěn / very",
-                  "有": "yǒu / to have",
-                  "骨气": "gǔqì /"
+                  "有": "yǒu / to have"
                 }
               },
               {
@@ -32035,15 +31134,9 @@ export const textbooks: Textbook[] = [
                 "split": "梅花 在 冬天 开放 下雪天 开 得 更 美",
                 "en": "Plum blossoms bloom in winter, and they are even more beautiful when it snows.",
                 "dict": {
-                  "梅花": "méihuā /",
                   "在": "zài / to be at; (at)",
-                  "冬天": "dōngtiān /",
-                  "开放": "kāifàng /",
-                  "下雪天": "xiàxuětiān /",
                   "开": "kāi / to bloom",
-                  "得": "de /",
-                  "更": "gèng / more",
-                  "美": "měi /"
+                  "更": "gèng / more"
                 }
               },
               {
@@ -32054,10 +31147,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "所以": "suǒyǐ / therefore",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
-                  "它们": "tāmen /",
-                  "叫作": "jiàozuò /",
                   "岁寒三友": "suìhánsānyǒu / the three friends in cold weather"
                 }
               },
@@ -32069,18 +31159,12 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "是": "shì / to be (am/is/are)",
                   "我": "wǒ / I; me",
-                  "每次": "měicì /",
-                  "到": "dào /",
                   "中国": "zhōngguó / Chinese",
                   "来": "lái / to come",
-                  "看到": "kàndào /",
                   "喜欢": "xǐhuān / like; love",
                   "的": "de / (possessive/modifier particle)",
                   "字画": "zìhuà / calligraphy and painting",
-                  "总要": "zǒngyào /",
-                  "买": "mǎi /",
-                  "一些": "yìxiē / some; a few",
-                  "带回去": "dàihuíqu /"
+                  "一些": "yìxiē / some; a few"
                 }
               },
               {
@@ -32092,13 +31176,11 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "跟": "gēn / with",
                   "您": "nín / you (polite)",
-                  "一样": "yíyàng /",
                   "也": "yě / also; too",
                   "非常": "fēicháng / very",
                   "喜欢": "xǐhuān / like; love",
                   "书法": "shūfǎ / calligraphy",
-                  "和": "hé / and; with",
-                  "中国画": "zhōngguóhuà /"
+                  "和": "hé / and; with"
                 }
               },
               {
@@ -32112,8 +31194,6 @@ export const textbooks: Textbook[] = [
                   "您": "nín / you (polite)",
                   "的": "de / (possessive/modifier particle)",
                   "字": "zì / word; character",
-                  "写": "xiě /",
-                  "得": "de /",
                   "很": "hěn / very",
                   "漂亮": "piàoliàng / pretty"
                 }
@@ -32153,7 +31233,6 @@ export const textbooks: Textbook[] = [
                   "你": "nǐ / you",
                   "知道": "zhīdào / know",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "喜欢": "xǐhuān / like; love",
                   "什么": "shénme / what",
                   "数字": "shùzì / number",
@@ -32178,7 +31257,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "怎么": "zěnme / how; why",
-                  "连": "lián /",
                   "这么": "zhème / so",
                   "简单": "jiǎndān / simple",
                   "的": "de / (possessive/modifier particle)",
@@ -32196,8 +31274,7 @@ export const textbooks: Textbook[] = [
                 "split": "什么 话",
                 "en": "What do you mean!",
                 "dict": {
-                  "什么": "shénme / what",
-                  "话": "huà /"
+                  "什么": "shénme / what"
                 }
               },
               {
@@ -32237,14 +31314,10 @@ export const textbooks: Textbook[] = [
                 "en": "I do. I know half of everything in the world, and there's nothing about China I don't know.",
                 "dict": {
                   "知道": "zhīdào / know",
-                  "世界": "shìjiè /",
                   "上": "shàng / to attend (a class)",
                   "的": "de / (possessive/modifier particle)",
-                  "事": "shì /",
                   "我": "wǒ / I; me",
                   "一": "yī / one",
-                  "半": "bàn /",
-                  "儿": "ér /",
                   "中国": "zhōngguó / Chinese",
                   "没有": "méiyǒu / not have; haven't",
                   "不": "bù / not"
@@ -32268,7 +31341,6 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "没": "méi / not (past)",
-                  "听见": "tīngjiàn /",
                   "大家": "dàjiā / everyone",
                   "都": "dōu / all; both",
                   "叫": "jiào / by",
@@ -32305,17 +31377,12 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "才": "cái / can",
-                  "学": "xué /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "三": "sān /",
                   "个": "gè / (measure word)",
-                  "半": "bàn /",
-                  "月": "yuè /",
                   "的": "de / (possessive/modifier particle)",
                   "汉语": "hànyǔ / Chinese language",
                   "怎么": "zěnme / how; why",
                   "就": "jiù / will",
-                  "成": "chéng /",
                   "中国通": "zhōngguótōng / China hand, person with expert knowledge of China"
                 }
               },
@@ -32332,10 +31399,8 @@ export const textbooks: Textbook[] = [
                   "吗": "ma / (question particle)",
                   "你": "nǐ / you",
                   "怎么": "zěnme / how; why",
-                  "连": "lián /",
                   "也": "yě / also; too",
-                  "不": "bù / not",
-                  "懂": "dǒng /"
+                  "不": "bù / not"
                 }
               },
               {
@@ -32348,10 +31413,8 @@ export const textbooks: Textbook[] = [
                   "说": "shuō / to say; to speak",
                   "我": "wǒ / I; me",
                   "不": "bù / not",
-                  "懂": "dǒng /",
                   "相声": "xiàngshēng / crosstalk; comic dialogue",
                   "是": "shì / to be (am/is/are)",
-                  "笑": "xiào /",
                   "的": "de / (possessive/modifier particle)",
                   "艺术": "yìshù / art"
                 }
@@ -32368,12 +31431,8 @@ export const textbooks: Textbook[] = [
                   "是": "shì / to be (am/is/are)",
                   "要": "yào / want; need; will",
                   "大家": "dàjiā / everyone",
-                  "笑": "xiào /",
                   "一": "yi / one",
-                  "十": "shí /",
-                  "年": "nián /",
-                  "少": "shǎo / young; younger",
-                  "嘛": "ma /"
+                  "少": "shǎo / young; younger"
                 }
               },
               {
@@ -32382,8 +31441,7 @@ export const textbooks: Textbook[] = [
                 "split": "对 呀",
                 "en": "Right.",
                 "dict": {
-                  "对": "duì / couple; pair",
-                  "呀": "ya /"
+                  "对": "duì / couple; pair"
                 }
               },
               {
@@ -32393,22 +31451,16 @@ export const textbooks: Textbook[] = [
                 "en": "Whoever hears our comic dialogue will laugh and become younger. Twenty this year, ten next year.",
                 "dict": {
                   "谁": "shuí / who",
-                  "听": "tīng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "我们": "wǒmen / we; us",
                   "的": "de / (possessive/modifier particle)",
                   "相声": "xiàngshēng / crosstalk; comic dialogue",
                   "就": "jiù / will",
                   "会": "huì / can; will",
-                  "笑": "xiào /",
                   "起来": "qǐlai / used after a verb to indicate the completion of an action",
-                  "会变": "huìbiàn /",
-                  "年轻": "niánqīng /",
                   "今年": "jīnnián / this year",
                   "二十": "èrshí / twenty",
-                  "明年": "míngnián / next year",
-                  "十": "shí /",
-                  "岁": "suì /"
+                  "明年": "míngnián / next year"
                 }
               },
               {
@@ -32429,10 +31481,7 @@ export const textbooks: Textbook[] = [
                   "你": "nǐ / you",
                   "不是": "búshì / not is",
                   "说": "shuō / to say; to speak",
-                  "笑": "xiào /",
                   "一": "yi / one",
-                  "十": "shí /",
-                  "年": "nián /",
                   "少": "shǎo / young; younger",
                   "吗": "ma / (question particle)"
                 }
@@ -32448,9 +31497,7 @@ export const textbooks: Textbook[] = [
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "你": "nǐ / you",
                   "还是": "háishì / or",
-                  "说说": "shuōshuo /",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "喜欢": "xǐhuān / like; love",
                   "什么": "shénme / what",
                   "数字": "shùzì / number",
@@ -32466,7 +31513,6 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "告诉": "gàosù / to tell; to inform; to let know",
                   "你": "nǐ / you",
-                  "可别": "kěbié /",
                   "别人": "biérén / others; other people"
                 }
               },
@@ -32484,9 +31530,7 @@ export const textbooks: Textbook[] = [
                   "发现": "fāxiàn / to find; to discover",
                   "正": "zhèng / just; right",
                   "准备": "zhǔnbèi / prepare",
-                  "去": "qù / to go",
-                  "申请专利": "shēnqǐngzhuānlì /",
-                  "呢": "ne /"
+                  "去": "qù / to go"
                 }
               },
               {
@@ -32514,13 +31558,11 @@ export const textbooks: Textbook[] = [
                 "en": "The number Chinese people like most is “eight”.",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "最": "zuì / most",
                   "喜欢": "xǐhuān / like; love",
                   "的": "de / (possessive/modifier particle)",
                   "数字": "shùzì / number",
-                  "是": "shì / to be (am/is/are)",
-                  "八": "bā /"
+                  "是": "shì / to be (am/is/are)"
                 }
               },
               {
@@ -32529,7 +31571,6 @@ export const textbooks: Textbook[] = [
                 "split": "八 为什么 喜欢 八",
                 "en": "Eight? Why do they like “eight”?",
                 "dict": {
-                  "八": "bā /",
                   "为什么": "wèishénme / why",
                   "喜欢": "xǐhuān / like; love"
                 }
@@ -32541,7 +31582,6 @@ export const textbooks: Textbook[] = [
                 "en": "Chinese people consider this number the luckiest.",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "认为": "rènwéi / to think; to believe",
                   "这": "zhè / this",
                   "个": "gè / (measure word)",
@@ -32556,10 +31596,8 @@ export const textbooks: Textbook[] = [
                 "split": "八 怎么 吉利 呢",
                 "en": "How is “eight” lucky?",
                 "dict": {
-                  "八": "bā /",
                   "怎么": "zěnme / how; why",
-                  "吉利": "jílì / auspicious; propitious; lucky",
-                  "呢": "ne /"
+                  "吉利": "jílì / auspicious; propitious; lucky"
                 }
               },
               {
@@ -32569,14 +31607,10 @@ export const textbooks: Textbook[] = [
                 "en": "Listen! When I say “eight, eight, eight”... what sound do you hear?",
                 "dict": {
                   "你": "nǐ / you",
-                  "听": "tīng /",
                   "我": "wǒ / I; me",
                   "说": "shuō / to say; to speak",
-                  "八": "bā /",
                   "能": "néng / can; able to",
-                  "出": "chū /",
                   "什么": "shénme / what",
-                  "音来": "yīnlái /",
                   "吗": "ma / (question particle)"
                 }
               },
@@ -32585,10 +31619,7 @@ export const textbooks: Textbook[] = [
                 "cn": "“八、八、八”呀！",
                 "split": "八 八 八 呀",
                 "en": "“Eight, eight, eight”!",
-                "dict": {
-                  "八": "bā /",
-                  "呀": "ya /"
-                }
+                "dict": {}
               },
               {
                 "id": "hj2b-l25-t1-s30",
@@ -32600,10 +31631,8 @@ export const textbooks: Textbook[] = [
                   "真": "zhēn / really; truly",
                   "笨": "bèn / stupid; foolish",
                   "啊": "a / (interjection)",
-                  "连": "lián /",
                   "这": "zhè / this",
-                  "都": "dōu / all; both",
-                  "听不出来": "tīngbùchūlai /"
+                  "都": "dōu / all; both"
                 }
               },
               {
@@ -32612,7 +31641,6 @@ export const textbooks: Textbook[] = [
                 "split": "八 的 谐音 不是 发 吗",
                 "en": "Doesn't “eight” sound like “get rich”?",
                 "dict": {
-                  "八": "bā /",
                   "的": "de / (possessive/modifier particle)",
                   "谐音": "xiéyīn / to be homophonous",
                   "不是": "búshì / not is",
@@ -32626,11 +31654,9 @@ export const textbooks: Textbook[] = [
                 "split": "八 八 八 就 是 发 发 发 呀",
                 "en": "“Eight, eight, eight” sounds like “get rich, get rich, get rich”.",
                 "dict": {
-                  "八": "bā /",
                   "就": "jiù / will",
                   "是": "shì / to be (am/is/are)",
-                  "发": "fā / to get rich; to make a fortune",
-                  "呀": "ya /"
+                  "发": "fā / to get rich; to make a fortune"
                 }
               },
               {
@@ -32640,9 +31666,7 @@ export const textbooks: Textbook[] = [
                 "en": "How come I can't hear that?",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "怎么": "zěnme / how; why",
-                  "听不出来": "tīngbùchūlai /",
-                  "呢": "ne /"
+                  "怎么": "zěnme / how; why"
                 }
               },
               {
@@ -32655,8 +31679,7 @@ export const textbooks: Textbook[] = [
                   "的": "de / (possessive/modifier particle)",
                   "汉语": "hànyǔ / Chinese language",
                   "水平": "shuǐpíng / level",
-                  "太": "tài / too; excessively",
-                  "低": "dī /"
+                  "太": "tài / too; excessively"
                 }
               },
               {
@@ -32694,8 +31717,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "发": "fā / to get rich; to make a fortune",
                   "就": "jiù / will",
-                  "是": "shì / to be (am/is/are)",
-                  "发财": "fācái /"
+                  "是": "shì / to be (am/is/are)"
                 }
               },
               {
@@ -32705,10 +31727,7 @@ export const textbooks: Textbook[] = [
                 "en": "Who doesn't want to get rich these days?",
                 "dict": {
                   "现在": "xiànzài / now",
-                  "谁": "shuí / who",
-                  "不想": "bùxiǎng /",
-                  "发财": "fācái /",
-                  "呀": "ya /"
+                  "谁": "shuí / who"
                 }
               },
               {
@@ -32719,15 +31738,9 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "发": "fā / to get rich; to make a fortune",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
-                  "财": "cái /",
                   "就": "jiù / will",
                   "可以": "kěyǐ / can; may; OK",
-                  "买房子": "mǎifángzi /",
-                  "买": "mǎi /",
-                  "汽车": "qìchē /",
                   "巧克力": "qiǎokèlì / chocolate",
-                  "土豆": "tǔdòu /",
-                  "儿": "ér /",
                   "想": "xiǎng / want; think",
                   "什么": "shénme / what"
                 }
@@ -32740,8 +31753,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "胡说": "húshuō / to talk nonsense",
-                  "什么": "shénme / what",
-                  "呀": "ya /"
+                  "什么": "shénme / what"
                 }
               },
               {
@@ -32751,10 +31763,8 @@ export const textbooks: Textbook[] = [
                 "en": "As long as you have money, you can buy lots of good things.",
                 "dict": {
                   "只要": "zhǐyào / as long as... will...",
-                  "有钱": "yǒuqián /",
                   "就": "jiù / will",
                   "能": "néng / can; able to",
-                  "买": "mǎi /",
                   "好": "hǎo / good; well; OK",
                   "多": "duō / many; much",
                   "东西": "dōngxī / thing"
@@ -32767,7 +31777,6 @@ export const textbooks: Textbook[] = [
                 "en": "I just remembered.",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "想起来": "xiǎngqǐlai /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -32778,22 +31787,12 @@ export const textbooks: Textbook[] = [
                 "en": "I learned that Chinese people like the number “518” and the date May 18th, because “518” sounds like “I want to get rich.”",
                 "dict": {
                   "我": "wǒ / I; me",
-                  "学": "xué /",
-                  "过": "guo /",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "喜欢": "xǐhuān / like; love",
-                  "518": " /",
                   "这": "zhè / this",
                   "个": "gè / (measure word)",
-                  "数": "shù /",
                   "也": "yě / also; too",
-                  "五月": "wǔyuè /",
-                  "十": "shí /",
-                  "八": "bā /",
-                  "号": "hào /",
                   "一": "yì / one",
-                  "天": "tiān /",
                   "因为": "yīnwèi / because",
                   "的": "de / (possessive/modifier particle)",
                   "谐音": "xiéyīn / to be homophonous",
@@ -32828,12 +31827,9 @@ export const textbooks: Textbook[] = [
                   "还": "hái / still; also",
                   "知道": "zhīdào / know",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "也": "yě / also; too",
                   "喜欢": "xǐhuān / like; love",
-                  "六": "liù /",
-                  "和": "hé / and; with",
-                  "九": "jiǔ /"
+                  "和": "hé / and; with"
                 }
               },
               {
@@ -32852,14 +31848,12 @@ export const textbooks: Textbook[] = [
                 "en": "Because... Hey, aren't you a “China hand”? Why are you asking me again?",
                 "dict": {
                   "因为": "yīnwèi / because",
-                  "哎": "āi /",
                   "你": "nǐ / you",
                   "不是": "búshì / not is",
                   "中国通": "zhōngguótōng / China hand, person with expert knowledge of China",
                   "吗": "ma / (question particle)",
                   "怎么": "zěnme / how; why",
                   "又": "yòu / again",
-                  "问起": "wènqǐ /",
                   "我": "wǒ / I; me",
                   "来": "lái / to come",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
@@ -32875,7 +31869,6 @@ export const textbooks: Textbook[] = [
                   "问": "wèn / to ask",
                   "你": "nǐ / you",
                   "告诉": "gàosù / to tell; to inform; to let know",
-                  "懂": "dǒng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
                   "不": "bú / not",
                   "就": "jiù / will",
@@ -32889,11 +31882,8 @@ export const textbooks: Textbook[] = [
                 "split": "九 与 长久 的 久 谐音",
                 "en": "“Nine” sounds like the “nine” in “long-lasting.”",
                 "dict": {
-                  "九": "jiǔ /",
-                  "与": "yǔ /",
                   "长久": "chángjiǔ / permanent; long-lasting",
                   "的": "de / (possessive/modifier particle)",
-                  "久": "jiǔ /",
                   "谐音": "xiéyīn / to be homophonous"
                 }
               },
@@ -32910,7 +31900,6 @@ export const textbooks: Textbook[] = [
                   "长久": "chángjiǔ / permanent; long-lasting",
                   "爱情": "àiqíng / love (between lovers)",
                   "活": "huó / to live; to be alive",
-                  "得": "de /",
                   "啊": "a / (interjection)"
                 }
               },
@@ -32921,12 +31910,8 @@ export const textbooks: Textbook[] = [
                 "en": "Chinese people also often say “may everything go smoothly.”",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "还": "hái / still; also",
-                  "常": "cháng /",
-                  "说": "shuō / to say; to speak",
-                  "六六": "liùliu /",
-                  "大顺": "dàshùn /"
+                  "说": "shuō / to say; to speak"
                 }
               },
               {
@@ -32939,12 +31924,9 @@ export const textbooks: Textbook[] = [
                   "我": "wǒ / I; me",
                   "知道": "zhīdào / know",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "也": "yě / also; too",
                   "喜欢": "xǐhuān / like; love",
-                  "六": "liù /",
-                  "和": "hé / and; with",
-                  "九": "jiǔ /"
+                  "和": "hé / and; with"
                 }
               },
               {
@@ -32954,7 +31936,6 @@ export const textbooks: Textbook[] = [
                 "en": "You're not stupid!",
                 "dict": {
                   "你": "nǐ / you",
-                  "不笨": "búbèn /",
                   "啊": "a / (interjection)"
                 }
               },
@@ -32966,8 +31947,7 @@ export const textbooks: Textbook[] = [
                 "dict": {
                   "你": "nǐ / you",
                   "才": "cái / can",
-                  "笨": "bèn / stupid; foolish",
-                  "呢": "ne /"
+                  "笨": "bèn / stupid; foolish"
                 }
               }
             ]
@@ -32983,13 +31963,11 @@ export const textbooks: Textbook[] = [
                 "en": "Chinese people have lots of rules for banquets.",
                 "dict": {
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
                   "在": "zài / to be at; (at)",
                   "宴会": "yànhuì / banquet; dinner party",
                   "上": "shàng / to attend (a class)",
                   "的": "de / (possessive/modifier particle)",
                   "规矩": "guījǔ / rule; custom; established standard",
-                  "可多": "kěduō /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -33020,9 +31998,7 @@ export const textbooks: Textbook[] = [
                   "老师": "lǎoshī / teacher",
                   "领导": "lǐngdǎo / leader",
                   "和": "hé / and; with",
-                  "长辈": "zhǎngbèi / elder; senior",
-                  "坐上": "zuòshàng /",
-                  "座": "zuò /"
+                  "长辈": "zhǎngbèi / elder; senior"
                 }
               },
               {
@@ -33044,26 +32020,20 @@ export const textbooks: Textbook[] = [
                 "en": "When a dish is served, if it's fish, the fish head should face the seat of honor, so that the important guest takes the first bite.",
                 "dict": {
                   "上菜": "shàngcài / to serve dishes; to lay dishes on the table",
-                  "时": "shí /",
                   "如果": "rúguǒ / if; in case",
                   "是": "shì / to be (am/is/are)",
-                  "鱼": "yú /",
                   "的话": "dehuà / (used at the end of a conditional clause) if",
-                  "鱼头": "yútóu /",
                   "要": "yào / want; need; will",
                   "对": "duì / couple; pair",
                   "着": "zhe / indicating the continuation of an action or a state",
                   "上": "shàng / to attend (a class)",
-                  "座": "zuò /",
                   "让": "ràng / by",
                   "重要": "zhòngyào / important",
                   "的": "de / (possessive/modifier particle)",
                   "客人": "kèrén / guest",
                   "先": "xiān / first",
                   "吃": "chī / to eat",
-                  "第": "dì /",
-                  "一": "yī / one",
-                  "口": "kǒu /"
+                  "一": "yī / one"
                 }
               },
               {
@@ -33072,7 +32042,6 @@ export const textbooks: Textbook[] = [
                 "split": "喝酒 的 时候 大家 都 要 先 给 他 敬酒",
                 "en": "When drinking, everyone should first toast him.",
                 "dict": {
-                  "喝酒": "hējiǔ /",
                   "的": "de / (possessive/modifier particle)",
                   "时候": "shíhòu / time; moment",
                   "大家": "dàjiā / everyone",
@@ -33118,7 +32087,6 @@ export const textbooks: Textbook[] = [
                   "也": "yě / also; too",
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "我": "wǒ / I; me",
-                  "看成": "kànchéng /",
                   "重要": "zhòngyào / important",
                   "的": "de / (possessive/modifier particle)",
                   "客人": "kèrén / guest",
@@ -33140,12 +32108,8 @@ export const textbooks: Textbook[] = [
                 "split": "要是 你 到 中国 人 家里 去 做客 他们 就 会 准备 好 多 菜 让 你 怎么 也 吃不完",
                 "en": "If you visit a Chinese family, they'll prepare so many dishes that you can never finish them.",
                 "dict": {
-                  "要是": "yàoshì /",
                   "你": "nǐ / you",
-                  "到": "dào /",
                   "中国": "zhōngguó / Chinese",
-                  "人": "rén /",
-                  "家里": "jiālǐ /",
                   "去": "qù / to go",
                   "做客": "zuòkè / to be a guest",
                   "他们": "tāmen / they",
@@ -33154,11 +32118,9 @@ export const textbooks: Textbook[] = [
                   "准备": "zhǔnbèi / prepare",
                   "好": "hǎo / good; well; OK",
                   "多": "duō / many; much",
-                  "菜": "cài /",
                   "让": "ràng / by",
                   "怎么": "zěnme / how; why",
-                  "也": "yě / also; too",
-                  "吃不完": "chībùwán /"
+                  "也": "yě / also; too"
                 }
               },
               {
@@ -33178,9 +32140,7 @@ export const textbooks: Textbook[] = [
                   "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
                   "杯子": "bēizi / cup",
                   "里": "lǐ / inside",
-                  "酒": "jiǔ /",
                   "一": "yì / one",
-                  "口": "kǒu /",
                   "喝": "hē / to drink",
                   "光": "guāng / used up; empty"
                 }
@@ -33191,12 +32151,8 @@ export const textbooks: Textbook[] = [
                 "split": "要是 不 会 喝酒 怎么办 呢",
                 "en": "What if one can't drink alcohol?",
                 "dict": {
-                  "要是": "yàoshì /",
                   "不": "bú / not",
-                  "会": "huì / can; will",
-                  "喝酒": "hējiǔ /",
-                  "怎么办": "zěnmebàn /",
-                  "呢": "ne /"
+                  "会": "huì / can; will"
                 }
               },
               {
@@ -33220,9 +32176,7 @@ export const textbooks: Textbook[] = [
                   "会": "huì / can; will",
                   "说": "shuō / to say; to speak",
                   "感情": "gǎnqíng / feeling; emotion",
-                  "有": "yǒu / to have",
-                  "茶": "chá /",
-                  "当酒": "dāngjiǔ /"
+                  "有": "yǒu / to have"
                 }
               },
               {
@@ -33232,11 +32186,8 @@ export const textbooks: Textbook[] = [
                 "en": "You can just use tea instead.",
                 "dict": {
                   "你": "nǐ / you",
-                  "用": "yòng /",
-                  "茶": "chá /",
                   "代替": "dàitì / to replace; to substitute",
                   "就": "jiù / will",
-                  "行": "xíng /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               },
@@ -33249,7 +32200,6 @@ export const textbooks: Textbook[] = [
                   "你": "nǐ / you",
                   "怎么": "zěnme / how; why",
                   "知道": "zhīdào / know",
-                  "得": "de /",
                   "这么": "zhème / so",
                   "多": "duō / many; much",
                   "啊": "a / (interjection)"
@@ -33262,10 +32212,8 @@ export const textbooks: Textbook[] = [
                 "en": "I'm a “China hand”, so of course I know more than you do.",
                 "dict": {
                   "中国通": "zhōngguótōng / China hand, person with expert knowledge of China",
-                  "嘛": "ma /",
                   "当然": "dāngrán / of course",
                   "知道": "zhīdào / know",
-                  "得": "de /",
                   "比": "bǐ / to compare",
                   "你": "nǐ / you",
                   "多": "duō / many; much",
@@ -33278,9 +32226,7 @@ export const textbooks: Textbook[] = [
                 "split": "哈哈 又 吹起来 了",
                 "en": "Ha ha! There you go bragging again.",
                 "dict": {
-                  "哈哈": "hāha /",
                   "又": "yòu / again",
-                  "吹起来": "chuīqǐlai /",
                   "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
                 }
               }
