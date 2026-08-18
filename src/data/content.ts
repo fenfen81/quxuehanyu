@@ -25643,7 +25643,7653 @@ export const textbooks: Textbook[] = [
       ]
     }
   ]
-}]
+},
+  {
+    "id": "hanyu-jiaocheng-2b",
+    "categoryId": "comprehensive",
+    "title": "《汉语教程》第二册（下）",
+    "titleEn": "Chinese Course Vol.2B",
+    "level": "初级",
+    "lessons": [
+      {
+        "id": "lesson13",
+        "title": "第 13 课  我的眼镜儿摔坏了",
+        "titleEn": "Lesson 13",
+        "texts": [
+          {
+            "id": "hj2b-l13-t1",
+            "label": "（一）要洗的照片选好了吗",
+            "sentences": [
+              {
+                "id": "hj2b-l13-t1-s1",
+                "cn": "我们在长城照的照片选好了吗？下午去洗吧。",
+                "split": "我们 在 长 城 照 的 照片 选 好了吗 下午 去 洗 吧",
+                "en": "Have we selected the photos we took on the Great Wall? Let's go get them developed this afternoon.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "在": "zài / to be at; (at)",
+                  "长": "cháng / to look; to appear",
+                  "城": "chéng /",
+                  "照": "zhào / to take (a photo)",
+                  "的": "de / (possessive/modifier particle)",
+                  "照片": "zhàopiān / photo",
+                  "选": "xuǎn / to choose; to select; to pick out",
+                  "好了吗": "hǎolema /",
+                  "下午": "xiàwǔ / afternoon",
+                  "去": "qù / to go",
+                  "洗": "xǐ / to develop (film)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s2",
+                "cn": "还没选呢。咱们一起选吧。",
+                "split": "还 没选 呢 咱们 一起 选 吧",
+                "en": "Not yet. Let's select them together.",
+                "dict": {
+                  "还": "hái / still; also",
+                  "没选": "méixuǎn /",
+                  "呢": "ne /",
+                  "咱们": "zánmen / we (inclusive)",
+                  "一起": "yìqǐ / together",
+                  "选": "xuǎn / to choose; to select; to pick out",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s3",
+                "cn": "快放到电脑上看看，照得怎么样。",
+                "split": "快 放到 电脑 上 看看 照 得 怎么样",
+                "en": "Hurry and put them on the computer to see how they came out.",
+                "dict": {
+                  "快": "kuài / quick; hurry",
+                  "放到": "fàngdào /",
+                  "电脑": "diànnǎo / computer",
+                  "上": "shàng / to attend (a class)",
+                  "看看": "kànkan / to take a look",
+                  "照": "zhào / to take (a photo)",
+                  "得": "de /",
+                  "怎么样": "zěnmeyàng / how about"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s4",
+                "cn": "这些照得都非常好，张张都很漂亮。",
+                "split": "这些 照 得 都 非常 好 张张 都 很 漂亮",
+                "en": "These all came out very well. Every single one is beautiful.",
+                "dict": {
+                  "这些": "zhèxiē / these",
+                  "照": "zhào / to take (a photo)",
+                  "得": "de /",
+                  "都": "dōu / all; both",
+                  "非常": "fēicháng / very",
+                  "好": "hǎo / good; well; OK",
+                  "张张": "zhāngzhang /",
+                  "很": "hěn / very",
+                  "漂亮": "piàoliàng / pretty"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s5",
+                "cn": "这张没照好，人照小了。",
+                "split": "这 张 没照 好 人照 小 了",
+                "en": "This one didn't come out well. The people look too small.",
+                "dict": {
+                  "这": "zhè / this",
+                  "张": "zhāng / Zhang (surname)",
+                  "没照": "méizhào /",
+                  "好": "hǎo / good; well; OK",
+                  "人照": "rénzhào /",
+                  "小": "xiǎo /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s6",
+                "cn": "你再看看这张，眼睛都闭上了，像睡着了一样。",
+                "split": "你 再 看看 这 张 眼睛 都 闭上 了 像 睡 着 了 一样",
+                "en": "Look at this one again. Your eyes are closed, as if you were asleep.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "再": "zài / again (future)",
+                  "看看": "kànkan / to take a look",
+                  "这": "zhè / this",
+                  "张": "zhāng / Zhang (surname)",
+                  "眼睛": "yǎnjīng /",
+                  "都": "dōu / all; both",
+                  "闭上": "bìshàng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "像": "xiàng /",
+                  "睡": "shuì /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "一样": "yíyàng /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s7",
+                "cn": "这张怎么样？",
+                "split": "这 张 怎么样",
+                "en": "How about this one?",
+                "dict": {
+                  "这": "zhè / this",
+                  "张": "zhāng / Zhang (surname)",
+                  "怎么样": "zěnmeyàng / how about"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s8",
+                "cn": "不怎么样。",
+                "split": "不怎么样",
+                "en": "Not great.",
+                "dict": {
+                  "不怎么样": "bùzěnmeyàng /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s9",
+                "cn": "这张照得也不太好，照虚了，一点儿也不清楚。",
+                "split": "这 张照 得 也 不 太 好 照虚 了 一点儿 也 不 清楚",
+                "en": "This one isn't very good either. It's blurry, not clear at all.",
+                "dict": {
+                  "这": "zhè / this",
+                  "张照": "zhāngzhào /",
+                  "得": "de /",
+                  "也": "yě / also; too",
+                  "不": "bù / not",
+                  "太": "tài / too; excessively",
+                  "好": "hǎo / good; well; OK",
+                  "照虚": "zhàoxū /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一点儿": "yìdiǎnr / a little bit",
+                  "清楚": "qīngchǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s10",
+                "cn": "照得不好的都删了吧。",
+                "split": "照 得 不好 的 都 删 了 吧",
+                "en": "Let's delete all the bad ones.",
+                "dict": {
+                  "照": "zhào / to take (a photo)",
+                  "得": "de /",
+                  "不好": "bùhǎo / not good",
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dōu / all; both",
+                  "删": "shān / to delete",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s11",
+                "cn": "这两张照得最好，像油画一样。放大几张吧。",
+                "split": "这 两 张 照 得 最 好 像 油画 一样 放大 几 张 吧",
+                "en": "These two came out the best, just like oil paintings. Let's have a few enlarged.",
+                "dict": {
+                  "这": "zhè / this",
+                  "两": "liǎng /",
+                  "张": "zhāng / Zhang (surname)",
+                  "照": "zhào / to take (a photo)",
+                  "得": "de /",
+                  "最": "zuì / most",
+                  "好": "hǎo / good; well; OK",
+                  "像": "xiàng /",
+                  "油画": "yóuhuà / oil painting",
+                  "一样": "yíyàng /",
+                  "放大": "fàngdà / to magnify; to enlarge; to blow up",
+                  "几": "jǐ / how many; several",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s12",
+                "cn": "你看放成多大的？",
+                "split": "你 看放成 多 大 的",
+                "en": "What size should we have them enlarged to?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "看放成": "kànfàngchéng /",
+                  "多": "duō / many; much",
+                  "大": "dà /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t1-s13",
+                "cn": "放成十寸的就行了。",
+                "split": "放成 十 寸 的 就 行 了",
+                "en": "Ten inches will be fine.",
+                "dict": {
+                  "放成": "fàngchéng /",
+                  "十": "shí /",
+                  "寸": "cùn / a unit of length (=1/30 meter)",
+                  "的": "de / (possessive/modifier particle)",
+                  "就": "jiù / will",
+                  "行": "xíng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l13-t2",
+            "label": "（二）我的眼镜儿摔坏了",
+            "sentences": [
+              {
+                "id": "hj2b-l13-t2-s1",
+                "cn": "哎呀，差点儿迟到。",
+                "split": "哎呀 差点儿 迟到",
+                "en": "Oh dear, I almost arrived late.",
+                "dict": {
+                  "哎呀": "āiyā /",
+                  "差点儿": "chàdiǎnr /",
+                  "迟到": "chídào /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s2",
+                "cn": "是开车来的吗？",
+                "split": "是 开 车 来 的 吗",
+                "en": "Did you drive here?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "开": "kāi / to bloom",
+                  "车": "chē /",
+                  "来": "lái / to come",
+                  "的": "de / (possessive/modifier particle)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s3",
+                "cn": "是，一下雪就堵车，又碰上一起交通事故，我的车在路上整整堵了二十分钟。",
+                "split": "是 一 下 雪 就 堵车 又 碰上 一起 交通事故 我 的 车 在 路上 整整 堵 了 二十 分钟",
+                "en": "Yes. It snowed, so there was a traffic jam, and on top of that I ran into a traffic accident. My car was stuck on the road for a full twenty minutes.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "一": "yí / one",
+                  "下": "xià / used after a verb to indicate room or space",
+                  "雪": "xuě /",
+                  "就": "jiù / will",
+                  "堵车": "dǔchē /",
+                  "又": "yòu / again",
+                  "碰上": "pèngshàng /",
+                  "一起": "yìqǐ / together",
+                  "交通事故": "jiāotōngshìgù /",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "车": "chē /",
+                  "在": "zài / to be at; (at)",
+                  "路上": "lùshàng /",
+                  "整整": "zhěngzheng / full; whole",
+                  "堵": "dǔ /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "二十": "èrshí / twenty",
+                  "分钟": "fēnzhōng /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s4",
+                "cn": "你的眼镜儿怎么了？",
+                "split": "你 的 眼镜 儿 怎么 了",
+                "en": "What happened to your glasses?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "眼镜": "yǎnjìng /",
+                  "儿": "ér /",
+                  "怎么": "zěnme / how; why",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s5",
+                "cn": "别提了，今天倒霉得很。",
+                "split": "别提 了 今天 倒霉 得 很",
+                "en": "Don't even mention it. I've had terrible luck today.",
+                "dict": {
+                  "别提": "biétí /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "今天": "jīntiān / today",
+                  "倒霉": "dǎoméi / unlucky",
+                  "得": "de /",
+                  "很": "hěn / very"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s6",
+                "cn": "我刚出门就摔了一跤，眼镜儿也掉在地上摔坏了。",
+                "split": "我 刚 出门 就 摔了一跤 眼镜 儿 也 掉 在 地上 摔坏 了",
+                "en": "I slipped and fell as soon as I left the house, and my glasses fell to the ground and broke.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "刚": "gāng / just now",
+                  "出门": "chūmén / to go out; to leave home",
+                  "就": "jiù / will",
+                  "摔了一跤": "shuāileyìjiāo /",
+                  "眼镜": "yǎnjìng /",
+                  "儿": "ér /",
+                  "也": "yě / also; too",
+                  "掉": "diào / to drop; to fall",
+                  "在": "zài / to be at; (at)",
+                  "地上": "dìshàng / on the ground",
+                  "摔坏": "shuāihuài /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s7",
+                "cn": "你几点从家里出来的？",
+                "split": "你 几 点 从 家里 出来 的",
+                "en": "What time did you leave home?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "几": "jǐ / how many; several",
+                  "点": "diǎn / to light; to kindle",
+                  "从": "cóng / from",
+                  "家里": "jiālǐ /",
+                  "出来": "chūlai / come out",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s8",
+                "cn": "六点钟就从家里出来了，你看，快八点了才到。",
+                "split": "六 点 钟 就 从 家里 出来 了 你 看 快 八 点 了 才 到",
+                "en": "I left home at six, and as you can see, I only just got here at almost eight.",
+                "dict": {
+                  "六": "liù /",
+                  "点": "diǎn / to light; to kindle",
+                  "钟": "zhōng /",
+                  "就": "jiù / will",
+                  "从": "cóng / from",
+                  "家里": "jiālǐ /",
+                  "出来": "chūlai / come out",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "你": "nǐ / you",
+                  "看": "kàn / to look; to see; to visit",
+                  "快": "kuài / quick; hurry",
+                  "八": "bā /",
+                  "才": "cái / can",
+                  "到": "dào /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s9",
+                "cn": "所以，我还是愿意骑车上班，骑车能保证时间，还可以锻炼身体。",
+                "split": "所以 我 还是 愿意 骑车 上班 骑车 能 保证 时间 还 可以 锻炼身体",
+                "en": "That's why I still prefer riding my bike to work. Cycling is reliable and it also keeps me fit.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "我": "wǒ / I; me",
+                  "还是": "háishì / or",
+                  "愿意": "yuànyì / willing to",
+                  "骑车": "qíchē /",
+                  "上班": "shàngbān / to go to work",
+                  "能": "néng / can; able to",
+                  "保证": "bǎozhèng / to guarantee",
+                  "时间": "shíjiān / time",
+                  "还": "hái / still; also",
+                  "可以": "kěyǐ / can; may; OK",
+                  "锻炼身体": "duànliànshēntǐ /"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s10",
+                "cn": "可是，你别忘了，骑车的人太多，有的人又不遵守交通规则，也是造成交通拥挤的主要原因之一。",
+                "split": "可是 你 别忘 了 骑车 的 人太多 有 的 人 又 不 遵守 交通规则 也 是 造成 交通 拥挤 的 主要 原因 之一",
+                "en": "But don't forget, there are too many cyclists, and some people don't obey the traffic rules. That is also one of the main causes of traffic congestion.",
+                "dict": {
+                  "可是": "kěshì / but; however",
+                  "你": "nǐ / you",
+                  "别忘": "biéwàng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "骑车": "qíchē /",
+                  "的": "de / (possessive/modifier particle)",
+                  "人太多": "réntàiduō /",
+                  "有": "yǒu / to have",
+                  "人": "rén /",
+                  "又": "yòu / again",
+                  "不": "bù / not",
+                  "遵守": "zūnshǒu / to abide by",
+                  "交通规则": "jiāotōngguīzé /",
+                  "也": "yě / also; too",
+                  "是": "shì / to be (am/is/are)",
+                  "造成": "zàochéng / to cause; to bring about",
+                  "交通": "jiāotōng /",
+                  "拥挤": "yōngjǐ / to be crowded; crowded",
+                  "主要": "zhǔyào / main",
+                  "原因": "yuányīn / reason",
+                  "之一": "zhīyī / one of"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s11",
+                "cn": "今天的事故就是一辆自行车引起的。",
+                "split": "今天 的 事故 就 是 一 辆 自行车 引起 的",
+                "en": "Today's accident was caused by a bicycle.",
+                "dict": {
+                  "今天": "jīntiān / today",
+                  "的": "de / (possessive/modifier particle)",
+                  "事故": "shìgù / accident",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "一": "yí / one",
+                  "辆": "liàng /",
+                  "自行车": "zìxíngchē /",
+                  "引起": "yǐnqǐ / to cause; to lead to"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s12",
+                "cn": "有汽车的人也一年比一年多，城市交通是一个大问题。",
+                "split": "有 汽车 的 人 也 一 年 比 一 年 多 城市交通 是 一 个 大 问题",
+                "en": "More and more people own cars every year. City traffic is a big problem.",
+                "dict": {
+                  "有": "yǒu / to have",
+                  "汽车": "qìchē /",
+                  "的": "de / (possessive/modifier particle)",
+                  "人": "rén /",
+                  "也": "yě / also; too",
+                  "一": "yí / one",
+                  "年": "nián /",
+                  "比": "bǐ / to compare",
+                  "多": "duō / many; much",
+                  "城市交通": "chéngshìjiāotōng /",
+                  "是": "shì / to be (am/is/are)",
+                  "个": "gè / (measure word)",
+                  "大": "dà /",
+                  "问题": "wèntí / problem"
+                }
+              },
+              {
+                "id": "hj2b-l13-t2-s13",
+                "cn": "我看最好还是赶快发展地铁。",
+                "split": "我 看 最 好 还是 赶快 发展 地铁",
+                "en": "I think the best thing is to develop the subway as soon as possible.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "看": "kàn / to look; to see; to visit",
+                  "最": "zuì / most",
+                  "好": "hǎo / good; well; OK",
+                  "还是": "háishì / or",
+                  "赶快": "gǎnkuài / hurriedly; quickly",
+                  "发展": "fāzhǎn / to develop",
+                  "地铁": "dìtiě /"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson14",
+        "title": "第 14 课  钥匙忘拔下来了",
+        "titleEn": "Lesson 14",
+        "texts": [
+          {
+            "id": "hj2b-l14-t1",
+            "label": "（一）钥匙忘拔下来了",
+            "sentences": [
+              {
+                "id": "hj2b-l14-t1-s1",
+                "cn": "星期天，我和麦克一起骑车到图书城去买书。",
+                "split": "星期天 我 和 麦克 一起 骑车到 图书城 去 买 书",
+                "en": "On Sunday, Mike and I rode our bikes to the Book City to buy books.",
+                "dict": {
+                  "星期天": "xīngqītiān /",
+                  "我": "wǒ / I; me",
+                  "和": "hé / and; with",
+                  "麦克": "màikè / Mike (name)",
+                  "一起": "yìqǐ / together",
+                  "骑车到": "qíchēdào /",
+                  "图书城": "túshūchéng / book mall",
+                  "去": "qù / to go",
+                  "买": "mǎi /",
+                  "书": "shū /"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s2",
+                "cn": "图书城离我们学校比较远。",
+                "split": "图书城 离 我们 学校 比 较 远",
+                "en": "The Book City is quite far from our school.",
+                "dict": {
+                  "图书城": "túshūchéng / book mall",
+                  "离": "lí /",
+                  "我们": "wǒmen / we; us",
+                  "学校": "xuéxiào / school",
+                  "比": "bǐ / to compare",
+                  "较": "jiào / relatively",
+                  "远": "yuǎn /"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s3",
+                "cn": "那天刮风，我们骑了一个多小时才骑到。",
+                "split": "那 天 刮风 我们 骑 了 一 个 多 小时 才 骑 到",
+                "en": "It was windy that day, and it took us over an hour to get there by bike.",
+                "dict": {
+                  "那": "nà / that",
+                  "天": "tiān /",
+                  "刮风": "guāfēng /",
+                  "我们": "wǒmen / we; us",
+                  "骑": "qí /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "多": "duō / many; much",
+                  "小时": "xiǎoshí / hour",
+                  "才": "cái / can",
+                  "到": "dào /"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s4",
+                "cn": "图书城很大，里边有很多书店。",
+                "split": "图书城 很 大 里边 有 很 多 书店",
+                "en": "The Book City is huge, with many bookstores inside.",
+                "dict": {
+                  "图书城": "túshūchéng / book mall",
+                  "很": "hěn / very",
+                  "大": "dà /",
+                  "里边": "lǐbiān / inside",
+                  "有": "yǒu / to have",
+                  "多": "duō / many; much",
+                  "书店": "shūdiàn / bookstore"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s5",
+                "cn": "每个书店我们都想进去看看。",
+                "split": "每个 书店 我们 都 想进去 看看",
+                "en": "We wanted to go into every bookstore and have a look.",
+                "dict": {
+                  "每个": "měigè /",
+                  "书店": "shūdiàn / bookstore",
+                  "我们": "wǒmen / we; us",
+                  "都": "dōu / all; both",
+                  "想进去": "xiǎngjìnqu /",
+                  "看看": "kànkan / to take a look"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s6",
+                "cn": "我们从一个书店走出来，又走进另一个。",
+                "split": "我们 从 一 个 书店 走出来 又 走进 另 一 个",
+                "en": "We walked out of one bookstore and went into another.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "从": "cóng / from",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "书店": "shūdiàn / bookstore",
+                  "走出来": "zǒuchūlai /",
+                  "又": "yòu / again",
+                  "走进": "zǒujìn /",
+                  "另": "lìng / other; another"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s7",
+                "cn": "除了买书以外，我们还想买一些小礼品，带回去送朋友。",
+                "split": "除了 买 书 以外 我们 还 想 买 一些 小 礼品 带回去 送 朋友",
+                "en": "Besides books, we also wanted to buy some small gifts to take back and give to our friends.",
+                "dict": {
+                  "除了": "chúle /",
+                  "买": "mǎi /",
+                  "书": "shū /",
+                  "以外": "yǐwài /",
+                  "我们": "wǒmen / we; us",
+                  "还": "hái / still; also",
+                  "想": "xiǎng / want; think",
+                  "一些": "yìxiē / some; a few",
+                  "小": "xiǎo /",
+                  "礼品": "lǐpǐn / present; gift",
+                  "带回去": "dàihuíqu /",
+                  "送": "sòng /",
+                  "朋友": "péngyǒu / friend"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s8",
+                "cn": "于是我们又走进一家商场去。",
+                "split": "于是 我们 又 走进 一 家 商场 去",
+                "en": "So we went into a department store.",
+                "dict": {
+                  "于是": "yúshì / so; hence; thereupon",
+                  "我们": "wǒmen / we; us",
+                  "又": "yòu / again",
+                  "走进": "zǒujìn /",
+                  "一": "yì / one",
+                  "家": "jiā / home; family",
+                  "商场": "shāngchǎng / shopping mall",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s9",
+                "cn": "这家商场里边什么商品都有。",
+                "split": "这 家 商场 里边 什么 商品 都 有",
+                "en": "This store had all kinds of goods.",
+                "dict": {
+                  "这": "zhè / this",
+                  "家": "jiā / home; family",
+                  "商场": "shāngchǎng / shopping mall",
+                  "里边": "lǐbiān / inside",
+                  "什么": "shénme / what",
+                  "商品": "shāngpǐn / commodity; goods",
+                  "都": "dōu / all; both",
+                  "有": "yǒu / to have"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s10",
+                "cn": "我买了一些京剧脸谱的小饰物，还买了一些丝织品。",
+                "split": "我 买 了 一些 京剧 脸谱 的 小 饰物 还 买 了 一些 丝织品",
+                "en": "I bought some small ornaments with Peking Opera facial designs, and also some silk products.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "买": "mǎi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一些": "yìxiē / some; a few",
+                  "京剧": "jīngjù / Peking opera",
+                  "脸谱": "liǎnpǔ / facial makeup",
+                  "的": "de / (possessive/modifier particle)",
+                  "小": "xiǎo /",
+                  "饰物": "shìwù / articles for personal adornment; ornament",
+                  "还": "hái / still; also",
+                  "丝织品": "sīzhīpǐn / silk fabric"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s11",
+                "cn": "麦克买了很多漂亮的钥匙链儿，还买了不少小玩具，有小熊猫、小汽车什么的。",
+                "split": "麦克 买 了 很 多 漂亮 的 钥匙链 儿 还 买 了 不少 小 玩具 有 小熊猫 小汽车 什么 的",
+                "en": "Mike bought many beautiful key chains and quite a few little toys, such as toy pandas and toy cars.",
+                "dict": {
+                  "麦克": "màikè / Mike (name)",
+                  "买": "mǎi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "很": "hěn / very",
+                  "多": "duō / many; much",
+                  "漂亮": "piàoliàng / pretty",
+                  "的": "de / (possessive/modifier particle)",
+                  "钥匙链": "yàoshiliàn /",
+                  "儿": "ér /",
+                  "还": "hái / still; also",
+                  "不少": "bùshǎo / quite a few",
+                  "小": "xiǎo /",
+                  "玩具": "wánjù / toy",
+                  "有": "yǒu / to have",
+                  "小熊猫": "xiǎoxióngmāo /",
+                  "小汽车": "xiǎoqìchē /",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s12",
+                "cn": "他说，这些玩具带回去送给小朋友们，他们肯定喜欢。",
+                "split": "他 说 这些 玩具 带回去 送给 小朋友 们 他们 肯定 喜欢",
+                "en": "He said the kids would surely love these toys when he took them home.",
+                "dict": {
+                  "他": "tā / he; him",
+                  "说": "shuō / to say; to speak",
+                  "这些": "zhèxiē / these",
+                  "玩具": "wánjù / toy",
+                  "带回去": "dàihuíqu /",
+                  "送给": "sònggěi /",
+                  "小朋友": "xiǎopéngyǒu /",
+                  "们": "men /",
+                  "他们": "tāmen / they",
+                  "肯定": "kěndìng / definitely",
+                  "喜欢": "xǐhuān / like; love"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s13",
+                "cn": "售货员看我们买的东西多，不好拿，就给我们一人找了一个小纸箱。",
+                "split": "售货员 看 我们 买 的 东西 多 不好 拿 就 给 我们 一 人 找 了 一 个 小 纸箱",
+                "en": "Seeing that we had bought a lot and it was hard to carry, the shop assistant found a small cardboard box for each of us.",
+                "dict": {
+                  "售货员": "shòuhuòyuán / shop assistant",
+                  "看": "kàn / to look; to see; to visit",
+                  "我们": "wǒmen / we; us",
+                  "买": "mǎi /",
+                  "的": "de / (possessive/modifier particle)",
+                  "东西": "dōngxī / thing",
+                  "多": "duō / many; much",
+                  "不好": "bùhǎo / not good",
+                  "拿": "ná /",
+                  "就": "jiù / will",
+                  "给": "gěi / give; for",
+                  "一": "yí / one",
+                  "人": "rén /",
+                  "找": "zhǎo / to look for",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "个": "gè / (measure word)",
+                  "小": "xiǎo /",
+                  "纸箱": "zhǐxiāng / carton"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s14",
+                "cn": "我们买的书和礼品正好都能放进去。",
+                "split": "我们 买 的 书 和 礼品 正好 都 能 放进去",
+                "en": "All our books and gifts fit into the boxes perfectly.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "买": "mǎi /",
+                  "的": "de / (possessive/modifier particle)",
+                  "书": "shū /",
+                  "和": "hé / and; with",
+                  "礼品": "lǐpǐn / present; gift",
+                  "正好": "zhènghǎo / happens to be",
+                  "都": "dōu / all; both",
+                  "能": "néng / can; able to",
+                  "放进去": "fàngjìnqu /"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s15",
+                "cn": "从商场出来，已经十二点多了。",
+                "split": "从 商场 出来 已经 十 二 点 多 了",
+                "en": "It was already past twelve when we came out of the store.",
+                "dict": {
+                  "从": "cóng / from",
+                  "商场": "shāngchǎng / shopping mall",
+                  "出来": "chūlai / come out",
+                  "已经": "yǐjīng / already",
+                  "十": "shí /",
+                  "二": "èr / two",
+                  "点": "diǎn / to light; to kindle",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s16",
+                "cn": "我和麦克走进一个小饭馆儿去吃午饭。",
+                "split": "我 和 麦克 走进 一 个 小 饭馆儿 去 吃 午饭",
+                "en": "Mike and I went into a small restaurant for lunch.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "和": "hé / and; with",
+                  "麦克": "màikè / Mike (name)",
+                  "走进": "zǒujìn /",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "小": "xiǎo /",
+                  "饭馆儿": "fànguǎnr /",
+                  "去": "qù / to go",
+                  "吃": "chī / to eat",
+                  "午饭": "wǔfàn / lunch"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s17",
+                "cn": "我们要了一盘饺子和几个菜，吃得很舒服。",
+                "split": "我们 要 了 一 盘 饺子 和 几 个 菜 吃 得 很 舒服",
+                "en": "We ordered a plate of dumplings and a few dishes, and ate very well.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "要": "yào / want; need; will",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "盘": "pán / plate; dish",
+                  "饺子": "jiǎozi / dumpling",
+                  "和": "hé / and; with",
+                  "几": "jǐ / how many; several",
+                  "个": "gè / (measure word)",
+                  "菜": "cài /",
+                  "吃": "chī / to eat",
+                  "得": "de /",
+                  "很": "hěn / very",
+                  "舒服": "shūfú / comfortable, well"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s18",
+                "cn": "吃完饭，我们就骑车回来了。",
+                "split": "吃完饭 我们 就 骑车 回来 了",
+                "en": "After the meal, we rode our bikes back.",
+                "dict": {
+                  "吃完饭": "chīwánfàn /",
+                  "我们": "wǒmen / we; us",
+                  "就": "jiù / will",
+                  "骑车": "qíchē /",
+                  "回来": "huílai / come back",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s19",
+                "cn": "回到学校，我又累又困，想赶快回到宿舍去洗个澡，休息休息。",
+                "split": "回到 学校 我 又 累 又 困 想 赶快 回到 宿舍 去 洗个 澡 休息 休息",
+                "en": "Back at school, I was tired and sleepy and wanted to hurry to the dormitory for a shower and a rest.",
+                "dict": {
+                  "回到": "huídào /",
+                  "学校": "xuéxiào / school",
+                  "我": "wǒ / I; me",
+                  "又": "yòu / again",
+                  "累": "lèi / tired",
+                  "困": "kùn / sleepy",
+                  "想": "xiǎng / want; think",
+                  "赶快": "gǎnkuài / hurriedly; quickly",
+                  "宿舍": "sùshè / dormitory; dorm room",
+                  "去": "qù / to go",
+                  "洗个": "xǐgè /",
+                  "澡": "zǎo /",
+                  "休息": "xiūxī / to rest"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s20",
+                "cn": "我从车上拿下小纸箱。",
+                "split": "我 从 车上 拿下 小 纸箱",
+                "en": "I took the cardboard box off my bike.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "从": "cóng / from",
+                  "车上": "chēshàng /",
+                  "拿下": "náxià /",
+                  "小": "xiǎo /",
+                  "纸箱": "zhǐxiāng / carton"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s21",
+                "cn": "走进楼来，看见电梯门口贴了张通知：“电梯维修，请走楼梯。”",
+                "split": "走进 楼来 看见 电梯 门口 贴 了 张 通知 电梯 维修 请 走 楼梯",
+                "en": "As I walked into the building, I saw a notice by the elevator: “Elevator under repair. Please use the stairs.”",
+                "dict": {
+                  "走进": "zǒujìn /",
+                  "楼来": "lóulái /",
+                  "看见": "kànjiàn / see; spot",
+                  "电梯": "diàntī / lift; elevator",
+                  "门口": "ménkǒu /",
+                  "贴": "tiē /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "张": "zhāng / Zhang (surname)",
+                  "通知": "tōngzhī /",
+                  "维修": "wéixiū / to maintain and repair",
+                  "请": "qǐng / please; invite",
+                  "走": "zǒu /",
+                  "楼梯": "lóutī / stairs; stairway"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s22",
+                "cn": "我住十层，没办法，只好爬楼梯了。",
+                "split": "我 住 十 层 没 办法 只好 爬楼梯 了",
+                "en": "I live on the tenth floor, so there was nothing I could do but climb the stairs.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "住": "zhù /",
+                  "十": "shí /",
+                  "层": "céng /",
+                  "没": "méi / not (past)",
+                  "办法": "bànfǎ /",
+                  "只好": "zhǐhǎo / have to; cannot but",
+                  "爬楼梯": "pálóutī /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l14-t1-s23",
+                "cn": "我刚要跑下楼去，就看见麦克也爬上来了，他手里拿的正是我的那串儿钥匙。",
+                "split": "我 刚 要 跑 下楼去 就 看见 麦克 也 爬上来 了 他 手里 拿 的 正是 我 的 那 串儿 钥匙",
+                "en": "I was just about to run downstairs when I saw Mike climbing up, holding my keys in his hand.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "刚": "gāng / just now",
+                  "要": "yào / want; need; will",
+                  "跑": "pǎo /",
+                  "下楼去": "xiàlóuqù /",
+                  "就": "jiù / will",
+                  "看见": "kànjiàn / see; spot",
+                  "麦克": "màikè / Mike (name)",
+                  "也": "yě / also; too",
+                  "爬上来": "páshànglai /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "他": "tā / he; him",
+                  "手里": "shǒulǐ /",
+                  "拿": "ná /",
+                  "的": "de / (possessive/modifier particle)",
+                  "正是": "zhèngshì /",
+                  "那": "nà / that",
+                  "串儿": "chuànr /",
+                  "钥匙": "yàoshi / key"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson15",
+        "title": "第 15 课  会议厅的门开着呢",
+        "titleEn": "Lesson 15",
+        "texts": [
+          {
+            "id": "hj2b-l15-t1",
+            "label": "（一）会议厅的门开着呢",
+            "sentences": [
+              {
+                "id": "hj2b-l15-t1-s1",
+                "cn": "请问，刚才进去一位女士，你看见没有？",
+                "split": "请问 刚才 进去 一 位 女士 你 看见 没有",
+                "en": "Excuse me, did you see a lady go in just now?",
+                "dict": {
+                  "请问": "qǐngwèn / excuse me, may I ask",
+                  "刚才": "gāngcái / just now",
+                  "进去": "jìnqu / to enter",
+                  "一": "yī / one",
+                  "位": "wèi /",
+                  "女士": "nǚshì / lady; madam",
+                  "你": "nǐ / you",
+                  "看见": "kànjiàn / see; spot",
+                  "没有": "méiyǒu / not have; haven't"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s2",
+                "cn": "什么女士？长得什么样？",
+                "split": "什么 女士 长 得 什么样",
+                "en": "What lady? What did she look like?",
+                "dict": {
+                  "什么": "shénme / what",
+                  "女士": "nǚshì / lady; madam",
+                  "长": "zhǎng / to look; to appear",
+                  "得": "de /",
+                  "什么样": "shénmeyàng /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s3",
+                "cn": "她个子高高的，大概有一米七左右，黄头发，大眼睛。",
+                "split": "她 个子 高高 的 大概 有 一 米 七 左右 黄头发 大 眼睛",
+                "en": "She's tall, about 1.7 meters, with blonde hair and big eyes.",
+                "dict": {
+                  "她": "tā / she; her",
+                  "个子": "gèzi / height; stature",
+                  "高高": "gāogāo /",
+                  "的": "de / (possessive/modifier particle)",
+                  "大概": "dàgài / roughly, about",
+                  "有": "yǒu / to have",
+                  "一": "yì / one",
+                  "米": "mǐ /",
+                  "七": "qī /",
+                  "左右": "zuǒyòu / (used after a numeral to indicate an approximate number) about; or so",
+                  "黄头发": "huángtóufà /",
+                  "大": "dà /",
+                  "眼睛": "yǎnjīng /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s4",
+                "cn": "是干什么的？",
+                "split": "是 干什么 的",
+                "en": "What does she do?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "干什么": "gànshénme /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s5",
+                "cn": "是电视台的主持人。",
+                "split": "是 电视台 的 主持人",
+                "en": "She's a TV host.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "电视台": "diànshìtái / TV station",
+                  "的": "de / (possessive/modifier particle)",
+                  "主持人": "zhǔchírén / presenter; anchorperson"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s6",
+                "cn": "后边是不是还跟着两个小伙子，扛着摄像机？",
+                "split": "后边 是 不是 还 跟 着 两 个 小伙子 扛 着 摄像机",
+                "en": "Were two young men with a video camera following behind her?",
+                "dict": {
+                  "后边": "hòubiān /",
+                  "是": "shì / to be (am/is/are)",
+                  "不是": "búshì / not is",
+                  "还": "hái / still; also",
+                  "跟": "gēn / with",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "两": "liǎng /",
+                  "个": "gè / (measure word)",
+                  "小伙子": "xiǎohuǒzi / young man; lad",
+                  "扛": "káng / to carry (on one's shoulder); to shoulder",
+                  "摄像机": "shèxiàngjī / video camera"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s7",
+                "cn": "对。",
+                "split": "对",
+                "en": "Yes.",
+                "dict": {
+                  "对": "duì / couple; pair"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s8",
+                "cn": "会议厅的门开着呢，你们进去找吧。",
+                "split": "会议厅 的 门开 着 呢 你们 进去 找 吧",
+                "en": "The door of the conference hall is open. Go in and look for her.",
+                "dict": {
+                  "会议厅": "huìyìtīng / conference hall; assembly hall",
+                  "的": "de / (possessive/modifier particle)",
+                  "门开": "ménkāi /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "呢": "ne /",
+                  "你们": "nǐmen / you (plural)",
+                  "进去": "jìnqu / to enter",
+                  "找": "zhǎo / to look for",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s9",
+                "cn": "里边正开着会呢吗？",
+                "split": "里边 正开 着 会 呢 吗",
+                "en": "Is a meeting going on inside?",
+                "dict": {
+                  "里边": "lǐbiān / inside",
+                  "正开": "zhèngkāi /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "会": "huì / can; will",
+                  "呢": "ne /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s10",
+                "cn": "没有。",
+                "split": "没有",
+                "en": "No.",
+                "dict": {
+                  "没有": "méiyǒu / not have; haven't"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s11",
+                "cn": "你们看，是不是手里拿着麦克风，对着摄像机讲话的那位？",
+                "split": "你们 看 是 不是 手里 拿 着 麦克 风 对 着 摄像机 讲话 的 那 位",
+                "en": "Look, is that the one holding a microphone and speaking to the camera?",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "看": "kàn / to look; to see; to visit",
+                  "是": "shì / to be (am/is/are)",
+                  "不是": "búshì / not is",
+                  "手里": "shǒulǐ /",
+                  "拿": "ná /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "麦克": "màikè / Mike (name)",
+                  "风": "fēng /",
+                  "对": "duì / couple; pair",
+                  "摄像机": "shèxiàngjī / video camera",
+                  "讲话": "jiǎnghuà / to speak; to talk",
+                  "的": "de / (possessive/modifier particle)",
+                  "那": "nà / that",
+                  "位": "wèi /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s12",
+                "cn": "对，就是她。他们正等着我们呢。",
+                "split": "对 就 是 她 他们 正 等 着 我们 呢",
+                "en": "Yes, that's her. They are waiting for us.",
+                "dict": {
+                  "对": "duì / couple; pair",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "她": "tā / she; her",
+                  "他们": "tāmen / they",
+                  "正": "zhèng / just; right",
+                  "等": "děng /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "我们": "wǒmen / we; us",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s13",
+                "cn": "你们进去吧。",
+                "split": "你们 进去 吧",
+                "en": "Go on in.",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "进去": "jìnqu / to enter",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s14",
+                "cn": "谢谢啦！",
+                "split": "谢谢 啦",
+                "en": "Thank you!",
+                "dict": {
+                  "谢谢": "xièxie / thank you",
+                  "啦": "la /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t1-s15",
+                "cn": "不客气。",
+                "split": "不 客气",
+                "en": "You're welcome.",
+                "dict": {
+                  "不": "bú / not",
+                  "客气": "kèqì / polite"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l15-t2",
+            "label": "（二）墙上贴着红双喜字",
+            "sentences": [
+              {
+                "id": "hj2b-l15-t2-s1",
+                "cn": "你昨天去哪儿了？",
+                "split": "你 昨天 去 哪儿 了",
+                "en": "Where did you go yesterday?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "昨天": "zuótiān / yesterday",
+                  "去": "qù / to go",
+                  "哪儿": "nǎr / where",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s2",
+                "cn": "张东带我去参加了一个中国人的婚礼。",
+                "split": "张 东 带我去 参加 了 一 个 中国 人 的 婚礼",
+                "en": "Zhang Dong took me to a Chinese wedding.",
+                "dict": {
+                  "张": "zhāng / Zhang (surname)",
+                  "东": "dōng / east",
+                  "带我去": "dàiwǒqù /",
+                  "参加": "cānjiā / to participate",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "的": "de / (possessive/modifier particle)",
+                  "婚礼": "hūnlǐ / wedding"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s3",
+                "cn": "怎么样？听说中国人的婚礼很热闹。",
+                "split": "怎么样 听说 中国 人 的 婚礼 很 热闹",
+                "en": "How was it? I hear Chinese weddings are very lively.",
+                "dict": {
+                  "怎么样": "zěnmeyàng / how about",
+                  "听说": "tīngshuō / I heard that",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "的": "de / (possessive/modifier particle)",
+                  "婚礼": "hūnlǐ / wedding",
+                  "很": "hěn / very",
+                  "热闹": "rènào / lively; bustling"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s4",
+                "cn": "是！我是第一次参加这样的婚礼。",
+                "split": "是 我 是 第 一 次 参加 这样 的 婚礼",
+                "en": "Yes! It was my first time at a wedding like this.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "我": "wǒ / I; me",
+                  "第": "dì /",
+                  "一": "yī / one",
+                  "次": "cì /",
+                  "参加": "cānjiā / to participate",
+                  "这样": "zhèyàng /",
+                  "的": "de / (possessive/modifier particle)",
+                  "婚礼": "hūnlǐ / wedding"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s5",
+                "cn": "屋子里挂着大红灯笼，墙上贴着一个很大的红双喜字。",
+                "split": "屋子里 挂 着 大 红灯笼 墙上 贴 着 一 个 很 大 的 红双喜 字",
+                "en": "The room was decorated with big red lanterns, and a large red double-happiness character was pasted on the wall.",
+                "dict": {
+                  "屋子里": "wūzilǐ /",
+                  "挂": "guà / to hang",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "大": "dà /",
+                  "红灯笼": "hóngdēnglóng /",
+                  "墙上": "qiángshàng /",
+                  "贴": "tiē /",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "很": "hěn / very",
+                  "的": "de / (possessive/modifier particle)",
+                  "红双喜": "hóngshuāngxǐ /",
+                  "字": "zì / word; character"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s6",
+                "cn": "桌子上摆着很多酒和菜。",
+                "split": "桌子 上 摆 着 很 多 酒 和 菜",
+                "en": "The table was laid with lots of wine and dishes.",
+                "dict": {
+                  "桌子": "zhuōzi / table; desk",
+                  "上": "shàng / to attend (a class)",
+                  "摆": "bǎi / to put; to place",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "很": "hěn / very",
+                  "多": "duō / many; much",
+                  "酒": "jiǔ /",
+                  "和": "hé / and; with",
+                  "菜": "cài /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s7",
+                "cn": "新娘长得很漂亮，穿着一件红棉袄。",
+                "split": "新娘 长 得 很 漂亮 穿 着 一 件 红 棉袄",
+                "en": "The bride was very pretty, wearing a red padded jacket.",
+                "dict": {
+                  "新娘": "xīnniáng / bride",
+                  "长": "zhǎng / to look; to appear",
+                  "得": "de /",
+                  "很": "hěn / very",
+                  "漂亮": "piàoliàng / pretty",
+                  "穿": "chuān / to wear (clothes)",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "一": "yí / one",
+                  "件": "jiàn /",
+                  "红": "hóng /",
+                  "棉袄": "miánǎo / cotton-padded jacket"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s8",
+                "cn": "他们笑着对我们说：“欢迎！欢迎！”",
+                "split": "他们 笑 着 对 我们 说 欢迎 欢迎",
+                "en": "They smiled and said to us, “Welcome! Welcome!”",
+                "dict": {
+                  "他们": "tāmen / they",
+                  "笑": "xiào /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "对": "duì / couple; pair",
+                  "我们": "wǒmen / we; us",
+                  "说": "shuō / to say; to speak",
+                  "欢迎": "huānyíng / welcome"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s9",
+                "cn": "新娘热情地请客人吃糖，新郎忙着给客人倒喜酒。",
+                "split": "新娘 热情 地 请 客人 吃糖 新郎 忙 着 给 客人 倒 喜酒",
+                "en": "The bride warmly invited the guests to have candy, while the groom was busy pouring wine for the guests.",
+                "dict": {
+                  "新娘": "xīnniáng / bride",
+                  "热情": "rèqíng / warm-hearted; enthusiastic",
+                  "地": "de /",
+                  "请": "qǐng / please; invite",
+                  "客人": "kèrén / guest",
+                  "吃糖": "chītáng /",
+                  "新郎": "xīnláng / bridegroom",
+                  "忙": "máng /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "给": "gěi / give; for",
+                  "倒": "dào / to fall; to topple; to tumble down",
+                  "喜酒": "xǐjiǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s10",
+                "cn": "孩子们不停地说着、笑着，热热闹闹的，气氛非常好。",
+                "split": "孩子 们 不停 地 说 着 笑 着 热 热 闹 闹 的 气氛 非常 好",
+                "en": "The children kept talking and laughing, making it very lively, and the atmosphere was wonderful.",
+                "dict": {
+                  "孩子": "háizi /",
+                  "们": "men /",
+                  "不停": "bùtíng /",
+                  "地": "de /",
+                  "说": "shuō / to say; to speak",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "笑": "xiào /",
+                  "热": "rè /",
+                  "闹": "nào /",
+                  "的": "de / (possessive/modifier particle)",
+                  "气氛": "qìfēn / atmosphere; ambience",
+                  "非常": "fēicháng / very",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s11",
+                "cn": "“喜酒”是什么酒？",
+                "split": "喜酒 是 什么 酒",
+                "en": "What is “wedding wine”?",
+                "dict": {
+                  "喜酒": "xǐjiǔ /",
+                  "是": "shì / to be (am/is/are)",
+                  "什么": "shénme / what",
+                  "酒": "jiǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s12",
+                "cn": "结婚时喝的酒中国人叫喜酒，吃的糖叫喜糖。",
+                "split": "结婚 时 喝 的 酒 中国 人 叫 喜酒 吃 的 糖 叫 喜糖",
+                "en": "Chinese people call the wine drunk at weddings “wedding wine”, and the candy “wedding candy”.",
+                "dict": {
+                  "结婚": "jiéhūn /",
+                  "时": "shí /",
+                  "喝": "hē / to drink",
+                  "的": "de / (possessive/modifier particle)",
+                  "酒": "jiǔ /",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "叫": "jiào / by",
+                  "喜酒": "xǐjiǔ /",
+                  "吃": "chī / to eat",
+                  "糖": "táng /",
+                  "喜糖": "xǐtáng /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s13",
+                "cn": "所以，中国人要问“什么时候吃你的喜糖啊”，就是问你什么时候结婚。",
+                "split": "所以 中国 人要 问 什么 时候 吃 你 的 喜糖 啊 就 是 问 你 什么 时候 结婚",
+                "en": "So when Chinese people ask “When will we get to eat your wedding candy?”, they are asking when you're getting married.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "中国": "zhōngguó / Chinese",
+                  "人要": "rényào /",
+                  "问": "wèn / to ask",
+                  "什么": "shénme / what",
+                  "时候": "shíhòu / time; moment",
+                  "吃": "chī / to eat",
+                  "你": "nǐ / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "喜糖": "xǐtáng /",
+                  "啊": "a / (interjection)",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "结婚": "jiéhūn /"
+                }
+              },
+              {
+                "id": "hj2b-l15-t2-s14",
+                "cn": "是吗？",
+                "split": "是 吗",
+                "en": "Really?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "吗": "ma / (question particle)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson16",
+        "title": "第 16 课  前边开过来一辆空车",
+        "titleEn": "Lesson 16",
+        "texts": [
+          {
+            "id": "hj2b-l16-t1",
+            "label": "（一）前边开过来一辆空车",
+            "sentences": [
+              {
+                "id": "hj2b-l16-t1-s1",
+                "cn": "等车的人越来越多了，咱们还是打的去吧，别坐公共汽车了。",
+                "split": "等 车 的 人 越 来越 多 了 咱们 还是 打 的 去 吧 别 坐 公共汽车 了",
+                "en": "More and more people are waiting for the bus. Let's just take a taxi instead of the bus.",
+                "dict": {
+                  "等": "děng /",
+                  "车": "chē /",
+                  "的": "de / (possessive/modifier particle)",
+                  "人": "rén /",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "咱们": "zánmen / we (inclusive)",
+                  "还是": "háishì / or",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "去": "qù / to go",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "别": "bié / don't",
+                  "坐": "zuò /",
+                  "公共汽车": "gōnggòngqìchē /"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s2",
+                "cn": "好吧，你看，那边正好开过来一辆空车，就坐这辆吧。",
+                "split": "好 吧 你 看 那 边 正好 开过来 一 辆 空车 就 坐 这 辆 吧",
+                "en": "Okay. Look, an empty taxi just happens to be coming over there. Let's take this one.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "你": "nǐ / you",
+                  "看": "kàn / to look; to see; to visit",
+                  "那": "nà / that",
+                  "边": "biān /",
+                  "正好": "zhènghǎo / happens to be",
+                  "开过来": "kāiguòlai /",
+                  "一": "yí / one",
+                  "辆": "liàng /",
+                  "空车": "kōngchē /",
+                  "就": "jiù / will",
+                  "坐": "zuò /",
+                  "这": "zhè / this"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s3",
+                "cn": "你家住的是四合院儿吗？",
+                "split": "你 家住 的 是 四合院儿 吗",
+                "en": "Do you live in a courtyard house?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "家住": "jiāzhù /",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "四合院儿": "sìhéyuànr /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s4",
+                "cn": "是啊。",
+                "split": "是 啊",
+                "en": "Yes.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s5",
+                "cn": "我家院子里种着一棵大枣树，树上结着很多红枣，远远儿地就能看见。",
+                "split": "我 家 院子 里种 着 一 棵 大 枣树 树上 结 着 很 多 红枣 远远 儿 地 就 能 看见",
+                "en": "There's a big jujube tree in our courtyard, full of red dates. You can see it from far away.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "家": "jiā / home; family",
+                  "院子": "yuànzi / yard; courtyard",
+                  "里种": "lǐzhǒng /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "一": "yì / one",
+                  "棵": "kē / a measure word for plants, etc.",
+                  "大": "dà /",
+                  "枣树": "zǎoshù /",
+                  "树上": "shùshàng /",
+                  "结": "jié / to bear (fruit)",
+                  "很": "hěn / very",
+                  "多": "duō / many; much",
+                  "红枣": "hóngzǎo /",
+                  "远远": "yuǎnyuǎn /",
+                  "儿": "ér /",
+                  "地": "de /",
+                  "就": "jiù / will",
+                  "能": "néng / can; able to",
+                  "看见": "kànjiàn / see; spot"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s6",
+                "cn": "一看见那棵大枣树就看到我家了。",
+                "split": "一 看见 那 棵 大 枣树 就 看到 我 家 了",
+                "en": "As soon as you see that jujube tree, you'll have found my home.",
+                "dict": {
+                  "一": "yí / one",
+                  "看见": "kànjiàn / see; spot",
+                  "那": "nà / that",
+                  "棵": "kē / a measure word for plants, etc.",
+                  "大": "dà /",
+                  "枣树": "zǎoshù /",
+                  "就": "jiù / will",
+                  "看到": "kàndào /",
+                  "我": "wǒ / I; me",
+                  "家": "jiā / home; family",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s7",
+                "cn": "今天请你们尝尝我家的红枣，可甜了。",
+                "split": "今天 请 你们 尝尝 我 家 的 红枣 可甜 了",
+                "en": "Today I'll have you taste our red dates. They are really sweet.",
+                "dict": {
+                  "今天": "jīntiān / today",
+                  "请": "qǐng / please; invite",
+                  "你们": "nǐmen / you (plural)",
+                  "尝尝": "chángchang /",
+                  "我": "wǒ / I; me",
+                  "家": "jiā / home; family",
+                  "的": "de / (possessive/modifier particle)",
+                  "红枣": "hóngzǎo /",
+                  "可甜": "kětián /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s8",
+                "cn": "我听说现在住四合院儿的越来越少了。",
+                "split": "我 听说 现在 住 四合院儿 的 越 来越少 了",
+                "en": "I've heard that fewer and fewer people live in courtyard houses nowadays.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "听说": "tīngshuō / I heard that",
+                  "现在": "xiànzài / now",
+                  "住": "zhù /",
+                  "四合院儿": "sìhéyuànr /",
+                  "的": "de / (possessive/modifier particle)",
+                  "越": "yuè /",
+                  "来越少": "láiyuèshǎo /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s9",
+                "cn": "是。现在城市里大楼越盖越多，住宅小区也越建越大。",
+                "split": "是 现在 城市 里 大楼 越 盖 越 多 住宅小区 也 越 建越 大",
+                "en": "That's right. More and more high-rises are being built in the city, and residential communities are getting bigger and bigger.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "现在": "xiànzài / now",
+                  "城市": "chéngshì /",
+                  "里": "lǐ / inside",
+                  "大楼": "dàlóu /",
+                  "越": "yuè /",
+                  "盖": "gài / to construct; to build",
+                  "多": "duō / many; much",
+                  "住宅小区": "zhùzháixiǎoqū /",
+                  "也": "yě / also; too",
+                  "建越": "jiànyuè /",
+                  "大": "dà /"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s10",
+                "cn": "我家附近的四合院儿一座一座地拆了，邻居也搬走了五六家，明年我们家也要搬走了。",
+                "split": "我 家 附近 的 四合院儿 一 座 一 座 地 拆 了 邻居 也 搬走 了 五六家 明年 我们 家 也 要 搬走 了",
+                "en": "The courtyard houses near my home have been demolished one after another, and five or six of our neighbors have already moved away. Next year our family will move too.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "家": "jiā / home; family",
+                  "附近": "fùjìn /",
+                  "的": "de / (possessive/modifier particle)",
+                  "四合院儿": "sìhéyuànr /",
+                  "一": "yi / one",
+                  "座": "zuò /",
+                  "地": "de /",
+                  "拆": "chāi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "邻居": "línjū /",
+                  "也": "yě / also; too",
+                  "搬走": "bānzǒu /",
+                  "五六家": "wǔliùjiā /",
+                  "明年": "míngnián / next year",
+                  "我们": "wǒmen / we; us",
+                  "要": "yào / want; need; will"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s11",
+                "cn": "那太遗憾了。",
+                "split": "那 太 遗憾 了",
+                "en": "What a pity.",
+                "dict": {
+                  "那": "nà / that",
+                  "太": "tài / too; excessively",
+                  "遗憾": "yíhàn / sorry; regretful",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t1-s12",
+                "cn": "我虽然也舍不得离开我们家的小院儿，但还是希望快点儿搬进现代化的楼房里去住。",
+                "split": "我 虽然 也 舍不 得 离开 我们 家 的 小院儿 但 还是 希望 快点儿 搬进 现代化 的 楼房 里 去 住",
+                "en": "Even though I'm reluctant to leave our little courtyard, I still hope to move into a modern apartment building soon.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "虽然": "suīrán / although",
+                  "也": "yě / also; too",
+                  "舍不": "shěbù /",
+                  "得": "de /",
+                  "离开": "líkāi / to leave",
+                  "我们": "wǒmen / we; us",
+                  "家": "jiā / home; family",
+                  "的": "de / (possessive/modifier particle)",
+                  "小院儿": "xiǎoyuànr /",
+                  "但": "dàn /",
+                  "还是": "háishì / or",
+                  "希望": "xīwàng / hope; wish",
+                  "快点儿": "kuàidiǎnr /",
+                  "搬进": "bānjìn /",
+                  "现代化": "xiàndàihuà / to modernize",
+                  "楼房": "lóufáng /",
+                  "里": "lǐ / inside",
+                  "去": "qù / to go",
+                  "住": "zhù /"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l16-t2",
+            "label": "（二）年轻人打扮得越来越漂亮了",
+            "sentences": [
+              {
+                "id": "hj2b-l16-t2-s1",
+                "cn": "同学们已经学了两个多月汉语了。",
+                "split": "同学们 已经 学 了 两 个 多月 汉语 了",
+                "en": "You students have been learning Chinese for more than two months now.",
+                "dict": {
+                  "同学们": "tóngxuémen / classmates",
+                  "已经": "yǐjīng / already",
+                  "学": "xué /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "两": "liǎng /",
+                  "个": "gè / (measure word)",
+                  "多月": "duōyuè /",
+                  "汉语": "hànyǔ / Chinese language"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s2",
+                "cn": "刚来的时候，我不习惯北京的气候，常常感冒，现在越来越习惯了。",
+                "split": "刚来 的 时候 我 不 习惯 北京 的 气候 常常 感冒 现在 越 来越 习惯 了",
+                "en": "When I first arrived, I wasn't used to Beijing's climate and caught colds often, but now I'm getting more and more used to it.",
+                "dict": {
+                  "刚来": "gānglái /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "我": "wǒ / I; me",
+                  "不": "bù / not",
+                  "习惯": "xíguàn /",
+                  "北京": "běijīng / Beijing",
+                  "气候": "qìhòu /",
+                  "常常": "chángcháng / often; frequently",
+                  "感冒": "gǎnmào / to catch a cold",
+                  "现在": "xiànzài / now",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s3",
+                "cn": "我们的汉语越来越好，觉得越学越有意思了。",
+                "split": "我们 的 汉语 越 来越 好 觉得 越 学越 有意思 了",
+                "en": "Our Chinese is getting better and better, and we find it more and more interesting as we learn.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "汉语": "hànyǔ / Chinese language",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "好": "hǎo / good; well; OK",
+                  "觉得": "juéde / feel; think",
+                  "学越": "xuéyuè /",
+                  "有意思": "yǒuyìsi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s4",
+                "cn": "我的朋友越来越多了。",
+                "split": "我 的 朋友 越 来越 多 了",
+                "en": "I have more and more friends.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "朋友": "péngyǒu / friend",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s5",
+                "cn": "朋友越多越好，“在家靠父母，出门靠朋友”嘛。",
+                "split": "朋友 越 多越好 在家 靠 父母 出门 靠 朋友 嘛",
+                "en": "The more friends, the better. As the saying goes, “At home one relies on one's parents; away from home, on one's friends.”",
+                "dict": {
+                  "朋友": "péngyǒu / friend",
+                  "越": "yuè /",
+                  "多越好": "duōyuèhǎo /",
+                  "在家": "zàijiā /",
+                  "靠": "kào /",
+                  "父母": "fùmǔ /",
+                  "出门": "chūmén / to go out; to leave home",
+                  "嘛": "ma /"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s6",
+                "cn": "中国菜很好吃，我越吃越喜欢吃，所以也越来越胖了。",
+                "split": "中国 菜 很 好吃 我 越 吃 越 喜欢 吃 所以 也 越 来越 胖 了",
+                "en": "Chinese food is delicious. The more I eat it, the more I like it, so I'm getting fatter and fatter.",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "菜": "cài /",
+                  "很": "hěn / very",
+                  "好吃": "hǎochī / delicious; tasty",
+                  "我": "wǒ / I; me",
+                  "越": "yuè /",
+                  "吃": "chī / to eat",
+                  "喜欢": "xǐhuān / like; love",
+                  "所以": "suǒyǐ / therefore",
+                  "也": "yě / also; too",
+                  "来越": "láiyuè /",
+                  "胖": "pàng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s7",
+                "cn": "我觉得人们的生活一天比一天丰富，年轻人越来越会打扮，打扮得越来越漂亮了。",
+                "split": "我 觉得 人们 的 生活 一 天 比 一 天 丰富 年轻人 越 来越 会 打扮 打扮 得 越 来越 漂亮 了",
+                "en": "I think people's lives are getting richer day by day. Young people know more and more about dressing up, and they look more and more beautiful.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "觉得": "juéde / feel; think",
+                  "人们": "rénmen / people",
+                  "的": "de / (possessive/modifier particle)",
+                  "生活": "shēnghuó /",
+                  "一": "yì / one",
+                  "天": "tiān /",
+                  "比": "bǐ / to compare",
+                  "丰富": "fēngfù / rich; plentiful",
+                  "年轻人": "niánqīngrén /",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "会": "huì / can; will",
+                  "打扮": "dǎbàn / to dress up; to make up",
+                  "得": "de /",
+                  "漂亮": "piàoliàng / pretty",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s8",
+                "cn": "圣诞节和新年快到了，不少商店都摆着圣诞树，装饰得非常漂亮。",
+                "split": "圣诞节 和 新年 快到 了 不少 商店 都 摆 着 圣诞树 装饰 得 非常 漂亮",
+                "en": "Christmas and the New Year are approaching. Many shops have put up Christmas trees and are beautifully decorated.",
+                "dict": {
+                  "圣诞节": "shèngdànjié /",
+                  "和": "hé / and; with",
+                  "新年": "xīnnián / new year; New Year's Day",
+                  "快到": "kuàidào /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "不少": "bùshǎo / quite a few",
+                  "商店": "shāngdiàn / store",
+                  "都": "dōu / all; both",
+                  "摆": "bǎi / to put; to place",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "圣诞树": "shèngdànshù / Christmas tree",
+                  "装饰": "zhuāngshì / to decorate; decoration",
+                  "得": "de /",
+                  "非常": "fēicháng / very",
+                  "漂亮": "piàoliàng / pretty"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s9",
+                "cn": "我看见很多中国人也买圣诞树和圣诞礼物。",
+                "split": "我 看见 很 多 中国 人 也 买 圣诞树 和 圣诞礼物",
+                "en": "I've seen many Chinese people buying Christmas trees and Christmas presents too.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "看见": "kànjiàn / see; spot",
+                  "很": "hěn / very",
+                  "多": "duō / many; much",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "也": "yě / also; too",
+                  "买": "mǎi /",
+                  "圣诞树": "shèngdànshù / Christmas tree",
+                  "和": "hé / and; with",
+                  "圣诞礼物": "shèngdànlǐwù /"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s10",
+                "cn": "老师，我听说中国过圣诞节的人越来越多了，是吗？",
+                "split": "老师 我 听说 中国 过 圣诞节 的 人 越 来越 多 了 是 吗",
+                "en": "Teacher, I've heard more and more Chinese people celebrate Christmas. Is that true?",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "我": "wǒ / I; me",
+                  "听说": "tīngshuō / I heard that",
+                  "中国": "zhōngguó / Chinese",
+                  "过": "guo /",
+                  "圣诞节": "shèngdànjié /",
+                  "的": "de / (possessive/modifier particle)",
+                  "人": "rén /",
+                  "越": "yuè /",
+                  "来越": "láiyuè /",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "是": "shì / to be (am/is/are)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s11",
+                "cn": "一般家庭是不过圣诞节的。",
+                "split": "一般 家庭 是 不过 圣诞节 的",
+                "en": "Ordinary families don't celebrate Christmas.",
+                "dict": {
+                  "一般": "yìbān /",
+                  "家庭": "jiātíng /",
+                  "是": "shì / to be (am/is/are)",
+                  "不过": "búguò / but; however",
+                  "圣诞节": "shèngdànjié /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s12",
+                "cn": "有的人过圣诞节，可能是喜欢圣诞节那种欢乐的气氛，孩子们能从爸爸妈妈那儿得到礼物，当然也很高兴。",
+                "split": "有 的 人 过 圣诞节 可能 是 喜欢 圣诞节 那 种 欢乐 的 气氛 孩子 们 能 从 爸 爸 妈 妈 那儿 得到 礼物 当然 也 很 高兴",
+                "en": "Some people celebrate it, probably because they like the cheerful atmosphere of Christmas. Children are of course happy too, because they get presents from their parents.",
+                "dict": {
+                  "有": "yǒu / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "人": "rén /",
+                  "过": "guo /",
+                  "圣诞节": "shèngdànjié /",
+                  "可能": "kěnéng / possible; maybe",
+                  "是": "shì / to be (am/is/are)",
+                  "喜欢": "xǐhuān / like; love",
+                  "那": "nà / that",
+                  "种": "zhǒng / to plant; to grow",
+                  "欢乐": "huānlè / happy; joyous",
+                  "气氛": "qìfēn / atmosphere; ambience",
+                  "孩子": "háizi /",
+                  "们": "men /",
+                  "能": "néng / can; able to",
+                  "从": "cóng / from",
+                  "爸": "bà /",
+                  "妈": "mā / mom",
+                  "那儿": "nàr / there",
+                  "得到": "dédào /",
+                  "礼物": "lǐwù / present; gift",
+                  "当然": "dāngrán / of course",
+                  "也": "yě / also; too",
+                  "很": "hěn / very",
+                  "高兴": "gāoxìng / happy, glad"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s13",
+                "cn": "不过，中国最大的节日还是春节。",
+                "split": "不过 中国 最 大 的 节日 还是 春节",
+                "en": "However, the biggest festival in China is still the Spring Festival.",
+                "dict": {
+                  "不过": "búguò / but; however",
+                  "中国": "zhōngguó / Chinese",
+                  "最": "zuì / most",
+                  "大": "dà /",
+                  "的": "de / (possessive/modifier particle)",
+                  "节日": "jiérì / festival; holiday",
+                  "还是": "háishì / or",
+                  "春节": "chūnjié /"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s14",
+                "cn": "老师，我建议，咱们开一个新年联欢会，怎么样？",
+                "split": "老师 我 建议 咱们 开 一 个 新年 联欢会 怎么样",
+                "en": "Teacher, I suggest we hold a New Year's party. What do you think?",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "我": "wǒ / I; me",
+                  "建议": "jiànyì / advice; suggestion; to advise; to suggest",
+                  "咱们": "zánmen / we (inclusive)",
+                  "开": "kāi / to bloom",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "新年": "xīnnián / new year; New Year's Day",
+                  "联欢会": "liánhuānhuì / get-together; party",
+                  "怎么样": "zěnmeyàng / how about"
+                }
+              },
+              {
+                "id": "hj2b-l16-t2-s15",
+                "cn": "好啊！",
+                "split": "好 啊",
+                "en": "Great!",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "啊": "a / (interjection)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson17",
+        "title": "第 17 课  把“福”字倒着贴在门上",
+        "titleEn": "Lesson 17",
+        "texts": [
+          {
+            "id": "hj2b-l17-t1",
+            "label": "（一）我们把教室布置成了会场",
+            "sentences": [
+              {
+                "id": "hj2b-l17-t1-s1",
+                "cn": "玛丽说：“我们最好借一个大教室，把它布置成会场。”",
+                "split": "玛丽 说 我们 最 好 借 一 个 大 教室 把 它 布置 成 会场",
+                "en": "Mary said, “We'd better borrow a big classroom and turn it into a meeting place.”",
+                "dict": {
+                  "玛丽": "mǎlì / Mary (name)",
+                  "说": "shuō / to say; to speak",
+                  "我们": "wǒmen / we; us",
+                  "最": "zuì / most",
+                  "好": "hǎo / good; well; OK",
+                  "借": "jiè /",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "大": "dà /",
+                  "教室": "jiàoshì / classroom",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "布置": "bùzhì / to fix up; to arrange; to decorate",
+                  "成": "chéng /",
+                  "会场": "huìchǎng / meeting venue"
+                }
+              },
+              {
+                "id": "hj2b-l17-t1-s2",
+                "cn": "我们把教室布置好以后，请老师来看了看。",
+                "split": "我们 把 教室 布置 好 以后 请 老师 来看 了 看",
+                "en": "After we had decorated the classroom, we invited our teacher to come and take a look.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "教室": "jiàoshì / classroom",
+                  "布置": "bùzhì / to fix up; to arrange; to decorate",
+                  "好": "hǎo / good; well; OK",
+                  "以后": "yǐhòu / after",
+                  "请": "qǐng / please; invite",
+                  "老师": "lǎoshī / teacher",
+                  "来看": "láikàn /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "看": "kàn / to look; to see; to visit"
+                }
+              },
+              {
+                "id": "hj2b-l17-t1-s3",
+                "cn": "老师高兴地说：“你们把教室布置得真漂亮！”",
+                "split": "老师 高兴 地 说 你们 把 教室 布置 得 真 漂亮",
+                "en": "The teacher said happily, “You've decorated the classroom really beautifully!”",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "高兴": "gāoxìng / happy, glad",
+                  "地": "de /",
+                  "说": "shuō / to say; to speak",
+                  "你们": "nǐmen / you (plural)",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "教室": "jiàoshì / classroom",
+                  "布置": "bùzhì / to fix up; to arrange; to decorate",
+                  "得": "de /",
+                  "真": "zhēn / really; truly",
+                  "漂亮": "piàoliàng / pretty"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l17-t2",
+            "label": "（二）把对联儿贴在大门两边",
+            "sentences": [
+              {
+                "id": "hj2b-l17-t2-s1",
+                "cn": "哎，这幅画儿挂在什么地方比较好？",
+                "split": "哎 这 幅 画儿 挂 在 什么 地方 比 较 好",
+                "en": "Hey, where would be a good place to hang this painting?",
+                "dict": {
+                  "哎": "āi /",
+                  "这": "zhè / this",
+                  "幅": "fú / a measure word for paintings, calligraphy works, etc.",
+                  "画儿": "huàr /",
+                  "挂": "guà / to hang",
+                  "在": "zài / to be at; (at)",
+                  "什么": "shénme / what",
+                  "地方": "dìfāng / place",
+                  "比": "bǐ / to compare",
+                  "较": "jiào / relatively",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s2",
+                "cn": "我想把它挂在中间。",
+                "split": "我 想 把 它 挂 在 中间",
+                "en": "I want to hang it in the middle.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "挂": "guà / to hang",
+                  "在": "zài / to be at; (at)",
+                  "中间": "zhōngjiān / middle, between"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s3",
+                "cn": "对了，小林还没把水仙花送来吧？",
+                "split": "对 了 小林 还 没 把 水仙花 送来 吧",
+                "en": "By the way, hasn't Xiao Lin brought the narcissus flowers yet?",
+                "dict": {
+                  "对": "duì / couple; pair",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "小林": "xiǎolín /",
+                  "还": "hái / still; also",
+                  "没": "méi / not (past)",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "水仙花": "shuǐxiānhuā /",
+                  "送来": "sònglái /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s4",
+                "cn": "已经送来了，我把它摆在卧室里了。",
+                "split": "已经 送来 了 我 把 它 摆在 卧室 里 了",
+                "en": "He's already brought them. I've put them in the bedroom.",
+                "dict": {
+                  "已经": "yǐjīng / already",
+                  "送来": "sònglái /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "我": "wǒ / I; me",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "摆在": "bǎizài /",
+                  "卧室": "wòshì /",
+                  "里": "lǐ / inside"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s5",
+                "cn": "你来看，开得可好了。",
+                "split": "你 来看 开 得 可好 了",
+                "en": "Come and look. They've bloomed beautifully.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "来看": "láikàn /",
+                  "开": "kāi / to bloom",
+                  "得": "de /",
+                  "可好": "kěhǎo /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s6",
+                "cn": "把它摆在客厅里比较好。",
+                "split": "把 它 摆在 客厅 里 比 较 好",
+                "en": "It would be better to put them in the living room.",
+                "dict": {
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "摆在": "bǎizài /",
+                  "客厅": "kètīng /",
+                  "里": "lǐ / inside",
+                  "比": "bǐ / to compare",
+                  "较": "jiào / relatively",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s7",
+                "cn": "我把“福”字贴在门上吧。",
+                "split": "我 把 福 字贴 在 门上 吧",
+                "en": "Let me paste the “Fu” character on the door.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "福": "fú / happiness; good fortune; blessing",
+                  "字贴": "zìtiē /",
+                  "在": "zài / to be at; (at)",
+                  "门上": "ménshàng /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s8",
+                "cn": "把你写的对联儿也贴上去吧。",
+                "split": "把 你 写 的 对联 儿 也 贴上去 吧",
+                "en": "Paste up the Spring Festival couplets you wrote too.",
+                "dict": {
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "你": "nǐ / you",
+                  "写": "xiě /",
+                  "的": "de / (possessive/modifier particle)",
+                  "对联": "duìlián /",
+                  "儿": "ér /",
+                  "也": "yě / also; too",
+                  "贴上去": "tiēshàngqu /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s9",
+                "cn": "哦，可不是嘛，写错了。",
+                "split": "哦 可不是 嘛 写错 了",
+                "en": "Oh, you're right. I made a mistake.",
+                "dict": {
+                  "哦": "ó / (expressing realization or understanding) oh",
+                  "可不是": "kěbúshì / (expressing agreement) right; exactly",
+                  "嘛": "ma /",
+                  "写错": "xiěcuò /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l17-t2-s10",
+                "cn": "应该是“新年新春吉祥，百行百业兴旺”。",
+                "split": "应该 是 新年 新春 吉祥 百行 百业兴旺",
+                "en": "It should be “May the new year bring good fortune, and may every trade prosper.”",
+                "dict": {
+                  "应该": "yīnggāi / should",
+                  "是": "shì / to be (am/is/are)",
+                  "新年": "xīnnián / new year; New Year's Day",
+                  "新春": "xīnchūn / (new) spring; Lunar New Year and the following days",
+                  "吉祥": "jíxiáng / auspicious; lucky",
+                  "百行": "bǎixíng /",
+                  "百业兴旺": "bǎiyèxīngwàng /"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l17-t3",
+            "label": "（三）把“福”字倒着贴在门上",
+            "sentences": [
+              {
+                "id": "hj2b-l17-t3-s1",
+                "cn": "田芳，这就是你说的对联儿吗？",
+                "split": "田 芳 这 就 是 你 说 的 对联 儿 吗",
+                "en": "Tian Fang, is this the couplet you told me about?",
+                "dict": {
+                  "田": "tián /",
+                  "芳": "fāng /",
+                  "这": "zhè / this",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "的": "de / (possessive/modifier particle)",
+                  "对联": "duìlián /",
+                  "儿": "ér /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s2",
+                "cn": "是啊。",
+                "split": "是 啊",
+                "en": "Yes.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s3",
+                "cn": "门上这个字怎么念？",
+                "split": "门上 这 个 字 怎么 念",
+                "en": "How do you read this character on the door?",
+                "dict": {
+                  "门上": "ménshàng /",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "字": "zì / word; character",
+                  "怎么": "zěnme / how; why",
+                  "念": "niàn /"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s4",
+                "cn": "你仔细看看，认识不认识？",
+                "split": "你 仔细 看看 认识 不 认识",
+                "en": "Look at it carefully. Do you recognize it?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "仔细": "zǐxì / careful; attentive",
+                  "看看": "kànkan / to take a look",
+                  "认识": "rènshí / know; recognize",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s5",
+                "cn": "没学过。",
+                "split": "没学 过",
+                "en": "I haven't learned it.",
+                "dict": {
+                  "没学": "méixué /",
+                  "过": "guo /"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s6",
+                "cn": "这不是幸福的“福”字吗？",
+                "split": "这 不是 幸福 的 福 字 吗",
+                "en": "Isn't this the character “Fu”, meaning happiness?",
+                "dict": {
+                  "这": "zhè / this",
+                  "不是": "búshì / not is",
+                  "幸福": "xìngfú / happiness; happy; fortunate",
+                  "的": "de / (possessive/modifier particle)",
+                  "福": "fú / happiness; good fortune; blessing",
+                  "字": "zì / word; character",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s7",
+                "cn": "过春节的时候，差不多家家都贴“福”字。",
+                "split": "过 春节 的 时候 差不多 家家 都 贴 福 字",
+                "en": "During the Spring Festival, almost every family pastes up the character “Fu”.",
+                "dict": {
+                  "过": "guo /",
+                  "春节": "chūnjié /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "差不多": "chàbùduō /",
+                  "家家": "jiājia /",
+                  "都": "dōu / all; both",
+                  "贴": "tiē /",
+                  "福": "fú / happiness; good fortune; blessing",
+                  "字": "zì / word; character"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s8",
+                "cn": "这是幸福的“福”字？为什么把“福”字倒着贴在门上呢？",
+                "split": "这 是 幸福 的 福 字 为什么 把 福 字 倒 着 贴 在 门上 呢",
+                "en": "This is the character “Fu”? Then why is it pasted upside down on the door?",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "幸福": "xìngfú / happiness; happy; fortunate",
+                  "的": "de / (possessive/modifier particle)",
+                  "福": "fú / happiness; good fortune; blessing",
+                  "字": "zì / word; character",
+                  "为什么": "wèishénme / why",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "倒": "dào / to fall; to topple; to tumble down",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "贴": "tiē /",
+                  "在": "zài / to be at; (at)",
+                  "门上": "ménshàng /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s9",
+                "cn": "这样，人们一看见就会说“福倒了”，听声音就是“福到了”。",
+                "split": "这样 人们 一 看见 就 会 说 福倒 了 听 声音 就 是 福到 了",
+                "en": "This way, when people see it they will say “Fu dao le” (the Fu has fallen over), which sounds like “Fu dao le” (happiness has arrived).",
+                "dict": {
+                  "这样": "zhèyàng /",
+                  "人们": "rénmen / people",
+                  "一": "yí / one",
+                  "看见": "kànjiàn / see; spot",
+                  "就": "jiù / will",
+                  "会": "huì / can; will",
+                  "说": "shuō / to say; to speak",
+                  "福倒": "fúdào /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "听": "tīng /",
+                  "声音": "shēngyīn / sound; voice",
+                  "是": "shì / to be (am/is/are)",
+                  "福到": "fúdào /"
+                }
+              },
+              {
+                "id": "hj2b-l17-t3-s10",
+                "cn": "哦，那我也去买一些“福”字来，把它倒着贴在门上、床上、桌子上、椅子上、沙发上、冰箱上、洗衣机上、空调上……等着幸福来找我。",
+                "split": "哦 那 我 也 去 买 一些 福 字来 把 它 倒 着 贴 在 门上 床上 桌子 上 椅子 上 沙发 上 冰箱 上 洗衣机 上 空调 上 等 着 幸福 来 找 我",
+                "en": "Oh, then I'll go buy some “Fu” characters too, and paste them upside down on the door, the bed, the table, the chairs, the sofa, the refrigerator, the washing machine, the air conditioner... and wait for happiness to come to me.",
+                "dict": {
+                  "哦": "ó / (expressing realization or understanding) oh",
+                  "那": "nà / that",
+                  "我": "wǒ / I; me",
+                  "也": "yě / also; too",
+                  "去": "qù / to go",
+                  "买": "mǎi /",
+                  "一些": "yìxiē / some; a few",
+                  "福": "fú / happiness; good fortune; blessing",
+                  "字来": "zìlái /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "倒": "dào / to fall; to topple; to tumble down",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "贴": "tiē /",
+                  "在": "zài / to be at; (at)",
+                  "门上": "ménshàng /",
+                  "床上": "chuángshàng /",
+                  "桌子": "zhuōzi / table; desk",
+                  "上": "shàng / to attend (a class)",
+                  "椅子": "yǐzi / chair",
+                  "沙发": "shāfā / sofa",
+                  "冰箱": "bīngxiāng / refrigerator",
+                  "洗衣机": "xǐyījī / washing machine",
+                  "空调": "kōngtiáo / air conditioner",
+                  "等": "děng /",
+                  "幸福": "xìngfú / happiness; happy; fortunate",
+                  "来": "lái / to come",
+                  "找": "zhǎo / to look for"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson18",
+        "title": "第 18 课  请把护照和机票给我",
+        "titleEn": "Lesson 18",
+        "texts": [
+          {
+            "id": "hj2b-l18-t1",
+            "label": "（一）请把护照和机票给我",
+            "sentences": [
+              {
+                "id": "hj2b-l18-t1-s1",
+                "cn": "我们先去办理登机手续，把行李托运了。",
+                "split": "我们 先 去 办理 登机 手续 把 行李 托运 了",
+                "en": "Let's go check in first and have our luggage checked.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "先": "xiān / first",
+                  "去": "qù / to go",
+                  "办理": "bànlǐ / to handle; to go through",
+                  "登机": "dēngjī / to board a plane",
+                  "手续": "shǒuxù / procedures; formalities",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "行李": "xínglǐ / baggage; luggage",
+                  "托运": "tuōyùn / to consign for shipment; to check in (baggage)",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s2",
+                "cn": "请把护照和机票给我。",
+                "split": "请 把 护照 和 机票 给 我",
+                "en": "Please give me your passports and tickets.",
+                "dict": {
+                  "请": "qǐng / please; invite",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "护照": "hùzhào / passport",
+                  "和": "hé / and; with",
+                  "机票": "jīpiào / air ticket",
+                  "给": "gěi / give; for",
+                  "我": "wǒ / I; me"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s3",
+                "cn": "哪个箱子要托运？把它放上去吧。",
+                "split": "哪 个 箱子 要 托运 把 它 放上去 吧",
+                "en": "Which suitcase needs to be checked? Put it up here.",
+                "dict": {
+                  "哪": "nǎ / which",
+                  "个": "gè / (measure word)",
+                  "箱子": "xiāngzi / suitcase",
+                  "要": "yào / want; need; will",
+                  "托运": "tuōyùn / to consign for shipment; to check in (baggage)",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "放上去": "fàngshàngqu /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s4",
+                "cn": "这是登机牌儿，请拿好。",
+                "split": "这 是 登机牌 儿 请 拿 好",
+                "en": "This is your boarding pass. Please keep it safe.",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "登机牌": "dēngjīpái /",
+                  "儿": "ér /",
+                  "请": "qǐng / please; invite",
+                  "拿": "ná /",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s5",
+                "cn": "谢谢！",
+                "split": "谢谢",
+                "en": "Thank you!",
+                "dict": {
+                  "谢谢": "xièxie / thank you"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s6",
+                "cn": "这位女士，你口袋里装的是什么？",
+                "split": "这 位 女士 你 口 袋 里装 的 是 什么",
+                "en": "Ma'am, what do you have in your pocket?",
+                "dict": {
+                  "这": "zhè / this",
+                  "位": "wèi /",
+                  "女士": "nǚshì / lady; madam",
+                  "你": "nǐ / you",
+                  "口": "kǒu /",
+                  "袋": "dài /",
+                  "里装": "lǐzhuāng /",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s7",
+                "cn": "没有什么呀！",
+                "split": "没有 什么 呀",
+                "en": "Nothing!",
+                "dict": {
+                  "没有": "méiyǒu / not have; haven't",
+                  "什么": "shénme / what",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s8",
+                "cn": "请把口袋里的东西都掏出来。",
+                "split": "请 把 口 袋 里 的 东西 都 掏出 来",
+                "en": "Please take everything out of your pocket.",
+                "dict": {
+                  "请": "qǐng / please; invite",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "口": "kǒu /",
+                  "袋": "dài /",
+                  "里": "lǐ / inside",
+                  "的": "de / (possessive/modifier particle)",
+                  "东西": "dōngxī / thing",
+                  "都": "dōu / all; both",
+                  "掏出": "tāochū /",
+                  "来": "lái / to come"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s9",
+                "cn": "啊，是几把钥匙和两个硬币。",
+                "split": "啊 是 几 把 钥匙 和 两 个 硬币",
+                "en": "Oh, it's just some keys and two coins.",
+                "dict": {
+                  "啊": "a / (interjection)",
+                  "是": "shì / to be (am/is/are)",
+                  "几": "jǐ / how many; several",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "钥匙": "yàoshi / key",
+                  "和": "hé / and; with",
+                  "两": "liǎng /",
+                  "个": "gè / (measure word)",
+                  "硬币": "yìngbì / coin"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s10",
+                "cn": "好了。请进去吧。",
+                "split": "好 了 请进去 吧",
+                "en": "All right. Please go in.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "请进去": "qǐngjìnqu /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s11",
+                "cn": "把手提包放到行李箱里去吧。",
+                "split": "把 手提包 放到 行李箱 里 去 吧",
+                "en": "Put the handbag in the overhead bin.",
+                "dict": {
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "手提包": "shǒutíbāo /",
+                  "放到": "fàngdào /",
+                  "行李箱": "xínglǐxiāng /",
+                  "里": "lǐ / inside",
+                  "去": "qù / to go",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s12",
+                "cn": "等一下儿，先把相机拿出来，我想在飞机上照两张照片。",
+                "split": "等 一下儿 先 把 相机 拿出来 我 想 在 飞机 上 照 两 张 照片",
+                "en": "Wait a moment. Let me first take out the camera. I want to take a couple of photos on the plane.",
+                "dict": {
+                  "等": "děng /",
+                  "一下儿": "yíxiàr / a bit",
+                  "先": "xiān / first",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "相机": "xiàngjī /",
+                  "拿出来": "náchūlai /",
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "在": "zài / to be at; (at)",
+                  "飞机": "fēijī / airplane",
+                  "上": "shàng / to attend (a class)",
+                  "照": "zhào / to take (a photo)",
+                  "两": "liǎng /",
+                  "张": "zhāng / Zhang (surname)",
+                  "照片": "zhàopiān / photo"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s13",
+                "cn": "给你。",
+                "split": "给 你",
+                "en": "Here you are.",
+                "dict": {
+                  "给": "gěi / give; for",
+                  "你": "nǐ / you"
+                }
+              },
+              {
+                "id": "hj2b-l18-t1-s14",
+                "cn": "对了，相机里还没有电池呢，我先把电池装上。",
+                "split": "对 了 相机 里 还 没有 电池 呢 我 先 把 电池 装 上",
+                "en": "Oh right, there are no batteries in the camera yet. Let me put the batteries in first.",
+                "dict": {
+                  "对": "duì / couple; pair",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "相机": "xiàngjī /",
+                  "里": "lǐ / inside",
+                  "还": "hái / still; also",
+                  "没有": "méiyǒu / not have; haven't",
+                  "电池": "diànchí /",
+                  "呢": "ne /",
+                  "我": "wǒ / I; me",
+                  "先": "xiān / first",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "装": "zhuāng / to load; to pack; to hold",
+                  "上": "shàng / to attend (a class)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l18-t2",
+            "label": "（二）你把灯打开",
+            "sentences": [
+              {
+                "id": "hj2b-l18-t2-s1",
+                "cn": "这里边有点儿暗。",
+                "split": "这 里 边 有点儿 暗",
+                "en": "It's a bit dark in here.",
+                "dict": {
+                  "这": "zhè / this",
+                  "里": "lǐ / inside",
+                  "边": "biān /",
+                  "有点儿": "yǒudiǎnr / a bit",
+                  "暗": "àn / dim; dark"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s2",
+                "cn": "你把灯打开。",
+                "split": "你 把 灯 打开",
+                "en": "Turn on the light.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "灯": "dēng /",
+                  "打开": "dǎkāi /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s3",
+                "cn": "开关在哪儿呢？",
+                "split": "开关 在 哪儿 呢",
+                "en": "Where is the switch?",
+                "dict": {
+                  "开关": "kāiguān / switch",
+                  "在": "zài / to be at; (at)",
+                  "哪儿": "nǎr / where",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s4",
+                "cn": "在座位的扶手上。",
+                "split": "在 座位 的 扶手 上",
+                "en": "It's on the armrest of the seat.",
+                "dict": {
+                  "在": "zài / to be at; (at)",
+                  "座位": "zuòwèi /",
+                  "的": "de / (possessive/modifier particle)",
+                  "扶手": "fúshǒu / armrest",
+                  "上": "shàng / to attend (a class)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s5",
+                "cn": "飞机马上就要起飞了，请大家把安全带系好，把手机关上……",
+                "split": "飞机 马上 就 要 起飞 了 请 大家 把 安全带 系好 把手 机关 上",
+                "en": "The plane is about to take off. Please fasten your seat belts and turn off your cell phones...",
+                "dict": {
+                  "飞机": "fēijī / airplane",
+                  "马上": "mǎshàng /",
+                  "就": "jiù / will",
+                  "要": "yào / want; need; will",
+                  "起飞": "qǐfēi / to take off",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "请": "qǐng / please; invite",
+                  "大家": "dàjiā / everyone",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "安全带": "ānquándài / safety belt; seat belt",
+                  "系好": "jìhǎo /",
+                  "把手": "bǎshǒu /",
+                  "机关": "jīguān /",
+                  "上": "shàng / to attend (a class)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s6",
+                "cn": "我还不会系安全带呢。",
+                "split": "我 还 不 会 系 安全带 呢",
+                "en": "I still don't know how to fasten the seat belt.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "还": "hái / still; also",
+                  "不": "bú / not",
+                  "会": "huì / can; will",
+                  "系": "xì / to tie",
+                  "安全带": "ānquándài / safety belt; seat belt",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s7",
+                "cn": "把这个插头往里一插就行了。",
+                "split": "把 这 个 插头 往里 一 插 就 行 了",
+                "en": "Just plug this plug in and it's done.",
+                "dict": {
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "插头": "chātóu / plug",
+                  "往里": "wǎnglǐ /",
+                  "一": "yì / one",
+                  "插": "chā / to stick in; to insert",
+                  "就": "jiù / will",
+                  "行": "xíng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s8",
+                "cn": "怎么打开呢？",
+                "split": "怎么 打开 呢",
+                "en": "How do I open it?",
+                "dict": {
+                  "怎么": "zěnme / how; why",
+                  "打开": "dǎkāi /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s9",
+                "cn": "把卡子扳一下儿就打开了。",
+                "split": "把 卡子 扳 一下儿 就 打开 了",
+                "en": "Flip the latch and it opens.",
+                "dict": {
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "卡子": "qiǎzi / buckle",
+                  "扳": "bān / to change the direction of a fixed object; to turn",
+                  "一下儿": "yíxiàr / a bit",
+                  "就": "jiù / will",
+                  "打开": "dǎkāi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s10",
+                "cn": "啊，打开了。",
+                "split": "啊 打开 了",
+                "en": "Ah, it's open.",
+                "dict": {
+                  "啊": "a / (interjection)",
+                  "打开": "dǎkāi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s11",
+                "cn": "你看，咖啡都凉了，快把它喝了吧。",
+                "split": "你 看 咖啡 都 凉 了 快 把 它 喝 了 吧",
+                "en": "Look, the coffee has gone cold. Drink it up quickly.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "看": "kàn / to look; to see; to visit",
+                  "咖啡": "kāfēi / coffee",
+                  "都": "dōu / all; both",
+                  "凉": "liáng / cool; cold",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "快": "kuài / quick; hurry",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它": "tā / it",
+                  "喝": "hē / to drink",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s12",
+                "cn": "哎呀！",
+                "split": "哎呀",
+                "en": "Oh no!",
+                "dict": {
+                  "哎呀": "āiyā /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s13",
+                "cn": "怎么了？",
+                "split": "怎么 了",
+                "en": "What's wrong?",
+                "dict": {
+                  "怎么": "zěnme / how; why",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s14",
+                "cn": "你把杯子碰倒了，咖啡全洒了。",
+                "split": "你 把 杯子 碰倒 了 咖啡 全洒 了",
+                "en": "You knocked the cup over and spilled all the coffee.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "杯子": "bēizi / cup",
+                  "碰倒": "pèngdào /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "咖啡": "kāfēi / coffee",
+                  "全洒": "quánsǎ /"
+                }
+              },
+              {
+                "id": "hj2b-l18-t2-s15",
+                "cn": "快拿纸把桌子擦擦。",
+                "split": "快拿纸 把 桌子 擦擦",
+                "en": "Quick, grab some paper and wipe the table.",
+                "dict": {
+                  "快拿纸": "kuàinázhǐ /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "桌子": "zhuōzi / table; desk",
+                  "擦擦": "cāca /"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson19",
+        "title": "第 19 课  我的腿被自行车撞伤了",
+        "titleEn": "Lesson 19",
+        "texts": [
+          {
+            "id": "hj2b-l19-t1",
+            "label": "（一）我的腿被自行车撞伤了",
+            "sentences": [
+              {
+                "id": "hj2b-l19-t1-s1",
+                "cn": "你的腿怎么了？",
+                "split": "你 的 腿 怎么 了",
+                "en": "What happened to your leg?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "腿": "tuǐ / leg",
+                  "怎么": "zěnme / how; why",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s2",
+                "cn": "星期天我骑车上街的时候，被一个小伙子撞倒了，从车上摔下来把腿摔伤了。",
+                "split": "星期天 我 骑车 上街 的 时候 被 一 个 小伙子 撞倒 了 从 车上 摔下来 把 腿 摔伤 了",
+                "en": "When I was riding my bike on the street on Sunday, a young man knocked me down. I fell off the bike and hurt my leg.",
+                "dict": {
+                  "星期天": "xīngqītiān /",
+                  "我": "wǒ / I; me",
+                  "骑车": "qíchē /",
+                  "上街": "shàngjiē / to go to the street",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "被": "bèi / by",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "小伙子": "xiǎohuǒzi / young man; lad",
+                  "撞倒": "zhuàngdào /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "从": "cóng / from",
+                  "车上": "chēshàng /",
+                  "摔下来": "shuāixiàlai /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "腿": "tuǐ / leg",
+                  "摔伤": "shuāishāng /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s3",
+                "cn": "要紧吗？",
+                "split": "要紧 吗",
+                "en": "Is it serious?",
+                "dict": {
+                  "要紧": "yàojǐn / serious",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s4",
+                "cn": "流了一点儿血，不要紧。",
+                "split": "流 了 一点儿 血 不要紧",
+                "en": "It bled a little, but it's not serious.",
+                "dict": {
+                  "流": "liú / to shed; to flow",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一点儿": "yìdiǎnr / a little bit",
+                  "血": "xuè / blood",
+                  "不要紧": "búyàojǐn / not serious; doesn't matter"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s5",
+                "cn": "还疼吗？",
+                "split": "还 疼 吗",
+                "en": "Does it still hurt?",
+                "dict": {
+                  "还": "hái / still; also",
+                  "疼": "téng /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s6",
+                "cn": "还有点儿疼。",
+                "split": "还 有点儿 疼",
+                "en": "It still hurts a little.",
+                "dict": {
+                  "还": "hái / still; also",
+                  "有点儿": "yǒudiǎnr / a bit",
+                  "疼": "téng /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s7",
+                "cn": "伤着骨头了没有？",
+                "split": "伤 着 骨头 了 没有",
+                "en": "Did you hurt the bone?",
+                "dict": {
+                  "伤": "shāng / to hurt; to injure",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "骨头": "gǔtou / bone",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "没有": "méiyǒu / not have; haven't"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s8",
+                "cn": "我被撞倒后，小伙子看我躺在地上，马上叫了辆出租车，把我送到了医院。",
+                "split": "我 被 撞倒 后 小伙子 看 我 躺 在 地上 马上 叫 了 辆 出租车 把 我 送到 了 医院",
+                "en": "After I was knocked down, the young man saw me lying on the ground and immediately hailed a taxi to take me to the hospital.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "被": "bèi / by",
+                  "撞倒": "zhuàngdào /",
+                  "后": "hòu / back; after",
+                  "小伙子": "xiǎohuǒzi / young man; lad",
+                  "看": "kàn / to look; to see; to visit",
+                  "躺": "tǎng / to lie on one's back",
+                  "在": "zài / to be at; (at)",
+                  "地上": "dìshàng / on the ground",
+                  "马上": "mǎshàng /",
+                  "叫": "jiào / by",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "辆": "liàng /",
+                  "出租车": "chūzūchē / taxi",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "送到": "sòngdào /",
+                  "医院": "yīyuàn / hospital"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s9",
+                "cn": "那个小伙子是哪儿的？",
+                "split": "那 个 小伙子 是 哪儿 的",
+                "en": "Where is that young man from?",
+                "dict": {
+                  "那": "nà / that",
+                  "个": "gè / (measure word)",
+                  "小伙子": "xiǎohuǒzi / young man; lad",
+                  "是": "shì / to be (am/is/are)",
+                  "哪儿": "nǎr / where",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s10",
+                "cn": "是北京大学的学生。",
+                "split": "是 北京大学 的 学生",
+                "en": "He's a student at Peking University.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "北京大学": "běijīngdàxué /",
+                  "的": "de / (possessive/modifier particle)",
+                  "学生": "xuéshēng / student"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s11",
+                "cn": "昨天他还来看过我。",
+                "split": "昨天 他 还 来看 过 我",
+                "en": "He came to see me yesterday.",
+                "dict": {
+                  "昨天": "zuótiān / yesterday",
+                  "他": "tā / he; him",
+                  "还": "hái / still; also",
+                  "来看": "láikàn /",
+                  "过": "guo /",
+                  "我": "wǒ / I; me"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s12",
+                "cn": "他也觉得很不好意思。",
+                "split": "他 也 觉得 很 不好意思",
+                "en": "He also felt very embarrassed about it.",
+                "dict": {
+                  "他": "tā / he; him",
+                  "也": "yě / also; too",
+                  "觉得": "juéde / feel; think",
+                  "很": "hěn / very",
+                  "不好意思": "bùhǎoyìsī / to feel sorry"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s13",
+                "cn": "街上人多车也多，骑车上街的时候，一定要特别小心。",
+                "split": "街上 人多车 也 多 骑车 上街 的 时候 一定 要 特别 小心",
+                "en": "There are lots of people and cars on the streets, so you must be especially careful when cycling.",
+                "dict": {
+                  "街上": "jiēshàng /",
+                  "人多车": "rénduōchē /",
+                  "也": "yě / also; too",
+                  "多": "duō / many; much",
+                  "骑车": "qíchē /",
+                  "上街": "shàngjiē / to go to the street",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "要": "yào / want; need; will",
+                  "特别": "tèbié / especially",
+                  "小心": "xiǎoxīn / cautious; to be careful"
+                }
+              },
+              {
+                "id": "hj2b-l19-t1-s14",
+                "cn": "可不是！",
+                "split": "可不是",
+                "en": "Absolutely!",
+                "dict": {
+                  "可不是": "kěbúshì / (expressing agreement) right; exactly"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l19-t2",
+            "label": "（二）钱包儿让小偷儿偷走了",
+            "sentences": [
+              {
+                "id": "hj2b-l19-t2-s1",
+                "cn": "真倒霉！",
+                "split": "真 倒霉",
+                "en": "What bad luck!",
+                "dict": {
+                  "真": "zhēn / really; truly",
+                  "倒霉": "dǎoméi / unlucky"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s2",
+                "cn": "怎么了？",
+                "split": "怎么 了",
+                "en": "What happened?",
+                "dict": {
+                  "怎么": "zěnme / how; why",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s3",
+                "cn": "唉，别提了，我的钱包儿让小偷儿偷走了。",
+                "split": "唉 别提 了 我 的 钱包 儿 让 小偷儿 偷走 了",
+                "en": "Alas, don't even mention it. My wallet was stolen by a thief.",
+                "dict": {
+                  "唉": "āi / an interjection expressing sadness or regret",
+                  "别提": "biétí /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "钱包": "qiánbāo /",
+                  "儿": "ér /",
+                  "让": "ràng / by",
+                  "小偷儿": "xiǎotōur /",
+                  "偷走": "tōuzǒu /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s4",
+                "cn": "丢了多少钱？",
+                "split": "丢 了 多少 钱",
+                "en": "How much money did you lose?",
+                "dict": {
+                  "丢": "diū /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "多少": "duōshǎo / how much",
+                  "钱": "qián /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s5",
+                "cn": "钱不多，才几十块钱。",
+                "split": "钱 不 多 才 几十块 钱",
+                "en": "Not much, just a few dozen yuan.",
+                "dict": {
+                  "钱": "qián /",
+                  "不": "bù / not",
+                  "多": "duō / many; much",
+                  "才": "cái / can",
+                  "几十块": "jǐshíkuài /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s6",
+                "cn": "但我最近遇到好几件倒霉事儿了。",
+                "split": "但 我 最 近 遇到 好 几件 倒霉 事儿 了",
+                "en": "But I've run into quite a few unlucky things recently.",
+                "dict": {
+                  "但": "dàn /",
+                  "我": "wǒ / I; me",
+                  "最": "zuì / most",
+                  "近": "jìn /",
+                  "遇到": "yùdào / to come across; to encounter",
+                  "好": "hǎo / good; well; OK",
+                  "几件": "jǐjiàn /",
+                  "倒霉": "dǎoméi / unlucky",
+                  "事儿": "shìr / thing; matter",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s7",
+                "cn": "都遇到什么倒霉事儿了？",
+                "split": "都 遇到 什么 倒霉 事儿 了",
+                "en": "What unlucky things have you run into?",
+                "dict": {
+                  "都": "dōu / all; both",
+                  "遇到": "yùdào / to come across; to encounter",
+                  "什么": "shénme / what",
+                  "倒霉": "dǎoméi / unlucky",
+                  "事儿": "shìr / thing; matter",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s8",
+                "cn": "我刚买了一辆自行车，就叫人骑走了，到现在也没送回来。",
+                "split": "我 刚 买 了 一 辆 自行车 就 叫 人 骑 走 了 到 现在 也 没 送回来",
+                "en": "I just bought a bike, and someone rode it away. It hasn't been returned to me yet.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "刚": "gāng / just now",
+                  "买": "mǎi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yí / one",
+                  "辆": "liàng /",
+                  "自行车": "zìxíngchē /",
+                  "就": "jiù / will",
+                  "叫": "jiào / by",
+                  "人": "rén /",
+                  "骑": "qí /",
+                  "走": "zǒu /",
+                  "到": "dào /",
+                  "现在": "xiànzài / now",
+                  "也": "yě / also; too",
+                  "没": "méi / not (past)",
+                  "送回来": "sònghuílai /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s9",
+                "cn": "你还等着给你送回来呀？",
+                "split": "你 还 等 着 给 你 送回来 呀",
+                "en": "You're still waiting for it to be returned?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "还": "hái / still; also",
+                  "等": "děng /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "给": "gěi / give; for",
+                  "送回来": "sònghuílai /",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s10",
+                "cn": "上星期跟朋友一起去长城，出发时天气好好儿的，没想到，刚到就下雨了。",
+                "split": "上星期 跟 朋友 一起 去 长 城 出发 时 天气 好好儿 的 没想到 刚到 就 下 雨 了",
+                "en": "Last week I went to the Great Wall with a friend. The weather was fine when we set out, but unexpectedly it started raining as soon as we arrived.",
+                "dict": {
+                  "上星期": "shàngxīngqī /",
+                  "跟": "gēn / with",
+                  "朋友": "péngyǒu / friend",
+                  "一起": "yìqǐ / together",
+                  "去": "qù / to go",
+                  "长": "cháng / to look; to appear",
+                  "城": "chéng /",
+                  "出发": "chūfā / to set off, depart",
+                  "时": "shí /",
+                  "天气": "tiānqì / weather",
+                  "好好儿": "hǎohǎor /",
+                  "的": "de / (possessive/modifier particle)",
+                  "没想到": "méixiǎngdào /",
+                  "刚到": "gāngdào /",
+                  "就": "jiù / will",
+                  "下": "xià / used after a verb to indicate room or space",
+                  "雨": "yǔ /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s11",
+                "cn": "雨下得还特别大，我们又没带雨伞，个个都被淋得像落汤鸡似的，衣服全都湿了。",
+                "split": "雨下 得 还 特别 大 我们 又 没带 雨伞 个个 都 被 淋 得 像 落汤鸡 似的 衣服 全都 湿 了",
+                "en": "It rained really hard, and we hadn't brought umbrellas, so everyone got soaked through like drowned rats, and our clothes were all wet.",
+                "dict": {
+                  "雨下": "yǔxià /",
+                  "得": "de /",
+                  "还": "hái / still; also",
+                  "特别": "tèbié / especially",
+                  "大": "dà /",
+                  "我们": "wǒmen / we; us",
+                  "又": "yòu / again",
+                  "没带": "méidài /",
+                  "雨伞": "yǔsǎn / umbrella",
+                  "个个": "gège /",
+                  "都": "dōu / all; both",
+                  "被": "bèi / by",
+                  "淋": "lín / to pour; to drench",
+                  "像": "xiàng /",
+                  "落汤鸡": "luòtāngjī / (of a person) like a drenched chicken; to be soaked through",
+                  "似的": "shìde /",
+                  "衣服": "yīfú / clothes",
+                  "全都": "quándōu /",
+                  "湿": "shī / wet; moist; damp; humid",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s12",
+                "cn": "前天我坐出租车要去“首都剧场”，差点儿被司机拉到“首都机场”。",
+                "split": "前天 我 坐 出租车 要 去 首都剧场 差点儿 被 司机 拉 到 首都机场",
+                "en": "The day before yesterday I took a taxi to the Capital Theatre, but the driver almost took me to the Capital Airport instead.",
+                "dict": {
+                  "前天": "qiántiān /",
+                  "我": "wǒ / I; me",
+                  "坐": "zuò /",
+                  "出租车": "chūzūchē / taxi",
+                  "要": "yào / want; need; will",
+                  "去": "qù / to go",
+                  "首都剧场": "shǒudūjùchǎng /",
+                  "差点儿": "chàdiǎnr /",
+                  "被": "bèi / by",
+                  "司机": "sījī / driver",
+                  "拉": "lā / to carry; to transport",
+                  "到": "dào /",
+                  "首都机场": "shǒudūjīchǎng /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s13",
+                "cn": "他说我的音发得不准，把“剧场”说成“机场”了。",
+                "split": "他 说 我 的 音发 得 不准 把 剧场 说成 机场 了",
+                "en": "He said my pronunciation wasn't accurate, so I said “juchang” (theatre) as “jichang” (airport).",
+                "dict": {
+                  "他": "tā / he; him",
+                  "说": "shuō / to say; to speak",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "音发": "yīnfā /",
+                  "得": "de /",
+                  "不准": "bùzhǔn / inaccurate",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "剧场": "jùchǎng / theater",
+                  "说成": "shuōchéng /",
+                  "机场": "jīchǎng / airport",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s14",
+                "cn": "你说可气不可气？",
+                "split": "你 说 可气 不可 气",
+                "en": "Isn't that infuriating?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "可气": "kěqì / annoying",
+                  "不可": "bùkě /",
+                  "气": "qì /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s15",
+                "cn": "怎么倒霉的事儿都让你碰上了？",
+                "split": "怎么 倒霉 的 事儿 都 让 你 碰上 了",
+                "en": "How come all the unlucky things happen to you?",
+                "dict": {
+                  "怎么": "zěnme / how; why",
+                  "倒霉": "dǎoméi / unlucky",
+                  "的": "de / (possessive/modifier particle)",
+                  "事儿": "shìr / thing; matter",
+                  "都": "dōu / all; both",
+                  "让": "ràng / by",
+                  "你": "nǐ / you",
+                  "碰上": "pèngshàng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s16",
+                "cn": "所以，前几天我遇到一个算命的，就叫他给我算了一下儿。",
+                "split": "所以 前 几 天 我 遇到 一 个 算命 的 就 叫 他 给 我 算 了 一下儿",
+                "en": "So the other day I ran into a fortune teller and had him tell my fortune.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "前": "qián / front; before",
+                  "几": "jǐ / how many; several",
+                  "天": "tiān /",
+                  "我": "wǒ / I; me",
+                  "遇到": "yùdào / to come across; to encounter",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "算命": "suànmìng / (superstition) to tell sb.'s fortune",
+                  "的": "de / (possessive/modifier particle)",
+                  "就": "jiù / will",
+                  "叫": "jiào / by",
+                  "他": "tā / he; him",
+                  "给": "gěi / give; for",
+                  "算": "suàn /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一下儿": "yíxiàr / a bit"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s17",
+                "cn": "结果怎么样？",
+                "split": "结果 怎么样",
+                "en": "What was the result?",
+                "dict": {
+                  "结果": "jiéguǒ / result",
+                  "怎么样": "zěnmeyàng / how about"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s18",
+                "cn": "他说我今年运气不太好，明年就好了。",
+                "split": "他 说 我 今年 运气 不 太 好 明年 就 好 了",
+                "en": "He said my luck isn't great this year, but it will be good next year.",
+                "dict": {
+                  "他": "tā / he; him",
+                  "说": "shuō / to say; to speak",
+                  "我": "wǒ / I; me",
+                  "今年": "jīnnián / this year",
+                  "运气": "yùnqì / luck",
+                  "不": "bú / not",
+                  "太": "tài / too; excessively",
+                  "好": "hǎo / good; well; OK",
+                  "明年": "míngnián / next year",
+                  "就": "jiù / will",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s19",
+                "cn": "为了感谢他，我给了他一百块钱。",
+                "split": "为了 感谢 他 我 给 了 他 一 百 块 钱",
+                "en": "To thank him, I gave him a hundred yuan.",
+                "dict": {
+                  "为了": "wèile /",
+                  "感谢": "gǎnxiè /",
+                  "他": "tā / he; him",
+                  "我": "wǒ / I; me",
+                  "给": "gěi / give; for",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "百": "bǎi /",
+                  "块": "kuài /",
+                  "钱": "qián /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s20",
+                "cn": "朋友们都说我傻，花钱受骗。",
+                "split": "朋友 们 都 说 我 傻 花钱 受骗",
+                "en": "My friends all said I was foolish, that I had paid to be cheated.",
+                "dict": {
+                  "朋友": "péngyǒu / friend",
+                  "们": "men /",
+                  "都": "dōu / all; both",
+                  "说": "shuō / to say; to speak",
+                  "我": "wǒ / I; me",
+                  "傻": "shǎ / brainless; foolish; stupid",
+                  "花钱": "huāqián /",
+                  "受骗": "shòupiàn / to be deceived; to be fooled"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s21",
+                "cn": "没想到，那天跟大家一起去爬山，因为在山上抽烟，又被公园管理员罚了五十块钱。",
+                "split": "没想到 那 天 跟 大家 一起 去 爬山 因为 在 山上 抽烟 又 被 公园 管理员 罚 了 五十块 钱",
+                "en": "Unexpectedly, the other day when we went mountain climbing together, I was fined fifty yuan by the park ranger for smoking on the mountain.",
+                "dict": {
+                  "没想到": "méixiǎngdào /",
+                  "那": "nà / that",
+                  "天": "tiān /",
+                  "跟": "gēn / with",
+                  "大家": "dàjiā / everyone",
+                  "一起": "yìqǐ / together",
+                  "去": "qù / to go",
+                  "爬山": "páshān / mountain climbing",
+                  "因为": "yīnwèi / because",
+                  "在": "zài / to be at; (at)",
+                  "山上": "shānshàng /",
+                  "抽烟": "chōuyān / to smoke",
+                  "又": "yòu / again",
+                  "被": "bèi / by",
+                  "公园": "gōngyuán / park",
+                  "管理员": "guǎnlǐyuán / custodian; manager",
+                  "罚": "fá / to punish; to fine",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "五十块": "wǔshíkuài /",
+                  "钱": "qián /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s22",
+                "cn": "你说倒霉不倒霉？",
+                "split": "你 说 倒霉 不 倒霉",
+                "en": "Don't you think that's bad luck?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "倒霉": "dǎoméi / unlucky",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s23",
+                "cn": "要是山上的树被你点着了，就更倒霉了。",
+                "split": "要是 山上 的 树 被 你 点 着 了 就 更 倒霉 了",
+                "en": "If you had set the trees on the mountain on fire, that would have been even worse luck.",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "山上": "shānshàng /",
+                  "的": "de / (possessive/modifier particle)",
+                  "树": "shù /",
+                  "被": "bèi / by",
+                  "你": "nǐ / you",
+                  "点": "diǎn / to light; to kindle",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "就": "jiù / will",
+                  "更": "gèng / more",
+                  "倒霉": "dǎoméi / unlucky"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s24",
+                "cn": "你说得也对。",
+                "split": "你 说 得 也 对",
+                "en": "You're right.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "得": "de /",
+                  "也": "yě / also; too",
+                  "对": "duì / couple; pair"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s25",
+                "cn": "所以从下星期起，我决定把烟戒掉，不抽了。",
+                "split": "所以 从 下星期 起 我 决定 把 烟 戒掉 不 抽 了",
+                "en": "So starting next week, I've decided to quit smoking.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "从": "cóng / from",
+                  "下星期": "xiàxīngqī /",
+                  "起": "qǐ / a measure word for accidents, etc.",
+                  "我": "wǒ / I; me",
+                  "决定": "juédìng / to decide; decision",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "烟": "yān / cigarette",
+                  "戒掉": "jièdiào /",
+                  "不": "bù / not",
+                  "抽": "chōu / to find (time)",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s26",
+                "cn": "为什么从下星期开始呢？",
+                "split": "为什么 从 下星期 开始 呢",
+                "en": "Why start next week?",
+                "dict": {
+                  "为什么": "wèishénme / why",
+                  "从": "cóng / from",
+                  "下星期": "xiàxīngqī /",
+                  "开始": "kāishǐ / start; begin",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l19-t2-s27",
+                "cn": "我的烟还能抽到下星期，要是不抽完就浪费了。",
+                "split": "我 的 烟 还 能 抽到 下星期 要是 不 抽 完 就 浪费 了",
+                "en": "My cigarettes will last until next week. It would be wasteful not to finish them.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "烟": "yān / cigarette",
+                  "还": "hái / still; also",
+                  "能": "néng / can; able to",
+                  "抽到": "chōudào /",
+                  "下星期": "xiàxīngqī /",
+                  "要是": "yàoshì /",
+                  "不": "bù / not",
+                  "抽": "chōu / to find (time)",
+                  "完": "wán /",
+                  "就": "jiù / will",
+                  "浪费": "làngfèi / to waste",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson20",
+        "title": "第 20 课  我看得懂，但是听不懂",
+        "titleEn": "Lesson 20",
+        "texts": [
+          {
+            "id": "hj2b-l20-t1",
+            "label": "（一）我看得懂，但是听不懂",
+            "sentences": [
+              {
+                "id": "hj2b-l20-t1-s1",
+                "cn": "你看过京剧吗？",
+                "split": "你 看 过 京剧 吗",
+                "en": "Have you ever watched Peking Opera?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "看": "kàn / to look; to see; to visit",
+                  "过": "guo /",
+                  "京剧": "jīngjù / Peking opera",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s2",
+                "cn": "看过一次。",
+                "split": "看 过 一 次",
+                "en": "I've watched it once.",
+                "dict": {
+                  "看": "kàn / to look; to see; to visit",
+                  "过": "guo /",
+                  "一": "yí / one",
+                  "次": "cì /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s3",
+                "cn": "看得懂吗？",
+                "split": "看 得 懂 吗",
+                "en": "Can you understand it?",
+                "dict": {
+                  "看": "kàn / to look; to see; to visit",
+                  "得": "de /",
+                  "懂": "dǒng /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s4",
+                "cn": "看得懂，但是听不懂。",
+                "split": "看 得 懂 但是 听不懂",
+                "en": "I can understand the scenes, but not the lines.",
+                "dict": {
+                  "看": "kàn / to look; to see; to visit",
+                  "得": "de /",
+                  "懂": "dǒng /",
+                  "但是": "dànshì / but; however",
+                  "听不懂": "tīngbùdǒng /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s5",
+                "cn": "看了演出能猜出大概的意思。",
+                "split": "看 了 演出 能 猜出 大概 的 意思",
+                "en": "After watching the performance, I can guess the general meaning.",
+                "dict": {
+                  "看": "kàn / to look; to see; to visit",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "演出": "yǎnchū / to perform; to put on a show",
+                  "能": "néng / can; able to",
+                  "猜出": "cāichū /",
+                  "大概": "dàgài / roughly, about",
+                  "的": "de / (possessive/modifier particle)",
+                  "意思": "yìsi / meaning"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s6",
+                "cn": "我也是，一点儿也听不懂演员唱的是什么，只是觉得很热闹。",
+                "split": "我 也 是 一点儿 也 听不懂 演员 唱 的 是 什么 只是 觉得 很 热闹",
+                "en": "Me too. I can't understand a single word of what the actors sing, I just find it very lively.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "也": "yě / also; too",
+                  "是": "shì / to be (am/is/are)",
+                  "一点儿": "yìdiǎnr / a little bit",
+                  "听不懂": "tīngbùdǒng /",
+                  "演员": "yǎnyuán / actor; actress",
+                  "唱": "chàng /",
+                  "的": "de / (possessive/modifier particle)",
+                  "什么": "shénme / what",
+                  "只是": "zhǐshì /",
+                  "觉得": "juéde / feel; think",
+                  "很": "hěn / very",
+                  "热闹": "rènào / lively; bustling"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s7",
+                "cn": "我觉得京剧唱得特别好听，武打动作也很精彩。",
+                "split": "我 觉得 京剧 唱 得 特别 好听 武打 动作 也 很 精彩",
+                "en": "I think the singing in Peking Opera is really beautiful, and the acrobatic fighting is wonderful too.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "觉得": "juéde / feel; think",
+                  "京剧": "jīngjù / Peking opera",
+                  "唱": "chàng /",
+                  "得": "de /",
+                  "特别": "tèbié / especially",
+                  "好听": "hǎotīng /",
+                  "武打": "wǔdǎ / acrobatic fighting",
+                  "动作": "dòngzuò / movement; motion",
+                  "也": "yě / also; too",
+                  "很": "hěn / very",
+                  "精彩": "jīngcǎi / wonderful; splendid"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s8",
+                "cn": "京剧的服装也很美，我想买一套带回国去。",
+                "split": "京剧 的 服装 也 很 美 我 想 买 一 套 带 回国 去",
+                "en": "The costumes in Peking Opera are also very beautiful. I want to buy a set and take it home.",
+                "dict": {
+                  "京剧": "jīngjù / Peking opera",
+                  "的": "de / (possessive/modifier particle)",
+                  "服装": "fúzhuāng / clothing; costume",
+                  "也": "yě / also; too",
+                  "很": "hěn / very",
+                  "美": "měi /",
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "买": "mǎi /",
+                  "一": "yí / one",
+                  "套": "tào /",
+                  "带": "dài / belt",
+                  "回国": "huíguó /",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s9",
+                "cn": "你怎么这么喜欢京剧呢？",
+                "split": "你 怎么 这么 喜欢 京剧 呢",
+                "en": "Why do you like Peking Opera so much?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "怎么": "zěnme / how; why",
+                  "这么": "zhème / so",
+                  "喜欢": "xǐhuān / like; love",
+                  "京剧": "jīngjù / Peking opera",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s10",
+                "cn": "我是受中文老师的影响，他可是一个京剧迷。",
+                "split": "我 是 受 中文 老师 的 影响 他 可是 一 个 京剧迷",
+                "en": "It's because of my Chinese teacher's influence. He's a real Peking Opera fan.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "是": "shì / to be (am/is/are)",
+                  "受": "shòu / to receive; to suffer",
+                  "中文": "zhōngwén / Chinese language",
+                  "老师": "lǎoshī / teacher",
+                  "的": "de / (possessive/modifier particle)",
+                  "影响": "yǐngxiǎng / to influence; influence",
+                  "他": "tā / he; him",
+                  "可是": "kěshì / but; however",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "京剧迷": "jīngjùmí /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s11",
+                "cn": "要是有时间的话，咱们一起去看一次，好吗？",
+                "split": "要是 有 时间 的话 咱们 一起 去 看 一 次 好 吗",
+                "en": "If you have time, let's go watch it together sometime, okay?",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "有": "yǒu / to have",
+                  "时间": "shíjiān / time",
+                  "的话": "dehuà / (used at the end of a conditional clause) if",
+                  "咱们": "zánmen / we (inclusive)",
+                  "一起": "yìqǐ / together",
+                  "去": "qù / to go",
+                  "看": "kàn / to look; to see; to visit",
+                  "一": "yí / one",
+                  "次": "cì /",
+                  "好": "hǎo / good; well; OK",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l20-t1-s12",
+                "cn": "好啊。",
+                "split": "好 啊",
+                "en": "Sure.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "啊": "a / (interjection)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l20-t2",
+            "label": "（二）她有事，去不了",
+            "sentences": [
+              {
+                "id": "hj2b-l20-t2-s1",
+                "cn": "昨天我给山本打电话，约她晚上一起去看京剧。",
+                "split": "昨天 我 给 山本 打 电话 约 她 晚上 一起 去 看 京剧",
+                "en": "Yesterday I called Yamamoto to ask her to go to a Peking Opera performance together in the evening.",
+                "dict": {
+                  "昨天": "zuótiān / yesterday",
+                  "我": "wǒ / I; me",
+                  "给": "gěi / give; for",
+                  "山本": "shānběn /",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "电话": "diànhuà / telephone; phone",
+                  "约": "yuē / to make an appointment in advance; to invite in advance",
+                  "她": "tā / she; her",
+                  "晚上": "wǎnshàng / evening",
+                  "一起": "yìqǐ / together",
+                  "去": "qù / to go",
+                  "看": "kàn / to look; to see; to visit",
+                  "京剧": "jīngjù / Peking opera"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s2",
+                "cn": "但是她说晚上有事，去不了。",
+                "split": "但是 她 说 晚上 有事 去 不 了",
+                "en": "But she said she had something to do in the evening and couldn't go.",
+                "dict": {
+                  "但是": "dànshì / but; however",
+                  "她": "tā / she; her",
+                  "说": "shuō / to say; to speak",
+                  "晚上": "wǎnshàng / evening",
+                  "有事": "yǒushì /",
+                  "去": "qù / to go",
+                  "不": "bù / not",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s3",
+                "cn": "所以我们就决定今天晚上去。",
+                "split": "所以 我们 就 决定 今天 晚上 去",
+                "en": "So we decided to go this evening instead.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "我们": "wǒmen / we; us",
+                  "就": "jiù / will",
+                  "决定": "juédìng / to decide; decision",
+                  "今天": "jīntiān / today",
+                  "晚上": "wǎnshàng / evening",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s4",
+                "cn": "我们是下午五点半出发的。",
+                "split": "我们 是 下午 五 点 半 出发 的",
+                "en": "We set out at half past five in the afternoon.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "是": "shì / to be (am/is/are)",
+                  "下午": "xiàwǔ / afternoon",
+                  "五": "wǔ /",
+                  "点": "diǎn / to light; to kindle",
+                  "半": "bàn /",
+                  "出发": "chūfā / to set off, depart",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s5",
+                "cn": "正是下班时间，路上人多车也多。",
+                "split": "正是 下班时间 路上 人多车 也 多",
+                "en": "It was rush hour, so there were lots of people and cars on the road.",
+                "dict": {
+                  "正是": "zhèngshì /",
+                  "下班时间": "xiàbānshíjiān /",
+                  "路上": "lùshàng /",
+                  "人多车": "rénduōchē /",
+                  "也": "yě / also; too",
+                  "多": "duō / many; much"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s6",
+                "cn": "公共汽车上不去，我们只好打的。",
+                "split": "公共汽车 上 不 去 我们 只好 打 的",
+                "en": "We couldn't get on the bus, so we had to take a taxi.",
+                "dict": {
+                  "公共汽车": "gōnggòngqìchē /",
+                  "上": "shàng / to attend (a class)",
+                  "不": "bú / not",
+                  "去": "qù / to go",
+                  "我们": "wǒmen / we; us",
+                  "只好": "zhǐhǎo / have to; cannot but",
+                  "打": "dǎ / to hit; to make (a phone call)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s7",
+                "cn": "我担心买不到票，但是山本说，票好买，肯定买得到。",
+                "split": "我 担心 买不到 票 但是 山本 说 票 好 买 肯定 买 得到",
+                "en": "I worried we wouldn't be able to get tickets, but Yamamoto said tickets were easy to buy and we would surely get them.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "担心": "dānxīn / to be anxious about; to worry about",
+                  "买不到": "mǎibúdào /",
+                  "票": "piào / ticket",
+                  "但是": "dànshì / but; however",
+                  "山本": "shānběn /",
+                  "说": "shuō / to say; to speak",
+                  "好": "hǎo / good; well; OK",
+                  "买": "mǎi /",
+                  "肯定": "kěndìng / definitely",
+                  "得到": "dédào /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s8",
+                "cn": "到了剧场，山本说要买前十排的，因为她的眼睛不太好，坐得太远看不清楚。",
+                "split": "到 了 剧场 山本 说 要 买 前 十 排 的 因为 她 的 眼睛 不 太 好 坐 得 太 远 看不清楚",
+                "en": "At the theatre, Yamamoto said we should buy tickets in the first ten rows, because her eyesight isn't very good and she can't see clearly from far away.",
+                "dict": {
+                  "到": "dào /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "剧场": "jùchǎng / theater",
+                  "山本": "shānběn /",
+                  "说": "shuō / to say; to speak",
+                  "要": "yào / want; need; will",
+                  "买": "mǎi /",
+                  "前": "qián / front; before",
+                  "十": "shí /",
+                  "排": "pái / row; line",
+                  "的": "de / (possessive/modifier particle)",
+                  "因为": "yīnwèi / because",
+                  "她": "tā / she; her",
+                  "眼睛": "yǎnjīng /",
+                  "不": "bú / not",
+                  "太": "tài / too; excessively",
+                  "好": "hǎo / good; well; OK",
+                  "坐": "zuò /",
+                  "得": "de /",
+                  "远": "yuǎn /",
+                  "看不清楚": "kànbùqīngchǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s9",
+                "cn": "但是，前十排的票都卖完了，没买到，我们买的是十二排的。",
+                "split": "但是 前 十 排 的 票 都 卖完 了 没买 到 我们 买 的 是 十 二 排 的",
+                "en": "But the tickets for the first ten rows were all sold out, so we couldn't get them, and we bought seats in row twelve instead.",
+                "dict": {
+                  "但是": "dànshì / but; however",
+                  "前": "qián / front; before",
+                  "十": "shí /",
+                  "排": "pái / row; line",
+                  "的": "de / (possessive/modifier particle)",
+                  "票": "piào / ticket",
+                  "都": "dōu / all; both",
+                  "卖完": "màiwán /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "没买": "méimǎi / didn't buy",
+                  "到": "dào /",
+                  "我们": "wǒmen / we; us",
+                  "买": "mǎi /",
+                  "是": "shì / to be (am/is/are)",
+                  "二": "èr / two"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s10",
+                "cn": "这个剧场不大，估计坐不下一千人。",
+                "split": "这 个 剧场 不 大 估计 坐 不下 一 千 人",
+                "en": "The theatre isn't big. I don't think it can seat a thousand people.",
+                "dict": {
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "剧场": "jùchǎng / theater",
+                  "不": "bú / not",
+                  "大": "dà /",
+                  "估计": "gūjì / to reckon; to estimate",
+                  "坐": "zuò /",
+                  "不下": "búxià /",
+                  "一": "yì / one",
+                  "千": "qiān /",
+                  "人": "rén /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s11",
+                "cn": "离开演还有十多分钟，人差不多都坐满了。",
+                "split": "离开 演 还 有 十 多分钟 人 差不多 都 坐满 了",
+                "en": "There were still over ten minutes before the performance started, and the seats were almost all taken.",
+                "dict": {
+                  "离开": "líkāi / to leave",
+                  "演": "yǎn / to play; to act; to perform",
+                  "还": "hái / still; also",
+                  "有": "yǒu / to have",
+                  "十": "shí /",
+                  "多分钟": "duōfēnzhōng /",
+                  "人": "rén /",
+                  "差不多": "chàbùduō /",
+                  "都": "dōu / all; both",
+                  "坐满": "zuòmǎn /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s12",
+                "cn": "我拿了一张节目单。",
+                "split": "我 拿 了 一 张 节目单",
+                "en": "I picked up a program.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "拿": "ná /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "张": "zhāng / Zhang (surname)",
+                  "节目单": "jiémùdān / playbill; menu"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s13",
+                "cn": "上面全是中文，没有英文，我看不懂。",
+                "split": "上面 全是 中文 没有 英文 我 看不懂",
+                "en": "It was all in Chinese, with no English, so I couldn't understand it.",
+                "dict": {
+                  "上面": "shàngmiàn /",
+                  "全是": "quánshì /",
+                  "中文": "zhōngwén / Chinese language",
+                  "没有": "méiyǒu / not have; haven't",
+                  "英文": "yīngwén / English language",
+                  "我": "wǒ / I; me",
+                  "看不懂": "kànbùdǒng /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s14",
+                "cn": "山本看了看说：“这是一个古代神话故事。",
+                "split": "山本 看 了 看 说 这 是 一 个 古代 神话故事",
+                "en": "Yamamoto looked at it and said, “This is an ancient fairy tale.",
+                "dict": {
+                  "山本": "shānběn /",
+                  "看": "kàn / to look; to see; to visit",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "说": "shuō / to say; to speak",
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "古代": "gǔdài / ancient times",
+                  "神话故事": "shénhuàgùshì /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s15",
+                "cn": "说的是天上一个仙女，很羡慕人间的生活，就偷偷儿来到人间，跟一个小伙子结了婚。",
+                "split": "说 的 是 天上 一 个 仙女 很 羡慕 人间 的 生活 就 偷偷 儿 来到 人间 跟 一 个 小伙子 结了婚",
+                "en": "It tells of a fairy in heaven who envied life on earth, so she secretly came down to the human world and married a young man.",
+                "dict": {
+                  "说": "shuō / to say; to speak",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "天上": "tiānshàng / sky; heaven",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "仙女": "xiānnǚ / fairy maiden; female immortal",
+                  "很": "hěn / very",
+                  "羡慕": "xiànmù / to admire; to envy",
+                  "人间": "rénjiān / world; human world",
+                  "生活": "shēnghuó /",
+                  "就": "jiù / will",
+                  "偷偷": "tōutou /",
+                  "儿": "ér /",
+                  "来到": "láidào /",
+                  "跟": "gēn / with",
+                  "小伙子": "xiǎohuǒzi / young man; lad",
+                  "结了婚": "jiélehūn /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s16",
+                "cn": "后边的内容我也看不懂。",
+                "split": "后边 的 内容 我 也 看不懂",
+                "en": "I can't understand the rest of it either.",
+                "dict": {
+                  "后边": "hòubiān /",
+                  "的": "de / (possessive/modifier particle)",
+                  "内容": "nèiróng / content; substance",
+                  "我": "wǒ / I; me",
+                  "也": "yě / also; too",
+                  "看不懂": "kànbùdǒng /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s17",
+                "cn": "不过，不用担心，看不懂节目单，一定看得懂表演。”",
+                "split": "不过 不用 担心 看不懂 节目单 一定 看 得 懂 表演",
+                "en": "But don't worry. Even if you can't understand the program, you'll surely understand the performance.”",
+                "dict": {
+                  "不过": "búguò / but; however",
+                  "不用": "búyòng / no need",
+                  "担心": "dānxīn / to be anxious about; to worry about",
+                  "看不懂": "kànbùdǒng /",
+                  "节目单": "jiémùdān / playbill; menu",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "看": "kàn / to look; to see; to visit",
+                  "得": "de /",
+                  "懂": "dǒng /",
+                  "表演": "biǎoyǎn / to perform"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s18",
+                "cn": "看完以后，我大概看懂了这个故事。",
+                "split": "看 完 以后 我 大概 看 懂 了 这 个 故事",
+                "en": "After the show, I more or less understood the story.",
+                "dict": {
+                  "看": "kàn / to look; to see; to visit",
+                  "完": "wán /",
+                  "以后": "yǐhòu / after",
+                  "我": "wǒ / I; me",
+                  "大概": "dàgài / roughly, about",
+                  "懂": "dǒng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "故事": "gùshì /"
+                }
+              },
+              {
+                "id": "hj2b-l20-t2-s19",
+                "cn": "我对山本说，以后周末，我们还来看吧，京剧真有意思。",
+                "split": "我 对 山本 说 以后 周末 我们 还 来看 吧 京剧 真 有意思",
+                "en": "I said to Yamamoto that we should come again on weekends, because Peking Opera is really interesting.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "对": "duì / couple; pair",
+                  "山本": "shānběn /",
+                  "说": "shuō / to say; to speak",
+                  "以后": "yǐhòu / after",
+                  "周末": "zhōumò /",
+                  "我们": "wǒmen / we; us",
+                  "还": "hái / still; also",
+                  "来看": "láikàn /",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "京剧": "jīngjù / Peking opera",
+                  "真": "zhēn / really; truly",
+                  "有意思": "yǒuyìsi /"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson21",
+        "title": "第 21 课  山这么高，你爬得上去吗",
+        "titleEn": "Lesson 21",
+        "texts": [
+          {
+            "id": "hj2b-l21-t1",
+            "label": "（一）山这么高，你爬得上去吗",
+            "sentences": [
+              {
+                "id": "hj2b-l21-t1-s1",
+                "cn": "王老师，咱们怎么上山？坐缆车上去还是爬上去？",
+                "split": "王 老师 咱们 怎么 上山 坐 缆车 上去 还是 爬上去",
+                "en": "Mr. Wang, how are we going up the mountain? By cable car or on foot?",
+                "dict": {
+                  "王": "wáng /",
+                  "老师": "lǎoshī / teacher",
+                  "咱们": "zánmen / we (inclusive)",
+                  "怎么": "zěnme / how; why",
+                  "上山": "shàngshān /",
+                  "坐": "zuò /",
+                  "缆车": "lǎnchē / cable car",
+                  "上去": "shàngqu /",
+                  "还是": "háishì / or",
+                  "爬上去": "páshàngqu /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s2",
+                "cn": "别坐缆车了。跟同学们一起爬上去吧。",
+                "split": "别 坐 缆车 了 跟 同学们 一起 爬上去 吧",
+                "en": "Let's not take the cable car. Let's climb up together with the students.",
+                "dict": {
+                  "别": "bié / don't",
+                  "坐": "zuò /",
+                  "缆车": "lǎnchē / cable car",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "跟": "gēn / with",
+                  "同学们": "tóngxuémen / classmates",
+                  "一起": "yìqǐ / together",
+                  "爬上去": "páshàngqu /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s3",
+                "cn": "山这么高，你爬得上去吗？",
+                "split": "山 这么 高 你 爬 得 上去 吗",
+                "en": "The mountain is so high. Can you climb up?",
+                "dict": {
+                  "山": "shān /",
+                  "这么": "zhème / so",
+                  "高": "gāo /",
+                  "你": "nǐ / you",
+                  "爬": "pá /",
+                  "得": "de /",
+                  "上去": "shàngqu /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s4",
+                "cn": "没问题。爬得上去。",
+                "split": "没 问题 爬 得 上去",
+                "en": "No problem. I can climb it.",
+                "dict": {
+                  "没": "méi / not (past)",
+                  "问题": "wèntí / problem",
+                  "爬": "pá /",
+                  "得": "de /",
+                  "上去": "shàngqu /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s5",
+                "cn": "美英，我看你累得都喘不上气来了，还爬得动吗？",
+                "split": "美英 我 看 你 累 得 都 喘 不 上 气来 了 还 爬 得动 吗",
+                "en": "Meiying, I see you're so tired you can hardly catch your breath. Can you still keep going?",
+                "dict": {
+                  "美英": "měiyīng /",
+                  "我": "wǒ / I; me",
+                  "看": "kàn / to look; to see; to visit",
+                  "你": "nǐ / you",
+                  "累": "lèi / tired",
+                  "得": "de /",
+                  "都": "dōu / all; both",
+                  "喘": "chuǎn /",
+                  "不": "bú / not",
+                  "上": "shàng / to attend (a class)",
+                  "气来": "qìlái /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "还": "hái / still; also",
+                  "爬": "pá /",
+                  "得动": "dédòng /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s6",
+                "cn": "爬得动。",
+                "split": "爬 得 动",
+                "en": "Yes, I can.",
+                "dict": {
+                  "爬": "pá /",
+                  "得": "de /",
+                  "动": "dòng / to move"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s7",
+                "cn": "别着急，一步一步地往上爬，爬不动的时候就休息一会儿。",
+                "split": "别着急 一 步 一 步 地 往上爬 爬不动 的 时候 就 休息 一会儿",
+                "en": "Don't rush. Climb up step by step, and rest a while whenever you can't go on.",
+                "dict": {
+                  "别着急": "biézháojí /",
+                  "一": "yi / one",
+                  "步": "bù / step",
+                  "地": "de /",
+                  "往上爬": "wǎngshàngpá /",
+                  "爬不动": "pábúdòng /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "就": "jiù / will",
+                  "休息": "xiūxī / to rest",
+                  "一会儿": "yíhuìr / a while"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s8",
+                "cn": "走，咱们一起爬，要坚持到底，坚持就是胜利！",
+                "split": "走 咱们 一起 爬 要 坚持到底 坚持 就 是 胜利",
+                "en": "Come on, let's climb together. We must persevere to the end. Persistence means victory!",
+                "dict": {
+                  "走": "zǒu /",
+                  "咱们": "zánmen / we (inclusive)",
+                  "一起": "yìqǐ / together",
+                  "爬": "pá /",
+                  "要": "yào / want; need; will",
+                  "坚持到底": "jiānchídàodǐ /",
+                  "坚持": "jiānchí / to persist; to keep on",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "胜利": "shènglì / to succeed; to win a victory"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s9",
+                "cn": "刚爬一会儿就出了一身汗，我休息一会儿再接着爬，比不了你们年轻人啦。",
+                "split": "刚 爬 一会儿 就 出 了 一 身 汗 我 休息 一会儿 再 接 着 爬 比 不 了 你们 年轻人 啦",
+                "en": "I'm already sweating all over after climbing for just a moment. Let me rest a while before continuing. I can't compete with you young people.",
+                "dict": {
+                  "刚": "gāng / just now",
+                  "爬": "pá /",
+                  "一会儿": "yíhuìr / a while",
+                  "就": "jiù / will",
+                  "出": "chū /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "身": "shēn /",
+                  "汗": "hàn / sweat",
+                  "我": "wǒ / I; me",
+                  "休息": "xiūxī / to rest",
+                  "再": "zài / again (future)",
+                  "接": "jiē / to answer (a call); to receive",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "比": "bǐ / to compare",
+                  "不": "bù / not",
+                  "你们": "nǐmen / you (plural)",
+                  "年轻人": "niánqīngrén /",
+                  "啦": "la /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s10",
+                "cn": "啊，看，王老师也爬上来了。",
+                "split": "啊 看 王 老师 也 爬上来 了",
+                "en": "Ah, look, Mr. Wang has climbed up too.",
+                "dict": {
+                  "啊": "a / (interjection)",
+                  "看": "kàn / to look; to see; to visit",
+                  "王": "wáng /",
+                  "老师": "lǎoshī / teacher",
+                  "也": "yě / also; too",
+                  "爬上来": "páshànglai /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s11",
+                "cn": "麦克，别从那儿上，太危险了。要注意安全。",
+                "split": "麦克 别 从 那儿 上 太 危险 了 要 注 意 安 全",
+                "en": "Mike, don't go up that way. It's too dangerous. You must pay attention to safety.",
+                "dict": {
+                  "麦克": "màikè / Mike (name)",
+                  "别": "bié / don't",
+                  "从": "cóng / from",
+                  "那儿": "nàr / there",
+                  "上": "shàng / to attend (a class)",
+                  "太": "tài / too; excessively",
+                  "危险": "wēixiǎn / dangerous; danger",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "要": "yào / want; need; will",
+                  "注": "zhù /",
+                  "意": "yì /",
+                  "安": "ān /",
+                  "全": "quán /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t1-s12",
+                "cn": "知道了。",
+                "split": "知道 了",
+                "en": "Got it.",
+                "dict": {
+                  "知道": "zhīdào / know",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l21-t2",
+            "label": "（二）我担心自己演不好",
+            "sentences": [
+              {
+                "id": "hj2b-l21-t2-s1",
+                "cn": "爱德华，咱们班参加联欢会的节目准备得怎么样了？",
+                "split": "爱德华 咱们 班 参加 联欢会 的 节目 准备 得 怎么样 了",
+                "en": "Edward, how is the preparation for our class's performance at the get-together coming along?",
+                "dict": {
+                  "爱德华": "àidéhuá /",
+                  "咱们": "zánmen / we (inclusive)",
+                  "班": "bān /",
+                  "参加": "cānjiā / to participate",
+                  "联欢会": "liánhuānhuì / get-together; party",
+                  "的": "de / (possessive/modifier particle)",
+                  "节目": "jiémù / program",
+                  "准备": "zhǔnbèi / prepare",
+                  "得": "de /",
+                  "怎么样": "zěnmeyàng / how about",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s2",
+                "cn": "大家都在积极地准备呢。",
+                "split": "大家 都 在 积极 地 准备 呢",
+                "en": "Everyone is preparing enthusiastically.",
+                "dict": {
+                  "大家": "dàjiā / everyone",
+                  "都": "dōu / all; both",
+                  "在": "zài / to be at; (at)",
+                  "积极": "jījí / active",
+                  "地": "de /",
+                  "准备": "zhǔnbèi / prepare",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s3",
+                "cn": "你表演什么节目？",
+                "split": "你 表演 什么 节目",
+                "en": "What performance are you giving?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "表演": "biǎoyǎn / to perform",
+                  "什么": "shénme / what",
+                  "节目": "jiémù / program"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s4",
+                "cn": "我和麦克说个相声。",
+                "split": "我 和 麦克 说个 相声",
+                "en": "Mike and I are doing a comic dialogue.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "和": "hé / and; with",
+                  "麦克": "màikè / Mike (name)",
+                  "说个": "shuōgè /",
+                  "相声": "xiàngshēng / crosstalk; comic dialogue"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s5",
+                "cn": "可是我总记不住台词，正背台词呢。",
+                "split": "可是 我 总 记不住 台词 正 背台词 呢",
+                "en": "But I keep forgetting my lines, so I'm memorizing them now.",
+                "dict": {
+                  "可是": "kěshì / but; however",
+                  "我": "wǒ / I; me",
+                  "总": "zǒng /",
+                  "记不住": "jìbúzhù /",
+                  "台词": "táicí / actor's lines",
+                  "正": "zhèng / just; right",
+                  "背台词": "bèitáicí /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s6",
+                "cn": "背会了吗？",
+                "split": "背会 了 吗",
+                "en": "Have you memorized them yet?",
+                "dict": {
+                  "背会": "bèihuì /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s7",
+                "cn": "快了。",
+                "split": "快 了",
+                "en": "Almost.",
+                "dict": {
+                  "快": "kuài / quick; hurry",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s8",
+                "cn": "山本，你们的小话剧呢？",
+                "split": "山本 你们 的 小 话剧 呢",
+                "en": "Yamamoto, what about your short play?",
+                "dict": {
+                  "山本": "shānběn /",
+                  "你们": "nǐmen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "小": "xiǎo /",
+                  "话剧": "huàjù / drama; stage play",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s9",
+                "cn": "我们也正在排练呢。",
+                "split": "我们 也 正在 排练 呢",
+                "en": "We're rehearsing too.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "也": "yě / also; too",
+                  "正在": "zhèngzài / in the process of",
+                  "排练": "páiliàn / to rehearse",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s10",
+                "cn": "有的音我发不准，我请田芳一句一句地给我纠正。",
+                "split": "有 的 音 我 发 不准 我 请 田 芳 一 句 一 句 地 给 我 纠正",
+                "en": "I can't pronounce some sounds correctly, so I've asked Tian Fang to correct me sentence by sentence.",
+                "dict": {
+                  "有": "yǒu / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "音": "yīn / sound",
+                  "我": "wǒ / I; me",
+                  "发": "fā / to get rich; to make a fortune",
+                  "不准": "bùzhǔn / inaccurate",
+                  "请": "qǐng / please; invite",
+                  "田": "tián /",
+                  "芳": "fāng /",
+                  "一": "yi / one",
+                  "句": "jù / a measure word for sentences",
+                  "地": "de /",
+                  "给": "gěi / give; for",
+                  "纠正": "jiūzhèng / to correct"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s11",
+                "cn": "谁跟你一起表演？",
+                "split": "谁 跟 你 一起 表演",
+                "en": "Who is performing with you?",
+                "dict": {
+                  "谁": "shuí / who",
+                  "跟": "gēn / with",
+                  "你": "nǐ / you",
+                  "一起": "yìqǐ / together",
+                  "表演": "biǎoyǎn / to perform"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s12",
+                "cn": "原来是玛丽，可是玛丽腿受伤了，参加不了了。",
+                "split": "原来 是 玛丽 可是 玛丽 腿 受伤 了 参加 不 了 了",
+                "en": "It was Mary at first, but she hurt her leg and can't take part anymore.",
+                "dict": {
+                  "原来": "yuánlái /",
+                  "是": "shì / to be (am/is/are)",
+                  "玛丽": "mǎlì / Mary (name)",
+                  "可是": "kěshì / but; however",
+                  "腿": "tuǐ / leg",
+                  "受伤": "shòushāng / to be injured; to be wounded",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "参加": "cānjiā / to participate",
+                  "不": "bù / not"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s13",
+                "cn": "我请罗兰跟我一起表演。",
+                "split": "我 请 罗兰 跟 我 一起 表演",
+                "en": "I've asked Luo Lan to perform with me.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "请": "qǐng / please; invite",
+                  "罗兰": "luólán / Luolan",
+                  "跟": "gēn / with",
+                  "一起": "yìqǐ / together",
+                  "表演": "biǎoyǎn / to perform"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s14",
+                "cn": "我担心自己演不好。",
+                "split": "我 担心 自己 演 不好",
+                "en": "I'm afraid I won't perform well.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "担心": "dānxīn / to be anxious about; to worry about",
+                  "自己": "zìjǐ / oneself",
+                  "演": "yǎn / to play; to act; to perform",
+                  "不好": "bùhǎo / not good"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s15",
+                "cn": "要有自信，相信自己能演好。",
+                "split": "要 有 自信 相信 自己 能演 好",
+                "en": "You must be confident and believe you can do it well.",
+                "dict": {
+                  "要": "yào / want; need; will",
+                  "有": "yǒu / to have",
+                  "自信": "zìxìn / self-confidence; confident",
+                  "相信": "xiāngxìn / to believe",
+                  "自己": "zìjǐ / oneself",
+                  "能演": "néngyǎn /",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s16",
+                "cn": "只要我们好好儿练，就一定能演好。",
+                "split": "只要 我们 好好儿 练 就 一定 能演 好",
+                "en": "As long as we practice hard, we'll surely perform well.",
+                "dict": {
+                  "只要": "zhǐyào / as long as... will...",
+                  "我们": "wǒmen / we; us",
+                  "好好儿": "hǎohǎor /",
+                  "练": "liàn /",
+                  "就": "jiù / will",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "能演": "néngyǎn /",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s17",
+                "cn": "“世上无难事，只怕有心人”嘛！",
+                "split": "世上无难事 只怕有心人 嘛",
+                "en": "As the saying goes, “Nothing in the world is difficult for one who sets his mind to it.”",
+                "dict": {
+                  "世上无难事": "shìshàngwúnánshì /",
+                  "只怕有心人": "zhǐpàyǒuxīnrén /",
+                  "嘛": "ma /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s18",
+                "cn": "我一定努力，争取演出成功。",
+                "split": "我 一定 努力 争取 演出成功",
+                "en": "I'll work hard and strive for a successful performance.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "努力": "nǔlì / hardworking",
+                  "争取": "zhēngqǔ / to strive for; to try to realize",
+                  "演出成功": "yǎnchūchénggōng /"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s19",
+                "cn": "老师，您也给我们表演个节目吧。",
+                "split": "老师 您 也 给 我们 表演 个 节目 吧",
+                "en": "Teacher, please give us a performance too.",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "您": "nín / you (polite)",
+                  "也": "yě / also; too",
+                  "给": "gěi / give; for",
+                  "我们": "wǒmen / we; us",
+                  "表演": "biǎoyǎn / to perform",
+                  "个": "gè / (measure word)",
+                  "节目": "jiémù / program",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s20",
+                "cn": "我准备了一首歌，不过，很长时间没唱了，恐怕唱不好。",
+                "split": "我 准备 了 一 首歌 不过 很 长时间 没唱 了 恐怕 唱 不好",
+                "en": "I've prepared a song, but I haven't sung it for a long time, so I'm afraid I won't sing it well.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "准备": "zhǔnbèi / prepare",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "首歌": "shǒugē /",
+                  "不过": "búguò / but; however",
+                  "很": "hěn / very",
+                  "长时间": "zhǎngshíjiān /",
+                  "没唱": "méichàng /",
+                  "恐怕": "kǒngpà / afraid that...; probably; maybe",
+                  "唱": "chàng /",
+                  "不好": "bùhǎo / not good"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s21",
+                "cn": "老师，这个地方这么小，坐得下二百多人吗？",
+                "split": "老师 这 个 地方 这么 小 坐 得 下 二百多 人 吗",
+                "en": "Teacher, this place is so small. Can it seat more than two hundred people?",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "地方": "dìfāng / place",
+                  "这么": "zhème / so",
+                  "小": "xiǎo /",
+                  "坐": "zuò /",
+                  "得": "de /",
+                  "下": "xià / used after a verb to indicate room or space",
+                  "二百多": "èrbǎiduō /",
+                  "人": "rén /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l21-t2-s22",
+                "cn": "联欢会在楼下小礼堂举行，那儿能坐下三四百人呢。",
+                "split": "联欢会 在 楼下 小礼堂 举行 那儿 能 坐下 三四百 人 呢",
+                "en": "The get-together will be held in the small auditorium downstairs. It can seat three or four hundred people.",
+                "dict": {
+                  "联欢会": "liánhuānhuì / get-together; party",
+                  "在": "zài / to be at; (at)",
+                  "楼下": "lóuxià /",
+                  "小礼堂": "xiǎolǐtáng /",
+                  "举行": "jǔxíng / to hold (event)",
+                  "那儿": "nàr / there",
+                  "能": "néng / can; able to",
+                  "坐下": "zuòxià /",
+                  "三四百": "sānsìbǎi /",
+                  "人": "rén /",
+                  "呢": "ne /"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson22",
+        "title": "第 22 课  我想起来了",
+        "titleEn": "Lesson 22",
+        "texts": [
+          {
+            "id": "hj2b-l22-t1",
+            "label": "（一）我想起来了",
+            "sentences": [
+              {
+                "id": "hj2b-l22-t1-s1",
+                "cn": "喂，是王老师吗？",
+                "split": "喂 是 王 老师 吗",
+                "en": "Hello, is that Mr. Wang?",
+                "dict": {
+                  "喂": "wèi / hello",
+                  "是": "shì / to be (am/is/are)",
+                  "王": "wáng /",
+                  "老师": "lǎoshī / teacher",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s2",
+                "cn": "是。你是……",
+                "split": "是 你 是",
+                "en": "Yes. Who is this...?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "你": "nǐ / you"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s3",
+                "cn": "老师，您听得出来我是谁吗？",
+                "split": "老师 您 听 得 出来 我 是 谁 吗",
+                "en": "Teacher, can you tell who I am?",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "您": "nín / you (polite)",
+                  "听": "tīng /",
+                  "得": "de /",
+                  "出来": "chūlai / come out",
+                  "我": "wǒ / I; me",
+                  "是": "shì / to be (am/is/are)",
+                  "谁": "shuí / who",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s4",
+                "cn": "你是……对不起，声音有点儿熟，但一下子想不起来是谁了。",
+                "split": "你 是 对不起 声音 有点儿 熟 但 一 下 子 想不起来 是 谁 了",
+                "en": "You are... I'm sorry, your voice sounds familiar, but I just can't recall who you are.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "是": "shì / to be (am/is/are)",
+                  "对不起": "duìbùqǐ / sorry",
+                  "声音": "shēngyīn / sound; voice",
+                  "有点儿": "yǒudiǎnr / a bit",
+                  "熟": "shú / familiar",
+                  "但": "dàn /",
+                  "一": "yí / one",
+                  "下": "xià / used after a verb to indicate room or space",
+                  "子": "zi /",
+                  "想不起来": "xiǎngbùqǐlai /",
+                  "谁": "shuí / who",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s5",
+                "cn": "我是您三年前的学生，您还参加过我的婚礼呢。",
+                "split": "我 是 您 三 年 前 的 学生 您 还 参加 过 我 的 婚礼 呢",
+                "en": "I was your student three years ago. You even attended my wedding.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "是": "shì / to be (am/is/are)",
+                  "您": "nín / you (polite)",
+                  "三": "sān /",
+                  "年": "nián /",
+                  "前": "qián / front; before",
+                  "的": "de / (possessive/modifier particle)",
+                  "学生": "xuéshēng / student",
+                  "还": "hái / still; also",
+                  "参加": "cānjiā / to participate",
+                  "过": "guo /",
+                  "婚礼": "hūnlǐ / wedding",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s6",
+                "cn": "啊，我想起来了，海伦！",
+                "split": "啊 我 想起来 了 海伦",
+                "en": "Ah, I remember now, Helen!",
+                "dict": {
+                  "啊": "a / (interjection)",
+                  "我": "wǒ / I; me",
+                  "想起来": "xiǎngqǐlai /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "海伦": "hǎilún /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s7",
+                "cn": "你现在在哪儿？",
+                "split": "你 现在 在 哪儿",
+                "en": "Where are you now?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "现在": "xiànzài / now",
+                  "在": "zài / to be at; (at)",
+                  "哪儿": "nǎr / where"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s8",
+                "cn": "我就在北京。",
+                "split": "我 就 在 北京",
+                "en": "I'm in Beijing.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "就": "jiù / will",
+                  "在": "zài / to be at; (at)",
+                  "北京": "běijīng / Beijing"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s9",
+                "cn": "你是怎么知道这个电话号码的？",
+                "split": "你 是 怎么 知道 这 个 电话号码 的",
+                "en": "How did you find out this phone number?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "是": "shì / to be (am/is/are)",
+                  "怎么": "zěnme / how; why",
+                  "知道": "zhīdào / know",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "电话号码": "diànhuàhàomǎ / phone number",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s10",
+                "cn": "是罗兰告诉我的。",
+                "split": "是 罗兰 告诉 我 的",
+                "en": "Luo Lan told me.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "罗兰": "luólán / Luolan",
+                  "告诉": "gàosù / to tell; to inform; to let know",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s11",
+                "cn": "是吗？你是来旅行的吗？",
+                "split": "是 吗 你 是 来 旅行 的 吗",
+                "en": "Really? Are you here on a trip?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "吗": "ma / (question particle)",
+                  "你": "nǐ / you",
+                  "来": "lái / to come",
+                  "旅行": "lǚxíng / travel",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s12",
+                "cn": "不是。我是应国际广播电台的邀请来北京工作的。",
+                "split": "不是 我 是 应 国际广播电台 的 邀请 来 北京 工作 的",
+                "en": "No. I've been invited by the International Radio Station to work in Beijing.",
+                "dict": {
+                  "不是": "búshì / not is",
+                  "我": "wǒ / I; me",
+                  "是": "shì / to be (am/is/are)",
+                  "应": "yīng / to accept (an invitation)",
+                  "国际广播电台": "guójìguǎngbōdiàntái /",
+                  "的": "de / (possessive/modifier particle)",
+                  "邀请": "yāoqǐng / to invite",
+                  "来": "lái / to come",
+                  "北京": "běijīng / Beijing",
+                  "工作": "gōngzuò / work"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s13",
+                "cn": "要待多长时间？",
+                "split": "要待 多长时间",
+                "en": "How long will you stay?",
+                "dict": {
+                  "要待": "yàodài /",
+                  "多长时间": "duōzhǎngshíjiān /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s14",
+                "cn": "我跟他们签了两年的合同。",
+                "split": "我 跟 他们 签 了 两 年 的 合同",
+                "en": "I signed a two-year contract with them.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "跟": "gēn / with",
+                  "他们": "tāmen / they",
+                  "签": "qiān / to sign",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "两": "liǎng /",
+                  "年": "nián /",
+                  "的": "de / (possessive/modifier particle)",
+                  "合同": "hétóng / contract"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s15",
+                "cn": "保罗呢？",
+                "split": "保罗 呢",
+                "en": "What about Paul?",
+                "dict": {
+                  "保罗": "bǎoluó /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s16",
+                "cn": "保罗也来了。他在北京的一家中外合资公司工作。",
+                "split": "保罗 也 来 了 他 在 北京 的 一 家 中外合资 公司 工作",
+                "en": "Paul came too. He works at a Sino-foreign joint venture company in Beijing.",
+                "dict": {
+                  "保罗": "bǎoluó /",
+                  "也": "yě / also; too",
+                  "来": "lái / to come",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "他": "tā / he; him",
+                  "在": "zài / to be at; (at)",
+                  "北京": "běijīng / Beijing",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yì / one",
+                  "家": "jiā / home; family",
+                  "中外合资": "zhōngwàihézī /",
+                  "公司": "gōngsī / company",
+                  "工作": "gōngzuò / work"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s17",
+                "cn": "好啊。",
+                "split": "好 啊",
+                "en": "Great.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s18",
+                "cn": "不知道您星期六下午有没有空儿？",
+                "split": "不 知道 您 星期六 下午 有 没有 空儿",
+                "en": "I wonder if you're free on Saturday afternoon?",
+                "dict": {
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "您": "nín / you (polite)",
+                  "星期六": "xīngqīliù / Saturday",
+                  "下午": "xiàwǔ / afternoon",
+                  "有": "yǒu / to have",
+                  "没有": "méiyǒu / not have; haven't",
+                  "空儿": "kòngr / free time"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s19",
+                "cn": "这个星期六下午可以。",
+                "split": "这 个 星期六 下午 可以",
+                "en": "This Saturday afternoon is fine.",
+                "dict": {
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "星期六": "xīngqīliù / Saturday",
+                  "下午": "xiàwǔ / afternoon",
+                  "可以": "kěyǐ / can; may; OK"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s20",
+                "cn": "那我让保罗开车去接您。",
+                "split": "那 我 让 保罗 开 车 去 接 您",
+                "en": "Then I'll have Paul drive to pick you up.",
+                "dict": {
+                  "那": "nà / that",
+                  "我": "wǒ / I; me",
+                  "让": "ràng / by",
+                  "保罗": "bǎoluó /",
+                  "开": "kāi / to bloom",
+                  "车": "chē /",
+                  "去": "qù / to go",
+                  "接": "jiē / to answer (a call); to receive",
+                  "您": "nín / you (polite)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s21",
+                "cn": "您还住在原来的地方吗？",
+                "split": "您 还 住 在 原来 的 地方 吗",
+                "en": "Do you still live in the same place?",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "还": "hái / still; also",
+                  "住": "zhù /",
+                  "在": "zài / to be at; (at)",
+                  "原来": "yuánlái /",
+                  "的": "de / (possessive/modifier particle)",
+                  "地方": "dìfāng / place",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s22",
+                "cn": "不，我早就搬家了，搬到学校附近一个新建的住宅小区。",
+                "split": "不 我 早就 搬家 了 搬 到 学校 附近 一 个 新建 的 住宅小区",
+                "en": "No, I moved long ago, to a newly built residential community near the school.",
+                "dict": {
+                  "不": "bù / not",
+                  "我": "wǒ / I; me",
+                  "早就": "zǎojiù /",
+                  "搬家": "bānjiā / to move house",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "搬": "bān / to move",
+                  "到": "dào /",
+                  "学校": "xuéxiào / school",
+                  "附近": "fùjìn /",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "新建": "xīnjiàn /",
+                  "的": "de / (possessive/modifier particle)",
+                  "住宅小区": "zhùzháixiǎoqū /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t1-s23",
+                "cn": "好的。",
+                "split": "好 的",
+                "en": "Okay.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l22-t2",
+            "label": "（二）我们还想学下去",
+            "sentences": [
+              {
+                "id": "hj2b-l22-t2-s1",
+                "cn": "老师，您喝点儿什么？茶还是咖啡？",
+                "split": "老师 您 喝 点儿 什么 茶 还是 咖啡",
+                "en": "Teacher, what would you like to drink? Tea or coffee?",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "您": "nín / you (polite)",
+                  "喝": "hē / to drink",
+                  "点儿": "diǎnr / a little",
+                  "什么": "shénme / what",
+                  "茶": "chá /",
+                  "还是": "háishì / or",
+                  "咖啡": "kāfēi / coffee"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s2",
+                "cn": "我茶和咖啡都喝不了，一喝晚上就睡不着觉。",
+                "split": "我 茶 和 咖啡 都 喝 不 了 一 喝 晚上 就 睡不 着 觉",
+                "en": "I can't drink either tea or coffee. If I do, I won't be able to sleep at night.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "茶": "chá /",
+                  "和": "hé / and; with",
+                  "咖啡": "kāfēi / coffee",
+                  "都": "dōu / all; both",
+                  "喝": "hē / to drink",
+                  "不": "bù / not",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yì / one",
+                  "晚上": "wǎnshàng / evening",
+                  "就": "jiù / will",
+                  "睡不": "shuìbù /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "觉": "jué /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s3",
+                "cn": "就喝点儿水吧。",
+                "split": "就 喝 点儿 水吧",
+                "en": "I'll just have some water.",
+                "dict": {
+                  "就": "jiù / will",
+                  "喝": "hē / to drink",
+                  "点儿": "diǎnr / a little",
+                  "水吧": "shuǐba /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s4",
+                "cn": "你们这儿真不错！",
+                "split": "你们 这儿 真 不错",
+                "en": "Your place is really nice!",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "这儿": "zhèr / here",
+                  "真": "zhēn / really; truly",
+                  "不错": "búcuò / not bad, quite good"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s5",
+                "cn": "这是保罗的公司给我们租的房子。",
+                "split": "这 是 保罗 的 公司 给 我们 租 的 房子",
+                "en": "This is the apartment Paul's company rented for us.",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "保罗": "bǎoluó /",
+                  "的": "de / (possessive/modifier particle)",
+                  "公司": "gōngsī / company",
+                  "给": "gěi / give; for",
+                  "我们": "wǒmen / we; us",
+                  "租": "zū /",
+                  "房子": "fángzi /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s6",
+                "cn": "要是让我们自己花钱可租不起。",
+                "split": "要是 让 我们 自己 花钱 可租 不起",
+                "en": "We couldn't afford to rent it with our own money.",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "让": "ràng / by",
+                  "我们": "wǒmen / we; us",
+                  "自己": "zìjǐ / oneself",
+                  "花钱": "huāqián /",
+                  "可租": "kězū /",
+                  "不起": "bùqǐ /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s7",
+                "cn": "保罗，你们公司的业务是什么？",
+                "split": "保罗 你们 公司 的 业务 是 什么",
+                "en": "Paul, what does your company do?",
+                "dict": {
+                  "保罗": "bǎoluó /",
+                  "你们": "nǐmen / you (plural)",
+                  "公司": "gōngsī / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "业务": "yèwù / business",
+                  "是": "shì / to be (am/is/are)",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s8",
+                "cn": "我们公司是搞中外文化交流的。",
+                "split": "我们 公司 是 搞 中外 文化交流 的",
+                "en": "Our company works on cultural exchange between China and other countries.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "公司": "gōngsī / company",
+                  "是": "shì / to be (am/is/are)",
+                  "搞": "gǎo / to do; to engage in",
+                  "中外": "zhōngwài / China and foreign countries",
+                  "文化交流": "wénhuàjiāoliú /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s9",
+                "cn": "公司成立不久，业务也刚开展起来。",
+                "split": "公司 成立 不久 业务 也 刚 开展 起来",
+                "en": "The company was founded not long ago, and its business has just started to develop.",
+                "dict": {
+                  "公司": "gōngsī / company",
+                  "成立": "chénglì / to set up; to found",
+                  "不久": "bùjiǔ /",
+                  "业务": "yèwù / business",
+                  "也": "yě / also; too",
+                  "刚": "gāng / just now",
+                  "开展": "kāizhǎn / to start; to launch",
+                  "起来": "qǐlai / used after a verb to indicate the completion of an action"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s10",
+                "cn": "老师，我和保罗的工作都需要用汉语，所以打算继续学下去。",
+                "split": "老师 我 和保罗 的 工作 都 需要 用 汉语 所以 打算 继续 学下去",
+                "en": "Teacher, both Paul and I need Chinese for our work, so we plan to continue learning it.",
+                "dict": {
+                  "老师": "lǎoshī / teacher",
+                  "我": "wǒ / I; me",
+                  "和保罗": "hébǎoluó /",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gōngzuò / work",
+                  "都": "dōu / all; both",
+                  "需要": "xūyào / need",
+                  "用": "yòng /",
+                  "汉语": "hànyǔ / Chinese language",
+                  "所以": "suǒyǐ / therefore",
+                  "打算": "dǎsuàn / to plan",
+                  "继续": "jìxù / to continue; to go on with",
+                  "学下去": "xuéxiàqu /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s11",
+                "cn": "我们想利用在北京工作的机会把汉语学好。",
+                "split": "我们 想 利用 在 北京 工作 的 机会 把 汉语 学好",
+                "en": "We want to take advantage of our time working in Beijing to learn Chinese well.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "想": "xiǎng / want; think",
+                  "利用": "lìyòng /",
+                  "在": "zài / to be at; (at)",
+                  "北京": "běijīng / Beijing",
+                  "工作": "gōngzuò / work",
+                  "的": "de / (possessive/modifier particle)",
+                  "机会": "jīhuì /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "汉语": "hànyǔ / Chinese language",
+                  "学好": "xuéhǎo /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s12",
+                "cn": "你们俩原来都学得不错，有一定的基础，坚持学下去的话，一定能学好。",
+                "split": "你们 俩 原来 都 学 得 不错 有 一定 的 基础 坚持 学下去 的话 一定 能 学好",
+                "en": "You two both learned well before and have a solid foundation. If you keep at it, you'll surely master it.",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "俩": "liǎ /",
+                  "原来": "yuánlái /",
+                  "都": "dōu / all; both",
+                  "学": "xué /",
+                  "得": "de /",
+                  "不错": "búcuò / not bad, quite good",
+                  "有": "yǒu / to have",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "的": "de / (possessive/modifier particle)",
+                  "基础": "jīchǔ / foundation; basis",
+                  "坚持": "jiānchí / to persist; to keep on",
+                  "学下去": "xuéxiàqu /",
+                  "的话": "dehuà / (used at the end of a conditional clause) if",
+                  "能": "néng / can; able to",
+                  "学好": "xuéhǎo /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s13",
+                "cn": "时间过得真快！离开中国都三年多了。",
+                "split": "时间 过 得 真 快 离开 中国 都 三 年 多 了",
+                "en": "How time flies! It's been over three years since I left China.",
+                "dict": {
+                  "时间": "shíjiān / time",
+                  "过": "guo /",
+                  "得": "de /",
+                  "真": "zhēn / really; truly",
+                  "快": "kuài / quick; hurry",
+                  "离开": "líkāi / to leave",
+                  "中国": "zhōngguó / Chinese",
+                  "都": "dōu / all; both",
+                  "三": "sān /",
+                  "年": "nián /",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s14",
+                "cn": "刚回国的时候，还常听听录音，读读课文。",
+                "split": "刚 回国 的 时候 还 常 听听 录音 读读 课文",
+                "en": "Right after I returned home, I often listened to recordings and read the texts.",
+                "dict": {
+                  "刚": "gāng / just now",
+                  "回国": "huíguó /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "还": "hái / still; also",
+                  "常": "cháng /",
+                  "听听": "tīngting / to listen a bit",
+                  "录音": "lùyīn / recording",
+                  "读读": "dúdu /",
+                  "课文": "kèwén / text"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s15",
+                "cn": "后来因为忙，也没时间学了。",
+                "split": "后来 因为 忙 也 没 时间 学 了",
+                "en": "Later, because I was busy, I had no time to study.",
+                "dict": {
+                  "后来": "hòulái / afterwards; later",
+                  "因为": "yīnwèi / because",
+                  "忙": "máng /",
+                  "也": "yě / also; too",
+                  "没": "méi / not (past)",
+                  "时间": "shíjiān / time",
+                  "学": "xué /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s16",
+                "cn": "是。学外语，只有坚持下去，多听、多说、多练才能学好。",
+                "split": "是 学 外语 只有 坚持下去 多 听 多 说 多练 才 能 学好",
+                "en": "Right. To learn a foreign language well, you have to keep at it and practice listening, speaking and drilling a lot.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "学": "xué /",
+                  "外语": "wàiyǔ /",
+                  "只有": "zhǐyǒu / only if... can...",
+                  "坚持下去": "jiānchíxiàqu /",
+                  "多": "duō / many; much",
+                  "听": "tīng /",
+                  "说": "shuō / to say; to speak",
+                  "多练": "duōliàn /",
+                  "才": "cái / can",
+                  "能": "néng / can; able to",
+                  "学好": "xuéhǎo /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s17",
+                "cn": "我们还想请老师业余教我们，不知道老师能不能抽出时间来。",
+                "split": "我们 还 想 请 老师 业余 教 我们 不 知道 老师 能 不能 抽出 时间 来",
+                "en": "We'd also like to ask you to teach us in your spare time. We wonder if you could find the time.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "还": "hái / still; also",
+                  "想": "xiǎng / want; think",
+                  "请": "qǐng / please; invite",
+                  "老师": "lǎoshī / teacher",
+                  "业余": "yèyú / spare time",
+                  "教": "jiào /",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "能": "néng / can; able to",
+                  "不能": "bùnéng / cannot",
+                  "抽出": "chōuchū /",
+                  "时间": "shíjiān / time",
+                  "来": "lái / to come"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s18",
+                "cn": "我工作比较忙，抽不出时间来。",
+                "split": "我 工作 比 较 忙 抽不出 时间 来",
+                "en": "I'm quite busy with my work and can't find the time.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "工作": "gōngzuò / work",
+                  "比": "bǐ / to compare",
+                  "较": "jiào / relatively",
+                  "忙": "máng /",
+                  "抽不出": "chōubùchū /",
+                  "时间": "shíjiān / time",
+                  "来": "lái / to come"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s19",
+                "cn": "你们打算怎么学？",
+                "split": "你们 打算 怎么 学",
+                "en": "How do you plan to study then?",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "打算": "dǎsuàn / to plan",
+                  "怎么": "zěnme / how; why",
+                  "学": "xué /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s20",
+                "cn": "白天我们都没有时间，只有晚上才抽得出时间。",
+                "split": "白天 我们 都 没有 时间 只有 晚上 才 抽 得出 时间",
+                "en": "We have no time during the day; we can only find time in the evenings.",
+                "dict": {
+                  "白天": "báitiān /",
+                  "我们": "wǒmen / we; us",
+                  "都": "dōu / all; both",
+                  "没有": "méiyǒu / not have; haven't",
+                  "时间": "shíjiān / time",
+                  "只有": "zhǐyǒu / only if... can...",
+                  "晚上": "wǎnshàng / evening",
+                  "才": "cái / can",
+                  "抽": "chōu / to find (time)",
+                  "得出": "déchū /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s21",
+                "cn": "要是您晚上有空儿，就教我们，没空儿就算。",
+                "split": "要是 您 晚上 有 空儿 就 教 我们 没 空儿 就 算",
+                "en": "If you're free in the evenings, you can teach us; if not, that's all right too.",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "您": "nín / you (polite)",
+                  "晚上": "wǎnshàng / evening",
+                  "有": "yǒu / to have",
+                  "空儿": "kòngr / free time",
+                  "就": "jiù / will",
+                  "教": "jiào /",
+                  "我们": "wǒmen / we; us",
+                  "没": "méi / not (past)",
+                  "算": "suàn /"
+                }
+              },
+              {
+                "id": "hj2b-l22-t2-s22",
+                "cn": "好，我考虑考虑，再跟你们联系。",
+                "split": "好 我 考虑 考虑 再 跟 你们 联系",
+                "en": "Okay, let me think about it, and I'll get in touch with you.",
+                "dict": {
+                  "好": "hǎo / good; well; OK",
+                  "我": "wǒ / I; me",
+                  "考虑": "kǎolǜ /",
+                  "再": "zài / again (future)",
+                  "跟": "gēn / with",
+                  "你们": "nǐmen / you (plural)",
+                  "联系": "liánxì /"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson23",
+        "title": "第 23 课  寒假你打算去哪儿旅行",
+        "titleEn": "Lesson 23",
+        "texts": [
+          {
+            "id": "hj2b-l23-t1",
+            "label": "（一）吃什么都可以",
+            "sentences": [
+              {
+                "id": "hj2b-l23-t1-s1",
+                "cn": "我有点儿饿了，想吃点儿什么。你呢？",
+                "split": "我 有点儿 饿 了 想 吃 点儿 什么 你 呢",
+                "en": "I'm a bit hungry and want to eat something. What about you?",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "有点儿": "yǒudiǎnr / a bit",
+                  "饿": "è / hungry",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "想": "xiǎng / want; think",
+                  "吃": "chī / to eat",
+                  "点儿": "diǎnr / a little",
+                  "什么": "shénme / what",
+                  "你": "nǐ / you",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s2",
+                "cn": "我也又饿又渴。咱们去饭馆儿吧。",
+                "split": "我 也 又 饿 又 渴 咱们 去 饭馆儿 吧",
+                "en": "I'm hungry and thirsty too. Let's go to a restaurant.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "也": "yě / also; too",
+                  "又": "yòu / again",
+                  "饿": "è / hungry",
+                  "渴": "kě / thirsty",
+                  "咱们": "zánmen / we (inclusive)",
+                  "去": "qù / to go",
+                  "饭馆儿": "fànguǎnr /",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s3",
+                "cn": "你想吃点儿什么？",
+                "split": "你 想 吃 点儿 什么",
+                "en": "What would you like to eat?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "想": "xiǎng / want; think",
+                  "吃": "chī / to eat",
+                  "点儿": "diǎnr / a little",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s4",
+                "cn": "你点吧，什么都可以。",
+                "split": "你 点 吧 什么 都 可以",
+                "en": "You order. Anything is fine.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "点": "diǎn / to light; to kindle",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "什么": "shénme / what",
+                  "都": "dōu / all; both",
+                  "可以": "kěyǐ / can; may; OK"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s5",
+                "cn": "那就什么好吃吃什么。",
+                "split": "那 就 什么 好吃 吃 什么",
+                "en": "Then let's have whatever is delicious.",
+                "dict": {
+                  "那": "nà / that",
+                  "就": "jiù / will",
+                  "什么": "shénme / what",
+                  "好吃": "hǎochī / delicious; tasty",
+                  "吃": "chī / to eat"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s6",
+                "cn": "你们两位要点儿什么？",
+                "split": "你们 两 位 要 点儿 什么",
+                "en": "What would you two like to order?",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "两": "liǎng /",
+                  "位": "wèi /",
+                  "要": "yào / want; need; will",
+                  "点儿": "diǎnr / a little",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s7",
+                "cn": "服务员，你们这儿有什么好吃的菜？",
+                "split": "服务员 你们 这儿 有 什么 好吃 的 菜",
+                "en": "Waiter, what delicious dishes do you have here?",
+                "dict": {
+                  "服务员": "fúwùyuán / waiter/waitress; service staff",
+                  "你们": "nǐmen / you (plural)",
+                  "这儿": "zhèr / here",
+                  "有": "yǒu / to have",
+                  "什么": "shénme / what",
+                  "好吃": "hǎochī / delicious; tasty",
+                  "的": "de / (possessive/modifier particle)",
+                  "菜": "cài /"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s8",
+                "cn": "我们这儿什么菜都好吃啊。",
+                "split": "我们 这儿 什么 菜 都 好吃 啊",
+                "en": "All our dishes are delicious.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "这儿": "zhèr / here",
+                  "什么": "shénme / what",
+                  "菜": "cài /",
+                  "都": "dōu / all; both",
+                  "好吃": "hǎochī / delicious; tasty",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s9",
+                "cn": "是吗？那把你们这儿最好吃的菜给我们来两个。",
+                "split": "是 吗 那 把 你们 这儿 最 好吃 的 菜 给 我们 来 两 个",
+                "en": "Really? Then bring us two of your most delicious dishes.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "吗": "ma / (question particle)",
+                  "那": "nà / that",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "你们": "nǐmen / you (plural)",
+                  "这儿": "zhèr / here",
+                  "最": "zuì / most",
+                  "好吃": "hǎochī / delicious; tasty",
+                  "的": "de / (possessive/modifier particle)",
+                  "菜": "cài /",
+                  "给": "gěi / give; for",
+                  "我们": "wǒmen / we; us",
+                  "来": "lái / to come",
+                  "两": "liǎng /",
+                  "个": "gè / (measure word)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s10",
+                "cn": "这儿的辣子鸡丁和糖醋鱼都不错。",
+                "split": "这儿 的 辣子鸡丁 和 糖醋鱼 都 不错",
+                "en": "The spicy diced chicken and the sweet-and-sour fish are both very good.",
+                "dict": {
+                  "这儿": "zhèr / here",
+                  "的": "de / (possessive/modifier particle)",
+                  "辣子鸡丁": "làzijīdīng / diced chicken with chili",
+                  "和": "hé / and; with",
+                  "糖醋鱼": "tángcùyú / sweet and sour fish",
+                  "都": "dōu / all; both",
+                  "不错": "búcuò / not bad, quite good"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s11",
+                "cn": "那就一样来一个吧。",
+                "split": "那 就 一样 来 一 个 吧",
+                "en": "Then let's have one of each.",
+                "dict": {
+                  "那": "nà / that",
+                  "就": "jiù / will",
+                  "一样": "yíyàng /",
+                  "来": "lái / to come",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s12",
+                "cn": "我们喝点儿什么呢？",
+                "split": "我们 喝 点儿 什么 呢",
+                "en": "What shall we drink?",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "喝": "hē / to drink",
+                  "点儿": "diǎnr / a little",
+                  "什么": "shénme / what",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l23-t1-s13",
+                "cn": "随便。你说喝什么就喝什么吧。",
+                "split": "随便 你 说 喝 什么 就 喝 什么 吧",
+                "en": "Whatever. I'll drink whatever you say.",
+                "dict": {
+                  "随便": "suíbiàn / casual; informal",
+                  "你": "nǐ / you",
+                  "说": "shuō / to say; to speak",
+                  "喝": "hē / to drink",
+                  "什么": "shénme / what",
+                  "就": "jiù / will",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l23-t2",
+            "label": "（二）你是哪儿冷去哪儿啊",
+            "sentences": [
+              {
+                "id": "hj2b-l23-t2-s1",
+                "cn": "时间过得真快，下周考完试就要放寒假了。",
+                "split": "时间 过 得 真 快 下周 考完试 就 要 放寒假 了",
+                "en": "Time flies. We'll have our winter vacation as soon as the exams finish next week.",
+                "dict": {
+                  "时间": "shíjiān / time",
+                  "过": "guo /",
+                  "得": "de /",
+                  "真": "zhēn / really; truly",
+                  "快": "kuài / quick; hurry",
+                  "下周": "xiàzhōu /",
+                  "考完试": "kǎowánshì /",
+                  "就": "jiù / will",
+                  "要": "yào / want; need; will",
+                  "放寒假": "fànghánjià / to take one's winter vacation",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s2",
+                "cn": "是啊。寒假你有什么打算吗？",
+                "split": "是 啊 寒假 你 有 什么 打算 吗",
+                "en": "Yes. Do you have any plans for the winter vacation?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "啊": "a / (interjection)",
+                  "寒假": "hánjià / winter vacation",
+                  "你": "nǐ / you",
+                  "有": "yǒu / to have",
+                  "什么": "shénme / what",
+                  "打算": "dǎsuàn / to plan",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s3",
+                "cn": "学校要组织留学生去外地旅行，谁都可以报名，你报名吗？",
+                "split": "学校 要 组织 留学生 去 外地 旅行 谁 都 可以 报名 你 报名 吗",
+                "en": "The school is organizing a trip for international students. Anyone can sign up. Will you sign up?",
+                "dict": {
+                  "学校": "xuéxiào / school",
+                  "要": "yào / want; need; will",
+                  "组织": "zǔzhī /",
+                  "留学生": "liúxuéshēng / international student",
+                  "去": "qù / to go",
+                  "外地": "wàidì / other parts of the country",
+                  "旅行": "lǚxíng / travel",
+                  "谁": "shuí / who",
+                  "都": "dōu / all; both",
+                  "可以": "kěyǐ / can; may; OK",
+                  "报名": "bàomíng / to register; to sign up",
+                  "你": "nǐ / you",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s4",
+                "cn": "我听谁说过这件事儿。",
+                "split": "我 听 谁 说 过 这 件 事儿",
+                "en": "I've heard someone mention this.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "听": "tīng /",
+                  "谁": "shuí / who",
+                  "说": "shuō / to say; to speak",
+                  "过": "guo /",
+                  "这": "zhè / this",
+                  "件": "jiàn /",
+                  "事儿": "shìr / thing; matter"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s5",
+                "cn": "不过我想自己去旅行。",
+                "split": "不过 我 想 自己 去 旅行",
+                "en": "But I'd rather travel on my own.",
+                "dict": {
+                  "不过": "búguò / but; however",
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "自己": "zìjǐ / oneself",
+                  "去": "qù / to go",
+                  "旅行": "lǚxíng / travel"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s6",
+                "cn": "去哪儿？",
+                "split": "去 哪儿",
+                "en": "Where are you going?",
+                "dict": {
+                  "去": "qù / to go",
+                  "哪儿": "nǎr / where"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s7",
+                "cn": "哪儿好玩儿就去哪儿。",
+                "split": "哪儿 好玩儿 就 去 哪儿",
+                "en": "Wherever is fun, I'll go there.",
+                "dict": {
+                  "哪儿": "nǎr / where",
+                  "好玩儿": "hǎowánr / fun; amusing",
+                  "就": "jiù / will",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s8",
+                "cn": "我想去哈尔滨。",
+                "split": "我 想 去 哈尔滨",
+                "en": "I want to go to Harbin.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "去": "qù / to go",
+                  "哈尔滨": "hā'ěrbīn /"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s9",
+                "cn": "哈尔滨？你是哪儿冷去哪儿啊。",
+                "split": "哈尔滨 你 是 哪儿 冷去 哪儿 啊",
+                "en": "Harbin? You're going to wherever it's coldest.",
+                "dict": {
+                  "哈尔滨": "hā'ěrbīn /",
+                  "你": "nǐ / you",
+                  "是": "shì / to be (am/is/are)",
+                  "哪儿": "nǎr / where",
+                  "冷去": "lěngqù /",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s10",
+                "cn": "现在那儿白天已经零下二十多度了。",
+                "split": "现在 那儿 白天 已经 零 下 二十多 度 了",
+                "en": "It's already over twenty degrees below zero there during the day.",
+                "dict": {
+                  "现在": "xiànzài / now",
+                  "那儿": "nàr / there",
+                  "白天": "báitiān /",
+                  "已经": "yǐjīng / already",
+                  "零": "líng /",
+                  "下": "xià / used after a verb to indicate room or space",
+                  "二十多": "èrshíduō /",
+                  "度": "dù /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s11",
+                "cn": "听说哈尔滨的冰灯冰雕很好看，我想去看看。",
+                "split": "听说 哈尔滨 的 冰灯 冰雕 很 好看 我 想 去 看看",
+                "en": "I've heard the ice lanterns and ice sculptures in Harbin are beautiful. I want to go see them.",
+                "dict": {
+                  "听说": "tīngshuō / I heard that",
+                  "哈尔滨": "hā'ěrbīn /",
+                  "的": "de / (possessive/modifier particle)",
+                  "冰灯": "bīngdēng / ice lantern",
+                  "冰雕": "bīngdiāo / ice sculpture; ice carving",
+                  "很": "hěn / very",
+                  "好看": "hǎokàn / good-looking",
+                  "我": "wǒ / I; me",
+                  "想": "xiǎng / want; think",
+                  "去": "qù / to go",
+                  "看看": "kànkan / to take a look"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s12",
+                "cn": "你想怎么去？",
+                "split": "你 想 怎么 去",
+                "en": "How do you plan to get there?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "想": "xiǎng / want; think",
+                  "怎么": "zěnme / how; why",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s13",
+                "cn": "除了骑自行车以外，怎么去都行。",
+                "split": "除了 骑 自行车 以外 怎么 去 都 行",
+                "en": "Any way is fine, as long as it's not by bike.",
+                "dict": {
+                  "除了": "chúle /",
+                  "骑": "qí /",
+                  "自行车": "zìxíngchē /",
+                  "以外": "yǐwài /",
+                  "怎么": "zěnme / how; why",
+                  "去": "qù / to go",
+                  "都": "dōu / all; both",
+                  "行": "xíng /"
+                }
+              },
+              {
+                "id": "hj2b-l23-t2-s14",
+                "cn": "你又开玩笑。",
+                "split": "你 又 开玩笑",
+                "en": "You're joking again.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "又": "yòu / again",
+                  "开玩笑": "kāiwánxiào / to crack a joke; to be kidding"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson24",
+        "title": "第 24 课  有困难找警察",
+        "titleEn": "Lesson 24",
+        "texts": [
+          {
+            "id": "hj2b-l24-t1",
+            "label": "（一）有困难找警察",
+            "sentences": [
+              {
+                "id": "hj2b-l24-t1-s1",
+                "cn": "街上到处都写着“有困难找警察”，你找过警察吗？",
+                "split": "街上 到处 都 写 着 有 困难 找 警察 你 找 过 警察 吗",
+                "en": "The slogan “Go to the police when in trouble” is written everywhere on the streets. Have you ever asked the police for help?",
+                "dict": {
+                  "街上": "jiēshàng /",
+                  "到处": "dàochù /",
+                  "都": "dōu / all; both",
+                  "写": "xiě /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "有": "yǒu / to have",
+                  "困难": "kùnnán / difficulty; trouble",
+                  "找": "zhǎo / to look for",
+                  "警察": "jǐngchá / police",
+                  "你": "nǐ / you",
+                  "过": "guo /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s2",
+                "cn": "没有。",
+                "split": "没有",
+                "en": "No.",
+                "dict": {
+                  "没有": "méiyǒu / not have; haven't"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s3",
+                "cn": "昨天我在街上遇到一件事儿。",
+                "split": "昨天 我 在 街上 遇到 一 件 事儿",
+                "en": "Yesterday I came across something on the street.",
+                "dict": {
+                  "昨天": "zuótiān / yesterday",
+                  "我": "wǒ / I; me",
+                  "在": "zài / to be at; (at)",
+                  "街上": "jiēshàng /",
+                  "遇到": "yùdào / to come across; to encounter",
+                  "一": "yí / one",
+                  "件": "jiàn /",
+                  "事儿": "shìr / thing; matter"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s4",
+                "cn": "什么事儿？",
+                "split": "什么 事儿",
+                "en": "What was it?",
+                "dict": {
+                  "什么": "shénme / what",
+                  "事儿": "shìr / thing; matter"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s5",
+                "cn": "在一个十字路口儿，我看见一对老夫妻，看样子腿脚不太好。",
+                "split": "在 一 个 十 字路口 儿 我 看见 一 对 老夫妻 看样子 腿脚 不 太 好",
+                "en": "At a crossroads, I saw an old couple who seemed to have trouble walking.",
+                "dict": {
+                  "在": "zài / to be at; (at)",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "十": "shí /",
+                  "字路口": "zìlùkǒu /",
+                  "儿": "ér /",
+                  "我": "wǒ / I; me",
+                  "看见": "kànjiàn / see; spot",
+                  "对": "duì / couple; pair",
+                  "老夫妻": "lǎofūqī /",
+                  "看样子": "kànyàngzi /",
+                  "腿脚": "tuǐjiǎo / legs and feet; ability to walk",
+                  "不": "bú / not",
+                  "太": "tài / too; excessively",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s6",
+                "cn": "他们要过马路。",
+                "split": "他们 要 过 马路",
+                "en": "They wanted to cross the street.",
+                "dict": {
+                  "他们": "tāmen / they",
+                  "要": "yào / want; need; will",
+                  "过": "guo /",
+                  "马路": "mǎlù / road"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s7",
+                "cn": "这时，一个交通警察看见了，就立即跑了过去，扶着这两位老人，一步一步地走过来。",
+                "split": "这 时 一 个 交通警察 看见 了 就 立即 跑 了 过去 扶 着 这 两 位 老人 一 步 一 步 地 走过来",
+                "en": "At that moment, a traffic policeman saw them, immediately ran over, and helped the old couple walk across, step by step.",
+                "dict": {
+                  "这": "zhè / this",
+                  "时": "shí /",
+                  "一": "yi / one",
+                  "个": "gè / (measure word)",
+                  "交通警察": "jiāotōngjǐngchá /",
+                  "看见": "kànjiàn / see; spot",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "就": "jiù / will",
+                  "立即": "lìjí / immediately; at once",
+                  "跑": "pǎo /",
+                  "过去": "guòqu /",
+                  "扶": "fú / to assist; to support with the hand",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "两": "liǎng /",
+                  "位": "wèi /",
+                  "老人": "lǎorén / old person",
+                  "步": "bù / step",
+                  "地": "de /",
+                  "走过来": "zǒuguòlai /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s8",
+                "cn": "看到这种情景，我非常感动。",
+                "split": "看到 这 种 情景 我 非常 感动",
+                "en": "I was deeply moved by the scene.",
+                "dict": {
+                  "看到": "kàndào /",
+                  "这": "zhè / this",
+                  "种": "zhǒng / to plant; to grow",
+                  "情景": "qíngjǐng / scene; sight",
+                  "我": "wǒ / I; me",
+                  "非常": "fēicháng / very",
+                  "感动": "gǎndòng / moved; touched; to affect; to move"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s9",
+                "cn": "这是警察应该做的事儿，有什么可感动的？",
+                "split": "这 是 警察 应该 做 的 事儿 有 什么 可 感动 的",
+                "en": "That's just what police officers should do. What's there to be moved about?",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "警察": "jǐngchá / police",
+                  "应该": "yīnggāi / should",
+                  "做": "zuò / to do; to make",
+                  "的": "de / (possessive/modifier particle)",
+                  "事儿": "shìr / thing; matter",
+                  "有": "yǒu / to have",
+                  "什么": "shénme / what",
+                  "可": "kě / (used for emphasis) by all means",
+                  "感动": "gǎndòng / moved; touched; to affect; to move"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s10",
+                "cn": "可是，有的地方，还发生过警察打人的事儿。",
+                "split": "可是 有 的 地方 还 发生 过 警察 打人 的 事儿",
+                "en": "But in some places, there have been cases of police beating people.",
+                "dict": {
+                  "可是": "kěshì / but; however",
+                  "有": "yǒu / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "地方": "dìfāng / place",
+                  "还": "hái / still; also",
+                  "发生": "fāshēng / to happen; to take place",
+                  "过": "guo /",
+                  "警察": "jǐngchá / police",
+                  "打人": "dǎrén /",
+                  "事儿": "shìr / thing; matter"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s11",
+                "cn": "我觉得中国的警察还是不错的。",
+                "split": "我 觉得 中国 的 警察 还是 不错 的",
+                "en": "I think the police in China are still pretty good.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "觉得": "juéde / feel; think",
+                  "中国": "zhōngguó / Chinese",
+                  "的": "de / (possessive/modifier particle)",
+                  "警察": "jǐngchá / police",
+                  "还是": "háishì / or",
+                  "不错": "búcuò / not bad, quite good"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s12",
+                "cn": "我有个同学，有一次去外地旅行，丢了钱包儿，连住的地方都没有了，非常着急。",
+                "split": "我 有 个 同学 有 一 次 去 外地 旅行 丢 了 钱包 儿 连住 的 地方 都 没有 了 非常 着急",
+                "en": "A classmate of mine once traveled to another city and lost his wallet. He had no place to stay and was very anxious.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "有": "yǒu / to have",
+                  "个": "gè / (measure word)",
+                  "同学": "tóngxué / classmate",
+                  "一": "yí / one",
+                  "次": "cì /",
+                  "去": "qù / to go",
+                  "外地": "wàidì / other parts of the country",
+                  "旅行": "lǚxíng / travel",
+                  "丢": "diū /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "钱包": "qiánbāo /",
+                  "儿": "ér /",
+                  "连住": "liánzhù /",
+                  "的": "de / (possessive/modifier particle)",
+                  "地方": "dìfāng / place",
+                  "都": "dōu / all; both",
+                  "没有": "méiyǒu / not have; haven't",
+                  "非常": "fēicháng / very",
+                  "着急": "zháojí /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s13",
+                "cn": "正在不知道怎么办的时候，他想到“有困难找警察”这句话，就去找警察。",
+                "split": "正在 不 知道 怎么办 的 时候 他 想 到 有 困难 找 警察 这 句 话 就 去 找 警察",
+                "en": "When he didn't know what to do, he remembered the saying “Go to the police when in trouble”, so he went to the police.",
+                "dict": {
+                  "正在": "zhèngzài / in the process of",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "怎么办": "zěnmebàn /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "他": "tā / he; him",
+                  "想": "xiǎng / want; think",
+                  "到": "dào /",
+                  "有": "yǒu / to have",
+                  "困难": "kùnnán / difficulty; trouble",
+                  "找": "zhǎo / to look for",
+                  "警察": "jǐngchá / police",
+                  "这": "zhè / this",
+                  "句": "jù / a measure word for sentences",
+                  "话": "huà /",
+                  "就": "jiù / will",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s14",
+                "cn": "警察为他安排了住的地方，还借给他钱买了回北京的机票，又开车把他送到机场。",
+                "split": "警察 为 他 安排 了 住 的 地方 还 借给 他 钱 买 了 回 北京 的 机票 又 开 车 把 他 送到 机场",
+                "en": "The police arranged a place for him to stay, lent him money to buy a plane ticket back to Beijing, and even drove him to the airport.",
+                "dict": {
+                  "警察": "jǐngchá / police",
+                  "为": "wèi / for",
+                  "他": "tā / he; him",
+                  "安排": "ānpái /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "住": "zhù /",
+                  "的": "de / (possessive/modifier particle)",
+                  "地方": "dìfāng / place",
+                  "还": "hái / still; also",
+                  "借给": "jiègěi /",
+                  "钱": "qián /",
+                  "买": "mǎi /",
+                  "回": "huí / to return; to reply",
+                  "北京": "běijīng / Beijing",
+                  "机票": "jīpiào / air ticket",
+                  "又": "yòu / again",
+                  "开": "kāi / to bloom",
+                  "车": "chē /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "送到": "sòngdào /",
+                  "机场": "jīchǎng / airport"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s15",
+                "cn": "真的吗？",
+                "split": "真 的 吗",
+                "en": "Really?",
+                "dict": {
+                  "真": "zhēn / really; truly",
+                  "的": "de / (possessive/modifier particle)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s16",
+                "cn": "当然是真的！",
+                "split": "当然 是 真 的",
+                "en": "Of course it's true!",
+                "dict": {
+                  "当然": "dāngrán / of course",
+                  "是": "shì / to be (am/is/are)",
+                  "真": "zhēn / really; truly",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s17",
+                "cn": "我还在网上看到这样一件事儿：一个四五岁的小男孩儿把球滚到大街上去了。",
+                "split": "我 还 在 网上 看到 这样 一 件 事儿 一 个 四五岁 的 小 男孩儿 把 球 滚 到 大街 上去 了",
+                "en": "I also read about this online: a four or five year old boy rolled his ball out into the middle of the street.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "还": "hái / still; also",
+                  "在": "zài / to be at; (at)",
+                  "网上": "wǎngshàng /",
+                  "看到": "kàndào /",
+                  "这样": "zhèyàng /",
+                  "一": "yí / one",
+                  "件": "jiàn /",
+                  "事儿": "shìr / thing; matter",
+                  "个": "gè / (measure word)",
+                  "四五岁": "sìwǔsuì /",
+                  "的": "de / (possessive/modifier particle)",
+                  "小": "xiǎo /",
+                  "男孩儿": "nánháir /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "球": "qiú /",
+                  "滚": "gǔn / to roll",
+                  "到": "dào /",
+                  "大街": "dàjiē /",
+                  "上去": "shàngqu /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s18",
+                "cn": "他要跑过去拿，被警察看见了。",
+                "split": "他 要 跑 过去 拿 被 警察 看见 了",
+                "en": "He was about to run over and get it, but the police officer saw him.",
+                "dict": {
+                  "他": "tā / he; him",
+                  "要": "yào / want; need; will",
+                  "跑": "pǎo /",
+                  "过去": "guòqu /",
+                  "拿": "ná /",
+                  "被": "bèi / by",
+                  "警察": "jǐngchá / police",
+                  "看见": "kànjiàn / see; spot",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s19",
+                "cn": "警察就帮孩子把球捡了回来。",
+                "split": "警察 就 帮 孩子 把 球 捡 了 回来",
+                "en": "The officer helped the child pick up the ball.",
+                "dict": {
+                  "警察": "jǐngchá / police",
+                  "就": "jiù / will",
+                  "帮": "bāng /",
+                  "孩子": "háizi /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "球": "qiú /",
+                  "捡": "jiǎn /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "回来": "huílai / come back"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s20",
+                "cn": "孩子刚要跟着妈妈走，又回来对警察说：“叔叔，我的鞋带儿开了。”",
+                "split": "孩子 刚 要 跟 着 妈妈 走 又 回来 对 警察 说 叔叔 我 的 鞋带 儿开 了",
+                "en": "The child was about to leave with his mother, but he came back to the officer and said, “Uncle, my shoelace is untied.”",
+                "dict": {
+                  "孩子": "háizi /",
+                  "刚": "gāng / just now",
+                  "要": "yào / want; need; will",
+                  "跟": "gēn / with",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "妈妈": "māma / mother",
+                  "走": "zǒu /",
+                  "又": "yòu / again",
+                  "回来": "huílai / come back",
+                  "对": "duì / couple; pair",
+                  "警察": "jǐngchá / police",
+                  "说": "shuō / to say; to speak",
+                  "叔叔": "shūshu / uncle; form of address for a man about one's father's age",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "鞋带": "xiédài /",
+                  "儿开": "érkāi /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s21",
+                "cn": "说着就把小脚伸到警察面前。",
+                "split": "说 着 就 把 小脚 伸 到 警察 面前",
+                "en": "With that, he stuck out his little foot in front of the officer.",
+                "dict": {
+                  "说": "shuō / to say; to speak",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "就": "jiù / will",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "小脚": "xiǎojiǎo /",
+                  "伸": "shēn / to reach; to stretch",
+                  "到": "dào /",
+                  "警察": "jǐngchá / police",
+                  "面前": "miànqián / in front of; before"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s22",
+                "cn": "警察笑着弯下腰去，给孩子把鞋带儿系好，就像照顾自己的孩子一样。",
+                "split": "警察 笑 着 弯 下腰 去 给 孩子 把 鞋带 儿系 好 就 像 照顾 自己 的 孩子 一样",
+                "en": "Smiling, the officer bent down and tied the child's shoelace, just as if he were taking care of his own child.",
+                "dict": {
+                  "警察": "jǐngchá / police",
+                  "笑": "xiào /",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "弯": "wān / to bend; to curl; crooked",
+                  "下腰": "xiàyāo /",
+                  "去": "qù / to go",
+                  "给": "gěi / give; for",
+                  "孩子": "háizi /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "鞋带": "xiédài /",
+                  "儿系": "érxì /",
+                  "好": "hǎo / good; well; OK",
+                  "就": "jiù / will",
+                  "像": "xiàng /",
+                  "照顾": "zhàogù / to take care of",
+                  "自己": "zìjǐ / oneself",
+                  "的": "de / (possessive/modifier particle)",
+                  "一样": "yíyàng /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t1-s23",
+                "cn": "这时孩子的妈妈也跑了过来，看到这种情景，感动得不知道说什么好。",
+                "split": "这 时 孩子 的 妈妈 也 跑 了 过来 看到 这 种 情景 感动 得 不 知道 说 什么 好",
+                "en": "At this point, the child's mother ran over. Seeing the scene, she was so moved that she didn't know what to say.",
+                "dict": {
+                  "这": "zhè / this",
+                  "时": "shí /",
+                  "孩子": "háizi /",
+                  "的": "de / (possessive/modifier particle)",
+                  "妈妈": "māma / mother",
+                  "也": "yě / also; too",
+                  "跑": "pǎo /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "过来": "guòlai /",
+                  "看到": "kàndào /",
+                  "种": "zhǒng / to plant; to grow",
+                  "情景": "qíngjǐng / scene; sight",
+                  "感动": "gǎndòng / moved; touched; to affect; to move",
+                  "得": "de /",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "说": "shuō / to say; to speak",
+                  "什么": "shénme / what",
+                  "好": "hǎo / good; well; OK"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l24-t2",
+            "label": "（二）我们把松竹梅叫作“岁寒三友”",
+            "sentences": [
+              {
+                "id": "hj2b-l24-t2-s1",
+                "cn": "这幅《红梅图》画得真好！",
+                "split": "这 幅 红梅 图 画 得 真 好",
+                "en": "This painting, “Red Plum Blossoms”, is really well done!",
+                "dict": {
+                  "这": "zhè / this",
+                  "幅": "fú / a measure word for paintings, calligraphy works, etc.",
+                  "红梅": "hóngméi /",
+                  "图": "tú / picture; painting",
+                  "画": "huà /",
+                  "得": "de /",
+                  "真": "zhēn / really; truly",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s2",
+                "cn": "这是一位画家朋友送的。",
+                "split": "这 是 一 位 画家 朋友 送 的",
+                "en": "It was a gift from a painter friend of mine.",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "一": "yī / one",
+                  "位": "wèi /",
+                  "画家": "huàjiā / painter; artist",
+                  "朋友": "péngyǒu / friend",
+                  "送": "sòng /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s3",
+                "cn": "虽然是冬天，但是一看到这幅画儿就感到像春天一样。",
+                "split": "虽然 是 冬天 但是 一 看到 这 幅 画儿 就 感到 像 春天 一样",
+                "en": "Even though it's winter, looking at this painting makes me feel like spring.",
+                "dict": {
+                  "虽然": "suīrán / although",
+                  "是": "shì / to be (am/is/are)",
+                  "冬天": "dōngtiān /",
+                  "但是": "dànshì / but; however",
+                  "一": "yí / one",
+                  "看到": "kàndào /",
+                  "这": "zhè / this",
+                  "幅": "fú / a measure word for paintings, calligraphy works, etc.",
+                  "画儿": "huàr /",
+                  "就": "jiù / will",
+                  "感到": "gǎndào / feel",
+                  "像": "xiàng /",
+                  "春天": "chūntiān /",
+                  "一样": "yíyàng /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s4",
+                "cn": "梅、松、竹是中国画家最喜欢画的。",
+                "split": "梅 松 竹是 中国 画家 最 喜欢 画 的",
+                "en": "The plum blossom, the pine and the bamboo are what Chinese painters like to paint most.",
+                "dict": {
+                  "梅": "méi / plum; plum blossom",
+                  "松": "sōng / pine",
+                  "竹是": "zhúshì /",
+                  "中国": "zhōngguó / Chinese",
+                  "画家": "huàjiā / painter; artist",
+                  "最": "zuì / most",
+                  "喜欢": "xǐhuān / like; love",
+                  "画": "huà /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s5",
+                "cn": "中国人把松竹梅叫作“岁寒三友”。",
+                "split": "中国 人 把 松竹梅 叫作 岁寒三友",
+                "en": "Chinese people call the pine, bamboo and plum blossom “the three friends of winter”.",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "松竹梅": "sōngzhúméi /",
+                  "叫作": "jiàozuò /",
+                  "岁寒三友": "suìhánsānyǒu / the three friends in cold weather"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s6",
+                "cn": "松树不怕冷，一年四季都是绿的。",
+                "split": "松树 不怕 冷 一年四季 都 是 绿 的",
+                "en": "The pine is not afraid of the cold and stays green all year round.",
+                "dict": {
+                  "松树": "sōngshù /",
+                  "不怕": "búpà /",
+                  "冷": "lěng /",
+                  "一年四季": "yìniánsìjì /",
+                  "都": "dōu / all; both",
+                  "是": "shì / to be (am/is/are)",
+                  "绿": "lǜ /",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s7",
+                "cn": "竹子冬天也是绿的，而且一节一节的，很有骨气。",
+                "split": "竹子 冬天 也 是 绿 的 而且 一 节 一 节 的 很 有 骨气",
+                "en": "Bamboo is also green in winter, and with its joints one after another, it looks very resilient.",
+                "dict": {
+                  "竹子": "zhúzi /",
+                  "冬天": "dōngtiān /",
+                  "也": "yě / also; too",
+                  "是": "shì / to be (am/is/are)",
+                  "绿": "lǜ /",
+                  "的": "de / (possessive/modifier particle)",
+                  "而且": "érqiě / and; moreover",
+                  "一": "yi / one",
+                  "节": "jié /",
+                  "很": "hěn / very",
+                  "有": "yǒu / to have",
+                  "骨气": "gǔqì /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s8",
+                "cn": "梅花在冬天开放，下雪天开得更美。",
+                "split": "梅花 在 冬天 开放 下雪天 开 得 更 美",
+                "en": "Plum blossoms bloom in winter, and they are even more beautiful when it snows.",
+                "dict": {
+                  "梅花": "méihuā /",
+                  "在": "zài / to be at; (at)",
+                  "冬天": "dōngtiān /",
+                  "开放": "kāifàng /",
+                  "下雪天": "xiàxuětiān /",
+                  "开": "kāi / to bloom",
+                  "得": "de /",
+                  "更": "gèng / more",
+                  "美": "měi /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s9",
+                "cn": "所以中国人把它们叫作“岁寒三友”。",
+                "split": "所以 中国 人 把 它们 叫作 岁寒三友",
+                "en": "That's why Chinese people call them “the three friends of winter”.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "它们": "tāmen /",
+                  "叫作": "jiàozuò /",
+                  "岁寒三友": "suìhánsānyǒu / the three friends in cold weather"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s10",
+                "cn": "是。我每次到中国来，看到喜欢的字画，总要买一些带回去。",
+                "split": "是 我 每次 到 中国 来 看到 喜欢 的 字画 总要 买 一些 带回去",
+                "en": "I see. Every time I come to China, whenever I see calligraphy or paintings I like, I always buy some to take home.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "我": "wǒ / I; me",
+                  "每次": "měicì /",
+                  "到": "dào /",
+                  "中国": "zhōngguó / Chinese",
+                  "来": "lái / to come",
+                  "看到": "kàndào /",
+                  "喜欢": "xǐhuān / like; love",
+                  "的": "de / (possessive/modifier particle)",
+                  "字画": "zìhuà / calligraphy and painting",
+                  "总要": "zǒngyào /",
+                  "买": "mǎi /",
+                  "一些": "yìxiē / some; a few",
+                  "带回去": "dàihuíqu /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s11",
+                "cn": "我跟您一样，也非常喜欢书法和中国画。",
+                "split": "我 跟 您 一样 也 非常 喜欢 书法 和 中国画",
+                "en": "I'm just like you. I also love calligraphy and Chinese painting very much.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "跟": "gēn / with",
+                  "您": "nín / you (polite)",
+                  "一样": "yíyàng /",
+                  "也": "yě / also; too",
+                  "非常": "fēicháng / very",
+                  "喜欢": "xǐhuān / like; love",
+                  "书法": "shūfǎ / calligraphy",
+                  "和": "hé / and; with",
+                  "中国画": "zhōngguóhuà /"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s12",
+                "cn": "我看您的字写得很漂亮。",
+                "split": "我 看 您 的 字 写 得 很 漂亮",
+                "en": "I think your calligraphy is very beautiful.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "看": "kàn / to look; to see; to visit",
+                  "您": "nín / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "字": "zì / word; character",
+                  "写": "xiě /",
+                  "得": "de /",
+                  "很": "hěn / very",
+                  "漂亮": "piàoliàng / pretty"
+                }
+              },
+              {
+                "id": "hj2b-l24-t2-s13",
+                "cn": "哪里。您过奖了。",
+                "split": "哪 里 您 过奖 了",
+                "en": "You flatter me.",
+                "dict": {
+                  "哪": "nǎ / which",
+                  "里": "lǐ / inside",
+                  "您": "nín / you (polite)",
+                  "过奖": "guòjiǎng / to flatter",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson25",
+        "title": "第 25 课  吉利的数字",
+        "titleEn": "Lesson 25",
+        "texts": [
+          {
+            "id": "hj2b-l25-t1",
+            "label": "（一）吉利的数字",
+            "sentences": [
+              {
+                "id": "hj2b-l25-t1-s1",
+                "cn": "你知道中国人喜欢什么数字吗？",
+                "split": "你 知道 中国 人 喜欢 什么 数字 吗",
+                "en": "Do you know what numbers Chinese people like?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "知道": "zhīdào / know",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "喜欢": "xǐhuān / like; love",
+                  "什么": "shénme / what",
+                  "数字": "shùzì / number",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s2",
+                "cn": "不知道。",
+                "split": "不 知道",
+                "en": "No, I don't.",
+                "dict": {
+                  "不": "bù / not",
+                  "知道": "zhīdào / know"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s3",
+                "cn": "你怎么连这么简单的问题也不知道？不过，不知道也好。",
+                "split": "你 怎么 连 这么 简单 的 问题 也 不 知道 不过 不 知道 也 好",
+                "en": "How come you don't even know such a simple question? But then again, it's just as well you don't know.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "怎么": "zěnme / how; why",
+                  "连": "lián /",
+                  "这么": "zhème / so",
+                  "简单": "jiǎndān / simple",
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wèntí / problem",
+                  "也": "yě / also; too",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "不过": "búguò / but; however",
+                  "好": "hǎo / good; well; OK"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s4",
+                "cn": "什么话！",
+                "split": "什么 话",
+                "en": "What do you mean!",
+                "dict": {
+                  "什么": "shénme / what",
+                  "话": "huà /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s5",
+                "cn": "以后你什么问题不知道就来问我好了。",
+                "split": "以后 你 什么 问题 不 知道 就 来 问 我 好 了",
+                "en": "From now on, whenever you don't know something, just come and ask me.",
+                "dict": {
+                  "以后": "yǐhòu / after",
+                  "你": "nǐ / you",
+                  "什么": "shénme / what",
+                  "问题": "wèntí / problem",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "就": "jiù / will",
+                  "来": "lái / to come",
+                  "问": "wèn / to ask",
+                  "我": "wǒ / I; me",
+                  "好": "hǎo / good; well; OK",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s6",
+                "cn": "你知道？",
+                "split": "你 知道",
+                "en": "You know?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "知道": "zhīdào / know"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s7",
+                "cn": "知道。世界上的事我知道一半儿，中国的事我没有不知道的。",
+                "split": "知道 世界 上 的 事 我 知道 一 半 儿 中国 的 事 我 没有 不 知道 的",
+                "en": "I do. I know half of everything in the world, and there's nothing about China I don't know.",
+                "dict": {
+                  "知道": "zhīdào / know",
+                  "世界": "shìjiè /",
+                  "上": "shàng / to attend (a class)",
+                  "的": "de / (possessive/modifier particle)",
+                  "事": "shì /",
+                  "我": "wǒ / I; me",
+                  "一": "yī / one",
+                  "半": "bàn /",
+                  "儿": "ér /",
+                  "中国": "zhōngguó / Chinese",
+                  "没有": "méiyǒu / not have; haven't",
+                  "不": "bù / not"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s8",
+                "cn": "是吗？",
+                "split": "是 吗",
+                "en": "Really?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s9",
+                "cn": "你没听见大家都叫我什么吗？",
+                "split": "你 没 听见 大家 都 叫 我 什么 吗",
+                "en": "Haven't you heard what everyone calls me?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "没": "méi / not (past)",
+                  "听见": "tīngjiàn /",
+                  "大家": "dàjiā / everyone",
+                  "都": "dōu / all; both",
+                  "叫": "jiào / by",
+                  "我": "wǒ / I; me",
+                  "什么": "shénme / what",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s10",
+                "cn": "叫你什么？",
+                "split": "叫 你 什么",
+                "en": "What do they call you?",
+                "dict": {
+                  "叫": "jiào / by",
+                  "你": "nǐ / you",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s11",
+                "cn": "“中国通”。",
+                "split": "中国通",
+                "en": "“China hand.”",
+                "dict": {
+                  "中国通": "zhōngguótōng / China hand, person with expert knowledge of China"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s12",
+                "cn": "你才学了三个半月的汉语，怎么就成“中国通”了？",
+                "split": "你 才 学 了 三 个 半 月 的 汉语 怎么 就 成 中国通 了",
+                "en": "You've only been studying Chinese for three and a half months. How can you already be a “China hand”?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "才": "cái / can",
+                  "学": "xué /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "三": "sān /",
+                  "个": "gè / (measure word)",
+                  "半": "bàn /",
+                  "月": "yuè /",
+                  "的": "de / (possessive/modifier particle)",
+                  "汉语": "hànyǔ / Chinese language",
+                  "怎么": "zěnme / how; why",
+                  "就": "jiù / will",
+                  "成": "chéng /",
+                  "中国通": "zhōngguótōng / China hand, person with expert knowledge of China"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s13",
+                "cn": "这不是说相声吗？你怎么连这也不懂？",
+                "split": "这 不是 说 相声 吗 你 怎么 连 这 也 不 懂",
+                "en": "Aren't we doing a comic dialogue? How come you don't even understand that?",
+                "dict": {
+                  "这": "zhè / this",
+                  "不是": "búshì / not is",
+                  "说": "shuō / to say; to speak",
+                  "相声": "xiàngshēng / crosstalk; comic dialogue",
+                  "吗": "ma / (question particle)",
+                  "你": "nǐ / you",
+                  "怎么": "zěnme / how; why",
+                  "连": "lián /",
+                  "也": "yě / also; too",
+                  "不": "bù / not",
+                  "懂": "dǒng /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s14",
+                "cn": "谁说我不懂？相声是笑的艺术。",
+                "split": "谁 说 我 不 懂 相声 是 笑 的 艺术",
+                "en": "Who says I don't understand? Comic dialogue is the art of making people laugh.",
+                "dict": {
+                  "谁": "shuí / who",
+                  "说": "shuō / to say; to speak",
+                  "我": "wǒ / I; me",
+                  "不": "bù / not",
+                  "懂": "dǒng /",
+                  "相声": "xiàngshēng / crosstalk; comic dialogue",
+                  "是": "shì / to be (am/is/are)",
+                  "笑": "xiào /",
+                  "的": "de / (possessive/modifier particle)",
+                  "艺术": "yìshù / art"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s15",
+                "cn": "说相声就是要大家笑，“笑一笑，十年少”嘛。",
+                "split": "说 相声 就 是 要 大家 笑 笑 一 笑 十 年 少 嘛",
+                "en": "Doing comic dialogue is about making everyone laugh. “A laugh a day keeps the doctor away.”",
+                "dict": {
+                  "说": "shuō / to say; to speak",
+                  "相声": "xiàngshēng / crosstalk; comic dialogue",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "要": "yào / want; need; will",
+                  "大家": "dàjiā / everyone",
+                  "笑": "xiào /",
+                  "一": "yi / one",
+                  "十": "shí /",
+                  "年": "nián /",
+                  "少": "shǎo / young; younger",
+                  "嘛": "ma /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s16",
+                "cn": "对呀。",
+                "split": "对 呀",
+                "en": "Right.",
+                "dict": {
+                  "对": "duì / couple; pair",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s17",
+                "cn": "谁听了我们的相声，谁就会笑起来，谁就会变年轻，今年二十，明年十岁。",
+                "split": "谁 听 了 我们 的 相声 谁 就 会 笑 起来 谁 就 会变 年轻 今年 二十 明年 十 岁",
+                "en": "Whoever hears our comic dialogue will laugh and become younger. Twenty this year, ten next year.",
+                "dict": {
+                  "谁": "shuí / who",
+                  "听": "tīng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "我们": "wǒmen / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "相声": "xiàngshēng / crosstalk; comic dialogue",
+                  "就": "jiù / will",
+                  "会": "huì / can; will",
+                  "笑": "xiào /",
+                  "起来": "qǐlai / used after a verb to indicate the completion of an action",
+                  "会变": "huìbiàn /",
+                  "年轻": "niánqīng /",
+                  "今年": "jīnnián / this year",
+                  "二十": "èrshí / twenty",
+                  "明年": "míngnián / next year",
+                  "十": "shí /",
+                  "岁": "suì /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s18",
+                "cn": "什么？",
+                "split": "什么",
+                "en": "What?",
+                "dict": {
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s19",
+                "cn": "你不是说“笑一笑，十年少”吗？",
+                "split": "你 不是 说 笑 一 笑 十 年 少 吗",
+                "en": "Didn't you say “a laugh a day keeps the doctor away”?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "不是": "búshì / not is",
+                  "说": "shuō / to say; to speak",
+                  "笑": "xiào /",
+                  "一": "yi / one",
+                  "十": "shí /",
+                  "年": "nián /",
+                  "少": "shǎo / young; younger",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s20",
+                "cn": "别开玩笑了。你还是说说中国人喜欢什么数字吧。",
+                "split": "别 开玩笑 了 你 还是 说说 中国 人 喜欢 什么 数字 吧",
+                "en": "Stop joking. Tell me what numbers Chinese people like.",
+                "dict": {
+                  "别": "bié / don't",
+                  "开玩笑": "kāiwánxiào / to crack a joke; to be kidding",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "你": "nǐ / you",
+                  "还是": "háishì / or",
+                  "说说": "shuōshuo /",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "喜欢": "xǐhuān / like; love",
+                  "什么": "shénme / what",
+                  "数字": "shùzì / number",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s21",
+                "cn": "我告诉你，你可别告诉别人。",
+                "split": "我 告诉 你 你 可别 告诉 别人",
+                "en": "I'll tell you, but you mustn't tell anyone.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "告诉": "gàosù / to tell; to inform; to let know",
+                  "你": "nǐ / you",
+                  "可别": "kěbié /",
+                  "别人": "biérén / others; other people"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s22",
+                "cn": "这是我的伟大发现，我正准备去申请专利呢。",
+                "split": "这 是 我 的 伟大 发现 我 正 准备 去 申请专利 呢",
+                "en": "This is my great discovery. I'm planning to apply for a patent.",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "我": "wǒ / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "伟大": "wěidà / great",
+                  "发现": "fāxiàn / to find; to discover",
+                  "正": "zhèng / just; right",
+                  "准备": "zhǔnbèi / prepare",
+                  "去": "qù / to go",
+                  "申请专利": "shēnqǐngzhuānlì /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s23",
+                "cn": "你快说吧，我不会告诉别人的。",
+                "split": "你 快 说 吧 我 不 会 告诉 别人 的",
+                "en": "Go on. I won't tell anyone.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "快": "kuài / quick; hurry",
+                  "说": "shuō / to say; to speak",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "我": "wǒ / I; me",
+                  "不": "bú / not",
+                  "会": "huì / can; will",
+                  "告诉": "gàosù / to tell; to inform; to let know",
+                  "别人": "biérén / others; other people",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s24",
+                "cn": "中国人最喜欢的数字是“八”。",
+                "split": "中国 人 最 喜欢 的 数字 是 八",
+                "en": "The number Chinese people like most is “eight”.",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "最": "zuì / most",
+                  "喜欢": "xǐhuān / like; love",
+                  "的": "de / (possessive/modifier particle)",
+                  "数字": "shùzì / number",
+                  "是": "shì / to be (am/is/are)",
+                  "八": "bā /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s25",
+                "cn": "八？为什么喜欢“八”？",
+                "split": "八 为什么 喜欢 八",
+                "en": "Eight? Why do they like “eight”?",
+                "dict": {
+                  "八": "bā /",
+                  "为什么": "wèishénme / why",
+                  "喜欢": "xǐhuān / like; love"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s26",
+                "cn": "中国人认为这个数字最吉利。",
+                "split": "中国 人 认为 这 个 数字 最 吉利",
+                "en": "Chinese people consider this number the luckiest.",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "认为": "rènwéi / to think; to believe",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "数字": "shùzì / number",
+                  "最": "zuì / most",
+                  "吉利": "jílì / auspicious; propitious; lucky"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s27",
+                "cn": "“八”怎么吉利呢？",
+                "split": "八 怎么 吉利 呢",
+                "en": "How is “eight” lucky?",
+                "dict": {
+                  "八": "bā /",
+                  "怎么": "zěnme / how; why",
+                  "吉利": "jílì / auspicious; propitious; lucky",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s28",
+                "cn": "你听！我说“八、八、八”……你能听出什么音来吗？",
+                "split": "你 听 我 说 八 八 八 你 能 听 出 什么 音来 吗",
+                "en": "Listen! When I say “eight, eight, eight”... what sound do you hear?",
+                "dict": {
+                  "你": "nǐ / you",
+                  "听": "tīng /",
+                  "我": "wǒ / I; me",
+                  "说": "shuō / to say; to speak",
+                  "八": "bā /",
+                  "能": "néng / can; able to",
+                  "出": "chū /",
+                  "什么": "shénme / what",
+                  "音来": "yīnlái /",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s29",
+                "cn": "“八、八、八”呀！",
+                "split": "八 八 八 呀",
+                "en": "“Eight, eight, eight”!",
+                "dict": {
+                  "八": "bā /",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s30",
+                "cn": "你真笨啊！连这都听不出来。",
+                "split": "你 真 笨 啊 连 这 都 听不出来",
+                "en": "You're really dense! You can't even hear that.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "真": "zhēn / really; truly",
+                  "笨": "bèn / stupid; foolish",
+                  "啊": "a / (interjection)",
+                  "连": "lián /",
+                  "这": "zhè / this",
+                  "都": "dōu / all; both",
+                  "听不出来": "tīngbùchūlai /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s31",
+                "cn": "“八”的谐音不是“发”吗？",
+                "split": "八 的 谐音 不是 发 吗",
+                "en": "Doesn't “eight” sound like “get rich”?",
+                "dict": {
+                  "八": "bā /",
+                  "的": "de / (possessive/modifier particle)",
+                  "谐音": "xiéyīn / to be homophonous",
+                  "不是": "búshì / not is",
+                  "发": "fā / to get rich; to make a fortune",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s32",
+                "cn": "“八、八、八”就是“发、发、发”呀。",
+                "split": "八 八 八 就 是 发 发 发 呀",
+                "en": "“Eight, eight, eight” sounds like “get rich, get rich, get rich”.",
+                "dict": {
+                  "八": "bā /",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "发": "fā / to get rich; to make a fortune",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s33",
+                "cn": "我怎么听不出来呢？",
+                "split": "我 怎么 听不出来 呢",
+                "en": "How come I can't hear that?",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "怎么": "zěnme / how; why",
+                  "听不出来": "tīngbùchūlai /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s34",
+                "cn": "你的汉语水平太低。",
+                "split": "你 的 汉语 水平 太 低",
+                "en": "Your Chinese is too poor.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "汉语": "hànyǔ / Chinese language",
+                  "水平": "shuǐpíng / level",
+                  "太": "tài / too; excessively",
+                  "低": "dī /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s35",
+                "cn": "汉语的“发”是什么意思你知道不？",
+                "split": "汉语 的 发 是 什么 意思 你 知道 不",
+                "en": "Do you know what “fa” means in Chinese?",
+                "dict": {
+                  "汉语": "hànyǔ / Chinese language",
+                  "的": "de / (possessive/modifier particle)",
+                  "发": "fā / to get rich; to make a fortune",
+                  "是": "shì / to be (am/is/are)",
+                  "什么": "shénme / what",
+                  "意思": "yìsi / meaning",
+                  "你": "nǐ / you",
+                  "知道": "zhīdào / know",
+                  "不": "bù / not"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s36",
+                "cn": "不知道。",
+                "split": "不 知道",
+                "en": "I don't know.",
+                "dict": {
+                  "不": "bù / not",
+                  "知道": "zhīdào / know"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s37",
+                "cn": "“发”就是“发财”。",
+                "split": "发 就 是 发财",
+                "en": "“Fa” means “getting rich.”",
+                "dict": {
+                  "发": "fā / to get rich; to make a fortune",
+                  "就": "jiù / will",
+                  "是": "shì / to be (am/is/are)",
+                  "发财": "fācái /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s38",
+                "cn": "现在谁不想发财呀？",
+                "split": "现在 谁 不想 发财 呀",
+                "en": "Who doesn't want to get rich these days?",
+                "dict": {
+                  "现在": "xiànzài / now",
+                  "谁": "shuí / who",
+                  "不想": "bùxiǎng /",
+                  "发财": "fācái /",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s39",
+                "cn": "发了财就可以买房子，买汽车，买巧克力，买土豆儿……想买什么就买什么。",
+                "split": "发 了 财 就 可以 买房子 买 汽车 买 巧克力 买 土豆 儿 想 买 什么 就 买 什么",
+                "en": "Once you get rich, you can buy a house, a car, chocolate, potatoes... buy whatever you want.",
+                "dict": {
+                  "发": "fā / to get rich; to make a fortune",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "财": "cái /",
+                  "就": "jiù / will",
+                  "可以": "kěyǐ / can; may; OK",
+                  "买房子": "mǎifángzi /",
+                  "买": "mǎi /",
+                  "汽车": "qìchē /",
+                  "巧克力": "qiǎokèlì / chocolate",
+                  "土豆": "tǔdòu /",
+                  "儿": "ér /",
+                  "想": "xiǎng / want; think",
+                  "什么": "shénme / what"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s40",
+                "cn": "你胡说什么呀！",
+                "split": "你 胡说 什么 呀",
+                "en": "You're talking nonsense!",
+                "dict": {
+                  "你": "nǐ / you",
+                  "胡说": "húshuō / to talk nonsense",
+                  "什么": "shénme / what",
+                  "呀": "ya /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s41",
+                "cn": "只要有钱就能买好多好东西。",
+                "split": "只要 有钱 就 能 买 好 多 好 东西",
+                "en": "As long as you have money, you can buy lots of good things.",
+                "dict": {
+                  "只要": "zhǐyào / as long as... will...",
+                  "有钱": "yǒuqián /",
+                  "就": "jiù / will",
+                  "能": "néng / can; able to",
+                  "买": "mǎi /",
+                  "好": "hǎo / good; well; OK",
+                  "多": "duō / many; much",
+                  "东西": "dōngxī / thing"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s42",
+                "cn": "我想起来了。",
+                "split": "我 想起来 了",
+                "en": "I just remembered.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "想起来": "xiǎngqǐlai /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s43",
+                "cn": "我学过，中国人喜欢“518”这个数，也喜欢“五月十八号”这一天，因为“518”的谐音是“我要发”。",
+                "split": "我 学 过 中国 人 喜欢 518 这 个 数 也 喜欢 五月 十 八 号 这 一 天 因为 518 的 谐音 是 我 要 发",
+                "en": "I learned that Chinese people like the number “518” and the date May 18th, because “518” sounds like “I want to get rich.”",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "学": "xué /",
+                  "过": "guo /",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "喜欢": "xǐhuān / like; love",
+                  "518": " /",
+                  "这": "zhè / this",
+                  "个": "gè / (measure word)",
+                  "数": "shù /",
+                  "也": "yě / also; too",
+                  "五月": "wǔyuè /",
+                  "十": "shí /",
+                  "八": "bā /",
+                  "号": "hào /",
+                  "一": "yì / one",
+                  "天": "tiān /",
+                  "因为": "yīnwèi / because",
+                  "的": "de / (possessive/modifier particle)",
+                  "谐音": "xiéyīn / to be homophonous",
+                  "是": "shì / to be (am/is/are)",
+                  "要": "yào / want; need; will",
+                  "发": "fā / to get rich; to make a fortune"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s44",
+                "cn": "对！对！怎么？你也知道啊！",
+                "split": "对 对 怎么 你 也 知道 啊",
+                "en": "Right! Right! How come you know this too!",
+                "dict": {
+                  "对": "duì / couple; pair",
+                  "怎么": "zěnme / how; why",
+                  "你": "nǐ / you",
+                  "也": "yě / also; too",
+                  "知道": "zhīdào / know",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s45",
+                "cn": "是啊，我还知道中国人也喜欢“六”和“九”。",
+                "split": "是 啊 我 还 知道 中国 人 也 喜欢 六 和 九",
+                "en": "Yes. I also know that Chinese people like “six” and “nine.”",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "啊": "a / (interjection)",
+                  "我": "wǒ / I; me",
+                  "还": "hái / still; also",
+                  "知道": "zhīdào / know",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "也": "yě / also; too",
+                  "喜欢": "xǐhuān / like; love",
+                  "六": "liù /",
+                  "和": "hé / and; with",
+                  "九": "jiǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s46",
+                "cn": "为什么？",
+                "split": "为什么",
+                "en": "Why?",
+                "dict": {
+                  "为什么": "wèishénme / why"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s47",
+                "cn": "因为……哎，你不是“中国通”吗？怎么又问起我来了？",
+                "split": "因为 哎 你 不是 中国通 吗 怎么 又 问起 我 来 了",
+                "en": "Because... Hey, aren't you a “China hand”? Why are you asking me again?",
+                "dict": {
+                  "因为": "yīnwèi / because",
+                  "哎": "āi /",
+                  "你": "nǐ / you",
+                  "不是": "búshì / not is",
+                  "中国通": "zhōngguótōng / China hand, person with expert knowledge of China",
+                  "吗": "ma / (question particle)",
+                  "怎么": "zěnme / how; why",
+                  "又": "yòu / again",
+                  "问起": "wènqǐ /",
+                  "我": "wǒ / I; me",
+                  "来": "lái / to come",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s48",
+                "cn": "我问你，你告诉我，我懂了不就“通”了吗？",
+                "split": "我 问 你 你 告诉 我 我 懂 了 不 就 通 了 吗",
+                "en": "I ask you, you tell me, and once I understand, I become “thorough.”",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "问": "wèn / to ask",
+                  "你": "nǐ / you",
+                  "告诉": "gàosù / to tell; to inform; to let know",
+                  "懂": "dǒng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "不": "bú / not",
+                  "就": "jiù / will",
+                  "通": "tōng / expert; to know; to understand",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s49",
+                "cn": "“九”与“长久”的“久”谐音。",
+                "split": "九 与 长久 的 久 谐音",
+                "en": "“Nine” sounds like the “nine” in “long-lasting.”",
+                "dict": {
+                  "九": "jiǔ /",
+                  "与": "yǔ /",
+                  "长久": "chángjiǔ / permanent; long-lasting",
+                  "的": "de / (possessive/modifier particle)",
+                  "久": "jiǔ /",
+                  "谐音": "xiéyīn / to be homophonous"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s50",
+                "cn": "谁不希望友谊长久，爱情长久，活得长久啊？",
+                "split": "谁 不 希望 友谊 长久 爱情 长久 活 得 长久 啊",
+                "en": "Who wouldn't want lasting friendship, lasting love, a long life?",
+                "dict": {
+                  "谁": "shuí / who",
+                  "不": "bù / not",
+                  "希望": "xīwàng / hope; wish",
+                  "友谊": "yǒuyì / friendship",
+                  "长久": "chángjiǔ / permanent; long-lasting",
+                  "爱情": "àiqíng / love (between lovers)",
+                  "活": "huó / to live; to be alive",
+                  "得": "de /",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s51",
+                "cn": "中国人还常说“六六大顺”。",
+                "split": "中国 人 还 常 说 六六 大顺",
+                "en": "Chinese people also often say “may everything go smoothly.”",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "还": "hái / still; also",
+                  "常": "cháng /",
+                  "说": "shuō / to say; to speak",
+                  "六六": "liùliu /",
+                  "大顺": "dàshùn /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s52",
+                "cn": "所以我知道中国人也喜欢“六”和“九”。",
+                "split": "所以 我 知道 中国 人 也 喜欢 六 和 九",
+                "en": "So I know that Chinese people like “six” and “nine” too.",
+                "dict": {
+                  "所以": "suǒyǐ / therefore",
+                  "我": "wǒ / I; me",
+                  "知道": "zhīdào / know",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "也": "yě / also; too",
+                  "喜欢": "xǐhuān / like; love",
+                  "六": "liù /",
+                  "和": "hé / and; with",
+                  "九": "jiǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s53",
+                "cn": "你不笨啊！",
+                "split": "你 不笨 啊",
+                "en": "You're not stupid!",
+                "dict": {
+                  "你": "nǐ / you",
+                  "不笨": "búbèn /",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t1-s54",
+                "cn": "你才笨呢！",
+                "split": "你 才 笨 呢",
+                "en": "You're the stupid one!",
+                "dict": {
+                  "你": "nǐ / you",
+                  "才": "cái / can",
+                  "笨": "bèn / stupid; foolish",
+                  "呢": "ne /"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hj2b-l25-t2",
+            "label": "（二）宴会上的规矩",
+            "sentences": [
+              {
+                "id": "hj2b-l25-t2-s1",
+                "cn": "中国人在宴会上的规矩可多了。",
+                "split": "中国 人 在 宴会 上 的 规矩 可多 了",
+                "en": "Chinese people have lots of rules for banquets.",
+                "dict": {
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "在": "zài / to be at; (at)",
+                  "宴会": "yànhuì / banquet; dinner party",
+                  "上": "shàng / to attend (a class)",
+                  "的": "de / (possessive/modifier particle)",
+                  "规矩": "guījǔ / rule; custom; established standard",
+                  "可多": "kěduō /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s2",
+                "cn": "都有什么规矩？",
+                "split": "都 有 什么 规矩",
+                "en": "What rules are there?",
+                "dict": {
+                  "都": "dōu / all; both",
+                  "有": "yǒu / to have",
+                  "什么": "shénme / what",
+                  "规矩": "guījǔ / rule; custom; established standard"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s3",
+                "cn": "首先，要请重要的客人、老师、领导和长辈坐上座。",
+                "split": "首先 要 请 重要 的 客人 老师 领导 和 长辈 坐上 座",
+                "en": "First, important guests, teachers, leaders and elders should be seated in the seat of honor.",
+                "dict": {
+                  "首先": "shǒuxiān / first of all",
+                  "要": "yào / want; need; will",
+                  "请": "qǐng / please; invite",
+                  "重要": "zhòngyào / important",
+                  "的": "de / (possessive/modifier particle)",
+                  "客人": "kèrén / guest",
+                  "老师": "lǎoshī / teacher",
+                  "领导": "lǐngdǎo / leader",
+                  "和": "hé / and; with",
+                  "长辈": "zhǎngbèi / elder; senior",
+                  "坐上": "zuòshàng /",
+                  "座": "zuò /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s4",
+                "cn": "这是应该的。",
+                "split": "这 是 应该 的",
+                "en": "That's only proper.",
+                "dict": {
+                  "这": "zhè / this",
+                  "是": "shì / to be (am/is/are)",
+                  "应该": "yīnggāi / should",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s5",
+                "cn": "上菜时，如果是鱼的话，鱼头要对着上座，让重要的客人先吃第一口。",
+                "split": "上菜 时 如果 是 鱼 的话 鱼头 要 对 着 上 座 让 重要 的 客人 先 吃 第 一 口",
+                "en": "When a dish is served, if it's fish, the fish head should face the seat of honor, so that the important guest takes the first bite.",
+                "dict": {
+                  "上菜": "shàngcài / to serve dishes; to lay dishes on the table",
+                  "时": "shí /",
+                  "如果": "rúguǒ / if; in case",
+                  "是": "shì / to be (am/is/are)",
+                  "鱼": "yú /",
+                  "的话": "dehuà / (used at the end of a conditional clause) if",
+                  "鱼头": "yútóu /",
+                  "要": "yào / want; need; will",
+                  "对": "duì / couple; pair",
+                  "着": "zhe / indicating the continuation of an action or a state",
+                  "上": "shàng / to attend (a class)",
+                  "座": "zuò /",
+                  "让": "ràng / by",
+                  "重要": "zhòngyào / important",
+                  "的": "de / (possessive/modifier particle)",
+                  "客人": "kèrén / guest",
+                  "先": "xiān / first",
+                  "吃": "chī / to eat",
+                  "第": "dì /",
+                  "一": "yī / one",
+                  "口": "kǒu /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s6",
+                "cn": "喝酒的时候，大家都要先给他敬酒。",
+                "split": "喝酒 的 时候 大家 都 要 先 给 他 敬酒",
+                "en": "When drinking, everyone should first toast him.",
+                "dict": {
+                  "喝酒": "hējiǔ /",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "大家": "dàjiā / everyone",
+                  "都": "dōu / all; both",
+                  "要": "yào / want; need; will",
+                  "先": "xiān / first",
+                  "给": "gěi / give; for",
+                  "他": "tā / he; him",
+                  "敬酒": "jìngjiǔ / to propose a toast"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s7",
+                "cn": "上次我参加了一个中国朋友的婚礼，大家都让我先吃。",
+                "split": "上次 我 参加 了 一 个 中国 朋友 的 婚礼 大家 都 让 我 先 吃",
+                "en": "Last time I attended a Chinese friend's wedding, everyone asked me to eat first.",
+                "dict": {
+                  "上次": "shàngcì / last time",
+                  "我": "wǒ / I; me",
+                  "参加": "cānjiā / to participate",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can",
+                  "一": "yí / one",
+                  "个": "gè / (measure word)",
+                  "中国": "zhōngguó / Chinese",
+                  "朋友": "péngyǒu / friend",
+                  "的": "de / (possessive/modifier particle)",
+                  "婚礼": "hūnlǐ / wedding",
+                  "大家": "dàjiā / everyone",
+                  "都": "dōu / all; both",
+                  "让": "ràng / by",
+                  "先": "xiān / first",
+                  "吃": "chī / to eat"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s8",
+                "cn": "是不是也把我看成重要的客人了？",
+                "split": "是 不是 也 把 我 看成 重要 的 客人 了",
+                "en": "Did they regard me as an important guest too?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "不是": "búshì / not is",
+                  "也": "yě / also; too",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "我": "wǒ / I; me",
+                  "看成": "kànchéng /",
+                  "重要": "zhòngyào / important",
+                  "的": "de / (possessive/modifier particle)",
+                  "客人": "kèrén / guest",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s9",
+                "cn": "是。",
+                "split": "是",
+                "en": "Yes.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s10",
+                "cn": "要是你到中国人家里去做客，他们就会准备好多菜，让你怎么也吃不完。",
+                "split": "要是 你 到 中国 人 家里 去 做客 他们 就 会 准备 好 多 菜 让 你 怎么 也 吃不完",
+                "en": "If you visit a Chinese family, they'll prepare so many dishes that you can never finish them.",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "你": "nǐ / you",
+                  "到": "dào /",
+                  "中国": "zhōngguó / Chinese",
+                  "人": "rén /",
+                  "家里": "jiālǐ /",
+                  "去": "qù / to go",
+                  "做客": "zuòkè / to be a guest",
+                  "他们": "tāmen / they",
+                  "就": "jiù / will",
+                  "会": "huì / can; will",
+                  "准备": "zhǔnbèi / prepare",
+                  "好": "hǎo / good; well; OK",
+                  "多": "duō / many; much",
+                  "菜": "cài /",
+                  "让": "ràng / by",
+                  "怎么": "zěnme / how; why",
+                  "也": "yě / also; too",
+                  "吃不完": "chībùwán /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s11",
+                "cn": "给你敬酒的时候，一定要干杯，把杯子里的酒一口喝光。",
+                "split": "给 你 敬酒 的 时候 一定 要 干杯 把 杯子 里 的 酒 一 口 喝 光",
+                "en": "When they toast you, you must drink bottoms up and finish the glass in one gulp.",
+                "dict": {
+                  "给": "gěi / give; for",
+                  "你": "nǐ / you",
+                  "敬酒": "jìngjiǔ / to propose a toast",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "一定": "yídìng / proper; fair; considerable",
+                  "要": "yào / want; need; will",
+                  "干杯": "gānbēi / to drink a toast; bottoms up",
+                  "把": "bǎ / used when the object is placed before the verb and is the recipient of the action",
+                  "杯子": "bēizi / cup",
+                  "里": "lǐ / inside",
+                  "酒": "jiǔ /",
+                  "一": "yì / one",
+                  "口": "kǒu /",
+                  "喝": "hē / to drink",
+                  "光": "guāng / used up; empty"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s12",
+                "cn": "要是不会喝酒怎么办呢？",
+                "split": "要是 不 会 喝酒 怎么办 呢",
+                "en": "What if one can't drink alcohol?",
+                "dict": {
+                  "要是": "yàoshì /",
+                  "不": "bú / not",
+                  "会": "huì / can; will",
+                  "喝酒": "hējiǔ /",
+                  "怎么办": "zěnmebàn /",
+                  "呢": "ne /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s13",
+                "cn": "那也没关系。",
+                "split": "那 也 没关系",
+                "en": "That's no problem either.",
+                "dict": {
+                  "那": "nà / that",
+                  "也": "yě / also; too",
+                  "没关系": "méiguānxì / it doesn't matter"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s14",
+                "cn": "他们会说“感情有，茶当酒”。",
+                "split": "他们 会 说 感情 有 茶 当酒",
+                "en": "They'll say, “Where there's friendship, tea can serve as wine.”",
+                "dict": {
+                  "他们": "tāmen / they",
+                  "会": "huì / can; will",
+                  "说": "shuō / to say; to speak",
+                  "感情": "gǎnqíng / feeling; emotion",
+                  "有": "yǒu / to have",
+                  "茶": "chá /",
+                  "当酒": "dāngjiǔ /"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s15",
+                "cn": "你用茶代替就行了。",
+                "split": "你 用 茶 代替 就 行 了",
+                "en": "You can just use tea instead.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "用": "yòng /",
+                  "茶": "chá /",
+                  "代替": "dàitì / to replace; to substitute",
+                  "就": "jiù / will",
+                  "行": "xíng /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s16",
+                "cn": "你怎么知道得这么多啊！",
+                "split": "你 怎么 知道 得 这么 多 啊",
+                "en": "How do you know so much!",
+                "dict": {
+                  "你": "nǐ / you",
+                  "怎么": "zěnme / how; why",
+                  "知道": "zhīdào / know",
+                  "得": "de /",
+                  "这么": "zhème / so",
+                  "多": "duō / many; much",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s17",
+                "cn": "“中国通”嘛，当然知道得比你多了。",
+                "split": "中国通 嘛 当然 知道 得 比 你 多 了",
+                "en": "I'm a “China hand”, so of course I know more than you do.",
+                "dict": {
+                  "中国通": "zhōngguótōng / China hand, person with expert knowledge of China",
+                  "嘛": "ma /",
+                  "当然": "dāngrán / of course",
+                  "知道": "zhīdào / know",
+                  "得": "de /",
+                  "比": "bǐ / to compare",
+                  "你": "nǐ / you",
+                  "多": "duō / many; much",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              },
+              {
+                "id": "hj2b-l25-t2-s18",
+                "cn": "哈哈！又吹起来了。",
+                "split": "哈哈 又 吹起来 了",
+                "en": "Ha ha! There you go bragging again.",
+                "dict": {
+                  "哈哈": "hāha /",
+                  "又": "yòu / again",
+                  "吹起来": "chuīqǐlai /",
+                  "了": "le / (used in conjunction with \"得\" or \"不\" after a verb to express possibility) can"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }]
 
 // 将 HSK5(上) 分段英文（chunkEn，按 chunkSentence 输出顺序）挂载到对应句子，
 // 供打字 / 听写模式按段展示英文。无对应数据时该句保持 chunkEn 未定义（UI 回退整句英文）。
