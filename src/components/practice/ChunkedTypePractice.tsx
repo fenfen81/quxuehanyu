@@ -2,6 +2,7 @@ import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
 import { chunkSentence, normalizeText } from '@/utils/chunkSentence'
+import { lookupGloss } from '@/utils/chunkGloss'
 import { usePracticeSettings, INPUT_FONT, INPUT_HEIGHT, HINT_FONT } from '@/hooks/usePracticeSettings'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
@@ -133,7 +134,15 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
     const w = isHsk5 ? undefined : sentence.dict?.[chunks[chunkIdx]]
     const currentEn = isHsk5
       ? (sentence.chunkEn?.[chunkIdx] || sentence.en || '')
-      : (w && w.includes(' / ') ? w.split(' / ').pop()! : sentence.en || '')
+      : (() => {
+          // 1) 优先用本课 dict 里的英文
+          if (w && w.includes(' / ')) return w.split(' / ').pop()!
+          // 2) 兜底：去 HSK 总词表 / 教材生词里查该词段
+          const g = lookupGloss(chunks[chunkIdx])
+          if (g) return g.en
+          // 3) 仍查不到（多为短语/专有搭配）才回退整句英文
+          return sentence.en || ''
+        })()
     const currentCn = chunks[chunkIdx] || ''
     const isType = mode === 'type'
 
