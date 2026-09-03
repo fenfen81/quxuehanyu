@@ -53,7 +53,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'you（单数）',
             exampleCn: '你好！',
             exampleEn: 'Hello to you!',
-            examplePinyin: 'Nǐ hǎo!',
+            examplePinyin: 'nǐhǎo！',
           },
           {
             id: 'l1-w2',
@@ -63,7 +63,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'good；fine；well',
             exampleCn: '我很好。',
             exampleEn: 'I’m fine.',
-            examplePinyin: 'Wǒ hěn hǎo.',
+            examplePinyin: 'wǒ hěn hǎo。',
           },
           {
             id: 'l1-w3',
@@ -73,7 +73,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one',
             exampleCn: '这是一本书。',
             exampleEn: 'This is one book.',
-            examplePinyin: 'Zhè shì yì běn shū.',
+            examplePinyin: 'zhè shì yī běnshū。',
           },
           {
             id: 'l1-w4',
@@ -83,7 +83,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'five',
             exampleCn: '我有五个朋友。',
             exampleEn: 'I have five friends.',
-            examplePinyin: 'Wǒ yǒu wǔ gè péngyou.',
+            examplePinyin: 'wǒ yǒu wǔgè péngyǒu。',
           },
           {
             id: 'l1-w5',
@@ -93,7 +93,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'eight',
             exampleCn: '这里有八张桌子。',
             exampleEn: 'There are eight desks here.',
-            examplePinyin: 'Zhèlǐ yǒu bā zhāng zhuōzi.',
+            examplePinyin: 'zhèlǐ yǒu bāzhāng zhuōzi。',
           },
           {
             id: 'l1-w6',
@@ -103,7 +103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'big；large',
             exampleCn: '这个箱子很大。',
             exampleEn: 'This box is big.',
-            examplePinyin: 'Zhège xiāngzi hěn dà.',
+            examplePinyin: 'zhège xiāngzi hěndà。',
           },
           {
             id: 'l1-w7',
@@ -113,7 +113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not',
             exampleCn: '我不好。',
             exampleEn: 'I’m not fine.',
-            examplePinyin: 'Wǒ bù hǎo.',
+            examplePinyin: 'wǒ bùhǎo。',
           },
           {
             id: 'l1-w8',
@@ -123,7 +123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mouth；measure word for people',
             exampleCn: '我家有三口人。',
             exampleEn: 'There are three people in my family.',
-            examplePinyin: 'Wǒ jiā yǒu sān kǒu rén.',
+            examplePinyin: 'wǒjiā yǒu sānkǒu rén。',
           },
           {
             id: 'l1-w9',
@@ -133,7 +133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'white',
             exampleCn: '这是白马。',
             exampleEn: 'This is a white horse.',
-            examplePinyin: 'Zhè shì bái mǎ.',
+            examplePinyin: 'zhè shì báimǎ。',
           },
           {
             id: 'l1-w10',
@@ -143,7 +143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'horse',
             exampleCn: '白马很大。',
             exampleEn: 'The white horse is big.',
-            examplePinyin: 'Bái mǎ hěn dà.',
+            examplePinyin: 'báimǎ hěndà。',
           },
           {
             id: 'l1-w11',
@@ -153,7 +153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'female；woman',
             exampleCn: '她是女生。',
             exampleEn: 'She is a girl.',
-            examplePinyin: 'Tā shì nǚshēng.',
+            examplePinyin: 'tā shì nǚshēng。',
           },
         ],
       },
@@ -13835,7 +13835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hello',
             exampleCn: '喂，是田芳吗？',
             exampleEn: 'Hello, is Tian Fang there?',
-            examplePinyin: 'wèi，shì tián fāng ma？',
+            examplePinyin: 'wèi， shì tián fāng ma？',
           },
           {
             id: 'hj2a-l1-w2',
@@ -13845,7 +13845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'aunt',
             exampleCn: '阿姨，田芳去哪儿了？',
             exampleEn: 'Aunt, where has Tian Fang gone?',
-            examplePinyin: 'āyí，tián fāng qù nǎ ér le？',
+            examplePinyin: 'āyí， tián fāng qù nǎr le？',
           },
           {
             id: 'hj2a-l1-w3',
@@ -13855,7 +13855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a particle used at the end of a sentence to indicate change or the emergence of a new situation',
             exampleCn: '田芳去同学家了。',
             exampleEn: 'Tian Fang went to a classmate\'s house.',
-            examplePinyin: 'tián fāng qù tóng xué jiā le。',
+            examplePinyin: 'tián fāng qù tóngxué jiā le。',
           },
           {
             id: 'hj2a-l1-w4',
@@ -13865,7 +13865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'middle school',
             exampleCn: '她的中学同学要出国。',
             exampleEn: 'Her middle school classmate is going abroad.',
-            examplePinyin: 'tā de zhōngxué tóng xué yào chūguó。',
+            examplePinyin: 'tā de zhōngxué tóngxué yào chūguó。',
           },
           {
             id: 'hj2a-l1-w5',
@@ -13875,7 +13875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go abroad',
             exampleCn: '她的同学要出国了。',
             exampleEn: 'Her classmate is going abroad.',
-            examplePinyin: 'tā de tóng xué yào chūguó le。',
+            examplePinyin: 'tā de tóngxué yào chūguó le。',
           },
           {
             id: 'hj2a-l1-w6',
@@ -13885,7 +13885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to move from inside to outside',
             exampleCn: '田芳下午就出去了。',
             exampleEn: 'Tian Fang went out in the afternoon.',
-            examplePinyin: 'tián fāng xià wǔ jiù chūqu le。',
+            examplePinyin: 'tián fāng xiàwǔ jiù chūqù le。',
           },
           {
             id: 'hj2a-l1-w7',
@@ -13895,7 +13895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make (a phone call)',
             exampleCn: '张东给田芳打（电话）了。',
             exampleEn: 'Zhang Dong called Tian Fang.',
-            examplePinyin: 'zhāng dōng gěi tián fāng dǎ（diàn huà）le。',
+            examplePinyin: 'zhāng dōng gěi tián fāng dǎ （ diànhuà ） le。',
           },
           {
             id: 'hj2a-l1-w8',
@@ -13905,7 +13905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to turn off one\'s mobile phone',
             exampleCn: '田芳的手机关机了。',
             exampleEn: 'Tian Fang\'s mobile phone is off.',
-            examplePinyin: 'tián fāng de shǒu jī guānjī le。',
+            examplePinyin: 'tián fāng de shǒujī guānjī le。',
           },
           {
             id: 'hj2a-l1-w9',
@@ -13915,7 +13915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to turn off; to switch off',
             exampleCn: '她忘关手机了吗？',
             exampleEn: 'Did she forget to turn off her phone?',
-            examplePinyin: 'tā wàng guān shǒu jī le ma？',
+            examplePinyin: 'tā wàng guān shǒujī le ma？',
           },
           {
             id: 'hj2a-l1-w10',
@@ -13925,7 +13925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hungry',
             exampleCn: '阿姨问："饿了吧？"',
             exampleEn: 'Aunt asked, "Are you hungry?"',
-            examplePinyin: 'āyí wèn："è le ba？"',
+            examplePinyin: 'āyí wèn： " è le ba？ "',
           },
           {
             id: 'hj2a-l1-w11',
@@ -13935,7 +13935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by the way; and',
             exampleCn: '对了，张东给你打电话了。',
             exampleEn: 'By the way, Zhang Dong called you.',
-            examplePinyin: 'duìle，zhāng dōng gěi nǐ dǎdiànhuà le。',
+            examplePinyin: 'duì le， zhāng dōng gěi nǐ dǎdiànhuà le。',
           },
           {
             id: 'hj2a-l1-w12',
@@ -13955,7 +13955,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to turn on one\'s mobile phone',
             exampleCn: '她还没有开机呢。',
             exampleEn: 'She hasn\'t turned on her phone yet.',
-            examplePinyin: 'tā huán méi yǒu kāijī ne。',
+            examplePinyin: 'tā hái méiyǒu kāijī ne。',
           },
           {
             id: 'hj2a-l1-w14',
@@ -13965,7 +13965,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to turn on; to switch on',
             exampleCn: '她回去就开了手机。',
             exampleEn: 'She turned on her phone when she got back.',
-            examplePinyin: 'tā huí qù jiù kāi le shǒu jī。',
+            examplePinyin: 'tā huíqù jiù kāi le shǒujī。',
           },
           {
             id: 'hj2a-l1-w15',
@@ -13975,7 +13975,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'again',
             exampleCn: '电话又响了。',
             exampleEn: 'The phone rang again.',
-            examplePinyin: 'diàn huà yòu xiǎng le。',
+            examplePinyin: 'diànhuà yòu xiǎng le。',
           },
           {
             id: 'hj2a-l1-w16',
@@ -13985,7 +13985,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make a sound; to ring',
             exampleCn: '手机响了，田芳去接。',
             exampleEn: 'The mobile phone rang, and Tian Fang answered it.',
-            examplePinyin: 'shǒu jī xiǎng le，tián fāng qù jiē。',
+            examplePinyin: 'shǒujī xiǎng le， tián fāng qù jiē。',
           },
           {
             id: 'hj2a-l1-w17',
@@ -13995,7 +13995,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get; to receive',
             exampleCn: '田芳去接电话了。',
             exampleEn: 'Tian Fang went to answer the phone.',
-            examplePinyin: 'tián fāng qù jiē diàn huà le。',
+            examplePinyin: 'tián fāng qù jiēdiànhuà le。',
           },
           {
             id: 'hj2a-l1-w18',
@@ -14005,7 +14005,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to kick; to play (football)',
             exampleCn: '张东下午去踢足球了。',
             exampleEn: 'Zhang Dong went to play football in the afternoon.',
-            examplePinyin: 'zhāng dōng xià wǔ qù tī zú qiú le。',
+            examplePinyin: 'zhāng dōng xiàwǔ qù tīzúqiú le。',
           },
           {
             id: 'hj2a-l1-w19',
@@ -14015,7 +14015,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to contest; match; game',
             exampleCn: '他们跟留学生队比赛了。',
             exampleEn: 'They played a game against the international student team.',
-            examplePinyin: 'tā men gēn liú xué shēng duì bǐsài le。',
+            examplePinyin: 'tāmen gēn liúxuéshēng duì bǐsài le。',
           },
           {
             id: 'hj2a-l1-w20',
@@ -14025,7 +14025,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'team',
             exampleCn: '你们队又输了吧？',
             exampleEn: 'Your team lost again, didn\'t it?',
-            examplePinyin: 'nǐ men duì yòu shū le ba？',
+            examplePinyin: 'nǐmen duì yòu shū le ba？',
           },
           {
             id: 'hj2a-l1-w21',
@@ -14035,7 +14035,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lose (a game)',
             exampleCn: '这次留学生队输了。',
             exampleEn: 'This time the international student team lost.',
-            examplePinyin: 'zhè cì liú xué shēng duì shū le。',
+            examplePinyin: 'zhècì liúxuéshēng duì shū le。',
           },
           {
             id: 'hj2a-l1-w22',
@@ -14055,7 +14055,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(in a score) to',
             exampleCn: '这次比赛二比一。',
             exampleEn: 'This game was two to one.',
-            examplePinyin: 'zhè cì bǐsài èr bǐ yī。',
+            examplePinyin: 'zhècì bǐsài èr bǐ yī。',
           },
           {
             id: 'hj2a-l1-w24',
@@ -14065,7 +14065,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to congratulate',
             exampleCn: '田芳祝贺他们赢了。',
             exampleEn: 'Tian Fang congratulated them on winning.',
-            examplePinyin: 'tián fāng zhùhè tā men yíng le。',
+            examplePinyin: 'tián fāng zhùhè tāmen yíng le。',
           },
           {
             id: 'hj2a-l1-w25',
@@ -14075,7 +14075,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'an interjection used as a reminder',
             exampleCn: '哎，你有什么事儿吗？',
             exampleEn: 'Hey, do you have something to tell me?',
-            examplePinyin: 'āi，nǐ yǒu shén me shì ér ma？',
+            examplePinyin: 'āi， nǐ yǒu shénme shìr ma？',
           },
           {
             id: 'hj2a-l1-w26',
@@ -14085,7 +14085,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to attend (a class, program, etc.)',
             exampleCn: '你是不是要上托福班？',
             exampleEn: 'Aren\'t you going to attend a TOEFL class?',
-            examplePinyin: 'nǐ shì bù shì yào shang tuōfú bān？',
+            examplePinyin: 'nǐ shìbúshì yào shàng tuōfú bān？',
           },
           {
             id: 'hj2a-l1-w27',
@@ -14105,7 +14105,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'already',
             exampleCn: '她已经报名了。',
             exampleEn: 'She has already registered.',
-            examplePinyin: 'tā yǐjīng bào míng le。',
+            examplePinyin: 'tā yǐjīng bàomíng le。',
           },
           {
             id: 'hj2a-l1-w29',
@@ -14125,7 +14125,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to accompany',
             exampleCn: '田芳陪张东去报名。',
             exampleEn: 'Tian Fang accompanies Zhang Dong to register.',
-            examplePinyin: 'tián fāng péi zhāng dōng qù bào míng。',
+            examplePinyin: 'tián fāng péi zhāng dōng qù bàomíng。',
           },
         ],
       },
@@ -14143,7 +14143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'patient',
             exampleCn: '医院里有几个病人。',
             exampleEn: 'There are a few patients in the hospital.',
-            examplePinyin: 'yī yuàn lǐ yǒu jǐ gè bìngrén。',
+            examplePinyin: 'yīyuàn lǐ yǒu jǐgè bìngrén。',
           },
           {
             id: 'hj2a-l2-w2',
@@ -14153,7 +14153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stomach; abdomen',
             exampleCn: '他的肚子疼得很厉害。',
             exampleEn: 'His stomach hurts badly.',
-            examplePinyin: 'tā de dùzi téng dé hěn lìhai。',
+            examplePinyin: 'tā de dǔziténg dé hěn lìhài。',
           },
           {
             id: 'hj2a-l2-w3',
@@ -14163,7 +14163,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'serious; severe',
             exampleCn: '他的病很厉害。',
             exampleEn: 'His illness is serious.',
-            examplePinyin: 'tā de bìng hěn lìhai。',
+            examplePinyin: 'tā de bìng hěn lìhài。',
           },
           {
             id: 'hj2a-l2-w4',
@@ -14173,7 +14173,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'an aspect particle used after a verb or an adjective to indicate the completion of a real or expected action or change',
             exampleCn: '他吃了两片药了。',
             exampleEn: 'He already took two tablets.',
-            examplePinyin: 'tā chī le liǎng piàn yào le。',
+            examplePinyin: 'tā chī le liǎngpiàn yào le。',
           },
           {
             id: 'hj2a-l2-w5',
@@ -14183,7 +14183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(a measure word for slices, tablets, etc.) piece',
             exampleCn: '一次吃一片药。',
             exampleEn: 'Take one tablet each time.',
-            examplePinyin: 'yī cì chī yī piàn yào。',
+            examplePinyin: 'yīcì chī yīpiàn yào。',
           },
           {
             id: 'hj2a-l2-w6',
@@ -14193,7 +14193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to suffer from diarrhoea; to have loose bowels',
             exampleCn: '他昨天拉肚子了。',
             exampleEn: 'He had diarrhea yesterday.',
-            examplePinyin: 'tā zuó tiān lādùzi le。',
+            examplePinyin: 'tā zuótiān lādùzi le。',
           },
           {
             id: 'hj2a-l2-w7',
@@ -14203,7 +14203,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have a bowel movement',
             exampleCn: '他今天拉了三次。',
             exampleEn: 'He went three times today.',
-            examplePinyin: 'tā jīn tiān lā le sān cì。',
+            examplePinyin: 'tā jīntiān lā le sāncì。',
           },
           {
             id: 'hj2a-l2-w8',
@@ -14213,7 +14213,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fish',
             exampleCn: '昨天他吃了鱼。',
             exampleEn: 'He ate fish yesterday.',
-            examplePinyin: 'zuó tiān tā chī le yú。',
+            examplePinyin: 'zuótiān tā chī le yú。',
           },
           {
             id: 'hj2a-l2-w9',
@@ -14223,7 +14223,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beef',
             exampleCn: '他很喜欢吃牛肉。',
             exampleEn: 'He likes eating beef very much.',
-            examplePinyin: 'tā hěn xǐ huān chī niúròu。',
+            examplePinyin: 'tā hěn xǐhuān chī niúròu。',
           },
           {
             id: 'hj2a-l2-w10',
@@ -14233,7 +14233,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to test; to assay',
             exampleCn: '大夫让他去化验。',
             exampleEn: 'The doctor asked him to take a test.',
-            examplePinyin: 'dà fū ràng tā qù huàyàn。',
+            examplePinyin: 'dàfū ràng tā qù huàyàn。',
           },
           {
             id: 'hj2a-l2-w11',
@@ -14243,7 +14243,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'feces; to defecate',
             exampleCn: '大夫问他的大便正常吗。',
             exampleEn: 'The doctor asked if his stool was normal.',
-            examplePinyin: 'dà fū wèn tā de dàbiàn zhèngcháng ma。',
+            examplePinyin: 'dàfū wèn tā de dàbiàn zhèngcháng ma。',
           },
           {
             id: 'hj2a-l2-w12',
@@ -14263,7 +14263,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to examine; to check up',
             exampleCn: '大夫给他检查了身体。',
             exampleEn: 'The doctor examined his body.',
-            examplePinyin: 'dà fū gěi tā jiǎnchá le shēn tǐ。',
+            examplePinyin: 'dàfū gěi tā jiǎnchá le shēntǐ。',
           },
           {
             id: 'hj2a-l2-w14',
@@ -14273,7 +14273,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'result',
             exampleCn: '化验结果出来了。',
             exampleEn: 'The test result came out.',
-            examplePinyin: 'huàyàn jiéguǒ chūlai le。',
+            examplePinyin: 'huàyàn jiéguǒ chūlái le。',
           },
           {
             id: 'hj2a-l2-w15',
@@ -14283,7 +14283,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to emerge; to materialize',
             exampleCn: '他从医院出来了。',
             exampleEn: 'He came out of the hospital.',
-            examplePinyin: 'tā cóng yī yuàn chūlai le。',
+            examplePinyin: 'tā cóng yīyuàn chūlái le。',
           },
           {
             id: 'hj2a-l2-w16',
@@ -14303,7 +14303,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'enteritis',
             exampleCn: '肠炎让他肚子疼。',
             exampleEn: 'Enteritis made his stomach hurt.',
-            examplePinyin: 'chángyán ràng tā dùzi téng。',
+            examplePinyin: 'chángyán ràng tā dǔziténg。',
           },
           {
             id: 'hj2a-l2-w18',
@@ -14313,7 +14313,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to digest',
             exampleCn: '他消化不太好。',
             exampleEn: 'His digestion is not very good.',
-            examplePinyin: 'tā xiāohuà bù tài hǎo。',
+            examplePinyin: 'tā xiāohuà bùtàihǎo。',
           },
           {
             id: 'hj2a-l2-w19',
@@ -14323,7 +14323,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to prescribe (medicine)',
             exampleCn: '大夫给他开（药）了。',
             exampleEn: 'The doctor prescribed medicine for him.',
-            examplePinyin: 'dà fū gěi tā kāi（yào）le。',
+            examplePinyin: 'dàfū gěi tā kāi （ yào ） le。',
           },
           {
             id: 'hj2a-l2-w20',
@@ -14333,7 +14333,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give or have an injection',
             exampleCn: '护士给他打针了。',
             exampleEn: 'The nurse gave him an injection.',
-            examplePinyin: 'hù shì gěi tā dǎzhēn le。',
+            examplePinyin: 'hùshì gěi tā dǎzhēn le。',
           },
           {
             id: 'hj2a-l2-w21',
@@ -14343,7 +14343,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'after; later',
             exampleCn: '吃了药以后，他好多了。',
             exampleEn: 'After taking the medicine, he felt much better.',
-            examplePinyin: 'chī le yào yǐ hòu，tā hǎo duō le。',
+            examplePinyin: 'chī le yào yǐhòu， tā hǎoduō le。',
           },
           {
             id: 'hj2a-l2-w22',
@@ -14353,7 +14353,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to cry; to weep',
             exampleCn: '玛丽哭了。',
             exampleEn: 'Mary cried.',
-            examplePinyin: 'mǎ lì kū le。',
+            examplePinyin: 'mǎlì kū le。',
           },
           {
             id: 'hj2a-l2-w23',
@@ -14363,7 +14363,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lonely',
             exampleCn: '玛丽感到很寂寞。',
             exampleEn: 'Mary felt very lonely.',
-            examplePinyin: 'mǎ lì gǎn dào hěn jìmò。',
+            examplePinyin: 'mǎlì gǎndào hěn jìmò。',
           },
           {
             id: 'hj2a-l2-w24',
@@ -14373,7 +14373,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'so; therefore',
             exampleCn: '她生病了，所以没来。',
             exampleEn: 'She was sick, so she didn\'t come.',
-            examplePinyin: 'tā shēngbìng le，suǒyǐ méi lái。',
+            examplePinyin: 'tā shēngbìng le， suǒyǐ méi lái。',
           },
           {
             id: 'hj2a-l2-w25',
@@ -14383,7 +14383,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sad; unhappy',
             exampleCn: '玛丽心里很难过。',
             exampleEn: 'Mary felt very sad.',
-            examplePinyin: 'mǎ lì xīn lǐ hěn nánguò。',
+            examplePinyin: 'mǎlì xīnlǐ hěn nánguò。',
           },
           {
             id: 'hj2a-l2-w26',
@@ -14393,7 +14393,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'don\'t',
             exampleCn: '罗兰说：“别难过了。”',
             exampleEn: 'Roland said, "Don\'t be sad."',
-            examplePinyin: 'luó lán shuō：“bié nánguò le。”',
+            examplePinyin: 'luólán shuō： “ biénánguò le。 ”',
           },
           {
             id: 'hj2a-l2-w27',
@@ -14403,7 +14403,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'auditorium',
             exampleCn: '晚上礼堂有舞会。',
             exampleEn: 'There is a dance party in the auditorium tonight.',
-            examplePinyin: 'wǎn shang lǐtáng yǒu wǔhuì。',
+            examplePinyin: 'wǎnshàng lǐtáng yǒu wǔhuì。',
           },
           {
             id: 'hj2a-l2-w28',
@@ -14413,7 +14413,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ball; dancing party',
             exampleCn: '玛丽不想去舞会。',
             exampleEn: 'Mary doesn\'t want to go to the dance party.',
-            examplePinyin: 'mǎ lì bù xiǎng qù wǔhuì。',
+            examplePinyin: 'mǎlì bùxiǎng qù wǔhuì。',
           },
           {
             id: 'hj2a-l2-w29',
@@ -14423,7 +14423,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to dance',
             exampleCn: '罗兰喜欢跳舞。',
             exampleEn: 'Roland likes dancing.',
-            examplePinyin: 'luó lán xǐ huān tiàowǔ。',
+            examplePinyin: 'luólán xǐhuān tiàowǔ。',
           },
         ],
       },
@@ -14441,7 +14441,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'measure word for apartments/houses',
             exampleCn: '业务员带小张看了三套出租房。',
             exampleEn: 'The agent showed Zhang three rental apartments.',
-            examplePinyin: 'yè wù yuán dài xiǎo zhāng kàn le sān tào chū zū fáng。',
+            examplePinyin: 'yèwùyuán dài xiǎozhāng kàn le sāntào chūzūfáng。',
           },
           {
             id: 'hj2a-l3-w2',
@@ -14451,7 +14451,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'house; apartment',
             exampleCn: '小张想租一套离公司近的房子。',
             exampleEn: 'Zhang wants to rent an apartment close to his company.',
-            examplePinyin: 'xiǎo zhāng xiǎng zū yī tào lí gōng sī jìn de fángzi。',
+            examplePinyin: 'xiǎozhāng xiǎng zū yītào lí gōngsī jìn de fángzi。',
           },
           {
             id: 'hj2a-l3-w3',
@@ -14461,7 +14461,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'satisfied',
             exampleCn: '小张看的前三套房子他都不太满意。',
             exampleEn: 'Zhang was not satisfied with the first three apartments he saw.',
-            examplePinyin: 'xiǎo zhāng kàn de qián sān tào fángzi tā dōu bù tài mǎnyì。',
+            examplePinyin: 'xiǎozhāng kàn de qián sāntào fángzi tā dōu bù tài mǎnyì。',
           },
           {
             id: 'hj2a-l3-w4',
@@ -14471,7 +14471,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'some (ones)',
             exampleCn: '有的房子太小，有的周边环境很乱。',
             exampleEn: 'Some apartments are too small and some have noisy surroundings.',
-            examplePinyin: 'yǒude fángzi tài xiǎo，yǒude zhōu biān huánjìng hěn luàn。',
+            examplePinyin: 'yǒu de fángzi tàixiǎo， yǒu de zhōubiānhuánjìng hěn luàn。',
           },
           {
             id: 'hj2a-l3-w5',
@@ -14481,7 +14481,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'surroundings; around',
             exampleCn: '这套房子的周围有一条小河。',
             exampleEn: 'There is a small river around this apartment.',
-            examplePinyin: 'zhè tào fángzi de zhōuwéi yǒu yī tiáo xiǎo hé。',
+            examplePinyin: 'zhè tào fángzi de zhōuwéi yǒu yītiáo xiǎohé。',
           },
           {
             id: 'hj2a-l3-w6',
@@ -14491,7 +14491,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'environment; surroundings',
             exampleCn: '小张很喜欢这里安静的环境。',
             exampleEn: 'Zhang likes the quiet environment here very much.',
-            examplePinyin: 'xiǎo zhāng hěn xǐ huān zhè lǐ ān jìng de huánjìng。',
+            examplePinyin: 'xiǎozhāng hěn xǐhuān zhèlǐ ānjìng de huánjìng。',
           },
           {
             id: 'hj2a-l3-w7',
@@ -14501,7 +14501,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'noisy; messy',
             exampleCn: '路边的房子环境太乱，小张不喜欢。',
             exampleEn: 'The houses by the road are too noisy, so Zhang dislikes them.',
-            examplePinyin: 'lù biān de fángzi huánjìng tài luàn，xiǎo zhāng bù xǐ huān。',
+            examplePinyin: 'lùbiān de fángzi huánjìng tài luàn， xiǎozhāng bù xǐhuān。',
           },
           {
             id: 'hj2a-l3-w8',
@@ -14511,7 +14511,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'kitchen',
             exampleCn: '这套房子的厨房空间很大，很好用。',
             exampleEn: 'The kitchen of this apartment is spacious and practical.',
-            examplePinyin: 'zhè tào fángzi de chúfáng kōng jiān hěn dà，hěn hǎo yòng。',
+            examplePinyin: 'zhè tào fángzi de chúfáng kōngjiān hěndà， hěn hǎo yòng。',
           },
           {
             id: 'hj2a-l3-w9',
@@ -14521,7 +14521,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bedroom',
             exampleCn: '卧室采光不错，就是客厅有点小。',
             exampleEn: 'The bedroom has good light, but the living room is a little small.',
-            examplePinyin: 'wòshì cǎi guāng bù cuò，jiù shì kètīng yǒu diǎn xiǎo。',
+            examplePinyin: 'wòshì cǎiguāng bùcuò， jiùshì kètīng yǒudiǎn xiǎo。',
           },
           {
             id: 'hj2a-l3-w10',
@@ -14531,7 +14531,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'living room',
             exampleCn: '小张觉得这套客厅面积太小了。',
             exampleEn: 'Zhang thinks the living room of this apartment is too small.',
-            examplePinyin: 'xiǎo zhāng jué dé zhè tào kètīng miànjī tài xiǎo le。',
+            examplePinyin: 'xiǎozhāng juéde zhè tào kètīng miànjī tàixiǎo le。',
           },
           {
             id: 'hj2a-l3-w11',
@@ -14541,7 +14541,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'area',
             exampleCn: '这间客厅的面积只有二十平方米。',
             exampleEn: 'The area of this living room is only twenty square meters.',
-            examplePinyin: 'zhè jiān kètīng de miànjī zhī yǒu èr shí píngfāngmǐ。',
+            examplePinyin: 'zhè jiān kètīng de miànjī zhǐyǒu èrshí píngfāngmǐ。',
           },
           {
             id: 'hj2a-l3-w12',
@@ -14551,7 +14551,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'floor; storey',
             exampleCn: '十八层那套房子采光全天都很好。',
             exampleEn: 'The apartment on the 18th floor has sunlight all day.',
-            examplePinyin: 'shí bā céng nà tào fángzi cǎi guāng quán tiān dōu hěn hǎo。',
+            examplePinyin: 'shíbācéng nà tào fángzi cǎiguāng quántiān dōu hěn hǎo。',
           },
           {
             id: 'hj2a-l3-w13',
@@ -14561,7 +14561,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'square meter',
             exampleCn: '大客厅有三十多平方米。',
             exampleEn: 'The big living room is more than thirty square meters.',
-            examplePinyin: 'dà kètīng yǒu sān shí duō píngfāngmǐ。',
+            examplePinyin: 'dàkètīng yǒu sānshí duōpíngfāngmǐ。',
           },
           {
             id: 'hj2a-l3-w14',
@@ -14571,7 +14571,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go up',
             exampleCn: '我们现在上楼上去看看那套大房子。',
             exampleEn: 'Let\'s go upstairs to see that big apartment.',
-            examplePinyin: 'wǒ men xiàn zài shang lóu shàngqù kàn kàn nà tào dà fángzi。',
+            examplePinyin: 'wǒmen xiànzài shànglóu shàngqù kànkàn nà tào dàfángzi。',
           },
           {
             id: 'hj2a-l3-w15',
@@ -14581,7 +14581,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sunshine',
             exampleCn: '小张想要早晚都有阳光的房子。',
             exampleEn: 'Zhang wants an apartment with sunshine morning and evening.',
-            examplePinyin: 'xiǎo zhāng xiǎng yào zǎo wǎn dōu yǒu yángguāng de fángzi。',
+            examplePinyin: 'xiǎozhāng xiǎngyào zǎowǎn dōu yǒu yángguāng de fángzi。',
           },
           {
             id: 'hj2a-l3-w16',
@@ -14591,7 +14591,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'had better; still',
             exampleCn: '我还是选一套全天有阳光的屋子。',
             exampleEn: 'I\'d better choose an apartment with sunshine all day.',
-            examplePinyin: 'wǒ háishì xuǎn yī tào quán tiān yǒu yángguāng de wūzi。',
+            examplePinyin: 'wǒ háishì xuǎn yītào quántiān yǒu yángguāng de wūzi。',
           },
           {
             id: 'hj2a-l3-w17',
@@ -14601,7 +14601,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wife',
             exampleCn: '小张回家和妻子商量租房的事。',
             exampleEn: 'Zhang went home to discuss renting a house with his wife.',
-            examplePinyin: 'xiǎo zhāng huí jiā hé qīzi shāngliang zū fáng de shì。',
+            examplePinyin: 'xiǎozhāng huíjiā hé qīzǐ shāngliáng zūfáng de shì。',
           },
           {
             id: 'hj2a-l3-w18',
@@ -14611,7 +14611,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'traffic jam',
             exampleCn: '路上堵车堵得厉害，妻子很晚到家。',
             exampleEn: 'There was a heavy traffic jam, so Zhang\'s wife got home very late.',
-            examplePinyin: 'lù shang dǔchē dǔ dé lìhai，qīzi hěn wǎn dào jiā。',
+            examplePinyin: 'lùshàng dǔchē dǔ dé lìhài， qīzǐ hěn wǎn dào jiā。',
           },
           {
             id: 'hj2a-l3-w19',
@@ -14621,7 +14621,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rush; hurry',
             exampleCn: '下了班她就往家里赶。',
             exampleEn: 'She rushed home right after work.',
-            examplePinyin: 'xià le bān tā jiù wǎng jiā lǐ gǎn。',
+            examplePinyin: 'xià le bān tā jiù wǎng jiālǐ gǎn。',
           },
           {
             id: 'hj2a-l3-w20',
@@ -14631,7 +14631,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'only; just (late action)',
             exampleCn: '八点半妻子才回到家里。',
             exampleEn: 'Zhang\'s wife only got home at half past eight.',
-            examplePinyin: 'bā diǎn bàn qīzi cái huí dào jiā lǐ。',
+            examplePinyin: 'bādiǎnbàn qīzǐ cái huídào jiālǐ。',
           },
           {
             id: 'hj2a-l3-w21',
@@ -14641,7 +14641,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'if',
             exampleCn: '要是妻子也满意，我们就租这套。',
             exampleEn: 'If his wife is satisfied too, we will rent this apartment.',
-            examplePinyin: 'yàoshi qīzi yě mǎnyì，wǒ men jiù zū zhè tào。',
+            examplePinyin: 'yàoshì qīzǐ yě mǎnyì， wǒmen jiù zū zhè tào。',
           },
           {
             id: 'hj2a-l3-w22',
@@ -14651,7 +14651,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rent',
             exampleCn: '夫妻俩打算租这套大房子。',
             exampleEn: 'The couple plans to rent this big apartment.',
-            examplePinyin: 'fū qī liǎ dǎ suàn zū zhè tào dà fángzi。',
+            examplePinyin: 'fūqīliǎ dǎsuàn zū zhè tào dàfángzi。',
           },
           {
             id: 'hj2a-l3-w23',
@@ -14661,7 +14661,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'house rent',
             exampleCn: '这套房子每个月房租五千块。',
             exampleEn: 'The monthly rent of this apartment is five thousand yuan.',
-            examplePinyin: 'zhè tào fángzi měi gè yuè fángzū wǔ qiān kuài。',
+            examplePinyin: 'zhè tào fángzi měigè yuè fángzū wǔqiānkuài。',
           },
           {
             id: 'hj2a-l3-w24',
@@ -14671,7 +14671,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'although; though',
             exampleCn: '房租虽然贵一点，但房子特别好。',
             exampleEn: 'Although the rent is a bit high, the apartment is wonderful.',
-            examplePinyin: 'fángzū suīrán guì yī diǎn，dàn fángzi tè bié hǎo。',
+            examplePinyin: 'fángzū suīrán guì yìdiǎn， dàn fángzi tèbié hǎo。',
           },
           {
             id: 'hj2a-l3-w25',
@@ -14681,7 +14681,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'really; true',
             exampleCn: '这套房子真的又安静又宽敞。',
             exampleEn: 'This apartment is really quiet and spacious.',
-            examplePinyin: 'zhè tào fángzi zhēn de yòu ān jìng yòu kuān chǎng。',
+            examplePinyin: 'zhè tào fángzi zhēnde yòu ānjìng yòu kuānchǎng。',
           },
           {
             id: 'hj2a-l3-w26',
@@ -14691,7 +14691,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'measure word for rivers',
             exampleCn: '山下有一条干净的小河。',
             exampleEn: 'There is a clean small river at the foot of the mountain.',
-            examplePinyin: 'shān xià yǒu yī tiáo gānjìng de xiǎo hé。',
+            examplePinyin: 'shānxià yǒu yītiáo gānjìng de xiǎohé。',
           },
           {
             id: 'hj2a-l3-w27',
@@ -14701,7 +14701,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'river',
             exampleCn: '公寓旁边的小河河水很干净。',
             exampleEn: 'The water of the river beside the apartment is very clean.',
-            examplePinyin: 'gōng yù pángbiān de xiǎo hé hé shuǐ hěn gānjìng。',
+            examplePinyin: 'gōngyù pángbiān de xiǎohé héshuǐ hěn gānjìng。',
           },
           {
             id: 'hj2a-l3-w28',
@@ -14711,7 +14711,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'transportation',
             exampleCn: '这里的交通十分方便，楼下有公交。',
             exampleEn: 'The transport here is very convenient with buses downstairs.',
-            examplePinyin: 'zhè lǐ de jiāotōng shí fēn fāngbiàn，lóu xià yǒu gōng jiāo。',
+            examplePinyin: 'zhèlǐ de jiāotōng shífēn fāngbiàn， lóuxià yǒu gōngjiāo。',
           },
           {
             id: 'hj2a-l3-w29',
@@ -14721,7 +14721,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'convenient',
             exampleCn: '楼下公交站坐车十分钟到公司，特别方便。',
             exampleEn: 'It only takes ten minutes to get to work by bus downstairs, very convenient.',
-            examplePinyin: 'lóu xià gōng jiāo zhàn zuò chē shí fēn zhōng dào gōng sī，tè bié fāngbiàn。',
+            examplePinyin: 'lóuxià gōngjiāo zhàn zuòchē shífēnzhōng dào gōngsī， tèbié fāngbiàn。',
           },
           {
             id: 'hj2a-l3-w30',
@@ -14731,7 +14731,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bus',
             exampleCn: '楼下就有公共汽车站台。',
             exampleEn: 'There is a bus stop right downstairs.',
-            examplePinyin: 'lóu xià jiù yǒu gōnggòngqìchē zhàn tái。',
+            examplePinyin: 'lóuxià jiù yǒu gōnggòngqìchē zhàntái。',
           },
           {
             id: 'hj2a-l3-w31',
@@ -14741,7 +14741,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stop; station',
             exampleCn: '公寓楼下的公交站人不多。',
             exampleEn: 'Not many people at the bus stop downstairs of the apartment.',
-            examplePinyin: 'gōng yù lóu xià de gōng jiāo zhàn rén bù duō。',
+            examplePinyin: 'gōngyùlóu xià de gōngjiāo zhàn rén bù duō。',
           },
           {
             id: 'hj2a-l3-w32',
@@ -14751,7 +14751,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bus/train station',
             exampleCn: '地铁站就在汽车站旁边。',
             exampleEn: 'The subway station is next to the bus stop.',
-            examplePinyin: 'dìtiě zhàn jiù zài qì chēzhàn pángbiān。',
+            examplePinyin: 'dìtiězhàn jiù zài qìchēzhàn pángbiān。',
           },
           {
             id: 'hj2a-l3-w33',
@@ -14761,7 +14761,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beside; side',
             exampleCn: '地铁站就在公寓楼旁边。',
             exampleEn: 'The subway station is beside the apartment building.',
-            examplePinyin: 'dìtiě zhàn jiù zài gōng yù lóu pángbiān。',
+            examplePinyin: 'dìtiězhàn jiù zài gōngyùlóu pángbiān。',
           },
           {
             id: 'hj2a-l3-w34',
@@ -14771,7 +14771,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'subway; metro',
             exampleCn: '坐地铁上班不会堵车。',
             exampleEn: 'Taking the subway to work avoids traffic jams.',
-            examplePinyin: 'zuò dìtiě shang bān bù huì dǔchē。',
+            examplePinyin: 'zuò dìtiě shàngbān búhuì dǔchē。',
           },
           {
             id: 'hj2a-l3-w35',
@@ -14781,7 +14781,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nearby',
             exampleCn: '房子附近有医院、学校和体育馆。',
             exampleEn: 'There are hospitals, schools and gyms near the apartment.',
-            examplePinyin: 'fángzi fùjìn yǒu yī yuàn、xué xiào hé tǐyùguǎn。',
+            examplePinyin: 'fángzi fùjìn yǒu yīyuàn、 xuéxiào hé tǐyùguǎn。',
           },
           {
             id: 'hj2a-l3-w36',
@@ -14791,7 +14791,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'gymnasium',
             exampleCn: '小张休息时可以去附近体育馆锻炼。',
             exampleEn: 'Zhang can exercise at the nearby gym on his days off.',
-            examplePinyin: 'xiǎo zhāng xiū xī shí kě yǐ qù fùjìn tǐyùguǎn duàn liàn。',
+            examplePinyin: 'xiǎozhāng xiūxī shí kěyǐ qù fùjìn tǐyùguǎn duànliàn。',
           },
         ],
       },
@@ -14809,7 +14809,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take an exam',
             exampleCn: '今天我们刚考完汉语考试。',
             exampleEn: 'We just took the Chinese exam today.',
-            examplePinyin: 'jīn tiān wǒ men gāng kǎo wán hàn yǔ kǎoshì。',
+            examplePinyin: 'jīntiān wǒmen gāng kǎo wán hànyǔ kǎoshì。',
           },
           {
             id: 'hj2a-l4-w2',
@@ -14819,7 +14819,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'question;problem',
             exampleCn: '这次考试题太多，我没能全部写完。',
             exampleEn: 'There were too many test items this time, I couldn’t finish all of them.',
-            examplePinyin: 'zhè cì kǎoshì tí tài duō，wǒ méi néng quán bù xiě wán。',
+            examplePinyin: 'zhècì kǎoshìtí tài duō， wǒ méi néng quánbù xiě wán。',
           },
           {
             id: 'hj2a-l4-w3',
@@ -14829,7 +14829,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to finish;to be over',
             exampleCn: '玛丽所有考试题都做完了。',
             exampleEn: 'Mary finished all the exam questions.',
-            examplePinyin: 'mǎ lì suǒ yǒu kǎoshì tí dōu zuò wán le。',
+            examplePinyin: 'mǎlì suǒyǒu kǎoshìtí dōu zuò wán le。',
           },
           {
             id: 'hj2a-l4-w4',
@@ -14839,7 +14839,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for questions, orders,etc.',
             exampleCn: '我一共做错两道考试题。',
             exampleEn: 'I got two exam questions wrong in total.',
-            examplePinyin: 'wǒ yī gòng zuò cuò liǎng dào kǎoshì tí。',
+            examplePinyin: 'wǒ yīgòng zuò cuò liǎngdào kǎoshìtí。',
           },
           {
             id: 'hj2a-l4-w5',
@@ -14849,7 +14849,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(exam)result;achievement',
             exampleCn: '我错题太多，成绩不会很好。',
             exampleEn: 'I made many mistakes, so my score won’t be good.',
-            examplePinyin: 'wǒ cuò tí tài duō，chéngjì bù huì hěn hǎo。',
+            examplePinyin: 'wǒ cuòtí tài duō， chéngjì búhuì hěn hǎo。',
           },
           {
             id: 'hj2a-l4-w6',
@@ -14859,7 +14859,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sentence',
             exampleCn: '听力部分有些句子我没听懂。',
             exampleEn: 'I couldn’t understand some sentences in listening section.',
-            examplePinyin: 'tīng lì bù fēn yǒuxiē jùzi wǒ méi tīng dǒng。',
+            examplePinyin: 'tīnglì bùfèn yǒuxiē jùzi wǒ méi tīngdǒng。',
           },
           {
             id: 'hj2a-l4-w7',
@@ -14869,7 +14869,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to see;to catch sight of',
             exampleCn: '罗兰在教室没看见我的词典。',
             exampleEn: 'Roland didn’t spot my dictionary in the classroom.',
-            examplePinyin: 'luó lán zài jiào shì méi kànjiàn wǒ de cí diǎn。',
+            examplePinyin: 'luólán zài jiàoshì méi kànjiàn wǒ de cídiǎn。',
           },
           {
             id: 'hj2a-l4-w8',
@@ -14879,7 +14879,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to see;to catch sight of',
             exampleCn: '我昨天看见玛丽在复习课文。',
             exampleEn: 'I saw Mary reviewing the text yesterday.',
-            examplePinyin: 'wǒ zuó tiān kànjiàn mǎ lì zài fù xí kè wén。',
+            examplePinyin: 'wǒ zuótiān kànjiàn mǎlì zài fùxí kèwén。',
           },
           {
             id: 'hj2a-l4-w9',
@@ -14889,7 +14889,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'why;for what purpose',
             exampleCn: '你找词典干什么？',
             exampleEn: 'What are you looking for the dictionary for?',
-            examplePinyin: 'nǐ zhǎo cí diǎn gànshénme？',
+            examplePinyin: 'nǐ zhǎo cídiǎn gànshénme？',
           },
           {
             id: 'hj2a-l4-w10',
@@ -14899,7 +14899,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do;to work',
             exampleCn: '放学后你打算干什么？',
             exampleEn: 'What do you plan to do after class?',
-            examplePinyin: 'fàng xué hòu nǐ dǎ suàn gànshénme？',
+            examplePinyin: 'fàngxué hòu nǐ dǎsuàn gànshénme？',
           },
           {
             id: 'hj2a-l4-w11',
@@ -14909,7 +14909,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'word',
             exampleCn: '我想查这个生词的意思。',
             exampleEn: 'I want to look up the meaning of this new word.',
-            examplePinyin: 'wǒ xiǎng chá zhè gè shēng cí de yì sī。',
+            examplePinyin: 'wǒ xiǎng chá zhège shēngcí de yìsi。',
           },
           {
             id: 'hj2a-l4-w12',
@@ -14919,7 +14919,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'terrible;too bad',
             exampleCn: '糟糕，我把 “得” 写成 “的” 了。',
             exampleEn: 'Oh no, I mistakenly wrote "de" as the wrong character.',
-            examplePinyin: 'zāogāo，wǒ bǎ “dé” xiě chéng “de” le。',
+            examplePinyin: 'zāogāo， wǒ bǎ   “ dé ”   xiěchéng   “ de ”   le。',
           },
           {
             id: 'hj2a-l4-w13',
@@ -14929,7 +14929,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to become;to turn into',
             exampleCn: '我把生字写成别的汉字了。',
             exampleEn: 'I wrote the new character as another Chinese character.',
-            examplePinyin: 'wǒ bǎ shēng zì xiě chéng bié de hàn zì le。',
+            examplePinyin: 'wǒ bǎ shēngzì xiěchéng biéde hànzì le。',
           },
           {
             id: 'hj2a-l4-w14',
@@ -14939,7 +14939,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to reply to an email',
             exampleCn: '看完电影我要给妹妹回信。',
             exampleEn: 'I need to reply to my younger sister after watching the movie.',
-            examplePinyin: 'kàn wán diàn yǐng wǒ yào gěi mèi mèi huíxìn。',
+            examplePinyin: 'kàn wán diànyǐng wǒ yào gěi mèimèi huíxìn。',
           },
           {
             id: 'hj2a-l4-w15',
@@ -14949,7 +14949,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'story',
             exampleCn: '田芳借给我的书里全是小故事。',
             exampleEn: 'The book Tian Fang lent me is full of short stories.',
-            examplePinyin: 'tián fāng jiè gěi wǒ de shū lǐ quán shì xiǎo gùshi。',
+            examplePinyin: 'tián fāng jiègěi wǒ de shū lǐ quán shì xiǎo gùshì。',
           },
           {
             id: 'hj2a-l4-w16',
@@ -14959,7 +14959,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'interesting',
             exampleCn: '书里的小故事特别有意思。',
             exampleEn: 'The short stories inside the book are very interesting.',
-            examplePinyin: 'shū lǐ de xiǎo gùshi tè bié yǒuyisi。',
+            examplePinyin: 'shū lǐ de xiǎo gùshì tèbié yǒuyìsi。',
           },
           {
             id: 'hj2a-l4-w17',
@@ -14969,7 +14969,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'page',
             exampleCn: '玛丽只看了三十页这本书。',
             exampleEn: 'Mary only read thirty pages of this book.',
-            examplePinyin: 'mǎ lì zhī kàn le sān shí yè zhè běn shū。',
+            examplePinyin: 'mǎlì zhǐ kàn le sānshí yè zhè běnshū。',
           },
           {
             id: 'hj2a-l4-w18',
@@ -14979,7 +14979,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to smile;to laugh',
             exampleCn: '读到有趣的地方我就想笑。',
             exampleEn: 'I want to laugh when I read fun parts.',
-            examplePinyin: 'dú dào yǒu qù de de fāng wǒ jiù xiǎng xiào。',
+            examplePinyin: 'dú dào yǒuqù de dìfāng wǒ jiù xiǎng xiào。',
           },
           {
             id: 'hj2a-l4-w19',
@@ -14989,7 +14989,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to converse',
             exampleCn: '我们用这些小故事练习会话。',
             exampleEn: 'We practice conversations with these short stories.',
-            examplePinyin: 'wǒ men yòng zhè xiē xiǎo gùshi liàn xí huìhuà。',
+            examplePinyin: 'wǒmen yòng zhèxiē xiǎo gùshì liànxí huì huà。',
           },
           {
             id: 'hj2a-l4-w20',
@@ -14999,7 +14999,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to read aloud',
             exampleCn: '我念完故事就向你提问。',
             exampleEn: 'I will read the story aloud then ask you questions.',
-            examplePinyin: 'wǒ niàn wán gùshi jiù xiàng nǐ tí wèn。',
+            examplePinyin: 'wǒ niànwán gùshì jiù xiàng nǐ tíwèn。',
           },
           {
             id: 'hj2a-l4-w21',
@@ -15009,7 +15009,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to answer',
             exampleCn: '你要准确答出我的问题。',
             exampleEn: 'You need to answer my questions correctly.',
-            examplePinyin: 'nǐ yào zhǔn què dá chū wǒ de wèn tí。',
+            examplePinyin: 'nǐ yào zhǔnquè dá chū wǒ de wèntí。',
           },
           {
             id: 'hj2a-l4-w22',
@@ -15019,7 +15019,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'way;method',
             exampleCn: '这个练习汉语的办法很好。',
             exampleEn: 'This method for practicing Chinese is excellent.',
-            examplePinyin: 'zhè gè liàn xí hàn yǔ de bànfǎ hěn hǎo。',
+            examplePinyin: 'zhège liànxí hànyǔ de bànfǎ hěn hǎo。',
           },
           {
             id: 'hj2a-l4-w23',
@@ -15029,7 +15029,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to shut;to close',
             exampleCn: '读完故事她马上合上书。',
             exampleEn: 'She closed the book right after reading the story.',
-            examplePinyin: 'dú wán gùshi tā mǎshàng héshang shū。',
+            examplePinyin: 'dúwán gùshì tā mǎshàng hé shàngshū。',
           },
           {
             id: 'hj2a-l4-w24',
@@ -15039,7 +15039,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used as the complement of a verb indicating the attainment of an objective or result of an action',
             exampleCn: '读完请把书合上。',
             exampleEn: 'Please close the book after reading.',
-            examplePinyin: 'dú wán qǐng bǎ shū héshang。',
+            examplePinyin: 'dúwán qǐng bǎ shū hé shàng。',
           },
           {
             id: 'hj2a-l4-w25',
@@ -15049,7 +15049,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to open;to unfold',
             exampleCn: '我打开词典核对写错的字。',
             exampleEn: 'I opened the dictionary to check my wrong characters.',
-            examplePinyin: 'wǒ dǎkāi cí diǎn hé duì xiě cuò de zì。',
+            examplePinyin: 'wǒ dǎkāi cídiǎn héduì xiěcuò de zì。',
           },
           {
             id: 'hj2a-l4-w26',
@@ -15059,7 +15059,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hear',
             exampleCn: '我们听见安娜在门外喊我们。',
             exampleEn: 'We heard Anna calling outside the door.',
-            examplePinyin: 'wǒ men tīngjiàn ān nà zài mén wài hǎn wǒ men。',
+            examplePinyin: 'wǒmen tīngjiàn ānnà zài ménwài hǎn wǒmen。',
           },
           {
             id: 'hj2a-l4-w27',
@@ -15069,7 +15069,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'homework',
             exampleCn: '我的作业还没写完，不能看电影。',
             exampleEn: 'I haven’t finished my homework, so I can’t watch the movie.',
-            examplePinyin: 'wǒ de zuòyè huán méi xiě wán，bù néng kàn diàn yǐng。',
+            examplePinyin: 'wǒ de zuòyè hái méi xiě wán， bùnéng kàn diànyǐng。',
           },
           {
             id: 'hj2a-l4-w28',
@@ -15079,7 +15079,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'familiar;well acquainted',
             exampleCn: '课文我读得不太熟，还要多读。',
             exampleEn: 'I am not familiar enough with the text and need to read more.',
-            examplePinyin: 'kè wén wǒ dú dé bù tài shú，huán yào duō dú。',
+            examplePinyin: 'kèwén wǒ dú dé bù tài shú， háiyào duō dú。',
           },
         ],
       },
@@ -15097,7 +15097,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to live; life',
             exampleCn: '这儿的生活很有意思。',
             exampleEn: 'Life here is very interesting.',
-            examplePinyin: 'zhè ér de shēnghuó hěn yǒuyisi。',
+            examplePinyin: 'zhèr de shēnghuó hěn yǒuyìsi。',
           },
           {
             id: 'hj2a-l5-w2',
@@ -15107,7 +15107,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nearly; almost',
             exampleCn: '我来这儿差不多两个多月了。',
             exampleEn: 'I have been here for more than two months.',
-            examplePinyin: 'wǒ lái zhè ér chàbuduō liǎng gè duō yuè le。',
+            examplePinyin: 'wǒ lái zhèr chàbuduō liǎnggè duōyuè le。',
           },
           {
             id: 'hj2a-l5-w3',
@@ -15117,7 +15117,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be accustomed/used to; habit',
             exampleCn: '我对这儿的生活差不多已经习惯了。',
             exampleEn: 'I have almost gotten used to life here.',
-            examplePinyin: 'wǒ duì zhè ér de shēnghuó chàbuduō yǐjīng xíguàn le。',
+            examplePinyin: 'wǒ duì zhèr de shēnghuó chàbuduō yǐjīng xíguàn le。',
           },
           {
             id: 'hj2a-l5-w4',
@@ -15127,7 +15127,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'but; however',
             exampleCn: '不过有的地方我还不太习惯。',
             exampleEn: 'But there are still some things I am not used to.',
-            examplePinyin: 'búguò yǒude de fāng wǒ huán bù tài xíguàn。',
+            examplePinyin: 'bùguò yǒu de dìfāng wǒ hái bù tài xíguàn。',
           },
           {
             id: 'hj2a-l5-w5',
@@ -15137,7 +15137,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'climate',
             exampleCn: '这儿的气候让我有点不习惯。',
             exampleEn: 'The climate here makes me a little unaccustomed.',
-            examplePinyin: 'zhè ér de qìhòu ràng wǒ yǒu diǎn bù xíguàn。',
+            examplePinyin: 'zhèr de qìhòu ràng wǒ yǒudiǎn bù xíguàn。',
           },
           {
             id: 'hj2a-l5-w6',
@@ -15147,7 +15147,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dry; arid',
             exampleCn: '这儿的气候太干燥，我不太习惯。',
             exampleEn: 'The climate here is too dry; I am not used to it.',
-            examplePinyin: 'zhè ér de qìhòu tài gānzào，wǒ bù tài xíguàn。',
+            examplePinyin: 'zhèr de qìhòu tài gānzào， wǒ bù tài xíguàn。',
           },
           {
             id: 'hj2a-l5-w7',
@@ -15157,7 +15157,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'clean; neat and tidy',
             exampleCn: '宿舍周围不太干净。',
             exampleEn: 'The area around the dorm is not very clean.',
-            examplePinyin: 'sù shè zhōuwéi bù tài gānjìng。',
+            examplePinyin: 'sùshè zhōuwéi bù tài gānjìng。',
           },
           {
             id: 'hj2a-l5-w8',
@@ -15167,7 +15167,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'food; dish',
             exampleCn: '我不太爱吃食堂里的菜。',
             exampleEn: 'I don\'t really like the food in the cafeteria.',
-            examplePinyin: 'wǒ bù tài ài chī shí táng lǐ de cài。',
+            examplePinyin: 'wǒ bù tài ài chī shítáng lǐ de cài。',
           },
           {
             id: 'hj2a-l5-w9',
@@ -15177,7 +15177,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'oily; greasy',
             exampleCn: '食堂里的菜太油腻了。',
             exampleEn: 'The dishes in the cafeteria are too oily.',
-            examplePinyin: 'shí táng lǐ de cài tài yóunì le。',
+            examplePinyin: 'shítáng lǐ de cài tài yóunì le。',
           },
           {
             id: 'hj2a-l5-w10',
@@ -15187,7 +15187,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'milk',
             exampleCn: '早上我喝杯牛奶就去上课。',
             exampleEn: 'In the morning I drink a glass of milk and then go to class.',
-            examplePinyin: 'zǎo shang wǒ hē bēi niúnǎi jiù qù shang kè。',
+            examplePinyin: 'zǎoshàng wǒ hēbēi niúnǎi jiù qù shàngkè。',
           },
           {
             id: 'hj2a-l5-w11',
@@ -15197,7 +15197,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'break (between classes)',
             exampleCn: '课间休息的时候，我去喝杯咖啡。',
             exampleEn: 'During the break I go to drink a cup of coffee.',
-            examplePinyin: 'kèjiān xiū xī de shí hòu，wǒ qù hē bēi kā fēi。',
+            examplePinyin: 'kèjiānxiūxī de shíhòu， wǒ qù hēbēi kāfēi。',
           },
           {
             id: 'hj2a-l5-w12',
@@ -15207,7 +15207,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'piece; chunk; lump',
             exampleCn: '课间我吃了一块面包。',
             exampleEn: 'During the break I eat a piece of bread.',
-            examplePinyin: 'kèjiān wǒ chī le yī kuài miàn bāo。',
+            examplePinyin: 'kèjiān wǒ chī le yīkuài miànbāo。',
           },
           {
             id: 'hj2a-l5-w13',
@@ -15217,7 +15217,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pastry; snack',
             exampleCn: '这块点心很好吃。',
             exampleEn: 'This snack is very delicious.',
-            examplePinyin: 'zhè kuài diǎnxin hěn hǎo chī。',
+            examplePinyin: 'zhèkuài diǎnxīn hěn hǎochī。',
           },
           {
             id: 'hj2a-l5-w14',
@@ -15227,7 +15227,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'from the past to the present; always',
             exampleCn: '我从来不吃早饭。',
             exampleEn: 'I never eat breakfast.',
-            examplePinyin: 'wǒ cónglái bù chī zǎo fàn。',
+            examplePinyin: 'wǒ cóngláibù chī zǎofàn。',
           },
           {
             id: 'hj2a-l5-w15',
@@ -15237,7 +15237,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'afternoon nap',
             exampleCn: '我从来不睡午觉。',
             exampleEn: 'I never take an afternoon nap.',
-            examplePinyin: 'wǒ cónglái bù shuì wǔjiào。',
+            examplePinyin: 'wǒ cóngláibù shuìwǔjiào。',
           },
           {
             id: 'hj2a-l5-w16',
@@ -15247,7 +15247,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to swim',
             exampleCn: '下午我去游泳馆游了一个小时泳。',
             exampleEn: 'In the afternoon I go to the swimming pool and swim for an hour.',
-            examplePinyin: 'xià wǔ wǒ qù yóuyǒng guǎn yóu le yī gè xiǎo shí yǒng。',
+            examplePinyin: 'xiàwǔ wǒ qù yóuyǒngguǎn yóu le yígè xiǎoshí yǒng。',
           },
           {
             id: 'hj2a-l5-w17',
@@ -15257,7 +15257,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go for a walk',
             exampleCn: '我跟朋友常常去操场散步，散一会儿步就回宿舍。',
             exampleEn: 'I often go to the sports ground for a walk with my friend; after walking for a while I go back to the dorm.',
-            examplePinyin: 'wǒ gēn péng yǒu cháng cháng qù cāo chǎng sànbù，sàn yī huì ér bù jiù huí sù shè。',
+            examplePinyin: 'wǒ gēn péngyǒu chángcháng qù cāochǎng sànbù， sàn yīhuìerbù jiù huí sùshè。',
           },
           {
             id: 'hj2a-l5-w18',
@@ -15267,7 +15267,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'schoolwork; homework',
             exampleCn: '晚上回到宿舍，我就开始复习功课。',
             exampleEn: 'In the evening I go back to the dorm and start reviewing my schoolwork.',
-            examplePinyin: 'wǎn shang huí dào sù shè，wǒ jiù kāi shǐ fù xí gōngkè。',
+            examplePinyin: 'wǎnshàng huídào sùshè， wǒ jiù kāishǐ fùxígōngkè。',
           },
           {
             id: 'hj2a-l5-w19',
@@ -15277,7 +15277,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to remember',
             exampleCn: '这些生词我记了一个小时。',
             exampleEn: 'I spent an hour memorizing these new words.',
-            examplePinyin: 'zhè xiē shēng cí wǒ jì le yī gè xiǎo shí。',
+            examplePinyin: 'zhèxiē shēngcí wǒ jì le yígè xiǎoshí。',
           },
           {
             id: 'hj2a-l5-w20',
@@ -15287,7 +15287,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used as the complement of a verb indicating fastness or steadiness',
             exampleCn: '这些生词我都记住了。',
             exampleEn: 'I have remembered all these new words.',
-            examplePinyin: 'zhè xiē shēng cí wǒ dōu jì zhù le。',
+            examplePinyin: 'zhèxiē shēngcí wǒ dōu jìzhù le。',
           },
           {
             id: 'hj2a-l5-w21',
@@ -15297,7 +15297,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'usual; general; common',
             exampleCn: '晚上我一般复习两三个小时。',
             exampleEn: 'In the evening I usually review for two or three hours.',
-            examplePinyin: 'wǎn shang wǒ yìbān fù xí liǎng sān gè xiǎo shí。',
+            examplePinyin: 'wǎnshàng wǒ yìbān fùxí liǎngsāngè xiǎoshí。',
           },
           {
             id: 'hj2a-l5-w22',
@@ -15307,7 +15307,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to thank',
             exampleCn: '我很感谢我的老师。',
             exampleEn: 'I am very grateful to my teacher.',
-            examplePinyin: 'wǒ hěn gǎnxiè wǒ de lǎo shī。',
+            examplePinyin: 'wǒ hěn gǎnxiè wǒ de lǎoshī。',
           },
           {
             id: 'hj2a-l5-w23',
@@ -15327,7 +15327,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chance; opportunity',
             exampleCn: '父母给我来中国留学的机会。',
             exampleEn: 'My parents gave me the opportunity to study in China.',
-            examplePinyin: 'fùmǔ gěi wǒ lái zhōng guó liú xué de jīhuì。',
+            examplePinyin: 'fùmǔ gěi wǒ lái zhōngguó liúxué de jīhuì。',
           },
           {
             id: 'hj2a-l5-w25',
@@ -15337,7 +15337,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'original; at first',
             exampleCn: '我原来打算只学一年。',
             exampleEn: 'I originally planned to study for only one year.',
-            examplePinyin: 'wǒ yuánlái dǎ suàn zhī xué yī nián。',
+            examplePinyin: 'wǒ yuánlái dǎsuàn zhǐ xué yīnián。',
           },
           {
             id: 'hj2a-l5-w26',
@@ -15347,7 +15347,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lengthen; to extend',
             exampleCn: '原来打算学一年，现在我想再延长一年。',
             exampleEn: 'I originally planned to study for one year; now I want to extend it by another year.',
-            examplePinyin: 'yuánlái dǎ suàn xué yī nián，xiàn zài wǒ xiǎng zài yáncháng yī nián。',
+            examplePinyin: 'yuánlái dǎsuàn xué yīnián， xiànzài wǒ xiǎng zài yáncháng yīnián。',
           },
           {
             id: 'hj2a-l5-w27',
@@ -15357,7 +15357,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to practice',
             exampleCn: '王老师每天早上都练太极拳。',
             exampleEn: 'Teacher Wang practices Tai Chi every morning.',
-            examplePinyin: 'wáng lǎo shī měi tiān zǎo shang dōu liàn tài jí quán。',
+            examplePinyin: 'wánglǎoshī měitiān zǎoshàng dōu liàn tàijíquán。',
           },
           {
             id: 'hj2a-l5-w28',
@@ -15367,7 +15367,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'qigong, a system of exercise',
             exampleCn: '王老师练气功练了一个小时。',
             exampleEn: 'Teacher Wang practiced qigong for an hour.',
-            examplePinyin: 'wáng lǎo shī liàn qìgōng liàn le yī gè xiǎo shí。',
+            examplePinyin: 'wánglǎoshī liàn qìgōng liàn le yígè xiǎoshí。',
           },
           {
             id: 'hj2a-l5-w29',
@@ -15377,7 +15377,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quite',
             exampleCn: '王老师练气功已经练了好几年了。',
             exampleEn: 'Teacher Wang has practiced qigong for quite a few years already.',
-            examplePinyin: 'wáng lǎo shī liàn qìgōng yǐjīng liàn le hǎo jǐ nián le。',
+            examplePinyin: 'wánglǎoshī liàn qìgōng yǐjīng liàn le hǎojǐnián le。',
           },
           {
             id: 'hj2a-l5-w30',
@@ -15387,7 +15387,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not sure; not regular',
             exampleCn: '每天练多长时间不一定。',
             exampleEn: 'How long to practice each day is not fixed.',
-            examplePinyin: 'měi tiān liàn duō cháng shí jiān bùyídìng。',
+            examplePinyin: 'měitiān liàn duōzhǎngshíjiān bù yídìng。',
           },
           {
             id: 'hj2a-l5-w31',
@@ -15397,7 +15397,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hour',
             exampleCn: '有时候练一个钟头，有时候半个钟头。',
             exampleEn: 'Sometimes he practices for an hour, sometimes half an hour.',
-            examplePinyin: 'yǒu shí hòu liàn yī gè zhōngtóu，yǒu shí hòu bàn gè zhōngtóu。',
+            examplePinyin: 'yǒushíhòu liàn yígè zhōngtóu， yǒushíhòu bàngè zhōngtóu。',
           },
           {
             id: 'hj2a-l5-w32',
@@ -15407,7 +15407,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'effect; result',
             exampleCn: '练气功的效果真的很好。',
             exampleEn: 'The effect of practicing qigong is really good.',
-            examplePinyin: 'liàn qìgōng de xiàoguǒ zhēn de hěn hǎo。',
+            examplePinyin: 'liàn qìgōng de xiàoguǒ zhēnde hěn hǎo。',
           },
           {
             id: 'hj2a-l5-w33',
@@ -15417,7 +15417,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quite; rather',
             exampleCn: '王老师身体挺好的。',
             exampleEn: 'Teacher Wang is in quite good health.',
-            examplePinyin: 'wáng lǎo shī shēn tǐ tǐng hǎo de。',
+            examplePinyin: 'wánglǎoshī shēntǐ tǐng hǎo de。',
           },
           {
             id: 'hj2a-l5-w34',
@@ -15427,7 +15427,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'benefit; advantage',
             exampleCn: '练气功对身体很有好处。',
             exampleEn: 'Practicing qigong is very good for the health.',
-            examplePinyin: 'liàn qìgōng duì shēn tǐ hěn yǒu hǎochù。',
+            examplePinyin: 'liàn qìgōng duì shēntǐ hěn yǒu hǎochù。',
           },
           {
             id: 'hj2a-l5-w35',
@@ -15437,7 +15437,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'harm; disadvantage',
             exampleCn: '我觉得练气功没什么坏处。',
             exampleEn: 'I think practicing qigong has no harm.',
-            examplePinyin: 'wǒ jué dé liàn qìgōng méi shén me huàichù。',
+            examplePinyin: 'wǒ juéde liàn qìgōng méishénme huàichù。',
           },
           {
             id: 'hj2a-l5-w36',
@@ -15447,7 +15447,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chronic disease',
             exampleCn: '王老师以前有好几种慢性病。',
             exampleEn: 'Teacher Wang used to have several chronic diseases.',
-            examplePinyin: 'wáng lǎo shī yǐ qián yǒu hǎo jǐ zhǒng mànxìngbìng。',
+            examplePinyin: 'wánglǎoshī yǐqián yǒu hǎojǐzhǒng mànxìngbìng。',
           },
           {
             id: 'hj2a-l5-w37',
@@ -15457,7 +15457,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hypertension',
             exampleCn: '王老师有高血压。',
             exampleEn: 'Teacher Wang has hypertension.',
-            examplePinyin: 'wáng lǎo shī yǒu gāoxuèyā。',
+            examplePinyin: 'wánglǎoshī yǒu gāoxuèyā。',
           },
           {
             id: 'hj2a-l5-w38',
@@ -15467,7 +15467,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to suffer from insomnia',
             exampleCn: '王老师以前也有失眠。',
             exampleEn: 'Teacher Wang also used to suffer from insomnia.',
-            examplePinyin: 'wáng lǎo shī yǐ qián yě yǒu shīmián。',
+            examplePinyin: 'wánglǎoshī yǐqián yě yǒu shīmián。',
           },
           {
             id: 'hj2a-l5-w39',
@@ -15477,7 +15477,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'must; have to',
             exampleCn: '练气功必须坚持天天练。',
             exampleEn: 'Practicing qigong requires practicing every day.',
-            examplePinyin: 'liàn qìgōng bìxū jiān chí tiān tiān liàn。',
+            examplePinyin: 'liàn qìgōng bìxū jiānchí tiāntiān liàn。',
           },
           {
             id: 'hj2a-l5-w40',
@@ -15487,7 +15487,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go fishing',
             exampleCn: '做事不能三天打鱼，两天晒网。',
             exampleEn: 'One cannot go fishing for three days and dry the net for two days.',
-            examplePinyin: 'zuò shì bù néng sān tiān dǎyú，liǎng tiān shài wǎng。',
+            examplePinyin: 'zuòshì bùnéng sāntiāndǎyú， liǎngtiānshàiwǎng。',
           },
           {
             id: 'hj2a-l5-w41',
@@ -15497,7 +15497,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to dry (in the sun)',
             exampleCn: '"三天打鱼，两天晒网"可不行。',
             exampleEn: '"Go fishing for three days and dry the net for two days" won\'t do.',
-            examplePinyin: '"sān tiān dǎyú，liǎng tiān shài wǎng"kě bù xíng。',
+            examplePinyin: '" sāntiāndǎyú， liǎngtiānshàiwǎng " kě bùxíng。',
           },
         ],
       },
@@ -15515,7 +15515,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to change; change',
             exampleCn: '山本：这几年上海的变化真大。',
             exampleEn: 'Yamamoto: Shanghai has really changed a lot these years.',
-            examplePinyin: 'shān běn：zhè jǐ nián shang hǎi de biànhuà zhēn dà。',
+            examplePinyin: 'shānběn： zhè jǐnián shànghǎi de biànhuà zhēn dà。',
           },
           {
             id: 'hj2a-l6-w2',
@@ -15525,7 +15525,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to change; to become different',
             exampleCn: '上海这几年变了很多。',
             exampleEn: 'Shanghai has changed a lot these years.',
-            examplePinyin: 'shang hǎi zhè jǐ nián biàn le hěn duō。',
+            examplePinyin: 'shànghǎi zhè jǐnián biàn le hěnduō。',
           },
           {
             id: 'hj2a-l6-w3',
@@ -15535,7 +15535,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'summer vacation',
             exampleCn: '田芳暑假在上海玩儿了一个多月。',
             exampleEn: 'Tian Fang played in Shanghai for more than a month during summer vacation.',
-            examplePinyin: 'tián fāng shǔjià zài shang hǎi wán ér le yī gè duō yuè。',
+            examplePinyin: 'tián fāng shǔjià zài shànghǎi wánr le yígèduōyuè。',
           },
           {
             id: 'hj2a-l6-w4',
@@ -15545,7 +15545,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used for emphasis',
             exampleCn: '山本暑假还想去上海旅行。',
             exampleEn: 'Yamamoto still wants to travel to Shanghai during summer vacation.',
-            examplePinyin: 'shān běn shǔjià huán xiǎng qù shang hǎi lǚ xíng。',
+            examplePinyin: 'shānběn shǔjià hái xiǎng qù shànghǎi lǚxíng。',
           },
           {
             id: 'hj2a-l6-w5',
@@ -15555,7 +15555,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'than; (superior or inferior) to',
             exampleCn: '北京比上海大吗？',
             exampleEn: 'Is Beijing bigger than Shanghai?',
-            examplePinyin: 'běi jīng bǐ shang hǎi dà ma？',
+            examplePinyin: 'běijīng bǐ shànghǎi dà ma？',
           },
           {
             id: 'hj2a-l6-w6',
@@ -15565,7 +15565,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'population',
             exampleCn: '上海的人口比北京多。',
             exampleEn: 'Shanghai\'s population is larger than Beijing\'s.',
-            examplePinyin: 'shang hǎi de rénkǒu bǐ běi jīng duō。',
+            examplePinyin: 'shànghǎi de rénkǒu bǐ běijīng duō。',
           },
           {
             id: 'hj2a-l6-w7',
@@ -15575,7 +15575,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'most; to the highest degree',
             exampleCn: '上海是中国人口最多的地方。',
             exampleEn: 'Shanghai is the place with the largest population in China.',
-            examplePinyin: 'shang hǎi shì zhōng guó rénkǒu zuì duō de de fāng。',
+            examplePinyin: 'shànghǎi shì zhōngguó rénkǒu zuì duō de dìfāng。',
           },
           {
             id: 'hj2a-l6-w8',
@@ -15585,7 +15585,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'city',
             exampleCn: '上海和北京都是大城市。',
             exampleEn: 'Shanghai and Beijing are both big cities.',
-            examplePinyin: 'shang hǎi hé běi jīng dōu shì dà chéngshì。',
+            examplePinyin: 'shànghǎi hé běijīng dōu shì dàchéngshì。',
           },
           {
             id: 'hj2a-l6-w9',
@@ -15595,7 +15595,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to increase',
             exampleCn: '这几年上海的人口增加了不少。',
             exampleEn: 'Shanghai\'s population has increased quite a bit these years.',
-            examplePinyin: 'zhè jǐ nián shang hǎi de rénkǒu zēngjiā le bù shǎo。',
+            examplePinyin: 'zhè jǐnián shànghǎi de rénkǒu zēngjiā le bùshǎo。',
           },
           {
             id: 'hj2a-l6-w10',
@@ -15605,7 +15605,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to construct; architecture',
             exampleCn: '上海有很多新建筑。',
             exampleEn: 'Shanghai has a lot of new buildings.',
-            examplePinyin: 'shang hǎi yǒu hěn duō xīn jiànzhù。',
+            examplePinyin: 'shànghǎi yǒu hěnduō xīn jiànzhù。',
           },
           {
             id: 'hj2a-l6-w11',
@@ -15615,7 +15615,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'past',
             exampleCn: '上海过去没有这么多新建筑。',
             exampleEn: 'Shanghai didn\'t have so many new buildings in the past.',
-            examplePinyin: 'shang hǎi guòqù méi yǒu zhè me duō xīn jiànzhù。',
+            examplePinyin: 'shànghǎi guòqù méiyǒu zhème duō xīn jiànzhù。',
           },
           {
             id: 'hj2a-l6-w12',
@@ -15625,7 +15625,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'more; even more',
             exampleCn: '上海现在比过去更美了。',
             exampleEn: 'Shanghai is more beautiful now than in the past.',
-            examplePinyin: 'shang hǎi xiàn zài bǐ guòqù gèng měi le。',
+            examplePinyin: 'shànghǎi xiànzài bǐ guòqù gèng měi le。',
           },
           {
             id: 'hj2a-l6-w13',
@@ -15635,7 +15635,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beautiful',
             exampleCn: '上海的公园没有北京的这么漂亮。',
             exampleEn: 'Shanghai\'s parks are not as beautiful as Beijing\'s.',
-            examplePinyin: 'shang hǎi de gōng yuán méi yǒu běi jīng de zhè me piàoliang。',
+            examplePinyin: 'shànghǎi de gōngyuán méiyǒu běijīng de zhème piàoliàng。',
           },
           {
             id: 'hj2a-l6-w14',
@@ -15645,7 +15645,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'winter',
             exampleCn: '上海的冬天比北京短。',
             exampleEn: 'Shanghai\'s winter is shorter than Beijing\'s.',
-            examplePinyin: 'shang hǎi de dōngtiān bǐ běi jīng duǎn。',
+            examplePinyin: 'shànghǎi de dōngtiān bǐ běijīng duǎn。',
           },
           {
             id: 'hj2a-l6-w15',
@@ -15655,7 +15655,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'warm',
             exampleCn: '上海比北京暖和吗？',
             exampleEn: 'Is Shanghai warmer than Beijing?',
-            examplePinyin: 'shang hǎi bǐ běi jīng nuǎnhuo ma？',
+            examplePinyin: 'shànghǎi bǐ běijīng nuǎnhuo ma？',
           },
           {
             id: 'hj2a-l6-w16',
@@ -15665,7 +15665,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'but',
             exampleCn: '上海冬天暖和，可是屋里不暖和。',
             exampleEn: 'Shanghai\'s winter is warm, but indoors it\'s not warm.',
-            examplePinyin: 'shang hǎi dōngtiān nuǎnhuo，kěshì wū lǐ bù nuǎnhuo。',
+            examplePinyin: 'shànghǎi dōngtiān nuǎnhuo， kěshì wūlǐ bù nuǎnhuo。',
           },
           {
             id: 'hj2a-l6-w17',
@@ -15675,7 +15675,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'weather',
             exampleCn: '山本想知道上海天气怎么样。',
             exampleEn: 'Yamamoto wants to know what Shanghai\'s weather is like.',
-            examplePinyin: 'shān běn xiǎng zhī dào shang hǎi tiānqì zěn me yàng。',
+            examplePinyin: 'shānběn xiǎng zhīdào shànghǎi tiānqì zěnmeyàng。',
           },
           {
             id: 'hj2a-l6-w18',
@@ -15685,7 +15685,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to forecast; forecast',
             exampleCn: '天气预报说明天暖和。',
             exampleEn: 'The weather forecast says tomorrow will be warm.',
-            examplePinyin: 'tiānqì yùbào shuō míng tiān nuǎnhuo。',
+            examplePinyin: 'tiānqìyùbào shuō míngtiān nuǎnhuo。',
           },
           {
             id: 'hj2a-l6-w19',
@@ -15695,7 +15695,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'temperature',
             exampleCn: '山本问上海的气温怎么样。',
             exampleEn: 'Yamamoto asks what Shanghai\'s temperature is like.',
-            examplePinyin: 'shān běn wèn shang hǎi de qìwēn zěn me yàng。',
+            examplePinyin: 'shānběn wèn shànghǎi de qìwēn zěnmeyàng。',
           },
           {
             id: 'hj2a-l6-w20',
@@ -15705,7 +15705,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'high',
             exampleCn: '上海的气温比北京高。',
             exampleEn: 'Shanghai\'s temperature is higher than Beijing\'s.',
-            examplePinyin: 'shang hǎi de qìwēn bǐ běi jīng gāo。',
+            examplePinyin: 'shànghǎi de qìwēn bǐ běijīng gāo。',
           },
           {
             id: 'hj2a-l6-w21',
@@ -15715,7 +15715,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'degree',
             exampleCn: '上海气温比北京高三度。',
             exampleEn: 'Shanghai\'s temperature is three degrees higher than Beijing\'s.',
-            examplePinyin: 'shang hǎi qìwēn bǐ běi jīng gāo sān dù。',
+            examplePinyin: 'shànghǎi qìwēn bǐ běijīng gāo sāndù。',
           },
           {
             id: 'hj2a-l6-w22',
@@ -15725,7 +15725,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'room',
             exampleCn: '上海的屋子不太暖和。',
             exampleEn: 'The houses in Shanghai are not very warm.',
-            examplePinyin: 'shang hǎi de wūzi bù tài nuǎnhuo。',
+            examplePinyin: 'shànghǎi de wūzi bù tài nuǎnhuo。',
           },
           {
             id: 'hj2a-l6-w23',
@@ -15735,7 +15735,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'heating system',
             exampleCn: '上海一般的屋子里没有暖气。',
             exampleEn: 'Ordinary houses in Shanghai don\'t have heating.',
-            examplePinyin: 'shang hǎi yìbān de wūzi lǐ méi yǒu nuǎnqì。',
+            examplePinyin: 'shànghǎi yìbān de wūzilǐ méiyǒu nuǎnqì。',
           },
           {
             id: 'hj2a-l6-w24',
@@ -15745,7 +15745,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to feel; feeling; sense',
             exampleCn: '田芳感觉上海屋子里没有北京暖和。',
             exampleEn: 'Tian Fang feels that Shanghai\'s houses are not as warm as Beijing\'s.',
-            examplePinyin: 'tián fāng gǎnjué shang hǎi wūzi lǐ méi yǒu běi jīng nuǎnhuo。',
+            examplePinyin: 'tián fāng gǎnjué shànghǎi wūzilǐ méiyǒu běijīng nuǎnhuo。',
           },
           {
             id: 'hj2a-l6-w25',
@@ -15755,7 +15755,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'family',
             exampleCn: '一般的上海家庭没有暖气。',
             exampleEn: 'Ordinary Shanghai families don\'t have heating.',
-            examplePinyin: 'yìbān de shang hǎi jiātíng méi yǒu nuǎnqì。',
+            examplePinyin: 'yìbān de shànghǎi jiātíng méiyǒu nuǎnqì。',
           },
           {
             id: 'hj2a-l6-w26',
@@ -15765,7 +15765,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hotel',
             exampleCn: '上海的旅馆里有暖气。',
             exampleEn: 'Hotels in Shanghai have heating.',
-            examplePinyin: 'shang hǎi de lǚguǎn lǐ yǒu nuǎnqì。',
+            examplePinyin: 'shànghǎi de lǚguǎn lǐ yǒu nuǎnqì。',
           },
           {
             id: 'hj2a-l6-w27',
@@ -15775,7 +15775,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hotel; restaurant',
             exampleCn: '上海的饭店比家庭暖和。',
             exampleEn: 'Restaurants in Shanghai are warmer than homes.',
-            examplePinyin: 'shang hǎi de fàndiàn bǐ jiātíng nuǎnhuo。',
+            examplePinyin: 'shànghǎi de fàndiàn bǐ jiātíng nuǎnhuo。',
           },
           {
             id: 'hj2a-l6-w28',
@@ -15785,7 +15785,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fan; to indulge in; to be crazy about',
             exampleCn: '王老师是个音乐迷。',
             exampleEn: 'Teacher Wang is a music fan.',
-            examplePinyin: 'wáng lǎo shī shì gè yīn lè mí。',
+            examplePinyin: 'wánglǎoshī shì gè yīnyuèmí。',
           },
           {
             id: 'hj2a-l6-w29',
@@ -15795,7 +15795,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'only; alone',
             exampleCn: '王老师电脑里光音乐就很多。',
             exampleEn: 'Teacher Wang has a lot of music alone on his computer.',
-            examplePinyin: 'wáng lǎo shī diàn nǎo lǐ guāng yīn lè jiù hěn duō。',
+            examplePinyin: 'wánglǎoshī diànnǎo lǐ guāng yīnyuè jiù hěnduō。',
           },
           {
             id: 'hj2a-l6-w30',
@@ -15805,7 +15805,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'symphony',
             exampleCn: '王老师喜欢听交响乐。',
             exampleEn: 'Teacher Wang likes listening to symphonies.',
-            examplePinyin: 'wáng lǎo shī xǐ huān tīng jiāoxiǎngyuè。',
+            examplePinyin: 'wánglǎoshī xǐhuān tīng jiāoxiǎngyuè。',
           },
           {
             id: 'hj2a-l6-w31',
@@ -15815,7 +15815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to download',
             exampleCn: '王老师从电脑上下载了很多音乐。',
             exampleEn: 'Teacher Wang downloaded a lot of music from his computer.',
-            examplePinyin: 'wáng lǎo shī cóng diàn nǎo shang xiàzǎi le hěn duō yīn lè。',
+            examplePinyin: 'wánglǎoshī cóng diànnǎo shàng xiàzài le hěnduō yīnyuè。',
           },
           {
             id: 'hj2a-l6-w32',
@@ -15825,7 +15825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for songs or poems',
             exampleCn: '王老师下载了好几百首交响乐。',
             exampleEn: 'Teacher Wang downloaded several hundred symphonies.',
-            examplePinyin: 'wáng lǎo shī xiàzǎi le hǎo jǐ bǎi shǒu jiāoxiǎngyuè。',
+            examplePinyin: 'wánglǎoshī xiàzài le hǎo jǐbǎishǒu jiāoxiǎngyuè。',
           },
           {
             id: 'hj2a-l6-w33',
@@ -15835,7 +15835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'perhaps; maybe; probably',
             exampleCn: '林老师也许比王老师更喜欢音乐。',
             exampleEn: 'Teacher Lin perhaps likes music more than Teacher Wang.',
-            examplePinyin: 'lín lǎo shī yěxǔ bǐ wáng lǎo shī gèng xǐ huān yīn lè。',
+            examplePinyin: 'lín lǎoshī yěxǔ bǐ wánglǎoshī gèng xǐhuān yīnyuè。',
           },
           {
             id: 'hj2a-l6-w34',
@@ -15845,7 +15845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'classical',
             exampleCn: '王老师喜欢古典音乐。',
             exampleEn: 'Teacher Wang likes classical music.',
-            examplePinyin: 'wáng lǎo shī xǐ huān gǔdiǎn yīn lè。',
+            examplePinyin: 'wánglǎoshī xǐhuān gǔdiǎnyīnyuè。',
           },
           {
             id: 'hj2a-l6-w35',
@@ -15855,7 +15855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'modern times; modern',
             exampleCn: '王老师不太喜欢现代音乐。',
             exampleEn: 'Teacher Wang doesn\'t like modern music very much.',
-            examplePinyin: 'wáng lǎo shī bù tài xǐ huān xiàndài yīn lè。',
+            examplePinyin: 'wánglǎoshī bù tài xǐhuān xiàndài yīnyuè。',
           },
           {
             id: 'hj2a-l6-w36',
@@ -15865,7 +15865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'world',
             exampleCn: '王老师喜欢听世界各地的音乐。',
             exampleEn: 'Teacher Wang likes listening to music from around the world.',
-            examplePinyin: 'wáng lǎo shī xǐ huān tīng shìjiè gè de de yīn lè。',
+            examplePinyin: 'wánglǎoshī xǐhuān tīng shìjiègèdì de yīnyuè。',
           },
           {
             id: 'hj2a-l6-w37',
@@ -15875,7 +15875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'famous song or melody',
             exampleCn: '王老师喜欢世界名曲。',
             exampleEn: 'Teacher Wang likes famous world melodies.',
-            examplePinyin: 'wáng lǎo shī xǐ huān shìjiè míngqǔ。',
+            examplePinyin: 'wánglǎoshī xǐhuān shìjiè míngqū。',
           },
           {
             id: 'hj2a-l6-w38',
@@ -15885,7 +15885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'folk song',
             exampleCn: '王老师喜欢听民歌。',
             exampleEn: 'Teacher Wang likes listening to folk songs.',
-            examplePinyin: 'wáng lǎo shī xǐ huān tīng míngē。',
+            examplePinyin: 'wánglǎoshī xǐhuān tīng míngē。',
           },
           {
             id: 'hj2a-l6-w39',
@@ -15895,7 +15895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'popular',
             exampleCn: '林老师喜欢流行音乐。',
             exampleEn: 'Teacher Lin likes pop music.',
-            examplePinyin: 'lín lǎo shī xǐ huān liúxíng yīn lè。',
+            examplePinyin: 'lín lǎoshī xǐhuān liúxíngyīnyuè。',
           },
           {
             id: 'hj2a-l6-w40',
@@ -15905,7 +15905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'song',
             exampleCn: '这些歌曲都很好听。',
             exampleEn: 'These songs are all very pleasant to listen to.',
-            examplePinyin: 'zhè xiē gēqǔ dōu hěn hǎotīng。',
+            examplePinyin: 'zhèxiē gēqǔ dōu hěn hǎotīng。',
           },
           {
             id: 'hj2a-l6-w41',
@@ -15915,7 +15915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'young',
             exampleCn: '林老师比王老师年轻。',
             exampleEn: 'Teacher Lin is younger than Teacher Wang.',
-            examplePinyin: 'lín lǎo shī bǐ wáng lǎo shī niánqīng。',
+            examplePinyin: 'lín lǎoshī bǐ wánglǎoshī niánqīng。',
           },
           {
             id: 'hj2a-l6-w42',
@@ -15935,7 +15935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'some',
             exampleCn: '有些流行歌曲的歌词不错。',
             exampleEn: 'Some pop songs have good lyrics.',
-            examplePinyin: 'yǒuxiē liúxíng gēqǔ de gēcí bù cuò。',
+            examplePinyin: 'yǒuxiē liúxínggēqǔ de gēcí bùcuò。',
           },
           {
             id: 'hj2a-l6-w44',
@@ -15945,7 +15945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'distant',
             exampleCn: '"在那遥远的地方"是一首民歌。',
             exampleEn: '"In That Distant Place" is a folk song.',
-            examplePinyin: '"zài nà yáoyuǎn de de fāng"shì yī shǒu míngē。',
+            examplePinyin: '" zài nà yáoyuǎn de dìfāng " shì yīshǒu míngē。',
           },
         ],
       },
@@ -15963,7 +15963,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'country',
             exampleCn: '罗兰说，她国家的时间跟北京有七个小时的时差。',
             exampleEn: 'Luolan says there is a seven-hour time difference between her country and Beijing.',
-            examplePinyin: 'luó lán shuō，tā guójiā de shí jiān gēn běi jīng yǒu qī gè xiǎo shí de shíchā。',
+            examplePinyin: 'luólán shuō， tā guójiā de shíjiān gēn běijīng yǒu qīgè xiǎoshí de shíchà。',
           },
           {
             id: 'hj2a-l7-w2',
@@ -15973,7 +15973,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'same',
             exampleCn: '北京的夏天很热，罗兰那儿的夏天跟北京一样热。',
             exampleEn: 'Beijing\'s summer is very hot; Luolan\'s hometown summer is just as hot as Beijing\'s.',
-            examplePinyin: 'běi jīng de xiàtiān hěn rè，luó lán nà ér de xiàtiān gēn běi jīng yíyàng rè。',
+            examplePinyin: 'běijīng de xiàtiān hěn rè， luólán nàr de xiàtiān gēn běijīng yīyàng rè。',
           },
           {
             id: 'hj2a-l7-w3',
@@ -15983,7 +15983,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'time difference',
             exampleCn: '田芳问罗兰，你们国家跟北京的时差是几个小时？',
             exampleEn: 'Tian Fang asked Luolan: what is the time difference between your country and Beijing?',
-            examplePinyin: 'tián fāng wèn luó lán，nǐ men guójiā gēn běi jīng de shíchā shì jǐ gè xiǎo shí？',
+            examplePinyin: 'tián fāng wèn luólán， nǐmen guójiā gēn běijīng de shíchà shì jǐgè xiǎoshí？',
           },
           {
             id: 'hj2a-l7-w4',
@@ -15993,7 +15993,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'night',
             exampleCn: '北京现在是上午八点多，我们那儿才夜里一点多。',
             exampleEn: 'It is already past eight in the morning in Beijing, but it is only a little past one o\'clock at night in our hometown.',
-            examplePinyin: 'běi jīng xiàn zài shì shang wǔ bā diǎn duō，wǒ men nà ér cái yè lǐ yī diǎn duō。',
+            examplePinyin: 'běijīng xiànzài shì shàngwǔ bādiǎn duō， wǒmen nàr cái yèlǐ yìdiǎnduō。',
           },
           {
             id: 'hj2a-l7-w5',
@@ -16003,7 +16003,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'season',
             exampleCn: '四个季节里，罗兰最喜欢冬天，因为可以下雪。',
             exampleEn: 'Among the four seasons, Luolan likes winter best because it can snow.',
-            examplePinyin: 'sì gè jìjié lǐ，luó lán zuì xǐ huān dōngtiān，yīn wèi kě yǐ xiàxuě。',
+            examplePinyin: 'sìgè jìjié lǐ， luólán zuì xǐhuān dōngtiān， yīnwèi kěyǐ xiàxuě。',
           },
           {
             id: 'hj2a-l7-w6',
@@ -16013,7 +16013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'season',
             exampleCn: '一年有四个季，春、夏、秋、冬，每个季都不一样。',
             exampleEn: 'There are four seasons in a year: spring, summer, autumn, and winter; each season is different.',
-            examplePinyin: 'yī nián yǒu sì gè jì，chūn、xià、qiū、dōng，měi gè jì dōu bù yíyàng。',
+            examplePinyin: 'yīnián yǒu sìgè jì， chūn、 xià、 qiū、 dōng， měigè jì dōu bù yīyàng。',
           },
           {
             id: 'hj2a-l7-w7',
@@ -16023,7 +16023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'spring',
             exampleCn: '春天北京的风很大，可是罗兰那儿春天不常刮风。',
             exampleEn: 'The wind in Beijing is very strong in spring, but in Luolan\'s hometown it doesn\'t often blow in spring.',
-            examplePinyin: 'chūntiān běi jīng de fēng hěn dà，kěshì luó lán nà ér chūntiān bù cháng guāfēng。',
+            examplePinyin: 'chūntiān běijīng de fēng hěndà， kěshì luólán nàr chūntiān bù cháng guāfēng。',
           },
           {
             id: 'hj2a-l7-w8',
@@ -16033,7 +16033,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'summer',
             exampleCn: '夏天北京非常热，罗兰说他们那儿夏天没有那么热。',
             exampleEn: 'Summer in Beijing is extremely hot; Luolan says their summer isn\'t that hot.',
-            examplePinyin: 'xiàtiān běi jīng fēi cháng rè，luó lán shuō tā men nà ér xiàtiān méi yǒu nà me rè。',
+            examplePinyin: 'xiàtiān běijīng fēicháng rè， luólán shuō tāmen nàr xiàtiān méiyǒu nàme rè。',
           },
           {
             id: 'hj2a-l7-w9',
@@ -16043,7 +16043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'autumn',
             exampleCn: '秋天的夜不太冷也不太热，出去玩儿很舒服。',
             exampleEn: 'Autumn nights are neither too cold nor too hot; going out is very comfortable.',
-            examplePinyin: 'qiūtiān de yè bù tài lěng yě bù tài rè，chūqu wán ér hěn shū fú。',
+            examplePinyin: 'qiūtiān de yè bù tàilěng yě bù tài rè， chūqù wánr hěn shūfú。',
           },
           {
             id: 'hj2a-l7-w10',
@@ -16053,7 +16053,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hot',
             exampleCn: '罗兰觉得北京夏天太热了，她不太习惯这么热的天气。',
             exampleEn: 'Luolan thinks Beijing\'s summer is too hot; she isn\'t used to such hot weather.',
-            examplePinyin: 'luó lán jué dé běi jīng xiàtiān tài rè le，tā bù tài xíguàn zhè me rè de tiānqì。',
+            examplePinyin: 'luólán juéde běijīng xiàtiān tài rè le， tā bù tài xíguàn zhème rè de tiānqì。',
           },
           {
             id: 'hj2a-l7-w11',
@@ -16063,7 +16063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cold',
             exampleCn: '他们那儿的冬天跟北京一样冷，而且常常下很大的雪。',
             exampleEn: 'The winter in their hometown is as cold as Beijing\'s, and it often snows heavily.',
-            examplePinyin: 'tā men nà ér de dōngtiān gēn běi jīng yíyàng lěng，ér qiě cháng cháng xià hěn dà de xuě。',
+            examplePinyin: 'tāmen nàr de dōngtiān gēn běijīng yīyàng lěng， érqiě chángcháng xià hěndà de xuě。',
           },
           {
             id: 'hj2a-l7-w12',
@@ -16073,7 +16073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(of wind) to blow',
             exampleCn: '北京冬天不常下雪，但是常刮风，风特别大。',
             exampleEn: 'Beijing doesn\'t often snow in winter, but the wind often blows, and it\'s especially strong.',
-            examplePinyin: 'běi jīng dōngtiān bù cháng xiàxuě，dàn shì cháng guāfēng，fēng tè bié dà。',
+            examplePinyin: 'běijīng dōngtiān bù cháng xiàxuě， dànshì cháng guāfēng， fēng tèbié dà。',
           },
           {
             id: 'hj2a-l7-w13',
@@ -16083,7 +16083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wind',
             exampleCn: '罗兰不喜欢刮风，因为大风的时候出门很不方便。',
             exampleEn: 'Luolan doesn\'t like it when the wind blows because going out in strong wind is very inconvenient.',
-            examplePinyin: 'luó lán bù xǐ huān guāfēng，yīn wèi dà fēng de shí hòu chū mén hěn bù fāngbiàn。',
+            examplePinyin: 'luólán bù xǐhuān guāfēng， yīnwèi dàfēng de shíhòu chūmén hěn bù fāngbiàn。',
           },
           {
             id: 'hj2a-l7-w14',
@@ -16093,7 +16093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to snow',
             exampleCn: '不但常常下雪，而且下得很大，地上一片白色。',
             exampleEn: 'It not only often snows, but also snows heavily; the ground is all white.',
-            examplePinyin: 'bù dàn cháng cháng xiàxuě，ér qiě xià dé hěn dà，de shang yī piàn bái sè。',
+            examplePinyin: 'bùdàn chángcháng xiàxuě， érqiě xià dé hěndà， dìshàng yīpiàn báisè。',
           },
           {
             id: 'hj2a-l7-w15',
@@ -16103,7 +16103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(of rain or snow) to fall',
             exampleCn: '冬天的雪下得很大，可是春天的雨下得很小。',
             exampleEn: 'Winter snow falls heavily, but spring rain falls lightly.',
-            examplePinyin: 'dōngtiān de xuě xià dé hěn dà，kěshì chūntiān de yǔ xià dé hěn xiǎo。',
+            examplePinyin: 'dōngtiān de xuě xià dé hěndà， kěshì chūntiān de yǔ xià dé hěnxiǎo。',
           },
           {
             id: 'hj2a-l7-w16',
@@ -16113,7 +16113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'snow',
             exampleCn: '北京冬天不常下雪，所以孩子们看到雪都很高兴。',
             exampleEn: 'Beijing doesn\'t often snow in winter, so children are very happy when they see snow.',
-            examplePinyin: 'běi jīng dōngtiān bù cháng xiàxuě，suǒyǐ hái zǐ men kàn dào xuě dōu hěn gāo xīng。',
+            examplePinyin: 'běijīng dōngtiān bù cháng xiàxuě， suǒyǐ háizi men kàndào xuě dōu hěn gāoxìng。',
           },
           {
             id: 'hj2a-l7-w17',
@@ -16123,7 +16123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rain',
             exampleCn: '春天和夏天下雨比较多，秋天和冬天很少下雨。',
             exampleEn: 'It rains more in spring and summer, and rarely rains in autumn and winter.',
-            examplePinyin: 'chūntiān hé xiàtiān xiàyǔ bǐ jiào duō，qiūtiān hé dōngtiān hěn shǎo xiàyǔ。',
+            examplePinyin: 'chūntiān hé xiàtiān xiàyǔ bǐjiào duō， qiūtiān hé dōngtiān hěnshǎo xiàyǔ。',
           },
           {
             id: 'hj2a-l7-w18',
@@ -16133,7 +16133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not only...but also',
             exampleCn: '不但常常下雪，而且下得很大。',
             exampleEn: 'It not only often snows, but also snows heavily.',
-            examplePinyin: 'bù dàn cháng cháng xiàxuě，ér qiě xià dé hěn dà。',
+            examplePinyin: 'bùdàn chángcháng xiàxuě， érqiě xià dé hěndà。',
           },
           {
             id: 'hj2a-l7-w19',
@@ -16143,7 +16143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'score; mark',
             exampleCn: '玛丽综合课考了95分，听力跟阅读都是90分。',
             exampleEn: 'Mary got 95 points on her comprehensive course, and both listening and reading were 90 points.',
-            examplePinyin: 'mǎ lì zōng hé kè kǎo le95fēn，tīng lì gēn yuè dú dōu shì90fēn。',
+            examplePinyin: 'mǎlì zōnghékè kǎo le 95 fēn， tīnglì gēn yuèdú dōu shì 90 fēn。',
           },
           {
             id: 'hj2a-l7-w20',
@@ -16153,7 +16153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get',
             exampleCn: '麦克只得了80分，他说这次考得不太好。',
             exampleEn: 'Mike only got 80 points; he said he didn\'t do well on this exam.',
-            examplePinyin: 'mài kè zhī dé le80fēn，tā shuō zhè cì kǎo dé bù tài hǎo。',
+            examplePinyin: 'màikè zhǐdé le 80 fēn， tā shuō zhècì kǎo dé bùtàihǎo。',
           },
           {
             id: 'hj2a-l7-w21',
@@ -16163,7 +16163,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to dictate',
             exampleCn: '玛丽听写没考好，有的汉字还不会写。',
             exampleEn: 'Mary didn\'t do well on dictation; she still couldn\'t write some Chinese characters.',
-            examplePinyin: 'mǎ lì tīngxiě méi kǎo hǎo，yǒude hàn zì huán bù huì xiě。',
+            examplePinyin: 'mǎlì tīngxiě méi kǎo hǎo， yǒu de hànzì hái búhuì xiě。',
           },
           {
             id: 'hj2a-l7-w22',
@@ -16173,7 +16173,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'weekend',
             exampleCn: '周末玛丽打算去历史博物馆参观，麦克问她有什么计划。',
             exampleEn: 'Mary plans to visit the History Museum on the weekend; Mike asks what her plan is.',
-            examplePinyin: 'zhōumò mǎ lì dǎ suàn qù lìshǐ bó wù guǎn cān guān，mài kè wèn tā yǒu shén me jì huà。',
+            examplePinyin: 'zhōumò mǎlì dǎsuàn qù lìshǐbówùguǎn cānguān， màikè wèn tā yǒu shénme jìhuà。',
           },
           {
             id: 'hj2a-l7-w23',
@@ -16183,7 +16183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go out',
             exampleCn: '周末出去玩儿吗？玛丽说出去，她要去博物馆。',
             exampleEn: 'Going out to have fun on the weekend? Mary said she\'s going out; she wants to go to the museum.',
-            examplePinyin: 'zhōumò chūqu wán ér ma？mǎ lì shuō chūqu，tā yào qù bó wù guǎn。',
+            examplePinyin: 'zhōumò chūqù wánr ma？ mǎlì shuō chūqù， tā yào qù bówùguǎn。',
           },
           {
             id: 'hj2a-l7-w24',
@@ -16193,7 +16193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'history',
             exampleCn: '玛丽最近常到历史博物馆去参观，她对历史产生了兴趣。',
             exampleEn: 'Mary recently often goes to visit the History Museum; she became interested in history.',
-            examplePinyin: 'mǎ lì zuì jìn cháng dào lìshǐ bó wù guǎn qù cān guān，tā duì lìshǐ chǎnshēng le xīng qù。',
+            examplePinyin: 'mǎlì zuìjìn cháng dào lìshǐbówùguǎn qù cānguān， tā duì lìshǐ chǎnshēng le xìngqù。',
           },
           {
             id: 'hj2a-l7-w25',
@@ -16203,7 +16203,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to produce; to generate',
             exampleCn: '学了京剧以后，玛丽就对中国历史产生了兴趣。',
             exampleEn: 'After learning Peking opera, Mary developed an interest in Chinese history.',
-            examplePinyin: 'xué le jīng jù yǐ hòu，mǎ lì jiù duì zhōng guó lìshǐ chǎnshēng le xīng qù。',
+            examplePinyin: 'xué le jīngjù yǐhòu， mǎlì jiù duì zhōngguó lìshǐ chǎnshēng le xìngqù。',
           },
           {
             id: 'hj2a-l7-w26',
@@ -16213,7 +16213,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'album of paintings',
             exampleCn: '有一天，玛丽在书店买了一本画册，是介绍中国历史的。',
             exampleEn: 'One day, Mary bought an album of paintings at the bookstore; it introduces Chinese history.',
-            examplePinyin: 'yǒu yī tiān，mǎ lì zài shū diàn mǎi le yī běn huàcè，shì jiè shào zhōng guó lìshǐ de。',
+            examplePinyin: 'yǒu yītiān， mǎlì zài shūdiàn mǎi le yīběn huàcè， shì jièshào zhōngguó lìshǐ de。',
           },
           {
             id: 'hj2a-l7-w27',
@@ -16223,7 +16223,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to study; to research',
             exampleCn: '麦克问玛丽：你打算研究中国历史吗？玛丽说不。',
             exampleEn: 'Mike asked Mary: Do you plan to study Chinese history? Mary said no.',
-            examplePinyin: 'mài kè wèn mǎ lì：nǐ dǎ suàn yánjiū zhōng guó lìshǐ ma？mǎ lì shuō bù。',
+            examplePinyin: 'màikè wèn mǎlì： nǐ dǎsuàn yánjiū zhōngguó lìshǐ ma？ mǎlì shuō bù。',
           },
           {
             id: 'hj2a-l7-w28',
@@ -16233,7 +16233,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'only',
             exampleCn: '玛丽说她只是对中国历史感兴趣，不打算研究它。',
             exampleEn: 'Mary said she is only interested in Chinese history and doesn\'t plan to study it.',
-            examplePinyin: 'mǎ lì shuō tā zhǐshì duì zhōng guó lìshǐ gǎn xīng qù，bù dǎ suàn yánjiū tā。',
+            examplePinyin: 'mǎlì shuō tā zhǐshì duì zhōngguó lìshǐ gǎnxìngqù， bù dǎsuàn yánjiū tā。',
           },
           {
             id: 'hj2a-l7-w29',
@@ -16243,7 +16243,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'old',
             exampleCn: '麦克跟玛丽不一样，他喜欢老的东西，玛丽喜欢新的。',
             exampleEn: 'Mike is different from Mary; he likes old things, while Mary likes new things.',
-            examplePinyin: 'mài kè gēn mǎ lì bù yíyàng，tā xǐ huān lǎo de dōng xī，mǎ lì xǐ huān xīn de。',
+            examplePinyin: 'màikè gēn mǎlì bù yīyàng， tā xǐhuān lǎo de dōngxī， mǎlì xǐhuān xīn de。',
           },
           {
             id: 'hj2a-l7-w30',
@@ -16253,7 +16253,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to reform',
             exampleCn: '麦克对中国改革开放以后的一切都很感兴趣。',
             exampleEn: 'Mike is interested in everything since China\'s reform and opening-up.',
-            examplePinyin: 'mài kè duì zhōng guó gǎigé kāifàng yǐ hòu de yíqiè dōu hěn gǎn xīng qù。',
+            examplePinyin: 'màikè duì zhōngguó gǎigékāifàng yǐhòu de yīqiè dōu hěngǎnxìngqù。',
           },
           {
             id: 'hj2a-l7-w31',
@@ -16263,7 +16263,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to open',
             exampleCn: '中国开放以后变化很大，麦克想了解这些变化。',
             exampleEn: 'China has changed a lot since opening up, and Mike wants to understand these changes.',
-            examplePinyin: 'zhōng guó kāifàng yǐ hòu biànhuà hěn dà，mài kè xiǎng le jiě zhè xiē biànhuà。',
+            examplePinyin: 'zhōngguó kāifàng yǐhòu biànhuàhěndà， màikè xiǎng liǎojiě zhèxiē biànhuà。',
           },
           {
             id: 'hj2a-l7-w32',
@@ -16273,7 +16273,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'all; everything',
             exampleCn: '麦克对改革开放以后的一切都很感兴趣。',
             exampleEn: 'Mike is interested in everything since the reform and opening-up.',
-            examplePinyin: 'mài kè duì gǎigé kāifàng yǐ hòu de yíqiè dōu hěn gǎn xīng qù。',
+            examplePinyin: 'màikè duì gǎigékāifàng yǐhòu de yīqiè dōu hěngǎnxìngqù。',
           },
         ],
       },
@@ -16291,7 +16291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to love; to like',
             exampleCn: '山本说他很爱他的家乡，那里风景特别有名。',
             exampleEn: 'Yamamoto says he loves his hometown very much; the scenery there is especially famous.',
-            examplePinyin: 'shān běn shuō tā hěn ài tā de jiāxiāng，nà lǐ fēngjǐng tè bié yǒumíng。',
+            examplePinyin: 'shānběn shuō tā hěn ài tā de jiāxiāng， nàlǐ fēngjǐng tèbié yǒumíng。',
           },
           {
             id: 'hj2a-l8-w2',
@@ -16301,7 +16301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to skate',
             exampleCn: '冬天到了，山本和玛丽都想去公园里滑冰。',
             exampleEn: 'Winter is here; both Yamamoto and Mary want to go skating in the park.',
-            examplePinyin: 'dōngtiān dào le，shān běn hé mǎ lì dōu xiǎng qù gōng yuán lǐ huábīng。',
+            examplePinyin: 'dōngtiān dào le， shānběn hémǎlì dōu xiǎng qù gōngyuán lǐ huábīng。',
           },
           {
             id: 'hj2a-l8-w3',
@@ -16311,7 +16311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to ski',
             exampleCn: '滑雪比滑冰更难，可是更有意思。',
             exampleEn: 'Skiing is harder than skating, but it\'s more fun.',
-            examplePinyin: 'huáxuě bǐ huábīng gèng nán，kěshì gèng yǒuyisi。',
+            examplePinyin: 'huáxuě bǐ huábīng gèng nán， kěshì gèng yǒuyìsi。',
           },
           {
             id: 'hj2a-l8-w4',
@@ -16321,7 +16321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hometown',
             exampleCn: '山本的家乡冬天非常冷，常常下很大的雪。',
             exampleEn: 'Yamamoto\'s hometown is very cold in winter, and it often snows heavily.',
-            examplePinyin: 'shān běn de jiāxiāng dōngtiān fēi cháng lěng，cháng cháng xià hěn dà de xuě。',
+            examplePinyin: 'shānběn de jiāxiāng dōngtiān fēicháng lěng， chángcháng xià hěndà de xuě。',
           },
           {
             id: 'hj2a-l8-w5',
@@ -16331,7 +16331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'water',
             exampleCn: '他家乡的水很干净，可以直接喝。',
             exampleEn: 'The water in his hometown is very clean; you can drink it directly.',
-            examplePinyin: 'tā jiāxiāng de shuǐ hěn gānjìng，kě yǐ zhí jiē hē。',
+            examplePinyin: 'tā jiāxiāng de shuǐ hěn gānjìng， kěyǐ zhíjiē hē。',
           },
           {
             id: 'hj2a-l8-w6',
@@ -16341,7 +16341,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'famous',
             exampleCn: '北京的香山很有名，秋天很多人去那儿看红叶。',
             exampleEn: 'Beijing\'s Fragrant Hills is very famous; many people go there in autumn to see red leaves.',
-            examplePinyin: 'běi jīng de xiāng shān hěn yǒumíng，qiūtiān hěn duō rén qù nà ér kàn hóngyè。',
+            examplePinyin: 'běijīng de xiāngshān hěn yǒumíng， qiūtiān hěnduō rén qù nàr kàn hóngyè。',
           },
           {
             id: 'hj2a-l8-w7',
@@ -16351,7 +16351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'scenic view; landscape',
             exampleCn: '他们家乡的风景很美，尤其是秋天的红叶。',
             exampleEn: 'The scenery in their hometown is beautiful, especially the red autumn leaves.',
-            examplePinyin: 'tā men jiāxiāng de fēngjǐng hěn měi，yóuqí shì qiūtiān de hóngyè。',
+            examplePinyin: 'tāmen jiāxiāng de fēngjǐng hěn měi， yóuqí shì qiūtiān de hóngyè。',
           },
           {
             id: 'hj2a-l8-w8',
@@ -16361,7 +16361,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'area; region',
             exampleCn: '山本住在东京的一个旅游区，夏天有很多游客。',
             exampleEn: 'Yamamoto lives in a tourist area in Tokyo; there are many tourists in summer.',
-            examplePinyin: 'shān běn zhù zài dōng jīng de yī gè lǚyóu qū，xiàtiān yǒu hěn duō yóu kè。',
+            examplePinyin: 'shānběn zhù zài dōngjīng de yígè lǚyóuqū， xiàtiān yǒu hěnduō yóukè。',
           },
           {
             id: 'hj2a-l8-w9',
@@ -16371,7 +16371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to travel; to tour',
             exampleCn: '很多人喜欢到有名的地方去旅游，看不同的风景。',
             exampleEn: 'Many people like to travel to famous places and see different scenery.',
-            examplePinyin: 'hěn duō rén xǐ huān dào yǒumíng de de fāng qù lǚyóu，kàn bù tóng de fēngjǐng。',
+            examplePinyin: 'hěnduō rén xǐhuān dào yǒumíng de dìfāng qù lǚyóu， kàn bùtóng de fēngjǐng。',
           },
           {
             id: 'hj2a-l8-w10',
@@ -16381,7 +16381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'especially',
             exampleCn: '秋天的北京很漂亮，尤其是香山的红叶最有名。',
             exampleEn: 'Autumn Beijing is beautiful, especially the red leaves at Fragrant Hills which are most famous.',
-            examplePinyin: 'qiūtiān de běi jīng hěn piàoliang，yóuqí shì xiāng shān de hóngyè zuì yǒumíng。',
+            examplePinyin: 'qiūtiān de běijīng hěnpiàoliàng， yóuqí shì xiāngshān de hóngyè zuì yǒumíng。',
           },
           {
             id: 'hj2a-l8-w11',
@@ -16391,7 +16391,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nice and cool',
             exampleCn: '夏天太热了，所以人们都喜欢到凉快的山区去避暑。',
             exampleEn: 'Summer is too hot, so people all like to go to cool mountain areas to escape the heat.',
-            examplePinyin: 'xiàtiān tài rè le，suǒyǐ rén men dōu xǐ huān dào liángkuai de shān qū qù bìshǔ。',
+            examplePinyin: 'xiàtiān tài rè le， suǒyǐ rénmen dōu xǐhuān dào liángkuài de shānqū qù bìshǔ。',
           },
           {
             id: 'hj2a-l8-w12',
@@ -16401,7 +16401,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to spend a holiday at a summer resort',
             exampleCn: '山本说他们家乡夏天很凉快，不用去别的地方避暑。',
             exampleEn: 'Yamamoto says his hometown is nice and cool in summer; no need to go elsewhere to escape the heat.',
-            examplePinyin: 'shān běn shuō tā men jiāxiāng xiàtiān hěn liángkuai，bù yòng qù bié de de fāng bìshǔ。',
+            examplePinyin: 'shānběn shuō tāmen jiāxiāng xiàtiān hěn liángkuài， bùyòng qù biéde dìfāng bìshǔ。',
           },
           {
             id: 'hj2a-l8-w13',
@@ -16411,7 +16411,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'household; family',
             exampleCn: '看人家经营的小店生意多好，我们也想试试。',
             exampleEn: 'Look at how well other people\'s small shops are doing; we want to try too.',
-            examplePinyin: 'kàn rénjiā jīngyíng de xiǎo diàn shēng yì duō hǎo，wǒ men yě xiǎng shì shì。',
+            examplePinyin: 'kàn rénjiā jīngyíng de xiǎodiàn shēngyì duō hǎo， wǒmen yě xiǎng shìshì。',
           },
           {
             id: 'hj2a-l8-w14',
@@ -16421,7 +16421,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rely on',
             exampleCn: '开店要靠自己的努力，不能只靠别人帮忙。',
             exampleEn: 'Running a shop depends on your own effort; you can\'t just rely on others\' help.',
-            examplePinyin: 'kāi diàn yào kào zì jǐ de nǔ lì，bù néng zhī kào bié rén bāng máng。',
+            examplePinyin: 'kāidiàn yào kào zìjǐ de nǔlì， bùnéng zhǐ kào biérén bāngmáng。',
           },
           {
             id: 'hj2a-l8-w15',
@@ -16431,7 +16431,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to manage; to run',
             exampleCn: '山本想以后回家乡经营一家小旅游公司。',
             exampleEn: 'Yamamoto wants to go back to his hometown someday to run a small tourism company.',
-            examplePinyin: 'shān běn xiǎng yǐ hòu huí jiāxiāng jīngyíng yī jiā xiǎo lǚyóu gōng sī。',
+            examplePinyin: 'shānběn xiǎng yǐhòu huíjiā xiāng jīngyíng yījiā xiǎo lǚyóu gōngsī。',
           },
           {
             id: 'hj2a-l8-w16',
@@ -16441,7 +16441,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get rich; to make a fortune',
             exampleCn: '玛丽开玩笑说：你经营得好的话，一定能发财。',
             exampleEn: 'Mary joked: If you manage it well, you\'ll definitely get rich.',
-            examplePinyin: 'mǎ lì kāi wán xiào shuō：nǐ jīngyíng dé hǎo de huà，yī dìng néng fācái。',
+            examplePinyin: 'mǎlì kāiwánxiào shuō： nǐ jīngyíng dé hǎo dehuà， yídìng néng fācái。',
           },
           {
             id: 'hj2a-l8-w17',
@@ -16451,7 +16451,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'leaf',
             exampleCn: '秋天地上有很多树叶，孩子们喜欢捡漂亮的红叶。',
             exampleEn: 'There are many leaves on the ground in autumn; children like to pick up beautiful red leaves.',
-            examplePinyin: 'qiūtiān de shang yǒu hěn duō shùyè，hái zǐ men xǐ huān jiǎn piàoliang de hóngyè。',
+            examplePinyin: 'qiūtiān dìshàng yǒu hěnduō shùyè， háizi men xǐhuān jiǎn piàoliàng de hóngyè。',
           },
           {
             id: 'hj2a-l8-w18',
@@ -16461,7 +16461,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tree',
             exampleCn: '这棵树很大，夏天的树叶很绿，秋天的树叶变红了。',
             exampleEn: 'This tree is big; its leaves are green in summer and turn red in autumn.',
-            examplePinyin: 'zhè kē shù hěn dà，xiàtiān de shùyè hěn lǜ，qiūtiān de shùyè biàn hóng le。',
+            examplePinyin: 'zhè kē shù hěndà， xiàtiān de shùyè hěn lǜ， qiūtiān de shùyè biànhóng le。',
           },
           {
             id: 'hj2a-l8-w19',
@@ -16471,7 +16471,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'leaf',
             exampleCn: '一片红叶掉在地上，玛丽把它捡了起来。',
             exampleEn: 'A single red leaf fell on the ground; Mary picked it up.',
-            examplePinyin: 'yī piàn hóngyè diào zài de shang，mǎ lì bǎ tā jiǎn le qǐ lái。',
+            examplePinyin: 'yīpiàn hóngyè diào zài dìshàng， mǎlì bǎ tā jiǎn le qǐlái。',
           },
           {
             id: 'hj2a-l8-w20',
@@ -16481,7 +16481,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pick',
             exampleCn: '在山上捡了几片红叶，准备带回家送给朋友。',
             exampleEn: 'Picked up several red leaves on the mountain, planning to take them home as gifts for friends.',
-            examplePinyin: 'zài shān shang jiǎn le jǐ piàn hóngyè，zhǔn bèi dài huí jiā sòng gěi péng yǒu。',
+            examplePinyin: 'zài shānshàng jiǎn le jǐpiàn hóngyè， zhǔnbèi dàihuíjiā sònggěi péngyǒu。',
           },
           {
             id: 'hj2a-l8-w21',
@@ -16491,7 +16491,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'red autumn leaves',
             exampleCn: '香山的红叶非常有名，每年秋天都有很多游客去看。',
             exampleEn: 'The red autumn leaves at Fragrant Hills are very famous; many tourists come to see them every autumn.',
-            examplePinyin: 'xiāng shān de hóngyè fēi cháng yǒumíng，měi nián qiūtiān dōu yǒu hěn duō yóu kè qù kàn。',
+            examplePinyin: 'xiāngshān de hóngyè fēicháng yǒumíng， měinián qiūtiān dōu yǒu hěnduō yóukè qù kàn。',
           },
           {
             id: 'hj2a-l8-w22',
@@ -16501,7 +16501,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'anxious; worried',
             exampleCn: '快八点了，麦克还没来，玛丽有点着急了。',
             exampleEn: 'It\'s almost eight o\'clock and Mike hasn\'t arrived yet; Mary is getting a bit worried.',
-            examplePinyin: 'kuài bā diǎn le，mài kè huán méi lái，mǎ lì yǒu diǎn zháojí le。',
+            examplePinyin: 'kuài bādiǎn le， màikè hái méi lái， mǎlì yǒudiǎn zháojí le。',
           },
           {
             id: 'hj2a-l8-w23',
@@ -16511,7 +16511,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used to indicate degree) very; quite',
             exampleCn: '冬天冷着呢！你要多穿一点儿衣服。',
             exampleEn: 'It\'s really cold in winter! You need to wear more clothes.',
-            examplePinyin: 'dōngtiān lěng zhene！nǐ yào duō chuān yī diǎn ér yī fú。',
+            examplePinyin: 'dōngtiān lěng zhe ne！ nǐ yào duō chuān yìdiǎnér yīfú。',
           },
           {
             id: 'hj2a-l8-w24',
@@ -16521,7 +16521,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'watch',
             exampleCn: '麦克的表坏了，所以他不知道现在几点了。',
             exampleEn: 'Mike\'s watch is broken, so he doesn\'t know what time it is now.',
-            examplePinyin: 'mài kè de biǎo huài le，suǒyǐ tā bù zhī dào xiàn zài jǐ diǎn le。',
+            examplePinyin: 'màikè de biǎohuài le， suǒyǐ tā bù zhīdào xiànzài jǐdiǎn le。',
           },
           {
             id: 'hj2a-l8-w25',
@@ -16531,7 +16531,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(go) bad; broken',
             exampleCn: '哎呀，我的表坏了，今天上课可能会迟到。',
             exampleEn: 'Oh no, my watch is broken; I might be late for class today.',
-            examplePinyin: 'āiyā，wǒ de biǎo huài le，jīn tiān shang kè kě néng huì chídào。',
+            examplePinyin: 'āiyā， wǒ de biǎohuài le， jīntiān shàngkè kěnéng huì chídào。',
           },
           {
             id: 'hj2a-l8-w26',
@@ -16541,7 +16541,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'expressing surprise or amazement',
             exampleCn: '哎呀！已经七点五十了，我该走了！',
             exampleEn: 'Oh my goodness! It\'s already ten to seven; I should go now!',
-            examplePinyin: 'āiyā！yǐjīng qī diǎn wǔ shí le，wǒ gāi zǒu le！',
+            examplePinyin: 'āiyā！ yǐjīng qīdiǎn wǔshí le， wǒ gāi zǒu le！',
           },
           {
             id: 'hj2a-l8-w27',
@@ -16551,7 +16551,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stop',
             exampleCn: '外面雨太大了，我们停一会儿再走吧。',
             exampleEn: 'The rain outside is too heavy; let\'s stop for a while before we go.',
-            examplePinyin: 'wài miàn yǔ tài dà le，wǒ men tíng yī huì ér zài zǒu ba。',
+            examplePinyin: 'wàimiàn yǔ tài dà le， wǒmen tíng yīhuìer zài zǒu ba。',
           },
           {
             id: 'hj2a-l8-w28',
@@ -16561,7 +16561,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'should; ought to; need',
             exampleCn: '已经八点了，我该走了，不然会迟到。',
             exampleEn: 'It\'s already eight o\'clock; I should go, otherwise I\'ll be late.',
-            examplePinyin: 'yǐjīng bā diǎn le，wǒ gāi zǒu le，bù rán huì chídào。',
+            examplePinyin: 'yǐjīng bādiǎn le， wǒ gāi zǒu le， bùrán huì chídào。',
           },
           {
             id: 'hj2a-l8-w29',
@@ -16571,7 +16571,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'battery',
             exampleCn: '我的电子表没电了，需要换一块新电池。',
             exampleEn: 'My electronic watch ran out of battery; I need to put in a new one.',
-            examplePinyin: 'wǒ de diàn zǐ biǎo méi diàn le，xūyào huàn yī kuài xīn diànchí。',
+            examplePinyin: 'wǒ de diànzibiǎo méi diàn le， xūyào huàn yīkuài xīn diànchí。',
           },
           {
             id: 'hj2a-l8-w30',
@@ -16581,7 +16581,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be (or arrive) late',
             exampleCn: '今天早上表坏了，所以我上学迟到了五分钟。',
             exampleEn: 'My watch broke this morning, so I was five minutes late for school.',
-            examplePinyin: 'jīn tiān zǎo shang biǎo huài le，suǒyǐ wǒ shang xué chídào le wǔ fēn zhōng。',
+            examplePinyin: 'jīntiān zǎoshàng biǎohuài le， suǒyǐ wǒ shàngxué chídào le wǔfēnzhōng。',
           },
           {
             id: 'hj2a-l8-w31',
@@ -16591,7 +16591,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy event',
             exampleCn: '山本姐姐结婚是一件好事，大家都为她高兴。',
             exampleEn: 'Yamamoto\'s older sister getting married is a happy event; everyone is happy for her.',
-            examplePinyin: 'shān běn jiě jiě jiéhūn shì yī jiàn hǎoshì，dà jiā dōu wèi tā gāo xīng。',
+            examplePinyin: 'shānběn jiějiě jiéhūn shì yījiàn hǎoshì， dàjiā dōu wèi tā gāoxìng。',
           },
           {
             id: 'hj2a-l8-w32',
@@ -16601,7 +16601,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bad thing',
             exampleCn: '迟到不是什么坏事，但是下次要注意时间。',
             exampleEn: 'Being late isn\'t exactly a bad thing, but next time pay attention to the time.',
-            examplePinyin: 'chídào bù shì shén me huàishì，dàn shì xià cì yào zhùyì shí jiān。',
+            examplePinyin: 'chídào búshì shénme huàishì， dànshì xiàcì yào zhùyì shíjiān。',
           },
           {
             id: 'hj2a-l8-w33',
@@ -16611,7 +16611,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a modal particle expressing exclamation or interrogation',
             exampleCn: '冬天快要到了啦，你们准备好冬天的衣服了吗？',
             exampleEn: 'Winter is coming soon! Have you prepared your winter clothes?',
-            examplePinyin: 'dōngtiān kuài yào dào le la，nǐ men zhǔn bèi hǎo dōngtiān de yī fú le ma？',
+            examplePinyin: 'dōngtiān kuàiyào dào le la， nǐmen zhǔnbèi hǎo dōngtiān de yīfú le ma？',
           },
           {
             id: 'hj2a-l8-w34',
@@ -16621,7 +16621,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mother',
             exampleCn: '山本说他母亲希望他早点结婚，可是他还不着急。',
             exampleEn: 'Yamamoto says his mother hopes he will get married soon, but he isn\'t in a hurry.',
-            examplePinyin: 'shān běn shuō tā mǔqin xīwàng tā zǎo diǎn jiéhūn，kěshì tā huán bù zháojí。',
+            examplePinyin: 'shānběn shuō tā mǔqīn xīwàng tā zǎodiǎn jiéhūn， kěshì tā hái bù zháojí。',
           },
           {
             id: 'hj2a-l8-w35',
@@ -16631,7 +16631,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'father',
             exampleCn: '他的父亲母亲都很爱他，支持他做自己喜欢的工作。',
             exampleEn: 'Both his father and mother love him very much and support him doing work he likes.',
-            examplePinyin: 'tā de fùqin mǔqin dōu hěn ài tā，zhī chí tā zuò zì jǐ xǐ huān de gōng zuò。',
+            examplePinyin: 'tā de fùqīn mǔqīn dōu hěn ài tā， zhīchí tā zuò zìjǐ xǐhuān de gōngzuò。',
           },
           {
             id: 'hj2a-l8-w36',
@@ -16641,7 +16641,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after an adjective or phrase to form an adverbial adjunct before a verb',
             exampleCn: '玛丽高兴地告诉山本，她要去他家乡旅游。',
             exampleEn: 'Mary happily told Yamamoto that she was going to travel to his hometown.',
-            examplePinyin: 'mǎ lì gāo xīng de gào sù shān běn，tā yào qù tā jiāxiāng lǚyóu。',
+            examplePinyin: 'mǎlì gāoxìng dì gàosù shānběn， tā yào qù tā jiāxiāng lǚyóu。',
           },
           {
             id: 'hj2a-l8-w37',
@@ -16651,7 +16651,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to marry',
             exampleCn: '山本说要是找不到自己爱的人，他就不结婚。',
             exampleEn: 'Yamamoto says if he can\'t find someone he loves, he won\'t get married.',
-            examplePinyin: 'shān běn shuō yàoshi zhǎo bù dào zì jǐ ài de rén，tā jiù bù jiéhūn。',
+            examplePinyin: 'shānběn shuō yàoshì zhǎo búdào zìjǐ ài de rén， tā jiù bù jiéhūn。',
           },
           {
             id: 'hj2a-l8-w38',
@@ -16661,7 +16661,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to divorce',
             exampleCn: '玛丽问：你们国家的人结了婚以后可以离婚吗？',
             exampleEn: 'Mary asked: Can people in your country get divorced after they get married?',
-            examplePinyin: 'mǎ lì wèn：nǐ men guójiā de rén jié le hūn yǐ hòu kě yǐ líhūn ma？',
+            examplePinyin: 'mǎlì wèn： nǐmen guójiā de rén jiélehūn yǐhòu kěyǐ líhūn ma？',
           },
           {
             id: 'hj2a-l8-w39',
@@ -16671,7 +16671,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fiancé',
             exampleCn: '山本的姐姐有一个未婚夫，他们明年就要结婚了。',
             exampleEn: 'Yamamoto\'s older sister has a fiancé, and they are getting married next year.',
-            examplePinyin: 'shān běn de jiě jiě yǒu yī gè wèihūnfū，tā men míng nián jiù yào jiéhūn le。',
+            examplePinyin: 'shānběn de jiějiě yǒu yígè wèihūnfū， tāmen míngnián jiùyào jiéhūn le。',
           },
           {
             id: 'hj2a-l8-w40',
@@ -16681,7 +16681,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fiancée',
             exampleCn: '麦克还没有未婚妻，他说想先努力工作。',
             exampleEn: 'Mike doesn\'t have a fiancée yet; he says he wants to focus on his work first.',
-            examplePinyin: 'mài kè huán méi yǒu wèihūnqī，tā shuō xiǎng xiān nǔ lì gōng zuò。',
+            examplePinyin: 'màikè hái méiyǒu wèihūnqī， tā shuō xiǎng xiān nǔlì gōngzuò。',
           },
           {
             id: 'hj2a-l8-w41',
@@ -16691,7 +16691,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'future',
             exampleCn: '将来你想做什么工作？你想回自己的家乡吗？',
             exampleEn: 'What work do you want to do in the future? Do you want to go back to your hometown?',
-            examplePinyin: 'jiānglái nǐ xiǎng zuò shén me gōng zuò？nǐ xiǎng huí zì jǐ de jiāxiāng ma？',
+            examplePinyin: 'jiānglái nǐ xiǎng zuò shénme gōngzuò？ nǐ xiǎng huí zìjǐ de jiāxiāng ma？',
           },
           {
             id: 'hj2a-l8-w42',
@@ -16701,7 +16701,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'such; so; like this; this way',
             exampleCn: '这样的问题你应该直接问她，不要问别人。',
             exampleEn: 'You should ask her directly about questions like this, don\'t ask others.',
-            examplePinyin: 'zhèyàng de wèn tí nǐ yìng gāi zhí jiē wèn tā，bù yào wèn bié rén。',
+            examplePinyin: 'zhèyàng de wèntí nǐ yīnggāi zhíjiē wèn tā， búyào wèn biérén。',
           },
           {
             id: 'hj2a-l8-w43',
@@ -16711,7 +16711,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'such; so; like that; that way',
             exampleCn: '我不想过那样的生活，我想按自己的方式生活。',
             exampleEn: 'I don\'t want to live like that; I want to live in my own way.',
-            examplePinyin: 'wǒ bù xiǎng guo nàyàng de shēnghuó，wǒ xiǎng àn zì jǐ de fāng shì shēnghuó。',
+            examplePinyin: 'wǒ bùxiǎng guò nàyàng de shēnghuó， wǒ xiǎng àn zìjǐ de fāngshì shēnghuó。',
           },
         ],
       },
@@ -16729,7 +16729,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have/attend a meeting',
             exampleCn: '林老师说明天下午要开会，大家别忘了带笔记本。',
             exampleEn: 'Teacher Lin said there will be a meeting tomorrow afternoon; don\'t forget to bring your notebooks.',
-            examplePinyin: 'lín lǎo shī shuō míng tiān xià wǔ yào kāihuì，dà jiā bié wàng le dài bǐ jì běn。',
+            examplePinyin: 'lín lǎoshī shuō míngtiān xiàwǔ yào kāihuì， dàjiā biéwàngle dài bǐjìběn。',
           },
           {
             id: 'hj2a-l9-w2',
@@ -16739,7 +16739,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'teaching',
             exampleCn: '林老师在学校教汉语教学已经很多年了。',
             exampleEn: 'Teacher Lin has been teaching Chinese teaching at the school for many years.',
-            examplePinyin: 'lín lǎo shī zài xué xiào jiào hàn yǔ jiàoxué yǐjīng hěn duō nián le。',
+            examplePinyin: 'lín lǎoshī zài xuéxiào jiào hànyǔ jiàoxué yǐjīng hěnduōnián le。',
           },
           {
             id: 'hj2a-l9-w3',
@@ -16749,7 +16749,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'seminar; symposium',
             exampleCn: '上周末学校开了一个关于汉语教学的研讨会。',
             exampleEn: 'Last weekend the school held a seminar about Chinese language teaching.',
-            examplePinyin: 'shang zhōumò xué xiào kāi le yī gè guān yú hàn yǔ jiàoxué de yántǎohuì。',
+            examplePinyin: 'shàngzhōumò xuéxiào kāi le yígè guānyú hànyǔ jiàoxué de yántǎohuì。',
           },
           {
             id: 'hj2a-l9-w4',
@@ -16759,7 +16759,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to study and discuss',
             exampleCn: '老师们在一起认真研讨了怎么教好留学生汉语。',
             exampleEn: 'The teachers seriously discussed together how to teach Chinese well to international students.',
-            examplePinyin: 'lǎo shī men zài yī qǐ rèn zhēn yántǎo le zěn me jiào hǎo liú xué shēng hàn yǔ。',
+            examplePinyin: 'lǎoshī men zài yìqǐ rènzhēn yántǎo le zěnme jiào hǎo liúxuéshēng hànyǔ。',
           },
           {
             id: 'hj2a-l9-w5',
@@ -16769,7 +16769,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pass; to go through (a place)',
             exampleCn: '我们坐的车经过了市中心，那里车特别多。',
             exampleEn: 'The bus we took passed through downtown, where there was especially heavy traffic.',
-            examplePinyin: 'wǒ men zuò de chē jīngguò le shì zhōng xīn，nà lǐ chē tè bié duō。',
+            examplePinyin: 'wǒmen zuò de chē jīngguò le shìzhōngxīn， nàlǐ chē tèbié duō。',
           },
           {
             id: 'hj2a-l9-w6',
@@ -16779,7 +16779,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to; towards; in the direction of',
             exampleCn: '山本向林老师走过去，想问她一个问题。',
             exampleEn: 'Yamamoto walked over towards Teacher Lin to ask her a question.',
-            examplePinyin: 'shān běn xiàng lín lǎo shī zǒu guòqù，xiǎng wèn tā yī gè wèn tí。',
+            examplePinyin: 'shānběn xiàng lín lǎoshī zǒu guòqù， xiǎng wèn tā yígè wèntí。',
           },
           {
             id: 'hj2a-l9-w7',
@@ -16789,7 +16789,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to send one\'s regards to; to say hello to',
             exampleCn: '见到老师的时候应该先问好，这是基本的礼貌。',
             exampleEn: 'When you see a teacher you should say hello first; it\'s basic politeness.',
-            examplePinyin: 'jiàn dào lǎo shī de shí hòu yìng gāi xiān wènhǎo，zhè shì jī běn de lǐ mào。',
+            examplePinyin: 'jiàndào lǎoshī de shíhòu yīnggāi xiān wènhǎo， zhè shì jīběn de lǐmào。',
           },
           {
             id: 'hj2a-l9-w8',
@@ -16799,7 +16799,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take along something to or for someone; to bring to someone',
             exampleCn: '你捐的东西太多了，拿不动的话我帮你拿一部分。',
             exampleEn: 'You\'re bringing too much along; if you can\'t carry it all, I\'ll help you with some.',
-            examplePinyin: 'nǐ juān de dōng xī tài duō le，ná bù dòng de huà wǒ bāng nǐ ná yī bù fēn。',
+            examplePinyin: 'nǐ juān de dōngxī tài duō le， ná bù dòng dehuà wǒ bāng nǐ ná yībùfèn。',
           },
           {
             id: 'hj2a-l9-w9',
@@ -16809,7 +16809,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to deliver; to give',
             exampleCn: '麦克的朋友要去机场，麦克开车送他过去了。',
             exampleEn: 'Mike\'s friend was going to the airport, so Mike drove him there.',
-            examplePinyin: 'mài kè de péng yǒu yào qù jī chǎng，mài kè kāichē sòng tā guòqù le。',
+            examplePinyin: 'màikè de péngyǒu yào qù jīchǎng， màikè kāichē sòng tā guòqù le。',
           },
           {
             id: 'hj2a-l9-w10',
@@ -16819,7 +16819,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go over; to pass by',
             exampleCn: '刚才那辆车已经开过去了，我们等下一辆吧。',
             exampleEn: 'That bus just drove past; let\'s wait for the next one.',
-            examplePinyin: 'gāng cái nà liàng chē yǐjīng kāi guòqù le，wǒ men děng xià yī liàng ba。',
+            examplePinyin: 'gāngcái nàliàngchē yǐjīng kāi guòqù le， wǒmen děng xià yīliàng ba。',
           },
           {
             id: 'hj2a-l9-w11',
@@ -16829,7 +16829,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come over; to come by',
             exampleCn: '玛丽，你快过来，这边还有座位呢！',
             exampleEn: 'Mary, come over quickly, there\'s still a seat here!',
-            examplePinyin: 'mǎ lì，nǐ kuài guòlái，zhè biān huán yǒu zuòwèi ne！',
+            examplePinyin: 'mǎlì， nǐ kuài guòlái， zhèbiān háiyǒu zuòwèi ne！',
           },
           {
             id: 'hj2a-l9-w12',
@@ -16839,7 +16839,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hard; strenuous; to bother; to take pains',
             exampleCn: '大家今天参观了一整天都很辛苦，早点回去休息吧。',
             exampleEn: 'Everyone worked hard visiting all day today; go back early and get some rest.',
-            examplePinyin: 'dà jiā jīn tiān cān guān le yī zhěng tiān dōu hěn xīnkǔ，zǎo diǎn huí qù xiū xī ba。',
+            examplePinyin: 'dàjiā jīntiān cānguān le yīzhěngtiān dōu hěn xīnkǔ， zǎodiǎn huíqù xiūxī ba。',
           },
           {
             id: 'hj2a-l9-w13',
@@ -16849,7 +16849,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to trouble; troublesome',
             exampleCn: '麻烦你帮我拿一下这个包，我手上的东西太多了。',
             exampleEn: 'Could you trouble yourself to hold this bag for me? I have too many things in my hands.',
-            examplePinyin: 'máfan nǐ bāng wǒ ná yī xià zhè gè bāo，wǒ shǒu shang de dōng xī tài duō le。',
+            examplePinyin: 'máfán nǐ bāng wǒ ná yīxià zhège bāo， wǒ shǒushàng de dōngxī tài duō le。',
           },
           {
             id: 'hj2a-l9-w14',
@@ -16859,7 +16859,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for trips',
             exampleCn: '这趟车是最后一班了，赶不上就只能走路回去了。',
             exampleEn: 'This bus is the last one; if you miss it you\'ll have to walk back.',
-            examplePinyin: 'zhè tàng chē shì zuìhòu yī bān le，gǎn bù shang jiù zhī néng zǒu lù huí qù le。',
+            examplePinyin: 'zhè tàng chē shì zuìhòu yībān le， gǎnbùshàng jiù zhǐnéng zǒulù huíqù le。',
           },
           {
             id: 'hj2a-l9-w15',
@@ -16869,7 +16869,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go in',
             exampleCn: '展览馆到了，大家排队进去参观吧。',
             exampleEn: 'We\'ve arrived at the exhibition hall; everyone line up and go in to visit.',
-            examplePinyin: 'zhǎnlǎnguǎn dào le，dà jiā pái duì jìnqu cān guān ba。',
+            examplePinyin: 'zhǎnlǎnguǎn dào le， dàjiā páiduì jìnqù cānguān ba。',
           },
           {
             id: 'hj2a-l9-w16',
@@ -16879,7 +16879,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'husband or wife',
             exampleCn: '山本说他爱人在日本工作，他们每两个月见一次面。',
             exampleEn: 'Yamamoto says his spouse works in Japan, and they see each other every two months.',
-            examplePinyin: 'shān běn shuō tā àiren zài rì běn gōng zuò，tā men měi liǎng gè yuè jiàn yī cì miàn。',
+            examplePinyin: 'shānběn shuō tā àirén zài rìběn gōngzuò， tāmen měi liǎnggè yuè jiàn yīcì miàn。',
           },
           {
             id: 'hj2a-l9-w17',
@@ -16889,7 +16889,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to handle affairs',
             exampleCn: '我今天下午要去市里办事，大概五点才能回来。',
             exampleEn: 'I need to go handle some affairs in town this afternoon; probably won\'t be back until five.',
-            examplePinyin: 'wǒ jīn tiān xià wǔ yào qù shì lǐ bànshì，dà gài wǔ diǎn cái néng huí lái。',
+            examplePinyin: 'wǒ jīntiānxiàwǔ yào qù shìlǐ bànshì， dàgài wǔdiǎn cáinéng huílái。',
           },
           {
             id: 'hj2a-l9-w18',
@@ -16899,7 +16899,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'slow',
             exampleCn: '车开得太慢了，这样下去我们会迟到的。',
             exampleEn: 'The bus is driving too slowly; at this rate we\'re going to be late.',
-            examplePinyin: 'chē kāi dé tài màn le，zhèyàng xià qù wǒ men huì chídào de。',
+            examplePinyin: 'chē kāi dé tàimàn le， zhèyàng xiàqù wǒmen huì chídào de。',
           },
           {
             id: 'hj2a-l9-w19',
@@ -16909,7 +16909,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come up',
             exampleCn: '快上来吧，车马上就要开了！',
             exampleEn: 'Hurry up and get on, the bus is about to leave!',
-            examplePinyin: 'kuài shànglái ba，chē mǎshàng jiù yào kāi le！',
+            examplePinyin: 'kuàishànglái ba， chēmǎ shàng jiùyào kāi le！',
           },
           {
             id: 'hj2a-l9-w20',
@@ -16919,7 +16919,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'at once; immediately',
             exampleCn: '林老师说四点准时上车，大家马上集合。',
             exampleEn: 'Teacher Lin said to board exactly at four o\'clock; everyone gather immediately.',
-            examplePinyin: 'lín lǎo shī shuō sì diǎn zhǔn shí shang chē，dà jiā mǎshàng jí hé。',
+            examplePinyin: 'lín lǎoshī shuō sìdiǎn zhǔnshí shàngchē， dàjiā mǎshàng jíhé。',
           },
           {
             id: 'hj2a-l9-w21',
@@ -16929,7 +16929,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to drive a car, bus, etc.; (of a vehicle) to start to move',
             exampleCn: '师傅，请开车吧，大家都已经上来了。',
             exampleEn: 'Driver, please start driving, everyone has already boarded.',
-            examplePinyin: 'shīfu，qǐng kāichē ba，dà jiā dōu yǐjīng shànglái le。',
+            examplePinyin: 'shīfù， qǐng kāichē ba， dàjiā dōu yǐjīng shànglái le。',
           },
           {
             id: 'hj2a-l9-w22',
@@ -16939,7 +16939,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'camera',
             exampleCn: '参观的时候不能拍照，照相机要放在包里面。',
             exampleEn: 'You can\'t take photos during the visit; keep your camera inside your bag.',
-            examplePinyin: 'cān guān de shí hòu bù néng pāi zhào，zhàoxiàngjī yào fàng zài bāo lǐ miàn。',
+            examplePinyin: 'cānguān de shíhòu bùnéng pāizhào， zhàoxiàngjī yào fàngzài bāo lǐmiàn。',
           },
           {
             id: 'hj2a-l9-w23',
@@ -16949,7 +16949,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take a photo',
             exampleCn: '在展览馆门口照相的人很多，大家都在排队拍照。',
             exampleEn: 'There are many people taking photos at the entrance of the exhibition hall; everyone\'s lining up for pictures.',
-            examplePinyin: 'zài zhǎnlǎnguǎn mén kǒu zhàoxiàng de rén hěn duō，dà jiā dōu zài pái duì pāi zhào。',
+            examplePinyin: 'zài zhǎnlǎnguǎn ménkǒu zhàoxiàng de rén hěnduō， dàjiā dōu zài páiduì pāizhào。',
           },
           {
             id: 'hj2a-l9-w24',
@@ -16959,7 +16959,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'seat',
             exampleCn: '车上还有一个空座位，你过来坐这儿吧。',
             exampleEn: 'There\'s still an empty seat on the bus; come over and sit here.',
-            examplePinyin: 'chē shang huán yǒu yī gè kōng zuòwèi，nǐ guòlái zuò zhè ér ba。',
+            examplePinyin: 'chēshàng háiyǒu yígè kōngzuòwèi， nǐ guòlái zuò zhèr ba。',
           },
           {
             id: 'hj2a-l9-w25',
@@ -16969,7 +16969,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pay attention to',
             exampleCn: '林老师请大家注意听，她要说一件重要的事情。',
             exampleEn: 'Teacher Lin asked everyone to pay attention; she wanted to say something important.',
-            examplePinyin: 'lín lǎo shī qǐng dà jiā zhùyì tīng，tā yào shuō yī jiàn zhòng yào de shì qíng。',
+            examplePinyin: 'lín lǎoshī qǐng dàjiā zhùyì tīng， tā yàoshuō yījiàn zhòngyào de shìqíng。',
           },
           {
             id: 'hj2a-l9-w26',
@@ -16979,7 +16979,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(of antiques) to be unearthed; to be excavated',
             exampleCn: '这些文物是从地下出土的，已经有两千多年历史了。',
             exampleEn: 'These cultural relics were unearthed from underground; they have a history of over two thousand years.',
-            examplePinyin: 'zhè xiē wénwù shì cóng de xià chūtǔ de，yǐjīng yǒu liǎng qiān duō nián lìshǐ le。',
+            examplePinyin: 'zhèxiē wénwù shìcóng dìxià chūtǔ de， yǐjīng yǒu liǎngqiānduōnián lìshǐ le。',
           },
           {
             id: 'hj2a-l9-w27',
@@ -16989,7 +16989,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cultural relic; antique',
             exampleCn: '这个展览展出了很多珍贵的古代文物，值得一看。',
             exampleEn: 'This exhibition displays many precious ancient cultural relics; it\'s worth seeing.',
-            examplePinyin: 'zhè gè zhǎnlǎn zhǎn chū le hěn duō zhēn guì de gǔ dài wénwù，zhí dé yī kàn。',
+            examplePinyin: 'zhège zhǎnlǎn zhǎnchū le hěnduō zhēnguì de gǔdài wénwù， zhídeyīkàn。',
           },
           {
             id: 'hj2a-l9-w28',
@@ -16999,7 +16999,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put on display; to exhibit',
             exampleCn: '博物馆正在展览一些从出土的古代文物。',
             exampleEn: 'The museum is exhibiting some ancient unearthed cultural relics.',
-            examplePinyin: 'bó wù guǎn zhèng zài zhǎnlǎn yī xiē cóng chūtǔ de gǔ dài wénwù。',
+            examplePinyin: 'bówùguǎn zhèngzài zhǎnlǎn yīxiē cóng chūtǔ de gǔdài wénwù。',
           },
           {
             id: 'hj2a-l9-w29',
@@ -17009,7 +17009,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'exhibition hall',
             exampleCn: '这个展览馆很大，全部看完大约需要两个半小时。',
             exampleEn: 'This exhibition hall is very large; it takes about two and a half hours to see everything.',
-            examplePinyin: 'zhè gè zhǎnlǎnguǎn hěn dà，quán bù kàn wán dàyuē xūyào liǎng gè bàn xiǎo shí。',
+            examplePinyin: 'zhège zhǎnlǎnguǎn hěndà， quánbù kàn wán dàyuē xūyào liǎnggè bànxiǎoshí。',
           },
           {
             id: 'hj2a-l9-w30',
@@ -17019,7 +17019,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'approximately',
             exampleCn: '从学校到展览馆大约需要四十分钟车程。',
             exampleEn: 'It takes approximately forty minutes to drive from school to the exhibition hall.',
-            examplePinyin: 'cóng xué xiào dào zhǎnlǎnguǎn dàyuē xūyào sì shí fēn zhōng chē chéng。',
+            examplePinyin: 'cóng xuéxiào dào zhǎnlǎnguǎn dàyuē xūyào sìshífēnzhōng chēchéng。',
           },
           {
             id: 'hj2a-l9-w31',
@@ -17029,7 +17029,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to ask; to demand; requirement',
             exampleCn: '林老师要求大家四点钟准时在车前集合。',
             exampleEn: 'Teacher Lin required everyone to gather in front of the bus promptly at four o\'clock.',
-            examplePinyin: 'lín lǎo shī yāoqiú dà jiā sì diǎn zhōng zhǔn shí zài chē qián jí hé。',
+            examplePinyin: 'lín lǎoshī yāoqiú dàjiā sìdiǎn zhōng zhǔnshí zài chē qián jíhé。',
           },
           {
             id: 'hj2a-l9-w32',
@@ -17039,7 +17039,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for sounds; sound; voice',
             exampleCn: '不回来的同学跟老师说一声，老师好知道人数。',
             exampleEn: 'Students who aren\'t coming back should tell the teacher, so she knows the headcount.',
-            examplePinyin: 'bù huí lái de tóng xué gēn lǎo shī shuō yī shēng，lǎo shī hǎo zhī dào rén shù。',
+            examplePinyin: 'bù huílái de tóngxué gēn lǎoshī shuō yīshēng， lǎoshī hǎo zhīdào rénshù。',
           },
           {
             id: 'hj2a-l9-w33',
@@ -17049,7 +17049,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'clear',
             exampleCn: '林老师说的话大家都听清楚了吗？有没有问题？',
             exampleEn: 'Did everyone hear clearly what Teacher Lin said? Any questions?',
-            examplePinyin: 'lín lǎo shī shuō de huà dà jiā dōu tīng qīngchu le ma？yǒu méi yǒu wèn tí？',
+            examplePinyin: 'lín lǎoshī shuō dehuà dàjiā dōu tīng qīngchǔ le ma？ yǒuméiyǒu wèntí？',
           },
           {
             id: 'hj2a-l9-w34',
@@ -17059,7 +17059,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'master (a polite title for one with accomplished skills)',
             exampleCn: '师傅，麻烦您开慢一点儿，车上有一位老人。',
             exampleEn: 'Driver, could you please drive slowly? There\'s an elderly person on board.',
-            examplePinyin: 'shīfu，máfan nín kāi màn yī diǎn ér，chē shang yǒu yī wèi lǎo rén。',
+            examplePinyin: 'shīfù， máfán nín kāi màn yìdiǎnér， chēshàng yǒu yīwèi lǎorén。',
           },
           {
             id: 'hj2a-l9-w35',
@@ -17069,7 +17069,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'embassy',
             exampleCn: '玛丽说她参观完以后要去大使馆看一个朋友。',
             exampleEn: 'Mary said after the visit she wants to go to the embassy to see a friend.',
-            examplePinyin: 'mǎ lì shuō tā cān guān wán yǐ hòu yào qù dàshǐguǎn kàn yī gè péng yǒu。',
+            examplePinyin: 'mǎlì shuō tā cānguān wán yǐhòu yào qù dàshǐguǎn kàn yígè péngyǒu。',
           },
           {
             id: 'hj2a-l9-w36',
@@ -17079,7 +17079,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ambassador',
             exampleCn: '大使馆的大使是中国人，他说汉语说得非常好。',
             exampleEn: 'The ambassador at the embassy is Chinese, and he speaks Chinese very well.',
-            examplePinyin: 'dàshǐguǎn de dàshǐ shì zhōng guó rén，tā shuō hàn yǔ shuō dé fēi cháng hǎo。',
+            examplePinyin: 'dàshǐguǎn de dàshǐ shì zhōngguó rén， tā shuō hànyǔ shuō dé fēicháng hǎo。',
           },
         ],
       },
@@ -17097,7 +17097,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate a past action or state',
             exampleCn: '山本说他以前来过中国一次，去过很多地方。',
             exampleEn: 'Yamamoto says he has been to China once before and has visited many places.',
-            examplePinyin: 'shān běn shuō tā yǐ qián lái guo zhōng guó yī cì，qù guo hěn duō de fāng。',
+            examplePinyin: 'shānběn shuō tā yǐqián lái guò zhōngguó yīcì， qùguò hěnduō dìfāng。',
           },
           {
             id: 'hj2a-l10-w2',
@@ -17107,7 +17107,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be hospitalized',
             exampleCn: '爷爷生病住院了，我们每天去医院看他。',
             exampleEn: 'Grandpa was hospitalized due to illness; we go to visit him at the hospital every day.',
-            examplePinyin: 'yé yé shēngbìng zhùyuàn le，wǒ men měi tiān qù yī yuàn kàn tā。',
+            examplePinyin: 'yéyé shēngbìng zhùyuàn le， wǒmen měitiān qù yīyuàn kàn tā。',
           },
           {
             id: 'hj2a-l10-w3',
@@ -17117,7 +17117,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'traditional Chinese medicine; practitioner of traditional Chinese medicine',
             exampleCn: '山本对中医很感兴趣，他想学一些中医的知识。',
             exampleEn: 'Yamamoto is very interested in traditional Chinese medicine and wants to learn some TCM knowledge.',
-            examplePinyin: 'shān běn duì zhōngyī hěn gǎn xīng qù，tā xiǎng xué yī xiē zhōngyī de zhī shí。',
+            examplePinyin: 'shānběn duì zhōngyī hěngǎnxìngqù， tā xiǎng xué yīxiē zhōngyī de zhīshí。',
           },
           {
             id: 'hj2a-l10-w4',
@@ -17127,7 +17127,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bitter',
             exampleCn: '这种中药太苦了，可是喝了以后病就好了。',
             exampleEn: 'This herbal medicine is too bitter, but after drinking it you\'ll get better.',
-            examplePinyin: 'zhè zhǒng zhōng yào tài kǔ le，kěshì hē le yǐ hòu bìng jiù hǎo le。',
+            examplePinyin: 'zhèzhǒng zhōngyào tàikǔ le， kěshì hē le yǐhòu bìng jiù hǎo le。',
           },
           {
             id: 'hj2a-l10-w5',
@@ -17137,7 +17137,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Chinese patent medicine',
             exampleCn: '中成药比中药方便，不用熬，直接吃就行。',
             exampleEn: 'Chinese patent medicine is more convenient than raw herbs; no need to boil it, just take it directly.',
-            examplePinyin: 'zhōngchéngyào bǐ zhōng yàofāng biàn，bù yòng áo，zhí jiē chī jiù xíng。',
+            examplePinyin: 'zhōngchéngyào bǐ zhōngyào fāngbiàn， bùyòng áo， zhíjiē chī jiù xíng。',
           },
           {
             id: 'hj2a-l10-w6',
@@ -17147,7 +17147,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweet',
             exampleCn: '北京的糖葫芦又甜又酸，冬天的时候最好吃。',
             exampleEn: 'Beijing\'s sugarcoated haws are both sweet and sour; they taste best in winter.',
-            examplePinyin: 'běi jīng de tánghúlu yòu tián yòu suān，dōngtiān de shí hòu zuì hǎo chī。',
+            examplePinyin: 'běijīng de tánghúlú yòu tián yòu suān， dōngtiān de shíhòu zuì hǎochī。',
           },
           {
             id: 'hj2a-l10-w7',
@@ -17157,7 +17157,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to feel; to touch',
             exampleCn: '医生摸了摸我的脉，说身体没什么大问题。',
             exampleEn: 'The doctor felt my pulse and said there\'s nothing seriously wrong with my health.',
-            examplePinyin: 'yī shēng mō le mō wǒ de mài，shuō shēn tǐ méi shén me dà wèn tí。',
+            examplePinyin: 'yīshēng mōlemō wǒ de mài， shuō shēntǐ méishénme dà wèntí。',
           },
           {
             id: 'hj2a-l10-w8',
@@ -17167,7 +17167,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pulse; arteries and veins',
             exampleCn: '中医看病的时候都要先摸脉，看看身体的情况。',
             exampleEn: 'In traditional Chinese medicine, the doctor always feels your pulse first to check your physical condition.',
-            examplePinyin: 'zhōngyī kàn bìng de shí hòu dōu yào xiān mō mài，kàn kàn shēn tǐ de qíng kuàng。',
+            examplePinyin: 'zhōngyī kànbìng de shíhòu dōu yào xiān mō mài， kànkàn shēntǐ de qíngkuàng。',
           },
           {
             id: 'hj2a-l10-w9',
@@ -17177,7 +17177,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'prescription',
             exampleCn: '医生开了一个药方，让我去药店抓药。',
             exampleEn: 'The doctor wrote a prescription for me to get medicine at the pharmacy.',
-            examplePinyin: 'yī shēng kāi le yī gè yàofāng，ràng wǒ qù yào diàn zhuā yào。',
+            examplePinyin: 'yīshēng kāi le yígè yàofāng， ràng wǒ qù yàodiàn zhuāyào。',
           },
           {
             id: 'hj2a-l10-w10',
@@ -17187,7 +17187,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to massage',
             exampleCn: '做完运动以后按摩一下肌肉，会舒服很多。',
             exampleEn: 'Massaging your muscles after exercising will make you feel much more comfortable.',
-            examplePinyin: 'zuò wán yùn dòng yǐ hòu ànmó yī xià jī ròu，huì shū fú hěn duō。',
+            examplePinyin: 'zuò wán yùndòng yǐhòu ànmó yīxià jīròu， huì shūfú hěnduō。',
           },
           {
             id: 'hj2a-l10-w11',
@@ -17197,7 +17197,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to visit an acupuncturist; acupuncture and moxibustion',
             exampleCn: '山本做过按摩，但是从来没有针灸过。',
             exampleEn: 'Yamamoto has had massages but has never tried acupuncture.',
-            examplePinyin: 'shān běn zuò guo ànmó，dàn shì cónglái méi yǒu zhēnjiǔ guo。',
+            examplePinyin: 'shānběn zuò guò ànmó， dànshì cónglái méiyǒu zhēnjiǔ guò。',
           },
           {
             id: 'hj2a-l10-w12',
@@ -17207,7 +17207,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'method',
             exampleCn: '针灸是一种很好的治病方法，很多外国人都喜欢。',
             exampleEn: 'Acupuncture is an excellent treatment method that many foreigners enjoy.',
-            examplePinyin: 'zhēnjiǔ shì yī zhǒng hěn hǎo de zhì bìng fāngfǎ，hěn duō wài guó rén dōu xǐ huān。',
+            examplePinyin: 'zhēnjiǔ shì yīzhǒng hěn hǎo de zhìbìng fāngfǎ， hěnduō wàiguórén dōu xǐhuān。',
           },
           {
             id: 'hj2a-l10-w13',
@@ -17217,7 +17217,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to treat; to cure',
             exampleCn: '中医用针灸和草药治好了很多人的病。',
             exampleEn: 'Traditional Chinese doctors have cured many people\'s illnesses with acupuncture and herbal medicine.',
-            examplePinyin: 'zhōngyī yòng zhēnjiǔ hé cǎo yào zhì hǎo le hěn duō rén de bìng。',
+            examplePinyin: 'zhōngyī yòng zhēnjiǔ hé cǎoyào zhì hǎo le hěnduō rén de bìng。',
           },
           {
             id: 'hj2a-l10-w14',
@@ -17227,7 +17227,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'needle; needle-like thing',
             exampleCn: '针灸用的针非常细，扎在皮肤上几乎不疼。',
             exampleEn: 'The needles used for acupuncture are very thin; they hardly hurt when inserted into the skin.',
-            examplePinyin: 'zhēnjiǔ yòng de zhēn fēi cháng xì，zhā zài pí fū shang jǐ hū bù téng。',
+            examplePinyin: 'zhēnjiǔ yòng de zhēn fēicháng xì， zhā zài pífū shàng jīhū bù téng。',
           },
           {
             id: 'hj2a-l10-w15',
@@ -17237,7 +17237,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give or have an acupuncture treatment',
             exampleCn: '你针灸过吗？我朋友说扎针对腰痛很有用。',
             exampleEn: 'Have you had acupuncture? My friend says it\'s very effective for back pain.',
-            examplePinyin: 'nǐ zhēnjiǔ guo ma？wǒ péng yǒu shuō zhāzhēn duì yāo tòng hěn yǒu yòng。',
+            examplePinyin: 'nǐ zhēnjiǔ guò ma？ wǒ péngyǒu shuō zhā zhēnduì yāotòng hěn yǒuyòng。',
           },
           {
             id: 'hj2a-l10-w16',
@@ -17247,7 +17247,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thin',
             exampleCn: '这根针非常细，比头发稍微粗一点儿。',
             exampleEn: 'This needle is extremely thin, just slightly thicker than a hair.',
-            examplePinyin: 'zhè gēn zhēn fēi cháng xì，bǐ tóufa shāo wēi cū yī diǎn ér。',
+            examplePinyin: 'zhègēn zhēn fēicháng xì， bǐ tóufà shāowēi cū yìdiǎnér。',
           },
           {
             id: 'hj2a-l10-w17',
@@ -17257,7 +17257,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'once; used to',
             exampleCn: '我曾经来过中国一次，那是三年前的事了。',
             exampleEn: 'I have been to China once before; that was three years ago.',
-            examplePinyin: 'wǒ céngjīng lái guo zhōng guó yī cì，nà shì sān nián qián de shì le。',
+            examplePinyin: 'wǒ céngjīng lái guò zhōngguó yīcì， nà shì sānnián qián de shì le。',
           },
           {
             id: 'hj2a-l10-w18',
@@ -17267,7 +17267,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a prefix indicating ordinal numbers',
             exampleCn: '这是我第一次听中国的钢琴协奏曲，感觉真好。',
             exampleEn: 'This is the first time I\'ve heard a Chinese piano concerto; it feels wonderful.',
-            examplePinyin: 'zhè shì wǒ dì yī cì tīng zhōng guó de gāngqín xiézòuqǔ，gǎnjué zhēn hǎo。',
+            examplePinyin: 'zhè shì wǒ dìyīcì tīng zhōngguó de gāngqín xiézòuqǔ， gǎnjué zhēn hǎo。',
           },
           {
             id: 'hj2a-l10-w19',
@@ -17277,7 +17277,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Chinese food',
             exampleCn: '来中国两个月以后，罗兰就习惯吃中餐了。',
             exampleEn: 'After two months in China, Luo Lan got used to eating Chinese food.',
-            examplePinyin: 'lái zhōng guó liǎng gè yuè yǐ hòu，luó lán jiù xíguàn chī zhōngcān le。',
+            examplePinyin: 'lái zhōngguó liǎnggè yuè yǐhòu， luólán jiù xíguàn chī zhōngcān le。',
           },
           {
             id: 'hj2a-l10-w20',
@@ -17287,7 +17287,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'roast duck',
             exampleCn: '山本说北京烤鸭是他吃过最好吃的中国菜。',
             exampleEn: 'Yamamoto says Peking roast duck is the most delicious Chinese dish he\'s ever eaten.',
-            examplePinyin: 'shān běn shuō běi jīng kǎoyā shì tā chī guo zuì hǎo chī de zhōng guó cài。',
+            examplePinyin: 'shānběn shuō běijīngkǎoyā shì tā chī guò zuì hǎochī de zhōngguó cài。',
           },
           {
             id: 'hj2a-l10-w21',
@@ -17297,7 +17297,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to roast; to bake',
             exampleCn: '冬天的时候在街上买一个烤白薯吃，特别暖和。',
             exampleEn: 'Buying a roasted sweet potato on the street in winter is especially warming.',
-            examplePinyin: 'dōngtiān de shí hòu zài jiē shang mǎi yī gè kǎo báishǔ chī，tè bié nuǎnhuo。',
+            examplePinyin: 'dōngtiān de shíhòu zài jiēshàng mǎi yígè kǎo báishǔ chī， tèbié nuǎnhuo。',
           },
           {
             id: 'hj2a-l10-w22',
@@ -17307,7 +17307,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweet potato',
             exampleCn: '北方的冬天很多人喜欢吃烤白薯，又甜又热乎。',
             exampleEn: 'Many people in northern China love eating roasted sweet potatoes in winter—they\'re sweet and warm.',
-            examplePinyin: 'běi fāng de dōngtiān hěn duō rén xǐ huān chī kǎo báishǔ，yòu tián yòu rè hū。',
+            examplePinyin: 'běifāng de dōngtiān hěnduō rén xǐhuān chī kǎo báishǔ， yòu tián yòu rèhū。',
           },
           {
             id: 'hj2a-l10-w23',
@@ -17317,7 +17317,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sugarcoated haws on a stick, a popular winter snack in Beijing and other northern Chinese cities',
             exampleCn: '小孩子最喜欢吃糖葫芦了，又甜又酸又好看。',
             exampleEn: 'Children love sugarcoated haws the most—they\'re sweet, sour, and pretty to look at.',
-            examplePinyin: 'xiǎo hái zǐ zuì xǐ huān chī tánghúlu le，yòu tián yòu suān yòu hǎo kàn。',
+            examplePinyin: 'xiǎoháizi zuì xǐhuān chī tánghúlú le， yòu tián yòu suān yòu hǎokàn。',
           },
           {
             id: 'hj2a-l10-w24',
@@ -17327,7 +17327,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sugar',
             exampleCn: '这个糖葫芦上的糖太多了，吃起来有点儿腻。',
             exampleEn: 'There\'s too much sugar on these hawthorns; they taste a bit cloying.',
-            examplePinyin: 'zhè gè tánghúlu shang de táng tài duō le，chī qǐ lái yǒu diǎn ér nì。',
+            examplePinyin: 'zhège tánghúlú shàng de táng tài duō le， chī qǐlái yǒudiǎnr nì。',
           },
           {
             id: 'hj2a-l10-w25',
@@ -17337,7 +17337,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'and so on',
             exampleCn: '中国菜山本都爱吃，烤鸭、饺子、面条什么的都喜欢。',
             exampleEn: 'Yamamoto likes all kinds of Chinese food—roast duck, dumplings, noodles, you name it.',
-            examplePinyin: 'zhōng guó cài shān běn dōu ài chī，kǎoyā、jiǎo zǐ、miàn tiáo shénmede dōu xǐ huān。',
+            examplePinyin: 'zhōngguó cài shānběn dōu ài chī， kǎoyā、 jiǎozi、 miàntiáo shénme de dōu xǐhuān。',
           },
           {
             id: 'hj2a-l10-w26',
@@ -17347,7 +17347,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(to hear) with one\'s own ears',
             exampleCn: '爱德华说他亲耳听过一位中国钢琴家演奏《黄河》。',
             exampleEn: 'Edward said he heard a Chinese pianist perform "Yellow River" with his own ears.',
-            examplePinyin: 'ài dé huá shuō tā qīn\'ěr tīng guo yī wèi zhōng guó gāngqín jiā yǎnzòu《huáng hé》。',
+            examplePinyin: 'àidéhuá shuō tā qīněr tīng guò yīwèi zhōngguó gāngqínjiā yǎnzòu 《 huánghé 》。',
           },
           {
             id: 'hj2a-l10-w27',
@@ -17357,7 +17357,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'piano',
             exampleCn: '田芳想学弹钢琴，可是钢琴太贵了，先买不起。',
             exampleEn: 'Tian Fang wants to learn to play the piano, but pianos are too expensive for now.',
-            examplePinyin: 'tián fāng xiǎng xué tán gāngqín，kěshì gāngqín tài guì le，xiān mǎi bù qǐ。',
+            examplePinyin: 'tián fāng xiǎng xué tángāngqín， kěshì gāngqín tàiguì le， xiān mǎibùqǐ。',
           },
           {
             id: 'hj2a-l10-w28',
@@ -17367,7 +17367,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'specialist in a certain field',
             exampleCn: '那位演奏《黄河》的是一位非常有名的钢琴家。',
             exampleEn: 'The one who performed "Yellow River" is a very famous pianist.',
-            examplePinyin: 'nà wèi yǎnzòu《huáng hé》de shì yī wèi fēi cháng yǒumíng de gāngqín jiā。',
+            examplePinyin: 'nàwèi yǎnzòu 《 huánghé 》 de shì yīwèi fēicháng yǒumíng de gāngqínjiā。',
           },
           {
             id: 'hj2a-l10-w29',
@@ -17377,7 +17377,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to play (a musical instrument)',
             exampleCn: '昨晚的音乐会上，那位钢琴家演奏了两首协奏曲。',
             exampleEn: 'At last night\'s concert, that pianist performed two concertos.',
-            examplePinyin: 'zuó wǎn de yīn lè huì shang，nà wèi gāngqín jiā yǎnzòu le liǎng shǒu xiézòuqǔ。',
+            examplePinyin: 'zuówǎn de yīnyuèhuì shàng， nàwèi gāngqínjiā yǎnzòu le liǎngshǒu xiézòuqǔ。',
           },
           {
             id: 'hj2a-l10-w30',
@@ -17387,7 +17387,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'extremely; to the greatest extent',
             exampleCn: '《黄河》这首协奏曲好听极了，我想再听一遍。',
             exampleEn: 'The concerto "Yellow River" is extremely beautiful; I want to hear it again.',
-            examplePinyin: '《huáng hé》zhè shǒu xiézòuqǔ hǎotīng jíle，wǒ xiǎng zài tīng yī biàn。',
+            examplePinyin: '《 huánghé 》 zhè shǒu xiézòuqǔ hǎotīng jíle， wǒ xiǎng zài tīng yībiàn。',
           },
           {
             id: 'hj2a-l10-w31',
@@ -17397,7 +17397,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pleasing to the ear; melodious',
             exampleCn: '你听过小提琴协奏曲《梁祝》吗？那首曲子特别好听。',
             exampleEn: 'Have you heard the violin concerto "Butterfly Lovers"? That piece is very melodious.',
-            examplePinyin: 'nǐ tīng guo xiǎotíqín xiézòuqǔ《liáng zhù》ma？nà shǒu qǔ zǐ tè bié hǎotīng。',
+            examplePinyin: 'nǐ tīng guò xiǎotíqín xiézòuqǔ 《 liángzhù 》 ma？ nà shǒu qǔzi tèbié hǎotīng。',
           },
           {
             id: 'hj2a-l10-w32',
@@ -17407,7 +17407,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to return; to give back',
             exampleCn: '田芳借给爱德华优盘，让他听完就还给她。',
             exampleEn: 'Tian Fang lent Edward her USB drive and told him to return it after listening.',
-            examplePinyin: 'tián fāng jiè gěi ài dé huá yōu pán，ràng tā tīng wán jiù huán gěi tā。',
+            examplePinyin: 'tián fāng jiègěi àidéhuá yōupán， ràng tā tīng wán jiù huángěi tā。',
           },
           {
             id: 'hj2a-l10-w33',
@@ -17417,7 +17417,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'indicating that the reason is obvious',
             exampleCn: '"好借好还，再借不难"嘛，所以你要按时还给别人。',
             exampleEn: '"Easy to borrow, easy to return, not hard to borrow again"—so you should return things on time.',
-            examplePinyin: '"hǎo jiè hǎo huán，zài jiè bù nán"ma，suǒyǐ nǐ yào àn shí huán gěi bié rén。',
+            examplePinyin: '" hǎo jiè hǎo hái， zàijièbùnán " ma， suǒyǐ nǐ yào ànshí huángěi biérén。',
           },
           {
             id: 'hj2a-l10-w34',
@@ -17427,7 +17427,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'violin',
             exampleCn: '除了钢琴以外，爱德华还会拉小提琴。',
             exampleEn: 'Besides the piano, Edward can also play the violin.',
-            examplePinyin: 'chú le gāngqín yǐ wài，ài dé huá huán huì lā xiǎotíqín。',
+            examplePinyin: 'chúle gāngqín yǐwài， àidéhuá hái huì lā xiǎotíqín。',
           },
           {
             id: 'hj2a-l10-w35',
@@ -17437,7 +17437,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'concerto',
             exampleCn: '你听过钢琴协奏曲《黄河》吗？那是中国最有名的协奏曲之一。',
             exampleEn: 'Have you heard the piano concerto "Yellow River"? It\'s one of China\'s most famous concertos.',
-            examplePinyin: 'nǐ tīng guo gāngqín xiézòuqǔ《huáng hé》ma？nà shì zhōng guó zuì yǒumíng de xiézòuqǔ zhī yī。',
+            examplePinyin: 'nǐ tīng guò gāngqín xiézòuqǔ 《 huánghé 》 ma？ nà shì zhōngguó zuì yǒumíng de xiézòuqǔ zhīyī。',
           },
           {
             id: 'hj2a-l10-w36',
@@ -17447,7 +17447,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'song; melody; tune',
             exampleCn: '这首曲子太好听了，我想学会怎么唱。',
             exampleEn: 'This song is so beautiful; I want to learn how to sing it.',
-            examplePinyin: 'zhè shǒu qǔ zǐ tài hǎotīng le，wǒ xiǎng xué huì zěn me chàng。',
+            examplePinyin: 'zhè shǒu qǔzi tài hǎotīng le， wǒ xiǎng xuéhuì zěnme chàng。',
           },
         ],
       },
@@ -17465,7 +17465,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the day before yesterday',
             exampleCn: '丹尼丝说她是前天从深圳坐高铁到北京的。',
             exampleEn: 'Denise said she arrived in Beijing from Shenzhen by high-speed rail the day before yesterday.',
-            examplePinyin: 'dān ní sī shuō tā shì qiántiān cóng shēn zhèn zuò gāotiě dào běi jīng de。',
+            examplePinyin: 'dānní sī shuō tā shì qiántiān cóng shēnzhèn zuò gāotiě dào běijīng de。',
           },
           {
             id: 'hj2a-l11-w2',
@@ -17475,7 +17475,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the day after tomorrow',
             exampleCn: '旅游团后天就回去了，丹尼丝要晚几天再走。',
             exampleEn: 'The tour group is going back the day after tomorrow, but Denise will leave a few days later.',
-            examplePinyin: 'lǚyóu tuán hòutiān jiù huí qù le，dān ní sī yào wǎn jǐ tiān zài zǒu。',
+            examplePinyin: 'lǚyóutuán hòutiān jiù huíqù le， dānní sī yào wǎn jǐtiān zài zǒu。',
           },
           {
             id: 'hj2a-l11-w3',
@@ -17485,7 +17485,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tourist guide',
             exampleCn: '丹尼丝是旅行团的导游兼翻译，她中文说得很好。',
             exampleEn: 'Denise is the tour group\'s guide and interpreter; she speaks Chinese very well.',
-            examplePinyin: 'dān ní sī shì lǚ xíng tuán de dǎoyóu jiān fān yì，tā zhōng wén shuō dé hěn hǎo。',
+            examplePinyin: 'dānní sī shì lǚxíngtuán de dǎoyóu jiān fānyì， tā zhōngwén shuō dé hěn hǎo。',
           },
           {
             id: 'hj2a-l11-w4',
@@ -17495,7 +17495,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'graduate student',
             exampleCn: '丹尼丝现在在读研究生，研究的课题是《孔子与中国》。',
             exampleEn: 'Denise is currently a graduate student researching Confucius and China.',
-            examplePinyin: 'dān ní sī xiàn zài zài dú yánjiūshēng，yánjiū de kè tí shì《kǒng zǐ yǔ zhōng guó》。',
+            examplePinyin: 'dānní sī xiànzài zàidú yánjiūshēng， yánjiū de kètí shì 《 kǒngzi yǔ zhōngguó 》。',
           },
           {
             id: 'hj2a-l11-w5',
@@ -17505,7 +17505,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do a part-time job',
             exampleCn: '寒假的时候，丹尼丝到一个旅行社去打工赚生活费。',
             exampleEn: 'During winter break, Denise went to work part-time at a travel agency to earn living expenses.',
-            examplePinyin: 'hán jiǎ de shí hòu，dān ní sī dào yī gè lǚxíngshè qù dǎgōng zhuàn shēnghuó fèi。',
+            examplePinyin: 'hánjià de shíhòu， dānní sī dào yígè lǚxíngshè qù dǎgōng zhuàn shēnghuófèi。',
           },
           {
             id: 'hj2a-l11-w6',
@@ -17515,7 +17515,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make use of; to use',
             exampleCn: '丹尼丝利用这次来中国旅游的机会，收集了很多研究资料。',
             exampleEn: 'Denise took advantage of this trip to China to collect a lot of research materials.',
-            examplePinyin: 'dān ní sī lìyòng zhè cì lái zhōng guó lǚyóu de jīhuì，shōují le hěn duō yánjiū zī liào。',
+            examplePinyin: 'dānní sī lìyòng zhècì lái zhōngguó lǚyóu de jīhuì， shōují le hěnduō yánjiū zīliào。',
           },
           {
             id: 'hj2a-l11-w7',
@@ -17525,7 +17525,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'holiday',
             exampleCn: '丹尼丝利用假期来中国旅游，顺便收集研究资料。',
             exampleEn: 'Denise used her vacation to travel to China and collect research materials at the same time.',
-            examplePinyin: 'dān ní sī lìyòng jiàqī lái zhōng guó lǚyóu，shùn biàn shōují yánjiū zī liào。',
+            examplePinyin: 'dānní sī lìyòng jiàqī lái zhōngguó lǚyóu， shùnbiàn shōují yánjiū zīliào。',
           },
           {
             id: 'hj2a-l11-w8',
@@ -17535,7 +17535,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'travel agency',
             exampleCn: '丹尼丝经常到一个旅行社去打工，老板很信任她。',
             exampleEn: 'Denise often works part-time at a travel agency where the boss trusts her very much.',
-            examplePinyin: 'dān ní sī jīngcháng dào yī gè lǚxíngshè qù dǎgōng，lǎobǎn hěn xìn rèn tā。',
+            examplePinyin: 'dānní sī jīngcháng dào yígè lǚxíngshè qù dǎgōng， lǎobǎn hěn xìnrèn tā。',
           },
           {
             id: 'hj2a-l11-w9',
@@ -17545,7 +17545,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to organize; organization',
             exampleCn: '这次旅行社组织了一个去中国的旅游团，让丹尼丝当导游。',
             exampleEn: 'The travel agency organized a tour group to China this time and asked Denise to be the guide.',
-            examplePinyin: 'zhè cì lǚxíngshè zǔzhī le yī gè qù zhōng guó de lǚyóu tuán，ràng dān ní sī dāng dǎoyóu。',
+            examplePinyin: 'zhècì lǚxíngshè zǔzhī le yígè qù zhōngguó de lǚyóutuán， ràng dānní sī dāng dǎoyóu。',
           },
           {
             id: 'hj2a-l11-w10',
@@ -17555,7 +17555,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'boss',
             exampleCn: '丹尼丝跟老板商量好了，想晚回去几天去看看老师。',
             exampleEn: 'Denise discussed it with her boss and wants to stay a few extra days to visit her teacher.',
-            examplePinyin: 'dān ní sī gēn lǎobǎn shāngliang hǎo le，xiǎng wǎn huí qù jǐ tiān qù kàn kàn lǎo shī。',
+            examplePinyin: 'dānní sī gēn lǎobǎn shāngliáng hǎo le， xiǎng wǎn huíqù jǐtiān qù kànkàn lǎoshī。',
           },
           {
             id: 'hj2a-l11-w11',
@@ -17565,7 +17565,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to need; need',
             exampleCn: '老板知道她需要经常来中国收集资料，所以支持她的计划。',
             exampleEn: 'The boss knows she needs to come to China often to collect data, so he supports her plan.',
-            examplePinyin: 'lǎobǎn zhī dào tā xūyào jīngcháng lái zhōng guó shōují zī liào，suǒyǐ zhī chí tā de jì huà。',
+            examplePinyin: 'lǎobǎn zhīdào tā xūyào jīngcháng lái zhōngguó shōují zīliào， suǒyǐ zhīchí tā de jìhuà。',
           },
           {
             id: 'hj2a-l11-w12',
@@ -17575,7 +17575,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'usually; often',
             exampleCn: '丹尼丝经常来中国，对中国文化越来越了解。',
             exampleEn: 'Denise comes to China very often and understands Chinese culture better and better.',
-            examplePinyin: 'dān ní sī jīngcháng lái zhōng guó，duì zhōng guó wén huà yuè lái yuè le jiě。',
+            examplePinyin: 'dānní sī jīngcháng lái zhōngguó， duì zhōngguó wénhuà yuèláiyuè liǎojiě。',
           },
           {
             id: 'hj2a-l11-w13',
@@ -17585,7 +17585,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to gather; to collect',
             exampleCn: '来中国以后，她收集了很多关于孔子的研究资料。',
             exampleEn: 'After coming to China, she collected a lot of research materials about Confucius.',
-            examplePinyin: 'lái zhōng guó yǐ hòu，tā shōují le hěn duō guān yú kǒng zǐ de yánjiū zī liào。',
+            examplePinyin: 'lái zhōngguó yǐhòu， tā shōují le hěnduō guānyú kǒngzi de yánjiū zīliào。',
           },
           {
             id: 'hj2a-l11-w14',
@@ -17595,7 +17595,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'as soon as (used in 一…就… structure)',
             exampleCn: '一有来中国的旅游团，老板就安排丹尼丝陪团。',
             exampleEn: 'As soon as there\'s a tour group coming to China, the boss arranges for Denise to accompany them.',
-            examplePinyin: 'yī yǒu lái zhōng guó de lǚyóu tuán，lǎobǎn jiù ānpái dān ní sī péi tuán。',
+            examplePinyin: 'yī yǒu lái zhōngguó de lǚyóutuán， lǎobǎn jiù ānpái dānní sī péi tuán。',
           },
           {
             id: 'hj2a-l11-w15',
@@ -17605,7 +17605,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to arrange',
             exampleCn: '旅行社安排他们先到香港玩儿三天，再去深圳和北京。',
             exampleEn: 'The travel agency arranged for them to first spend three days in Hong Kong, then go to Shenzhen and Beijing.',
-            examplePinyin: 'lǚxíngshè ānpái tā men xiān dào xiāng gǎng wán ér sān tiān，zài qù shēn zhèn hé běi jīng。',
+            examplePinyin: 'lǚxíngshè ānpái tāmen xiān dào xiānggǎng wánr sāntiān， zài qù shēnzhèn hé běijīng。',
           },
           {
             id: 'hj2a-l11-w16',
@@ -17615,7 +17615,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to help',
             exampleCn: '丹尼丝给了王老师很多帮助，王老师非常感谢她。',
             exampleEn: 'Denise gave Teacher Wang a lot of help, and he is very grateful to her.',
-            examplePinyin: 'dān ní sī gěi le wáng lǎo shī hěn duō bāngzhù，wáng lǎo shī fēi cháng gǎnxiè tā。',
+            examplePinyin: 'dānní sī gěi le wánglǎoshī hěnduō bāngzhù， wánglǎoshī fēichánggǎnxiè tā。',
           },
           {
             id: 'hj2a-l11-w17',
@@ -17625,7 +17625,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to help',
             exampleCn: '我们班的同学都能互相帮助、互相学习，进步很快。',
             exampleEn: 'Our classmates all help each other and learn from each other, making rapid progress.',
-            examplePinyin: 'wǒ men bān de tóng xué dōu néng hùxiāng bāngzhù、hùxiāng xué xí，jìn bù hěn kuài。',
+            examplePinyin: 'wǒmen bān de tóngxué dōu néng hùxiāngbāngzhù、 hùxiāngxuéxí， jìnbù hěnkuài。',
           },
           {
             id: 'hj2a-l11-w18',
@@ -17635,7 +17635,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'high-speed rail',
             exampleCn: '旅游团的人都没有坐过中国的高铁，很想试试看。',
             exampleEn: 'Nobody in the tour group had taken China\'s high-speed rail before and really wanted to try it.',
-            examplePinyin: 'lǚyóu tuán de rén dōu méi yǒu zuò guo zhōng guó de gāotiě，hěn xiǎng shì shì kàn。',
+            examplePinyin: 'lǚyóutuán de rén dōu méiyǒu zuò guò zhōngguó de gāotiě， hěn xiǎng shìshìkàn。',
           },
           {
             id: 'hj2a-l11-w19',
@@ -17645,7 +17645,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'railway',
             exampleCn: '坐高铁可以看看铁路两边的风光，风景特别漂亮。',
             exampleEn: 'Taking the high-speed train lets you see the scenery along the railway—it\'s especially beautiful.',
-            examplePinyin: 'zuò gāotiě kě yǐ kàn kàn tiělù liǎng biān de fēngguāng，fēngjǐng tè bié piàoliang。',
+            examplePinyin: 'zuò gāotiě kěyǐ kànkàn tiělù liǎngbiān de fēngguāng， fēngjǐng tèbié piàoliàng。',
           },
           {
             id: 'hj2a-l11-w20',
@@ -17655,7 +17655,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'scenery',
             exampleCn: '从北京到深圳的铁路两边有很多美丽的风光值得看。',
             exampleEn: 'There\'s lots of beautiful scenery along the railway from Beijing to Shenzhen that\'s worth seeing.',
-            examplePinyin: 'cóng běi jīng dào shēn zhèn de tiělù liǎng biān yǒu hěn duō měi lì de fēngguāng zhí dé kàn。',
+            examplePinyin: 'cóng běijīng dào shēnzhèn de tiělù liǎngbiān yǒu hěnduō měilì de fēngguāng zhíde kàn。',
           },
           {
             id: 'hj2a-l11-w21',
@@ -17665,7 +17665,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to consult; to discuss; to talk over with sb.',
             exampleCn: '丹尼丝跟老板商量好了，晚回去几天去看望老师。',
             exampleEn: 'Denise discussed it with her boss and arranged to leave a few days late to visit her teacher.',
-            examplePinyin: 'dān ní sī gēn lǎobǎn shāngliang hǎo le，wǎn huí qù jǐ tiān qù kàn wàng lǎo shī。',
+            examplePinyin: 'dānní sī gēn lǎobǎn shāngliáng hǎo le， wǎn huíqù jǐtiān qù kànwàng lǎoshī。',
           },
           {
             id: 'hj2a-l11-w22',
@@ -17675,7 +17675,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'birthplace; hometown',
             exampleCn: '丹尼丝要去孔子的故乡曲阜看一看，那里是她向往的地方。',
             exampleEn: 'Denise wants to visit Qufu, Confucius\' hometown—a place she\'s longed to see.',
-            examplePinyin: 'dān ní sī yào qù kǒng zǐ de gùxiāng qǔ fù kàn yī kàn，nà lǐ shì tā xiàng wǎng de de fāng。',
+            examplePinyin: 'dānní sī yào qù kǒngzi de gùxiāng qūfù kànyīkàn， nàlǐ shì tā xiàngwǎng de dìfāng。',
           },
           {
             id: 'hj2a-l11-w23',
@@ -17685,7 +17685,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'free',
             exampleCn: '今天下午是自由活动时间，你可以自己去逛一逛。',
             exampleEn: 'This afternoon is free time—you can go explore on your own.',
-            examplePinyin: 'jīn tiān xià wǔ shì zìyóu huódòng shí jiān，nǐ kě yǐ zì jǐ qù guàng yī guàng。',
+            examplePinyin: 'jīntiānxiàwǔ shì zìyóu huódòng shíjiān， nǐ kěyǐ zìjǐ qù guàngyīguàng。',
           },
           {
             id: 'hj2a-l11-w24',
@@ -17695,7 +17695,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'activity; to exercise',
             exampleCn: '爬香山、看红叶是北京人秋天最喜欢的户外活动之一。',
             exampleEn: 'Climbing Fragrant Hills and seeing red leaves is one of Beijingers\' favorite autumn activities.',
-            examplePinyin: 'pá xiāng shān、kàn hóngyè shì běi jīng rén qiūtiān zuì xǐ huān de hù wài huódòng zhī yī。',
+            examplePinyin: 'pá xiāngshān、 kàn hóngyè shì běijīng rén qiūtiān zuì xǐhuān de hùwàihuódòng zhīyī。',
           },
           {
             id: 'hj2a-l11-w25',
@@ -17705,7 +17705,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'so-so',
             exampleCn: '麦克问田芳他的汉语怎么样，田芳说马马虎虎吧。',
             exampleEn: 'Mike asked Tian Fang how his Chinese was, and she said it\'s just so-so.',
-            examplePinyin: 'mài kè wèn tián fāng tā de hàn yǔ zěn me yàng，tián fāng shuō mǎmǎhūhū ba。',
+            examplePinyin: 'màikè wèn tián fāng tā de hànyǔ zěnmeyàng， tián fāng shuō mǎmǎhǔhǔ ba。',
           },
           {
             id: 'hj2a-l11-w26',
@@ -17715,7 +17715,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'foreigner',
             exampleCn: '中国人一看就知道麦克是老外，因为他长得不一样。',
             exampleEn: 'Chinese people can tell at a glance that Mike is a foreigner because he looks different.',
-            examplePinyin: 'zhōng guó rén yī kàn jiù zhī dào mài kè shì lǎowài，yīn wèi tā cháng dé bù yíyàng。',
+            examplePinyin: 'zhōngguó rén yī kàn jiù zhīdào màikè shì lǎowài， yīnwèi tā zhǎng dé bù yīyàng。',
           },
           {
             id: 'hj2a-l11-w27',
@@ -17725,7 +17725,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used in place of "啊" when preceding char ends in a/e/i/o/ü',
             exampleCn: '你的汉语说得不错呀！继续努力吧！',
             exampleEn: 'Your Chinese isn\'t bad at all! Keep working hard!',
-            examplePinyin: 'nǐ de hàn yǔ shuō dé bù cuò ya！jì xù nǔ lì ba！',
+            examplePinyin: 'nǐ de hànyǔ shuō dé bùcuòya！ jìxù nǔlì ba！',
           },
           {
             id: 'hj2a-l11-w28',
@@ -17735,7 +17735,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nose',
             exampleCn: '麦克有高高的鼻子、黄黄的头发和蓝蓝的眼睛。',
             exampleEn: 'Mike has a tall nose, yellow hair, and blue eyes.',
-            examplePinyin: 'mài kè yǒu gāo gāo de bízi、huáng huáng de tóufa hé lán lán de yǎnjing。',
+            examplePinyin: 'màikè yǒu gāogāode bízi、 huánghuángde tóufà hé lánlánde yǎnjīng。',
           },
           {
             id: 'hj2a-l11-w29',
@@ -17745,7 +17745,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hair',
             exampleCn: '麦克的头发是黄色的，跟中国人的黑头发不一样。',
             exampleEn: 'Mike\'s hair is yellow, different from Chinese people\'s black hair.',
-            examplePinyin: 'mài kè de tóufa shì huáng sè de，gēn zhōng guó rén de hēi tóufa bù yíyàng。',
+            examplePinyin: 'màikè de tóufà shì huángsè de， gēn zhōngguó rén de hēitóufā bù yīyàng。',
           },
           {
             id: 'hj2a-l11-w30',
@@ -17755,7 +17755,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'eye',
             exampleCn: '中国人一看麦克蓝蓝的眼睛就知道他是外国人。',
             exampleEn: 'Chinese people can tell at a glance that Mike is a foreigner when they see his blue eyes.',
-            examplePinyin: 'zhōng guó rén yī kàn mài kè lán lán de yǎnjing jiù zhī dào tā shì wài guó rén。',
+            examplePinyin: 'zhōngguó rén yī kàn màikè lánlánde yǎnjīng jiù zhīdào tā shì wàiguórén。',
           },
           {
             id: 'hj2a-l11-w31',
@@ -17765,7 +17765,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tone (of a Chinese character)',
             exampleCn: '麦克知道自己的发音和声调都不太好，需要多练习。',
             exampleEn: 'Mike knows his pronunciation and tones aren\'t great and needs more practice.',
-            examplePinyin: 'mài kè zhī dào zì jǐ de fā yīn hé shēngdiào dōu bù tài hǎo，xūyào duō liàn xí。',
+            examplePinyin: 'màikè zhīdào zìjǐ de fāyīn hé shēngdiào dōu bùtàihǎo， xūyào duō liànxí。',
           },
           {
             id: 'hj2a-l11-w32',
@@ -17775,7 +17775,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mutually; each other',
             exampleCn: '田芳提议她和麦克互相帮助：她教他汉语，他帮她练英语。',
             exampleEn: 'Tian Fang suggested she and Mike help each other: she helps him with Chinese, he helps her with English.',
-            examplePinyin: 'tián fāng tí yì tā hé mài kè hùxiāng bāngzhù：tā jiào tā hàn yǔ，tā bāng tā liàn yīng yǔ。',
+            examplePinyin: 'tián fāng tíyì tā hé màikè hùxiāngbāngzhù： tā jiào tā hànyǔ， tā bāng tā liàn yīngyǔ。',
           },
           {
             id: 'hj2a-l11-w33',
@@ -17785,7 +17785,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hope; hope',
             exampleCn: '田芳希望麦克能认真学汉语，不要马马虎虎的。',
             exampleEn: 'Tian Fang hopes Mike will study Chinese seriously and not be half-hearted about it.',
-            examplePinyin: 'tián fāng xīwàng mài kè néng rèn zhēn xué hàn yǔ，bù yào mǎmǎhūhū de。',
+            examplePinyin: 'tián fāng xīwàng màikè néng rènzhēn xué hànyǔ， búyào mǎmǎhǔhǔ de。',
           },
         ],
       },
@@ -17803,7 +17803,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'passport',
             exampleCn: '关建平出门前发现护照不见了，急得到处翻口袋。',
             exampleEn: 'Before going out, Guan Jianping found his passport missing and hurried to search all pockets.',
-            examplePinyin: 'guān jiàn píng chū mén qián fā xiàn hùzhào bù jiàn le，jí dé dào chù fān kǒudai。',
+            examplePinyin: 'guān jiànpíng chū ménqián fāxiàn hùzhào bújiàn le， jí dédào chù fān kǒudài。',
           },
           {
             id: 'hj2a-l12-w2',
@@ -17813,7 +17813,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quite a while; half a day',
             exampleCn: '夏雨帮关建平找了半天，才在大衣内袋翻出护照。',
             exampleEn: 'Xia Yu searched for Guan Jianping for ages before finding his passport inside his overcoat pocket.',
-            examplePinyin: 'xià yǔ bāng guān jiàn píng zhǎo le bàntiān，cái zài dàyī nèi dài fān chū hùzhào。',
+            examplePinyin: 'xiàyǔbāng guān jiànpíng zhǎo le bàntiān， cái zài dàyī nèi dài fān chū hùzhào。',
           },
           {
             id: 'hj2a-l12-w3',
@@ -17823,7 +17823,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate having reached a goal or got the result',
             exampleCn: '我找了一上午，终于找着那张出国签证。',
             exampleEn: 'I searched all morning and finally found the overseas visa.',
-            examplePinyin: 'wǒ zhǎo le yī shang wǔ，zhōng yú zhǎo zháo nà zhāng chūguó qiānzhèng。',
+            examplePinyin: 'wǒ zhǎo le yīshàngwǔ， zhōngyú zhǎo zhe nà zhāng chūguó qiānzhèng。',
           },
           {
             id: 'hj2a-l12-w4',
@@ -17833,7 +17833,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put',
             exampleCn: '昨天回来你把护照放哪儿了，怎么现在找不到？',
             exampleEn: 'Where did you put your passport after coming back yesterday? Why can’t we find it now?',
-            examplePinyin: 'zuó tiān huí lái nǐ bǎ hùzhào fàng nǎ ér le，zěn me xiàn zài zhǎo bù dào？',
+            examplePinyin: 'zuótiān huílái nǐ bǎ hùzhào fàng nǎr le， zěnme xiànzài zhǎo búdào？',
           },
           {
             id: 'hj2a-l12-w5',
@@ -17843,7 +17843,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'visa',
             exampleCn: '去欧洲旅行，必须提前办好签证才能出境。',
             exampleEn: 'If you travel to Europe, you have to get your visa in advance to leave the country.',
-            examplePinyin: 'qù ōu zhōu lǚ xíng，bìxū tí qián bàn hǎo qiānzhèng cái néng chū jìng。',
+            examplePinyin: 'qù ōuzhōu lǚxíng， bìxū tíqián bànhǎo qiānzhèng cáinéng chūjìng。',
           },
           {
             id: 'hj2a-l12-w6',
@@ -17853,7 +17853,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bag; handbag',
             exampleCn: '她的手提包里装着护照、手机和家门钥匙三样重要物品。',
             exampleEn: 'Her handbag holds three important things: passport, mobile phone and house keys.',
-            examplePinyin: 'tā de shǒu tí bāo lǐ zhuāng zháo hùzhào、shǒu jī hé jiā mén yào chí sān yàng zhòng yào wù pǐn。',
+            examplePinyin: 'tā de shǒutíbāo lǐ zhuāng zhe hùzhào、 shǒujī hé jiāmén yàoshi sānyàng zhòngyào wùpǐn。',
           },
           {
             id: 'hj2a-l12-w7',
@@ -17863,7 +17863,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bag',
             exampleCn: '这个小包太小，塞不进去一本厚护照。',
             exampleEn: 'This small bag is too tiny to fit a thick passport inside.',
-            examplePinyin: 'zhè gè xiǎo bāo tài xiǎo，sāi bù jìnqu yī běn hòu hùzhào。',
+            examplePinyin: 'zhège xiǎobāo tàixiǎo， sāi bù jìnqù yīběn hòu hùzhào。',
           },
           {
             id: 'hj2a-l12-w8',
@@ -17873,7 +17873,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hand in; to give',
             exampleCn: '下周出国前，要把护照交给旅行社统一办理手续。',
             exampleEn: 'Before going abroad next week, hand your passport to the travel agency for formalities.',
-            examplePinyin: 'xià zhōu chūguó qián，yào bǎ hùzhào jiāo gěi lǚxíngshè tǒng yī bàn lǐ shǒu xù。',
+            examplePinyin: 'xiàzhōu chūguóqián， yào bǎ hùzhào jiāogěi lǚxíngshè tǒngyī bànlǐshǒuxù。',
           },
           {
             id: 'hj2a-l12-w9',
@@ -17883,7 +17883,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'carefully; good',
             exampleCn: '你好好儿翻一遍大衣口袋，护照很可能还在里面。',
             exampleEn: 'Check your overcoat pockets thoroughly; the passport is probably still there.',
-            examplePinyin: 'nǐ hǎohāor fān yī biàn dàyī kǒudai，hùzhào hěn kě néng huán zài lǐ miàn。',
+            examplePinyin: 'nǐ hǎohǎoér fān yībiàn dàyī kǒudài， hùzhào hěn kěnéng hái zài lǐmiàn。',
           },
           {
             id: 'hj2a-l12-w10',
@@ -17893,7 +17893,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'overcoat',
             exampleCn: '冬天出门我总穿这件黑色大衣，口袋很深能放证件。',
             exampleEn: 'I always wear this black overcoat in winter; its deep pockets can hold documents.',
-            examplePinyin: 'dōngtiān chū mén wǒ zǒng chuān zhè jiàn hēi sè dàyī，kǒudai hěn shēn néng fàng zhèng jiàn。',
+            examplePinyin: 'dōngtiān chūmén wǒ zǒng chuān zhèjiàn hēisè dàyī， kǒudài hěn shēn néng fàng zhèngjiàn。',
           },
           {
             id: 'hj2a-l12-w11',
@@ -17903,7 +17903,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pocket',
             exampleCn: '大衣内侧的口袋最适合放护照，不容易弄丢。',
             exampleEn: 'The inner pocket of an overcoat is perfect for storing passports to avoid losing them.',
-            examplePinyin: 'dàyī nèi cè de kǒudai zuì shì hé fàng hùzhào，bù róng yì nòng diū。',
+            examplePinyin: 'dàyī nèicè de kǒudài zuì shìhé fàng hùzhào， bù róngyì nòng diū。',
           },
           {
             id: 'hj2a-l12-w12',
@@ -17913,7 +17913,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'forgetful',
             exampleCn: '关建平平时丢三落四，经常弄丢证件和钥匙。',
             exampleEn: 'Guan Jianping is very forgetful and often loses documents and keys.',
-            examplePinyin: 'guān jiàn píng píng shí diūsānlàsì，jīngcháng nòng diū zhèng jiàn hé yào chí。',
+            examplePinyin: 'guān jiànpíng píngshí diūsānlàsì， jīngcháng nòng diū zhèngjiàn hé yàoshi。',
           },
           {
             id: 'hj2a-l12-w13',
@@ -17923,7 +17923,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lose',
             exampleCn: '上次出门，他不小心把钱包丢在公交车上。',
             exampleEn: 'Last time he went out, he accidentally lost his wallet on the bus.',
-            examplePinyin: 'shang cì chū mén，tā bù xiǎo xīn bǎ qián bāo diū zài gōng jiāo chē shang。',
+            examplePinyin: 'shàngcì chūmén， tā bù xiǎoxīn bǎ qiánbāo diū zài gōngjiāo chēshàng。',
           },
           {
             id: 'hj2a-l12-w14',
@@ -17933,7 +17933,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be missing; to forget to bring',
             exampleCn: '早上走得太急，把签证落在家里书桌了。',
             exampleEn: 'We left the visa on the desk at home because we rushed out this morning.',
-            examplePinyin: 'zǎo shang zǒu dé tài jí，bǎ qiānzhèng là zài jiā lǐ shū zhuō le。',
+            examplePinyin: 'zǎoshàng zǒu dé tài jí， bǎ qiānzhèng luò zài jiālǐ shūzhuō le。',
           },
           {
             id: 'hj2a-l12-w15',
@@ -17943,7 +17943,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used for emphasis',
             exampleCn: '这家小店可是球迷们常聚的地方，天天聊球赛。',
             exampleEn: 'This small shop is really a frequent gathering spot for football fans who talk about matches every day.',
-            examplePinyin: 'zhè jiā xiǎo diàn kěshì qiúmí men cháng jù de de fāng，tiān tiān liáo qiú sài。',
+            examplePinyin: 'zhèjiā xiǎodiàn kěshì qiúmí men chángjù de dìfāng， tiāntiān liáo qiúsài。',
           },
           {
             id: 'hj2a-l12-w16',
@@ -17953,7 +17953,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(ball game) fan',
             exampleCn: '他是资深球迷，每场联赛都不会落下。',
             exampleEn: 'He is a die-hard football fan and never misses a single league match.',
-            examplePinyin: 'tā shì zī shēn qiúmí，měi chǎng lián sài dōu bù huì là xià。',
+            examplePinyin: 'tā shì zīshēn qiúmí， měichǎng liánsài dōu búhuì làxià。',
           },
           {
             id: 'hj2a-l12-w17',
@@ -17963,7 +17963,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'extent; degree',
             exampleCn: '他爱球到了疯狂的程度，熬夜看所有直播。',
             exampleEn: 'His love for football reaches a crazy level; he stays up late for all live matches.',
-            examplePinyin: 'tā ài qiú dào le fēng kuáng de chéngdù，áo yè kàn suǒ yǒu zhí bō。',
+            examplePinyin: 'tā ài qiú dào le fēngkuáng de chéngdù， áoyè kàn suǒyǒu zhíbō。',
           },
           {
             id: 'hj2a-l12-w18',
@@ -17973,7 +17973,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'for; in order to; for the sake of',
             exampleCn: '为了去现场看决赛，他主动跟老板请假一周。',
             exampleEn: 'He asked his boss for a week’s leave just to watch the final live.',
-            examplePinyin: 'wèile qù xiànchǎng kàn jué sài，tā zhǔ dòng gēn lǎobǎn qǐng jiǎ yī zhōu。',
+            examplePinyin: 'wèile qù xiànchǎng kàn juésài， tā zhǔdòng gēn lǎobǎn qǐngjià yīzhōu。',
           },
           {
             id: 'hj2a-l12-w19',
@@ -17983,7 +17983,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'normal; usual; regular',
             exampleCn: '旁人觉得球迷通宵看球不太正常，他却乐在其中。',
             exampleEn: 'Other people think it’s abnormal for fans to watch games all night, but he really enjoys it.',
-            examplePinyin: 'páng rén jué dé qiúmí tōng xiāo kàn qiú bù tài zhèngcháng，tā què lè zài qí zhōng。',
+            examplePinyin: 'pángrén juéde qiúmí tōngxiāo kàn qiú bù tài zhèngcháng， tā què lèzàiqízhōng。',
           },
           {
             id: 'hj2a-l12-w20',
@@ -17993,7 +17993,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to admit',
             exampleCn: '他自己也承认，看球时会变得格外亢奋。',
             exampleEn: 'He himself admits he becomes extremely excited while watching football.',
-            examplePinyin: 'tā zì jǐ yě chéngrèn，kàn qiú shí huì biàn dé gé wài kàng fèn。',
+            examplePinyin: 'tā zìjǐ yě chéngrèn， kàn qiú shíhuì biàndé géwài kàngfèn。',
           },
           {
             id: 'hj2a-l12-w21',
@@ -18003,7 +18003,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go mad; to be crazy',
             exampleCn: '大赛期间他像发狂一样，全天只想着球赛。',
             exampleEn: 'He acts as if he’s gone crazy during tournaments, thinking about matches all day.',
-            examplePinyin: 'dà sài qījiān tā xiàng fākuáng yíyàng，quán tiān zhī xiǎng zháo qiú sài。',
+            examplePinyin: 'dàsài qījiān tā xiàng fākuáng yīyàng， quántiān zhǐ xiǎngzhe qiúsài。',
           },
           {
             id: 'hj2a-l12-w22',
@@ -18013,7 +18013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tournament',
             exampleCn: '欧洲杯是全球关注度最高的足球锦标赛之一。',
             exampleEn: 'The European Championship is one of the world’s most watched football tournaments.',
-            examplePinyin: 'ōu zhōu bēi shì quán qiú guān zhù dù zuì gāo de zú qiú jǐnbiāosài zhī yī。',
+            examplePinyin: 'ōuzhōubēi shì quánqiú guānzhùdù zuìgāo de zúqiú jǐnbiāosài zhīyī。',
           },
           {
             id: 'hj2a-l12-w23',
@@ -18023,7 +18023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'period',
             exampleCn: '赛事期间这家小店暂时停止日常营业。',
             exampleEn: 'The small shop suspended regular business during the tournament period.',
-            examplePinyin: 'sài shì qījiān zhè jiā xiǎo diàn zàn shí tíng zhǐ rì cháng yíngyè。',
+            examplePinyin: 'sàishì qījiān zhèjiā xiǎodiàn zànshí tíngzhǐ rìcháng yíngyè。',
           },
           {
             id: 'hj2a-l12-w24',
@@ -18033,7 +18033,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to look as if; to seem',
             exampleCn: '一到比赛夜，他像完全变了一个人。',
             exampleEn: 'On match nights, he seems like a completely different person.',
-            examplePinyin: 'yī dào bǐsài yè，tā xiàng wán quán biàn le yī gè rén。',
+            examplePinyin: 'yī dào bǐsài yè， tā xiàng wánquán biàn le yígè rén。',
           },
           {
             id: 'hj2a-l12-w25',
@@ -18043,7 +18043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fall ill',
             exampleCn: '旁人笑他看球看得像生了一场大病。',
             exampleEn: 'People joke he looks as if he’s fallen ill from watching football.',
-            examplePinyin: 'páng rén xiào tā kàn qiú kàn dé xiàng shēng le yī chǎng dà bìng。',
+            examplePinyin: 'pángrén xiào tā kàn qiú kàn dé xiàng shēng le yīcháng dàbìng。',
           },
           {
             id: 'hj2a-l12-w26',
@@ -18053,7 +18053,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'day; daytime',
             exampleCn: '白天他安安静静，一到夜里就精神十足。',
             exampleEn: 'He stays quiet in the daytime but full of energy at night.',
-            examplePinyin: 'báitiān tā ān ān jìng jìng，yī dào yè lǐ jiù jīngshen shí zú。',
+            examplePinyin: 'báitiān tā ānānjìngjìng， yī dào yèlǐ jiù jīngshén shízú。',
           },
           {
             id: 'hj2a-l12-w27',
@@ -18063,7 +18063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'spirit; vigorous',
             exampleCn: '夜里直播开赛，他立刻变得十分精神。',
             exampleEn: 'As the live match starts at night, he instantly becomes full of energy.',
-            examplePinyin: 'yè lǐ zhí bō kāi sài，tā lì kè biàn dé shí fēn jīngshen。',
+            examplePinyin: 'yèlǐ zhíbō kāisài， tā lìkè biàndé shífēn jīngshén。',
           },
           {
             id: 'hj2a-l12-w28',
@@ -18073,7 +18073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to paste; to attach; to glue',
             exampleCn: '店主在店门上贴了一张停业通知。',
             exampleEn: 'The shop owner pasted a closure notice on the door.',
-            examplePinyin: 'diàn zhǔ zài diàn mén shang tiē le yī zhāng tíng yè tōngzhī。',
+            examplePinyin: 'diànzhǔ zài diànmén shàng tiē le yīzhāng tíngyè tōngzhī。',
           },
           {
             id: 'hj2a-l12-w29',
@@ -18083,7 +18083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'notice; to give notice',
             exampleCn: '门上的通知写着比赛期间暂停营业。',
             exampleEn: 'The notice on the door states business will stop during the matches.',
-            examplePinyin: 'mén shang de tōngzhī xiě zháo bǐsài qījiān zàntíng yíngyè。',
+            examplePinyin: 'ménshàng de tōngzhī xiě zhe bǐsài qījiān zàntíngyíngyè。',
           },
           {
             id: 'hj2a-l12-w30',
@@ -18093,7 +18093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to suspend; to stop for the time being',
             exampleCn: '老板决定暂停营业，前往赛场观赛。',
             exampleEn: 'The owner decided to suspend business and head to the stadium.',
-            examplePinyin: 'lǎobǎn jué dìng zàntíng yíngyè，qián wǎng sài chǎng guān sài。',
+            examplePinyin: 'lǎobǎn juédìng zàntíngyíngyè， qiánwǎng sàichǎng guānsài。',
           },
           {
             id: 'hj2a-l12-w31',
@@ -18103,7 +18103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do business',
             exampleCn: '平时小店从早到晚正常营业，赛事才休息。',
             exampleEn: 'The shop operates normally from dawn to dusk on ordinary days, only resting during tournaments.',
-            examplePinyin: 'píng shí xiǎo diàn cóng zǎo dào wǎn zhèngcháng yíngyè，sài shì cái xiū xī。',
+            examplePinyin: 'píngshí xiǎodiàn cóngzǎodàowǎn zhèngcháng yíngyè， sàishì cái xiūxī。',
           },
           {
             id: 'hj2a-l12-w32',
@@ -18113,7 +18113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to consider; to regard as; to count as',
             exampleCn: '和那位辞职看球的朋友比，他还算理智。',
             exampleEn: 'Compared with his friend who quit work for matches, he counts as rational.',
-            examplePinyin: 'hé nà wèi cízhí kàn qiú de péng yǒu bǐ，tā huán suàn lǐ zhì。',
+            examplePinyin: 'hé nàwèi cízhí kàn qiú de péngyǒu bǐ， tā hái suàn lǐzhì。',
           },
           {
             id: 'hj2a-l12-w33',
@@ -18123,7 +18123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'site; scene',
             exampleCn: '能到比赛现场看球是所有球迷的心愿。',
             exampleEn: 'Watching matches live at the stadium is every football fan’s wish.',
-            examplePinyin: 'néng dào bǐsài xiànchǎng kàn qiú shì suǒ yǒu qiúmí de xīn yuàn。',
+            examplePinyin: 'néng dào bǐsài xiànchǎng kàn qiú shì suǒyǒu qiúmí de xīnyuàn。',
           },
           {
             id: 'hj2a-l12-w34',
@@ -18133,7 +18133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(to see) with one\'s own eyes',
             exampleCn: '他一直想亲眼见证决赛的精彩时刻。',
             exampleEn: 'He has always wanted to witness the exciting final with his own eyes.',
-            examplePinyin: 'tā yī zhí xiǎng qīnyǎn jiàn zhèng jué sài de jīng cǎi shí kè。',
+            examplePinyin: 'tā yìzhí xiǎng qīnyǎn jiànzhèng juésài de jīngcǎi shíkè。',
           },
           {
             id: 'hj2a-l12-w35',
@@ -18143,7 +18143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to allow; to permit',
             exampleCn: '老板不准他长假看球，他只好选择辞职。',
             exampleEn: 'His boss wouldn’t approve his long leave for matches, so he had to resign.',
-            examplePinyin: 'lǎobǎn bù zhǔn tā cháng jiǎ kàn qiú，tā zhī hǎo xuǎn zé cízhí。',
+            examplePinyin: 'lǎobǎn bùzhǔn tā chángjià kàn qiú， tā zhǐhǎo xuǎnzé cízhí。',
           },
           {
             id: 'hj2a-l12-w36',
@@ -18153,7 +18153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to resign; to quit a job',
             exampleCn: '为了现场观赛，他干脆辞职奔赴赛场。',
             exampleEn: 'He simply resigned his job to travel to the stadium for the live game.',
-            examplePinyin: 'wèile xiànchǎng guān sài，tā gàn cuì cízhí bēn fù sài chǎng。',
+            examplePinyin: 'wèile xiànchǎng guānsài， tā gāncuì cízhí bēnfù sàichǎng。',
           },
           {
             id: 'hj2a-l12-w37',
@@ -18163,7 +18163,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'final; last',
             exampleCn: '最后他如愿抵达球场，看完了整场决赛。',
             exampleEn: 'In the end, he successfully reached the stadium and watched the full final match.',
-            examplePinyin: 'zuìhòu tā rú yuàn dǐ dá qiú chǎng，kàn wán le zhěng chǎng jué sài。',
+            examplePinyin: 'zuìhòu tā rúyuàn dǐdá qiúchǎng， kàn wán le zhěngchǎng juésài。',
           },
           {
             id: 'hj2a-l12-w38',
@@ -18173,7 +18173,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to succeed',
             exampleCn: '请假没批准，他还是去成了比赛现场。',
             exampleEn: 'His leave request was rejected, yet he still managed to get to the match.',
-            examplePinyin: 'qǐng jiǎ méi pī zhǔn，tā háishì qù chéng le bǐsài xiànchǎng。',
+            examplePinyin: 'qǐngjià méi pīzhǔn， tā háishì qù chéng le bǐsài xiànchǎng。',
           },
           {
             id: 'hj2a-l12-w39',
@@ -18183,7 +18183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to think highly of; to admire',
             exampleCn: '所有人都十分佩服他热爱足球的勇气。',
             exampleEn: 'Everyone greatly admires his passion and courage for football.',
-            examplePinyin: 'suǒ yǒu rén dōu shí fēn pèifú tā rè ài zú qiú de yǒng qì。',
+            examplePinyin: 'suǒyǒurén dōu shífēn pèifú tā rèài zúqiú de yǒngqì。',
           },
           {
             id: 'hj2a-l12-w40',
@@ -18193,7 +18193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'good; amazing',
             exampleCn: '能放下工作奔赴赛场，实在太棒了！',
             exampleEn: 'It’s absolutely awesome to give up work for the match!',
-            examplePinyin: 'néng fàng xià gōng zuò bēn fù sài chǎng，shí zài tài bàng le！',
+            examplePinyin: 'néng fàngxià gōngzuò bēnfù sàichǎng， shízài tàibàngle！',
           },
         ],
       },
@@ -18219,7 +18219,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take (a photo)',
             exampleCn: '玛丽说："这张照得最好，像油画一样，咱们把它放大几张吧。"',
             exampleEn: 'Mary said, "This one is taken best, just like an oil painting. Let\'s enlarge it a few copies."',
-            examplePinyin: 'mǎ lì shuō："zhè zhāng zhào dé zuì hǎo，xiàng yóu huà yī yàng，zán men bǎ tā fàng dà jǐ zhāng ba。"',
+            examplePinyin: 'mǎlì shuō： " zhè zhāng zhào dé zuìhǎo， xiàng yóuhuà yīyàng， zánmen bǎ tā fàngdà jǐzhāng ba。 "',
           },
           {
             id: 'hj2b-l13-w2',
@@ -18229,7 +18229,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to choose; to select; to pick out',
             exampleCn: '今天咱们一起选照片吧。',
             exampleEn: 'Today let\'s select the photos together.',
-            examplePinyin: 'jīn tiān zán men yī qǐ xuǎn zhào piàn ba。',
+            examplePinyin: 'jīntiān zánmen yìqǐ xuǎn zhàopiān ba。',
           },
           {
             id: 'hj2b-l13-w3',
@@ -18239,7 +18239,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to develop (film)',
             exampleCn: '选好了照片，下午就去洗。',
             exampleEn: 'After choosing the photos, I\'ll go develop them this afternoon.',
-            examplePinyin: 'xuǎn hǎo le zhào piàn，xià wǔ jiù qù xǐ。',
+            examplePinyin: 'xuǎn hǎo le zhàopiān， xiàwǔ jiù qù xǐ。',
           },
           {
             id: 'hj2b-l13-w4',
@@ -18249,7 +18249,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to close',
             exampleCn: '小白的眼睛闭上了，像睡着了一样。',
             exampleEn: 'Xiao Bai closed his eyes, as if he had fallen asleep.',
-            examplePinyin: 'xiǎo bái de yǎn jīng bì shàng le，xiàng shuì zhe le yī yàng。',
+            examplePinyin: 'xiǎo bái de yǎnjīng bì shàng le， xiàng shuìzháo le yīyàng。',
           },
           {
             id: 'hj2b-l13-w5',
@@ -18259,7 +18259,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'unclear; blurred',
             exampleCn: '这张照片照虚了，一点儿也不清楚。',
             exampleEn: 'This photo came out blurred, not clear at all.',
-            examplePinyin: 'zhè zhāng zhào piàn zhào xū le，yī diǎn ér yě bù qīng chǔ。',
+            examplePinyin: 'zhè zhāng zhàopiān zhàoxū le， yìdiǎnér yě bù qīngchǔ。',
           },
           {
             id: 'hj2b-l13-w6',
@@ -18269,7 +18269,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to delete',
             exampleCn: '照得不好的都删了吧。',
             exampleEn: 'Let\'s delete all the badly-taken ones.',
-            examplePinyin: 'zhào dé bù hǎo de dōu shān le ba。',
+            examplePinyin: 'zhào dé bùhǎo de dōu shānle ba。',
           },
           {
             id: 'hj2b-l13-w7',
@@ -18279,7 +18279,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'oil painting',
             exampleCn: '这两张像油画一样漂亮。',
             exampleEn: 'These two are as beautiful as oil paintings.',
-            examplePinyin: 'zhè liǎng zhāng xiàng yóu huà yī yàng piāo liàng。',
+            examplePinyin: 'zhè liǎngzhāng xiàng yóuhuà yīyàng piàoliàng。',
           },
           {
             id: 'hj2b-l13-w8',
@@ -18289,7 +18289,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to magnify; to enlarge; to blow up',
             exampleCn: '玛丽想把这张油画放成十寸的。',
             exampleEn: 'Mary wants to enlarge this oil painting to ten inches.',
-            examplePinyin: 'mǎ lì xiǎng bǎ zhè zhāng yóu huà fàng chéng shí cùn de。',
+            examplePinyin: 'mǎlì xiǎng bǎ zhè zhāng yóuhuà fàng chéng shí cùn de。',
           },
           {
             id: 'hj2b-l13-w9',
@@ -18309,7 +18309,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nearly; almost',
             exampleCn: '小白今天差一点儿迟到。',
             exampleEn: 'Xiao Bai almost was late today.',
-            examplePinyin: 'xiǎo bái jīn tiān chà yī diǎn ér chí dào。',
+            examplePinyin: 'xiǎo bái jīntiān chàyìdiǎner chídào。',
           },
           {
             id: 'hj2b-l13-w11',
@@ -18319,7 +18319,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come across; to run into',
             exampleCn: '在路上，我碰上一辆自行车。',
             exampleEn: 'On the road, I ran into a bicycle.',
-            examplePinyin: 'zài lù shàng，wǒ pèng shàng yī liàng zì xíng chē。',
+            examplePinyin: 'zài lùshàng， wǒ pèngshàng yīliàng zìxíngchē。',
           },
           {
             id: 'hj2b-l13-w12',
@@ -18329,7 +18329,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for accidents, etc.',
             exampleCn: '今天路上发生了一起交通事故。',
             exampleEn: 'A traffic accident happened on the road today.',
-            examplePinyin: 'jīn tiān lù shàng fā shēng le yī qǐ jiāo tōng shì gù。',
+            examplePinyin: 'jīntiān lùshàng fāshēng le yìqǐ jiāotōngshìgù。',
           },
           {
             id: 'hj2b-l13-w13',
@@ -18339,7 +18339,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'accident',
             exampleCn: '一起事故让他的车整整堵了二十分钟。',
             exampleEn: 'An accident made his car stuck for a whole twenty minutes.',
-            examplePinyin: 'yī qǐ shì gù ràng tā de chē zhěng zhěng dǔ le èr shí fēn zhōng。',
+            examplePinyin: 'yìqǐ shìgù ràng tā de chē zhěngzhěng dǔ le èrshífēnzhōng。',
           },
           {
             id: 'hj2b-l13-w14',
@@ -18349,7 +18349,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'full; whole',
             exampleCn: '我在路上整整堵了二十分钟。',
             exampleEn: 'I was stuck on the road for a whole twenty minutes.',
-            examplePinyin: 'wǒ zài lù shàng zhěng zhěng dǔ le èr shí fēn zhōng。',
+            examplePinyin: 'wǒ zài lùshàng zhěngzhěng dǔ le èrshífēnzhōng。',
           },
           {
             id: 'hj2b-l13-w15',
@@ -18359,7 +18359,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'glasses',
             exampleCn: '他的眼镜儿摔坏了。',
             exampleEn: 'His glasses got broken.',
-            examplePinyin: 'tā de yǎn jìng ér shuāi huài le。',
+            examplePinyin: 'tā de yǎnjìng ér shuāihuài le。',
           },
           {
             id: 'hj2b-l13-w16',
@@ -18369,7 +18369,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'don\'t mention it',
             exampleCn: '别提了，今天倒霉得很。',
             exampleEn: 'Don\'t mention it. Today was really unlucky.',
-            examplePinyin: 'bié tí le，jīn tiān dào méi dé hěn。',
+            examplePinyin: 'biétí le， jīntiān dǎoméi dé hěn。',
           },
           {
             id: 'hj2b-l13-w17',
@@ -18379,7 +18379,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'unlucky',
             exampleCn: '他今天很倒霉，刚出门就摔了一跤。',
             exampleEn: 'He was very unlucky today; he fell right after going out.',
-            examplePinyin: 'tā jīn tiān hěn dào méi，gāng chū mén jiù shuāi le yī jiāo。',
+            examplePinyin: 'tā jīntiān hěn dǎoméi， gāng chūmén jiù shuāileyījiāo。',
           },
           {
             id: 'hj2b-l13-w18',
@@ -18389,7 +18389,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have a fall; to lose one\'s balance',
             exampleCn: '小黄骑得太快，差点儿摔跤。',
             exampleEn: 'Xiao Huang rode too fast and almost had a fall.',
-            examplePinyin: 'xiǎo huáng qí dé tài kuài，chà diǎn ér shuāi jiāo。',
+            examplePinyin: 'xiǎo huáng qí dé tài kuài， chàdiǎnr shuāijiāo。',
           },
           {
             id: 'hj2b-l13-w19',
@@ -18399,7 +18399,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fall; to tumble',
             exampleCn: '他在路上一摔，赶紧爬起来看了看眼镜儿。',
             exampleEn: 'He tumbled on the road and quickly got up to check his glasses.',
-            examplePinyin: 'tā zài lù shàng yī shuāi，gǎn jǐn pá qǐ lái kàn le kàn yǎn jìng ér。',
+            examplePinyin: 'tā zài lùshàng yī shuāi， gǎnjǐn páqǐlái kàn le kàn yǎnjìng ér。',
           },
           {
             id: 'hj2b-l13-w20',
@@ -18409,7 +18409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to drop; to fall',
             exampleCn: '眼镜儿掉在地上摔坏了。',
             exampleEn: 'The glasses fell on the ground and broke.',
-            examplePinyin: 'yǎn jìng ér diào zài dì shàng shuāi huài le。',
+            examplePinyin: 'yǎnjìng ér diào zài dìshàng shuāihuài le。',
           },
           {
             id: 'hj2b-l13-w21',
@@ -18419,7 +18419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'on the ground',
             exampleCn: '掉在地上的东西都掏出来吧。',
             exampleEn: 'Please take out everything that dropped on the ground.',
-            examplePinyin: 'diào zài dì shàng de dōng xī dōu tāo chū lái ba。',
+            examplePinyin: 'diào zài dìshàng de dōngxī dōu tāochū lái ba。',
           },
           {
             id: 'hj2b-l13-w22',
@@ -18429,7 +18429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go to work',
             exampleCn: '他六点出门上班，到现在还没下班呢。',
             exampleEn: 'He left home at six for work.',
-            examplePinyin: 'tā liù diǎn chū mén shàng bān，dào xiàn zài hái méi xià bān ne。',
+            examplePinyin: 'tā liùdiǎn chūmén shàngbān， dào xiànzài hái méi xiàbān ne。',
           },
           {
             id: 'hj2b-l13-w23',
@@ -18439,7 +18439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get off work',
             exampleCn: '他到现在还没下班呢。',
             exampleEn: 'He hasn\'t gotten off work yet.',
-            examplePinyin: 'tā dào xiàn zài hái méi xià bān ne。',
+            examplePinyin: 'tā dào xiànzài hái méi xiàbān ne。',
           },
           {
             id: 'hj2b-l13-w24',
@@ -18449,7 +18449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to guarantee',
             exampleCn: '骑车上班能保证时间，还可以锻炼身体。',
             exampleEn: 'Taking a bike to work can guarantee time, and also lets you exercise.',
-            examplePinyin: 'qí chē shàng bān néng bǎo zhèng shí jiān，hái kě yǐ duàn liàn shēn tǐ。',
+            examplePinyin: 'qíchē shàngbān néng bǎozhèng shíjiān， hái kěyǐ duànliànshēntǐ。',
           },
           {
             id: 'hj2b-l13-w25',
@@ -18459,7 +18459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to abide by',
             exampleCn: '骑车的人应该遵守交通规则。',
             exampleEn: 'People on bikes should abide by traffic rules.',
-            examplePinyin: 'qí chē de rén yīng gāi zūn shǒu jiāo tōng guī zé。',
+            examplePinyin: 'qíchē de rén yīnggāi zūnshǒu jiāotōngguīzé。',
           },
           {
             id: 'hj2b-l13-w26',
@@ -18469,7 +18469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'rule; regulation',
             exampleCn: '交通规则人人都要遵守。',
             exampleEn: 'Everyone should obey traffic regulations.',
-            examplePinyin: 'jiāo tōng guī zé rén rén dōu yào zūn shǒu。',
+            examplePinyin: 'jiāotōngguīzé rénrén dōu yào zūnshǒu。',
           },
           {
             id: 'hj2b-l13-w27',
@@ -18479,7 +18479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to cause; to bring about',
             exampleCn: '不遵守交通规则是造成交通拥挤的主要原因之一。',
             exampleEn: 'Not following traffic rules is one of the main causes of traffic congestion.',
-            examplePinyin: 'bù zūn shǒu jiāo tōng guī zé shì zào chéng jiāo tōng yōng jǐ de zhǔ yào yuán yīn zhī yī。',
+            examplePinyin: 'bù zūnshǒu jiāotōngguīzé shì zàochéng jiāotōng yōngjǐ de zhǔyào yuányīn zhīyī。',
           },
           {
             id: 'hj2b-l13-w28',
@@ -18489,7 +18489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be crowded; crowded',
             exampleCn: '上下班的时候路上很拥挤。',
             exampleEn: 'The road is very crowded during work commute hours.',
-            examplePinyin: 'shàng xià bān de shí hòu lù shàng hěn yōng jǐ。',
+            examplePinyin: 'shàngxiàbān de shíhòu lùshàng hěn yōngjǐ。',
           },
           {
             id: 'hj2b-l13-w29',
@@ -18499,7 +18499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'main',
             exampleCn: '交通拥挤的主要原因是车太多。',
             exampleEn: 'The main reason for traffic congestion is too many cars.',
-            examplePinyin: 'jiāo tōng yōng jǐ de zhǔ yào yuán yīn shì chē tài duō。',
+            examplePinyin: 'jiāotōng yōngjǐ de zhǔyào yuányīn shì chē tài duō。',
           },
           {
             id: 'hj2b-l13-w30',
@@ -18509,7 +18509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'reason',
             exampleCn: '你知道造成拥挤的原因吗？',
             exampleEn: 'Do you know the reason for the congestion?',
-            examplePinyin: 'nǐ zhī dào zào chéng yōng jǐ de yuán yīn ma？',
+            examplePinyin: 'nǐ zhīdào zàochéng yōngjǐ de yuányīn ma？',
           },
           {
             id: 'hj2b-l13-w31',
@@ -18519,7 +18519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one of',
             exampleCn: '不遵守规则是造成事故的原因之一。',
             exampleEn: 'Not following rules is one of the causes of accidents.',
-            examplePinyin: 'bù zūn shǒu guī zé shì zào chéng shì gù de yuán yīn zhī yī。',
+            examplePinyin: 'bù zūnshǒuguīzé shì zàochéng shìgù de yuányīn zhīyī。',
           },
           {
             id: 'hj2b-l13-w32',
@@ -18529,7 +18529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to cause; to lead to',
             exampleCn: '今天的事故就是一辆自行车引起的。',
             exampleEn: 'Today\'s accident was caused by a bicycle.',
-            examplePinyin: 'jīn tiān de shì gù jiù shì yī liàng zì xíng chē yǐn qǐ de。',
+            examplePinyin: 'jīntiān de shìgù jiùshì yīliàng zìxíngchē yǐnqǐ de。',
           },
           {
             id: 'hj2b-l13-w33',
@@ -18539,7 +18539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hurriedly; quickly',
             exampleCn: '我们最好还是赶快发展地铁吧。',
             exampleEn: 'We\'d better quickly develop subways.',
-            examplePinyin: 'wǒ men zuì hǎo hái shì gǎn kuài fā zhǎn dì tiě ba。',
+            examplePinyin: 'wǒmen zuìhǎo háishì gǎnkuài fāzhǎn dìtiě ba。',
           },
           {
             id: 'hj2b-l13-w34',
@@ -18549,7 +18549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to develop',
             exampleCn: '政府要赶快发展地铁来解决交通问题。',
             exampleEn: 'The government should quickly develop subways to solve the traffic problem.',
-            examplePinyin: 'zhèng fǔ yào gǎn kuài fā zhǎn dì tiě lái jiě jué jiāo tōng wèn tí。',
+            examplePinyin: 'zhèngfǔ yào gǎnkuài fāzhǎn dìtiě lái jiějué jiāotōng wèntí。',
           },
         ],
       },
@@ -18567,7 +18567,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'book mall',
             exampleCn: '星期天，我和麦克一起去图书城买书。',
             exampleEn: 'On Sunday, I went to the book mall with Mike to buy books.',
-            examplePinyin: 'xīng qī tiān，wǒ hé mài kè yī qǐ qù tú shū chéng mǎi shū。',
+            examplePinyin: 'xīngqītiān， wǒ hé màikè yìqǐ qù túshūchéng mǎi shū。',
           },
           {
             id: 'hj2b-l14-w2',
@@ -18577,7 +18577,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'book',
             exampleCn: '图书城里有很多中文图书。',
             exampleEn: 'There are many Chinese books in the book mall.',
-            examplePinyin: 'tú shū chéng lǐ yǒu hěn duō zhōng wén tú shū。',
+            examplePinyin: 'túshū chénglǐ yǒu hěnduō zhōngwén túshū。',
           },
           {
             id: 'hj2b-l14-w3',
@@ -18587,7 +18587,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to enter',
             exampleCn: '从图书城大门进去，可以看到很多书店。',
             exampleEn: 'Entering from the main door, you can see many bookstores.',
-            examplePinyin: 'cóng tú shū chéng dà mén jìn qù，kě yǐ kàn dào hěn duō shū diàn。',
+            examplePinyin: 'cóng túshūchéng dàmén jìnqù， kěyǐ kàndào hěnduō shūdiàn。',
           },
           {
             id: 'hj2b-l14-w4',
@@ -18597,7 +18597,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'other; another',
             exampleCn: '另一个人帮你挑了几本小说儿。',
             exampleEn: 'Another person helped you pick out several novels.',
-            examplePinyin: 'lìng yī gè rén bāng nǐ tiāo le jǐ běn xiǎo shuō ér。',
+            examplePinyin: 'lìng yígè rén bāng nǐ tiāo le jǐběn xiǎoshuō ér。',
           },
           {
             id: 'hj2b-l14-w5',
@@ -18607,7 +18607,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in addition; besides',
             exampleCn: '我选了几本历史书，另外还给朋友买了一些小礼品。',
             exampleEn: 'I picked several history books; in addition, I also bought some small gifts for friends.',
-            examplePinyin: 'wǒ xuǎn le jǐ běn lì shǐ shū，lìng wài hái gěi péng yǒu mǎi le yī xiē xiǎo lǐ pǐn。',
+            examplePinyin: 'wǒ xuǎn le jǐběn lìshǐ shū， lìngwài huángěi péngyǒu mǎi le yīxiē xiǎo lǐpǐn。',
           },
           {
             id: 'hj2b-l14-w6',
@@ -18617,7 +18617,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'all kinds of',
             exampleCn: '图书城里有各种各样的书。',
             exampleEn: 'There are all kinds of books in the book mall.',
-            examplePinyin: 'tú shū chéng lǐ yǒu gè zhǒng gè yàng de shū。',
+            examplePinyin: 'túshū chénglǐ yǒu gèzhǒnggèyàng de shū。',
           },
           {
             id: 'hj2b-l14-w7',
@@ -18627,7 +18627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'various; different',
             exampleCn: '各个书店的书都不一样。',
             exampleEn: 'The books in different bookstores are not the same.',
-            examplePinyin: 'gè gè shū diàn de shū dōu bù yī yàng。',
+            examplePinyin: 'gègè shūdiàn de shū dōu bù yīyàng。',
           },
           {
             id: 'hj2b-l14-w8',
@@ -18637,7 +18637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'kind; type',
             exampleCn: '礼品店里有很多样小饰物。',
             exampleEn: 'There are many kinds of small ornaments in the gift shop.',
-            examplePinyin: 'lǐ pǐn diàn lǐ yǒu hěn duō yàng xiǎo shì wù。',
+            examplePinyin: 'lǐpǐndiàn lǐ yǒu hěn duōyàng xiǎo shìwù。',
           },
           {
             id: 'hj2b-l14-w9',
@@ -18647,7 +18647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'excited',
             exampleCn: '看到这么多新书，我非常兴奋。',
             exampleEn: 'Seeing so many new books, I was very excited.',
-            examplePinyin: 'kàn dào zhè me duō xīn shū，wǒ fēi cháng xīng fèn。',
+            examplePinyin: 'kàndào zhème duō xīnshū， wǒ fēicháng xīngfèn。',
           },
           {
             id: 'hj2b-l14-w10',
@@ -18657,7 +18657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bookshelf',
             exampleCn: '每个书架上的书都不一样。',
             exampleEn: 'Each bookshelf has different books.',
-            examplePinyin: 'měi gè shū jià shàng de shū dōu bù yī yàng。',
+            examplePinyin: 'měigè shūjiàshàng de shū dōu bù yīyàng。',
           },
           {
             id: 'hj2b-l14-w11',
@@ -18667,7 +18667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate motion towards a lower or nearer position',
             exampleCn: '售货员让我们把要买的书从架子上拿下来。',
             exampleEn: 'The clerk let us take down the books we wanted to buy from the shelf.',
-            examplePinyin: 'shòu huò yuán ràng wǒ men bǎ yào mǎi de shū cóng jià zi shàng ná xià lái。',
+            examplePinyin: 'shòuhuòyuán ràng wǒmen bǎ yào mǎi de shū cóng jiàzi shàng ná xiàlái。',
           },
           {
             id: 'hj2b-l14-w12',
@@ -18677,7 +18677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take out from in between; to take a part of the whole',
             exampleCn: '我想从书架上抽出一本小说儿看看。',
             exampleEn: 'I want to take a novel out from the shelf to read.',
-            examplePinyin: 'wǒ xiǎng cóng shū jià shàng chōu chū yī běn xiǎo shuō ér kàn kàn。',
+            examplePinyin: 'wǒ xiǎng cóng shūjiàshàng chōuchū yīběn xiǎoshuō ér kànkàn。',
           },
           {
             id: 'hj2b-l14-w13',
@@ -18687,7 +18687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to choose; to select; to pick out',
             exampleCn: '麦克挑了一些中文小说儿。',
             exampleEn: 'Mike picked out some Chinese novels.',
-            examplePinyin: 'mài kè tiāo le yī xiē zhōng wén xiǎo shuō ér。',
+            examplePinyin: 'màikè tiāo le yīxiē zhōngwén xiǎoshuō ér。',
           },
           {
             id: 'hj2b-l14-w14',
@@ -18697,7 +18697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'novel',
             exampleCn: '放假了，我想多看几本小说儿。',
             exampleEn: 'It\'s vacation, I want to read more novels.',
-            examplePinyin: 'fàng jiǎ le，wǒ xiǎng duō kàn jǐ běn xiǎo shuō ér。',
+            examplePinyin: 'fàngjià le， wǒ xiǎng duō kàn jǐběn xiǎoshuō ér。',
           },
           {
             id: 'hj2b-l14-w15',
@@ -18707,7 +18707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take one\'s winter vacation',
             exampleCn: '快放寒假了，我想多看几本小说儿。',
             exampleEn: 'Winter vacation is almost here, I want to read more novels.',
-            examplePinyin: 'kuài fàng hán jiǎ le，wǒ xiǎng duō kàn jǐ běn xiǎo shuō ér。',
+            examplePinyin: 'kuài fànghánjià le， wǒ xiǎng duō kàn jǐběn xiǎoshuō ér。',
           },
           {
             id: 'hj2b-l14-w16',
@@ -18717,7 +18717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stop (study, work, etc.); to have a holiday',
             exampleCn: '放假了，学校放学生回去休息。',
             exampleEn: 'It\'s vacation, the school lets the students go back to rest.',
-            examplePinyin: 'fàng jiǎ le，xué xiào fàng xué shēng huí qù xiū xī。',
+            examplePinyin: 'fàngjià le， xuéxiào fàng xuéshēng huíqù xiūxī。',
           },
           {
             id: 'hj2b-l14-w17',
@@ -18727,7 +18727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'winter vacation',
             exampleCn: '寒假里我和同学去商场买了不少东西。',
             exampleEn: 'During the winter vacation, my classmates and I bought many things at the mall.',
-            examplePinyin: 'hán jiǎ lǐ wǒ hé tóng xué qù shāng chǎng mǎi le bù shǎo dōng xī。',
+            examplePinyin: 'hánjià lǐ wǒ hé tóngxué qù shāngchǎng mǎi le bùshǎo dōngxī。',
           },
           {
             id: 'hj2b-l14-w18',
@@ -18737,7 +18737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'summer vacation',
             exampleCn: '暑假我打算去旅游。',
             exampleEn: 'I plan to travel during the summer vacation.',
-            examplePinyin: 'shǔ jiǎ wǒ dǎ suàn qù lǚ yóu。',
+            examplePinyin: 'shǔjià wǒ dǎsuàn qù lǚyóu。',
           },
           {
             id: 'hj2b-l14-w19',
@@ -18747,7 +18747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used after a verb to express a sense of returning) back; to go back; to return',
             exampleCn: '吃完饭，我们就骑车回去了。',
             exampleEn: 'After eating, we rode our bikes back.',
-            examplePinyin: 'chī wán fàn，wǒ men jiù qí chē huí qù le。',
+            examplePinyin: 'chīwánfàn， wǒmen jiù qíchē huíqù le。',
           },
           {
             id: 'hj2b-l14-w20',
@@ -18757,7 +18757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'besides; apart from',
             exampleCn: '除了买书以外，我们还想买一些小礼品。',
             exampleEn: 'Besides books, we also want to buy some small gifts.',
-            examplePinyin: 'chú le mǎi shū yǐ wài，wǒ men hái xiǎng mǎi yī xiē xiǎo lǐ pǐn。',
+            examplePinyin: 'chúle mǎi shū yǐwài， wǒmen hái xiǎng mǎi yīxiē xiǎo lǐpǐn。',
           },
           {
             id: 'hj2b-l14-w21',
@@ -18767,7 +18767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'present; gift',
             exampleCn: '这是一家礼品店，里边什么商品都有。',
             exampleEn: 'This is a gift shop, it has all kinds of goods.',
-            examplePinyin: 'zhè shì yī jiā lǐ pǐn diàn，lǐ biān shén me shāng pǐn dōu yǒu。',
+            examplePinyin: 'zhè shì yījiā lǐpǐndiàn， lǐbiān shénme shāngpǐn dōu yǒu。',
           },
           {
             id: 'hj2b-l14-w22',
@@ -18777,7 +18777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'so; hence; thereupon',
             exampleCn: '商场里有小熊猫玩具，于是我们又买了不少玩具。',
             exampleEn: 'There were small panda toys in the mall, so we bought quite a few more.',
-            examplePinyin: 'shāng chǎng lǐ yǒu xiǎo xióng māo wán jù，yú shì wǒ men yòu mǎi le bù shǎo wán jù。',
+            examplePinyin: 'shāngchǎng lǐ yǒu xiǎoxióngmāo wánjù， yúshì wǒmen yòu mǎi le bùshǎo wánjù。',
           },
           {
             id: 'hj2b-l14-w23',
@@ -18787,7 +18787,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shopping mall',
             exampleCn: '我们走进一家商场去。',
             exampleEn: 'We went into a shopping mall.',
-            examplePinyin: 'wǒ men zǒu jìn yī jiā shāng chǎng qù。',
+            examplePinyin: 'wǒmen zǒujìn yījiā shāngchǎng qù。',
           },
           {
             id: 'hj2b-l14-w24',
@@ -18797,7 +18797,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'commodity; goods',
             exampleCn: '这家商场里什么商品都有。',
             exampleEn: 'This mall has all kinds of goods.',
-            examplePinyin: 'zhè jiā shāng chǎng lǐ shén me shāng pǐn dōu yǒu。',
+            examplePinyin: 'zhèjiā shāngchǎng lǐ shénme shāngpǐn dōu yǒu。',
           },
           {
             id: 'hj2b-l14-w25',
@@ -18807,7 +18807,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'facial makeup',
             exampleCn: '我买了一些京剧脸谱的小饰物。',
             exampleEn: 'I bought some small Peking opera facial makeup ornaments.',
-            examplePinyin: 'wǒ mǎi le yī xiē jīng jù liǎn pǔ de xiǎo shì wù。',
+            examplePinyin: 'wǒ mǎi le yīxiē jīngjù liǎnpǔ de xiǎo shìwù。',
           },
           {
             id: 'hj2b-l14-w26',
@@ -18817,7 +18817,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'articles for personal adornment; ornament',
             exampleCn: '商场里卖很多漂亮的小饰物。',
             exampleEn: 'The mall sells many beautiful small ornaments.',
-            examplePinyin: 'shāng chǎng lǐ mài hěn duō piāo liàng de xiǎo shì wù。',
+            examplePinyin: 'shāngchǎng lǐ mài hěnduō piàoliàng de xiǎo shìwù。',
           },
           {
             id: 'hj2b-l14-w27',
@@ -18827,7 +18827,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'silk fabric',
             exampleCn: '我还给妈妈买了一些丝织品。',
             exampleEn: 'I also bought some silk fabric for my mom.',
-            examplePinyin: 'wǒ hái gěi mā mā mǎi le yī xiē sī zhī pǐn。',
+            examplePinyin: 'wǒ huángěi māmā mǎi le yīxiē sīzhīpǐn。',
           },
           {
             id: 'hj2b-l14-w28',
@@ -18837,7 +18837,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'key chain',
             exampleCn: '麦克买了很多漂亮的钥匙链儿。',
             exampleEn: 'Mike bought many beautiful key chains.',
-            examplePinyin: 'mài kè mǎi le hěn duō piāo liàng de yào shi liàn ér。',
+            examplePinyin: 'màikè mǎi le hěnduō piàoliàng de yàoshiliàn ér。',
           },
           {
             id: 'hj2b-l14-w29',
@@ -18847,7 +18847,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'toy',
             exampleCn: '这些玩具带回去送给小朋友们，他们肯定喜欢。',
             exampleEn: 'These toys, brought back and given to the children, they will surely like them.',
-            examplePinyin: 'zhè xiē wán jù dài huí qù sòng gěi xiǎo péng yǒu men，tā men kěn dìng xǐ huān。',
+            examplePinyin: 'zhèxiē wánjù dàihuíqù sònggěi xiǎopéngyǒu men， tāmen kěndìng xǐhuān。',
           },
           {
             id: 'hj2b-l14-w30',
@@ -18857,7 +18857,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'panda',
             exampleCn: '麦克买了一个熊猫玩具。',
             exampleEn: 'Mike bought a panda toy.',
-            examplePinyin: 'mài kè mǎi le yī gè xióng māo wán jù。',
+            examplePinyin: 'màikè mǎi le yígè xióngmāo wánjù。',
           },
           {
             id: 'hj2b-l14-w31',
@@ -18867,7 +18867,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'definitely',
             exampleCn: '这些玩具小朋友们肯定喜欢。',
             exampleEn: 'The children will definitely like these toys.',
-            examplePinyin: 'zhè xiē wán jù xiǎo péng yǒu men kěn dìng xǐ huān。',
+            examplePinyin: 'zhèxiē wánjù xiǎopéngyǒu men kěndìng xǐhuān。',
           },
           {
             id: 'hj2b-l14-w32',
@@ -18877,7 +18877,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shop assistant',
             exampleCn: '售货员看我们买的东西多，给我们一人找了一个小纸箱。',
             exampleEn: 'The shop assistant saw that we bought many things, and found a small carton for each of us.',
-            examplePinyin: 'shòu huò yuán kàn wǒ men mǎi de dōng xī duō，gěi wǒ men yī rén zhǎo le yī gè xiǎo zhǐ xiāng。',
+            examplePinyin: 'shòuhuòyuán kàn wǒmen mǎi de dōngxī duō， gěi wǒmen yī rén zhǎo le yígè xiǎo zhǐxiāng。',
           },
           {
             id: 'hj2b-l14-w33',
@@ -18887,7 +18887,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'carton',
             exampleCn: '我们买的东西刚好都能放进纸箱里。',
             exampleEn: 'Everything we bought just fit into the carton.',
-            examplePinyin: 'wǒ men mǎi de dōng xī gāng hǎo dōu néng fàng jìn zhǐ xiāng lǐ。',
+            examplePinyin: 'wǒmen mǎi de dōngxī gānghǎo dōu néng fàngjìn zhǐxiāng lǐ。',
           },
           {
             id: 'hj2b-l14-w34',
@@ -18897,7 +18897,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'paper',
             exampleCn: '纸箱是用纸做的。',
             exampleEn: 'The carton is made of paper.',
-            examplePinyin: 'zhǐ xiāng shì yòng zhǐ zuò de。',
+            examplePinyin: 'zhǐxiāng shì yòngzhǐ zuò de。',
           },
           {
             id: 'hj2b-l14-w35',
@@ -18907,7 +18907,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'restaurant',
             exampleCn: '我们走进了一个小饭馆儿。',
             exampleEn: 'We went into a small restaurant.',
-            examplePinyin: 'wǒ men zǒu jìn le yī gè xiǎo fàn guǎn ér。',
+            examplePinyin: 'wǒmen zǒujìn le yígè xiǎo fànguǎnér。',
           },
           {
             id: 'hj2b-l14-w36',
@@ -18917,7 +18917,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plate; dish',
             exampleCn: '我们要了一盘饺子。',
             exampleEn: 'We ordered a plate of dumplings.',
-            examplePinyin: 'wǒ men yào le yī pán jiǎo zi。',
+            examplePinyin: 'wǒmen yào le yīpán jiǎozi。',
           },
           {
             id: 'hj2b-l14-w37',
@@ -18927,7 +18927,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tired',
             exampleCn: '吃完饭回到学校，我又累又困。',
             exampleEn: 'Back at school after eating, I was both tired and sleepy.',
-            examplePinyin: 'chī wán fàn huí dào xué xiào，wǒ yòu lèi yòu kùn。',
+            examplePinyin: 'chīwánfàn huídào xuéxiào， wǒ yòu lèi yòu kùn。',
           },
           {
             id: 'hj2b-l14-w38',
@@ -18937,7 +18937,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sleepy',
             exampleCn: '我又累又困，想快点回宿舍休息。',
             exampleEn: 'I was tired and sleepy, wanting to go back to the dorm quickly to rest.',
-            examplePinyin: 'wǒ yòu lèi yòu kùn，xiǎng kuài diǎn huí sù shě xiū xī。',
+            examplePinyin: 'wǒ yòu lèi yòu kùn， xiǎng kuàidiǎn huí sùshè xiūxī。',
           },
           {
             id: 'hj2b-l14-w39',
@@ -18947,7 +18947,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lift; elevator',
             exampleCn: '我住的宿舍楼里的电梯坏了，只好爬楼梯。',
             exampleEn: 'The elevator in my dorm building was broken, I had to climb the stairs.',
-            examplePinyin: 'wǒ zhù de sù shě lóu lǐ de diàn tī huài le，zhǐ hǎo pá lóu tī。',
+            examplePinyin: 'wǒ zhù de sùshèlóu lǐ de diàntī huài le， zhǐhǎo pálóutī。',
           },
           {
             id: 'hj2b-l14-w40',
@@ -18957,7 +18957,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to maintain and repair',
             exampleCn: '通知上说电梯正在维修，请走楼梯。',
             exampleEn: 'The notice said the elevator is under maintenance, please take the stairs.',
-            examplePinyin: 'tōng zhī shàng shuō diàn tī zhèng zài wéi xiū，qǐng zǒu lóu tī。',
+            examplePinyin: 'tōngzhī shàng shuō diàntī zhèngzài wéixiū， qǐng zǒu lóutī。',
           },
           {
             id: 'hj2b-l14-w41',
@@ -18967,7 +18967,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to repair',
             exampleCn: '师傅来修电梯了。',
             exampleEn: 'The repairman came to fix the elevator.',
-            examplePinyin: 'shī fù lái xiū diàn tī le。',
+            examplePinyin: 'shīfù lái xiū diàntī le。',
           },
           {
             id: 'hj2b-l14-w42',
@@ -18977,7 +18977,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stairs; stairway',
             exampleCn: '我提着一箱东西，一步一步地爬楼梯。',
             exampleEn: 'I climbed the stairs step by step, carrying a box.',
-            examplePinyin: 'wǒ tí zhe yī xiāng dōng xī，yī bù yī bù dì pá lóu tī。',
+            examplePinyin: 'wǒ tí zhe yīxiāng dōngxī， yībù yībù dì pálóutī。',
           },
           {
             id: 'hj2b-l14-w43',
@@ -18987,7 +18987,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'have to; cannot but',
             exampleCn: '电梯维修，我只好爬上去。',
             exampleEn: 'The elevator was being repaired, I had to climb up.',
-            examplePinyin: 'diàn tī wéi xiū，wǒ zhǐ hǎo pá shàng qù。',
+            examplePinyin: 'diàntī wéixiū， wǒ zhǐhǎo páshàngqù。',
           },
           {
             id: 'hj2b-l14-w44',
@@ -18997,7 +18997,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to carry (in one\'s hand with the arm hanging down)',
             exampleCn: '我手里提着一箱子东西往楼上爬。',
             exampleEn: 'I was carrying a box of things in my hand, climbing up.',
-            examplePinyin: 'wǒ shǒu lǐ tí zhe yī xiāng zi dōng xī wǎng lóu shàng pá。',
+            examplePinyin: 'wǒ shǒulǐ tí zhe yī xiāngzi dōngxī wǎng lóushàng pá。',
           },
           {
             id: 'hj2b-l14-w45',
@@ -19007,7 +19007,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'step',
             exampleCn: '我爬了半天，才爬了十步。',
             exampleEn: 'I climbed for half a day, only managing ten steps.',
-            examplePinyin: 'wǒ pá le bàn tiān，cái pá le shí bù。',
+            examplePinyin: 'wǒ pá le bàntiān， cái pá le shíbù。',
           },
           {
             id: 'hj2b-l14-w46',
@@ -19017,7 +19017,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'key',
             exampleCn: '到了门口，我忽然想起来钥匙还在楼下。',
             exampleEn: 'When I reached the door, I suddenly remembered the key was still downstairs.',
-            examplePinyin: 'dào le mén kǒu，wǒ hū rán xiǎng qǐ lái yào shi hái zài lóu xià。',
+            examplePinyin: 'dào le ménkǒu， wǒ hūrán xiǎng qǐlái yàoshi hái zài lóuxià。',
           },
           {
             id: 'hj2b-l14-w47',
@@ -19027,7 +19027,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'but; however',
             exampleCn: '我以为钥匙丢了，却发现它还插在自行车上。',
             exampleEn: 'I thought I lost the key, but found it still inserted in the bike.',
-            examplePinyin: 'wǒ yǐ wèi yào shi diū le，què fā xiàn tā hái chā zài zì xíng chē shàng。',
+            examplePinyin: 'wǒ yǐwéi yàoshi diū le， què fāxiàn tā hái chā zài zìxíngchē shàng。',
           },
           {
             id: 'hj2b-l14-w48',
@@ -19037,7 +19037,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'suddenly',
             exampleCn: '我忽然想起来，钥匙忘拔下来了。',
             exampleEn: 'I suddenly remembered, I forgot to pull out the key.',
-            examplePinyin: 'wǒ hū rán xiǎng qǐ lái，yào shi wàng bá xià lái le。',
+            examplePinyin: 'wǒ hūrán xiǎng qǐlái， yàoshi wàng báxiàlái le。',
           },
           {
             id: 'hj2b-l14-w49',
@@ -19047,7 +19047,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate the completion of an action',
             exampleCn: '我想起来了，钥匙忘拔下来了。',
             exampleEn: 'Now I remember, I forgot to pull out the key.',
-            examplePinyin: 'wǒ xiǎng qǐ lái le，yào shi wàng bá xià lái le。',
+            examplePinyin: 'wǒ xiǎng qǐlái le， yàoshi wàng báxiàlái le。',
           },
           {
             id: 'hj2b-l14-w50',
@@ -19057,7 +19057,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stick in; to insert',
             exampleCn: '钥匙还插在自行车上呢。',
             exampleEn: 'The key is still inserted in the bike.',
-            examplePinyin: 'yào shi hái chā zài zì xíng chē shàng ne。',
+            examplePinyin: 'yàoshi hái chā zài zìxíngchē shàng ne。',
           },
           {
             id: 'hj2b-l14-w51',
@@ -19067,7 +19067,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pull out; to pluck',
             exampleCn: '我忘了把钥匙拔下来。',
             exampleEn: 'I forgot to pull out the key.',
-            examplePinyin: 'wǒ wàng le bǎ yào shi bá xià lái。',
+            examplePinyin: 'wǒ wàng le bǎ yàoshi báxiàlái。',
           },
           {
             id: 'hj2b-l14-w52',
@@ -19077,7 +19077,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to not know whether to laugh or to cry; to find sth. both funny and annoying',
             exampleCn: '这时，我真是哭笑不得。',
             exampleEn: 'At that moment, I really didn\'t know whether to laugh or to cry.',
-            examplePinyin: 'zhè shí，wǒ zhēn shì kū xiào bù dé。',
+            examplePinyin: 'zhèshí， wǒ zhēnshì kūxiàobùdé。',
           },
           {
             id: 'hj2b-l14-w53',
@@ -19087,7 +19087,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'string; bunch; cluster',
             exampleCn: '麦克手里拿着的那串儿钥匙正是我的。',
             exampleEn: 'The string of keys in Mike\'s hand is just mine.',
-            examplePinyin: 'mài kè shǒu lǐ ná zhe de nà chuàn ér yào shi zhèng shì wǒ de。',
+            examplePinyin: 'màikè shǒulǐ ná zhe de nà chuànér yàoshi zhèngshì wǒ de。',
           },
         ],
       },
@@ -19105,7 +19105,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lady; madam',
             exampleCn: '刚才进去一位女士，你看见没有？',
             exampleEn: 'A lady just went in, did you see her?',
-            examplePinyin: 'gāng cái jìn qù yī wèi nǚ shì，nǐ kàn jiàn méi yǒu？',
+            examplePinyin: 'gāngcái jìnqù yīwèi nǚshì， nǐ kànjiàn méiyǒu？',
           },
           {
             id: 'hj2b-l15-w2',
@@ -19115,7 +19115,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'waiter/waitress; service staff',
             exampleCn: '服务员问我们要干什么。',
             exampleEn: 'The clerk asked what we wanted.',
-            examplePinyin: 'fú wù yuán wèn wǒ men yào gàn shén me。',
+            examplePinyin: 'fúwùyuán wèn wǒmen yào gànshénme。',
           },
           {
             id: 'hj2b-l15-w3',
@@ -19125,7 +19125,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to look; to appear',
             exampleCn: '她个子高高的，长什么样子？',
             exampleEn: 'She is tall, what does she look like?',
-            examplePinyin: 'tā gè zi gāo gāo de，zhǎng shén me yàng zi？',
+            examplePinyin: 'tā gèzi gāogāode， zhǎng shénme yàngzi？',
           },
           {
             id: 'hj2b-l15-w4',
@@ -19135,7 +19135,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'appearance',
             exampleCn: '那个女士长什么样子？',
             exampleEn: 'What does that lady look like?',
-            examplePinyin: 'nà gè nǚ shì zhǎng shén me yàng zi？',
+            examplePinyin: 'nàge nǚshì zhǎng shénme yàngzi？',
           },
           {
             id: 'hj2b-l15-w5',
@@ -19145,7 +19145,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'height; stature',
             exampleCn: '她个子高高的，大概一米七左右。',
             exampleEn: 'She is tall, about one meter seventy.',
-            examplePinyin: 'tā gè zi gāo gāo de，dà gài yī mǐ qī zuǒ yòu。',
+            examplePinyin: 'tā gèzi gāogāode， dàgài yīmǐ qī zuǒyòu。',
           },
           {
             id: 'hj2b-l15-w6',
@@ -19155,7 +19155,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used after a numeral to indicate an approximate number) about; or so',
             exampleCn: '那位女士个子一米七左右。',
             exampleEn: 'That lady is about one meter seventy.',
-            examplePinyin: 'nà wèi nǚ shì gè zi yī mǐ qī zuǒ yòu。',
+            examplePinyin: 'nàwèi nǚshì gèzi yīmǐ qī zuǒyòu。',
           },
           {
             id: 'hj2b-l15-w7',
@@ -19165,7 +19165,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wear (accessories)',
             exampleCn: '她戴着一副眼镜儿。',
             exampleEn: 'She is wearing a pair of glasses.',
-            examplePinyin: 'tā dài zhe yī fù yǎn jìng ér。',
+            examplePinyin: 'tā dài zhe yīfù yǎnjìng ér。',
           },
           {
             id: 'hj2b-l15-w8',
@@ -19175,7 +19175,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'indicating the continuation of an action or a state',
             exampleCn: '大门开着，屋里还亮着灯呢。',
             exampleEn: 'The door is open, and the light in the room is still on.',
-            examplePinyin: 'dà mén kāi zhe，wū lǐ hái liàng zhe dēng ne。',
+            examplePinyin: 'dàmén kāi zhe， wūlǐ hái liàng zhe dēng ne。',
           },
           {
             id: 'hj2b-l15-w9',
@@ -19185,7 +19185,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pair',
             exampleCn: '婚礼现场挂了两副对联。',
             exampleEn: 'Two pairs of couplets were hung at the wedding.',
-            examplePinyin: 'hūn lǐ xiàn chǎng guà le liǎng fù duì lián。',
+            examplePinyin: 'hūnlǐ xiànchǎng guà le liǎngfù duìlián。',
           },
           {
             id: 'hj2b-l15-w10',
@@ -19195,7 +19195,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wear (clothes)',
             exampleCn: '她上身穿着一件红色的西服。',
             exampleEn: 'She wears a red Western suit on top.',
-            examplePinyin: 'tā shàng shēn chuān zhe yī jiàn hóng sè de xī fú。',
+            examplePinyin: 'tā shàng shēnchuān zhe yījiàn hóngsè de xīfú。',
           },
           {
             id: 'hj2b-l15-w11',
@@ -19205,7 +19205,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Western suit',
             exampleCn: '新郎穿着一身深蓝色的西服。',
             exampleEn: 'The bridegroom is wearing a deep blue Western suit.',
-            examplePinyin: 'xīn láng chuān zhe yī shēn shēn lán sè de xī fú。',
+            examplePinyin: 'xīnláng chuānzhe yīshēn shēnlánsè de xīfú。',
           },
           {
             id: 'hj2b-l15-w12',
@@ -19215,7 +19215,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'skirt',
             exampleCn: '她下边穿着一条黑色的裙子。',
             exampleEn: 'She wears a black skirt on the bottom.',
-            examplePinyin: 'tā xià biān chuān zhe yī tiáo hēi sè de qún zi。',
+            examplePinyin: 'tā xiàbiān chuānzhe yītiáo hēisè de qúnzi。',
           },
           {
             id: 'hj2b-l15-w13',
@@ -19225,7 +19225,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do',
             exampleCn: '她来这儿干什么？',
             exampleEn: 'What is she doing here?',
-            examplePinyin: 'tā lái zhè ér gàn shén me？',
+            examplePinyin: 'tā lái zhèr gànshénme？',
           },
           {
             id: 'hj2b-l15-w14',
@@ -19235,7 +19235,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'presenter; anchorperson',
             exampleCn: '她是电视台的主持人。',
             exampleEn: 'She is a TV anchorperson.',
-            examplePinyin: 'tā shì diàn shì tái de zhǔ chí rén。',
+            examplePinyin: 'tā shì diànshìtái de zhǔchírén。',
           },
           {
             id: 'hj2b-l15-w15',
@@ -19245,7 +19245,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to host; to preside over',
             exampleCn: '她正在主持一场会议。',
             exampleEn: 'She is hosting a meeting.',
-            examplePinyin: 'tā zhèng zài zhǔ chí yī chǎng huì yì。',
+            examplePinyin: 'tā zhèngzài zhǔchí yīcháng huìyì。',
           },
           {
             id: 'hj2b-l15-w16',
@@ -19255,7 +19255,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'young man; lad',
             exampleCn: '后边是不是还跟着两个小伙子？',
             exampleEn: 'Are there two young men following behind?',
-            examplePinyin: 'hòu biān shì bù shì hái gēn zhe liǎng gè xiǎo huǒ zi？',
+            examplePinyin: 'hòubiān shìbúshì háigēnzhe liǎnggè xiǎohuǒzi？',
           },
           {
             id: 'hj2b-l15-w17',
@@ -19265,7 +19265,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'young man; lad',
             exampleCn: '那个小伙儿真帅。',
             exampleEn: 'That young man is really handsome.',
-            examplePinyin: 'nà gè xiǎo huǒ ér zhēn shuài。',
+            examplePinyin: 'nàge xiǎohuǒér zhēn shuài。',
           },
           {
             id: 'hj2b-l15-w18',
@@ -19275,7 +19275,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to carry (on one\'s shoulder); to shoulder',
             exampleCn: '那两个小伙子扛着摄像机。',
             exampleEn: 'Those two young men are shouldering video cameras.',
-            examplePinyin: 'nà liǎng gè xiǎo huǒ zi káng zhe shè xiàng jī。',
+            examplePinyin: 'nà liǎnggè xiǎohuǒzi kángzhe shèxiàngjī。',
           },
           {
             id: 'hj2b-l15-w19',
@@ -19285,7 +19285,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'video camera',
             exampleCn: '他们扛着摄像机正在拍摄。',
             exampleEn: 'They are shooting with video cameras.',
-            examplePinyin: 'tā men káng zhe shè xiàng jī zhèng zài pāi shè。',
+            examplePinyin: 'tāmen kángzhe shèxiàngjī zhèngzài pāishè。',
           },
           {
             id: 'hj2b-l15-w20',
@@ -19295,7 +19295,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'conference hall; assembly hall',
             exampleCn: '会议厅的门开着呢。',
             exampleEn: 'The door of the conference hall is open.',
-            examplePinyin: 'huì yì tīng de mén kāi zhe ne。',
+            examplePinyin: 'huìyìtīng de mén kāi zhe ne。',
           },
           {
             id: 'hj2b-l15-w21',
@@ -19305,7 +19305,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hall',
             exampleCn: '餐厅和大厅都可以进去看看。',
             exampleEn: 'The restaurant and the hall are both accessible.',
-            examplePinyin: 'cān tīng hé dà tīng dōu kě yǐ jìn qù kàn kàn。',
+            examplePinyin: 'cāntīng hé dàtīng dōu kěyǐ jìnqù kànkàn。',
           },
           {
             id: 'hj2b-l15-w22',
@@ -19315,7 +19315,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'microphone',
             exampleCn: '他们手里拿着麦克风，对着摄像机讲话。',
             exampleEn: 'They are holding microphones, speaking to the camera.',
-            examplePinyin: 'tā men shǒu lǐ ná zhe mài kè fēng，duì zhe shè xiàng jī jiǎng huà。',
+            examplePinyin: 'tāmen shǒulǐ ná zhe màikèfēng， duì zhe shèxiàngjī jiǎnghuà。',
           },
           {
             id: 'hj2b-l15-w23',
@@ -19325,7 +19325,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to speak; to talk',
             exampleCn: '她正对着麦克风讲话呢。',
             exampleEn: 'She is speaking into the microphone.',
-            examplePinyin: 'tā zhèng duì zhe mài kè fēng jiǎng huà ne。',
+            examplePinyin: 'tā zhèngduìzhe màikèfēng jiǎnghuà ne。',
           },
           {
             id: 'hj2b-l15-w24',
@@ -19335,7 +19335,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wedding',
             exampleCn: '我昨天去参加了一个中国人的婚礼。',
             exampleEn: 'I went to a Chinese friend\'s wedding yesterday.',
-            examplePinyin: 'wǒ zuó tiān qù cān jiā le yī gè zhōng guó rén de hūn lǐ。',
+            examplePinyin: 'wǒ zuótiān qù cānjiā le yígè zhōngguó rén de hūnlǐ。',
           },
           {
             id: 'hj2b-l15-w25',
@@ -19345,7 +19345,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lively; bustling',
             exampleCn: '婚礼上人很多，气氛非常热闹。',
             exampleEn: 'There are many people at the wedding, the atmosphere is very lively.',
-            examplePinyin: 'hūn lǐ shàng rén hěn duō，qì fēn fēi cháng rè nào。',
+            examplePinyin: 'hūnlǐ shàng rén hěnduō， qìfēn fēicháng rènào。',
           },
           {
             id: 'hj2b-l15-w26',
@@ -19355,7 +19355,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hang',
             exampleCn: '屋子两边挂着一对大红灯笼。',
             exampleEn: 'A pair of big red lanterns are hanging on both sides of the room.',
-            examplePinyin: 'wū zi liǎng biān guà zhe yī duì dà hóng dēng lóng。',
+            examplePinyin: 'wūzi liǎngbiān guà zhe yīduì dà hóngdēnglóng。',
           },
           {
             id: 'hj2b-l15-w27',
@@ -19365,7 +19365,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lantern',
             exampleCn: '屋子里挂着大红灯笼。',
             exampleEn: 'Big red lanterns are hanging in the room.',
-            examplePinyin: 'wū zi lǐ guà zhe dà hóng dēng lóng。',
+            examplePinyin: 'wūzilǐ guà zhe dà hóngdēnglóng。',
           },
           {
             id: 'hj2b-l15-w28',
@@ -19375,7 +19375,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wall',
             exampleCn: '墙上贴着一个很大的红双喜字。',
             exampleEn: 'A big red "double happiness" character is on the wall.',
-            examplePinyin: 'qiáng shàng tiē zhe yī gè hěn dà de hóng shuāng xǐ zì。',
+            examplePinyin: 'qiángshàng tiēzhe yígè hěndà de hóngshuāngxǐ zì。',
           },
           {
             id: 'hj2b-l15-w29',
@@ -19385,7 +19385,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'two; double',
             exampleCn: '墙上贴着红双喜字。',
             exampleEn: 'The red "double happiness" character is on the wall.',
-            examplePinyin: 'qiáng shàng tiē zhe hóng shuāng xǐ zì。',
+            examplePinyin: 'qiángshàng tiēzhe hóngshuāngxǐ zì。',
           },
           {
             id: 'hj2b-l15-w30',
@@ -19395,7 +19395,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy; celebratory',
             exampleCn: '婚礼上热热闹闹的，到处挂着喜字。',
             exampleEn: 'The wedding is very lively, "xi" (happiness) characters are hung everywhere.',
-            examplePinyin: 'hūn lǐ shàng rè rè nào nào de，dào chù guà zhe xǐ zì。',
+            examplePinyin: 'hūnlǐ shàng rèrènàonào de， dàochù guà zhe xǐzì。',
           },
           {
             id: 'hj2b-l15-w31',
@@ -19405,7 +19405,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put; to place',
             exampleCn: '桌子上摆着很多酒和菜。',
             exampleEn: 'Many wines and dishes are placed on the table.',
-            examplePinyin: 'zhuō zi shàng bǎi zhe hěn duō jiǔ hé cài。',
+            examplePinyin: 'zhuōzi shàng bǎi zhe hěnduō jiǔ hé cài。',
           },
           {
             id: 'hj2b-l15-w32',
@@ -19415,7 +19415,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bride',
             exampleCn: '新娘头上戴着红花，穿着一件红棉袄。',
             exampleEn: 'The bride wears red flowers on her head and a red cotton-padded jacket.',
-            examplePinyin: 'xīn niáng tóu shàng dài zhe hóng huā，chuān zhe yī jiàn hóng mián ǎo。',
+            examplePinyin: 'xīnniáng tóushàng dài zhe hónghuā， chuānzhe yījiàn hóng miánǎo。',
           },
           {
             id: 'hj2b-l15-w33',
@@ -19425,7 +19425,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cotton-padded jacket',
             exampleCn: '新娘穿着一件红棉袄。',
             exampleEn: 'The bride wears a red cotton-padded jacket.',
-            examplePinyin: 'xīn niáng chuān zhe yī jiàn hóng mián ǎo。',
+            examplePinyin: 'xīnniáng chuānzhe yījiàn hóng miánǎo。',
           },
           {
             id: 'hj2b-l15-w34',
@@ -19435,7 +19435,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bridegroom',
             exampleCn: '新郎是一个帅小伙儿。',
             exampleEn: 'The bridegroom is a handsome young man.',
-            examplePinyin: 'xīn láng shì yī gè shuài xiǎo huǒ ér。',
+            examplePinyin: 'xīnláng shì yígè shuàixiǎohuǒ ér。',
           },
           {
             id: 'hj2b-l15-w35',
@@ -19445,7 +19445,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'handsome',
             exampleCn: '这个小伙子真帅。',
             exampleEn: 'This young man is really handsome.',
-            examplePinyin: 'zhè gè xiǎo huǒ zi zhēn shuài。',
+            examplePinyin: 'zhège xiǎohuǒzi zhēn shuài。',
           },
           {
             id: 'hj2b-l15-w36',
@@ -19455,7 +19455,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to tie',
             exampleCn: '新郎系着一条红色的领带。',
             exampleEn: 'The bridegroom is tying a red necktie.',
-            examplePinyin: 'xīn láng xì zhe yī tiáo hóng sè de lǐng dài。',
+            examplePinyin: 'xīnláng xì zhe yītiáo hóngsè de lǐngdài。',
           },
           {
             id: 'hj2b-l15-w37',
@@ -19465,7 +19465,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'necktie',
             exampleCn: '新郎穿着西服，系着领带。',
             exampleEn: 'The bridegroom wears a suit and a necktie.',
-            examplePinyin: 'xīn láng chuān zhe xī fú，xì zhe lǐng dài。',
+            examplePinyin: 'xīnláng chuānzhe xīfú， xì zhe lǐngdài。',
           },
           {
             id: 'hj2b-l15-w38',
@@ -19475,7 +19475,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'warm-hearted; enthusiastic',
             exampleCn: '新娘热情地请客人吃糖。',
             exampleEn: 'The bride warmly invites the guests to eat candy.',
-            examplePinyin: 'xīn niáng rè qíng dì qǐng kè rén chī táng。',
+            examplePinyin: 'xīnniáng rèqíng dì qǐng kèrén chītáng。',
           },
           {
             id: 'hj2b-l15-w39',
@@ -19485,7 +19485,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'guest',
             exampleCn: '婚礼上来了很多客人。',
             exampleEn: 'Many guests came to the wedding.',
-            examplePinyin: 'hūn lǐ shàng lái le hěn duō kè rén。',
+            examplePinyin: 'hūnlǐ shànglái le hěnduō kèrén。',
           },
           {
             id: 'hj2b-l15-w40',
@@ -19495,7 +19495,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pour',
             exampleCn: '新郎忙着给客人倒喜酒。',
             exampleEn: 'The groom is busy pouring wedding wine for the guests.',
-            examplePinyin: 'xīn láng máng zhe gěi kè rén dào xǐ jiǔ。',
+            examplePinyin: 'xīnláng máng zhe gěi kèrén dào xǐjiǔ。',
           },
           {
             id: 'hj2b-l15-w41',
@@ -19505,7 +19505,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stop',
             exampleCn: '婚礼上孩子们不停地说着、笑着。',
             exampleEn: 'The children keep talking and laughing at the wedding.',
-            examplePinyin: 'hūn lǐ shàng hái zi men bù tíng dì shuō zhe、xiào zhe。',
+            examplePinyin: 'hūnlǐ shàng háizi men bùtíng dì shuō zhe、 xiào zhe。',
           },
           {
             id: 'hj2b-l15-w42',
@@ -19515,7 +19515,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'atmosphere; ambience',
             exampleCn: '婚礼上气氛非常热闹。',
             exampleEn: 'The atmosphere at the wedding is very lively.',
-            examplePinyin: 'hūn lǐ shàng qì fēn fēi cháng rè nào。',
+            examplePinyin: 'hūnlǐ shàng qìfēn fēicháng rènào。',
           },
         ],
       },
@@ -19533,7 +19533,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'more and more; increasingly',
             exampleCn: '等车的人越来越多了。',
             exampleEn: 'There are more and more people waiting for cars.',
-            examplePinyin: 'děng chē de rén yuè lái yuè duō le。',
+            examplePinyin: 'děng chē de rén yuèláiyuè duō le。',
           },
           {
             id: 'hj2b-l16-w2',
@@ -19543,7 +19543,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take a taxi',
             exampleCn: '咱们还是打的去吧，别坐公共汽车了。',
             exampleEn: 'Let\'s take a taxi, don\'t take the bus.',
-            examplePinyin: 'zán men hái shì dǎ de qù ba，bié zuò gōng gòng qì chē le。',
+            examplePinyin: 'zánmen háishì dǎ de qù ba， bié zuò gōnggòngqìchē le。',
           },
           {
             id: 'hj2b-l16-w3',
@@ -19553,7 +19553,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'vacant; unoccupied',
             exampleCn: '你看，那边正好开过来一辆空车。',
             exampleEn: 'Look, there\'s an empty car coming this way.',
-            examplePinyin: 'nǐ kàn，nà biān zhèng hǎo kāi guò lái yī liàng kōng chē。',
+            examplePinyin: 'nǐ kàn， nàbiān zhènghǎo kāi guòlái yīliàng kōngchē。',
           },
           {
             id: 'hj2b-l16-w4',
@@ -19563,7 +19563,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quadrangle, a traditional residential compound with houses around a square courtyard',
             exampleCn: '你家住的是四合院儿吗？',
             exampleEn: 'Do you live in a traditional courtyard house?',
-            examplePinyin: 'nǐ jiā zhù de shì sì hé yuàn ér ma？',
+            examplePinyin: 'nǐ jiāzhù de shì sìhéyuànér ma？',
           },
           {
             id: 'hj2b-l16-w5',
@@ -19573,7 +19573,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'yard; courtyard',
             exampleCn: '我家院子里种着一棵大枣树。',
             exampleEn: 'There is a big jujube tree planted in my courtyard.',
-            examplePinyin: 'wǒ jiā yuàn zi lǐ zhǒng zhe yī kē dà zǎo shù。',
+            examplePinyin: 'wǒjiā yuànzi lǐ zhǒng zhe yīkē dà zǎoshù。',
           },
           {
             id: 'hj2b-l16-w6',
@@ -19583,7 +19583,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to plant; to grow',
             exampleCn: '每年春天，我们都在院子里种一些花。',
             exampleEn: 'Every spring, we plant some flowers in the yard.',
-            examplePinyin: 'měi nián chūn tiān，wǒ men dōu zài yuàn zi lǐ zhǒng yī xiē huā。',
+            examplePinyin: 'měinián chūntiān， wǒmen dōu zài yuànzi lǐ zhǒng yīxiē huā。',
           },
           {
             id: 'hj2b-l16-w7',
@@ -19593,7 +19593,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for plants, etc.',
             exampleCn: '院子里的那棵枣树，是我小时候种的。',
             exampleEn: 'That jujube tree in the yard was planted when I was a child.',
-            examplePinyin: 'yuàn zi lǐ de nà kē zǎo shù，shì wǒ xiǎo shí hòu zhǒng de。',
+            examplePinyin: 'yuànzi lǐ de nà kē zǎoshù， shì wǒ xiǎoshíhòu zhǒng de。',
           },
           {
             id: 'hj2b-l16-w8',
@@ -19603,7 +19603,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'jujube; (Chinese) date',
             exampleCn: '这棵枣树结的枣又大又甜。',
             exampleEn: 'This jujube tree bears big, sweet dates.',
-            examplePinyin: 'zhè kē zǎo shù jié de zǎo yòu dà yòu tián。',
+            examplePinyin: 'zhè kē zǎoshù jié de zǎo yòu dà yòu tián。',
           },
           {
             id: 'hj2b-l16-w9',
@@ -19613,7 +19613,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to bear (fruit)',
             exampleCn: '这棵枣树秋天结的枣特别多。',
             exampleEn: 'This jujube tree bears especially many dates in autumn.',
-            examplePinyin: 'zhè kē zǎo shù qiū tiān jié de zǎo tè bié duō。',
+            examplePinyin: 'zhè kē zǎoshù qiūtiān jié de zǎo tèbié duō。',
           },
           {
             id: 'hj2b-l16-w10',
@@ -19623,7 +19623,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to taste',
             exampleCn: '今天请你们尝尝我家的红枣，可甜了。',
             exampleEn: 'Today I\'m inviting you to taste our dates, they\'re very sweet.',
-            examplePinyin: 'jīn tiān qǐng nǐ men cháng cháng wǒ jiā de hóng zǎo，kě tián le。',
+            examplePinyin: 'jīntiān qǐng nǐmen chángcháng wǒjiā de hóngzǎo， kě tián le。',
           },
           {
             id: 'hj2b-l16-w11',
@@ -19633,7 +19633,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweet',
             exampleCn: '我家的红枣可甜了。',
             exampleEn: 'Our dates are very sweet.',
-            examplePinyin: 'wǒ jiā de hóng zǎo kě tián le。',
+            examplePinyin: 'wǒjiā de hóngzǎo kě tián le。',
           },
           {
             id: 'hj2b-l16-w12',
@@ -19643,7 +19643,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the more... the more...',
             exampleCn: '我们越聊越高兴，一点儿也不想走。',
             exampleEn: 'The more we chatted, the happier we got, and we didn\'t want to leave at all.',
-            examplePinyin: 'wǒ men yuè liáo yuè gāo xīng，yī diǎn ér yě bù xiǎng zǒu。',
+            examplePinyin: 'wǒmen yuè liáo yuè gāoxìng， yìdiǎnér yě bùxiǎng zǒu。',
           },
           {
             id: 'hj2b-l16-w13',
@@ -19653,7 +19653,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the more... the more...',
             exampleCn: '我们的生活越来越好。',
             exampleEn: 'Our life is getting better and better.',
-            examplePinyin: 'wǒ men de shēng huó yuè lái yuè hǎo。',
+            examplePinyin: 'wǒmen de shēnghuó yuèláiyuè hǎo。',
           },
           {
             id: 'hj2b-l16-w14',
@@ -19663,7 +19663,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to construct; to build',
             exampleCn: '最近盖了很多住宅小区。',
             exampleEn: 'Recently many residential complexes have been built.',
-            examplePinyin: 'zuì jìn gài le hěn duō zhù zhái xiǎo qū。',
+            examplePinyin: 'zuìjìn gài le hěnduō zhùzháixiǎoqū。',
           },
           {
             id: 'hj2b-l16-w15',
@@ -19673,7 +19673,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'residence; dwelling',
             exampleCn: '现在城市里盖的大楼越来越多了。',
             exampleEn: 'More and more buildings are being built in the city now.',
-            examplePinyin: 'xiàn zài chéng shì lǐ gài de dà lóu yuè lái yuè duō le。',
+            examplePinyin: 'xiànzài chéngshì lǐ gài de dàlóu yuèláiyuè duō le。',
           },
           {
             id: 'hj2b-l16-w16',
@@ -19683,7 +19683,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'residential complex; housing estate',
             exampleCn: '我们也搬进新的住宅小区了。',
             exampleEn: 'We also moved into a new residential complex.',
-            examplePinyin: 'wǒ men yě bān jìn xīn de zhù zhái xiǎo qū le。',
+            examplePinyin: 'wǒmen yě bānjìn xīn de zhùzháixiǎoqū le。',
           },
           {
             id: 'hj2b-l16-w17',
@@ -19693,7 +19693,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to build; to construct',
             exampleCn: '我家附近新建了一个大商场。',
             exampleEn: 'A new big shopping mall was built near my home.',
-            examplePinyin: 'wǒ jiā fù jìn xīn jiàn le yī gè dà shāng chǎng。',
+            examplePinyin: 'wǒjiā fùjìn xīnjiàn le yígè dà shāngchǎng。',
           },
           {
             id: 'hj2b-l16-w18',
@@ -19703,7 +19703,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to move',
             exampleCn: '我们家也快要搬走了。',
             exampleEn: 'Our family is also about to move.',
-            examplePinyin: 'wǒ men jiā yě kuài yào bān zǒu le。',
+            examplePinyin: 'wǒmen jiā yě kuàiyào bānzǒu le。',
           },
           {
             id: 'hj2b-l16-w19',
@@ -19713,7 +19713,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sorry; regretful',
             exampleCn: '听说她家要搬走，我感到很遗憾。',
             exampleEn: 'Hearing her family is moving, I felt regretful.',
-            examplePinyin: 'tīng shuō tā jiā yào bān zǒu，wǒ gǎn dào hěn yí hàn。',
+            examplePinyin: 'tīngshuō tājiā yào bānzǒu， wǒ gǎndào hěn yíhàn。',
           },
           {
             id: 'hj2b-l16-w20',
@@ -19723,7 +19723,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be loath to use or part with; to grudge',
             exampleCn: '我虽然也舍不得离开我们家的小院儿，但是希望快点儿搬进现代化的楼房里去住。',
             exampleEn: 'Although I\'m reluctant to leave our small courtyard, I hope to move into a modern building soon.',
-            examplePinyin: 'wǒ suī rán yě shě bù dé lí kāi wǒ men jiā de xiǎo yuàn ér，dàn shì xī wàng kuài diǎn ér bān jìn xiàn dài huà de lóu fáng lǐ qù zhù。',
+            examplePinyin: 'wǒ suīrán yě shěbùdé líkāi wǒmen jiā de xiǎoyuàner， dànshì xīwàng kuàidiǎnér bānjìn xiàndàihuà de lóufáng lǐ qù zhù。',
           },
           {
             id: 'hj2b-l16-w21',
@@ -19733,7 +19733,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to leave',
             exampleCn: '我舍不得离开我们家的小院儿。',
             exampleEn: 'I\'m reluctant to leave our small courtyard.',
-            examplePinyin: 'wǒ shě bù dé lí kāi wǒ men jiā de xiǎo yuàn ér。',
+            examplePinyin: 'wǒ shěbùdé líkāi wǒmen jiā de xiǎoyuàner。',
           },
           {
             id: 'hj2b-l16-w22',
@@ -19743,7 +19743,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to modernize',
             exampleCn: '希望快点儿搬进现代化的楼房里去住。',
             exampleEn: 'Hoping to move into a modern building soon.',
-            examplePinyin: 'xī wàng kuài diǎn ér bān jìn xiàn dài huà de lóu fáng lǐ qù zhù。',
+            examplePinyin: 'xīwàng kuàidiǎnér bānjìn xiàndàihuà de lóufáng lǐ qù zhù。',
           },
           {
             id: 'hj2b-l16-w23',
@@ -19753,7 +19753,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'casual; informal',
             exampleCn: '今天你们随便谈谈自己的感想。',
             exampleEn: 'Today you can casually talk about your feelings.',
-            examplePinyin: 'jīn tiān nǐ men suí biàn tán tán zì jǐ de gǎn xiǎng。',
+            examplePinyin: 'jīntiān nǐmen suíbiàn tántán zìjǐ de gǎnxiǎng。',
           },
           {
             id: 'hj2b-l16-w24',
@@ -19763,7 +19763,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'impressions; thoughts',
             exampleCn: '来中国以后你有什么感想？',
             exampleEn: 'What are your impressions after coming to China?',
-            examplePinyin: 'lái zhōng guó yǐ hòu nǐ yǒu shén me gǎn xiǎng？',
+            examplePinyin: 'lái zhōngguó yǐhòu nǐ yǒu shénme gǎnxiǎng？',
           },
           {
             id: 'hj2b-l16-w25',
@@ -19773,7 +19773,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to know from experience; understanding; feeling',
             exampleCn: '你对在北京的生活有什么体会？',
             exampleEn: 'What\'s your understanding of life in Beijing?',
-            examplePinyin: 'nǐ duì zài běi jīng de shēng huó yǒu shén me tǐ huì？',
+            examplePinyin: 'nǐ duì zài běijīng de shēnghuó yǒu shénme tǐhuì？',
           },
           {
             id: 'hj2b-l16-w26',
@@ -19783,7 +19783,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'opinion; complaint',
             exampleCn: '你有什么意见也可以提。',
             exampleEn: 'You can also give your opinions.',
-            examplePinyin: 'nǐ yǒu shén me yì jiàn yě kě yǐ tí。',
+            examplePinyin: 'nǐ yǒu shénme yìjiàn yě kěyǐ tí。',
           },
           {
             id: 'hj2b-l16-w27',
@@ -19793,7 +19793,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'advice; suggestion; to advise; to suggest',
             exampleCn: '老师，我建议咱们开一个新年联欢会。',
             exampleEn: 'Teacher, I suggest we hold a New Year party.',
-            examplePinyin: 'lǎo shī，wǒ jiàn yì zán men kāi yī gè xīn nián lián huān huì。',
+            examplePinyin: 'lǎoshī， wǒ jiànyì zánmen kāi yígè xīnnián liánhuānhuì。',
           },
           {
             id: 'hj2b-l16-w28',
@@ -19803,7 +19803,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to raise; to bring up',
             exampleCn: '你想提什么建议都可以。',
             exampleEn: 'You can raise any suggestions you want.',
-            examplePinyin: 'nǐ xiǎng tí shén me jiàn yì dōu kě yǐ。',
+            examplePinyin: 'nǐ xiǎng tí shénme jiànyì dōu kěyǐ。',
           },
           {
             id: 'hj2b-l16-w29',
@@ -19813,7 +19813,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go out; to leave home',
             exampleCn: '新年到了，人们喜欢出门买礼物。',
             exampleEn: 'New Year is here, people like to go out to buy gifts.',
-            examplePinyin: 'xīn nián dào le，rén men xǐ huān chū mén mǎi lǐ wù。',
+            examplePinyin: 'xīnnián dào le， rénmen xǐhuān chūmén mǎi lǐwù。',
           },
           {
             id: 'hj2b-l16-w30',
@@ -19823,7 +19823,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'people',
             exampleCn: '新年的时候，人们都会给朋友送礼物。',
             exampleEn: 'At New Year, people give gifts to their friends.',
-            examplePinyin: 'xīn nián de shí hòu，rén men dōu huì gěi péng yǒu sòng lǐ wù。',
+            examplePinyin: 'xīnnián de shíhòu， rénmen dōu huì gěi péngyǒu sònglǐwù。',
           },
           {
             id: 'hj2b-l16-w31',
@@ -19833,7 +19833,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'rich; plentiful',
             exampleCn: '我觉得人们的生活一天比一天丰富。',
             exampleEn: 'I think people\'s lives are getting richer day by day.',
-            examplePinyin: 'wǒ jué dé rén men de shēng huó yī tiān bǐ yī tiān fēng fù。',
+            examplePinyin: 'wǒ juéde rénmen de shēnghuó yītiān bǐ yītiān fēngfù。',
           },
           {
             id: 'hj2b-l16-w32',
@@ -19843,7 +19843,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to dress up; to make up',
             exampleCn: '年轻人越来越会打扮。',
             exampleEn: 'Young people know better and better how to dress up.',
-            examplePinyin: 'nián qīng rén yuè lái yuè huì dǎ bàn。',
+            examplePinyin: 'niánqīngrén yuèláiyuè huì dǎbàn。',
           },
           {
             id: 'hj2b-l16-w33',
@@ -19853,7 +19853,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'new year; New Year\'s Day',
             exampleCn: '新年到了，人们都买圣诞树。',
             exampleEn: 'New Year is here, people all buy Christmas trees.',
-            examplePinyin: 'xīn nián dào le，rén men dōu mǎi shèng dàn shù。',
+            examplePinyin: 'xīnnián dào le， rénmen dōu mǎi shèngdànshù。',
           },
           {
             id: 'hj2b-l16-w34',
@@ -19863,7 +19863,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Christmas tree',
             exampleCn: '不少商店都摆着圣诞树，装饰得非常漂亮。',
             exampleEn: 'Many shops have Christmas trees, decorated very beautifully.',
-            examplePinyin: 'bù shǎo shāng diàn dōu bǎi zhe shèng dàn shù，zhuāng shì dé fēi cháng piāo liàng。',
+            examplePinyin: 'bùshǎo shāngdiàn dōu bǎi zhe shèngdànshù， zhuāngshì dé fēicháng piàoliàng。',
           },
           {
             id: 'hj2b-l16-w35',
@@ -19873,7 +19873,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to decorate; decoration',
             exampleCn: '商店里用各种小饰物把圣诞树装饰得非常漂亮。',
             exampleEn: 'The shop decorates the Christmas tree with various small ornaments.',
-            examplePinyin: 'shāng diàn lǐ yòng gè zhǒng xiǎo shì wù bǎ shèng dàn shù zhuāng shì dé fēi cháng piāo liàng。',
+            examplePinyin: 'shāngdiàn lǐ yòng gèzhǒng xiǎo shìwù bǎ shèngdànshù zhuāngshì dé fēicháng piàoliàng。',
           },
           {
             id: 'hj2b-l16-w36',
@@ -19883,7 +19883,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'present; gift',
             exampleCn: '新年到了，人们买礼物送给朋友。',
             exampleEn: 'New Year is here, people buy gifts for friends.',
-            examplePinyin: 'xīn nián dào le，rén men mǎi lǐ wù sòng gěi péng yǒu。',
+            examplePinyin: 'xīnnián dào le， rénmen mǎi lǐwù sònggěi péngyǒu。',
           },
           {
             id: 'hj2b-l16-w37',
@@ -19893,7 +19893,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy; joyous',
             exampleCn: '新年过得真欢乐。',
             exampleEn: 'New Year was really happy.',
-            examplePinyin: 'xīn nián guò dé zhēn huān lè。',
+            examplePinyin: 'xīnnián guò dé zhēn huānlè。',
           },
           {
             id: 'hj2b-l16-w38',
@@ -19903,7 +19903,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'festival; holiday',
             exampleCn: '圣诞节和春节都是重要的节日。',
             exampleEn: 'Christmas and Spring Festival are both important holidays.',
-            examplePinyin: 'shèng dàn jié hé chūn jié dōu shì zhòng yào de jié rì。',
+            examplePinyin: 'shèngdànjié hé chūnjié dōu shì zhòngyào de jiérì。',
           },
           {
             id: 'hj2b-l16-w39',
@@ -19913,7 +19913,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hold (a meeting, symposium, etc.)',
             exampleCn: '咱们开一个新年联欢会吧。',
             exampleEn: 'Let\'s hold a New Year party.',
-            examplePinyin: 'zán men kāi yī gè xīn nián lián huān huì ba。',
+            examplePinyin: 'zánmen kāi yígè xīnnián liánhuānhuì ba。',
           },
           {
             id: 'hj2b-l16-w40',
@@ -19923,7 +19923,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'get-together; party',
             exampleCn: '新年到了，咱们开一个联欢会吧。',
             exampleEn: 'New Year is here, let\'s hold a party.',
-            examplePinyin: 'xīn nián dào le，zán men kāi yī gè lián huān huì ba。',
+            examplePinyin: 'xīnnián dào le， zánmen kāi yígè liánhuānhuì ba。',
           },
         ],
       },
@@ -19941,7 +19941,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to taste',
             exampleCn: '晚会上要品尝各国的特色菜。',
             exampleEn: 'At the party we\'ll taste specialty dishes from various countries.',
-            examplePinyin: 'wǎn huì shàng yào pǐn cháng gè guó de tè sè cài。',
+            examplePinyin: 'wǎnhuì shàng yào pǐncháng gèguó de tèsècài。',
           },
           {
             id: 'hj2b-l17-w2',
@@ -19951,7 +19951,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'salient feature; hallmark',
             exampleCn: '我们要带自己亲手做的特色菜。',
             exampleEn: 'We want to bring our own specialty dishes we made ourselves.',
-            examplePinyin: 'wǒ men yào dài zì jǐ qīn shǒu zuò de tè sè cài。',
+            examplePinyin: 'wǒmen yào dài zìjǐ qīnshǒuzuò de tèsècài。',
           },
           {
             id: 'hj2b-l17-w3',
@@ -19961,7 +19961,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'class monitor',
             exampleCn: '班长要求我们那天把自己亲手做的菜带到晚会上来。',
             exampleEn: 'The class monitor asked us to bring the dishes we made ourselves to the party.',
-            examplePinyin: 'bān zhǎng yào qiú wǒ men nà tiān bǎ zì jǐ qīn shǒu zuò de cài dài dào wǎn huì shàng lái。',
+            examplePinyin: 'bānzhǎng yāoqiú wǒmen nàtiān bǎ zìjǐ qīnshǒuzuò de cài dàidào wǎnhuì shànglái。',
           },
           {
             id: 'hj2b-l17-w4',
@@ -19971,7 +19971,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used when the object is placed before the verb and is the recipient of the action',
             exampleCn: '班长要求我们把自己亲手做的菜带到晚会上来。',
             exampleEn: 'The class monitor asked us to bring the dishes we made to the party.',
-            examplePinyin: 'bān zhǎng yào qiú wǒ men bǎ zì jǐ qīn shǒu zuò de cài dài dào wǎn huì shàng lái。',
+            examplePinyin: 'bānzhǎng yāoqiú wǒmen bǎ zìjǐ qīnshǒuzuò de cài dàidào wǎnhuì shànglái。',
           },
           {
             id: 'hj2b-l17-w5',
@@ -19981,7 +19981,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'with one\'s own hands; in person',
             exampleCn: '这是我们班长亲手做的特色菜，你尝尝。',
             exampleEn: 'This is the specialty dish made by our class monitor himself, try it.',
-            examplePinyin: 'zhè shì wǒ men bān zhǎng qīn shǒu zuò de tè sè cài，nǐ cháng cháng。',
+            examplePinyin: 'zhè shì wǒmen bānzhǎng qīnshǒuzuò de tèsècài， nǐ chángcháng。',
           },
           {
             id: 'hj2b-l17-w6',
@@ -19991,7 +19991,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'had better; it would be best',
             exampleCn: '同学们最好都准备一份儿特色菜。',
             exampleEn: 'Students had better each prepare a specialty dish.',
-            examplePinyin: 'tóng xué men zuì hǎo dōu zhǔn bèi yī fèn ér tè sè cài。',
+            examplePinyin: 'tóngxuémen zuìhǎo dōu zhǔnbèi yīfèn ér tèsècài。',
           },
           {
             id: 'hj2b-l17-w7',
@@ -20001,7 +20001,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'it',
             exampleCn: '爱德华昨天从商店买回来一棵圣诞树，我们把它摆在了教室的前边。',
             exampleEn: 'Edward bought a Christmas tree from the store yesterday, and we placed it at the front of the classroom.',
-            examplePinyin: 'ài dé huá zuó tiān cóng shāng diàn mǎi huí lái yī kē shèng dàn shù，wǒ men bǎ tā bǎi zài le jiào shì de qián biān。',
+            examplePinyin: 'àidéhuá zuótiān cóng shāngdiàn mǎihuílái yīkē shèngdànshù， wǒmen bǎ tā bǎizài le jiàoshì de qiánbiān。',
           },
           {
             id: 'hj2b-l17-w8',
@@ -20011,7 +20011,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fix up; to arrange; to decorate',
             exampleCn: '我们最好借一个大教室，把它布置成会场。',
             exampleEn: 'We should borrow a big classroom, and decorate it as a venue.',
-            examplePinyin: 'wǒ men zuì hǎo jiè yī gè dà jiào shì，bǎ tā bù zhì chéng huì chǎng。',
+            examplePinyin: 'wǒmen zuìhǎo jiè yígè dà jiàoshì， bǎ tā bùzhì chéng huìchǎng。',
           },
           {
             id: 'hj2b-l17-w9',
@@ -20021,7 +20021,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'meeting venue',
             exampleCn: '玛丽说："我们最好借一个大教室，把它布置成会场。"',
             exampleEn: 'Mary said: "We should borrow a big classroom, and decorate it as a venue."',
-            examplePinyin: 'mǎ lì shuō："wǒ men zuì hǎo jiè yī gè dà jiào shì，bǎ tā bù zhì chéng huì chǎng。"',
+            examplePinyin: 'mǎlì shuō： " wǒmen zuìhǎo jiè yígè dà jiàoshì， bǎ tā bùzhì chéng huìchǎng。 "',
           },
           {
             id: 'hj2b-l17-w10',
@@ -20031,7 +20031,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'custodian; manager',
             exampleCn: '前天，我们找到管理员，告诉了她借教室的事儿。',
             exampleEn: 'The day before yesterday, we found the manager and told her about borrowing the classroom.',
-            examplePinyin: 'qián tiān，wǒ men zhǎo dào guǎn lǐ yuán，gào sù le tā jiè jiào shì de shì ér。',
+            examplePinyin: 'qiántiān， wǒmen zhǎodào guǎnlǐyuán， gàosù le tā jiè jiàoshì de shìr。',
           },
           {
             id: 'hj2b-l17-w11',
@@ -20041,7 +20041,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to manage',
             exampleCn: '这间教室由他管理。',
             exampleEn: 'This classroom is managed by him.',
-            examplePinyin: 'zhè jiān jiào shì yóu tā guǎn lǐ。',
+            examplePinyin: 'zhè jiān jiàoshì yóu tā guǎnlǐ。',
           },
           {
             id: 'hj2b-l17-w12',
@@ -20051,7 +20051,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to tell; to inform; to let know',
             exampleCn: '我们告诉她借教室的事儿。',
             exampleEn: 'We told her about borrowing the classroom.',
-            examplePinyin: 'wǒ men gào sù tā jiè jiào shì de shì ér。',
+            examplePinyin: 'wǒmen gàosù tā jiè jiàoshì de shìr。',
           },
           {
             id: 'hj2b-l17-w13',
@@ -20061,7 +20061,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to agree; to permit',
             exampleCn: '她答应把那个大教室借给我们。',
             exampleEn: 'She agreed to lend us that big classroom.',
-            examplePinyin: 'tā dá yīng bǎ nà gè dà jiào shì jiè gěi wǒ men。',
+            examplePinyin: 'tā dāyìng bǎ nàge dà jiàoshì jiègěi wǒmen。',
           },
           {
             id: 'hj2b-l17-w14',
@@ -20071,7 +20071,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sweep; to clean',
             exampleCn: '服务员把教室打扫了一下儿。',
             exampleEn: 'The cleaner swept the classroom.',
-            examplePinyin: 'fú wù yuán bǎ jiào shì dǎ sǎo le yī xià ér。',
+            examplePinyin: 'fúwùyuán bǎ jiàoshì dǎsǎo le yīxià ér。',
           },
           {
             id: 'hj2b-l17-w15',
@@ -20081,7 +20081,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'window',
             exampleCn: '昨天服务员把门和窗户也都擦得干干净净的。',
             exampleEn: 'Yesterday the cleaner wiped the doors and windows clean.',
-            examplePinyin: 'zuó tiān fú wù yuán bǎ mén hé chuāng hù yě dōu cā dé gàn gàn jìng jìng de。',
+            examplePinyin: 'zuótiān fúwùyuán bǎmén hé chuānghù yě dōu cā dé gāngānjìngjìng de。',
           },
           {
             id: 'hj2b-l17-w16',
@@ -20091,7 +20091,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'window',
             exampleCn: '房间里有两扇窗。',
             exampleEn: 'There are two windows in the room.',
-            examplePinyin: 'fáng jiān lǐ yǒu liǎng shàn chuāng。',
+            examplePinyin: 'fángjiān lǐ yǒu liǎngshàn chuāng。',
           },
           {
             id: 'hj2b-l17-w17',
@@ -20101,7 +20101,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wipe; to rub',
             exampleCn: '服务员把门和窗户都擦得干干净净的。',
             exampleEn: 'The cleaner wiped the doors and windows clean.',
-            examplePinyin: 'fú wù yuán bǎ mén hé chuāng hù dōu cā dé gàn gàn jìng jìng de。',
+            examplePinyin: 'fúwùyuán bǎmén hé chuānghù dōu cā dé gāngānjìngjìng de。',
           },
           {
             id: 'hj2b-l17-w18',
@@ -20111,7 +20111,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'table; desk',
             exampleCn: '服务员把桌子也擦得干干净净的。',
             exampleEn: 'The cleaner wiped the tables clean too.',
-            examplePinyin: 'fú wù yuán bǎ zhuō zi yě cā dé gàn gàn jìng jìng de。',
+            examplePinyin: 'fúwùyuán bǎ zhuōzi yě cā dé gāngānjìngjìng de。',
           },
           {
             id: 'hj2b-l17-w19',
@@ -20121,7 +20121,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'circle; ring',
             exampleCn: '我们把桌子摆成一个大圆圈儿。',
             exampleEn: 'We put the tables in a big circle.',
-            examplePinyin: 'wǒ men bǎ zhuō zi bǎi chéng yī gè dà yuán quān ér。',
+            examplePinyin: 'wǒmen bǎ zhuōzi bǎi chéng yígè dà yuánquān ér。',
           },
           {
             id: 'hj2b-l17-w20',
@@ -20131,7 +20131,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'blackboard',
             exampleCn: '爱德华把"圣诞—新年快乐"几个大字贴在了黑板上。',
             exampleEn: 'Edward put the big characters "Merry Christmas & Happy New Year" on the blackboard.',
-            examplePinyin: 'ài dé huá bǎ"shèng dàn—xīn nián kuài lè"jǐ gè dà zì tiē zài le hēi bǎn shàng。',
+            examplePinyin: 'àidéhuá bǎ " shèngdàn — xīnniánkuàilè " jǐgè dàzì tiē zài le hēibǎn shàng。',
           },
           {
             id: 'hj2b-l17-w21',
@@ -20141,7 +20141,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stereo system',
             exampleCn: '把音响也搬到教室里来了。',
             exampleEn: 'They also brought the stereo system into the classroom.',
-            examplePinyin: 'bǎ yīn xiǎng yě bān dào jiào shì lǐ lái le。',
+            examplePinyin: 'bǎ yīnxiǎng yě bān dào jiàoshì lǐ lái le。',
           },
           {
             id: 'hj2b-l17-w22',
@@ -20151,7 +20151,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'colored light/lamp',
             exampleCn: '我们用彩灯和彩带把圣诞树装饰得非常漂亮。',
             exampleEn: 'We used colored lights and ribbons to decorate the Christmas tree beautifully.',
-            examplePinyin: 'wǒ men yòng cǎi dēng hé cǎi dài bǎ shèng dàn shù zhuāng shì dé fēi cháng piāo liàng。',
+            examplePinyin: 'wǒmen yòng cǎidēng hé cǎidài bǎ shèngdànshù zhuāngshì dé fēicháng piàoliàng。',
           },
           {
             id: 'hj2b-l17-w23',
@@ -20161,7 +20161,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'colored ribbon/streamer',
             exampleCn: '用彩灯和彩带把圣诞树装饰得非常漂亮。',
             exampleEn: 'Decorated the Christmas tree beautifully with colored lights and ribbons.',
-            examplePinyin: 'yòng cǎi dēng hé cǎi dài bǎ shèng dàn shù zhuāng shì dé fēi cháng piāo liàng。',
+            examplePinyin: 'yòng cǎidēng hé cǎidài bǎ shèngdànshù zhuāngshì dé fēicháng piàoliàng。',
           },
           {
             id: 'hj2b-l17-w24',
@@ -20171,7 +20171,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'share; portion; part',
             exampleCn: '同学们还为她准备了一份生日礼物。',
             exampleEn: 'The students also prepared a birthday gift for her.',
-            examplePinyin: 'tóng xué men hái wèi tā zhǔn bèi le yī fèn shēng rì lǐ wù。',
+            examplePinyin: 'tóngxuémen hái wèi tā zhǔnbèi le yīfèn shēngrìlǐwù。',
           },
           {
             id: 'hj2b-l17-w25',
@@ -20181,7 +20181,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pleasant surprise',
             exampleCn: '晚会上再把生日礼物送给她，给她一个惊喜。',
             exampleEn: 'Let\'s give her the birthday gift at the party as a pleasant surprise.',
-            examplePinyin: 'wǎn huì shàng zài bǎ shēng rì lǐ wù sòng gěi tā，gěi tā yī gè jīng xǐ。',
+            examplePinyin: 'wǎnhuì shàng zài bǎ shēngrìlǐwù sònggěi tā， gěi tā yígè jīngxǐ。',
           },
           {
             id: 'hj2b-l17-w26',
@@ -20191,7 +20191,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for paintings, calligraphy works, etc.',
             exampleCn: '王老师送她一幅水仙画儿。',
             exampleEn: 'Mr. Wang gave her a narcissus painting.',
-            examplePinyin: 'wáng lǎo shī sòng tā yī fú shuǐ xiān huà ér。',
+            examplePinyin: 'wánglǎoshī sòng tā yīfú shuǐxiān huàr。',
           },
           {
             id: 'hj2b-l17-w27',
@@ -20201,7 +20201,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'narcissus',
             exampleCn: '水仙开花了，满屋都是香味儿。',
             exampleEn: 'The narcissus has bloomed, the whole room is full of its fragrance.',
-            examplePinyin: 'shuǐ xiān kāi huā le，mǎn wū dōu shì xiāng wèi ér。',
+            examplePinyin: 'shuǐxiān kāihuā le， mǎnwū dōu shì xiāngwèiér。',
           },
           {
             id: 'hj2b-l17-w28',
@@ -20211,7 +20211,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to bloom',
             exampleCn: '水仙开得可好看了。',
             exampleEn: 'The narcissus bloomed beautifully.',
-            examplePinyin: 'shuǐ xiān kāi dé kě hǎo kàn le。',
+            examplePinyin: 'shuǐxiān kāi dé kě hǎokàn le。',
           },
           {
             id: 'hj2b-l17-w29',
@@ -20221,7 +20221,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happiness; good fortune; blessing',
             exampleCn: '过春节的时候，差不多家家都贴"福"字。',
             exampleEn: 'At Spring Festival, almost every family pastes the "fu" (fortune) character.',
-            examplePinyin: 'guò chūn jié de shí hòu，chà bù duō jiā jiā dōu tiē"fú"zì。',
+            examplePinyin: 'guò chūnjié de shíhòu， chàbuduō jiājiā dōu tiē " fú " zì。',
           },
           {
             id: 'hj2b-l17-w30',
@@ -20231,7 +20231,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'word; character',
             exampleCn: '老师把"福"字写成了"旺"字。',
             exampleEn: 'The teacher wrote the "fu" character as the "wang" character.',
-            examplePinyin: 'lǎo shī bǎ"fú"zì xiě chéng le"wàng"zì。',
+            examplePinyin: 'lǎoshī bǎ " fú " zì xiěchéng le " wàng " zì。',
           },
           {
             id: 'hj2b-l17-w31',
@@ -20241,7 +20241,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'antithetical couplet',
             exampleCn: '王老师说："把你写的对联儿也贴上去吧。"',
             exampleEn: 'Mr. Wang said: "Put up the couplet you wrote too."',
-            examplePinyin: 'wáng lǎo shī shuō："bǎ nǐ xiě de duì lián ér yě tiē shàng qù ba。"',
+            examplePinyin: 'wánglǎoshī shuō： " bǎ nǐ xiě de duìlián ér yě tiēshàngqù ba。 "',
           },
           {
             id: 'hj2b-l17-w32',
@@ -20251,7 +20251,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(new) spring; Lunar New Year and the following days',
             exampleCn: '王老师说："新年新春吉祥，百行百业兴旺。"',
             exampleEn: 'Mr. Wang said: "May the new year and new spring bring auspiciousness, and all industries prosper."',
-            examplePinyin: 'wáng lǎo shī shuō："xīn nián xīn chūn jí xiáng，bǎi xíng bǎi yè xīng wàng。"',
+            examplePinyin: 'wánglǎoshī shuō： " xīnnián xīnchūn jíxiáng， bǎixíng bǎiyèxīngwàng。 "',
           },
           {
             id: 'hj2b-l17-w33',
@@ -20261,7 +20261,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'auspicious; lucky',
             exampleCn: '新年新春吉祥。',
             exampleEn: 'May the new year and new spring bring auspiciousness.',
-            examplePinyin: 'xīn nián xīn chūn jí xiáng。',
+            examplePinyin: 'xīnnián xīnchūn jíxiáng。',
           },
           {
             id: 'hj2b-l17-w34',
@@ -20271,7 +20271,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'trade; profession',
             exampleCn: '百行百业兴旺。',
             exampleEn: 'May all trades and professions prosper.',
-            examplePinyin: 'bǎi xíng bǎi yè xīng wàng。',
+            examplePinyin: 'bǎixíng bǎiyèxīngwàng。',
           },
           {
             id: 'hj2b-l17-w35',
@@ -20281,7 +20281,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'prosperous',
             exampleCn: '祝大家百行百业兴旺！',
             exampleEn: 'May all trades and professions prosper!',
-            examplePinyin: 'zhù dà jiā bǎi xíng bǎi yè xīng wàng！',
+            examplePinyin: 'zhù dàjiā bǎixíng bǎiyèxīngwàng！',
           },
           {
             id: 'hj2b-l17-w36',
@@ -20291,7 +20291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(expressing realization or understanding) oh',
             exampleCn: '哦，原来是这么写的。',
             exampleEn: 'Oh, that\'s how it should be written.',
-            examplePinyin: 'ó，yuán lái shì zhè me xiě de。',
+            examplePinyin: 'ó， yuánlái shì zhème xiě de。',
           },
           {
             id: 'hj2b-l17-w37',
@@ -20301,7 +20301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(expressing agreement) right; exactly',
             exampleCn: '哦，可不是嘛。',
             exampleEn: 'Oh, exactly.',
-            examplePinyin: 'ó，kě bù shì ma。',
+            examplePinyin: 'ó， kěbúshì ma。',
           },
           {
             id: 'hj2b-l17-w38',
@@ -20311,7 +20311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'careful; attentive',
             exampleCn: '田芳说："你仔细看看，认不认识？"',
             exampleEn: 'Tian Fang said: "Look carefully, do you recognize it?"',
-            examplePinyin: 'tián fāng shuō："nǐ zǎi xì kàn kàn，rèn bù rèn shí？"',
+            examplePinyin: 'tián fāng shuō： " nǐ zǐxì kànkàn， rèn bù rènshí？ "',
           },
           {
             id: 'hj2b-l17-w39',
@@ -20321,7 +20321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happiness; happy; fortunate',
             exampleCn: '家家都贴"福"字，意思是幸福到了。',
             exampleEn: 'Every family pastes the "fu" character, meaning happiness has arrived.',
-            examplePinyin: 'jiā jiā dōu tiē"fú"zì，yì sī shì xìng fú dào le。',
+            examplePinyin: 'jiājiā dōu tiē " fú " zì， yìsi shì xìngfú dào le。',
           },
           {
             id: 'hj2b-l17-w40',
@@ -20331,7 +20331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to invert; to turn upside down',
             exampleCn: '我们把"福"字倒着贴在门上，"福倒了"就是"福到了"。',
             exampleEn: 'We paste the "fu" character upside down on the door; "fu is inverted" means "fortune has arrived".',
-            examplePinyin: 'wǒ men bǎ"fú"zì dào zhe tiē zài mén shàng，"fú dào le"jiù shì"fú dào le"。',
+            examplePinyin: 'wǒmen bǎ " fú " zì dào zhe tiē zài ménshàng， " fú dào le " jiùshì " fú dào le "。',
           },
           {
             id: 'hj2b-l17-w41',
@@ -20351,7 +20351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chair',
             exampleCn: '把"福"字倒着贴在椅子上。',
             exampleEn: 'Paste the "fu" character upside down on the chair.',
-            examplePinyin: 'bǎ"fú"zì dào zhe tiē zài yǐ zi shàng。',
+            examplePinyin: 'bǎ " fú " zì dào zhe tiē zài yǐzi shàng。',
           },
           {
             id: 'hj2b-l17-w43',
@@ -20361,7 +20361,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sofa',
             exampleCn: '把"福"字倒着贴在沙发上。',
             exampleEn: 'Paste the "fu" character upside down on the sofa.',
-            examplePinyin: 'bǎ"fú"zì dào zhe tiē zài shā fā shàng。',
+            examplePinyin: 'bǎ " fú " zì dào zhe tiē zài shāfā shàng。',
           },
           {
             id: 'hj2b-l17-w44',
@@ -20371,7 +20371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'refrigerator',
             exampleCn: '把"福"字倒着贴在冰箱上。',
             exampleEn: 'Paste the "fu" character upside down on the fridge.',
-            examplePinyin: 'bǎ"fú"zì dào zhe tiē zài bīng xiāng shàng。',
+            examplePinyin: 'bǎ " fú " zì dào zhe tiē zài bīngxiāng shàng。',
           },
           {
             id: 'hj2b-l17-w45',
@@ -20381,7 +20381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'washing machine',
             exampleCn: '把"福"字倒着贴在洗衣机上。',
             exampleEn: 'Paste the "fu" character upside down on the washing machine.',
-            examplePinyin: 'bǎ"fú"zì dào zhe tiē zài xǐ yī jī shàng。',
+            examplePinyin: 'bǎ " fú " zì dào zhe tiē zài xǐyījī shàng。',
           },
           {
             id: 'hj2b-l17-w46',
@@ -20391,7 +20391,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'air conditioner',
             exampleCn: '把"福"字倒着贴在空调上。',
             exampleEn: 'Paste the "fu" character upside down on the air conditioner.',
-            examplePinyin: 'bǎ"fú"zì dào zhe tiē zài kōng diào shàng。',
+            examplePinyin: 'bǎ " fú " zì dào zhe tiē zài kōngtiáo shàng。',
           },
         ],
       },
@@ -20409,7 +20409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to handle; to go through',
             exampleCn: '我们先去办理登机手续。',
             exampleEn: 'Let\'s go handle the boarding procedures first.',
-            examplePinyin: 'wǒ men xiān qù bàn lǐ dēng jī shǒu xù。',
+            examplePinyin: 'wǒmen xiān qù bànlǐ dēngjī shǒuxù。',
           },
           {
             id: 'hj2b-l18-w2',
@@ -20419,7 +20419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to board a plane',
             exampleCn: '我们在办理登机手续。',
             exampleEn: 'We are handling the boarding procedures.',
-            examplePinyin: 'wǒ men zài bàn lǐ dēng jī shǒu xù。',
+            examplePinyin: 'wǒmen zài bànlǐ dēngjī shǒuxù。',
           },
           {
             id: 'hj2b-l18-w3',
@@ -20429,7 +20429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'procedures; formalities',
             exampleCn: '办理登机手续要带护照和机票。',
             exampleEn: 'Handling boarding procedures requires passport and air ticket.',
-            examplePinyin: 'bàn lǐ dēng jī shǒu xù yào dài hù zhào hé jī piào。',
+            examplePinyin: 'bànlǐ dēngjī shǒuxù yào dài hùzhào hé jīpiào。',
           },
           {
             id: 'hj2b-l18-w4',
@@ -20439,7 +20439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'baggage; luggage',
             exampleCn: '把行李托运了。',
             exampleEn: 'Consigned the baggage.',
-            examplePinyin: 'bǎ xíng lǐ tuō yùn le。',
+            examplePinyin: 'bǎ xínglǐ tuōyùn le。',
           },
           {
             id: 'hj2b-l18-w5',
@@ -20449,7 +20449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to consign for shipment; to check in (baggage)',
             exampleCn: '哪个箱子要托运？',
             exampleEn: 'Which suitcase needs to be checked in?',
-            examplePinyin: 'nǎ gè xiāng zi yào tuō yùn？',
+            examplePinyin: 'nǎge xiāngzi yào tuōyùn？',
           },
           {
             id: 'hj2b-l18-w6',
@@ -20459,7 +20459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'passport',
             exampleCn: '服务员请关建平把护照和机票给她。',
             exampleEn: 'The clerk asked Guan Jianping to give her the passport and air ticket.',
-            examplePinyin: 'fú wù yuán qǐng guān jiàn píng bǎ hù zhào hé jī piào gěi tā。',
+            examplePinyin: 'fúwùyuán qǐng guān jiànpíng bǎ hùzhào hé jīpiào gěi tā。',
           },
           {
             id: 'hj2b-l18-w7',
@@ -20469,7 +20469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'air ticket',
             exampleCn: '请把护照和机票给我。',
             exampleEn: 'Please give me your passport and air ticket.',
-            examplePinyin: 'qǐng bǎ hù zhào hé jī piào gěi wǒ。',
+            examplePinyin: 'qǐng bǎ hùzhào hé jīpiào gěi wǒ。',
           },
           {
             id: 'hj2b-l18-w8',
@@ -20479,7 +20479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ticket',
             exampleCn: '登机牌儿也是一种票。',
             exampleEn: 'A boarding pass is also a kind of ticket.',
-            examplePinyin: 'dēng jī pái ér yě shì yī zhǒng piào。',
+            examplePinyin: 'dēngjīpái ér yě shì yīzhǒng piào。',
           },
           {
             id: 'hj2b-l18-w9',
@@ -20489,7 +20489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'boarding pass',
             exampleCn: '这是您的登机牌儿，请拿好。',
             exampleEn: 'Here is your boarding pass, please keep it well.',
-            examplePinyin: 'zhè shì nín de dēng jī pái ér，qǐng ná hǎo。',
+            examplePinyin: 'zhè shì nín de dēngjīpái ér， qǐng ná hǎo。',
           },
           {
             id: 'hj2b-l18-w10',
@@ -20499,7 +20499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to load; to pack; to hold',
             exampleCn: '相机里还没装电池呢。',
             exampleEn: 'There are no batteries in the camera yet.',
-            examplePinyin: 'xiāng jī lǐ hái méi zhuāng diàn chí ne。',
+            examplePinyin: 'xiàngjī lǐ hái méi zhuāng diànchí ne。',
           },
           {
             id: 'hj2b-l18-w11',
@@ -20509,7 +20509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to draw out; to pull out; to fish out',
             exampleCn: '服务员请把口袋里的东西都掏出来。',
             exampleEn: 'The clerk asked to take out everything from the pockets.',
-            examplePinyin: 'fú wù yuán qǐng bǎ kǒu dài lǐ de dōng xī dōu tāo chū lái。',
+            examplePinyin: 'fúwùyuán qǐng bǎ kǒudài lǐ de dōngxī dōu tāochū lái。',
           },
           {
             id: 'hj2b-l18-w12',
@@ -20519,7 +20519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'coin',
             exampleCn: '啊，是几把钥匙和两个硬币。',
             exampleEn: 'Ah, several keys and two coins.',
-            examplePinyin: 'a，shì jǐ bǎ yào shi hé liǎng gè yìng bì。',
+            examplePinyin: 'a， shì jǐbǎ yàoshi hé liǎnggè yìngbì。',
           },
           {
             id: 'hj2b-l18-w13',
@@ -20529,7 +20529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dim; dark',
             exampleCn: '这里边有点儿暗。',
             exampleEn: 'It\'s a bit dim here.',
-            examplePinyin: 'zhè lǐ biān yǒu diǎn ér àn。',
+            examplePinyin: 'zhèlǐ biān yǒudiǎnr àn。',
           },
           {
             id: 'hj2b-l18-w14',
@@ -20539,7 +20539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'switch',
             exampleCn: '开关在座位的扶手上。',
             exampleEn: 'The switch is on the armrest of the seat.',
-            examplePinyin: 'kāi guān zài zuò wèi de fú shǒu shàng。',
+            examplePinyin: 'kāiguān zài zuòwèi de fúshǒu shàng。',
           },
           {
             id: 'hj2b-l18-w15',
@@ -20549,7 +20549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'armrest',
             exampleCn: '他把胳膊放在扶手上休息。',
             exampleEn: 'He put his arm on the armrest to rest.',
-            examplePinyin: 'tā bǎ gē bó fàng zài fú shǒu shàng xiū xī。',
+            examplePinyin: 'tā bǎ gēbó fàngzài fúshǒu shàng xiūxī。',
           },
           {
             id: 'hj2b-l18-w16',
@@ -20559,7 +20559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'air hostess',
             exampleCn: '空姐说飞机马上就要起飞了。',
             exampleEn: 'The air hostess said the plane is about to take off.',
-            examplePinyin: 'kōng jiě shuō fēi jī mǎ shàng jiù yào qǐ fēi le。',
+            examplePinyin: 'kōngjiě shuō fēijī mǎshàng jiùyào qǐfēi le。',
           },
           {
             id: 'hj2b-l18-w17',
@@ -20569,7 +20569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take off',
             exampleCn: '飞机马上就要起飞了。',
             exampleEn: 'The plane is about to take off.',
-            examplePinyin: 'fēi jī mǎ shàng jiù yào qǐ fēi le。',
+            examplePinyin: 'fēijī mǎshàng jiùyào qǐfēi le。',
           },
           {
             id: 'hj2b-l18-w18',
@@ -20579,7 +20579,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'safety belt; seat belt',
             exampleCn: '空姐请大家把安全带系好。',
             exampleEn: 'The air hostess asked everyone to fasten their seat belts.',
-            examplePinyin: 'kōng jiě qǐng dà jiā bǎ ān quán dài xì hǎo。',
+            examplePinyin: 'kōngjiě qǐng dàjiā bǎ ānquándài xì hǎo。',
           },
           {
             id: 'hj2b-l18-w19',
@@ -20589,7 +20589,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'safe; secure',
             exampleCn: '飞机上最安全的就是系好安全带。',
             exampleEn: 'On the plane, the safest thing is to fasten the seat belt.',
-            examplePinyin: 'fēi jī shàng zuì ān quán de jiù shì xì hǎo ān quán dài。',
+            examplePinyin: 'fēijī shàng zuì ānquán de jiùshì xì hǎo ānquándài。',
           },
           {
             id: 'hj2b-l18-w20',
@@ -20599,7 +20599,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'belt',
             exampleCn: '飞机上每个人都有安全带。',
             exampleEn: 'Everyone on the plane has a seat belt.',
-            examplePinyin: 'fēi jī shàng měi gè rén dōu yǒu ān quán dài。',
+            examplePinyin: 'fēijī shàng měigè rén dōu yǒu ānquándài。',
           },
           {
             id: 'hj2b-l18-w21',
@@ -20609,7 +20609,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plug',
             exampleCn: '把这个插头往里一插就行了。',
             exampleEn: 'Just plug this plug in.',
-            examplePinyin: 'bǎ zhè gè chā tóu wǎng lǐ yī chā jiù xíng le。',
+            examplePinyin: 'bǎ zhège chātóu wǎng lǐ yī chā jiùxíngle。',
           },
           {
             id: 'hj2b-l18-w22',
@@ -20619,7 +20619,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'buckle',
             exampleCn: '把卡子扳一下儿就打开了。',
             exampleEn: 'Just flick the buckle and it opens.',
-            examplePinyin: 'bǎ kǎ zi bān yī xià ér jiù dǎ kāi le。',
+            examplePinyin: 'bǎ qiǎzi bān yīxià ér jiù dǎkāi le。',
           },
           {
             id: 'hj2b-l18-w23',
@@ -20629,7 +20629,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to change the direction of a fixed object; to turn',
             exampleCn: '他用力一扳，卡子就开了。',
             exampleEn: 'He flicked it hard, and the buckle opened.',
-            examplePinyin: 'tā yòng lì yī bān，kǎ zi jiù kāi le。',
+            examplePinyin: 'tā yònglì yī bān， qiǎzi jiù kāi le。',
           },
           {
             id: 'hj2b-l18-w24',
@@ -20639,7 +20639,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cool; cold',
             exampleCn: '咖啡全洒了，已经凉了。',
             exampleEn: 'The coffee spilled all over, it\'s already cold.',
-            examplePinyin: 'kā fēi quán sǎ le，yǐ jīng liáng le。',
+            examplePinyin: 'kāfēi quán sǎ le， yǐjīng liáng le。',
           },
           {
             id: 'hj2b-l18-w25',
@@ -20649,7 +20649,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cup',
             exampleCn: '你把杯子碰倒了。',
             exampleEn: 'You knocked the cup over.',
-            examplePinyin: 'nǐ bǎ bēi zi pèng dào le。',
+            examplePinyin: 'nǐ bǎ bēizi pèngdào le。',
           },
           {
             id: 'hj2b-l18-w26',
@@ -20659,7 +20659,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to spill',
             exampleCn: '咖啡全洒了。',
             exampleEn: 'The coffee spilled all over.',
-            examplePinyin: 'kā fēi quán sǎ le。',
+            examplePinyin: 'kāfēi quán sǎ le。',
           },
         ],
       },
@@ -20677,7 +20677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'leg',
             exampleCn: '罗兰问："你的腿怎么了？"',
             exampleEn: 'Luo Lan asked: "What happened to your leg?"',
-            examplePinyin: 'luó lán wèn："nǐ de tuǐ zěn me le？"',
+            examplePinyin: 'luólán wèn： " nǐ de tuǐ zěnme le？ "',
           },
           {
             id: 'hj2b-l19-w2',
@@ -20687,7 +20687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go to the street',
             exampleCn: '星期天我骑车上街的时候，被一个小伙子撞倒了。',
             exampleEn: 'When I was riding on the street on Sunday, I was knocked down by a young man.',
-            examplePinyin: 'xīng qī tiān wǒ qí chē shàng jiē de shí hòu，bèi yī gè xiǎo huǒ zi zhuàng dào le。',
+            examplePinyin: 'xīngqītiān wǒ qíchē shàngjiē de shíhòu， bèi yígè xiǎohuǒzi zhuàngdào le。',
           },
           {
             id: 'hj2b-l19-w3',
@@ -20697,7 +20697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'street',
             exampleCn: '街上人多车也多，骑车上街的时候一定要特别小心。',
             exampleEn: 'There are many people and cars on the street, you have to be especially careful when riding.',
-            examplePinyin: 'jiē shàng rén duō chē yě duō，qí chē shàng jiē de shí hòu yī dìng yào tè bié xiǎo xīn。',
+            examplePinyin: 'jiēshàng rén duō chē yě duō， qíchē shàngjiē de shíhòu yídìng yào tèbié xiǎoxīn。',
           },
           {
             id: 'hj2b-l19-w4',
@@ -20707,7 +20707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by',
             exampleCn: '我被一个小伙子撞倒了。',
             exampleEn: 'I was knocked down by a young man.',
-            examplePinyin: 'wǒ bèi yī gè xiǎo huǒ zi zhuàng dào le。',
+            examplePinyin: 'wǒ bèi yígè xiǎohuǒzi zhuàngdào le。',
           },
           {
             id: 'hj2b-l19-w5',
@@ -20717,7 +20717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to knock; to collide; to bump against',
             exampleCn: '我被一个骑自行车的小伙子撞倒了。',
             exampleEn: 'I was knocked down by a young man on a bicycle.',
-            examplePinyin: 'wǒ bèi yī gè qí zì xíng chē de xiǎo huǒ zi zhuàng dào le。',
+            examplePinyin: 'wǒ bèi yígè qí zìxíngchē de xiǎohuǒzi zhuàngdào le。',
           },
           {
             id: 'hj2b-l19-w6',
@@ -20727,7 +20727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fall; to topple; to tumble down',
             exampleCn: '玛丽从车上摔下来，把腿摔伤了。',
             exampleEn: 'Mary fell off the bike and injured her leg.',
-            examplePinyin: 'mǎ lì cóng chē shàng shuāi xià lái，bǎ tuǐ shuāi shāng le。',
+            examplePinyin: 'mǎlì cóng chēshàng shuāixiàlái， bǎ tuǐ shuāishāng le。',
           },
           {
             id: 'hj2b-l19-w7',
@@ -20737,7 +20737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hurt; to injure',
             exampleCn: '玛丽把腿摔伤了。',
             exampleEn: 'Mary hurt her leg.',
-            examplePinyin: 'mǎ lì bǎ tuǐ shuāi shāng le。',
+            examplePinyin: 'mǎlì bǎ tuǐ shuāishāng le。',
           },
           {
             id: 'hj2b-l19-w8',
@@ -20747,7 +20747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'serious',
             exampleCn: '"要紧吗？"',
             exampleEn: '"Is it serious?"',
-            examplePinyin: '"yào jǐn ma？"',
+            examplePinyin: '" yàojǐn ma？ "',
           },
           {
             id: 'hj2b-l19-w9',
@@ -20757,7 +20757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not serious; doesn\'t matter',
             exampleCn: '流了一点儿血，不要紧。',
             exampleEn: 'A little bit of bleeding, not serious.',
-            examplePinyin: 'liú le yī diǎn ér xuè，bù yào jǐn。',
+            examplePinyin: 'liú le yìdiǎnér xuè， búyàojǐn。',
           },
           {
             id: 'hj2b-l19-w10',
@@ -20767,7 +20767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to shed; to flow',
             exampleCn: '摔跤后流了一点儿血，看着有点吓人。',
             exampleEn: 'After the fall, a little bit of blood was shed, it looks a bit scary.',
-            examplePinyin: 'shuāi jiāo hòu liú le yī diǎn ér xuè，kàn zhe yǒu diǎn xià rén。',
+            examplePinyin: 'shuāijiāo hòu liú le yìdiǎnér xuè， kànzhe yǒudiǎn xiàrén。',
           },
           {
             id: 'hj2b-l19-w11',
@@ -20777,7 +20777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'blood',
             exampleCn: '医生说血没伤到骨头，没事儿。',
             exampleEn: 'The doctor said the blood didn\'t hurt the bone, it\'s nothing.',
-            examplePinyin: 'yī shēng shuō xuè méi shāng dào gǔ tóu，méi shì ér。',
+            examplePinyin: 'yīshēng shuō xuè méi shāng dào gǔtou， méishìér。',
           },
           {
             id: 'hj2b-l19-w12',
@@ -20787,7 +20787,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bone',
             exampleCn: '伤着骨头了没有？',
             exampleEn: 'Was any bone hurt?',
-            examplePinyin: 'shāng zhe gǔ tóu le méi yǒu？',
+            examplePinyin: 'shāng zhe gǔtou le méiyǒu？',
           },
           {
             id: 'hj2b-l19-w13',
@@ -20797,7 +20797,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lie on one\'s back',
             exampleCn: '大夫让我在床上躺几天。',
             exampleEn: 'The doctor told me to lie in bed for a few days.',
-            examplePinyin: 'dà fū ràng wǒ zài chuáng shàng tǎng jǐ tiān。',
+            examplePinyin: 'dàfū ràng wǒ zài chuángshàng tǎng jǐtiān。',
           },
           {
             id: 'hj2b-l19-w14',
@@ -20807,7 +20807,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to feel sorry',
             exampleCn: '我说，没事儿，你又不是故意的。',
             exampleEn: 'I said, it\'s nothing, you didn\'t do it on purpose.',
-            examplePinyin: 'wǒ shuō，méi shì ér，nǐ yòu bù shì gù yì de。',
+            examplePinyin: 'wǒ shuō， méishìér， nǐ yòu búshìgùyì de。',
           },
           {
             id: 'hj2b-l19-w15',
@@ -20817,7 +20817,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'on purpose',
             exampleCn: '我说，你又不是故意的。',
             exampleEn: 'I said, you didn\'t do it on purpose.',
-            examplePinyin: 'wǒ shuō，nǐ yòu bù shì gù yì de。',
+            examplePinyin: 'wǒ shuō， nǐ yòu búshìgùyì de。',
           },
           {
             id: 'hj2b-l19-w16',
@@ -20827,7 +20827,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cautious; to be careful',
             exampleCn: '骑车上街的时候一定要特别小心。',
             exampleEn: 'You must be especially careful when riding on the street.',
-            examplePinyin: 'qí chē shàng jiē de shí hòu yī dìng yào tè bié xiǎo xīn。',
+            examplePinyin: 'qíchē shàngjiē de shíhòu yídìng yào tèbié xiǎoxīn。',
           },
           {
             id: 'hj2b-l19-w17',
@@ -20837,7 +20837,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'an interjection expressing sadness or regret',
             exampleCn: '唉，别提了。',
             exampleEn: 'Alas, don\'t mention it.',
-            examplePinyin: 'āi，bié tí le。',
+            examplePinyin: 'āi， biétí le。',
           },
           {
             id: 'hj2b-l19-w18',
@@ -20847,7 +20847,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wallet; purse',
             exampleCn: '我的钱包儿让小偷偷走了。',
             exampleEn: 'My wallet was stolen by a pickpocket.',
-            examplePinyin: 'wǒ de qián bāo ér ràng xiǎo tōu tōu zǒu le。',
+            examplePinyin: 'wǒ de qiánbāo ér ràng xiǎo tōutōu zǒu le。',
           },
           {
             id: 'hj2b-l19-w19',
@@ -20857,7 +20857,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by',
             exampleCn: '钱包儿让小偷偷走了。',
             exampleEn: 'The wallet was stolen by a pickpocket.',
-            examplePinyin: 'qián bāo ér ràng xiǎo tōu tōu zǒu le。',
+            examplePinyin: 'qiánbāo ér ràng xiǎo tōutōu zǒu le。',
           },
           {
             id: 'hj2b-l19-w20',
@@ -20867,7 +20867,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thief',
             exampleCn: '昨天我在路上碰到一个小偷，他跑得可快了。',
             exampleEn: 'Yesterday I ran into a pickpocket on the road, he ran very fast.',
-            examplePinyin: 'zuó tiān wǒ zài lù shàng pèng dào yī gè xiǎo tōu，tā pǎo dé kě kuài le。',
+            examplePinyin: 'zuótiān wǒ zài lùshàng pèngdào yígè xiǎotōu， tā pǎo dé kě kuài le。',
           },
           {
             id: 'hj2b-l19-w21',
@@ -20877,7 +20877,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to steal',
             exampleCn: '那个小偷想偷我钱包儿，没偷着。',
             exampleEn: 'That thief tried to steal my wallet, but didn\'t succeed.',
-            examplePinyin: 'nà gè xiǎo tōu xiǎng tōu wǒ qián bāo ér，méi tōu zhe。',
+            examplePinyin: 'nàge xiǎotōu xiǎng tōu wǒ qiánbāo ér， méi tōu zhe。',
           },
           {
             id: 'hj2b-l19-w22',
@@ -20887,7 +20887,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come across; to encounter',
             exampleCn: '上街的时候，遇到一个算命的。',
             exampleEn: 'On the street, I came across a fortune teller.',
-            examplePinyin: 'shàng jiē de shí hòu，yù dào yī gè suàn mìng de。',
+            examplePinyin: 'shàngjiē de shíhòu， yùdào yígè suànmìng de。',
           },
           {
             id: 'hj2b-l19-w23',
@@ -20897,7 +20897,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by',
             exampleCn: '前天我坐出租车被一个司机拉到"首都机场"。',
             exampleEn: 'The day before yesterday, I was taken by a taxi driver to "Capital Airport".',
-            examplePinyin: 'qián tiān wǒ zuò chū zū chē bèi yī gè sī jī lā dào"shǒu dōu jī chǎng"。',
+            examplePinyin: 'qiántiān wǒ zuò chūzūchē bèi yígè sījī lā dào " shǒudūjīchǎng "。',
           },
           {
             id: 'hj2b-l19-w24',
@@ -20907,7 +20907,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pour; to drench',
             exampleCn: '我们又没带雨伞，个个都被淋得像落汤鸡似的。',
             exampleEn: 'We didn\'t bring umbrellas, everyone got drenched like a soaked chicken.',
-            examplePinyin: 'wǒ men yòu méi dài yǔ sǎn，gè gè dōu bèi lín dé xiàng luò tāng jī shì de。',
+            examplePinyin: 'wǒmen yòu méi dài yǔsǎn， gègè dōu bèi líndé xiàng luòtāngjī shìde。',
           },
           {
             id: 'hj2b-l19-w25',
@@ -20917,7 +20917,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(of a person) like a drenched chicken; to be soaked through',
             exampleCn: '一个个都被淋得像落汤鸡似的。',
             exampleEn: 'Everyone got soaked like a drenched chicken.',
-            examplePinyin: 'yī gè gè dōu bèi lín dé xiàng luò tāng jī shì de。',
+            examplePinyin: 'yígègè dōu bèi líndé xiàng luòtāngjī shìde。',
           },
           {
             id: 'hj2b-l19-w26',
@@ -20927,7 +20927,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'like...; as if...',
             exampleCn: '一个个像落汤鸡似的，都湿透了。',
             exampleEn: 'They all looked like drowned chickens, soaked through.',
-            examplePinyin: 'yī gè gè xiàng luò tāng jī shì de，dōu shī tòu le。',
+            examplePinyin: 'yígègè xiàng luòtāngjī shìde， dōu shītòu le。',
           },
           {
             id: 'hj2b-l19-w27',
@@ -20937,7 +20937,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wet; moist; damp; humid',
             exampleCn: '衣服全都湿了。',
             exampleEn: 'All the clothes got wet.',
-            examplePinyin: 'yī fú quán dōu shī le。',
+            examplePinyin: 'yīfú quándōu shī le。',
           },
           {
             id: 'hj2b-l19-w28',
@@ -20947,7 +20947,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'capital (of a country)',
             exampleCn: '前天我坐出租车要去"首都剧场"。',
             exampleEn: 'The day before yesterday, I took a taxi to "Capital Theater".',
-            examplePinyin: 'qián tiān wǒ zuò chū zū chē yào qù"shǒu dōu jù chǎng"。',
+            examplePinyin: 'qiántiān wǒ zuò chūzūchē yào qù " shǒudūjùchǎng "。',
           },
           {
             id: 'hj2b-l19-w29',
@@ -20957,7 +20957,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'theater',
             exampleCn: '司机把"剧场"说成"机场"了。',
             exampleEn: 'The driver called "theater" as "airport".',
-            examplePinyin: 'sī jī bǎ"jù chǎng"shuō chéng"jī chǎng"le。',
+            examplePinyin: 'sījī bǎ " jùchǎng " shuō chéng " jīchǎng " le。',
           },
           {
             id: 'hj2b-l19-w30',
@@ -20967,7 +20967,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'driver',
             exampleCn: '那个司机开车很快，我差点儿吐了。',
             exampleEn: 'That driver drove so fast I almost threw up.',
-            examplePinyin: 'nà gè sī jī kāi chē hěn kuài，wǒ chà diǎn ér tǔ le。',
+            examplePinyin: 'nàge sījī kāichē hěnkuài， wǒ chàdiǎnr tǔ le。',
           },
           {
             id: 'hj2b-l19-w31',
@@ -20977,7 +20977,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to carry; to transport',
             exampleCn: '司机把我拉到"首都机场"去了。',
             exampleEn: 'The driver took me to "Capital Airport".',
-            examplePinyin: 'sī jī bǎ wǒ lā dào"shǒu dōu jī chǎng"qù le。',
+            examplePinyin: 'sījī bǎ wǒ lā dào " shǒudūjīchǎng " qù le。',
           },
           {
             id: 'hj2b-l19-w32',
@@ -20987,7 +20987,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'airport',
             exampleCn: '我被拉到首都机场了。',
             exampleEn: 'I was taken to Capital Airport.',
-            examplePinyin: 'wǒ bèi lā dào shǒu dōu jī chǎng le。',
+            examplePinyin: 'wǒ bèi lā dào shǒudūjīchǎng le。',
           },
           {
             id: 'hj2b-l19-w33',
@@ -20997,7 +20997,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'annoying',
             exampleCn: '你说可气不可气？',
             exampleEn: 'Isn\'t that annoying?',
-            examplePinyin: 'nǐ shuō kě qì bù kě qì？',
+            examplePinyin: 'nǐ shuō kě qì bùkě qì？',
           },
           {
             id: 'hj2b-l19-w34',
@@ -21007,7 +21007,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(superstition) to tell sb.\'s fortune',
             exampleCn: '前几天我遇到一个算命的，就叫他给我算了一下儿。',
             exampleEn: 'A few days ago, I met a fortune teller, and asked him to tell my fortune.',
-            examplePinyin: 'qián jǐ tiān wǒ yù dào yī gè suàn mìng de，jiù jiào tā gěi wǒ suàn le yī xià ér。',
+            examplePinyin: 'qián jǐtiān wǒ yùdào yígè suànmìng de， jiù jiào tā gěi wǒ suànle yīxià ér。',
           },
           {
             id: 'hj2b-l19-w35',
@@ -21017,7 +21017,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'luck',
             exampleCn: '他说我今年运气不太好。',
             exampleEn: 'He said my luck wouldn\'t be so good this year.',
-            examplePinyin: 'tā shuō wǒ jīn nián yùn qì bù tài hǎo。',
+            examplePinyin: 'tā shuō wǒ jīnnián yùnqì bùtàihǎo。',
           },
           {
             id: 'hj2b-l19-w36',
@@ -21027,7 +21027,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'brainless; foolish; stupid',
             exampleCn: '朋友们都说我傻，花钱受骗。',
             exampleEn: 'Friends say I\'m foolish to spend money being deceived.',
-            examplePinyin: 'péng yǒu men dōu shuō wǒ shǎ，huā qián shòu piàn。',
+            examplePinyin: 'péngyǒu men dōu shuō wǒ shǎ， huāqián shòupiàn。',
           },
           {
             id: 'hj2b-l19-w37',
@@ -21037,7 +21037,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be deceived; to be fooled',
             exampleCn: '我朋友差点儿受骗。',
             exampleEn: 'My friend was almost deceived.',
-            examplePinyin: 'wǒ péng yǒu chà diǎn ér shòu piàn。',
+            examplePinyin: 'wǒ péngyǒu chàdiǎnr shòupiàn。',
           },
           {
             id: 'hj2b-l19-w38',
@@ -21057,7 +21057,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lie; to deceive',
             exampleCn: '算命的骗了他一百块钱。',
             exampleEn: 'The fortune teller cheated him out of 100 yuan.',
-            examplePinyin: 'suàn mìng de piàn le tā yī bǎi kuài qián。',
+            examplePinyin: 'suànmìng de piàn le tā yìbǎikuài qián。',
           },
           {
             id: 'hj2b-l19-w40',
@@ -21067,7 +21067,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to smoke',
             exampleCn: '我决定把烟戒掉，不抽了。',
             exampleEn: 'I decided to give up smoking, no more.',
-            examplePinyin: 'wǒ jué dìng bǎ yān jiè diào，bù chōu le。',
+            examplePinyin: 'wǒ juédìng bǎ yān jièdiào， bù chōu le。',
           },
           {
             id: 'hj2b-l19-w41',
@@ -21077,7 +21077,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to draw; to pump',
             exampleCn: '他在山上抽烟，被公园管理员罚了五十块钱。',
             exampleEn: 'He smoked on the mountain, was fined 50 yuan by the park keeper.',
-            examplePinyin: 'tā zài shān shàng chōu yān，bèi gōng yuán guǎn lǐ yuán fá le wǔ shí kuài qián。',
+            examplePinyin: 'tā zài shānshàng chōuyān， bèi gōngyuán guǎnlǐyuán fá le wǔshíkuài qián。',
           },
           {
             id: 'hj2b-l19-w42',
@@ -21087,7 +21087,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cigarette',
             exampleCn: '我的烟还能抽到下星期。',
             exampleEn: 'My cigarettes can last until next week.',
-            examplePinyin: 'wǒ de yān hái néng chōu dào xià xīng qī。',
+            examplePinyin: 'wǒ de yān hái néng chōu dào xiàxīngqī。',
           },
           {
             id: 'hj2b-l19-w43',
@@ -21097,7 +21097,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to punish; to fine',
             exampleCn: '警察罚了他五十块钱。',
             exampleEn: 'The police fined him fifty yuan.',
-            examplePinyin: 'jǐng chá fá le tā wǔ shí kuài qián。',
+            examplePinyin: 'jǐngchá fá le tā wǔshíkuài qián。',
           },
           {
             id: 'hj2b-l19-w44',
@@ -21117,7 +21117,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to decide; decision',
             exampleCn: '决定不抽烟需要很大决心。',
             exampleEn: 'Deciding to quit smoking needs great determination.',
-            examplePinyin: 'jué dìng bù chōu yān xū yào hěn dà jué xīn。',
+            examplePinyin: 'juédìng bù chōuyān xūyào hěndà juéxīn。',
           },
           {
             id: 'hj2b-l19-w46',
@@ -21127,7 +21127,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give up smoking',
             exampleCn: '我决定把烟戒掉。',
             exampleEn: 'I decided to give up smoking.',
-            examplePinyin: 'wǒ jué dìng bǎ yān jiè diào。',
+            examplePinyin: 'wǒ juédìng bǎ yān jièdiào。',
           },
           {
             id: 'hj2b-l19-w47',
@@ -21137,7 +21137,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give up; to quit',
             exampleCn: '戒掉抽烟的坏习惯。',
             exampleEn: 'Give up the bad habit of smoking.',
-            examplePinyin: 'jiè diào chōu yān de huài xí guàn。',
+            examplePinyin: 'jièdiào chōuyān de huàixíguàn。',
           },
           {
             id: 'hj2b-l19-w48',
@@ -21147,7 +21147,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to waste',
             exampleCn: '要是抽完就浪费了。',
             exampleEn: 'If I smoke them all, it would be a waste.',
-            examplePinyin: 'yào shì chōu wán jiù làng fèi le。',
+            examplePinyin: 'yàoshì chōu wán jiù làngfèi le。',
           },
         ],
       },
@@ -21165,7 +21165,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to perform; to put on a show',
             exampleCn: '看了演出能猜出大概的意思。',
             exampleEn: 'Watching the performance you can guess the general idea.',
-            examplePinyin: 'kàn le yǎn chū néng cāi chū dà gài de yì sī。',
+            examplePinyin: 'kàn le yǎnchū néng cāi chū dàgài de yìsi。',
           },
           {
             id: 'hj2b-l20-w2',
@@ -21175,7 +21175,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to guess',
             exampleCn: '看演出之前先猜猜今天演的是什么。',
             exampleEn: 'Before watching the show, let\'s guess what\'s being performed today.',
-            examplePinyin: 'kàn yǎn chū zhī qián xiān cāi cāi jīn tiān yǎn de shì shén me。',
+            examplePinyin: 'kàn yǎnchū zhīqián xiān cāicāi jīntiān yǎn de shì shénme。',
           },
           {
             id: 'hj2b-l20-w3',
@@ -21185,7 +21185,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'actor; actress',
             exampleCn: '京剧演员唱的是什么，我听不懂。',
             exampleEn: 'What the Peking opera actors are singing, I can\'t understand.',
-            examplePinyin: 'jīng jù yǎn yuán chàng de shì shén me，wǒ tīng bù dǒng。',
+            examplePinyin: 'jīngjù yǎnyuán chàng de shì shénme， wǒ tīngbùdǒng。',
           },
           {
             id: 'hj2b-l20-w4',
@@ -21195,7 +21195,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'acrobatic fighting',
             exampleCn: '我觉得京剧唱得特别好听，武打动作也很精彩。',
             exampleEn: 'I think Peking opera is very pleasant to listen to, and the acrobatic fighting is also very splendid.',
-            examplePinyin: 'wǒ jué dé jīng jù chàng dé tè bié hǎo tīng，wǔ dǎ dòng zuò yě hěn jīng cǎi。',
+            examplePinyin: 'wǒ juéde jīngjù chàng dé tèbié hǎotīng， wǔdǎ dòngzuò yě hěn jīngcǎi。',
           },
           {
             id: 'hj2b-l20-w5',
@@ -21205,7 +21205,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'movement; motion',
             exampleCn: '京剧的武打动作很精彩。',
             exampleEn: 'The acrobatic fighting movements of Peking opera are very splendid.',
-            examplePinyin: 'jīng jù de wǔ dǎ dòng zuò hěn jīng cǎi。',
+            examplePinyin: 'jīngjù de wǔdǎ dòngzuò hěn jīngcǎi。',
           },
           {
             id: 'hj2b-l20-w6',
@@ -21215,7 +21215,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wonderful; splendid',
             exampleCn: '京剧演出非常精彩，看完还想再看一遍。',
             exampleEn: 'The Peking opera performance is wonderful, I want to see it again after finishing.',
-            examplePinyin: 'jīng jù yǎn chū fēi cháng jīng cǎi，kàn wán hái xiǎng zài kàn yī biàn。',
+            examplePinyin: 'jīngjù yǎnchū fēicháng jīngcǎi， kàn wán hái xiǎng zài kànyībiàn。',
           },
           {
             id: 'hj2b-l20-w7',
@@ -21225,7 +21225,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to show; to display; to manifest',
             exampleCn: '京剧用各种脸谱来表现人物的社会地位和性格。',
             exampleEn: 'Peking opera uses various facial makeup to manifest characters\' social status and personality.',
-            examplePinyin: 'jīng jù yòng gè zhǒng liǎn pǔ lái biǎo xiàn rén wù de shè huì dì wèi hé xìng gé。',
+            examplePinyin: 'jīngjù yòng gèzhǒng liǎnpǔ lái biǎoxiàn rénwù de shèhuì dìwèi hé xìnggé。',
           },
           {
             id: 'hj2b-l20-w8',
@@ -21235,7 +21235,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'character; person in a book, play, etc.',
             exampleCn: '京剧用脸谱来表现人物的性格特点。',
             exampleEn: 'Peking opera uses facial makeup to manifest the characters\' personality traits.',
-            examplePinyin: 'jīng jù yòng liǎn pǔ lái biǎo xiàn rén wù de xìng gé tè diǎn。',
+            examplePinyin: 'jīngjù yòng liǎnpǔ lái biǎoxiàn rénwù de xìnggétèdiǎn。',
           },
           {
             id: 'hj2b-l20-w9',
@@ -21245,7 +21245,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'society',
             exampleCn: '脸谱能表现人物的社会地位。',
             exampleEn: 'Facial makeup can manifest characters\' social status.',
-            examplePinyin: 'liǎn pǔ néng biǎo xiàn rén wù de shè huì dì wèi。',
+            examplePinyin: 'liǎnpǔ néng biǎoxiàn rénwù de shèhuì dìwèi。',
           },
           {
             id: 'hj2b-l20-w10',
@@ -21255,7 +21255,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'status',
             exampleCn: '红色脸谱表示人物的地位最高。',
             exampleEn: 'The red facial makeup represents the highest status of a character.',
-            examplePinyin: 'hóng sè liǎn pǔ biǎo shì rén wù de dì wèi zuì gāo。',
+            examplePinyin: 'hóngsè liǎnpǔ biǎoshì rénwù de dìwèi zuìgāo。',
           },
           {
             id: 'hj2b-l20-w11',
@@ -21265,7 +21265,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'temperament; disposition; personality',
             exampleCn: '不同颜色的脸谱表示不同的性格。',
             exampleEn: 'Facial makeup in different colors represents different personalities.',
-            examplePinyin: 'bù tóng yán sè de liǎn pǔ biǎo shì bù tóng de xìng gé。',
+            examplePinyin: 'bùtóng yánsè de liǎnpǔ biǎoshì bùtóng de xìnggé。',
           },
           {
             id: 'hj2b-l20-w12',
@@ -21275,7 +21275,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quite; very',
             exampleCn: '京剧的脸谱十分有趣，颜色也特别鲜艳。',
             exampleEn: 'The Peking opera facial makeup is quite interesting, and the colors are especially bright.',
-            examplePinyin: 'jīng jù de liǎn pǔ shí fēn yǒu qù，yán sè yě tè bié xiān yàn。',
+            examplePinyin: 'jīngjù de liǎnpǔ shífēn yǒuqù， yánsè yě tèbié xiānyàn。',
           },
           {
             id: 'hj2b-l20-w13',
@@ -21285,7 +21285,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'interesting; amusing',
             exampleCn: '京剧演员的表情和动作都很有趣。',
             exampleEn: 'The facial expressions and movements of the Peking opera actors are all very interesting.',
-            examplePinyin: 'jīng jù yǎn yuán de biǎo qíng hé dòng zuò dōu hěn yǒu qù。',
+            examplePinyin: 'jīngjù yǎnyuán de biǎoqíng hé dòngzuò dōu hěn yǒuqù。',
           },
           {
             id: 'hj2b-l20-w14',
@@ -21295,7 +21295,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'clothing; costume',
             exampleCn: '京剧的服装也很美。',
             exampleEn: 'The costumes of Peking opera are also very beautiful.',
-            examplePinyin: 'jīng jù de fú zhuāng yě hěn měi。',
+            examplePinyin: 'jīngjù de fúzhuāng yě hěn měi。',
           },
           {
             id: 'hj2b-l20-w15',
@@ -21305,7 +21305,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to influence; influence',
             exampleCn: '我是受中文老师的影响，他可是一个京剧迷。',
             exampleEn: 'I\'m influenced by my Chinese teacher, he\'s a Peking opera fan.',
-            examplePinyin: 'wǒ shì shòu zhōng wén lǎo shī de yǐng xiǎng，tā kě shì yī gè jīng jù mí。',
+            examplePinyin: 'wǒ shì shòu zhōngwén lǎoshī de yǐngxiǎng， tā kěshì yígè jīngjùmí。',
           },
           {
             id: 'hj2b-l20-w16',
@@ -21315,7 +21315,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'traditional; tradition',
             exampleCn: '京剧是中国的传统艺术。',
             exampleEn: 'Peking opera is China\'s traditional art.',
-            examplePinyin: 'jīng jù shì zhōng guó de chuán tǒng yì shù。',
+            examplePinyin: 'jīngjù shì zhōngguó de chuántǒng yìshù。',
           },
           {
             id: 'hj2b-l20-w17',
@@ -21325,7 +21325,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'art',
             exampleCn: '京剧是一门融合了多种元素的古老艺术。',
             exampleEn: 'Peking opera is an ancient art that integrates many elements.',
-            examplePinyin: 'jīng jù shì yī mén róng hé le duō zhǒng yuán sù de gǔ lǎo yì shù。',
+            examplePinyin: 'jīngjù shì yīmén rónghé le duōzhǒng yuánsù de gǔlǎo yìshù。',
           },
           {
             id: 'hj2b-l20-w18',
@@ -21335,7 +21335,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to understand; to know',
             exampleCn: '要想把汉语学好，也应该多了解一些中国文化。',
             exampleEn: 'To learn Chinese well, you should also learn more about Chinese culture.',
-            examplePinyin: 'yào xiǎng bǎ hàn yǔ xué hǎo，yě yīng gāi duō le jiě yī xiē zhōng guó wén huà。',
+            examplePinyin: 'yào xiǎng bǎ hànyǔ xuéhǎo， yě yīnggāi duō liǎojiě yīxiē zhōngguó wénhuà。',
           },
           {
             id: 'hj2b-l20-w19',
@@ -21345,7 +21345,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used at the end of a conditional clause) if',
             exampleCn: '要是有时间的话，咱们一起去看一次京剧，好吗？',
             exampleEn: 'If there\'s time, let\'s go see a Peking opera together, OK?',
-            examplePinyin: 'yào shì yǒu shí jiān de huà，zán men yī qǐ qù kàn yī cì jīng jù，hǎo ma？',
+            examplePinyin: 'yàoshì yǒu shíjiān dehuà， zánmen yìqǐ qù kàn yīcì jīngjù， hǎo ma？',
           },
           {
             id: 'hj2b-l20-w20',
@@ -21355,7 +21355,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make an appointment in advance; to invite in advance',
             exampleCn: '山本说有时间约玛丽一起去看京剧。',
             exampleEn: 'Yamamoto said if there\'s time, he\'d invite Mary to see a Peking opera together.',
-            examplePinyin: 'shān běn shuō yǒu shí jiān yuē mǎ lì yī qǐ qù kàn jīng jù。',
+            examplePinyin: 'shānběn shuō yǒu shíjiān yuē mǎlì yìqǐ qù kàn jīngjù。',
           },
           {
             id: 'hj2b-l20-w21',
@@ -21365,7 +21365,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used in conjunction with "得" or "不" after a verb to express possibility) can',
             exampleCn: '别担心，买得到。',
             exampleEn: 'Don\'t worry, we can buy it.',
-            examplePinyin: 'bié dān xīn，mǎi dé dào。',
+            examplePinyin: 'bié dānxīn， mǎi dédào。',
           },
           {
             id: 'hj2b-l20-w22',
@@ -21375,7 +21375,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be anxious about; to worry about',
             exampleCn: '我担心买不到票。',
             exampleEn: 'I worry that I can\'t buy the ticket.',
-            examplePinyin: 'wǒ dān xīn mǎi bù dào piào。',
+            examplePinyin: 'wǒ dānxīn mǎibúdào piào。',
           },
           {
             id: 'hj2b-l20-w23',
@@ -21385,7 +21385,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'row; line',
             exampleCn: '山本说要买前十排的票。',
             exampleEn: 'Yamamoto said to buy tickets in the first ten rows.',
-            examplePinyin: 'shān běn shuō yào mǎi qián shí pái de piào。',
+            examplePinyin: 'shānběn shuō yào mǎi qián shípái de piào。',
           },
           {
             id: 'hj2b-l20-w24',
@@ -21395,7 +21395,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to reckon; to estimate',
             exampleCn: '估计坐下不了一千人。',
             exampleEn: 'I estimate it can seat less than 1000 people.',
-            examplePinyin: 'gū jì zuò xià bù le yī qiān rén。',
+            examplePinyin: 'gūjì zuòxià bùliǎo yīqiān rén。',
           },
           {
             id: 'hj2b-l20-w25',
@@ -21405,7 +21405,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate room or space',
             exampleCn: '剧场里坐都坐不下一千个人。',
             exampleEn: 'The theater can\'t even seat a thousand people.',
-            examplePinyin: 'jù chǎng lǐ zuò dōu zuò bù xià yī qiān gè rén。',
+            examplePinyin: 'jùchǎng lǐ zuò dōu zuò bùxià yīqiāngè rén。',
           },
           {
             id: 'hj2b-l20-w26',
@@ -21415,7 +21415,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(of a play, movie, etc.) to begin',
             exampleCn: '估计离开演还有十多分钟。',
             exampleEn: 'I estimate it\'s still more than ten minutes before the show begins.',
-            examplePinyin: 'gū jì lí kāi yǎn hái yǒu shí duō fēn zhōng。',
+            examplePinyin: 'gūjì líkāi yǎn háiyǒu shíduōfēnzhōng。',
           },
           {
             id: 'hj2b-l20-w27',
@@ -21425,7 +21425,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'full; filled',
             exampleCn: '剧场人差不多都坐满了。',
             exampleEn: 'Almost all the seats in the theater are full.',
-            examplePinyin: 'jù chǎng rén chà bù duō dōu zuò mǎn le。',
+            examplePinyin: 'jùchǎng rén chàbuduō dōu zuòmǎn le。',
           },
           {
             id: 'hj2b-l20-w28',
@@ -21435,7 +21435,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'playbill; menu',
             exampleCn: '我拿了一张节目单。',
             exampleEn: 'I took a playbill.',
-            examplePinyin: 'wǒ ná le yī zhāng jié mù dān。',
+            examplePinyin: 'wǒ ná le yīzhāng jiémùdān。',
           },
           {
             id: 'hj2b-l20-w29',
@@ -21445,7 +21445,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ancient times',
             exampleCn: '这是一个古代神话故事。',
             exampleEn: 'This is a mythology from ancient times.',
-            examplePinyin: 'zhè shì yī gè gǔ dài shén huà gù shì。',
+            examplePinyin: 'zhè shì yígè gǔdài shénhuàgùshì。',
           },
           {
             id: 'hj2b-l20-w30',
@@ -21455,7 +21455,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mythology; myth',
             exampleCn: '这个故事来自中国古代神话，非常有名。',
             exampleEn: 'This story is from ancient Chinese mythology, very famous.',
-            examplePinyin: 'zhè gè gù shì lái zì zhōng guó gǔ dài shén huà，fēi cháng yǒu míng。',
+            examplePinyin: 'zhège gùshì láizì zhōngguó gǔdài shénhuà， fēicháng yǒumíng。',
           },
           {
             id: 'hj2b-l20-w31',
@@ -21465,7 +21465,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sky; heaven',
             exampleCn: '天上一个仙女羡慕人间的生活。',
             exampleEn: 'A fairy maiden in heaven envied the life in the human world.',
-            examplePinyin: 'tiān shàng yī gè xiān nǚ xiàn mù rén jiān de shēng huó。',
+            examplePinyin: 'tiānshàng yígè xiānnǚ xiànmù rénjiān de shēnghuó。',
           },
           {
             id: 'hj2b-l20-w32',
@@ -21475,7 +21475,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fairy maiden; female immortal',
             exampleCn: '仙女长得非常漂亮，谁看了都喜欢。',
             exampleEn: 'The fairy maiden is so beautiful, whoever sees her likes her.',
-            examplePinyin: 'xiān nǚ zhǎng dé fēi cháng piāo liàng，shuí kàn le dōu xǐ huān。',
+            examplePinyin: 'xiānnǚ zhǎng dé fēicháng piàoliàng， shuí kàn le dōu xǐhuān。',
           },
           {
             id: 'hj2b-l20-w33',
@@ -21485,7 +21485,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to admire; to envy',
             exampleCn: '我很羡慕她能去中国留学。',
             exampleEn: 'I really envy her being able to study in China.',
-            examplePinyin: 'wǒ hěn xiàn mù tā néng qù zhōng guó liú xué。',
+            examplePinyin: 'wǒ hěn xiànmù tā néng qù zhōngguó liúxué。',
           },
           {
             id: 'hj2b-l20-w34',
@@ -21495,7 +21495,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'world; human world',
             exampleCn: '仙女偷偷儿来到人间，看见了美丽的风景。',
             exampleEn: 'The fairy maiden stealthily came to the human world, and saw beautiful scenery.',
-            examplePinyin: 'xiān nǚ tōu tōu ér lái dào rén jiān，kàn jiàn le měi lì de fēng jǐng。',
+            examplePinyin: 'xiānnǚ tōutōu ér láidào rénjiān， kànjiàn le měilì de fēngjǐng。',
           },
           {
             id: 'hj2b-l20-w35',
@@ -21505,7 +21505,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stealthily; covertly',
             exampleCn: '仙女羡慕人间的生活，就偷偷儿来到人间。',
             exampleEn: 'The fairy maiden envied the life in the human world, and stealthily came to the human world.',
-            examplePinyin: 'xiān nǚ xiàn mù rén jiān de shēng huó，jiù tōu tōu ér lái dào rén jiān。',
+            examplePinyin: 'xiānnǚ xiànmù rénjiān de shēnghuó， jiù tōutōu ér láidào rénjiān。',
           },
           {
             id: 'hj2b-l20-w36',
@@ -21515,7 +21515,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'content; substance',
             exampleCn: '京剧节目单上写的内容我看不懂。',
             exampleEn: 'I can\'t understand the content on the Peking opera playbill.',
-            examplePinyin: 'jīng jù jié mù dān shàng xiě de nèi róng wǒ kàn bù dǒng。',
+            examplePinyin: 'jīngjù jiémùdān shàng xiě de nèiróng wǒ kànbùdǒng。',
           },
         ],
       },
@@ -21533,7 +21533,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cable car',
             exampleCn: '林老师说："咱们怎么上山？坐缆车上去还是爬上去？"',
             exampleEn: 'Ms. Lin said: "How do we go up? Take the cable car or climb up?"',
-            examplePinyin: 'lín lǎo shī shuō："zán men zěn me shàng shān？zuò lǎn chē shàng qù hái shì pá shàng qù？"',
+            examplePinyin: 'lín lǎoshī shuō： " zánmen zěnme shàngshān？ zuò lǎnchē shàngqù háishì páshàngqù？ "',
           },
           {
             id: 'hj2b-l21-w2',
@@ -21543,7 +21543,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to breathe; to pant',
             exampleCn: '林老师说："美英，我看你累得都喘不上气来了。"',
             exampleEn: 'Ms. Lin said: "Meiying, you look so tired you can hardly breathe."',
-            examplePinyin: 'lín lǎo shī shuō："měi yīng，wǒ kàn nǐ lèi dé dōu chuǎn bù shàng qì lái le。"',
+            examplePinyin: 'lín lǎoshī shuō： " měiyīng， wǒ kàn nǐ lèi dé dōu chuǎn bù shàng qì lái le。 "',
           },
           {
             id: 'hj2b-l21-w3',
@@ -21553,7 +21553,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to move',
             exampleCn: '你还能动吗？',
             exampleEn: 'Can you still move?',
-            examplePinyin: 'nǐ hái néng dòng ma？',
+            examplePinyin: 'nǐ hái néngdòng ma？',
           },
           {
             id: 'hj2b-l21-w4',
@@ -21563,7 +21563,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to the end; to the finish',
             exampleCn: '坚持到底，就是胜利。',
             exampleEn: 'Persist to the end, that is victory.',
-            examplePinyin: 'jiān chí dào dǐ，jiù shì shèng lì。',
+            examplePinyin: 'jiānchídàodǐ， jiùshì shènglì。',
           },
           {
             id: 'hj2b-l21-w5',
@@ -21573,7 +21573,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to succeed; to win a victory',
             exampleCn: '坚持到底就是胜利。',
             exampleEn: 'Persisting to the end is victory.',
-            examplePinyin: 'jiān chí dào dǐ jiù shì shèng lì。',
+            examplePinyin: 'jiānchídàodǐ jiùshì shènglì。',
           },
           {
             id: 'hj2b-l21-w6',
@@ -21583,7 +21583,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used to cheer sb. on) to come on; to make more efforts',
             exampleCn: '王老师，加油儿啊！',
             exampleEn: 'Mr. Wang, come on!',
-            examplePinyin: 'wáng lǎo shī，jiā yóu ér a！',
+            examplePinyin: 'wánglǎoshī， jiāyóu ér a！',
           },
           {
             id: 'hj2b-l21-w7',
@@ -21593,7 +21593,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sweat',
             exampleCn: '王老师刚爬一会儿就出了一身汗。',
             exampleEn: 'Mr. Wang sweated all over after climbing just a while.',
-            examplePinyin: 'wáng lǎo shī gāng pá yī huì ér jiù chū le yī shēn hàn。',
+            examplePinyin: 'wánglǎoshī gāng pá yīhuìer jiù chū le yīshēn hàn。',
           },
           {
             id: 'hj2b-l21-w8',
@@ -21603,7 +21603,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweat',
             exampleCn: '刚爬一会儿就出了一身汗。',
             exampleEn: 'After climbing just a while, he sweated all over.',
-            examplePinyin: 'gāng pá yī huì ér jiù chū le yī shēn hàn。',
+            examplePinyin: 'gāng pá yīhuìer jiù chū le yīshēn hàn。',
           },
           {
             id: 'hj2b-l21-w9',
@@ -21613,7 +21613,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'following (an action); carrying on (an action)',
             exampleCn: '我休息一会儿再接着爬。',
             exampleEn: 'I\'ll rest a while then continue climbing.',
-            examplePinyin: 'wǒ xiū xī yī huì ér zài jiē zhe pá。',
+            examplePinyin: 'wǒ xiūxī yīhuìer zài jiēzhe pá。',
           },
           {
             id: 'hj2b-l21-w10',
@@ -21623,7 +21623,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to compare',
             exampleCn: '比不了你们年轻人啦。',
             exampleEn: 'Can\'t compare with you youngsters.',
-            examplePinyin: 'bǐ bù le nǐ men nián qīng rén la。',
+            examplePinyin: 'bǐ bùliǎo nǐmen niánqīngrén la。',
           },
           {
             id: 'hj2b-l21-w11',
@@ -21633,7 +21633,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dangerous; danger',
             exampleCn: '麦克，别从那儿上，太危险了。',
             exampleEn: 'Mike, don\'t climb from there, it\'s too dangerous.',
-            examplePinyin: 'mài kè，bié cóng nà ér shàng，tài wēi xiǎn le。',
+            examplePinyin: 'màikè， bié cóng nàr shàng， tài wēixiǎn le。',
           },
           {
             id: 'hj2b-l21-w12',
@@ -21643,7 +21643,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'active',
             exampleCn: '同学们都在积极地准备节目。',
             exampleEn: 'Students are all actively preparing the program.',
-            examplePinyin: 'tóng xué men dōu zài jī jí dì zhǔn bèi jié mù。',
+            examplePinyin: 'tóngxuémen dōu zài jījí dì zhǔnbèi jiémù。',
           },
           {
             id: 'hj2b-l21-w13',
@@ -21653,7 +21653,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'crosstalk; comic dialogue',
             exampleCn: '爱德华说："我和麦克说个相声。"',
             exampleEn: 'Edward said: "Mike and I will do a crosstalk."',
-            examplePinyin: 'ài dé huá shuō："wǒ hé mài kè shuō gè xiāng shēng。"',
+            examplePinyin: 'àidéhuá shuō： " wǒ hé màikè shuō gè xiàngshēng。 "',
           },
           {
             id: 'hj2b-l21-w14',
@@ -21663,7 +21663,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'actor\'s lines',
             exampleCn: '可是我总记不住台词。',
             exampleEn: 'But I always can\'t remember the lines.',
-            examplePinyin: 'kě shì wǒ zǒng jì bù zhù tái cí。',
+            examplePinyin: 'kěshì wǒ zǒng jìbúzhù táicí。',
           },
           {
             id: 'hj2b-l21-w15',
@@ -21673,7 +21673,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to recite from memory; to learn by heart',
             exampleCn: '我得好好儿背台词。',
             exampleEn: 'I need to recite the lines well.',
-            examplePinyin: 'wǒ dé hǎo hǎo ér bèi tái cí。',
+            examplePinyin: 'wǒ dé hǎohǎoér bèitáicí。',
           },
           {
             id: 'hj2b-l21-w16',
@@ -21683,7 +21683,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'drama; stage play',
             exampleCn: '我们表演一个话剧。',
             exampleEn: 'We will perform a drama.',
-            examplePinyin: 'wǒ men biǎo yǎn yī gè huà jù。',
+            examplePinyin: 'wǒmen biǎoyǎn yígè huàjù。',
           },
           {
             id: 'hj2b-l21-w17',
@@ -21693,7 +21693,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rehearse',
             exampleCn: '我们正在排练呢。',
             exampleEn: 'We are rehearsing.',
-            examplePinyin: 'wǒ men zhèng zài pái liàn ne。',
+            examplePinyin: 'wǒmen zhèngzài páiliàn ne。',
           },
           {
             id: 'hj2b-l21-w18',
@@ -21703,7 +21703,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to correct',
             exampleCn: '林老师纠正了我的发音。',
             exampleEn: 'Ms. Lin corrected my pronunciation.',
-            examplePinyin: 'lín lǎo shī jiū zhèng le wǒ de fā yīn。',
+            examplePinyin: 'lín lǎoshī jiūzhèng le wǒ de fāyīn。',
           },
           {
             id: 'hj2b-l21-w19',
@@ -21713,7 +21713,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be injured; to be wounded',
             exampleCn: '原来是玛丽，可是玛丽腿受伤了，参加不了。',
             exampleEn: 'It\'s Mary, but Mary\'s leg is injured, she can\'t participate.',
-            examplePinyin: 'yuán lái shì mǎ lì，kě shì mǎ lì tuǐ shòu shāng le，cān jiā bù le。',
+            examplePinyin: 'yuánlái shì mǎlì， kěshì mǎlì tuǐ shòushāng le， cānjiā bùliǎo。',
           },
           {
             id: 'hj2b-l21-w20',
@@ -21723,7 +21723,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to play; to act; to perform',
             exampleCn: '相信自己一定能演好。',
             exampleEn: 'Believe you can act well.',
-            examplePinyin: 'xiāng xìn zì jǐ yī dìng néng yǎn hǎo。',
+            examplePinyin: 'xiāngxìn zìjǐ yídìng néng yǎn hǎo。',
           },
           {
             id: 'hj2b-l21-w21',
@@ -21733,7 +21733,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'self-confidence; confident',
             exampleCn: '林老师说："要有自信，相信自己能演好。"',
             exampleEn: 'Ms. Lin said: "Be confident, believe you can act well."',
-            examplePinyin: 'lín lǎo shī shuō："yào yǒu zì xìn，xiāng xìn zì jǐ néng yǎn hǎo。"',
+            examplePinyin: 'lín lǎoshī shuō： " yào yǒu zìxìn， xiāngxìn zìjǐ néng yǎn hǎo。 "',
           },
           {
             id: 'hj2b-l21-w22',
@@ -21743,7 +21743,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to believe',
             exampleCn: '相信自己能演好。',
             exampleEn: 'Believe you can act well.',
-            examplePinyin: 'xiāng xìn zì jǐ néng yǎn hǎo。',
+            examplePinyin: 'xiāngxìn zìjǐ néng yǎn hǎo。',
           },
           {
             id: 'hj2b-l21-w23',
@@ -21753,7 +21753,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'as long as... will...',
             exampleCn: '只要我们好好儿练，就一定能演好。',
             exampleEn: 'As long as we practice well, we will definitely perform well.',
-            examplePinyin: 'zhǐ yào wǒ men hǎo hǎo ér liàn，jiù yī dìng néng yǎn hǎo。',
+            examplePinyin: 'zhǐyào wǒmen hǎohǎoér liàn， jiù yídìng néng yǎn hǎo。',
           },
           {
             id: 'hj2b-l21-w24',
@@ -21763,7 +21763,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'will',
             exampleCn: '只要努力，就能成功。',
             exampleEn: 'As long as you work hard, you will succeed.',
-            examplePinyin: 'zhǐ yào nǔ lì，jiù néng chéng gōng。',
+            examplePinyin: 'zhǐyào nǔlì， jiù néng chénggōng。',
           },
           {
             id: 'hj2b-l21-w25',
@@ -21773,7 +21773,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in the world; on earth',
             exampleCn: '世上无难事，只怕有心人嘛。',
             exampleEn: 'Nothing in the world is hard for those who set their minds to it.',
-            examplePinyin: 'shì shàng wú nán shì，zhǐ pà yǒu xīn rén ma。',
+            examplePinyin: 'shìshàngwúnánshì， zhǐpàyǒuxīnrén ma。',
           },
           {
             id: 'hj2b-l21-w26',
@@ -21783,7 +21783,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to not have; there is not',
             exampleCn: '无难事，只要有心。',
             exampleEn: 'Nothing is hard, as long as one is determined.',
-            examplePinyin: 'wú nán shì，zhǐ yào yǒu xīn。',
+            examplePinyin: 'wú nánshì， zhǐyào yǒuxīn。',
           },
           {
             id: 'hj2b-l21-w27',
@@ -21793,7 +21793,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fear; to be afraid of',
             exampleCn: '别怕，相信自己一定行！',
             exampleEn: 'Don\'t be afraid, believe you can do it!',
-            examplePinyin: 'bié pà，xiāng xìn zì jǐ yī dìng xíng！',
+            examplePinyin: 'biépà， xiāngxìn zìjǐ yídìng xíng！',
           },
           {
             id: 'hj2b-l21-w28',
@@ -21803,7 +21803,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'heart',
             exampleCn: '只要用心，什么事都能做好。',
             exampleEn: 'As long as you put your heart into it, you can do anything well.',
-            examplePinyin: 'zhǐ yào yòng xīn，shén me shì dōu néng zuò hǎo。',
+            examplePinyin: 'zhǐyào yòngxīn， shénme shì dōu néng zuòhǎo。',
           },
           {
             id: 'hj2b-l21-w29',
@@ -21813,7 +21813,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to strive for; to try to realize',
             exampleCn: '我一定努力，争取演出成功。',
             exampleEn: 'I will definitely work hard, striving to perform successfully.',
-            examplePinyin: 'wǒ yī dìng nǔ lì，zhēng qǔ yǎn chū chéng gōng。',
+            examplePinyin: 'wǒ yídìng nǔlì， zhēngqǔ yǎnchūchénggōng。',
           },
           {
             id: 'hj2b-l21-w30',
@@ -21823,7 +21823,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'afraid that...; probably; maybe',
             exampleCn: '林老师准备了一首歌，不过，很长时间没唱了，恐怕唱不好。',
             exampleEn: 'Ms. Lin prepared a song, but it\'s been a long time since she sang, she\'s afraid she may not sing well.',
-            examplePinyin: 'lín lǎo shī zhǔn bèi le yī shǒu gē，bù guò，hěn zhǎng shí jiān méi chàng le，kǒng pà chàng bù hǎo。',
+            examplePinyin: 'lín lǎoshī zhǔnbèi le yīshǒugē， bùguò， hěn zhǎngshíjiān méi chàng le， kǒngpà chàng bùhǎo。',
           },
         ],
       },
@@ -21841,7 +21841,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'familiar',
             exampleCn: '王老师觉得海伦的声音很熟，但一下子想不起来。',
             exampleEn: 'Mr. Wang found Helen\'s voice very familiar, but for a moment couldn\'t remember who she was.',
-            examplePinyin: 'wáng lǎo shī jué dé hǎi lún de shēng yīn hěn shú，dàn yī xià zi xiǎng bù qǐ lái。',
+            examplePinyin: 'wánglǎoshī juéde hǎilún de shēngyīn hěn shú， dàn yīxiàzi xiǎngbùqǐlái。',
           },
           {
             id: 'hj2b-l22-w2',
@@ -21851,7 +21851,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in a short while; all at once; all of a sudden',
             exampleCn: '王老师一下子想不起来她是谁了。',
             exampleEn: 'Mr. Wang couldn\'t remember who she was all of a sudden.',
-            examplePinyin: 'wáng lǎo shī yī xià zi xiǎng bù qǐ lái tā shì shuí le。',
+            examplePinyin: 'wánglǎoshī yīxiàzi xiǎngbùqǐlái tā shì shuí le。',
           },
           {
             id: 'hj2b-l22-w3',
@@ -21861,7 +21861,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to accept (an invitation)',
             exampleCn: '王老师应了周六的邀请。',
             exampleEn: 'Mr. Wang accepted the Saturday invitation.',
-            examplePinyin: 'wáng lǎo shī yīng le zhōu liù de yāo qǐng。',
+            examplePinyin: 'wánglǎoshī yīng le zhōuliù de yāoqǐng。',
           },
           {
             id: 'hj2b-l22-w4',
@@ -21871,7 +21871,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'international',
             exampleCn: '她是一家国际公司的职员。',
             exampleEn: 'She is an employee of an international company.',
-            examplePinyin: 'tā shì yī jiā guó jì gōng sī de zhí yuán。',
+            examplePinyin: 'tā shì yījiā guójì gōngsī de zhíyuán。',
           },
           {
             id: 'hj2b-l22-w5',
@@ -21881,7 +21881,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'radio; broadcast',
             exampleCn: '我每天早上都听英语广播。',
             exampleEn: 'I listen to English broadcasts every morning.',
-            examplePinyin: 'wǒ měi tiān zǎo shàng dōu tīng yīng yǔ guǎng bō。',
+            examplePinyin: 'wǒ měitiān zǎoshàng dōu tīng yīngyǔ guǎngbō。',
           },
           {
             id: 'hj2b-l22-w6',
@@ -21891,7 +21891,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'radio station',
             exampleCn: '我在那家电台做翻译。',
             exampleEn: 'I work as a translator at that radio station.',
-            examplePinyin: 'wǒ zài nà jiā diàn tái zuò fān yì。',
+            examplePinyin: 'wǒ zài nà jiā diàntái zuò fānyì。',
           },
           {
             id: 'hj2b-l22-w7',
@@ -21901,7 +21901,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to invite',
             exampleCn: '她接受了国际广播电台的邀请。',
             exampleEn: 'She accepted the invitation of the international radio station.',
-            examplePinyin: 'tā jiē shòu le guó jì guǎng bō diàn tái de yāo qǐng。',
+            examplePinyin: 'tā jiēshòu le guójìguǎngbōdiàntái de yāoqǐng。',
           },
           {
             id: 'hj2b-l22-w8',
@@ -21911,7 +21911,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stay',
             exampleCn: '海伦在北京待了两年。',
             exampleEn: 'Helen stayed in Beijing for two years.',
-            examplePinyin: 'hǎi lún zài běi jīng dài le liǎng nián。',
+            examplePinyin: 'hǎilún zài běijīng dài le liǎngnián。',
           },
           {
             id: 'hj2b-l22-w9',
@@ -21921,7 +21921,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sign',
             exampleCn: '我跟他们签了两年的合同。',
             exampleEn: 'I signed a two-year contract with them.',
-            examplePinyin: 'wǒ gēn tā men qiān le liǎng nián de hé tóng。',
+            examplePinyin: 'wǒ gēn tāmen qiān le liǎngnián de hétóng。',
           },
           {
             id: 'hj2b-l22-w10',
@@ -21931,7 +21931,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'contract',
             exampleCn: '合同上说工作两年。',
             exampleEn: 'The contract says working for two years.',
-            examplePinyin: 'hé tóng shàng shuō gōng zuò liǎng nián。',
+            examplePinyin: 'hétóng shàng shuō gōngzuò liǎngnián。',
           },
           {
             id: 'hj2b-l22-w11',
@@ -21941,7 +21941,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'China and foreign countries',
             exampleCn: '保罗在北京的一家中外合资公司工作。',
             exampleEn: 'Paul works at a Sino-foreign joint venture in Beijing.',
-            examplePinyin: 'bǎo luó zài běi jīng de yī jiā zhōng wài hé zī gōng sī gōng zuò。',
+            examplePinyin: 'bǎoluó zài běijīng de yījiā zhōngwàihézī gōngsī gōngzuò。',
           },
           {
             id: 'hj2b-l22-w12',
@@ -21951,7 +21951,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'joint venture',
             exampleCn: '保罗的公司是合资的，规模很大。',
             exampleEn: 'Paul\'s company is a joint venture, the scale is very large.',
-            examplePinyin: 'bǎo luó de gōng sī shì hé zī de，guī mó hěn dà。',
+            examplePinyin: 'bǎoluó de gōngsī shì hézī de， guīmó hěndà。',
           },
           {
             id: 'hj2b-l22-w13',
@@ -21961,7 +21961,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be a guest',
             exampleCn: '他们想请您来我家做客。',
             exampleEn: 'They want to invite you to be our guest at home.',
-            examplePinyin: 'tā men xiǎng qǐng nín lái wǒ jiā zuò kè。',
+            examplePinyin: 'tāmen xiǎng qǐng nín lái wǒjiā zuòkè。',
           },
           {
             id: 'hj2b-l22-w14',
@@ -21971,7 +21971,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'free time',
             exampleCn: '您星期六下午有没有空儿？',
             exampleEn: 'Do you have any free time on Saturday afternoon?',
-            examplePinyin: 'nín xīng qī liù xià wǔ yǒu méi yǒu kōng ér？',
+            examplePinyin: 'nín xīngqīliù xiàwǔ yǒuméiyǒu kòngér？',
           },
           {
             id: 'hj2b-l22-w15',
@@ -21981,7 +21981,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to move house',
             exampleCn: '我早就搬家了，搬到学校附近一个新建的住宅小区了。',
             exampleEn: 'I moved a long time ago, to a new residential complex near the school.',
-            examplePinyin: 'wǒ zǎo jiù bān jiā le，bān dào xué xiào fù jìn yī gè xīn jiàn de zhù zhái xiǎo qū le。',
+            examplePinyin: 'wǒ zǎojiù bānjiā le， bān dào xuéxiào fùjìn yígè xīnjiàn de zhùzháixiǎoqū le。',
           },
           {
             id: 'hj2b-l22-w16',
@@ -21991,7 +21991,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'address',
             exampleCn: '你把我的地址记下来。',
             exampleEn: 'Please write down my address.',
-            examplePinyin: 'nǐ bǎ wǒ de dì zhǐ jì xià lái。',
+            examplePinyin: 'nǐ bǎ wǒ de dìzhǐ jìxiàlái。',
           },
           {
             id: 'hj2b-l22-w17',
@@ -22001,7 +22001,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'business',
             exampleCn: '你们公司的业务是什么？',
             exampleEn: 'What is your company\'s business?',
-            examplePinyin: 'nǐ men gōng sī de yè wù shì shén me？',
+            examplePinyin: 'nǐmen gōngsī de yèwù shì shénme？',
           },
           {
             id: 'hj2b-l22-w18',
@@ -22011,7 +22011,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do; to engage in',
             exampleCn: '我们公司是搞中外文化交流的。',
             exampleEn: 'Our company engages in Sino-foreign cultural communication.',
-            examplePinyin: 'wǒ men gōng sī shì gǎo zhōng wài wén huà jiāo liú de。',
+            examplePinyin: 'wǒmen gōngsī shì gǎo zhōngwài wénhuàjiāoliú de。',
           },
           {
             id: 'hj2b-l22-w19',
@@ -22021,7 +22021,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to communicate',
             exampleCn: '我们负责中外文化交流工作。',
             exampleEn: 'We are in charge of Sino-foreign cultural communication work.',
-            examplePinyin: 'wǒ men fù zé zhōng wài wén huà jiāo liú gōng zuò。',
+            examplePinyin: 'wǒmen fùzé zhōngwài wénhuàjiāoliú gōngzuò。',
           },
           {
             id: 'hj2b-l22-w20',
@@ -22031,7 +22031,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to set up; to found',
             exampleCn: '公司成立不久，业务也刚开展起来。',
             exampleEn: 'The company was set up not long ago, and the business is just getting started.',
-            examplePinyin: 'gōng sī chéng lì bù jiǔ，yè wù yě gāng kāi zhǎn qǐ lái。',
+            examplePinyin: 'gōngsī chénglì bùjiǔ， yèwù yě gāng kāizhǎn qǐlái。',
           },
           {
             id: 'hj2b-l22-w21',
@@ -22041,7 +22041,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to start; to launch',
             exampleCn: '业务也刚开展起来。',
             exampleEn: 'The business is just getting started.',
-            examplePinyin: 'yè wù yě gāng kāi zhǎn qǐ lái。',
+            examplePinyin: 'yèwù yě gāng kāizhǎn qǐlái。',
           },
           {
             id: 'hj2b-l22-w22',
@@ -22051,7 +22051,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to continue; to go on with',
             exampleCn: '我想利用在北京工作的机会把汉语学好，所以打算继续学下去。',
             exampleEn: 'I\'d like to take the chance of working in Beijing to learn Chinese well, so I plan to continue studying.',
-            examplePinyin: 'wǒ xiǎng lì yòng zài běi jīng gōng zuò de jī huì bǎ hàn yǔ xué hǎo，suǒ yǐ dǎ suàn jì xù xué xià qù。',
+            examplePinyin: 'wǒ xiǎng lìyòng zài běijīng gōngzuò de jīhuì bǎ hànyǔ xuéhǎo， suǒyǐ dǎsuàn jìxù xué xiàqù。',
           },
           {
             id: 'hj2b-l22-w23',
@@ -22061,7 +22061,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'proper; fair; considerable',
             exampleCn: '你们俩原来都学得不错，有一定的基础。',
             exampleEn: 'You both have learned well, with a fair foundation.',
-            examplePinyin: 'nǐ men liǎ yuán lái dōu xué dé bù cuò，yǒu yī dìng de jī chǔ。',
+            examplePinyin: 'nǐmen liǎ yuánlái dōu xué dé bùcuò， yǒu yídìng de jīchǔ。',
           },
           {
             id: 'hj2b-l22-w24',
@@ -22071,7 +22071,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'foundation; basis',
             exampleCn: '你们的汉语基础不错，再学一年一定能说得很流利。',
             exampleEn: 'Your Chinese foundation is good, after another year of study you\'ll definitely speak fluently.',
-            examplePinyin: 'nǐ men de hàn yǔ jī chǔ bù cuò，zài xué yī nián yī dìng néng shuō dé hěn liú lì。',
+            examplePinyin: 'nǐmen de hànyǔ jīchǔ bùcuò， zài xué yīnián yídìng néng shuō dé hěn liúlì。',
           },
           {
             id: 'hj2b-l22-w25',
@@ -22081,7 +22081,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used up; empty',
             exampleCn: '这本词典我都用光了。',
             exampleEn: 'I\'ve used up this dictionary.',
-            examplePinyin: 'zhè běn cí diǎn wǒ dōu yòng guāng le。',
+            examplePinyin: 'zhè běncídiǎn wǒ dōu yòngguāng le。',
           },
           {
             id: 'hj2b-l22-w26',
@@ -22091,7 +22091,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to persist; to keep on',
             exampleCn: '汉语差不多都忘光了，要用的时候，好多词都想不起来了。但只要坚持下来，多听、多说、多练一定能学好。',
             exampleEn: 'My Chinese is almost forgotten, but as long as I persist, listening more, speaking more, practicing more, I will definitely learn it well.',
-            examplePinyin: 'hàn yǔ chà bù duō dōu wàng guāng le，yào yòng de shí hòu，hǎo duō cí dōu xiǎng bù qǐ lái le。dàn zhǐ yào jiān chí xià lái，duō tīng、duō shuō、duō liàn yī dìng néng xué hǎo。',
+            examplePinyin: 'hànyǔ chàbuduō dōu wàngguāng le， yào yòng de shíhòu， hǎoduō cí dōu xiǎngbùqǐlái le。 dàn zhǐyào jiānchí xiàlái， duō tīng、 duō shuō、 duō liàn yídìng néng xuéhǎo。',
           },
           {
             id: 'hj2b-l22-w27',
@@ -22101,7 +22101,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to find (time)',
             exampleCn: '白天我们都没有时间，只有晚上才抽得出时间来。',
             exampleEn: 'During the day we all have no time, only at night can we find time.',
-            examplePinyin: 'bái tiān wǒ men dōu méi yǒu shí jiān，zhǐ yǒu wǎn shàng cái chōu dé chū shí jiān lái。',
+            examplePinyin: 'báitiān wǒmen dōu méiyǒu shíjiān， zhǐyǒu wǎnshàng cái chōu déchū shíjiān lái。',
           },
           {
             id: 'hj2b-l22-w28',
@@ -22111,7 +22111,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'only if... can...',
             exampleCn: '只有坚持学下去，才能学好。',
             exampleEn: 'Only by persisting can one learn well.',
-            examplePinyin: 'zhǐ yǒu jiān chí xué xià qù，cái néng xué hǎo。',
+            examplePinyin: 'zhǐyǒu jiānchí xué xiàqù， cáinéng xuéhǎo。',
           },
           {
             id: 'hj2b-l22-w29',
@@ -22121,7 +22121,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'can',
             exampleCn: '坚持下来才能学好。',
             exampleEn: 'Only by persisting can one learn well.',
-            examplePinyin: 'jiān chí xià lái cái néng xué hǎo。',
+            examplePinyin: 'jiānchí xiàlái cáinéng xuéhǎo。',
           },
           {
             id: 'hj2b-l22-w30',
@@ -22131,7 +22131,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to agree',
             exampleCn: '要是老师同意的话，我们想到老师家里去上课。',
             exampleEn: 'If you agree, we\'d like to take lessons at your home.',
-            examplePinyin: 'yào shì lǎo shī tóng yì de huà，wǒ men xiǎng dào lǎo shī jiā lǐ qù shàng kè。',
+            examplePinyin: 'yàoshì lǎoshī tóngyì dehuà， wǒmen xiǎngdào lǎoshī jiālǐ qù shàngkè。',
           },
         ],
       },
@@ -22149,7 +22149,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thirsty',
             exampleCn: '玛丽说："我也又饿又渴。"',
             exampleEn: 'Mary said: "I\'m also hungry and thirsty."',
-            examplePinyin: 'mǎ lì shuō："wǒ yě yòu è yòu kě。"',
+            examplePinyin: 'mǎlì shuō： " wǒ yě yòu è yòu kě。 "',
           },
           {
             id: 'hj2b-l23-w2',
@@ -22159,7 +22159,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to order (food in a restaurant)',
             exampleCn: '那把你们这儿最好吃的菜给我们来两个。',
             exampleEn: 'Then give us two of your best dishes.',
-            examplePinyin: 'nà bǎ nǐ men zhè ér zuì hǎo chī de cài gěi wǒ men lái liǎng gè。',
+            examplePinyin: 'nà bǎ nǐmen zhèr zuì hǎochī de cài gěi wǒmen lái liǎnggè。',
           },
           {
             id: 'hj2b-l23-w3',
@@ -22169,7 +22169,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'delicious; tasty',
             exampleCn: '这儿的辣子鸡丁和糖醋鱼都好吃。',
             exampleEn: 'The diced chicken with chili and sweet and sour fish here are both delicious.',
-            examplePinyin: 'zhè ér de là zi jī dīng hé táng cù yú dōu hǎo chī。',
+            examplePinyin: 'zhèr de làzijīdīng hé tángcùyú dōu hǎochī。',
           },
           {
             id: 'hj2b-l23-w4',
@@ -22179,7 +22179,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'diced chicken with chili',
             exampleCn: '服务员说："这儿的辣子鸡丁和糖醋鱼都不错。"',
             exampleEn: 'The waiter said: "The diced chicken with chili and sweet and sour fish here are both good."',
-            examplePinyin: 'fú wù yuán shuō："zhè ér de là zi jī dīng hé táng cù yú dōu bù cuò。"',
+            examplePinyin: 'fúwùyuán shuō： " zhèr de làzijīdīng hé tángcùyú dōu bùcuò。 "',
           },
           {
             id: 'hj2b-l23-w5',
@@ -22189,7 +22189,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweet and sour fish',
             exampleCn: '我最爱吃这儿的糖醋鱼。',
             exampleEn: 'I love the sweet and sour fish here the most.',
-            examplePinyin: 'wǒ zuì ài chī zhè ér de táng cù yú。',
+            examplePinyin: 'wǒ zuì ài chī zhèr de tángcùyú。',
           },
           {
             id: 'hj2b-l23-w6',
@@ -22199,7 +22199,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'week',
             exampleCn: '下周考完试就要放寒假了。',
             exampleEn: 'After finishing the exam next week, the winter vacation will begin.',
-            examplePinyin: 'xià zhōu kǎo wán shì jiù yào fàng hán jiǎ le。',
+            examplePinyin: 'xiàzhōu kǎowánshì jiùyào fànghánjià le。',
           },
           {
             id: 'hj2b-l23-w7',
@@ -22209,7 +22209,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'other parts of the country',
             exampleCn: '学校要组织留学生去外地旅行。',
             exampleEn: 'The school is organizing international students to travel to other parts of the country.',
-            examplePinyin: 'xué xiào yào zǔ zhī liú xué shēng qù wài dì lǚ xíng。',
+            examplePinyin: 'xuéxiào yào zǔzhī liúxuéshēng qù wàidì lǚxíng。',
           },
           {
             id: 'hj2b-l23-w8',
@@ -22219,7 +22219,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fun; amusing',
             exampleCn: '我想去哈尔滨，听说哈尔滨的冰灯冰雕很好玩儿。',
             exampleEn: 'I want to go to Harbin, I heard the ice lanterns and ice sculptures are fun.',
-            examplePinyin: 'wǒ xiǎng qù hā ěr bīn，tīng shuō hā ěr bīn de bīng dēng bīng diāo hěn hǎo wán ér。',
+            examplePinyin: 'wǒ xiǎng qù hāěrbīn， tīngshuō hāěrbīn de bīngdēng bīngdiāo hěn hǎowánr。',
           },
           {
             id: 'hj2b-l23-w9',
@@ -22229,7 +22229,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'below zero',
             exampleCn: '哈尔滨白天已经零下二十多度了。',
             exampleEn: 'In Harbin the daytime is already below twenty degrees.',
-            examplePinyin: 'hā ěr bīn bái tiān yǐ jīng líng xià èr shí duō dù le。',
+            examplePinyin: 'hāěrbīn báitiān yǐjīng língxià èrshíduō dù le。',
           },
           {
             id: 'hj2b-l23-w10',
@@ -22239,7 +22239,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ice lantern',
             exampleCn: '哈尔滨的冰灯冰雕很好看。',
             exampleEn: 'Harbin\'s ice lanterns are very beautiful.',
-            examplePinyin: 'hā ěr bīn de bīng dēng bīng diāo hěn hǎo kàn。',
+            examplePinyin: 'hāěrbīn de bīngdēng bīngdiāo hěn hǎokàn。',
           },
           {
             id: 'hj2b-l23-w11',
@@ -22249,7 +22249,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ice sculpture; ice carving',
             exampleCn: '哈尔滨的冰雕很有名。',
             exampleEn: 'Harbin\'s ice sculptures are famous.',
-            examplePinyin: 'hā ěr bīn de bīng diāo hěn yǒu míng。',
+            examplePinyin: 'hāěrbīn de bīngdiāo hěn yǒumíng。',
           },
           {
             id: 'hj2b-l23-w12',
@@ -22259,7 +22259,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to crack a joke; to be kidding',
             exampleCn: '田中说："你又开玩笑。"',
             exampleEn: 'Tian Zhong said: "You\'re joking again."',
-            examplePinyin: 'tián zhōng shuō："nǐ yòu kāi wán xiào。"',
+            examplePinyin: 'tiánzhōng shuō： " nǐ yòu kāiwánxiào。 "',
           },
           {
             id: 'hj2b-l23-w13',
@@ -22269,7 +22269,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'joke',
             exampleCn: '你别开玩笑了。',
             exampleEn: 'Don\'t joke around.',
-            examplePinyin: 'nǐ bié kāi wán xiào le。',
+            examplePinyin: 'nǐ bié kāiwánxiào le。',
           },
           {
             id: 'hj2b-l23-w14',
@@ -22279,7 +22279,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plan; to plan',
             exampleCn: '寒假你有什么打算？你的计划呢？',
             exampleEn: 'What are you planning for the winter vacation? What\'s your plan?',
-            examplePinyin: 'hán jiǎ nǐ yǒu shén me dǎ suàn？nǐ de jì huà ne？',
+            examplePinyin: 'hánjià nǐ yǒu shénme dǎsuàn？ nǐ de jìhuà ne？',
           },
           {
             id: 'hj2b-l23-w15',
@@ -22289,7 +22289,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stele forest',
             exampleCn: '我打算先去西安看看碑林和兵马俑。',
             exampleEn: 'I\'m planning to go to Xi\'an first to see the stele forest and the terracotta warriors.',
-            examplePinyin: 'wǒ dǎ suàn xiān qù xī ān kàn kàn bēi lín hé bīng mǎ yǒng。',
+            examplePinyin: 'wǒ dǎsuàn xiān qù xīān kànkàn bēilín hé bīngmǎyǒng。',
           },
           {
             id: 'hj2b-l23-w16',
@@ -22299,7 +22299,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'terracotta warriors and horses',
             exampleCn: '在西安，我参观了世界闻名的兵马俑。',
             exampleEn: 'In Xi\'an, I visited the world-famous terracotta warriors and horses.',
-            examplePinyin: 'zài xī ān，wǒ cān guān le shì jiè wén míng de bīng mǎ yǒng。',
+            examplePinyin: 'zài xīān， wǒ cānguān le shìjièwénmíng de bīngmǎyǒng。',
           },
           {
             id: 'hj2b-l23-w17',
@@ -22309,7 +22309,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'boat; ship',
             exampleCn: '从重庆坐船游览长江三峡。',
             exampleEn: 'Take a boat from Chongqing to tour the Three Gorges of the Yangtze River.',
-            examplePinyin: 'cóng zhòng qìng zuò chuán yóu lǎn zhǎng jiāng sān xiá。',
+            examplePinyin: 'cóng chóngqìng zuòchuán yóulǎn chángjiāngsānxiá。',
           },
           {
             id: 'hj2b-l23-w18',
@@ -22319,7 +22319,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go sightseeing',
             exampleCn: '这次游览让我对三峡的印象很深。',
             exampleEn: 'This sightseeing trip gave me a deep impression of the Three Gorges.',
-            examplePinyin: 'zhè cì yóu lǎn ràng wǒ duì sān xiá de yìn xiàng hěn shēn。',
+            examplePinyin: 'zhècì yóulǎn ràng wǒ duì sānxiá de yìnxiàng hěn shēn。',
           },
           {
             id: 'hj2b-l23-w19',
@@ -22329,7 +22329,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'paradise; heaven',
             exampleCn: '杭州西湖被称为"人间天堂"。',
             exampleEn: 'Hangzhou\'s West Lake is called "paradise on earth".',
-            examplePinyin: 'háng zhōu xī hú bèi chēng wèi"rén jiān tiān táng"。',
+            examplePinyin: 'hángzhōu xīhú bèi chēngwéi " rénjiāntiāntáng "。',
           },
           {
             id: 'hj2b-l23-w20',
@@ -22339,7 +22339,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mountains and rivers; scenery',
             exampleCn: '桂林山水甲天下。',
             exampleEn: 'Guilin\'s scenery is the best under heaven.',
-            examplePinyin: 'guì lín shān shuǐ jiǎ tiān xià。',
+            examplePinyin: 'guìlínshānshuǐ jiǎtiānxià。',
           },
           {
             id: 'hj2b-l23-w21',
@@ -22349,7 +22349,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'first; number one',
             exampleCn: '桂林的山水甲天下。',
             exampleEn: 'Guilin\'s scenery is the best under heaven.',
-            examplePinyin: 'guì lín de shān shuǐ jiǎ tiān xià。',
+            examplePinyin: 'guìlín de shānshuǐ jiǎtiānxià。',
           },
           {
             id: 'hj2b-l23-w22',
@@ -22359,7 +22359,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'world; country',
             exampleCn: '桂林的山水天下第一。',
             exampleEn: 'Guilin\'s scenery is the best in the world.',
-            examplePinyin: 'guì lín de shān shuǐ tiān xià dì yī。',
+            examplePinyin: 'guìlín de shānshuǐ tiānxiàdìyī。',
           },
           {
             id: 'hj2b-l23-w23',
@@ -22369,7 +22369,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'minority',
             exampleCn: '我对云南少数民族的风俗很感兴趣。',
             exampleEn: 'I\'m very interested in the customs of Yunnan\'s minority groups.',
-            examplePinyin: 'wǒ duì yún nán shǎo shù mín zú de fēng sú hěn gǎn xīng qù。',
+            examplePinyin: 'wǒ duì yúnnán shǎoshùmínzú de fēngsú hěngǎnxìngqù。',
           },
           {
             id: 'hj2b-l23-w24',
@@ -22379,7 +22379,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nationality; ethnic group',
             exampleCn: '中国有五十六个民族。',
             exampleEn: 'China has fifty-six ethnic groups.',
-            examplePinyin: 'zhōng guó yǒu wǔ shí liù gè mín zú。',
+            examplePinyin: 'zhōngguó yǒu wǔshíliùgè mínzú。',
           },
           {
             id: 'hj2b-l23-w25',
@@ -22389,7 +22389,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'custom',
             exampleCn: '每个地方的风俗都不一样。',
             exampleEn: 'Every place has different customs.',
-            examplePinyin: 'měi gè dì fāng de fēng sú dōu bù yī yàng。',
+            examplePinyin: 'měigè dìfāng de fēngsú dōu bù yīyàng。',
           },
           {
             id: 'hj2b-l23-w26',
@@ -22399,7 +22399,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'route',
             exampleCn: '你的旅行路线很好。',
             exampleEn: 'Your travel route is great.',
-            examplePinyin: 'nǐ de lǚ xíng lù xiàn hěn hǎo。',
+            examplePinyin: 'nǐ de lǚxíng lùxiàn hěn hǎo。',
           },
           {
             id: 'hj2b-l23-w27',
@@ -22409,7 +22409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy; glad',
             exampleCn: '只要玩儿得开心，多花点儿钱也值得。',
             exampleEn: 'As long as you have fun, spending more money is worth it.',
-            examplePinyin: 'zhǐ yào wán ér dé kāi xīn，duō huā diǎn ér qián yě zhí dé。',
+            examplePinyin: 'zhǐyào wánr dé kāixīn， duō huādiǎnérqián yě zhíde。',
           },
           {
             id: 'hj2b-l23-w28',
@@ -22419,7 +22419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be worth',
             exampleCn: '多花点儿钱也值得。',
             exampleEn: 'It\'s worth spending more money.',
-            examplePinyin: 'duō huā diǎn ér qián yě zhí dé。',
+            examplePinyin: 'duō huādiǎnérqián yě zhíde。',
           },
           {
             id: 'hj2b-l23-w29',
@@ -22429,7 +22429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'indicating two actions taking place at the same time',
             exampleCn: '一边旅行一边练习说汉语，多有意义啊！',
             exampleEn: 'Traveling while practicing Chinese, how meaningful!',
-            examplePinyin: 'yī biān lǚ xíng yī biān liàn xí shuō hàn yǔ，duō yǒu yì yì a！',
+            examplePinyin: 'yībiān lǚxíng yībiān liànxí shuō hànyǔ， duō yǒu yìyì a！',
           },
           {
             id: 'hj2b-l23-w30',
@@ -22439,7 +22439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'meaning; significance',
             exampleCn: '这次旅行非常有意义。',
             exampleEn: 'This trip is very meaningful.',
-            examplePinyin: 'zhè cì lǚ xíng fēi cháng yǒu yì yì。',
+            examplePinyin: 'zhècì lǚxíng fēicháng yǒu yìyì。',
           },
         ],
       },
@@ -22457,7 +22457,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'at all places; everywhere',
             exampleCn: '街上到处都写着"有困难找警察"。',
             exampleEn: 'Everywhere on the street is written "Go to the police when you are in trouble".',
-            examplePinyin: 'jiē shàng dào chù dōu xiě zhe"yǒu kùn nán zhǎo jǐng chá"。',
+            examplePinyin: 'jiēshàng dàochù dōu xiě zhe " yǒu kùnnán zhǎo jǐngchá "。',
           },
           {
             id: 'hj2b-l24-w2',
@@ -22467,7 +22467,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'difficulty; trouble',
             exampleCn: '有困难就找警察。',
             exampleEn: 'Go to the police when you are in trouble.',
-            examplePinyin: 'yǒu kùn nán jiù zhǎo jǐng chá。',
+            examplePinyin: 'yǒu kùnnán jiù zhǎo jǐngchá。',
           },
           {
             id: 'hj2b-l24-w3',
@@ -22477,7 +22477,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'police',
             exampleCn: '警察是为人民服务的。',
             exampleEn: 'The police serve the people.',
-            examplePinyin: 'jǐng chá shì wèi rén mín fú wù de。',
+            examplePinyin: 'jǐngchá shì wèi rénmín fúwù de。',
           },
           {
             id: 'hj2b-l24-w4',
@@ -22487,7 +22487,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'intersection; crossroads',
             exampleCn: '在一个十字路口儿，我看见一对老夫妻。',
             exampleEn: 'At an intersection, I saw an old couple.',
-            examplePinyin: 'zài yī gè shí zì lù kǒu ér，wǒ kàn jiàn yī duì lǎo fū qī。',
+            examplePinyin: 'zài yígè shízìlùkǒu ér， wǒ kànjiàn yīduì lǎofūqī。',
           },
           {
             id: 'hj2b-l24-w5',
@@ -22497,7 +22497,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'couple; pair',
             exampleCn: '我看见一对老夫妻。',
             exampleEn: 'I saw a couple.',
-            examplePinyin: 'wǒ kàn jiàn yī duì lǎo fū qī。',
+            examplePinyin: 'wǒ kànjiàn yīduì lǎofūqī。',
           },
           {
             id: 'hj2b-l24-w6',
@@ -22507,7 +22507,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'husband and wife',
             exampleCn: '这对夫妻很恩爱，已经结婚三十年了。',
             exampleEn: 'This couple is very loving, they\'ve been married for thirty years.',
-            examplePinyin: 'zhè duì fū qī hěn ēn ài，yǐ jīng jié hūn sān shí nián le。',
+            examplePinyin: 'zhè duì fūqī hěn ēnài， yǐjīng jiéhūn sānshínián le。',
           },
           {
             id: 'hj2b-l24-w7',
@@ -22517,7 +22517,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'it seems that...',
             exampleCn: '他们要过马路，但是看着腿脚不太好。',
             exampleEn: 'They were about to cross the road, but it seemed that they had walking difficulties.',
-            examplePinyin: 'tā men yào guò mǎ lù，dàn shì kàn zhe tuǐ jiǎo bù tài hǎo。',
+            examplePinyin: 'tāmen yào guò mǎlù， dànshì kànzhe tuǐjiǎo bùtàihǎo。',
           },
           {
             id: 'hj2b-l24-w8',
@@ -22527,7 +22527,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'legs and feet; ability to walk',
             exampleCn: '老人上了年纪，腿脚不太灵便。',
             exampleEn: 'The old person is getting on in years, his legs and feet aren\'t very agile.',
-            examplePinyin: 'lǎo rén shàng le nián jì，tuǐ jiǎo bù tài líng biàn。',
+            examplePinyin: 'lǎorén shàng le niánjì， tuǐjiǎo bù tài língbiàn。',
           },
           {
             id: 'hj2b-l24-w9',
@@ -22537,7 +22537,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come and go',
             exampleCn: '但是看到来往的车那么多，等了半天，也不敢过来。',
             exampleEn: 'But seeing so many cars coming and going, they waited for a long time and didn\'t dare to cross.',
-            examplePinyin: 'dàn shì kàn dào lái wǎng de chē nà me duō，děng le bàn tiān，yě bù gǎn guò lái。',
+            examplePinyin: 'dànshì kàndào láiwǎng de chē nàme duō， děng le bàntiān， yě bùgǎn guòlái。',
           },
           {
             id: 'hj2b-l24-w10',
@@ -22547,7 +22547,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dare',
             exampleCn: '等了半天，也不敢过来。',
             exampleEn: 'Waited for a long time, but didn\'t dare to cross.',
-            examplePinyin: 'děng le bàn tiān，yě bù gǎn guò lái。',
+            examplePinyin: 'děng le bàntiān， yě bùgǎn guòlái。',
           },
           {
             id: 'hj2b-l24-w11',
@@ -22557,7 +22557,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'immediately; at once',
             exampleCn: '这时，一个交通警察看见了，就立即跑了过去。',
             exampleEn: 'At this time, a traffic police saw them, and immediately ran over.',
-            examplePinyin: 'zhè shí，yī gè jiāo tōng jǐng chá kàn jiàn le，jiù lì jí pǎo le guò qù。',
+            examplePinyin: 'zhèshí， yígè jiāotōngjǐngchá kànjiàn le， jiù lìjí pǎo le guòqù。',
           },
           {
             id: 'hj2b-l24-w12',
@@ -22567,7 +22567,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to assist; to support with the hand',
             exampleCn: '扶着这两位老人，一步一步地走过来。',
             exampleEn: 'Supporting the two old people, he walked them over step by step.',
-            examplePinyin: 'fú zhe zhè liǎng wèi lǎo rén，yī bù yī bù dì zǒu guò lái。',
+            examplePinyin: 'fú zhe zhè liǎngwèi lǎorén， yībù yībù dì zǒu guòlái。',
           },
           {
             id: 'hj2b-l24-w13',
@@ -22577,7 +22577,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'old person',
             exampleCn: '那位老人过马路的时候，警察赶紧过来扶他。',
             exampleEn: 'When that old person was crossing the road, the police quickly came over to support him.',
-            examplePinyin: 'nà wèi lǎo rén guò mǎ lù de shí hòu，jǐng chá gǎn jǐn guò lái fú tā。',
+            examplePinyin: 'nàwèi lǎorén guò mǎlù de shíhòu， jǐngchá gǎnjǐn guòlái fú tā。',
           },
           {
             id: 'hj2b-l24-w14',
@@ -22587,7 +22587,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'scene; sight',
             exampleCn: '看到这种情景，我非常感动。',
             exampleEn: 'Seeing this scene, I was very moved.',
-            examplePinyin: 'kàn dào zhè zhǒng qíng jǐng，wǒ fēi cháng gǎn dòng。',
+            examplePinyin: 'kàndào zhèzhǒng qíngjǐng， wǒ fēicháng gǎndòng。',
           },
           {
             id: 'hj2b-l24-w15',
@@ -22597,7 +22597,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'moved; touched; to affect; to move',
             exampleCn: '看到警察扶着老人过马路，我感动得说不出话来。',
             exampleEn: 'Seeing the police help the old people cross the road, I was so moved I couldn\'t speak.',
-            examplePinyin: 'kàn dào jǐng chá fú zhe lǎo rén guò mǎ lù，wǒ gǎn dòng dé shuō bù chū huà lái。',
+            examplePinyin: 'kàndào jǐngchá fú zhe lǎorén guò mǎlù， wǒ gǎndòng dé shuōbùchū huà lái。',
           },
           {
             id: 'hj2b-l24-w16',
@@ -22607,7 +22607,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to need (to do); to be worth (doing)',
             exampleCn: '这是警察应该做的事儿，有什么可感动的？',
             exampleEn: 'This is what the police should do, what\'s there to be moved?',
-            examplePinyin: 'zhè shì jǐng chá yīng gāi zuò de shì ér，yǒu shén me kě gǎn dòng de？',
+            examplePinyin: 'zhè shì jǐngchá yīnggāi zuò de shìr， yǒu shénme kě gǎndòng de？',
           },
           {
             id: 'hj2b-l24-w17',
@@ -22617,7 +22617,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to happen; to take place',
             exampleCn: '可是有的地方，还发生过警察打人的事儿。',
             exampleEn: 'But in some places, there have been cases of police beating people.',
-            examplePinyin: 'kě shì yǒu de dì fāng，hái fā shēng guò jǐng chá dǎ rén de shì ér。',
+            examplePinyin: 'kěshì yǒu de dìfāng， hái fāshēng guò jǐngchá dǎrén de shìr。',
           },
           {
             id: 'hj2b-l24-w18',
@@ -22627,7 +22627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for sentences',
             exampleCn: '我在网上看到这样一个新闻。',
             exampleEn: 'I saw a piece of news online.',
-            examplePinyin: 'wǒ zài wǎng shàng kàn dào zhè yàng yī gè xīn wén。',
+            examplePinyin: 'wǒ zài wǎngshàng kàndào zhèyàng yígè xīnwén。',
           },
           {
             id: 'hj2b-l24-w19',
@@ -22637,7 +22637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to roll',
             exampleCn: '球滚到大街上去了。',
             exampleEn: 'The ball rolled into the street.',
-            examplePinyin: 'qiú gǔn dào dà jiē shàng qù le。',
+            examplePinyin: 'qiú gǔn dào dàjiē shàngqù le。',
           },
           {
             id: 'hj2b-l24-w20',
@@ -22647,7 +22647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hold; to carry in one\'s arms',
             exampleCn: '警察就把孩子抱到路边。',
             exampleEn: 'The police carried the child to the roadside.',
-            examplePinyin: 'jǐng chá jiù bǎ hái zi bào dào lù biān。',
+            examplePinyin: 'jǐngchá jiù bǎ háizi bào dào lùbiān。',
           },
           {
             id: 'hj2b-l24-w21',
@@ -22657,7 +22657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'uncle; form of address for a man about one\'s father\'s age',
             exampleCn: '孩子说了一声"谢谢叔叔"。',
             exampleEn: 'The child said "Thank you, uncle".',
-            examplePinyin: 'hái zi shuō le yī shēng"xiè xiè shū shū"。',
+            examplePinyin: 'háizi shuō le yīshēng " xièxiè shūshū "。',
           },
           {
             id: 'hj2b-l24-w22',
@@ -22667,7 +22667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shoelace',
             exampleCn: '孩子的鞋带儿开了。',
             exampleEn: 'The child\'s shoelace came undone.',
-            examplePinyin: 'hái zi de xié dài ér kāi le。',
+            examplePinyin: 'háizi de xiédài ér kāi le。',
           },
           {
             id: 'hj2b-l24-w23',
@@ -22677,7 +22677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shoe',
             exampleCn: '鞋带儿系不好，鞋会掉的。',
             exampleEn: 'If the shoelace isn\'t tied well, the shoe will come off.',
-            examplePinyin: 'xié dài ér xì bù hǎo，xié huì diào de。',
+            examplePinyin: 'xiédài ér xì bùhǎo， xié huì diào de。',
           },
           {
             id: 'hj2b-l24-w24',
@@ -22687,7 +22687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'foot',
             exampleCn: '说着就把小脚伸到警察面前。',
             exampleEn: 'Saying this, the child stretched his little foot in front of the police.',
-            examplePinyin: 'shuō zhe jiù bǎ xiǎo jiǎo shēn dào jǐng chá miàn qián。',
+            examplePinyin: 'shuō zhe jiù bǎ xiǎojiǎo shēn dào jǐngchá miànqián。',
           },
           {
             id: 'hj2b-l24-w25',
@@ -22697,7 +22697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to reach; to stretch',
             exampleCn: '他伸出小脚，请叔叔帮他系鞋带儿。',
             exampleEn: 'He stretched out his little foot, asking the uncle to help tie his shoelace.',
-            examplePinyin: 'tā shēn chū xiǎo jiǎo，qǐng shū shū bāng tā xì xié dài ér。',
+            examplePinyin: 'tā shēnchū xiǎojiǎo， qǐng shūshū bāng tā jìxiédài ér。',
           },
           {
             id: 'hj2b-l24-w26',
@@ -22707,7 +22707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in front of; before',
             exampleCn: '孩子站在警察面前，一点儿也不害怕。',
             exampleEn: 'The child stood in front of the police, not afraid at all.',
-            examplePinyin: 'hái zi zhàn zài jǐng chá miàn qián，yī diǎn ér yě bù hài pà。',
+            examplePinyin: 'háizi zhàn zài jǐngchá miànqián， yìdiǎnér yě bù hàipà。',
           },
           {
             id: 'hj2b-l24-w27',
@@ -22717,7 +22717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to bend; to curl; crooked',
             exampleCn: '警察弯下腰，给孩子把鞋带儿系好。',
             exampleEn: 'The police bent down and tied the shoelace for the child.',
-            examplePinyin: 'jǐng chá wān xià yāo，gěi hái zi bǎ xié dài ér xì hǎo。',
+            examplePinyin: 'jǐngchá wān xiàyāo， gěi háizi bǎ xiédài ér xì hǎo。',
           },
           {
             id: 'hj2b-l24-w28',
@@ -22727,7 +22727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'waist',
             exampleCn: '他弯着腰，把地上的球捡了起来。',
             exampleEn: 'He bent his waist and picked up the ball from the ground.',
-            examplePinyin: 'tā wān zhe yāo，bǎ dì shàng de qiú jiǎn le qǐ lái。',
+            examplePinyin: 'tā wānzheyāo， bǎ dìshàng de qiú jiǎn le qǐlái。',
           },
           {
             id: 'hj2b-l24-w29',
@@ -22737,7 +22737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take care of',
             exampleCn: '警察给孩子系鞋带儿，就像照顾自己的孩子一样。',
             exampleEn: 'The police tying the child\'s shoelace is just like taking care of his own child.',
-            examplePinyin: 'jǐng chá gěi hái zi xì xié dài ér，jiù xiàng zhào gù zì jǐ de hái zi yī yàng。',
+            examplePinyin: 'jǐngchá gěi háizi jìxiédài ér， jiù xiàng zhàogù zìjǐ de háizi yīyàng。',
           },
           {
             id: 'hj2b-l24-w30',
@@ -22747,7 +22747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plum; plum blossom',
             exampleCn: '梅、松、竹是中国画家最喜欢画的。',
             exampleEn: 'Plum, pine, and bamboo are favorite subjects of Chinese painters.',
-            examplePinyin: 'méi、sōng、zhú shì zhōng guó huà jiā zuì xǐ huān huà de。',
+            examplePinyin: 'méi、 sōng、 zhú shì zhōngguó huàjiā zuì xǐhuān huà de。',
           },
           {
             id: 'hj2b-l24-w31',
@@ -22757,7 +22757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'picture; painting',
             exampleCn: '这幅《红梅图》画得真好！',
             exampleEn: 'This "Red Plum Painting" is so well painted!',
-            examplePinyin: 'zhè fú《hóng méi tú》huà dé zhēn hǎo！',
+            examplePinyin: 'zhè fú 《 hóngméi tú 》 huà dé zhēn hǎo！',
           },
           {
             id: 'hj2b-l24-w32',
@@ -22767,7 +22767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'painter; artist',
             exampleCn: '中国画家最喜欢画梅、松、竹，因为它们很坚强。',
             exampleEn: 'Chinese painters love to paint plum, pine, and bamboo because they are strong.',
-            examplePinyin: 'zhōng guó huà jiā zuì xǐ huān huà méi、sōng、zhú，yīn wèi tā men hěn jiān qiáng。',
+            examplePinyin: 'zhōngguó huàjiā zuì xǐhuān huà méi、 sōng、 zhú， yīnwèi tāmen hěn jiānqiáng。',
           },
           {
             id: 'hj2b-l24-w33',
@@ -22777,7 +22777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pine',
             exampleCn: '松树一年四季都是绿的。',
             exampleEn: 'The pine tree is green all year round.',
-            examplePinyin: 'sōng shù yī nián sì jì dōu shì lǜ de。',
+            examplePinyin: 'sōngshù yīniánsìjì dōu shì lǜ de。',
           },
           {
             id: 'hj2b-l24-w34',
@@ -22787,7 +22787,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bamboo',
             exampleCn: '竹子在中国南方很常见。',
             exampleEn: 'Bamboo is very common in southern China.',
-            examplePinyin: 'zhú zi zài zhōng guó nán fāng hěn cháng jiàn。',
+            examplePinyin: 'zhúzi zài zhōngguó nánfāng hěn chángjiàn。',
           },
           {
             id: 'hj2b-l24-w35',
@@ -22797,7 +22797,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be called; to be known as',
             exampleCn: '中国人把松竹梅叫做"岁寒三友"。',
             exampleEn: 'Chinese people call the pine, bamboo, and plum the "three friends in cold weather".',
-            examplePinyin: 'zhōng guó rén bǎ sōng zhú méi jiào zuò"suì hán sān yǒu"。',
+            examplePinyin: 'zhōngguó rén bǎ sōngzhúméi jiàozuò " suìhánsānyǒu "。',
           },
           {
             id: 'hj2b-l24-w36',
@@ -22807,7 +22807,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the three friends in cold weather',
             exampleCn: '松竹梅冬天也不怕冷，所以叫"岁寒三友"。',
             exampleEn: 'Pine, bamboo, and plum are not afraid of cold in winter, so they\'re called "the three friends in cold weather".',
-            examplePinyin: 'sōng zhú méi dōng tiān yě bù pà lěng，suǒ yǐ jiào"suì hán sān yǒu"。',
+            examplePinyin: 'sōngzhúméi dōngtiān yě bùpà lěng， suǒyǐ jiào " suìhánsānyǒu "。',
           },
           {
             id: 'hj2b-l24-w37',
@@ -22817,7 +22817,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'calligraphy and painting',
             exampleCn: '我跟您一样，也非常喜欢书法和字画。',
             exampleEn: 'Just like you, I also love calligraphy and paintings.',
-            examplePinyin: 'wǒ gēn nín yī yàng，yě fēi cháng xǐ huān shū fǎ hé zì huà。',
+            examplePinyin: 'wǒ gēn nín yīyàng， yě fēicháng xǐhuān shūfǎ hé zìhuà。',
           },
           {
             id: 'hj2b-l24-w38',
@@ -22827,7 +22827,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to flatter',
             exampleCn: '王老师说："哪里，您过奖了。"',
             exampleEn: 'Mr. Wang said: "Not at all, you flatter me."',
-            examplePinyin: 'wáng lǎo shī shuō："nǎ lǐ，nín guò jiǎng le。"',
+            examplePinyin: 'wánglǎoshī shuō： " nǎlǐ， nín guòjiǎng le。 "',
           },
         ],
       },
@@ -22845,7 +22845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'number',
             exampleCn: '你知道中国人喜欢什么数字吗？',
             exampleEn: 'Do you know what numbers Chinese people like?',
-            examplePinyin: 'nǐ zhī dào zhōng guó rén xǐ huān shén me shù zì ma？',
+            examplePinyin: 'nǐ zhīdào zhōngguó rén xǐhuān shénme shùzì ma？',
           },
           {
             id: 'hj2b-l25-w2',
@@ -22855,7 +22855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'even...',
             exampleCn: '"八"是最吉利的数字，连"八"字中国人也很喜欢。',
             exampleEn: '"8" is the luckiest number, Chinese people even like the character "8".',
-            examplePinyin: '"bā"shì zuì jí lì de shù zì，lián"bā"zì zhōng guó rén yě hěn xǐ huān。',
+            examplePinyin: '" bā " shì zuì jílì de shùzì， lián " bā " zì zhōngguó rén yě hěn xǐhuān。',
           },
           {
             id: 'hj2b-l25-w3',
@@ -22865,7 +22865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'simple',
             exampleCn: '这么简单的题目你也不会？',
             exampleEn: 'You don\'t even know such a simple question?',
-            examplePinyin: 'zhè me jiǎn dān de tí mù nǐ yě bù huì？',
+            examplePinyin: 'zhème jiǎndān de tímù nǐ yě búhuì？',
           },
           {
             id: 'hj2b-l25-w4',
@@ -22875,7 +22875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one half',
             exampleCn: '世界上的事我知道一半儿，中国的事我没有不知道的。',
             exampleEn: 'I know about half of the things in the world, and there\'s nothing about China I don\'t know.',
-            examplePinyin: 'shì jiè shàng de shì wǒ zhī dào yī bàn ér，zhōng guó de shì wǒ méi yǒu bù zhī dào de。',
+            examplePinyin: 'shìjiè shàng de shì wǒ zhīdào yíbànér， zhōngguó de shì wǒ méiyǒu bù zhīdào de。',
           },
           {
             id: 'hj2b-l25-w5',
@@ -22885,7 +22885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'China hand, person with expert knowledge of China',
             exampleCn: '我正要去申请专利呢，因为我有一个重大发现。',
             exampleEn: 'I\'m going to apply for a patent, because I have a major discovery.',
-            examplePinyin: 'wǒ zhèng yào qù shēn qǐng zhuān lì ne，yīn wèi wǒ yǒu yī gè zhòng dà fā xiàn。',
+            examplePinyin: 'wǒ zhèngyào qù shēnqǐngzhuānlì ne， yīnwèi wǒ yǒu yígè zhòngdà fāxiàn。',
           },
           {
             id: 'hj2b-l25-w6',
@@ -22895,7 +22895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'expert; to know; to understand',
             exampleCn: '他是一位中国通。',
             exampleEn: 'He is a China hand.',
-            examplePinyin: 'tā shì yī wèi zhōng guó tōng。',
+            examplePinyin: 'tā shì yīwèi zhōngguótōng。',
           },
           {
             id: 'hj2b-l25-w7',
@@ -22905,7 +22905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'young; younger',
             exampleCn: '你比我少几岁？',
             exampleEn: 'How many years younger are you than me?',
-            examplePinyin: 'nǐ bǐ wǒ shǎo jǐ suì？',
+            examplePinyin: 'nǐ bǐ wǒ shǎo jǐsuì？',
           },
           {
             id: 'hj2b-l25-w8',
@@ -22915,7 +22915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(used for emphasis) by all means',
             exampleCn: '你可别告诉别人。',
             exampleEn: 'Don\'t tell anyone by all means.',
-            examplePinyin: 'nǐ kě bié gào sù bié rén。',
+            examplePinyin: 'nǐ kě bié gàosù biérén。',
           },
           {
             id: 'hj2b-l25-w9',
@@ -22925,7 +22925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'others; other people',
             exampleCn: '别人都知道这个道理，你怎么还不知道？',
             exampleEn: 'Everyone else knows this principle, why don\'t you know it yet?',
-            examplePinyin: 'bié rén dōu zhī dào zhè gè dào lǐ，nǐ zěn me hái bù zhī dào？',
+            examplePinyin: 'biérén dōu zhīdào zhège dàolǐ， nǐ zěnme hái bù zhīdào？',
           },
           {
             id: 'hj2b-l25-w10',
@@ -22935,7 +22935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'great',
             exampleCn: '这是我的一项伟大发现。',
             exampleEn: 'This is one of my great discoveries.',
-            examplePinyin: 'zhè shì wǒ de yī xiàng wěi dà fā xiàn。',
+            examplePinyin: 'zhè shì wǒ de yīxiàng wěidà fāxiàn。',
           },
           {
             id: 'hj2b-l25-w11',
@@ -22945,7 +22945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to find; to discover',
             exampleCn: '这是一项伟大的发现。',
             exampleEn: 'This is a great discovery.',
-            examplePinyin: 'zhè shì yī xiàng wěi dà de fā xiàn。',
+            examplePinyin: 'zhè shì yīxiàng wěidà de fāxiàn。',
           },
           {
             id: 'hj2b-l25-w12',
@@ -22955,7 +22955,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to apply for',
             exampleCn: '我要去申请专利。',
             exampleEn: 'I want to apply for a patent.',
-            examplePinyin: 'wǒ yào qù shēn qǐng zhuān lì。',
+            examplePinyin: 'wǒ yào qù shēnqǐngzhuānlì。',
           },
           {
             id: 'hj2b-l25-w13',
@@ -22965,7 +22965,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'patent',
             exampleCn: '他已经申请了专利，公司很快就能用了。',
             exampleEn: 'He has already applied for the patent, the company can use it soon.',
-            examplePinyin: 'tā yǐ jīng shēn qǐng le zhuān lì，gōng sī hěn kuài jiù néng yòng le。',
+            examplePinyin: 'tā yǐjīng shēnqǐng le zhuānlì， gōngsī hěnkuài jiù néng yòng le。',
           },
           {
             id: 'hj2b-l25-w14',
@@ -22975,7 +22975,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to think; to believe',
             exampleCn: '大家都认为中国人喜欢"八"。',
             exampleEn: 'Everyone believes Chinese people like "8".',
-            examplePinyin: 'dà jiā dōu rèn wèi zhōng guó rén xǐ huān"bā"。',
+            examplePinyin: 'dàjiā dōu rènwéi zhōngguó rén xǐhuān " bā "。',
           },
           {
             id: 'hj2b-l25-w15',
@@ -22985,7 +22985,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'auspicious; propitious; lucky',
             exampleCn: '"八"是个吉利的数字。',
             exampleEn: '"8" is an auspicious number.',
-            examplePinyin: '"bā"shì gè jí lì de shù zì。',
+            examplePinyin: '" bā " shì gè jílì de shùzì。',
           },
           {
             id: 'hj2b-l25-w16',
@@ -22995,7 +22995,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sound',
             exampleCn: '"八"的音和"发"相同。',
             exampleEn: 'The sound of "8" is the same as "fa".',
-            examplePinyin: '"bā"de yīn hé"fā"xiāng tóng。',
+            examplePinyin: '" bā " de yīn hé " fā " xiāngtóng。',
           },
           {
             id: 'hj2b-l25-w17',
@@ -23005,7 +23005,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stupid; foolish',
             exampleCn: '我都听不出来，你真笨啊！',
             exampleEn: 'I can\'t even hear it, you\'re really stupid!',
-            examplePinyin: 'wǒ dōu tīng bù chū lái，nǐ zhēn bèn a！',
+            examplePinyin: 'wǒ dōu tīngbùchūlái， nǐ zhēnbèn a！',
           },
           {
             id: 'hj2b-l25-w18',
@@ -23015,7 +23015,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be homophonous',
             exampleCn: '很多字有谐音。',
             exampleEn: 'Many characters have homophones.',
-            examplePinyin: 'hěn duō zì yǒu xié yīn。',
+            examplePinyin: 'hěnduō zì yǒu xiéyīn。',
           },
           {
             id: 'hj2b-l25-w19',
@@ -23025,7 +23025,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get rich; to make a fortune',
             exampleCn: '"八"的谐音是"发"。',
             exampleEn: '"8" is homophonous with "fa" (to get rich).',
-            examplePinyin: '"bā"de xié yīn shì"fā"。',
+            examplePinyin: '" bā " de xiéyīn shì " fā "。',
           },
           {
             id: 'hj2b-l25-w20',
@@ -23035,7 +23035,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chocolate',
             exampleCn: '发了财就可以买巧克力。',
             exampleEn: 'After getting rich, one can buy chocolates.',
-            examplePinyin: 'fā le cái jiù kě yǐ mǎi qiǎo kè lì。',
+            examplePinyin: 'fā le cái jiù kěyǐ mǎi qiǎokèlì。',
           },
           {
             id: 'hj2b-l25-w21',
@@ -23045,7 +23045,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'potato',
             exampleCn: '发了财就可以买土豆儿。',
             exampleEn: 'After getting rich, one can buy potatoes.',
-            examplePinyin: 'fā le cái jiù kě yǐ mǎi tǔ dòu ér。',
+            examplePinyin: 'fā le cái jiù kěyǐ mǎi tǔdòu ér。',
           },
           {
             id: 'hj2b-l25-w22',
@@ -23055,7 +23055,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to talk nonsense',
             exampleCn: '你胡说！',
             exampleEn: 'You\'re talking nonsense!',
-            examplePinyin: 'nǐ hú shuō！',
+            examplePinyin: 'nǐ húshuō！',
           },
           {
             id: 'hj2b-l25-w23',
@@ -23065,7 +23065,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'permanent; long-lasting',
             exampleCn: '友情和爱情都要长久。',
             exampleEn: 'Friendship and love should both last long.',
-            examplePinyin: 'yǒu qíng hé ài qíng dōu yào zhǎng jiǔ。',
+            examplePinyin: 'yǒuqíng hé àiqíng dōu yào chángjiǔ。',
           },
           {
             id: 'hj2b-l25-w24',
@@ -23075,7 +23075,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'friendship',
             exampleCn: '友情是朋友之间的友谊。',
             exampleEn: 'Friendship is the bond between friends.',
-            examplePinyin: 'yǒu qíng shì péng yǒu zhī jiān de yǒu yì。',
+            examplePinyin: 'yǒuqíng shì péngyǒu zhījiān de yǒuyì。',
           },
           {
             id: 'hj2b-l25-w25',
@@ -23085,7 +23085,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'love (between lovers)',
             exampleCn: '友情和爱情都很重要。',
             exampleEn: 'Friendship and love are both important.',
-            examplePinyin: 'yǒu qíng hé ài qíng dōu hěn zhòng yào。',
+            examplePinyin: 'yǒuqíng hé àiqíng dōu hěn zhòngyào。',
           },
           {
             id: 'hj2b-l25-w26',
@@ -23095,7 +23095,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to live; to be alive',
             exampleCn: '活得好，友谊要长久，爱情也要长久。',
             exampleEn: 'To live well, friendship should last long, and love should also last long.',
-            examplePinyin: 'huó dé hǎo，yǒu yì yào zhǎng jiǔ，ài qíng yě yào zhǎng jiǔ。',
+            examplePinyin: 'huó dé hǎo， yǒuyì yào chángjiǔ， àiqíng yě yào chángjiǔ。',
           },
           {
             id: 'hj2b-l25-w27',
@@ -23105,7 +23105,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'smooth',
             exampleCn: '友谊长久，爱情长久，活得要顺。',
             exampleEn: 'Friendship long-lasting, love long-lasting, life should go smoothly.',
-            examplePinyin: 'yǒu yì zhǎng jiǔ，ài qíng zhǎng jiǔ，huó dé yào shùn。',
+            examplePinyin: 'yǒuyì chángjiǔ， àiqíng chángjiǔ， huó dé yào shùn。',
           },
           {
             id: 'hj2b-l25-w28',
@@ -23115,7 +23115,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'banquet; dinner party',
             exampleCn: '昨天我参加了一个中国朋友的宴会。',
             exampleEn: 'Yesterday I attended a Chinese friend\'s banquet.',
-            examplePinyin: 'zuó tiān wǒ cān jiā le yī gè zhōng guó péng yǒu de yàn huì。',
+            examplePinyin: 'zuótiān wǒ cānjiā le yígè zhōngguó péngyǒu de yànhuì。',
           },
           {
             id: 'hj2b-l25-w29',
@@ -23125,7 +23125,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'rule; custom; established standard',
             exampleCn: '中国人在宴会上的规矩可多了。',
             exampleEn: 'There are many customs at Chinese banquets.',
-            examplePinyin: 'zhōng guó rén zài yàn huì shàng de guī jǔ kě duō le。',
+            examplePinyin: 'zhōngguó rén zài yànhuì shàng de guījǔ kě duō le。',
           },
           {
             id: 'hj2b-l25-w30',
@@ -23135,7 +23135,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'first of all',
             exampleCn: '首先，要请重要的客人坐上座。',
             exampleEn: 'First of all, important guests should be invited to the seat of honor.',
-            examplePinyin: 'shǒu xiān，yào qǐng zhòng yào de kè rén zuò shàng zuò。',
+            examplePinyin: 'shǒuxiān， yào qǐng zhòngyào de kèrén zuò shàng zuò。',
           },
           {
             id: 'hj2b-l25-w31',
@@ -23145,7 +23145,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'important',
             exampleCn: '首先要请重要的客人、老师、领导和长辈坐上座。',
             exampleEn: 'First of all, important guests, teachers, leaders, and elders should be invited to the seat of honor.',
-            examplePinyin: 'shǒu xiān yào qǐng zhòng yào de kè rén、lǎo shī、lǐng dǎo hé zhǎng bèi zuò shàng zuò。',
+            examplePinyin: 'shǒuxiān yào qǐng zhòngyào de kèrén、 lǎoshī、 lǐngdǎo hé zhǎngbèi zuò shàng zuò。',
           },
           {
             id: 'hj2b-l25-w32',
@@ -23155,7 +23155,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'leader',
             exampleCn: '首先要请领导坐上座。',
             exampleEn: 'First of all, leaders should be invited to the seat of honor.',
-            examplePinyin: 'shǒu xiān yào qǐng lǐng dǎo zuò shàng zuò。',
+            examplePinyin: 'shǒuxiān yào qǐng lǐngdǎo zuò shàng zuò。',
           },
           {
             id: 'hj2b-l25-w33',
@@ -23165,7 +23165,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'elder; senior',
             exampleCn: '首先要请长辈坐上座。',
             exampleEn: 'First of all, elders should be invited to the seat of honor.',
-            examplePinyin: 'shǒu xiān yào qǐng zhǎng bèi zuò shàng zuò。',
+            examplePinyin: 'shǒuxiān yào qǐng zhǎngbèi zuò shàng zuò。',
           },
           {
             id: 'hj2b-l25-w34',
@@ -23175,7 +23175,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'seat of honor; VIP seat',
             exampleCn: '长辈一般都坐在上座。',
             exampleEn: 'Elders usually sit in the seat of honor.',
-            examplePinyin: 'zhǎng bèi yī bān dōu zuò zài shàng zuò。',
+            examplePinyin: 'zhǎngbèi yìbān dōu zuòzài shàng zuò。',
           },
           {
             id: 'hj2b-l25-w35',
@@ -23185,7 +23185,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to serve dishes; to lay dishes on the table',
             exampleCn: '上菜时，如果是鱼的话，鱼头要对着上座。',
             exampleEn: 'When serving dishes, if it\'s a fish, the head should face the seat of honor.',
-            examplePinyin: 'shàng cài shí，rú guǒ shì yú de huà，yú tóu yào duì zhe shàng zuò。',
+            examplePinyin: 'shàngcài shí， rúguǒ shì yú dehuà， yútóu yào duì zhe shàng zuò。',
           },
           {
             id: 'hj2b-l25-w36',
@@ -23195,7 +23195,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'if; in case',
             exampleCn: '如果你去别人家做客，要先请长辈入座。',
             exampleEn: 'If you visit someone\'s home, you should first ask the elders to sit.',
-            examplePinyin: 'rú guǒ nǐ qù bié rén jiā zuò kè，yào xiān qǐng zhǎng bèi rù zuò。',
+            examplePinyin: 'rúguǒ nǐ qù biérén jiā zuòkè， yào xiān qǐng zhǎngbèi rùzuò。',
           },
           {
             id: 'hj2b-l25-w37',
@@ -23205,7 +23205,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to propose a toast',
             exampleCn: '喝酒的时候，大家都要先给他敬酒。',
             exampleEn: 'When drinking, everyone should propose a toast to him first.',
-            examplePinyin: 'hē jiǔ de shí hòu，dà jiā dōu yào xiān gěi tā jìng jiǔ。',
+            examplePinyin: 'hējiǔ de shíhòu， dàjiā dōu yào xiān gěi tā jìngjiǔ。',
           },
           {
             id: 'hj2b-l25-w38',
@@ -23215,7 +23215,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'last time',
             exampleCn: '上次我参加了一个中国朋友的婚礼。',
             exampleEn: 'Last time I attended a Chinese friend\'s wedding.',
-            examplePinyin: 'shàng cì wǒ cān jiā le yī gè zhōng guó péng yǒu de hūn lǐ。',
+            examplePinyin: 'shàngcì wǒ cānjiā le yígè zhōngguó péngyǒu de hūnlǐ。',
           },
           {
             id: 'hj2b-l25-w39',
@@ -23225,7 +23225,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'next time',
             exampleCn: '下次你别客气。',
             exampleEn: 'Next time don\'t be polite.',
-            examplePinyin: 'xià cì nǐ bié kè qì。',
+            examplePinyin: 'xiàcì nǐ bié kèqì。',
           },
           {
             id: 'hj2b-l25-w40',
@@ -23235,7 +23235,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to drink a toast; bottoms up',
             exampleCn: '一定要干杯，把杯子里的酒一口喝光。',
             exampleEn: 'Must drink a toast, finish the wine in one gulp.',
-            examplePinyin: 'yī dìng yào gàn bēi，bǎ bēi zi lǐ de jiǔ yī kǒu hē guāng。',
+            examplePinyin: 'yídìng yào gānbēi， bǎ bēizi lǐ de jiǔ yīkǒu hēguāng。',
           },
           {
             id: 'hj2b-l25-w41',
@@ -23245,7 +23245,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'feeling; emotion',
             exampleCn: '他们会说"感情有，茶当酒"。',
             exampleEn: 'They say "where there\'s feeling, tea can stand in for wine".',
-            examplePinyin: 'tā men huì shuō"gǎn qíng yǒu，chá dāng jiǔ"。',
+            examplePinyin: 'tāmen huì shuō " gǎnqíng yǒu， chá dāng jiǔ "。',
           },
           {
             id: 'hj2b-l25-w42',
@@ -23255,7 +23255,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to serve as; to be',
             exampleCn: '感情有，茶当酒。',
             exampleEn: 'Where there\'s feeling, tea serves as wine.',
-            examplePinyin: 'gǎn qíng yǒu，chá dāng jiǔ。',
+            examplePinyin: 'gǎnqíng yǒu， chá dāng jiǔ。',
           },
           {
             id: 'hj2b-l25-w43',
@@ -23265,7 +23265,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to replace; to substitute',
             exampleCn: '你用茶代替就行了。',
             exampleEn: 'Just use tea as a substitute.',
-            examplePinyin: 'nǐ yòng chá dài tì jiù xíng le。',
+            examplePinyin: 'nǐ yòng chá dàitì jiùxíngle。',
           },
           {
             id: 'hj2b-l25-w44',
@@ -23275,7 +23275,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(sound of laughter) ha-ha',
             exampleCn: '哈哈！又吹起来了。',
             exampleEn: 'Ha-ha! He\'s bragging again.',
-            examplePinyin: 'hā hā！yòu chuī qǐ lái le。',
+            examplePinyin: 'hāhā！ yòu chuīqǐlái le。',
           },
           {
             id: 'hj2b-l25-w45',
@@ -23285,7 +23285,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to boast; to talk big; to brag',
             exampleCn: '他特别爱吹，说自己什么都知道。',
             exampleEn: 'He loves to brag, saying he knows everything.',
-            examplePinyin: 'tā tè bié ài chuī，shuō zì jǐ shén me dōu zhī dào。',
+            examplePinyin: 'tā tèbié ài chuī， shuō zìjǐ shénme dōu zhīdào。',
           },
         ],
       },
@@ -23311,7 +23311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Hello!',
             exampleCn: '你好！',
             exampleEn: 'Hello!',
-            examplePinyin: 'nǐ hǎo！',
+            examplePinyin: 'nǐhǎo！',
           },
           {
             id: 'h301a-l1-w2',
@@ -23321,7 +23321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'you (single)',
             exampleCn: '你好吗？',
             exampleEn: 'How are you?',
-            examplePinyin: 'nǐ hǎo ma？',
+            examplePinyin: 'nǐhǎo ma？',
           },
           {
             id: 'h301a-l1-w3',
@@ -23351,7 +23351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'I, me',
             exampleCn: '你好，我很好。',
             exampleEn: 'Hello, I am very well.',
-            examplePinyin: 'nǐ hǎo ， wǒ hěn hǎo。',
+            examplePinyin: 'nǐhǎo， wǒ hěn hǎo。',
           },
           {
             id: 'h301a-l1-w6',
@@ -23371,7 +23371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'also, too',
             exampleCn: '我很好，他也很好。',
             exampleEn: 'I am very well, and he is also very well.',
-            examplePinyin: 'wǒ hěn hǎo ， tā yě hěn hǎo。',
+            examplePinyin: 'wǒ hěn hǎo， tā yě hěn hǎo。',
           },
           {
             id: 'h301a-l1-w8',
@@ -23381,7 +23381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'you (plural)',
             exampleCn: '你们好！',
             exampleEn: 'Hello, everyone!',
-            examplePinyin: 'nǐ men hǎo！',
+            examplePinyin: 'nǐmenhǎo！',
           },
           {
             id: 'h301a-l1-w9',
@@ -23411,7 +23411,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'they, them',
             exampleCn: '他们好吗？',
             exampleEn: 'How are they?',
-            examplePinyin: 'tā men hǎo ma？',
+            examplePinyin: 'tāmen hǎo ma？',
           },
           {
             id: 'h301a-l1-w12',
@@ -23421,7 +23421,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'we, us',
             exampleCn: '我们很好。',
             exampleEn: 'We are very well.',
-            examplePinyin: 'wǒ men hěn hǎo。',
+            examplePinyin: 'wǒmen hěn hǎo。',
           },
         ],
       },
@@ -23449,7 +23449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'body',
             exampleCn: '我身体很好。',
             exampleEn: 'I am in good health.',
-            examplePinyin: 'wǒ shēn tǐ hěn hǎo。',
+            examplePinyin: 'wǒ shēntǐ hěn hǎo。',
           },
           {
             id: 'h301a-l2-w3',
@@ -23459,7 +23459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to thank',
             exampleCn: '谢谢老师！',
             exampleEn: 'Thank you, teacher!',
-            examplePinyin: 'xiè xiè lǎo shī！',
+            examplePinyin: 'xièxiè lǎoshī！',
           },
           {
             id: 'h301a-l2-w4',
@@ -23469,7 +23469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to say good-bye',
             exampleCn: '老师再见！',
             exampleEn: 'Good-bye, teacher!',
-            examplePinyin: 'lǎo shī zài jiàn！',
+            examplePinyin: 'lǎoshī zàijiàn！',
           },
           {
             id: 'h301a-l2-w5',
@@ -23479,7 +23479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'teacher',
             exampleCn: '老师好！',
             exampleEn: 'Hello, teacher!',
-            examplePinyin: 'lǎo shī hǎo！',
+            examplePinyin: 'lǎoshī hǎo！',
           },
           {
             id: 'h301a-l2-w6',
@@ -23489,7 +23489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'you (respectful)',
             exampleCn: '老师，您好！',
             exampleEn: 'Hello, teacher!',
-            examplePinyin: 'lǎo shī ， nín hǎo！',
+            examplePinyin: 'lǎoshī， nínhǎo！',
           },
           {
             id: 'h301a-l2-w7',
@@ -23499,7 +23499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one',
             exampleCn: '今天一号。',
             exampleEn: 'Today is the first.',
-            examplePinyin: 'jīn tiān yī hào。',
+            examplePinyin: 'jīntiān yīhào。',
           },
           {
             id: 'h301a-l2-w8',
@@ -23509,7 +23509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'two',
             exampleCn: '一、二、三。',
             exampleEn: 'One, two, three.',
-            examplePinyin: 'yī 、 èr 、 sān。',
+            examplePinyin: 'yī、 èr、 sān。',
           },
           {
             id: 'h301a-l2-w9',
@@ -23519,7 +23519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'three',
             exampleCn: '今天三号。',
             exampleEn: 'Today is the third.',
-            examplePinyin: 'jīn tiān sān hào。',
+            examplePinyin: 'jīntiān sānhào。',
           },
           {
             id: 'h301a-l2-w10',
@@ -23529,7 +23529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'four',
             exampleCn: '今天四号。',
             exampleEn: 'Today is the fourth.',
-            examplePinyin: 'jīn tiān sì hào。',
+            examplePinyin: 'jīntiān sìhào。',
           },
           {
             id: 'h301a-l2-w11',
@@ -23539,7 +23539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'five',
             exampleCn: '今天五号。',
             exampleEn: 'Today is the fifth.',
-            examplePinyin: 'jīn tiān wǔ hào。',
+            examplePinyin: 'jīntiān wǔhào。',
           },
           {
             id: 'h301a-l2-w12',
@@ -23549,7 +23549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'six',
             exampleCn: '今天六号。',
             exampleEn: 'Today is the sixth.',
-            examplePinyin: 'jīn tiān liù hào。',
+            examplePinyin: 'jīntiān liùhào。',
           },
           {
             id: 'h301a-l2-w13',
@@ -23559,7 +23559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'seven',
             exampleCn: '今天七号。',
             exampleEn: 'Today is the seventh.',
-            examplePinyin: 'jīn tiān qī hào。',
+            examplePinyin: 'jīntiān qīhào。',
           },
           {
             id: 'h301a-l2-w14',
@@ -23569,7 +23569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'eight',
             exampleCn: '今天八号。',
             exampleEn: 'Today is the eighth.',
-            examplePinyin: 'jīn tiān bā hào。',
+            examplePinyin: 'jīntiān bāhào。',
           },
           {
             id: 'h301a-l2-w15',
@@ -23579,7 +23579,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nine',
             exampleCn: '今天九号。',
             exampleEn: 'Today is the ninth.',
-            examplePinyin: 'jīn tiān jiǔ hào。',
+            examplePinyin: 'jīntiān jiǔhào。',
           },
           {
             id: 'h301a-l2-w16',
@@ -23589,7 +23589,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ten',
             exampleCn: '今天十号。',
             exampleEn: 'Today is the tenth.',
-            examplePinyin: 'jīn tiān shí hào。',
+            examplePinyin: 'jīntiān shíhào。',
           },
           {
             id: 'h301a-l2-w17',
@@ -23599,7 +23599,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'date',
             exampleCn: '今天五号。',
             exampleEn: 'Today is the fifth.',
-            examplePinyin: 'jīn tiān wǔ hào。',
+            examplePinyin: 'jīntiān wǔhào。',
           },
           {
             id: 'h301a-l2-w18',
@@ -23609,7 +23609,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'today',
             exampleCn: '今天我身体很好。',
             exampleEn: 'I am in good health today.',
-            examplePinyin: 'jīn tiān wǒ shēn tǐ hěn hǎo。',
+            examplePinyin: 'jīntiān wǒ shēntǐ hěn hǎo。',
           },
         ],
       },
@@ -23627,7 +23627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to work; work',
             exampleCn: '我工作很忙。',
             exampleEn: 'I am very busy with work.',
-            examplePinyin: 'wǒ gōng zuò hěn máng。',
+            examplePinyin: 'wǒ gōngzuò hěn máng。',
           },
           {
             id: 'h301a-l3-w2',
@@ -23637,7 +23637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'busy',
             exampleCn: '你工作很忙吗？',
             exampleEn: 'Are you very busy with work?',
-            examplePinyin: 'nǐ gōng zuò hěn máng ma？',
+            examplePinyin: 'nǐ gōngzuò hěn máng ma？',
           },
           {
             id: 'h301a-l3-w3',
@@ -23647,7 +23647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used at the end of a question',
             exampleCn: '我工作很忙，你呢？',
             exampleEn: 'I am busy with work. And you?',
-            examplePinyin: 'wǒ gōng zuò hěn máng ， nǐ ne？',
+            examplePinyin: 'wǒ gōngzuò hěn máng， nǐ ne？',
           },
           {
             id: 'h301a-l3-w4',
@@ -23677,7 +23677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tired, worn out',
             exampleCn: '我今天工作，很累。',
             exampleEn: 'I worked today and am very tired.',
-            examplePinyin: 'wǒ jīn tiān gōng zuò ， hěn lèi。',
+            examplePinyin: 'wǒ jīntiān gōngzuò， hěn lèi。',
           },
           {
             id: 'h301a-l3-w7',
@@ -23687,7 +23687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'elder brother',
             exampleCn: '我哥哥工作很忙。',
             exampleEn: 'My elder brother is very busy with work.',
-            examplePinyin: 'wǒ gē gē gōng zuò hěn máng。',
+            examplePinyin: 'wǒ gēgē gōngzuò hěn máng。',
           },
           {
             id: 'h301a-l3-w8',
@@ -23697,7 +23697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'elder sister',
             exampleCn: '姐姐不忙。',
             exampleEn: 'My elder sister is not busy.',
-            examplePinyin: 'jiě jiě bù máng。',
+            examplePinyin: 'jiějiě bù máng。',
           },
           {
             id: 'h301a-l3-w9',
@@ -23707,7 +23707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'younger brother',
             exampleCn: '弟弟太忙。',
             exampleEn: 'My younger brother is too busy.',
-            examplePinyin: 'dì di tài máng。',
+            examplePinyin: 'dìdi tài máng。',
           },
           {
             id: 'h301a-l3-w10',
@@ -23717,7 +23717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'younger sister',
             exampleCn: '妹妹工作吗？',
             exampleEn: 'Does your younger sister work?',
-            examplePinyin: 'mèi mèi gōng zuò ma？',
+            examplePinyin: 'mèimèi gōngzuò ma？',
           },
           {
             id: 'h301a-l3-w11',
@@ -23727,7 +23727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'moon, month',
             exampleCn: '三月我很忙。',
             exampleEn: 'In March I am very busy.',
-            examplePinyin: 'sān yuè wǒ hěn máng。',
+            examplePinyin: 'sānyuè wǒ hěn máng。',
           },
           {
             id: 'h301a-l3-w12',
@@ -23737,7 +23737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tomorrow',
             exampleCn: '明天我哥哥工作吗？',
             exampleEn: 'Does my elder brother work tomorrow?',
-            examplePinyin: 'míng tiān wǒ gē gē gōng zuò ma？',
+            examplePinyin: 'míngtiān wǒ gēgē gōngzuò ma？',
           },
           {
             id: 'h301a-l3-w13',
@@ -23747,7 +23747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'this year',
             exampleCn: '今年我很忙。',
             exampleEn: 'I am very busy this year.',
-            examplePinyin: 'jīn nián wǒ hěn máng。',
+            examplePinyin: 'jīnnián wǒ hěn máng。',
           },
           {
             id: 'h301a-l3-w14',
@@ -23757,7 +23757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'zero',
             exampleCn: '零、一、二、三。',
             exampleEn: 'Zero, one, two, three.',
-            examplePinyin: 'líng 、 yī 、 èr 、 sān。',
+            examplePinyin: 'líng、 yī、 èr、 sān。',
           },
           {
             id: 'h301a-l3-w15',
@@ -23767,7 +23767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'year',
             exampleCn: '今年我工作很忙。',
             exampleEn: 'This year I am very busy with work.',
-            examplePinyin: 'jīn nián wǒ gōng zuò hěn máng。',
+            examplePinyin: 'jīnnián wǒ gōngzuò hěn máng。',
           },
           {
             id: 'h301a-l3-w16',
@@ -23777,7 +23777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'next year',
             exampleCn: '我明年不忙。',
             exampleEn: 'I will not be busy next year.',
-            examplePinyin: 'wǒ míng nián bù máng。',
+            examplePinyin: 'wǒ míngnián bù máng。',
           },
         ],
       },
@@ -23795,7 +23795,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be known as...',
             exampleCn: '我叫大卫。',
             exampleEn: 'My name is David.',
-            examplePinyin: 'wǒ jiào dà wèi。',
+            examplePinyin: 'wǒ jiào dàwèi。',
           },
           {
             id: 'h301a-l4-w2',
@@ -23805,7 +23805,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to know',
             exampleCn: '我认识这个老师。',
             exampleEn: 'I know this teacher.',
-            examplePinyin: 'wǒ rèn shí zhè ge lǎo shī。',
+            examplePinyin: 'wǒ rènshí zhège lǎoshī。',
           },
           {
             id: 'h301a-l4-w3',
@@ -23815,7 +23815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'glad',
             exampleCn: '认识你，我很高兴。',
             exampleEn: 'I am very glad to meet you.',
-            examplePinyin: 'rèn shí nǐ ， wǒ hěn gāo xìng。',
+            examplePinyin: 'rènshí nǐ， wǒ hěn gāoxìng。',
           },
           {
             id: 'h301a-l4-w4',
@@ -23825,7 +23825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: '(polite) your name',
             exampleCn: '您贵姓？',
             exampleEn: 'What is your surname?',
-            examplePinyin: 'nín guì xìng？',
+            examplePinyin: 'nín guìxìng？',
           },
           {
             id: 'h301a-l4-w5',
@@ -23835,7 +23835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'what',
             exampleCn: '你叫什么？',
             exampleEn: 'What are you called?',
-            examplePinyin: 'nǐ jiào shén me？',
+            examplePinyin: 'nǐ jiào shénme？',
           },
           {
             id: 'h301a-l4-w6',
@@ -23845,7 +23845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'name',
             exampleCn: '你叫什么名字？',
             exampleEn: 'What is your name?',
-            examplePinyin: 'nǐ jiào shén me míng zì？',
+            examplePinyin: 'nǐ jiào shénme míngzì？',
           },
           {
             id: 'h301a-l4-w7',
@@ -23855,7 +23855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'one\'s family name is...; surname',
             exampleCn: '老师姓什么？',
             exampleEn: 'What is the teacher\'s surname?',
-            examplePinyin: 'lǎo shī xìng shén me？',
+            examplePinyin: 'lǎoshī xìng shénme？',
           },
           {
             id: 'h301a-l4-w8',
@@ -23865,7 +23865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be',
             exampleCn: '他是学生。',
             exampleEn: 'He is a student.',
-            examplePinyin: 'tā shì xué shēng。',
+            examplePinyin: 'tā shì xuéshēng。',
           },
           {
             id: 'h301a-l4-w9',
@@ -23875,7 +23875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'student',
             exampleCn: '我认识这个学生。',
             exampleEn: 'I know this student.',
-            examplePinyin: 'wǒ rèn shí zhè ge xué shēng。',
+            examplePinyin: 'wǒ rènshí zhège xuéshēng。',
           },
           {
             id: 'h301a-l4-w10',
@@ -23885,7 +23885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'that',
             exampleCn: '那是我朋友。',
             exampleEn: 'That is my friend.',
-            examplePinyin: 'nà shì wǒ péng yǒu。',
+            examplePinyin: 'nà shì wǒ péngyǒu。',
           },
           {
             id: 'h301a-l4-w11',
@@ -23895,7 +23895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used before nouns without a special classifier',
             exampleCn: '我是一个学生。',
             exampleEn: 'I am a student.',
-            examplePinyin: 'wǒ shì yí gè xué shēng。',
+            examplePinyin: 'wǒ shì yígè xuéshēng。',
           },
           {
             id: 'h301a-l4-w12',
@@ -23905,7 +23905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'this',
             exampleCn: '这个人是老师。',
             exampleEn: 'This person is a teacher.',
-            examplePinyin: 'zhè ge rén shì lǎo shī。',
+            examplePinyin: 'zhège rén shì lǎoshī。',
           },
           {
             id: 'h301a-l4-w13',
@@ -23915,7 +23915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'person',
             exampleCn: '他是好人。',
             exampleEn: 'He is a good person.',
-            examplePinyin: 'tā shì hǎo rén。',
+            examplePinyin: 'tā shì hǎorén。',
           },
           {
             id: 'h301a-l4-w14',
@@ -23925,7 +23925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'doctor',
             exampleCn: '他是大夫。',
             exampleEn: 'He is a doctor.',
-            examplePinyin: 'tā shì dà fū。',
+            examplePinyin: 'tā shì dàfū。',
           },
           {
             id: 'h301a-l4-w15',
@@ -23935,7 +23935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'foreign student',
             exampleCn: '那是留学生。',
             exampleEn: 'That is a foreign student.',
-            examplePinyin: 'nà shì liú xué shēng。',
+            examplePinyin: 'nà shì liúxuéshēng。',
           },
           {
             id: 'h301a-l4-w16',
@@ -23945,7 +23945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'friend',
             exampleCn: '我认识这个朋友。',
             exampleEn: 'I know this friend.',
-            examplePinyin: 'wǒ rèn shí zhè ge péng yǒu。',
+            examplePinyin: 'wǒ rènshí zhège péngyǒu。',
           },
         ],
       },
@@ -23973,7 +23973,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to introduce',
             exampleCn: '我介绍他。',
             exampleEn: 'I introduce him.',
-            examplePinyin: 'wǒ jiè shào tā。',
+            examplePinyin: 'wǒ jièshào tā。',
           },
           {
             id: 'h301a-l5-w3',
@@ -23983,7 +23983,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'indicating an action of short duration',
             exampleCn: '我介绍一下儿。',
             exampleEn: 'Let me give a brief introduction.',
-            examplePinyin: 'wǒ jiè shào yī xià ér。',
+            examplePinyin: 'wǒ jièshào yīxià ér。',
           },
           {
             id: 'h301a-l5-w4',
@@ -24003,7 +24003,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'where',
             exampleCn: '你去哪儿？',
             exampleEn: 'Where are you going?',
-            examplePinyin: 'nǐ qù nǎ ér？',
+            examplePinyin: 'nǐ qù nǎr？',
           },
           {
             id: 'h301a-l5-w6',
@@ -24013,7 +24013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be at (in); in, at',
             exampleCn: '你在哪儿？',
             exampleEn: 'Where are you?',
-            examplePinyin: 'nǐ zài nǎ ér？',
+            examplePinyin: 'nǐ zài nǎr？',
           },
           {
             id: 'h301a-l5-w7',
@@ -24023,7 +24023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'home',
             exampleCn: '我在家。',
             exampleEn: 'I am at home.',
-            examplePinyin: 'wǒ zài jiā。',
+            examplePinyin: 'wǒ zàijiā。',
           },
           {
             id: 'h301a-l5-w8',
@@ -24043,7 +24043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to invite, please',
             exampleCn: '我请你去我家。',
             exampleEn: 'I invite you to my home.',
-            examplePinyin: 'wǒ qǐng nǐ qù wǒ jiā。',
+            examplePinyin: 'wǒ qǐng nǐ qù wǒjiā。',
           },
           {
             id: 'h301a-l5-w10',
@@ -24063,7 +24063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'university',
             exampleCn: '他在大学。',
             exampleEn: 'He is at the university.',
-            examplePinyin: 'tā zài dà xué。',
+            examplePinyin: 'tā zài dàxué。',
           },
           {
             id: 'h301a-l5-w12',
@@ -24073,7 +24073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shop',
             exampleCn: '我去商店。',
             exampleEn: 'I go to the shop.',
-            examplePinyin: 'wǒ qù shāng diàn。',
+            examplePinyin: 'wǒ qù shāngdiàn。',
           },
           {
             id: 'h301a-l5-w13',
@@ -24083,7 +24083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to look, to watch',
             exampleCn: '我去商店看朋友。',
             exampleEn: 'I go to the shop to see a friend.',
-            examplePinyin: 'wǒ qù shāng diàn kàn péng yǒu。',
+            examplePinyin: 'wǒ qù shāngdiàn kàn péngyǒu。',
           },
           {
             id: 'h301a-l5-w14',
@@ -24093,7 +24093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to listen, to hear',
             exampleCn: '我去听听。',
             exampleEn: 'I\'ll go listen for a bit.',
-            examplePinyin: 'wǒ qù tīng tīng。',
+            examplePinyin: 'wǒ qù tīngtīng。',
           },
           {
             id: 'h301a-l5-w15',
@@ -24103,7 +24103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have a rest',
             exampleCn: '我在家休息。',
             exampleEn: 'I rest at home.',
-            examplePinyin: 'wǒ zài jiā xiū xī。',
+            examplePinyin: 'wǒ zàijiā xiūxī。',
           },
           {
             id: 'h301a-l5-w16',
@@ -24113,7 +24113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dormitory',
             exampleCn: '他在宿舍。',
             exampleEn: 'He is in the dormitory.',
-            examplePinyin: 'tā zài sù shè。',
+            examplePinyin: 'tā zài sùshè。',
           },
           {
             id: 'h301a-l5-w17',
@@ -24123,7 +24123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'classroom',
             exampleCn: '老师在教室。',
             exampleEn: 'The teacher is in the classroom.',
-            examplePinyin: 'lǎo shī zài jiào shì。',
+            examplePinyin: 'lǎoshī zài jiàoshì。',
           },
           {
             id: 'h301a-l5-w18',
@@ -24133,7 +24133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bar',
             exampleCn: '他去酒吧。',
             exampleEn: 'He goes to the bar.',
-            examplePinyin: 'tā qù jiǔ bā。',
+            examplePinyin: 'tā qù jiǔbā。',
           },
           {
             id: 'h301a-l5-w19',
@@ -24143,7 +24143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'supermarket',
             exampleCn: '我去超市看看。',
             exampleEn: 'I\'ll go to the supermarket and look around.',
-            examplePinyin: 'wǒ qù chāo shì kàn kàn。',
+            examplePinyin: 'wǒ qù chāoshì kànkàn。',
           },
           {
             id: 'h301a-l5-w20',
@@ -24153,7 +24153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to come back, to return',
             exampleCn: '我回宿舍。',
             exampleEn: 'I return to the dormitory.',
-            examplePinyin: 'wǒ huí sù shè。',
+            examplePinyin: 'wǒ huí sùshè。',
           },
         ],
       },
@@ -24171,7 +24171,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'how many',
             exampleCn: '今天几号？',
             exampleEn: 'What\'s the date today?',
-            examplePinyin: 'jīn tiān jǐ hào？',
+            examplePinyin: 'jīntiān jǐhào？',
           },
           {
             id: 'h301a-l6-w2',
@@ -24181,7 +24181,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'week',
             exampleCn: '今天星期几？',
             exampleEn: 'What day is it today?',
-            examplePinyin: 'jīn tiān xīng qī jǐ？',
+            examplePinyin: 'jīntiān xīngqī jǐ？',
           },
           {
             id: 'h301a-l6-w3',
@@ -24191,7 +24191,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'yesterday',
             exampleCn: '昨天我们去看电影。',
             exampleEn: 'Yesterday we went to see a movie.',
-            examplePinyin: 'zuó tiān wǒ men qù kàn diàn yǐng。',
+            examplePinyin: 'zuótiān wǒmen qù kàn diànyǐng。',
           },
           {
             id: 'h301a-l6-w4',
@@ -24201,7 +24201,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'evening',
             exampleCn: '今天晚上你在家吗？',
             exampleEn: 'Are you at home this evening?',
-            examplePinyin: 'jīn tiān wǎn shàng nǐ zài jiā ma？',
+            examplePinyin: 'jīntiān wǎnshàng nǐ zàijiā ma？',
           },
           {
             id: 'h301a-l6-w5',
@@ -24211,7 +24211,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do, to make',
             exampleCn: '你今天做什么？',
             exampleEn: 'What do you do today?',
-            examplePinyin: 'nǐ jīn tiān zuò shén me？',
+            examplePinyin: 'nǐ jīntiān zuò shénme？',
           },
           {
             id: 'h301a-l6-w6',
@@ -24221,7 +24221,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'birthday',
             exampleCn: '今天是我的生日。',
             exampleEn: 'Today is my birthday.',
-            examplePinyin: 'jīn tiān shì wǒ de shēng rì。',
+            examplePinyin: 'jīntiān shì wǒ de shēngrì。',
           },
           {
             id: 'h301a-l6-w7',
@@ -24231,7 +24231,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'morning',
             exampleCn: '今天上午我们去老师家。',
             exampleEn: 'This morning we go to the teacher\'s home.',
-            examplePinyin: 'jīn tiān shàng wǔ wǒ men qù lǎo shī jiā。',
+            examplePinyin: 'jīntiānshàngwǔ wǒmen qù lǎoshī jiā。',
           },
           {
             id: 'h301a-l6-w8',
@@ -24241,7 +24241,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'movie',
             exampleCn: '昨天晚上我们去看电影。',
             exampleEn: 'Last night we went to see a movie.',
-            examplePinyin: 'zuó tiān wǎn shàng wǒ men qù kàn diàn yǐng。',
+            examplePinyin: 'zuótiānwǎnshàng wǒmen qù kàn diànyǐng。',
           },
           {
             id: 'h301a-l6-w9',
@@ -24251,7 +24251,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Sunday',
             exampleCn: '星期天你在家吗？',
             exampleEn: 'Are you at home on Sunday?',
-            examplePinyin: 'xīng qī tiān nǐ zài jiā ma？',
+            examplePinyin: 'xīngqītiān nǐ zàijiā ma？',
           },
           {
             id: 'h301a-l6-w10',
@@ -24261,7 +24261,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'book',
             exampleCn: '我的书在家里。',
             exampleEn: 'My book is at home.',
-            examplePinyin: 'wǒ de shū zài jiā lǐ。',
+            examplePinyin: 'wǒ de shū zài jiālǐ。',
           },
           {
             id: 'h301a-l6-w11',
@@ -24271,7 +24271,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'music',
             exampleCn: '今天晚上听音乐。',
             exampleEn: 'Listen to music this evening.',
-            examplePinyin: 'jīn tiān wǎn shàng tīng yīn yuè。',
+            examplePinyin: 'jīntiān wǎnshàng tīng yīnyuè。',
           },
           {
             id: 'h301a-l6-w12',
@@ -24281,7 +24281,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'television',
             exampleCn: '我在家看电视。',
             exampleEn: 'I watch TV at home.',
-            examplePinyin: 'wǒ zài jiā kàn diàn shì。',
+            examplePinyin: 'wǒ zàijiā kàndiànshì。',
           },
           {
             id: 'h301a-l6-w13',
@@ -24291,7 +24291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to write',
             exampleCn: '老师写书。',
             exampleEn: 'The teacher writes a book.',
-            examplePinyin: 'lǎo shī xiě shū。',
+            examplePinyin: 'lǎoshī xiě shū。',
           },
           {
             id: 'h301a-l6-w14',
@@ -24301,7 +24301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'letter',
             exampleCn: '昨天他写信。',
             exampleEn: 'Yesterday he wrote a letter.',
-            examplePinyin: 'zuó tiān tā xiě xìn。',
+            examplePinyin: 'zuótiān tā xiěxìn。',
           },
           {
             id: 'h301a-l6-w15',
@@ -24311,7 +24311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'afternoon',
             exampleCn: '下午我看书。',
             exampleEn: 'In the afternoon I read a book.',
-            examplePinyin: 'xià wǔ wǒ kàn shū。',
+            examplePinyin: 'xiàwǔ wǒ kànshū。',
           },
           {
             id: 'h301a-l6-w16',
@@ -24321,7 +24321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bookstore',
             exampleCn: '上午我去书店。',
             exampleEn: 'In the morning I go to the bookstore.',
-            examplePinyin: 'shàng wǔ wǒ qù shū diàn。',
+            examplePinyin: 'shàngwǔ wǒ qù shūdiàn。',
           },
           {
             id: 'h301a-l6-w17',
@@ -24331,7 +24331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to buy',
             exampleCn: '我去书店买书。',
             exampleEn: 'I go to the bookstore to buy books.',
-            examplePinyin: 'wǒ qù shū diàn mǎi shū。',
+            examplePinyin: 'wǒ qù shūdiàn mǎi shū。',
           },
           {
             id: 'h301a-l6-w18',
@@ -24341,7 +24341,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thing, goods',
             exampleCn: '下午我去买东西。',
             exampleEn: 'In the afternoon I go to buy things.',
-            examplePinyin: 'xià wǔ wǒ qù mǎi dōng xī。',
+            examplePinyin: 'xiàwǔ wǒ qù mǎi dōngxī。',
           },
           {
             id: 'h301a-l6-w19',
@@ -24351,7 +24351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'age',
             exampleCn: '你几岁？',
             exampleEn: 'How old are you?',
-            examplePinyin: 'nǐ jǐ suì？',
+            examplePinyin: 'nǐ jǐsuì？',
           },
         ],
       },
@@ -24369,7 +24369,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'there to be, to have',
             exampleCn: '我有一个朋友。',
             exampleEn: 'I have a friend.',
-            examplePinyin: 'wǒ yǒu yí gè péng yǒu。',
+            examplePinyin: 'wǒ yǒu yígè péngyǒu。',
           },
           {
             id: 'h301a-l7-w2',
@@ -24379,7 +24379,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for people in a family',
             exampleCn: '我家有三口人。',
             exampleEn: 'My family has three people.',
-            examplePinyin: 'wǒ jiā yǒu sān kǒu rén。',
+            examplePinyin: 'wǒjiā yǒu sānkǒu rén。',
           },
           {
             id: 'h301a-l7-w3',
@@ -24389,7 +24389,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'and, as well as',
             exampleCn: '我和他是朋友。',
             exampleEn: 'He and I are friends.',
-            examplePinyin: 'wǒ hé tā shì péng yǒu。',
+            examplePinyin: 'wǒ hé tā shì péngyǒu。',
           },
           {
             id: 'h301a-l7-w4',
@@ -24399,7 +24399,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to marry',
             exampleCn: '她和朋友结婚了。',
             exampleEn: 'She got married to a friend.',
-            examplePinyin: 'tā hé péng yǒu jié hūn le。',
+            examplePinyin: 'tā hé péngyǒu jiéhūn le。',
           },
           {
             id: 'h301a-l7-w5',
@@ -24409,7 +24409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate completion',
             exampleCn: '他来了，我也来了。',
             exampleEn: 'He came, and I came too.',
-            examplePinyin: 'tā lái le ， wǒ yě lái le。',
+            examplePinyin: 'tā lái le， wǒ yě lái le。',
           },
           {
             id: 'h301a-l7-w6',
@@ -24419,7 +24419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'no, not',
             exampleCn: '他没有朋友。',
             exampleEn: 'He does not have friends.',
-            examplePinyin: 'tā méi yǒu péng yǒu。',
+            examplePinyin: 'tā méiyǒu péngyǒu。',
           },
           {
             id: 'h301a-l7-w7',
@@ -24429,7 +24429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'child, children',
             exampleCn: '他和她有一个孩子。',
             exampleEn: 'He and she have a child.',
-            examplePinyin: 'tā hé tā yǒu yí gè hái zi。',
+            examplePinyin: 'tā hé tā yǒu yígè háizi。',
           },
           {
             id: 'h301a-l7-w8',
@@ -24439,7 +24439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'two',
             exampleCn: '我家有两口人。',
             exampleEn: 'My family has two people.',
-            examplePinyin: 'wǒ jiā yǒu liǎng kǒu rén。',
+            examplePinyin: 'wǒjiā yǒu liǎngkǒu rén。',
           },
           {
             id: 'h301a-l7-w9',
@@ -24449,7 +24449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to study',
             exampleCn: '他在家学习。',
             exampleEn: 'He studies at home.',
-            examplePinyin: 'tā zài jiā xué xí。',
+            examplePinyin: 'tā zàijiā xuéxí。',
           },
           {
             id: 'h301a-l7-w10',
@@ -24459,7 +24459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'English (language)',
             exampleCn: '我学习英语。',
             exampleEn: 'I study English.',
-            examplePinyin: 'wǒ xué xí yīng yǔ。',
+            examplePinyin: 'wǒ xuéxí yīngyǔ。',
           },
           {
             id: 'h301a-l7-w11',
@@ -24469,7 +24469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'employee, clerk',
             exampleCn: '我爱人是职员。',
             exampleEn: 'My spouse is an employee.',
-            examplePinyin: 'wǒ ài rén shì zhí yuán。',
+            examplePinyin: 'wǒ àirén shì zhíyuán。',
           },
           {
             id: 'h301a-l7-w12',
@@ -24479,7 +24479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bank',
             exampleCn: '我去银行。',
             exampleEn: 'I go to the bank.',
-            examplePinyin: 'wǒ qù yín háng。',
+            examplePinyin: 'wǒ qù yínháng。',
           },
           {
             id: 'h301a-l7-w13',
@@ -24489,7 +24489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'spouse, wife or husband',
             exampleCn: '我的爱人是老师。',
             exampleEn: 'My spouse is a teacher.',
-            examplePinyin: 'wǒ de ài rén shì lǎo shī。',
+            examplePinyin: 'wǒ de àirén shì lǎoshī。',
           },
           {
             id: 'h301a-l7-w14',
@@ -24499,7 +24499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'nurse',
             exampleCn: '他的爱人是护士。',
             exampleEn: 'His spouse is a nurse.',
-            examplePinyin: 'tā de ài rén shì hù shì。',
+            examplePinyin: 'tā de àirén shì hùshì。',
           },
           {
             id: 'h301a-l7-w15',
@@ -24509,7 +24509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Chinese (language)',
             exampleCn: '我学习汉语。',
             exampleEn: 'I study Chinese.',
-            examplePinyin: 'wǒ xué xí hàn yǔ。',
+            examplePinyin: 'wǒ xuéxí hànyǔ。',
           },
           {
             id: 'h301a-l7-w16',
@@ -24519,7 +24519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Japanese (language)',
             exampleCn: '他学习日语。',
             exampleEn: 'He studies Japanese.',
-            examplePinyin: 'tā xué xí rì yǔ。',
+            examplePinyin: 'tā xuéxí rìyǔ。',
           },
           {
             id: 'h301a-l7-w17',
@@ -24529,7 +24529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Korean (language)',
             exampleCn: '她也学习韩语。',
             exampleEn: 'She also studies Korean.',
-            examplePinyin: 'tā yě xué xí hán yǔ。',
+            examplePinyin: 'tā yě xuéxí hányǔ。',
           },
           {
             id: 'h301a-l7-w18',
@@ -24539,7 +24539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go to class',
             exampleCn: '我和朋友上课。',
             exampleEn: 'My friend and I go to class.',
-            examplePinyin: 'wǒ hé péng yǒu shàng kè。',
+            examplePinyin: 'wǒ hé péngyǒu shàngkè。',
           },
           {
             id: 'h301a-l7-w19',
@@ -24549,7 +24549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to surf the net',
             exampleCn: '我在家上网。',
             exampleEn: 'I surf the Internet at home.',
-            examplePinyin: 'wǒ zài jiā shàng wǎng。',
+            examplePinyin: 'wǒ zàijiā shàngwǎng。',
           },
           {
             id: 'h301a-l7-w20',
@@ -24559,7 +24559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Internet',
             exampleCn: '他在上网。',
             exampleEn: 'He is surfing the Internet.',
-            examplePinyin: 'tā zài shàng wǎng。',
+            examplePinyin: 'tā zài shàngwǎng。',
           },
           {
             id: 'h301a-l7-w21',
@@ -24569,7 +24569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cellphone, mobile phone',
             exampleCn: '我有手机。',
             exampleEn: 'I have a cellphone.',
-            examplePinyin: 'wǒ yǒu shǒu jī。',
+            examplePinyin: 'wǒ yǒu shǒujī。',
           },
           {
             id: 'h301a-l7-w22',
@@ -24579,7 +24579,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'class is over',
             exampleCn: '我们下课了。',
             exampleEn: 'We are out of class.',
-            examplePinyin: 'wǒ men xià kè le。',
+            examplePinyin: 'wǒmen xiàkè le。',
           },
         ],
       },
@@ -24597,7 +24597,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'now, nowadays',
             exampleCn: '现在他在家。',
             exampleEn: 'He is at home now.',
-            examplePinyin: 'xiàn zài tā zài jiā。',
+            examplePinyin: 'xiànzài tā zàijiā。',
           },
           {
             id: 'h301a-l8-w2',
@@ -24607,7 +24607,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'o\'clock, hour',
             exampleCn: '现在一点。',
             exampleEn: 'It is one o\'clock now.',
-            examplePinyin: 'xiàn zài yì diǎn。',
+            examplePinyin: 'xiànzài yìdiǎn。',
           },
           {
             id: 'h301a-l8-w3',
@@ -24617,7 +24617,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'minute',
             exampleCn: '现在一点一分。',
             exampleEn: 'It is one minute past one now.',
-            examplePinyin: 'xiàn zài yì diǎn yī fēn。',
+            examplePinyin: 'xiànzài yìdiǎn yīfēn。',
           },
           {
             id: 'h301a-l8-w4',
@@ -24627,7 +24627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lack, to be short of',
             exampleCn: '现在差一分一点。',
             exampleEn: 'It is one minute to one now.',
-            examplePinyin: 'xiàn zài chà yī fēn yì diǎn。',
+            examplePinyin: 'xiànzài chà yīfēn yìdiǎn。',
           },
           {
             id: 'h301a-l8-w5',
@@ -24637,7 +24637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quarter',
             exampleCn: '现在一点一刻。',
             exampleEn: 'It is a quarter past one now.',
-            examplePinyin: 'xiàn zài yì diǎn yī kè。',
+            examplePinyin: 'xiànzài yìdiǎn yīkè。',
           },
           {
             id: 'h301a-l8-w6',
@@ -24647,7 +24647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to eat',
             exampleCn: '我吃饭，他也吃饭。',
             exampleEn: 'I eat, and he eats too.',
-            examplePinyin: 'wǒ chī fàn ， tā yě chī fàn。',
+            examplePinyin: 'wǒ chīfàn， tā yě chīfàn。',
           },
           {
             id: 'h301a-l8-w7',
@@ -24657,7 +24657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'meal, (cooked) rice',
             exampleCn: '我吃饭。',
             exampleEn: 'I have a meal.',
-            examplePinyin: 'wǒ chī fàn。',
+            examplePinyin: 'wǒ chīfàn。',
           },
           {
             id: 'h301a-l8-w8',
@@ -24667,7 +24667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'time, hour',
             exampleCn: '现在是什么时候？',
             exampleEn: 'What time is it now?',
-            examplePinyin: 'xiàn zài shì shén me shí hòu？',
+            examplePinyin: 'xiànzài shì shénme shíhòu？',
           },
           {
             id: 'h301a-l8-w9',
@@ -24677,7 +24677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'half',
             exampleCn: '现在一点半。',
             exampleEn: 'It is half past one now.',
-            examplePinyin: 'xiàn zài yì diǎn bàn。',
+            examplePinyin: 'xiànzài yìdiǎnbàn。',
           },
           {
             id: 'h301a-l8-w10',
@@ -24687,7 +24687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get up',
             exampleCn: '我起床。',
             exampleEn: 'I get up.',
-            examplePinyin: 'wǒ qǐ chuáng。',
+            examplePinyin: 'wǒ qǐchuáng。',
           },
           {
             id: 'h301a-l8-w11',
@@ -24697,7 +24697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bed',
             exampleCn: '我起床。',
             exampleEn: 'I get up.',
-            examplePinyin: 'wǒ qǐ chuáng。',
+            examplePinyin: 'wǒ qǐchuáng。',
           },
           {
             id: 'h301a-l8-w12',
@@ -24707,7 +24707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'morning',
             exampleCn: '早上我起床。',
             exampleEn: 'In the morning I get up.',
-            examplePinyin: 'zǎo shàng wǒ qǐ chuáng。',
+            examplePinyin: 'zǎoshàng wǒ qǐchuáng。',
           },
           {
             id: 'h301a-l8-w13',
@@ -24717,7 +24717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used at the end of a sentence for suggestion',
             exampleCn: '我们去吃饭吧。',
             exampleEn: 'Let\'s go and have a meal.',
-            examplePinyin: 'wǒ men qù chī fàn ba。',
+            examplePinyin: 'wǒmen qù chīfàn ba。',
           },
           {
             id: 'h301a-l8-w14',
@@ -24727,7 +24727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dining-room',
             exampleCn: '我们在食堂吃饭。',
             exampleEn: 'We eat in the dining room.',
-            examplePinyin: 'wǒ men zài shí táng chī fàn。',
+            examplePinyin: 'wǒmen zài shítáng chīfàn。',
           },
           {
             id: 'h301a-l8-w15',
@@ -24747,7 +24747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to play',
             exampleCn: '我打网球，你打吗？',
             exampleEn: 'I play tennis. Do you play?',
-            examplePinyin: 'wǒ dǎ wǎng qiú ， nǐ dǎ ma？',
+            examplePinyin: 'wǒ dǎwǎngqiú， nǐ dǎ ma？',
           },
           {
             id: 'h301a-l8-w17',
@@ -24757,7 +24757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tennis',
             exampleCn: '我打网球。',
             exampleEn: 'I play tennis.',
-            examplePinyin: 'wǒ dǎ wǎng qiú。',
+            examplePinyin: 'wǒ dǎwǎngqiú。',
           },
           {
             id: 'h301a-l8-w18',
@@ -24767,7 +24767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'water',
             exampleCn: '我喝水。',
             exampleEn: 'I drink water.',
-            examplePinyin: 'wǒ hē shuǐ。',
+            examplePinyin: 'wǒ hēshuǐ。',
           },
           {
             id: 'h301a-l8-w19',
@@ -24777,7 +24777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go to sleep',
             exampleCn: '我睡觉。',
             exampleEn: 'I go to sleep.',
-            examplePinyin: 'wǒ shuì jiào。',
+            examplePinyin: 'wǒ shuìjiào。',
           },
           {
             id: 'h301a-l8-w20',
@@ -24787,7 +24787,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'breakfast',
             exampleCn: '早上我吃早饭。',
             exampleEn: 'In the morning I eat breakfast.',
-            examplePinyin: 'zǎo shàng wǒ chī zǎo fàn。',
+            examplePinyin: 'zǎoshàng wǒ chī zǎofàn。',
           },
         ],
       },
@@ -24805,7 +24805,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to live',
             exampleCn: '我住在家里。',
             exampleEn: 'I live at home.',
-            examplePinyin: 'wǒ zhù zài jiā lǐ。',
+            examplePinyin: 'wǒ zhù zài jiālǐ。',
           },
           {
             id: 'h301a-l9-w2',
@@ -24815,7 +24815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'how many, how much',
             exampleCn: '你家有多少人？',
             exampleEn: 'How many people are in your family?',
-            examplePinyin: 'nǐ jiā yǒu duō shǎo rén？',
+            examplePinyin: 'nǐjiā yǒu duōshǎo rén？',
           },
           {
             id: 'h301a-l9-w3',
@@ -24825,7 +24825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'indicating the order of sequence',
             exampleCn: '今天是多少号？',
             exampleEn: 'What is the date today?',
-            examplePinyin: 'jīn tiān shì duō shǎo hào？',
+            examplePinyin: 'jīntiān shì duōshǎo hào？',
           },
           {
             id: 'h301a-l9-w4',
@@ -24835,7 +24835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'room',
             exampleCn: '这个房间有一个人。',
             exampleEn: 'There is one person in this room.',
-            examplePinyin: 'zhè ge fáng jiān yǒu yí gè rén。',
+            examplePinyin: 'zhège fángjiān yǒu yígè rén。',
           },
           {
             id: 'h301a-l9-w5',
@@ -24845,7 +24845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to welcome',
             exampleCn: '我们欢迎你。',
             exampleEn: 'We welcome you.',
-            examplePinyin: 'wǒ men huān yíng nǐ。',
+            examplePinyin: 'wǒmen huānyíng nǐ。',
           },
           {
             id: 'h301a-l9-w6',
@@ -24855,7 +24855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to enjoy oneself, to play',
             exampleCn: '朋友来我家玩儿。',
             exampleEn: 'A friend comes to my home to play.',
-            examplePinyin: 'péng yǒu lái wǒ jiā wán ér。',
+            examplePinyin: 'péngyǒu lái wǒjiā wánr。',
           },
           {
             id: 'h301a-l9-w7',
@@ -24865,7 +24865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'often, usually',
             exampleCn: '他常来我家玩儿。',
             exampleEn: 'He often comes to my home to play.',
-            examplePinyin: 'tā cháng lái wǒ jiā wán ér。',
+            examplePinyin: 'tā cháng lái wǒjiā wánr。',
           },
           {
             id: 'h301a-l9-w8',
@@ -24875,7 +24875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'together',
             exampleCn: '我们一起去玩儿。',
             exampleEn: 'We go to play together.',
-            examplePinyin: 'wǒ men yì qǐ qù wán ér。',
+            examplePinyin: 'wǒmen yìqǐ qù wánr。',
           },
           {
             id: 'h301a-l9-w9',
@@ -24885,7 +24885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'building',
             exampleCn: '我家住在一号楼。',
             exampleEn: 'My home is in Building No. 1.',
-            examplePinyin: 'wǒ jiā zhù zài yī hào lóu。',
+            examplePinyin: 'wǒ jiāzhù zài yīhào lóu。',
           },
           {
             id: 'h301a-l9-w10',
@@ -24895,7 +24895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'road',
             exampleCn: '我不认识路。',
             exampleEn: 'I don\'t know the way.',
-            examplePinyin: 'wǒ bù rèn shí lù。',
+            examplePinyin: 'wǒ bù rènshí lù。',
           },
           {
             id: 'h301a-l9-w11',
@@ -24905,7 +24905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to know',
             exampleCn: '我知道他在家。',
             exampleEn: 'I know he is at home.',
-            examplePinyin: 'wǒ zhī dào tā zài jiā。',
+            examplePinyin: 'wǒ zhīdào tā zàijiā。',
           },
           {
             id: 'h301a-l9-w12',
@@ -24915,7 +24915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to ask',
             exampleCn: '老师问我们。',
             exampleEn: 'The teacher asks us.',
-            examplePinyin: 'lǎo shī wèn wǒ men。',
+            examplePinyin: 'lǎoshī wèn wǒmen。',
           },
           {
             id: 'h301a-l9-w13',
@@ -24925,7 +24925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beside',
             exampleCn: '一号楼在路旁边。',
             exampleEn: 'Building No. 1 is beside the road.',
-            examplePinyin: 'yī hào lóu zài lù páng biān。',
+            examplePinyin: 'yīhào lóu zài lù pángbiān。',
           },
           {
             id: 'h301a-l9-w14',
@@ -24945,7 +24945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'park',
             exampleCn: '我们去公园玩儿。',
             exampleEn: 'We go to the park to play.',
-            examplePinyin: 'wǒ men qù gōng yuán wán ér。',
+            examplePinyin: 'wǒmen qù gōngyuán wánr。',
           },
           {
             id: 'h301a-l9-w16',
@@ -24955,7 +24955,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'post office',
             exampleCn: '邮局在公园旁边。',
             exampleEn: 'The post office is beside the park.',
-            examplePinyin: 'yóu jú zài gōng yuán páng biān。',
+            examplePinyin: 'yóujú zài gōngyuán pángbiān。',
           },
           {
             id: 'h301a-l9-w17',
@@ -24965,7 +24965,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'school',
             exampleCn: '我家旁边有学校。',
             exampleEn: 'There is a school beside my home.',
-            examplePinyin: 'wǒ jiā páng biān yǒu xué xiào。',
+            examplePinyin: 'wǒjiā pángbiān yǒu xuéxiào。',
           },
           {
             id: 'h301a-l9-w18',
@@ -24975,7 +24975,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'stamp',
             exampleCn: '邮局有邮票。',
             exampleEn: 'The post office has stamps.',
-            examplePinyin: 'yóu jú yǒu yóu piào。',
+            examplePinyin: 'yóujú yǒu yóupiào。',
           },
           {
             id: 'h301a-l9-w19',
@@ -24985,7 +24985,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hotel',
             exampleCn: '你住哪个宾馆？',
             exampleEn: 'Which hotel do you live in?',
-            examplePinyin: 'nǐ zhù nǎ ge bīn guǎn？',
+            examplePinyin: 'nǐ zhù nǎge bīnguǎn？',
           },
           {
             id: 'h301a-l9-w20',
@@ -24995,7 +24995,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'floor',
             exampleCn: '我家住在一层。',
             exampleEn: 'My home is on the first floor.',
-            examplePinyin: 'wǒ jiā zhù zài yī céng。',
+            examplePinyin: 'wǒ jiāzhù zài yīcéng。',
           },
         ],
       },
@@ -25013,7 +25013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'how',
             exampleCn: '你怎么了？',
             exampleEn: 'What is the matter with you?',
-            examplePinyin: 'nǐ zěn me le？',
+            examplePinyin: 'nǐ zěnme le？',
           },
           {
             id: 'h301a-l10-w2',
@@ -25023,7 +25023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go, to walk',
             exampleCn: '我走路去看朋友。',
             exampleEn: 'I walk to see a friend.',
-            examplePinyin: 'wǒ zǒu lù qù kàn péng yǒu。',
+            examplePinyin: 'wǒ zǒulù qù kàn péngyǒu。',
           },
           {
             id: 'h301a-l10-w3',
@@ -25043,7 +25043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'please (tell me...)',
             exampleCn: '请问，你在哪儿？',
             exampleEn: 'Excuse me, where are you?',
-            examplePinyin: 'qǐng wèn ， nǐ zài nǎ ér？',
+            examplePinyin: 'qǐngwèn， nǐ zài nǎr？',
           },
           {
             id: 'h301a-l10-w5',
@@ -25063,7 +25063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'front, before',
             exampleCn: '老师在前边。',
             exampleEn: 'The teacher is in front.',
-            examplePinyin: 'lǎo shī zài qián biān。',
+            examplePinyin: 'lǎoshī zài qiánbiān。',
           },
           {
             id: 'h301a-l10-w7',
@@ -25073,7 +25073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be away from (a place)',
             exampleCn: '我家离学校很远。',
             exampleEn: 'My home is far from the school.',
-            examplePinyin: 'wǒ jiā lí xué xiào hěn yuǎn。',
+            examplePinyin: 'wǒjiā lí xuéxiào hěn yuǎn。',
           },
           {
             id: 'h301a-l10-w8',
@@ -25083,7 +25083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'here',
             exampleCn: '我家就在这儿。',
             exampleEn: 'My home is right here.',
-            examplePinyin: 'wǒ jiā jiù zài zhè ér。',
+            examplePinyin: 'wǒjiā jiù zài zhèr。',
           },
           {
             id: 'h301a-l10-w9',
@@ -25093,7 +25093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'far',
             exampleCn: '我家离这儿很远。',
             exampleEn: 'My home is very far from here.',
-            examplePinyin: 'wǒ jiā lí zhè ér hěn yuǎn。',
+            examplePinyin: 'wǒjiā lí zhèr hěn yuǎn。',
           },
           {
             id: 'h301a-l10-w10',
@@ -25103,7 +25103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'place, region',
             exampleCn: '这是什么地方？',
             exampleEn: 'What place is this?',
-            examplePinyin: 'zhè shì shén me dì fāng？',
+            examplePinyin: 'zhè shì shénme dìfāng？',
           },
           {
             id: 'h301a-l10-w11',
@@ -25113,7 +25113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sit, to take a seat',
             exampleCn: '我坐在这儿。',
             exampleEn: 'I sit here.',
-            examplePinyin: 'wǒ zuò zài zhè ér。',
+            examplePinyin: 'wǒ zuòzài zhèr。',
           },
           {
             id: 'h301a-l10-w12',
@@ -25123,7 +25123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bus, car, bicycle, train, etc.',
             exampleCn: '我坐车回家。',
             exampleEn: 'I take a bus home.',
-            examplePinyin: 'wǒ zuò chē huí jiā。',
+            examplePinyin: 'wǒ zuòchē huíjiā。',
           },
           {
             id: 'h301a-l10-w13',
@@ -25133,7 +25133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'front',
             exampleCn: '老师在学生前边。',
             exampleEn: 'The teacher is in front of the students.',
-            examplePinyin: 'lǎo shī zài xué shēng qián biān。',
+            examplePinyin: 'lǎoshī zài xuéshēng qiánbiān。',
           },
           {
             id: 'h301a-l10-w14',
@@ -25143,7 +25143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bus',
             exampleCn: '我坐公共汽车回家。',
             exampleEn: 'I take a bus home.',
-            examplePinyin: 'wǒ zuò gōng gòng qì chē huí jiā。',
+            examplePinyin: 'wǒ zuò gōnggòngqìchē huíjiā。',
           },
           {
             id: 'h301a-l10-w15',
@@ -25153,7 +25153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'there, over there',
             exampleCn: '老师在那儿。',
             exampleEn: 'The teacher is there.',
-            examplePinyin: 'lǎo shī zài nà ér。',
+            examplePinyin: 'lǎoshī zài nàr。',
           },
           {
             id: 'h301a-l10-w16',
@@ -25163,7 +25163,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'west side',
             exampleCn: '我家在西边。',
             exampleEn: 'My home is on the west side.',
-            examplePinyin: 'wǒ jiā zài xī biān。',
+            examplePinyin: 'wǒjiā zài xībiān。',
           },
           {
             id: 'h301a-l10-w17',
@@ -25173,7 +25173,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'south side',
             exampleCn: '那个地方在南边。',
             exampleEn: 'That place is on the south side.',
-            examplePinyin: 'nà ge dì fāng zài nán biān。',
+            examplePinyin: 'nàge dìfāng zài nánbiān。',
           },
           {
             id: 'h301a-l10-w18',
@@ -25183,7 +25183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'north side',
             exampleCn: '他在北边。',
             exampleEn: 'He is on the north side.',
-            examplePinyin: 'tā zài běi biān。',
+            examplePinyin: 'tā zài běibiān。',
           },
           {
             id: 'h301a-l10-w19',
@@ -25193,7 +25193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sports ground',
             exampleCn: '操场在前边。',
             exampleEn: 'The sports ground is in front.',
-            examplePinyin: 'cāo chǎng zài qián biān。',
+            examplePinyin: 'cāochǎng zài qiánbiān。',
           },
           {
             id: 'h301a-l10-w20',
@@ -25203,7 +25203,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'east side',
             exampleCn: '操场在东边。',
             exampleEn: 'The sports ground is on the east side.',
-            examplePinyin: 'cāo chǎng zài dōng biān。',
+            examplePinyin: 'cāochǎng zài dōngbiān。',
           },
           {
             id: 'h301a-l10-w21',
@@ -25213,7 +25213,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'near',
             exampleCn: '我家离这儿很近。',
             exampleEn: 'My home is very near here.',
-            examplePinyin: 'wǒ jiā lí zhè ér hěn jìn。',
+            examplePinyin: 'wǒjiā lí zhèr hěn jìn。',
           },
         ],
       },
@@ -25231,7 +25231,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to want; would like',
             exampleCn: '我要吃苹果。',
             exampleEn: 'I want to eat an apple.',
-            examplePinyin: 'wǒ yào chī píng guǒ。',
+            examplePinyin: 'wǒ yào chī píngguǒ。',
           },
           {
             id: 'h301a-l11-w2',
@@ -25241,7 +25241,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'apple',
             exampleCn: '这是苹果。',
             exampleEn: 'This is an apple.',
-            examplePinyin: 'zhè shì píng guǒ。',
+            examplePinyin: 'zhè shì píngguǒ。',
           },
           {
             id: 'h301a-l11-w3',
@@ -25251,7 +25251,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'money, currency',
             exampleCn: '苹果多少钱一斤？',
             exampleEn: 'How much is a jin of apples?',
-            examplePinyin: 'píng guǒ duō shǎo qián yī jīn？',
+            examplePinyin: 'píngguǒ duōshǎoqián yījīn？',
           },
           {
             id: 'h301a-l11-w4',
@@ -25261,7 +25261,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'jin (unit of weight)',
             exampleCn: '我要一斤苹果。',
             exampleEn: 'I want one jin of apples.',
-            examplePinyin: 'wǒ yào yī jīn píng guǒ。',
+            examplePinyin: 'wǒ yào yījīn píngguǒ。',
           },
           {
             id: 'h301a-l11-w5',
@@ -25271,7 +25271,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'kuai (unit of currency)',
             exampleCn: '一斤苹果一块钱。',
             exampleEn: 'One jin of apples is one kuai.',
-            examplePinyin: 'yī jīn píng guǒ yī kuài qián。',
+            examplePinyin: 'yījīn píngguǒ yīkuàiqián。',
           },
           {
             id: 'h301a-l11-w6',
@@ -25281,7 +25281,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mao (unit of currency)',
             exampleCn: '一毛钱一个苹果。',
             exampleEn: 'One mao for one apple.',
-            examplePinyin: 'yī máo qián yí gè píng guǒ。',
+            examplePinyin: 'yīmáoqián yígè píngguǒ。',
           },
           {
             id: 'h301a-l11-w7',
@@ -25291,7 +25291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'still',
             exampleCn: '我还要苹果。',
             exampleEn: 'I still want apples.',
-            examplePinyin: 'wǒ hái yào píng guǒ。',
+            examplePinyin: 'wǒ háiyào píngguǒ。',
           },
           {
             id: 'h301a-l11-w8',
@@ -25301,7 +25301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'anything else, other',
             exampleCn: '我还要别的。',
             exampleEn: 'I still want other things.',
-            examplePinyin: 'wǒ hái yào bié de。',
+            examplePinyin: 'wǒ háiyào biéde。',
           },
           {
             id: 'h301a-l11-w9',
@@ -25311,7 +25311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'orange',
             exampleCn: '橘子很好。',
             exampleEn: 'Oranges are very good.',
-            examplePinyin: 'jú zi hěn hǎo。',
+            examplePinyin: 'júzi hěn hǎo。',
           },
           {
             id: 'h301a-l11-w10',
@@ -25321,7 +25321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to taste',
             exampleCn: '我要尝橘子。',
             exampleEn: 'I want to taste the orange.',
-            examplePinyin: 'wǒ yào cháng jú zi。',
+            examplePinyin: 'wǒ yào cháng júzi。',
           },
           {
             id: 'h301a-l11-w11',
@@ -25331,7 +25331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shop assistant',
             exampleCn: '这是售货员。',
             exampleEn: 'This is the shop assistant.',
-            examplePinyin: 'zhè shì shòu huò yuán。',
+            examplePinyin: 'zhè shì shòuhuòyuán。',
           },
           {
             id: 'h301a-l11-w12',
@@ -25341,7 +25341,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'kind, sort',
             exampleCn: '我要这种橘子。',
             exampleEn: 'I want this kind of orange.',
-            examplePinyin: 'wǒ yào zhè zhǒng jú zi。',
+            examplePinyin: 'wǒ yào zhèzhǒng júzi。',
           },
           {
             id: 'h301a-l11-w13',
@@ -25351,7 +25351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'expensive',
             exampleCn: '苹果很贵。',
             exampleEn: 'Apples are expensive.',
-            examplePinyin: 'píng guǒ hěn guì。',
+            examplePinyin: 'píngguǒ hěn guì。',
           },
           {
             id: 'h301a-l11-w14',
@@ -25361,7 +25361,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'inexpensive, cheap',
             exampleCn: '橘子很便宜。',
             exampleEn: 'Oranges are cheap.',
-            examplePinyin: 'jú zi hěn pián yi。',
+            examplePinyin: 'júzi hěn piányi。',
           },
           {
             id: 'h301a-l11-w15',
@@ -25371,7 +25371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to drink',
             exampleCn: '老师要喝水。',
             exampleEn: 'The teacher wants to drink water.',
-            examplePinyin: 'lǎo shī yào hē shuǐ。',
+            examplePinyin: 'lǎoshī yào hēshuǐ。',
           },
           {
             id: 'h301a-l11-w16',
@@ -25381,7 +25381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'recording',
             exampleCn: '这是录音。',
             exampleEn: 'This is a recording.',
-            examplePinyin: 'zhè shì lù yīn。',
+            examplePinyin: 'zhè shì lùyīn。',
           },
           {
             id: 'h301a-l11-w17',
@@ -25391,7 +25391,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to send',
             exampleCn: '我要发电子邮件。',
             exampleEn: 'I want to send an e-mail.',
-            examplePinyin: 'wǒ yào fā diàn zi yóu jiàn。',
+            examplePinyin: 'wǒ yào fā diànziyóujiàn。',
           },
           {
             id: 'h301a-l11-w18',
@@ -25401,7 +25401,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'e-mail',
             exampleCn: '我要发电子邮件。',
             exampleEn: 'I want to send an e-mail.',
-            examplePinyin: 'wǒ yào fā diàn zi yóu jiàn。',
+            examplePinyin: 'wǒ yào fā diànziyóujiàn。',
           },
           {
             id: 'h301a-l11-w19',
@@ -25411,7 +25411,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'much, many',
             exampleCn: '苹果很多。',
             exampleEn: 'There are many apples.',
-            examplePinyin: 'píng guǒ hěn duō。',
+            examplePinyin: 'píngguǒ hěnduō。',
           },
           {
             id: 'h301a-l11-w20',
@@ -25421,7 +25421,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bottle',
             exampleCn: '老师要一瓶水。',
             exampleEn: 'The teacher wants one bottle of water.',
-            examplePinyin: 'lǎo shī yào yī píng shuǐ。',
+            examplePinyin: 'lǎoshī yào yīpíng shuǐ。',
           },
         ],
       },
@@ -25439,7 +25439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'weather, sky',
             exampleCn: '今天你在家吗？',
             exampleEn: 'Are you at home today?',
-            examplePinyin: 'jīn tiān nǐ zài jiā ma？',
+            examplePinyin: 'jīntiān nǐ zàijiā ma？',
           },
           {
             id: 'h301a-l12-w2',
@@ -25449,7 +25449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cold',
             exampleCn: '今天很冷。',
             exampleEn: 'Today is very cold.',
-            examplePinyin: 'jīn tiān hěn lěng。',
+            examplePinyin: 'jīntiān hěn lěng。',
           },
           {
             id: 'h301a-l12-w3',
@@ -25459,7 +25459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to think; would like',
             exampleCn: '今天冷，我想穿毛衣。',
             exampleEn: 'Today is cold. I want to wear a sweater.',
-            examplePinyin: 'jīn tiān lěng ， wǒ xiǎng chuān máo yī。',
+            examplePinyin: 'jīntiān lěng， wǒ xiǎng chuān máoyī。',
           },
           {
             id: 'h301a-l12-w4',
@@ -25469,7 +25469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'piece',
             exampleCn: '这件好。',
             exampleEn: 'This one is good.',
-            examplePinyin: 'zhè jiàn hǎo。',
+            examplePinyin: 'zhèjiàn hǎo。',
           },
           {
             id: 'h301a-l12-w5',
@@ -25479,7 +25479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweater',
             exampleCn: '我有一件毛衣。',
             exampleEn: 'I have a sweater.',
-            examplePinyin: 'wǒ yǒu yī jiàn máo yī。',
+            examplePinyin: 'wǒ yǒu yījiàn máoyī。',
           },
           {
             id: 'h301a-l12-w6',
@@ -25489,7 +25489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'how, what about...',
             exampleCn: '这件毛衣怎么样？',
             exampleEn: 'How about this sweater?',
-            examplePinyin: 'zhè jiàn máo yī zěn me yàng？',
+            examplePinyin: 'zhèjiàn máoyī zěnmeyàng？',
           },
           {
             id: 'h301a-l12-w7',
@@ -25499,7 +25499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'can, may',
             exampleCn: '今天冷，我可以穿毛衣吗？',
             exampleEn: 'Today is cold. Can I wear a sweater?',
-            examplePinyin: 'jīn tiān lěng ， wǒ kě yǐ chuān máo yī ma？',
+            examplePinyin: 'jīntiān lěng， wǒ kěyǐ chuān máoyī ma？',
           },
           {
             id: 'h301a-l12-w8',
@@ -25509,7 +25509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to try on, to test',
             exampleCn: '我可以试这件毛衣吗？',
             exampleEn: 'Can I try on this sweater?',
-            examplePinyin: 'wǒ kě yǐ shì zhè jiàn máo yī ma？',
+            examplePinyin: 'wǒ kěyǐ shì zhèjiàn máoyī ma？',
           },
           {
             id: 'h301a-l12-w9',
@@ -25519,7 +25519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'big, large',
             exampleCn: '这件毛衣很大。',
             exampleEn: 'This sweater is very big.',
-            examplePinyin: 'zhè jiàn máo yī hěn dà。',
+            examplePinyin: 'zhèjiàn máoyī hěndà。',
           },
           {
             id: 'h301a-l12-w10',
@@ -25529,7 +25529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'little, small',
             exampleCn: '这件毛衣小，我想试那件大的。',
             exampleEn: 'This sweater is small. I want to try that big one.',
-            examplePinyin: 'zhè jiàn máo yī xiǎo ， wǒ xiǎng shì nà jiàn dà de。',
+            examplePinyin: 'zhèjiàn máoyī xiǎo， wǒ xiǎng shì nà jiàn dà de。',
           },
           {
             id: 'h301a-l12-w11',
@@ -25539,7 +25539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'extremely, very',
             exampleCn: '今天冷极了。',
             exampleEn: 'Today is extremely cold.',
-            examplePinyin: 'jīn tiān lěng jí le。',
+            examplePinyin: 'jīntiān lěng jíle。',
           },
           {
             id: 'h301a-l12-w12',
@@ -25549,7 +25549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'miss',
             exampleCn: '小姐，这件毛衣怎么样？',
             exampleEn: 'Miss, how about this sweater?',
-            examplePinyin: 'xiǎo jiě ， zhè jiàn máo yī zěn me yàng？',
+            examplePinyin: 'xiǎojiě， zhèjiàn máoyī zěnmeyàng？',
           },
           {
             id: 'h301a-l12-w13',
@@ -25559,7 +25559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'short',
             exampleCn: '这件毛衣短。',
             exampleEn: 'This sweater is short.',
-            examplePinyin: 'zhè jiàn máo yī duǎn。',
+            examplePinyin: 'zhèjiàn máoyī duǎn。',
           },
           {
             id: 'h301a-l12-w14',
@@ -25569,7 +25569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'again',
             exampleCn: '我想再试一件。',
             exampleEn: 'I want to try on one more.',
-            examplePinyin: 'wǒ xiǎng zài shì yī jiàn。',
+            examplePinyin: 'wǒ xiǎng zài shì yījiàn。',
           },
           {
             id: 'h301a-l12-w15',
@@ -25579,7 +25579,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'message',
             exampleCn: '你有短信吗？',
             exampleEn: 'Do you have a message?',
-            examplePinyin: 'nǐ yǒu duǎn xìn ma？',
+            examplePinyin: 'nǐ yǒu duǎnxìn ma？',
           },
           {
             id: 'h301a-l12-w16',
@@ -25589,7 +25589,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wear, to put on',
             exampleCn: '今天冷，我想穿毛衣。',
             exampleEn: 'Today is cold. I want to wear a sweater.',
-            examplePinyin: 'jīn tiān lěng ， wǒ xiǎng chuān máo yī。',
+            examplePinyin: 'jīntiān lěng， wǒ xiǎng chuān máoyī。',
           },
           {
             id: 'h301a-l12-w17',
@@ -25599,7 +25599,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dress, clothes',
             exampleCn: '我想穿这件衣服。',
             exampleEn: 'I want to wear this piece of clothing.',
-            examplePinyin: 'wǒ xiǎng chuān zhè jiàn yī fú。',
+            examplePinyin: 'wǒ xiǎng chuān zhèjiàn yīfú。',
           },
           {
             id: 'h301a-l12-w18',
@@ -25609,7 +25609,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'long',
             exampleCn: '这件衣服长，我想试短的。',
             exampleEn: 'This clothing is long. I want to try the short one.',
-            examplePinyin: 'zhè jiàn yī fú zhǎng ， wǒ xiǎng shì duǎn de。',
+            examplePinyin: 'zhèjiàn yīfú zhǎng， wǒ xiǎng shì duǎn de。',
           },
           {
             id: 'h301a-l12-w19',
@@ -25619,7 +25619,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'little, few',
             exampleCn: '今天的生词少。',
             exampleEn: 'Today\'s new words are few.',
-            examplePinyin: 'jīn tiān de shēng cí shǎo。',
+            examplePinyin: 'jīntiān de shēngcí shǎo。',
           },
         ],
       },
@@ -25637,7 +25637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'route, line',
             exampleCn: '去学校坐几路车？',
             exampleEn: 'Which bus goes to the school?',
-            examplePinyin: 'qù xué xiào zuò jǐ lù chē？',
+            examplePinyin: 'qù xuéxiào zuò jǐlù chē？',
           },
           {
             id: 'h301a-l13-w2',
@@ -25647,7 +25647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to reach, to get to',
             exampleCn: '我到朋友家了。',
             exampleEn: 'I arrived at my friend\'s home.',
-            examplePinyin: 'wǒ dào péng yǒu jiā le。',
+            examplePinyin: 'wǒ dào péngyǒujiā le。',
           },
           {
             id: 'h301a-l13-w3',
@@ -25657,7 +25657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for paper, ticket, etc.',
             exampleCn: '我姓张。',
             exampleEn: 'My surname is Zhang.',
-            examplePinyin: 'wǒ xìng zhāng。',
+            examplePinyin: 'wǒ xìngzhāng。',
           },
           {
             id: 'h301a-l13-w4',
@@ -25667,7 +25667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ticket',
             exampleCn: '我有一张票。',
             exampleEn: 'I have one ticket.',
-            examplePinyin: 'wǒ yǒu yī zhāng piào。',
+            examplePinyin: 'wǒ yǒu yīzhāng piào。',
           },
           {
             id: 'h301a-l13-w5',
@@ -25677,7 +25677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give; for, to',
             exampleCn: '老师给我一张票。',
             exampleEn: 'The teacher gives me a ticket.',
-            examplePinyin: 'lǎo shī gěi wǒ yī zhāng piào。',
+            examplePinyin: 'lǎoshī gěi wǒ yīzhāng piào。',
           },
           {
             id: 'h301a-l13-w6',
@@ -25687,7 +25687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bus stop',
             exampleCn: '张老师在哪一站？',
             exampleEn: 'At which stop is Teacher Zhang?',
-            examplePinyin: 'zhāng lǎo shī zài nǎ yī zhàn？',
+            examplePinyin: 'zhānglǎoshī zài nǎ yīzhàn？',
           },
           {
             id: 'h301a-l13-w7',
@@ -25697,7 +25697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'can; to be able to',
             exampleCn: '我会打网球。',
             exampleEn: 'I can play tennis.',
-            examplePinyin: 'wǒ huì dǎ wǎng qiú。',
+            examplePinyin: 'wǒhuì dǎwǎngqiú。',
           },
         ],
       },
@@ -25715,7 +25715,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to spend',
             exampleCn: '今天我不花钱了。',
             exampleEn: 'I won\'t spend money today.',
-            examplePinyin: 'jīn tiān wǒ bù huā qián le。',
+            examplePinyin: 'jīntiān wǒ bù huāqián le。',
           },
           {
             id: 'h301a-l14-w2',
@@ -25725,7 +25725,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'it is said, I hear',
             exampleCn: '我听说他来了。',
             exampleEn: 'I heard he came.',
-            examplePinyin: 'wǒ tīng shuō tā lái le。',
+            examplePinyin: 'wǒ tīngshuō tā lái le。',
           },
           {
             id: 'h301a-l14-w3',
@@ -25735,7 +25735,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hotel',
             exampleCn: '你去饭店吗？',
             exampleEn: 'Are you going to the hotel?',
-            examplePinyin: 'nǐ qù fàn diàn ma？',
+            examplePinyin: 'nǐ qù fàndiàn ma？',
           },
           {
             id: 'h301a-l14-w4',
@@ -25745,7 +25745,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'inside',
             exampleCn: '我在家里。',
             exampleEn: 'I am at home.',
-            examplePinyin: 'wǒ zài jiā lǐ。',
+            examplePinyin: 'wǒ zài jiālǐ。',
           },
           {
             id: 'h301a-l14-w5',
@@ -25765,7 +25765,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take, to bring',
             exampleCn: '我带你去饭店。',
             exampleEn: 'I\'ll take you to the hotel.',
-            examplePinyin: 'wǒ dài nǐ qù fàn diàn。',
+            examplePinyin: 'wǒ dàinǐqù fàndiàn。',
           },
           {
             id: 'h301a-l14-w7',
@@ -25775,7 +25775,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'number',
             exampleCn: '这个数是多少？',
             exampleEn: 'What is this number?',
-            examplePinyin: 'zhè ge shù shì duō shǎo？',
+            examplePinyin: 'zhège shù shì duōshǎo？',
           },
           {
             id: 'h301a-l14-w8',
@@ -25795,7 +25795,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'time',
             exampleCn: '你有时间吗？',
             exampleEn: 'Do you have time?',
-            examplePinyin: 'nǐ yǒu shí jiān ma？',
+            examplePinyin: 'nǐ yǒu shíjiān ma？',
           },
           {
             id: 'h301a-l14-w10',
@@ -25815,7 +25815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shop employee',
             exampleCn: '营业员来了。',
             exampleEn: 'The shop employee came.',
-            examplePinyin: 'yíng yè yuán lái le。',
+            examplePinyin: 'yíngyèyuán lái le。',
           },
           {
             id: 'h301a-l14-w12',
@@ -25825,7 +25825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'US dollar',
             exampleCn: '我有美元。',
             exampleEn: 'I have US dollars.',
-            examplePinyin: 'wǒ yǒu měi yuán。',
+            examplePinyin: 'wǒ yǒu měiyuán。',
           },
           {
             id: 'h301a-l14-w13',
@@ -25835,7 +25835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hundred',
             exampleCn: '我有一百美元。',
             exampleEn: 'I have one hundred US dollars.',
-            examplePinyin: 'wǒ yǒu yì bǎi měi yuán。',
+            examplePinyin: 'wǒ yǒu yìbǎi měiyuán。',
           },
           {
             id: 'h301a-l14-w14',
@@ -25845,7 +25845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'RMB (Chinese monetary unit)',
             exampleCn: '他带了人民币。',
             exampleEn: 'He took RMB.',
-            examplePinyin: 'tā dài le rén mín bì。',
+            examplePinyin: 'tā dài le rénmínbì。',
           },
           {
             id: 'h301a-l14-w15',
@@ -25855,7 +25855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'this',
             exampleCn: '这样很好。',
             exampleEn: 'This is very good.',
-            examplePinyin: 'zhè yàng hěn hǎo。',
+            examplePinyin: 'zhèyàng hěn hǎo。',
           },
           {
             id: 'h301a-l14-w16',
@@ -25865,7 +25865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'telephone',
             exampleCn: '我家有电话。',
             exampleEn: 'I have a telephone at home.',
-            examplePinyin: 'wǒ jiā yǒu diàn huà。',
+            examplePinyin: 'wǒjiā yǒu diànhuà。',
           },
           {
             id: 'h301a-l14-w17',
@@ -25875,7 +25875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'number',
             exampleCn: '这是电话号码。',
             exampleEn: 'This is a phone number.',
-            examplePinyin: 'zhè shì diàn huà hào mǎ。',
+            examplePinyin: 'zhè shì diànhuàhàomǎ。',
           },
           {
             id: 'h301a-l14-w18',
@@ -25885,7 +25885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to read',
             exampleCn: '我念电话号码。',
             exampleEn: 'I read the phone number.',
-            examplePinyin: 'wǒ niàn diàn huà hào mǎ。',
+            examplePinyin: 'wǒ niàn diànhuàhàomǎ。',
           },
           {
             id: 'h301a-l14-w19',
@@ -25895,7 +25895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Chinese character',
             exampleCn: '我念汉字。',
             exampleEn: 'I read Chinese characters.',
-            examplePinyin: 'wǒ niàn hàn zì。',
+            examplePinyin: 'wǒ niàn hànzì。',
           },
           {
             id: 'h301a-l14-w20',
@@ -25905,7 +25905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wait',
             exampleCn: '请等一下。',
             exampleEn: 'Please wait a moment.',
-            examplePinyin: 'qǐng děng yí xià。',
+            examplePinyin: 'qǐngděngyíxià。',
           },
         ],
       },
@@ -25923,7 +25923,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'new',
             exampleCn: '我的新朋友很好。',
             exampleEn: 'My new friend is very nice.',
-            examplePinyin: 'wǒ de xīn péng yǒu hěn hǎo。',
+            examplePinyin: 'wǒ de xīn péngyǒu hěn hǎo。',
           },
           {
             id: 'h301a-l15-w2',
@@ -25933,7 +25933,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to issue, to publish',
             exampleCn: '他出来了。',
             exampleEn: 'He came out.',
-            examplePinyin: 'tā chū lái le。',
+            examplePinyin: 'tā chūlái le。',
           },
           {
             id: 'h301a-l15-w3',
@@ -25943,7 +25943,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'postcard',
             exampleCn: '我有一张明信片。',
             exampleEn: 'I have a postcard.',
-            examplePinyin: 'wǒ yǒu yī zhāng míng xìn piàn。',
+            examplePinyin: 'wǒ yǒu yīzhāng míngxìnpiàn。',
           },
           {
             id: 'h301a-l15-w4',
@@ -25953,7 +25953,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'good-looking, nice',
             exampleCn: '这个明信片很好看。',
             exampleEn: 'This postcard is very nice.',
-            examplePinyin: 'zhè ge míng xìn piàn hěn hǎo kàn。',
+            examplePinyin: 'zhège míngxìnpiàn hěn hǎokàn。',
           },
           {
             id: 'h301a-l15-w5',
@@ -25963,7 +25963,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to help',
             exampleCn: '老师帮了我。',
             exampleEn: 'The teacher helped me.',
-            examplePinyin: 'lǎo shī bāng le wǒ。',
+            examplePinyin: 'lǎoshī bāng le wǒ。',
           },
           {
             id: 'h301a-l15-w6',
@@ -25973,7 +25973,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to choose',
             exampleCn: '我帮你挑一个。',
             exampleEn: 'I help you choose one.',
-            examplePinyin: 'wǒ bāng nǐ tiāo yí gè。',
+            examplePinyin: 'wǒ bāng nǐ tiāo yígè。',
           },
           {
             id: 'h301a-l15-w7',
@@ -25983,7 +25983,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'set',
             exampleCn: '我挑了一套明信片。',
             exampleEn: 'I chose a set of postcards.',
-            examplePinyin: 'wǒ tiāo le yī tào míng xìn piàn。',
+            examplePinyin: 'wǒ tiāo le yītào míngxìnpiàn。',
           },
           {
             id: 'h301a-l15-w8',
@@ -25993,7 +25993,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'electricity',
             exampleCn: '我家有电。',
             exampleEn: 'My home has electricity.',
-            examplePinyin: 'wǒ jiā yǒu diàn。',
+            examplePinyin: 'wǒjiā yǒu diàn。',
           },
           {
             id: 'h301a-l15-w9',
@@ -26003,7 +26003,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make (a call)',
             exampleCn: '他打电话。',
             exampleEn: 'He makes a phone call.',
-            examplePinyin: 'tā dǎ diàn huà。',
+            examplePinyin: 'tā dǎdiànhuà。',
           },
           {
             id: 'h301a-l15-w10',
@@ -26013,7 +26013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be through',
             exampleCn: '我打通了。',
             exampleEn: 'I got through on the phone.',
-            examplePinyin: 'wǒ dǎ tōng le。',
+            examplePinyin: 'wǒ dǎtōng le。',
           },
           {
             id: 'h301a-l15-w11',
@@ -26023,7 +26023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to turn off a mobile phone',
             exampleCn: '我关机了。',
             exampleEn: 'I turned off my phone.',
-            examplePinyin: 'wǒ guān jī le。',
+            examplePinyin: 'wǒ guānjī le。',
           },
           {
             id: 'h301a-l15-w12',
@@ -26033,7 +26033,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not bad',
             exampleCn: '这个明信片不错。',
             exampleEn: 'This postcard is not bad.',
-            examplePinyin: 'zhè ge míng xìn piàn bù cuò。',
+            examplePinyin: 'zhège míngxìnpiàn bùcuò。',
           },
           {
             id: 'h301a-l15-w13',
@@ -26043,7 +26043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'real; really',
             exampleCn: '这个明信片真好看。',
             exampleEn: 'This postcard is really nice.',
-            examplePinyin: 'zhè ge míng xìn piàn zhēn hǎo kàn。',
+            examplePinyin: 'zhège míngxìnpiàn zhēn hǎokàn。',
           },
           {
             id: 'h301a-l15-w14',
@@ -26053,7 +26053,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take photos',
             exampleCn: '我们照相了。',
             exampleEn: 'We took photos.',
-            examplePinyin: 'wǒ men zhào xiàng le。',
+            examplePinyin: 'wǒmen zhàoxiàng le。',
           },
           {
             id: 'h301a-l15-w15',
@@ -26063,7 +26063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take a photo',
             exampleCn: '请你帮我照一张相。',
             exampleEn: 'Please help me take a photo.',
-            examplePinyin: 'qǐng nǐ bāng wǒ zhào yī zhāng xiāng。',
+            examplePinyin: 'qǐng nǐ bāng wǒ zhào yīzhāng xiāng。',
           },
           {
             id: 'h301a-l15-w16',
@@ -26073,7 +26073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lumme',
             exampleCn: '哎呀，真好看！',
             exampleEn: 'Wow, that\'s really nice!',
-            examplePinyin: 'āi yā ， zhēn hǎo kàn！',
+            examplePinyin: 'āiyā， zhēn hǎokàn！',
           },
           {
             id: 'h301a-l15-w17',
@@ -26083,7 +26083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'camera',
             exampleCn: '这个照相机真好看。',
             exampleEn: 'This camera is really nice.',
-            examplePinyin: 'zhè ge zhào xiàng jī zhēn hǎo kàn。',
+            examplePinyin: 'zhège zhàoxiàngjī zhēn hǎokàn。',
           },
           {
             id: 'h301a-l15-w18',
@@ -26093,7 +26093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pay',
             exampleCn: '我交费了。',
             exampleEn: 'I paid the fee.',
-            examplePinyin: 'wǒ jiāo fèi le。',
+            examplePinyin: 'wǒ jiāofèi le。',
           },
           {
             id: 'h301a-l15-w19',
@@ -26103,7 +26103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fee; to expend',
             exampleCn: '我交费了。',
             exampleEn: 'I paid the fee.',
-            examplePinyin: 'wǒ jiāo fèi le。',
+            examplePinyin: 'wǒ jiāofèi le。',
           },
           {
             id: 'h301a-l15-w20',
@@ -26113,7 +26113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take',
             exampleCn: '他拿明信片了。',
             exampleEn: 'He took the postcard.',
-            examplePinyin: 'tā ná míng xìn piàn le。',
+            examplePinyin: 'tā ná míngxìnpiàn le。',
           },
           {
             id: 'h301a-l15-w21',
@@ -26133,7 +26133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to look for',
             exampleCn: '我找照相机。',
             exampleEn: 'I look for the camera.',
-            examplePinyin: 'wǒ zhǎo zhào xiàng jī。',
+            examplePinyin: 'wǒ zhǎo zhàoxiàngjī。',
           },
         ],
       },
@@ -26151,7 +26151,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate experience',
             exampleCn: '我看过京剧。',
             exampleEn: 'I have seen Beijing opera.',
-            examplePinyin: 'wǒ kàn guò jīng jù。',
+            examplePinyin: 'wǒ kànguò jīngjù。',
           },
           {
             id: 'h301a-l16-w2',
@@ -26161,7 +26161,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Beijing opera',
             exampleCn: '你看过京剧吗？',
             exampleEn: 'Have you seen Beijing opera?',
-            examplePinyin: 'nǐ kàn guò jīng jù ma？',
+            examplePinyin: 'nǐ kànguò jīngjù ma？',
           },
           {
             id: 'h301a-l16-w3',
@@ -26171,7 +26171,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put on, to perform',
             exampleCn: '老师演过京剧。',
             exampleEn: 'The teacher has performed Beijing opera.',
-            examplePinyin: 'lǎo shī yǎn guò jīng jù。',
+            examplePinyin: 'lǎoshī yǎn guò jīngjù。',
           },
           {
             id: 'h301a-l16-w4',
@@ -26181,7 +26181,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'later, afterwards',
             exampleCn: '我们看京剧以后去他家。',
             exampleEn: 'We go to his home after watching Beijing opera.',
-            examplePinyin: 'wǒ men kàn jīng jù yǐ hòu qù tā jiā。',
+            examplePinyin: 'wǒmen kàn jīngjù yǐhòu qù tājiā。',
           },
           {
             id: 'h301a-l16-w5',
@@ -26191,7 +26191,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to tell, to inform',
             exampleCn: '他告诉我他看过京剧。',
             exampleEn: 'He told me he has seen Beijing opera.',
-            examplePinyin: 'tā gào sù wǒ tā kàn guò jīng jù。',
+            examplePinyin: 'tā gàosù wǒ tā kànguò jīngjù。',
           },
           {
             id: 'h301a-l16-w6',
@@ -26201,7 +26201,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'roast duck',
             exampleCn: '我请你吃烤鸭。',
             exampleEn: 'I invite you to eat roast duck.',
-            examplePinyin: 'wǒ qǐng nǐ chī kǎo yā。',
+            examplePinyin: 'wǒ qǐng nǐ chī kǎoyā。',
           },
           {
             id: 'h301a-l16-w7',
@@ -26211,7 +26211,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ought to, should',
             exampleCn: '你应该看京剧。',
             exampleEn: 'You should watch Beijing opera.',
-            examplePinyin: 'nǐ yīng gāi kàn jīng jù。',
+            examplePinyin: 'nǐ yīnggāi kàn jīngjù。',
           },
           {
             id: 'h301a-l16-w8',
@@ -26221,7 +26221,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'it\'s OK; capable',
             exampleCn: '我们去看京剧，行吗？',
             exampleEn: 'We go to watch Beijing opera, is that OK?',
-            examplePinyin: 'wǒ men qù kàn jīng jù ， xíng ma？',
+            examplePinyin: 'wǒmen qù kàn jīngjù， xíng ma？',
           },
           {
             id: 'h301a-l16-w9',
@@ -26231,7 +26231,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'interesting',
             exampleCn: '京剧很有意思。',
             exampleEn: 'Beijing opera is very interesting.',
-            examplePinyin: 'jīng jù hěn yǒu yì si。',
+            examplePinyin: 'jīngjù hěn yǒuyìsi。',
           },
           {
             id: 'h301a-l16-w10',
@@ -26241,7 +26241,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'of course, certainly',
             exampleCn: '你当然应该看京剧。',
             exampleEn: 'Of course you should watch Beijing opera.',
-            examplePinyin: 'nǐ dāng rán yīng gāi kàn jīng jù。',
+            examplePinyin: 'nǐ dāngrán yīnggāi kàn jīngjù。',
           },
           {
             id: 'h301a-l16-w11',
@@ -26251,7 +26251,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'famous dish',
             exampleCn: '烤鸭是名菜。',
             exampleEn: 'Roast duck is a famous dish.',
-            examplePinyin: 'kǎo yā shì míng cài。',
+            examplePinyin: 'kǎoyā shì míngcài。',
           },
           {
             id: 'h301a-l16-w12',
@@ -26261,7 +26261,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'event',
             exampleCn: '你有事吗？',
             exampleEn: 'Do you have something to do?',
-            examplePinyin: 'nǐ yǒu shì ma？',
+            examplePinyin: 'nǐ yǒushìma？',
           },
           {
             id: 'h301a-l16-w13',
@@ -26271,7 +26271,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'alcoholic beverage',
             exampleCn: '我喝酒。',
             exampleEn: 'I drink alcohol.',
-            examplePinyin: 'wǒ hē jiǔ。',
+            examplePinyin: 'wǒ hējiǔ。',
           },
           {
             id: 'h301a-l16-w14',
@@ -26281,7 +26281,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tea',
             exampleCn: '请喝茶。',
             exampleEn: 'Please drink tea.',
-            examplePinyin: 'qǐng hē chá。',
+            examplePinyin: 'qǐng hēchá。',
           },
           {
             id: 'h301a-l16-w15',
@@ -26291,7 +26291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dish',
             exampleCn: '烤鸭是好菜。',
             exampleEn: 'Roast duck is a good dish.',
-            examplePinyin: 'kǎo yā shì hǎo cài。',
+            examplePinyin: 'kǎoyā shì hǎo cài。',
           },
           {
             id: 'h301a-l16-w16',
@@ -26301,7 +26301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'price',
             exampleCn: '这个菜什么价钱？',
             exampleEn: 'What is the price of this dish?',
-            examplePinyin: 'zhè ge cài shén me jià qián？',
+            examplePinyin: 'zhège cài shénme jiàqián？',
           },
           {
             id: 'h301a-l16-w17',
@@ -26311,7 +26311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to receive',
             exampleCn: '我收到了你的信。',
             exampleEn: 'I received your letter.',
-            examplePinyin: 'wǒ shōu dào le nǐ de xìn。',
+            examplePinyin: 'wǒ shōudào le nǐ de xìn。',
           },
           {
             id: 'h301a-l16-w18',
@@ -26321,7 +26321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dictionary',
             exampleCn: '我有词典。',
             exampleEn: 'I have a dictionary.',
-            examplePinyin: 'wǒ yǒu cí diǎn。',
+            examplePinyin: 'wǒ yǒu cídiǎn。',
           },
           {
             id: 'h301a-l16-w19',
@@ -26331,7 +26331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'coffee',
             exampleCn: '请喝咖啡。',
             exampleEn: 'Please drink coffee.',
-            examplePinyin: 'qǐng hē kā fēi。',
+            examplePinyin: 'qǐng hēkāfēi。',
           },
           {
             id: 'h301a-l16-w20',
@@ -26341,7 +26341,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'acrobatics',
             exampleCn: '他们演杂技。',
             exampleEn: 'They perform acrobatics.',
-            examplePinyin: 'tā men yǎn zá jì。',
+            examplePinyin: 'tāmen yǎn zájì。',
           },
           {
             id: 'h301a-l16-w21',
@@ -26351,7 +26351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'exercise; to exercise',
             exampleCn: '我练习京剧。',
             exampleEn: 'I practice Beijing opera.',
-            examplePinyin: 'wǒ liàn xí jīng jù。',
+            examplePinyin: 'wǒ liànxí jīngjù。',
           },
         ],
       },
@@ -26369,7 +26369,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'weather',
             exampleCn: '今天天气很好。',
             exampleEn: 'The weather is very good today.',
-            examplePinyin: 'jīn tiān tiān qì hěn hǎo。',
+            examplePinyin: 'jīntiāntiānqì hěn hǎo。',
           },
           {
             id: 'h301a-l17-w2',
@@ -26379,7 +26379,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go out',
             exampleCn: '明天我们出去。',
             exampleEn: 'We are going out tomorrow.',
-            examplePinyin: 'míng tiān wǒ men chū qù。',
+            examplePinyin: 'míngtiān wǒmen chūqù。',
           },
           {
             id: 'h301a-l17-w3',
@@ -26389,7 +26389,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to row',
             exampleCn: '我们去划船。',
             exampleEn: 'We are going to row a boat.',
-            examplePinyin: 'wǒ men qù huá chuán。',
+            examplePinyin: 'wǒmen qù huáchuán。',
           },
           {
             id: 'h301a-l17-w4',
@@ -26399,7 +26399,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'boat',
             exampleCn: '我们划船。',
             exampleEn: 'We row a boat.',
-            examplePinyin: 'wǒ men huá chuán。',
+            examplePinyin: 'wǒmen huáchuán。',
           },
           {
             id: 'h301a-l17-w5',
@@ -26409,7 +26409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to ride',
             exampleCn: '我们去骑自行车。',
             exampleEn: 'We go to ride a bicycle.',
-            examplePinyin: 'wǒ men qù qí zì xíng chē。',
+            examplePinyin: 'wǒmen qù qí zìxíngchē。',
           },
           {
             id: 'h301a-l17-w6',
@@ -26419,7 +26419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bicycle',
             exampleCn: '他骑自行车来。',
             exampleEn: 'He rides a bicycle here.',
-            examplePinyin: 'tā qí zì xíng chē lái。',
+            examplePinyin: 'tā qí zìxíngchē lái。',
           },
           {
             id: 'h301a-l17-w7',
@@ -26429,7 +26429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'attached to the end of a sentence',
             exampleCn: '今天天气好啊！',
             exampleEn: 'The weather is nice today!',
-            examplePinyin: 'jīn tiān tiān qì hǎo a！',
+            examplePinyin: 'jīntiāntiānqì hǎo a！',
           },
           {
             id: 'h301a-l17-w8',
@@ -26439,7 +26439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'or',
             exampleCn: '我们去划船还是骑自行车？',
             exampleEn: 'Are we going to row a boat or ride a bicycle?',
-            examplePinyin: 'wǒ men qù huá chuán hái shì qí zì xíng chē？',
+            examplePinyin: 'wǒmen qù huáchuán háishì qí zìxíngchē？',
           },
           {
             id: 'h301a-l17-w9',
@@ -26449,7 +26449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'and, with',
             exampleCn: '我跟他们去划船。',
             exampleEn: 'I go rowing with them.',
-            examplePinyin: 'wǒ gēn tā men qù huá chuán。',
+            examplePinyin: 'wǒ gēn tāmen qù huáchuán。',
           },
           {
             id: 'h301a-l17-w10',
@@ -26459,7 +26459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'last, on, above, over',
             exampleCn: '他上车了。',
             exampleEn: 'He got on the bus.',
-            examplePinyin: 'tā shàng chē le。',
+            examplePinyin: 'tā shàngchē le。',
           },
           {
             id: 'h301a-l17-w11',
@@ -26469,7 +26469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'zoo',
             exampleCn: '我们去动物园。',
             exampleEn: 'We go to the zoo.',
-            examplePinyin: 'wǒ men qù dòng wù yuán。',
+            examplePinyin: 'wǒmen qù dòngwùyuán。',
           },
           {
             id: 'h301a-l17-w12',
@@ -26479,7 +26479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'panda',
             exampleCn: '动物园有大熊猫。',
             exampleEn: 'The zoo has pandas.',
-            examplePinyin: 'dòng wù yuán yǒu dà xióng māo。',
+            examplePinyin: 'dòngwùyuán yǒu dàxióngmāo。',
           },
           {
             id: 'h301a-l17-w13',
@@ -26489,7 +26489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'last year',
             exampleCn: '去年我们去动物园。',
             exampleEn: 'Last year we went to the zoo.',
-            examplePinyin: 'qù nián wǒ men qù dòng wù yuán。',
+            examplePinyin: 'qùnián wǒmen qù dòngwùyuán。',
           },
           {
             id: 'h301a-l17-w14',
@@ -26499,7 +26499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to study',
             exampleCn: '我跟他学汉语。',
             exampleEn: 'I study Chinese with him.',
-            examplePinyin: 'wǒ gēn tā xué hàn yǔ。',
+            examplePinyin: 'wǒ gēn tā xué hànyǔ。',
           },
           {
             id: 'h301a-l17-w15',
@@ -26509,7 +26509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'airport',
             exampleCn: '我去机场。',
             exampleEn: 'I go to the airport.',
-            examplePinyin: 'wǒ qù jī chǎng。',
+            examplePinyin: 'wǒ qù jīchǎng。',
           },
           {
             id: 'h301a-l17-w16',
@@ -26519,7 +26519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to meet',
             exampleCn: '我去机场接他。',
             exampleEn: 'I go to the airport to meet him.',
-            examplePinyin: 'wǒ qù jī chǎng jiē tā。',
+            examplePinyin: 'wǒ qù jīchǎng jiē tā。',
           },
           {
             id: 'h301a-l17-w17',
@@ -26529,7 +26529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give or take an examination',
             exampleCn: '明天我们考试。',
             exampleEn: 'We have an exam tomorrow.',
-            examplePinyin: 'míng tiān wǒ men kǎo shì。',
+            examplePinyin: 'míngtiān wǒmen kǎoshì。',
           },
           {
             id: 'h301a-l17-w18',
@@ -26539,7 +26539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'subway',
             exampleCn: '我在地铁上。',
             exampleEn: 'I am on the subway.',
-            examplePinyin: 'wǒ zài dì tiě shàng。',
+            examplePinyin: 'wǒ zài dìtiě shàng。',
           },
           {
             id: 'h301a-l17-w19',
@@ -26549,7 +26549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'next, under, below',
             exampleCn: '我们下车了。',
             exampleEn: 'We got off the bus.',
-            examplePinyin: 'wǒ men xià chē le。',
+            examplePinyin: 'wǒmen xiàchē le。',
           },
           {
             id: 'h301a-l17-w20',
@@ -26559,7 +26559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for long and thin things',
             exampleCn: '我们看一条船。',
             exampleEn: 'We see one boat.',
-            examplePinyin: 'wǒ men kàn yī tiáo chuán。',
+            examplePinyin: 'wǒmen kàn yītiáo chuán。',
           },
           {
             id: 'h301a-l17-w21',
@@ -26569,7 +26569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'most',
             exampleCn: '大熊猫最好看。',
             exampleEn: 'Pandas are the prettiest.',
-            examplePinyin: 'dà xióng māo zuì hǎo kàn。',
+            examplePinyin: 'dàxióngmāo zuì hǎokàn。',
           },
         ],
       },
@@ -26587,7 +26587,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'from',
             exampleCn: '他从家里来。',
             exampleEn: 'He comes from home.',
-            examplePinyin: 'tā cóng jiā lǐ lái。',
+            examplePinyin: 'tā cóng jiālǐ lái。',
           },
           {
             id: 'h301a-l18-w2',
@@ -26597,7 +26597,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'airplane',
             exampleCn: '飞机来了。',
             exampleEn: 'The airplane has arrived.',
-            examplePinyin: 'fēi jī lái le。',
+            examplePinyin: 'fēijī lái le。',
           },
           {
             id: 'h301a-l18-w3',
@@ -26607,7 +26607,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be late, to be behind schedule',
             exampleCn: '飞机晚点了。',
             exampleEn: 'The airplane is late.',
-            examplePinyin: 'fēi jī wǎn diǎn le。',
+            examplePinyin: 'fēijī wǎndiǎn le。',
           },
           {
             id: 'h301a-l18-w4',
@@ -26617,7 +26617,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'be about to, to be going to',
             exampleCn: '飞机要来了。',
             exampleEn: 'The airplane is about to come.',
-            examplePinyin: 'fēi jī yào lái le。',
+            examplePinyin: 'fēijī yào lái le。',
           },
           {
             id: 'h301a-l18-w5',
@@ -26627,7 +26627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take off',
             exampleCn: '飞机要起飞了。',
             exampleEn: 'The airplane is about to take off.',
-            examplePinyin: 'fēi jī yào qǐ fēi le。',
+            examplePinyin: 'fēijī yào qǐfēi le。',
           },
           {
             id: 'h301a-l18-w6',
@@ -26637,7 +26637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'around, about',
             exampleCn: '他大概明天来。',
             exampleEn: 'He will probably come tomorrow.',
-            examplePinyin: 'tā dà gài míng tiān lái。',
+            examplePinyin: 'tā dàgài míngtiān lái。',
           },
           {
             id: 'h301a-l18-w7',
@@ -26657,7 +26657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tiring',
             exampleCn: '老师很辛苦。',
             exampleEn: 'The teacher works very hard.',
-            examplePinyin: 'lǎo shī hěn xīn kǔ。',
+            examplePinyin: 'lǎoshī hěn xīnkǔ。',
           },
           {
             id: 'h301a-l18-w9',
@@ -26667,7 +26667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'assistant, attendant',
             exampleCn: '服务员来了。',
             exampleEn: 'The attendant has arrived.',
-            examplePinyin: 'fú wù yuán lái le。',
+            examplePinyin: 'fúwùyuán lái le。',
           },
           {
             id: 'h301a-l18-w10',
@@ -26677,7 +26677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'why',
             exampleCn: '他为什么没来？',
             exampleEn: 'Why didn\'t he come?',
-            examplePinyin: 'tā wèi shén me méi lái？',
+            examplePinyin: 'tā wèishénme méi lái？',
           },
           {
             id: 'h301a-l18-w11',
@@ -26687,7 +26687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in a moment',
             exampleCn: '服务员一会儿来。',
             exampleEn: 'The attendant will come in a moment.',
-            examplePinyin: 'fú wù yuán yī huì er lái。',
+            examplePinyin: 'fúwùyuán yīhuìer lái。',
           },
           {
             id: 'h301a-l18-w12',
@@ -26697,7 +26697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to thank',
             exampleCn: '我感谢你。',
             exampleEn: 'I thank you.',
-            examplePinyin: 'wǒ gǎn xiè nǐ。',
+            examplePinyin: 'wǒ gǎnxiè nǐ。',
           },
           {
             id: 'h301a-l18-w13',
@@ -26707,7 +26707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'trade',
             exampleCn: '我做贸易。',
             exampleEn: 'I do trade.',
-            examplePinyin: 'wǒ zuò mào yì。',
+            examplePinyin: 'wǒ zuò màoyì。',
           },
           {
             id: 'h301a-l18-w14',
@@ -26717,7 +26717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'company',
             exampleCn: '他在公司。',
             exampleEn: 'He is at the company.',
-            examplePinyin: 'tā zài gōng sī。',
+            examplePinyin: 'tā zài gōngsī。',
           },
           {
             id: 'h301a-l18-w15',
@@ -26727,7 +26727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to graduate',
             exampleCn: '我毕业了。',
             exampleEn: 'I graduated.',
-            examplePinyin: 'wǒ bì yè le。',
+            examplePinyin: 'wǒ bìyè le。',
           },
           {
             id: 'h301a-l18-w16',
@@ -26737,7 +26737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'drink',
             exampleCn: '我喝饮料。',
             exampleEn: 'I drink a beverage.',
-            examplePinyin: 'wǒ hē yǐn liào。',
+            examplePinyin: 'wǒ hē yǐnliào。',
           },
           {
             id: 'h301a-l18-w17',
@@ -26747,7 +26747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beer',
             exampleCn: '这是啤酒。',
             exampleEn: 'This is beer.',
-            examplePinyin: 'zhè shì pí jiǔ。',
+            examplePinyin: 'zhè shì píjiǔ。',
           },
           {
             id: 'h301a-l18-w18',
@@ -26757,7 +26757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'taxi',
             exampleCn: '出租车来了。',
             exampleEn: 'The taxi has arrived.',
-            examplePinyin: 'chū zū chē lái le。',
+            examplePinyin: 'chūzūchē lái le。',
           },
           {
             id: 'h301a-l18-w19',
@@ -26767,7 +26767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'train',
             exampleCn: '飞机和火车都晚点了。',
             exampleEn: 'Both the airplane and the train are late.',
-            examplePinyin: 'fēi jī hé huǒ chē dōu wǎn diǎn le。',
+            examplePinyin: 'fēijī hé huǒchē dōu wǎndiǎn le。',
           },
           {
             id: 'h301a-l18-w20',
@@ -26777,7 +26777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to drive',
             exampleCn: '他开出租车。',
             exampleEn: 'He drives a taxi.',
-            examplePinyin: 'tā kāi chū zū chē。',
+            examplePinyin: 'tā kāi chūzūchē。',
           },
         ],
       },
@@ -26805,7 +26805,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'polite',
             exampleCn: '你别客气。',
             exampleEn: 'Don\'t be polite.',
-            examplePinyin: 'nǐ bié kè qì。',
+            examplePinyin: 'nǐ bié kèqì。',
           },
           {
             id: 'h301a-l19-w3',
@@ -26815,7 +26815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used to form ordinal numbers',
             exampleCn: '他是第一个人。',
             exampleEn: 'He is the first person.',
-            examplePinyin: 'tā shì dì yí gè rén。',
+            examplePinyin: 'tā shì dìyígè rén。',
           },
           {
             id: 'h301a-l19-w4',
@@ -26825,7 +26825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'occurrence, time',
             exampleCn: '这是我第一次来。',
             exampleEn: 'This is my first time coming.',
-            examplePinyin: 'zhè shì wǒ dì yī cì lái。',
+            examplePinyin: 'zhè shì wǒ dìyīcì lái。',
           },
           {
             id: 'h301a-l19-w5',
@@ -26835,7 +26835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'manager',
             exampleCn: '他是我们的经理。',
             exampleEn: 'He is our manager.',
-            examplePinyin: 'tā shì wǒ men de jīng lǐ。',
+            examplePinyin: 'tā shì wǒmen de jīnglǐ。',
           },
           {
             id: 'h301a-l19-w6',
@@ -26845,7 +26845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mister',
             exampleCn: '先生，您好！',
             exampleEn: 'Hello, sir!',
-            examplePinyin: 'xiān shēng ， nín hǎo！',
+            examplePinyin: 'xiānshēng， nínhǎo！',
           },
           {
             id: 'h301a-l19-w7',
@@ -26855,7 +26855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'interpreter; to translate',
             exampleCn: '他是翻译。',
             exampleEn: 'He is an interpreter.',
-            examplePinyin: 'tā shì fān yì。',
+            examplePinyin: 'tā shì fānyì。',
           },
           {
             id: 'h301a-l19-w8',
@@ -26865,7 +26865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'without a hitch, smooth going',
             exampleCn: '第一次很顺利。',
             exampleEn: 'The first time went very smoothly.',
-            examplePinyin: 'dì yī cì hěn shùn lì。',
+            examplePinyin: 'dìyīcì hěn shùnlì。',
           },
           {
             id: 'h301a-l19-w9',
@@ -26875,7 +26875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'outside',
             exampleCn: '经理在外边。',
             exampleEn: 'The manager is outside.',
-            examplePinyin: 'jīng lǐ zài wài biān。',
+            examplePinyin: 'jīnglǐ zài wàibiān。',
           },
           {
             id: 'h301a-l19-w10',
@@ -26885,7 +26885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to send',
             exampleCn: '他送我回家。',
             exampleEn: 'He takes me home.',
-            examplePinyin: 'tā sòng wǒ huí jiā。',
+            examplePinyin: 'tā sòng wǒ huíjiā。',
           },
           {
             id: 'h301a-l19-w11',
@@ -26895,7 +26895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'before',
             exampleCn: '我以前是学生。',
             exampleEn: 'I was a student before.',
-            examplePinyin: 'wǒ yǐ qián shì xué shēng。',
+            examplePinyin: 'wǒ yǐqián shì xuéshēng。',
           },
           {
             id: 'h301a-l19-w12',
@@ -26905,7 +26905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to bother; troublesome; trouble',
             exampleCn: '对不起，麻烦你了。',
             exampleEn: 'Sorry, I\'m bothering you.',
-            examplePinyin: 'duì bù qǐ ， má fán nǐ le。',
+            examplePinyin: 'duìbùqǐ， máfán nǐ le。',
           },
           {
             id: 'h301a-l19-w13',
@@ -26915,7 +26915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'embarrassed',
             exampleCn: '麻烦你，我很不好意思。',
             exampleEn: 'I\'m bothering you, and I feel very embarrassed.',
-            examplePinyin: 'má fán nǐ ， wǒ hěn bù hǎo yì sī。',
+            examplePinyin: 'máfán nǐ， wǒ hěn bùhǎoyìsī。',
           },
           {
             id: 'h301a-l19-w14',
@@ -26925,7 +26925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'don\'t bother',
             exampleCn: '不用客气。',
             exampleEn: 'Don\'t mention it.',
-            examplePinyin: 'bù yòng kè qì。',
+            examplePinyin: 'bùyòng kèqì。',
           },
           {
             id: 'h301a-l19-w15',
@@ -26935,7 +26935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go by taxi, to take a taxi',
             exampleCn: '请打车送我去机场。',
             exampleEn: 'Please take a taxi to take me to the airport.',
-            examplePinyin: 'qǐng dǎ chē sòng wǒ qù jī chǎng。',
+            examplePinyin: 'qǐng dǎchē sòng wǒ qù jīchǎng。',
           },
           {
             id: 'h301a-l19-w16',
@@ -26945,7 +26945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hot, warm',
             exampleCn: '今天很热。',
             exampleEn: 'It is very hot today.',
-            examplePinyin: 'jīn tiān hěn rè。',
+            examplePinyin: 'jīntiān hěn rè。',
           },
           {
             id: 'h301a-l19-w17',
@@ -26955,7 +26955,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'slow',
             exampleCn: '他走路很慢。',
             exampleEn: 'He walks very slowly.',
-            examplePinyin: 'tā zǒu lù hěn màn。',
+            examplePinyin: 'tā zǒulù hěnmàn。',
           },
           {
             id: 'h301a-l19-w18',
@@ -26965,7 +26965,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'minute',
             exampleCn: '我等了十分钟。',
             exampleEn: 'I waited for ten minutes.',
-            examplePinyin: 'wǒ děng le shí fēn zhōng。',
+            examplePinyin: 'wǒ děng le shífēnzhōng。',
           },
           {
             id: 'h301a-l19-w19',
@@ -26985,7 +26985,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to mail',
             exampleCn: '我寄了一封信。',
             exampleEn: 'I mailed a letter.',
-            examplePinyin: 'wǒ jì le yī fēng xìn。',
+            examplePinyin: 'wǒ jì le yīfēngxìn。',
           },
           {
             id: 'h301a-l19-w21',
@@ -26995,7 +26995,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sentence',
             exampleCn: '这是第一句。',
             exampleEn: 'This is the first sentence.',
-            examplePinyin: 'zhè shì dì yī jù。',
+            examplePinyin: 'zhè shì dìyījù。',
           },
         ],
       },
@@ -27013,7 +27013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to spend, to pass',
             exampleCn: '我和朋友在家过生日。',
             exampleEn: 'My friend and I celebrate a birthday at home.',
-            examplePinyin: 'wǒ hé péng yǒu zài jiā guò shēng rì。',
+            examplePinyin: 'wǒ hé péngyǒu zàijiā guòshēngrì。',
           },
           {
             id: 'h301a-l20-w2',
@@ -27023,7 +27023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to introduce a complement',
             exampleCn: '老师说得很好。',
             exampleEn: 'The teacher speaks very well.',
-            examplePinyin: 'lǎo shī shuō dé hěn hǎo。',
+            examplePinyin: 'lǎoshī shuō dé hěn hǎo。',
           },
           {
             id: 'h301a-l20-w3',
@@ -27033,7 +27033,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'enjoyable, happy',
             exampleCn: '我们过得很愉快。',
             exampleEn: 'We had a very happy time.',
-            examplePinyin: 'wǒ men guò dé hěn yú kuài。',
+            examplePinyin: 'wǒmen guò dé hěn yúkuài。',
           },
           {
             id: 'h301a-l20-w4',
@@ -27043,7 +27043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to like, to enjoy',
             exampleCn: '我喜欢我的家。',
             exampleEn: 'I like my home.',
-            examplePinyin: 'wǒ xǐ huān wǒ de jiā。',
+            examplePinyin: 'wǒ xǐhuān wǒ de jiā。',
           },
           {
             id: 'h301a-l20-w5',
@@ -27053,7 +27053,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have a toast to',
             exampleCn: '我们为友谊干杯。',
             exampleEn: 'We toast to friendship.',
-            examplePinyin: 'wǒ men wèi yǒu yì gān bēi。',
+            examplePinyin: 'wǒmen wèi yǒuyì gānbēi。',
           },
           {
             id: 'h301a-l20-w6',
@@ -27063,7 +27063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'friendship',
             exampleCn: '我们的友谊很好。',
             exampleEn: 'Our friendship is very good.',
-            examplePinyin: 'wǒ men de yǒu yì hěn hǎo。',
+            examplePinyin: 'wǒmen de yǒuyì hěn hǎo。',
           },
           {
             id: 'h301a-l20-w7',
@@ -27073,7 +27073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fish',
             exampleCn: '我喜欢吃鱼。',
             exampleEn: 'I like to eat fish.',
-            examplePinyin: 'wǒ xǐ huān chī yú。',
+            examplePinyin: 'wǒ xǐhuān chī yú。',
           },
           {
             id: 'h301a-l20-w8',
@@ -27083,7 +27083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'delicious',
             exampleCn: '鱼很好吃。',
             exampleEn: 'The fish is delicious.',
-            examplePinyin: 'yú hěn hǎo chī。',
+            examplePinyin: 'yú hěn hǎochī。',
           },
           {
             id: 'h301a-l20-w9',
@@ -27093,7 +27093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to resemble',
             exampleCn: '她像她的老师。',
             exampleEn: 'She resembles her teacher.',
-            examplePinyin: 'tā xiàng tā de lǎo shī。',
+            examplePinyin: 'tā xiàng tā de lǎoshī。',
           },
           {
             id: 'h301a-l20-w10',
@@ -27103,7 +27103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'same, similar',
             exampleCn: '我和你一样喜欢鱼。',
             exampleEn: 'I like fish just like you.',
-            examplePinyin: 'wǒ hé nǐ yī yàng xǐ huān yú。',
+            examplePinyin: 'wǒ hé nǐ yīyàng xǐhuān yú。',
           },
           {
             id: 'h301a-l20-w11',
@@ -27113,7 +27113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'everybody, everyone',
             exampleCn: '大家喜欢吃鱼。',
             exampleEn: 'Everybody likes to eat fish.',
-            examplePinyin: 'dà jiā xǐ huān chī yú。',
+            examplePinyin: 'dàjiā xǐhuān chī yú。',
           },
           {
             id: 'h301a-l20-w12',
@@ -27123,7 +27123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'healthy, in good heath',
             exampleCn: '老师很健康。',
             exampleEn: 'The teacher is very healthy.',
-            examplePinyin: 'lǎo shī hěn jiàn kāng。',
+            examplePinyin: 'lǎoshī hěn jiànkāng。',
           },
           {
             id: 'h301a-l20-w13',
@@ -27133,7 +27133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dumpling',
             exampleCn: '我们喜欢吃饺子。',
             exampleEn: 'We like to eat dumplings.',
-            examplePinyin: 'wǒ men xǐ huān chī jiǎo zi。',
+            examplePinyin: 'wǒmen xǐhuān chījiǎozi。',
           },
           {
             id: 'h301a-l20-w14',
@@ -27143,7 +27143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'full',
             exampleCn: '我吃得很饱。',
             exampleEn: 'I am very full from eating.',
-            examplePinyin: 'wǒ chī dé hěn bǎo。',
+            examplePinyin: 'wǒ chī dé hěnbǎo。',
           },
           {
             id: 'h301a-l20-w15',
@@ -27153,7 +27153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to live, to lead a life; life',
             exampleCn: '我生活得很愉快。',
             exampleEn: 'I live very happily.',
-            examplePinyin: 'wǒ shēng huó dé hěn yú kuài。',
+            examplePinyin: 'wǒ shēnghuó dé hěn yúkuài。',
           },
           {
             id: 'h301a-l20-w16',
@@ -27183,7 +27183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wash',
             exampleCn: '我在家洗衣服。',
             exampleEn: 'I wash clothes at home.',
-            examplePinyin: 'wǒ zài jiā xǐ yī fú。',
+            examplePinyin: 'wǒ zàijiā xǐyīfú。',
           },
           {
             id: 'h301a-l20-w19',
@@ -27193,7 +27193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'clean',
             exampleCn: '我洗得很干净。',
             exampleEn: 'I wash it very clean.',
-            examplePinyin: 'wǒ xǐ dé hěn gān jìng。',
+            examplePinyin: 'wǒ xǐ dé hěn gānjìng。',
           },
           {
             id: 'h301a-l20-w20',
@@ -27203,7 +27203,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'photo',
             exampleCn: '我喜欢看照片。',
             exampleEn: 'I like to look at photos.',
-            examplePinyin: 'wǒ xǐ huān kàn zhào piān。',
+            examplePinyin: 'wǒ xǐhuān kàn zhàopiān。',
           },
           {
             id: 'h301a-l20-w21',
@@ -27213,7 +27213,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for vehicles',
             exampleCn: '我有一辆车。',
             exampleEn: 'I have a car.',
-            examplePinyin: 'wǒ yǒu yī liàng chē。',
+            examplePinyin: 'wǒ yǒu yīliàngchē。',
           },
         ],
       },
@@ -27239,7 +27239,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hello',
             exampleCn: '喂，你是中文系的李红老师吗？',
             exampleEn: 'Hello, are you Teacher Li Hong from the Chinese Department?',
-            examplePinyin: 'wèi ， nǐ shì zhōng wén xì de lǐ hóng lǎo shī ma？',
+            examplePinyin: 'wèi， nǐ shì zhōngwénxì de lǐ hóng lǎoshī ma？',
           },
           {
             id: 'h301b-l21-w2',
@@ -27249,7 +27249,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Chinese',
             exampleCn: '我在中文系学习汉语。',
             exampleEn: 'I study Chinese at the Chinese Department.',
-            examplePinyin: 'wǒ zài zhōng wén xì xué xí hàn yǔ。',
+            examplePinyin: 'wǒ zài zhōngwénxì xuéxí hànyǔ。',
           },
           {
             id: 'h301b-l21-w3',
@@ -27259,7 +27259,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'department',
             exampleCn: '中文系有一位新老师。',
             exampleEn: 'There is a new teacher in the Chinese Department.',
-            examplePinyin: 'zhōng wén xì yǒu yī wèi xīn lǎo shī。',
+            examplePinyin: 'zhōngwénxì yǒu yīwèi xīn lǎoshī。',
           },
           {
             id: 'h301b-l21-w4',
@@ -27269,7 +27269,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for people',
             exampleCn: '你找哪位？',
             exampleEn: 'Who are you looking for?',
-            examplePinyin: 'nǐ zhǎo nǎ wèi？',
+            examplePinyin: 'nǐ zhǎo nǎwèi？',
           },
           {
             id: 'h301b-l21-w5',
@@ -27279,7 +27279,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'certainly',
             exampleCn: '我一定转告她你的电话。',
             exampleEn: 'I will certainly pass on your phone number to her.',
-            examplePinyin: 'wǒ yí dìng zhuǎn gào tā nǐ de diàn huà。',
+            examplePinyin: 'wǒ yídìng zhuǎngào tā nǐ de diànhuà。',
           },
           {
             id: 'h301b-l21-w6',
@@ -27289,7 +27289,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pass on, to tell',
             exampleCn: '请你转告玛丽，晚上八点见面。',
             exampleEn: 'Please tell Mary to meet at eight in the evening.',
-            examplePinyin: 'qǐng nǐ zhuǎn gào mǎ lì ， wǎn shàng bā diǎn jiàn miàn。',
+            examplePinyin: 'qǐng nǐ zhuǎngào mǎlì， wǎnshàng bādiǎn jiànmiàn。',
           },
           {
             id: 'h301b-l21-w7',
@@ -27299,7 +27299,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'just now',
             exampleCn: '刚才有人找你。',
             exampleEn: 'Someone was looking for you just now.',
-            examplePinyin: 'gāng cái yǒu rén zhǎo nǐ。',
+            examplePinyin: 'gāngcái yǒurén zhǎo nǐ。',
           },
           {
             id: 'h301b-l21-w8',
@@ -27309,7 +27309,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'Christmas Day',
             exampleCn: '圣诞节晚上我们有个晚会。',
             exampleEn: 'We have an evening party on Christmas Day.',
-            examplePinyin: 'shèng dàn jié wǎn shàng wǒ men yǒu gè wǎn huì。',
+            examplePinyin: 'shèngdànjié wǎnshàng wǒmen yǒu gè wǎnhuì。',
           },
           {
             id: 'h301b-l21-w9',
@@ -27319,7 +27319,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'evening party',
             exampleCn: '晚上八点，晚会在友谊宾馆开始。',
             exampleEn: 'The party starts at the Friendship Hotel at eight in the evening.',
-            examplePinyin: 'wǎn shàng bā diǎn ， wǎn huì zài yǒu yì bīn guǎn kāi shǐ。',
+            examplePinyin: 'wǎnshàng bādiǎn， wǎnhuì zài yǒuyì bīnguǎn kāishǐ。',
           },
           {
             id: 'h301b-l21-w10',
@@ -27329,7 +27329,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to participate',
             exampleCn: '我想参加你们的晚会。',
             exampleEn: 'I want to participate in your evening party.',
-            examplePinyin: 'wǒ xiǎng cān jiā nǐ men de wǎn huì。',
+            examplePinyin: 'wǒ xiǎng cānjiā nǐmen de wǎnhuì。',
           },
           {
             id: 'h301b-l21-w11',
@@ -27339,7 +27339,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'doorway',
             exampleCn: '晚上八点我在宾馆门口等你。',
             exampleEn: 'I\'ll wait for you at the hotel entrance at eight in the evening.',
-            examplePinyin: 'wǎn shàng bā diǎn wǒ zài bīn guǎn mén kǒu děng nǐ。',
+            examplePinyin: 'wǎnshàng bādiǎn wǒ zài bīnguǎn ménkǒu děng nǐ。',
           },
           {
             id: 'h301b-l21-w12',
@@ -27349,7 +27349,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to inform; notice',
             exampleCn: '我已经通知大家参加晚会了。',
             exampleEn: 'I have already informed everyone to attend the evening party.',
-            examplePinyin: 'wǒ yǐ jīng tōng zhī dà jiā cān jiā wǎn huì le。',
+            examplePinyin: 'wǒ yǐjīng tōngzhī dàjiā cānjiā wǎnhuì le。',
           },
           {
             id: 'h301b-l21-w13',
@@ -27359,7 +27359,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to help',
             exampleCn: '谢谢你帮助我通知大家。',
             exampleEn: 'Thank you for helping me inform everyone.',
-            examplePinyin: 'xiè xiè nǐ bāng zhù wǒ tōng zhī dà jiā。',
+            examplePinyin: 'xièxiè nǐ bāngzhù wǒ tōngzhī dàjiā。',
           },
           {
             id: 'h301b-l21-w14',
@@ -27369,7 +27369,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'newspaper',
             exampleCn: '他正在里边看报呢。',
             exampleEn: 'He is reading a newspaper inside.',
-            examplePinyin: 'tā zhèng zài lǐ biān kàn bào ne。',
+            examplePinyin: 'tā zhèngzài lǐbiān kànbào ne。',
           },
           {
             id: 'h301b-l21-w15',
@@ -27379,7 +27379,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to dance',
             exampleCn: '晚会上很多人在跳舞。',
             exampleEn: 'Many people are dancing at the evening party.',
-            examplePinyin: 'wǎn huì shàng hěn duō rén zài tiào wǔ。',
+            examplePinyin: 'wǎnhuì shàng hěnduō rén zài tiàowǔ。',
           },
           {
             id: 'h301b-l21-w16',
@@ -27389,7 +27389,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'New Year',
             exampleCn: '新年到了，我们开晚会。',
             exampleEn: 'New Year is coming. Let\'s have a party.',
-            examplePinyin: 'xīn nián dào le ， wǒ men kāi wǎn huì。',
+            examplePinyin: 'xīnnián dào le， wǒmen kāi wǎnhuì。',
           },
           {
             id: 'h301b-l21-w17',
@@ -27399,7 +27399,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dancing party',
             exampleCn: '你想参加新年舞会吗？',
             exampleEn: 'Do you want to attend the New Year\'s dancing party?',
-            examplePinyin: 'nǐ xiǎng cān jiā xīn nián wǔ huì ma？',
+            examplePinyin: 'nǐ xiǎng cānjiā xīnnián wǔhuì ma？',
           },
           {
             id: 'h301b-l21-w18',
@@ -27409,7 +27409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'inside',
             exampleCn: '里边正在开晚会呢。',
             exampleEn: 'An evening party is going on inside.',
-            examplePinyin: 'lǐ biān zhèng zài kāi wǎn huì ne。',
+            examplePinyin: 'lǐbiān zhèngzài kāi wǎnhuì ne。',
           },
           {
             id: 'h301b-l21-w19',
@@ -27419,7 +27419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in the midst of',
             exampleCn: '他们正在里边唱歌呢。',
             exampleEn: 'They are singing inside right now.',
-            examplePinyin: 'tā men zhèng zài lǐ biān chàng gē ne。',
+            examplePinyin: 'tāmen zhèngzài lǐbiān chànggē ne。',
           },
           {
             id: 'h301b-l21-w20',
@@ -27429,7 +27429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have (a meeting)',
             exampleCn: '我们明天下午开会。',
             exampleEn: 'We are having a meeting tomorrow afternoon.',
-            examplePinyin: 'wǒ men míng tiān xià wǔ kāi huì。',
+            examplePinyin: 'wǒmen míngtiān xiàwǔ kāihuì。',
           },
           {
             id: 'h301b-l21-w21',
@@ -27439,7 +27439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sing',
             exampleCn: '玛丽喜欢在晚会上唱歌。',
             exampleEn: 'Mary likes to sing at evening parties.',
-            examplePinyin: 'mǎ lì xǐ huān zài wǎn huì shàng chàng gē。',
+            examplePinyin: 'mǎlì xǐhuān zài wǎnhuì shàng chànggē。',
           },
           {
             id: 'h301b-l21-w22',
@@ -27449,7 +27449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'song',
             exampleCn: '这首歌很好听。',
             exampleEn: 'This song sounds very nice.',
-            examplePinyin: 'zhè shǒu gē hěn hǎo tīng。',
+            examplePinyin: 'zhè shǒugē hěn hǎotīng。',
           },
           {
             id: 'h301b-l21-w23',
@@ -27459,7 +27459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to visit',
             exampleCn: '明天上午我们去参观学校。',
             exampleEn: 'We are going to visit the school tomorrow morning.',
-            examplePinyin: 'míng tiān shàng wǔ wǒ men qù cān guān xué xiào。',
+            examplePinyin: 'míngtiān shàngwǔ wǒmen qù cānguān xuéxiào。',
           },
         ],
       },
@@ -27477,7 +27477,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fortunate',
             exampleCn: '你来得真巧，我正在家。',
             exampleEn: 'You\'ve come at just the right time — I\'m home.',
-            examplePinyin: 'nǐ lái de zhēn qiǎo ， wǒ zhèng zài jiā。',
+            examplePinyin: 'nǐ láide zhēnqiǎo， wǒ zhèngzài jiā。',
           },
           {
             id: 'h301b-l22-w2',
@@ -27487,7 +27487,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put off until some time later',
             exampleCn: '这件事我们以后再说吧。',
             exampleEn: 'Let\'s put this matter off until later.',
-            examplePinyin: 'zhè jiàn shì wǒ men yǐ hòu zài shuō ba。',
+            examplePinyin: 'zhèjiàn shì wǒmen yǐhòu zàishuō ba。',
           },
           {
             id: 'h301b-l22-w3',
@@ -27497,7 +27497,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'however, but',
             exampleCn: '可是明天我没有空儿。',
             exampleEn: 'But I don\'t have any free time tomorrow.',
-            examplePinyin: 'kě shì míng tiān wǒ méi yǒu kòng ér。',
+            examplePinyin: 'kěshì míngtiān wǒ méiyǒu kòngér。',
           },
           {
             id: 'h301b-l22-w4',
@@ -27507,7 +27507,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'date, appointment; to date',
             exampleCn: '明天下午我有个约会。',
             exampleEn: 'I have a date tomorrow afternoon.',
-            examplePinyin: 'míng tiān xià wǔ wǒ yǒu gè yuē huì。',
+            examplePinyin: 'míngtiān xiàwǔ wǒ yǒu gè yuēhuì。',
           },
           {
             id: 'h301b-l22-w5',
@@ -27517,7 +27517,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'girlfriend',
             exampleCn: '他要陪女朋友去看电影。',
             exampleEn: 'He wants to accompany his girlfriend to see a movie.',
-            examplePinyin: 'tā yào péi nǚ péng yǒu qù kàn diàn yǐng。',
+            examplePinyin: 'tā yào péi nǚpéngyǒu qù kàn diànyǐng。',
           },
           {
             id: 'h301b-l22-w6',
@@ -27527,7 +27527,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'classmate',
             exampleCn: '我的同学刚从法国来。',
             exampleEn: 'My classmate has just come from France.',
-            examplePinyin: 'wǒ de tóng xué gāng cóng fǎ guó lái。',
+            examplePinyin: 'wǒ de tóngxué gāng cóng fǎguó lái。',
           },
           {
             id: 'h301b-l22-w7',
@@ -27537,7 +27537,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'several',
             exampleCn: '我们好几年没见面了。',
             exampleEn: 'We haven\'t seen each other for several years.',
-            examplePinyin: 'wǒ men hǎo jǐ nián méi jiàn miàn le。',
+            examplePinyin: 'wǒmen hǎojǐnián méi jiànmiàn le。',
           },
           {
             id: 'h301b-l22-w8',
@@ -27547,7 +27547,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to meet, to see',
             exampleCn: '我们星期天见面吧。',
             exampleEn: 'Let\'s meet on Sunday.',
-            examplePinyin: 'wǒ men xīng qī tiān jiàn miàn ba。',
+            examplePinyin: 'wǒmen xīngqītiān jiànmiàn ba。',
           },
           {
             id: 'h301b-l22-w9',
@@ -27557,7 +27557,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'free time',
             exampleCn: '这星期我没空儿。',
             exampleEn: 'I don\'t have any free time this week.',
-            examplePinyin: 'zhè xīng qī wǒ méi kòng ér。',
+            examplePinyin: 'zhè xīngqī wǒ méi kòngér。',
           },
           {
             id: 'h301b-l22-w10',
@@ -27567,7 +27567,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to review',
             exampleCn: '晚上我要复习功课。',
             exampleEn: 'I need to review my lessons in the evening.',
-            examplePinyin: 'wǎn shàng wǒ yào fù xí gōng kè。',
+            examplePinyin: 'wǎnshàng wǒ yào fùxígōngkè。',
           },
           {
             id: 'h301b-l22-w11',
@@ -27577,7 +27577,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'just now',
             exampleCn: '他刚从法国来。',
             exampleEn: 'He has just come from France.',
-            examplePinyin: 'tā gāng cóng fǎ guó lái。',
+            examplePinyin: 'tā gāng cóng fǎguó lái。',
           },
           {
             id: 'h301b-l22-w12',
@@ -27587,7 +27587,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to accompany',
             exampleCn: '你应该陪他玩儿玩儿。',
             exampleEn: 'You should keep him company for a while.',
-            examplePinyin: 'nǐ yīng gāi péi tā wán ér wán ér。',
+            examplePinyin: 'nǐ yīnggāi péi tā wánr wánr。',
           },
           {
             id: 'h301b-l22-w13',
@@ -27597,7 +27597,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sentence',
             exampleCn: '请帮我翻译这个句子。',
             exampleEn: 'Please help me translate this sentence.',
-            examplePinyin: 'qǐng bāng wǒ fān yì zhè ge jù zi。',
+            examplePinyin: 'qǐng bāng wǒ fānyì zhège jùzi。',
           },
           {
             id: 'h301b-l22-w14',
@@ -27607,7 +27607,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a measure word for something enveloped',
             exampleCn: '我写了一封信给他。',
             exampleEn: 'I wrote him a letter.',
-            examplePinyin: 'wǒ xiě le yī fēng xìn gěi tā。',
+            examplePinyin: 'wǒ xiě le yīfēngxìn gěi tā。',
           },
           {
             id: 'h301b-l22-w15',
@@ -27617,7 +27617,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'meeting',
             exampleCn: '我们下午开会。',
             exampleEn: 'We are having a meeting this afternoon.',
-            examplePinyin: 'wǒ men xià wǔ kāi huì。',
+            examplePinyin: 'wǒmen xiàwǔ kāihuì。',
           },
           {
             id: 'h301b-l22-w16',
@@ -27627,7 +27627,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'just, right',
             exampleCn: '她正唱歌呢。',
             exampleEn: 'She is singing right now.',
-            examplePinyin: 'tā zhèng chàng gē ne。',
+            examplePinyin: 'tā zhèng chànggē ne。',
           },
           {
             id: 'h301b-l22-w17',
@@ -27637,7 +27637,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'girl',
             exampleCn: '那个姑娘很高。',
             exampleEn: 'That girl is very tall.',
-            examplePinyin: 'nà ge gū niáng hěn gāo。',
+            examplePinyin: 'nàge gūniáng hěn gāo。',
           },
           {
             id: 'h301b-l22-w18',
@@ -27647,7 +27647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beautiful',
             exampleCn: '这个姑娘真漂亮。',
             exampleEn: 'This girl is really beautiful.',
-            examplePinyin: 'zhè ge gū niáng zhēn piào liàng。',
+            examplePinyin: 'zhège gūniáng zhēn piàoliàng。',
           },
           {
             id: 'h301b-l22-w19',
@@ -27657,7 +27657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tall, high',
             exampleCn: '他个子很高。',
             exampleEn: 'He is very tall.',
-            examplePinyin: 'tā gè zi hěn gāo。',
+            examplePinyin: 'tā gèzi hěn gāo。',
           },
           {
             id: 'h301b-l22-w20',
@@ -27667,7 +27667,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'height, stature',
             exampleCn: '你个子多高？',
             exampleEn: 'What is your height?',
-            examplePinyin: 'nǐ gè zi duō gāo？',
+            examplePinyin: 'nǐ gèzi duō gāo？',
           },
         ],
       },
@@ -27685,7 +27685,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'I\'m sorry',
             exampleCn: '对不起，我来晚了。',
             exampleEn: 'I\'m sorry, I\'m late.',
-            examplePinyin: 'duì bù qǐ ， wǒ lái wǎn le。',
+            examplePinyin: 'duìbùqǐ， wǒ lái wǎn le。',
           },
           {
             id: 'h301b-l23-w2',
@@ -27695,7 +27695,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to let',
             exampleCn: '对不起，让你久等了。',
             exampleEn: 'I\'m sorry for making you wait so long.',
-            examplePinyin: 'duì bù qǐ ， ràng nǐ jiǔ děng le。',
+            examplePinyin: 'duìbùqǐ， ràng nǐ jiǔděng le。',
           },
           {
             id: 'h301b-l23-w3',
@@ -27715,7 +27715,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'just',
             exampleCn: '你怎么才来？',
             exampleEn: 'Why did you come only now?',
-            examplePinyin: 'nǐ zěn me cái lái？',
+            examplePinyin: 'nǐ zěnme cái lái？',
           },
           {
             id: 'h301b-l23-w5',
@@ -27725,7 +27725,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sorry',
             exampleCn: '真抱歉，我来得太晚了。',
             exampleEn: 'I\'m really sorry that I came too late.',
-            examplePinyin: 'zhēn bào qiàn ， wǒ lái de tài wǎn le。',
+            examplePinyin: 'zhēn bàoqiàn， wǒ láide tàiwǎn le。',
           },
           {
             id: 'h301b-l23-w6',
@@ -27735,7 +27735,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'halfway',
             exampleCn: '我在半路等你很久了。',
             exampleEn: 'I waited for you halfway for a long time.',
-            examplePinyin: 'wǒ zài bàn lù děng nǐ hěn jiǔ le。',
+            examplePinyin: 'wǒ zài bànlù děng nǐ hěn jiǔ le。',
           },
           {
             id: 'h301b-l23-w7',
@@ -27745,7 +27745,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bad, broken',
             exampleCn: '这个苹果坏了。',
             exampleEn: 'This apple is bad.',
-            examplePinyin: 'zhè ge píng guǒ huài le。',
+            examplePinyin: 'zhège píngguǒ huài le。',
           },
           {
             id: 'h301b-l23-w8',
@@ -27755,7 +27755,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fix, to repair',
             exampleCn: '我的自行车坏了，请你帮我修一下。',
             exampleEn: 'My bicycle is broken. Please help me fix it.',
-            examplePinyin: 'wǒ de zì xíng chē huài le ， qǐng nǐ bāng wǒ xiū yī xià。',
+            examplePinyin: 'wǒ de zìxíngchē huài le， qǐng nǐ bāng wǒ xiū yīxià。',
           },
           {
             id: 'h301b-l23-w9',
@@ -27765,7 +27765,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cinema',
             exampleCn: '我们快进电影院去吧。',
             exampleEn: 'Let\'s go into the cinema quickly.',
-            examplePinyin: 'wǒ men kuài jìn diàn yǐng yuàn qù ba。',
+            examplePinyin: 'wǒmen kuài jìn diànyǐngyuàn qù ba。',
           },
           {
             id: 'h301b-l23-w10',
@@ -27775,7 +27775,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'novel',
             exampleCn: '我买到一本新小说。',
             exampleEn: 'I bought a new novel.',
-            examplePinyin: 'wǒ mǎi dào yī běn xīn xiǎo shuō。',
+            examplePinyin: 'wǒ mǎi dào yīběn xīn xiǎoshuō。',
           },
           {
             id: 'h301b-l23-w11',
@@ -27785,7 +27785,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to arrange',
             exampleCn: '我们约好八点去电影院。',
             exampleEn: 'We arranged to go to the cinema at eight.',
-            examplePinyin: 'wǒ men yuē hǎo bā diǎn qù diàn yǐng yuàn。',
+            examplePinyin: 'wǒmen yuē hǎo bādiǎn qù diànyǐngyuàn。',
           },
           {
             id: 'h301b-l23-w12',
@@ -27795,7 +27795,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'may, can; possible',
             exampleCn: '我可能来晚了，真抱歉。',
             exampleEn: 'I might be late. I\'m really sorry.',
-            examplePinyin: 'wǒ kě néng lái wǎn le ， zhēn bào qiàn。',
+            examplePinyin: 'wǒ kěnéng lái wǎn le， zhēn bàoqiàn。',
           },
           {
             id: 'h301b-l23-w13',
@@ -27805,7 +27805,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to return',
             exampleCn: '你的小说我还给你了。',
             exampleEn: 'I returned your novel to you.',
-            examplePinyin: 'nǐ de xiǎo shuō wǒ huán gěi nǐ le。',
+            examplePinyin: 'nǐ de xiǎoshuō wǒ huángěi nǐ le。',
           },
           {
             id: 'h301b-l23-w14',
@@ -27815,7 +27815,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to use',
             exampleCn: '我用用你的词典，行吗？',
             exampleEn: 'Can I use your dictionary for a while?',
-            examplePinyin: 'wǒ yòng yòng nǐ de cí diǎn ， xíng ma？',
+            examplePinyin: 'wǒ yòng yòng nǐ de cídiǎn， xíng ma？',
           },
           {
             id: 'h301b-l23-w15',
@@ -27825,7 +27825,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to apologize',
             exampleCn: '请你原谅我，我的自行车半路坏了。',
             exampleEn: 'Please forgive me. My bicycle broke halfway.',
-            examplePinyin: 'qǐng nǐ yuán liàng wǒ ， wǒ de zì xíng chē bàn lù huài le。',
+            examplePinyin: 'qǐng nǐ yuánliàng wǒ， wǒ de zìxíngchē bànlù huài le。',
           },
           {
             id: 'h301b-l23-w16',
@@ -27835,7 +27835,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'It doesn\'t matter.',
             exampleCn: '没关系，你可以明天还我。',
             exampleEn: 'It doesn\'t matter. You can return it to me tomorrow.',
-            examplePinyin: 'méi guān xì ， nǐ kě yǐ míng tiān hái wǒ。',
+            examplePinyin: 'méiguānxì， nǐ kěyǐ míngtiān hái wǒ。',
           },
           {
             id: 'h301b-l23-w17',
@@ -27845,7 +27845,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'English',
             exampleCn: '这本小说是英文的。',
             exampleEn: 'This novel is in English.',
-            examplePinyin: 'zhè běn xiǎo shuō shì yīng wén de。',
+            examplePinyin: 'zhèběn xiǎoshuō shì yīngwén de。',
           },
           {
             id: 'h301b-l23-w18',
@@ -27855,7 +27855,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to borrow',
             exampleCn: '我可以借你的词典用用吗？',
             exampleEn: 'Can I borrow your dictionary to use?',
-            examplePinyin: 'wǒ kě yǐ jiè nǐ de cí diǎn yòng yòng ma？',
+            examplePinyin: 'wǒ kěyǐ jiè nǐ de cídiǎn yòng yòng ma？',
           },
           {
             id: 'h301b-l23-w19',
@@ -27865,7 +27865,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lift, elevator',
             exampleCn: '电梯来了，我们快进去吧。',
             exampleEn: 'The elevator is here. Let\'s get in quickly.',
-            examplePinyin: 'diàn tī lái le ， wǒ men kuài jìn qù ba。',
+            examplePinyin: 'diàntī lái le， wǒmen kuàijìnqù ba。',
           },
           {
             id: 'h301b-l23-w20',
@@ -27875,7 +27875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'disc',
             exampleCn: '我借了两张光盘。',
             exampleEn: 'I borrowed two discs.',
-            examplePinyin: 'wǒ jiè le liǎng zhāng guāng pán。',
+            examplePinyin: 'wǒ jiè le liǎngzhāng guāngpán。',
           },
           {
             id: 'h301b-l23-w21',
@@ -27885,7 +27885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'measure word for long, thin, inflexible objects',
             exampleCn: '我买了两支笔。',
             exampleEn: 'I bought two pens.',
-            examplePinyin: 'wǒ mǎi le liǎng zhī bǐ。',
+            examplePinyin: 'wǒ mǎi le liǎngzhī bǐ。',
           },
           {
             id: 'h301b-l23-w22',
@@ -27895,7 +27895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'digital voice recorder',
             exampleCn: '这支录音笔是新的。',
             exampleEn: 'This digital voice recorder is new.',
-            examplePinyin: 'zhè zhī lù yīn bǐ shì xīn de。',
+            examplePinyin: 'zhè zhī lùyīnbǐ shì xīn de。',
           },
           {
             id: 'h301b-l23-w23',
@@ -27905,7 +27905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to deal with, to do',
             exampleCn: '我的自行车弄坏了。',
             exampleEn: 'My bicycle is broken.',
-            examplePinyin: 'wǒ de zì xíng chē nòng huài le。',
+            examplePinyin: 'wǒ de zìxíngchē nònghuàile。',
           },
           {
             id: 'h301b-l23-w24',
@@ -27915,7 +27915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dirty',
             exampleCn: '对不起，我弄脏了你的本子。',
             exampleEn: 'I\'m sorry, I made your notebook dirty.',
-            examplePinyin: 'duì bù qǐ ， wǒ nòng zāng le nǐ de běn zi。',
+            examplePinyin: 'duìbùqǐ， wǒ nòngzāngle nǐ de běnzi。',
           },
         ],
       },
@@ -27933,7 +27933,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'floor, ground',
             exampleCn: '地上有很多水。',
             exampleEn: 'There is a lot of water on the floor.',
-            examplePinyin: 'dì shàng yǒu hěn duō shuǐ。',
+            examplePinyin: 'dìshàng yǒu hěnduō shuǐ。',
           },
           {
             id: 'h301b-l24-w2',
@@ -27943,7 +27943,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in a mess',
             exampleCn: '你的房间乱七八糟的。',
             exampleEn: 'Your room is in a mess.',
-            examplePinyin: 'nǐ de fáng jiān luàn qī bā zāo de。',
+            examplePinyin: 'nǐ de fángjiān luànqībāzāo de。',
           },
           {
             id: 'h301b-l24-w3',
@@ -27953,7 +27953,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be on a business trip',
             exampleCn: '他出差了，明天回来。',
             exampleEn: 'He went on a business trip and will come back tomorrow.',
-            examplePinyin: 'tā chū chāi le ， míng tiān huí lái。',
+            examplePinyin: 'tā chūchāi le， míngtiān huílái。',
           },
           {
             id: 'h301b-l24-w4',
@@ -27973,7 +27973,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'window',
             exampleCn: '房间的窗户很大。',
             exampleEn: 'The window of the room is big.',
-            examplePinyin: 'fáng jiān de chuāng hù hěn dà。',
+            examplePinyin: 'fángjiān de chuānghù hěndà。',
           },
           {
             id: 'h301b-l24-w6',
@@ -27983,7 +27983,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to forget',
             exampleCn: '我忘了他的名字。',
             exampleEn: 'I forgot his name.',
-            examplePinyin: 'wǒ wàng le tā de míng zì。',
+            examplePinyin: 'wǒ wàng le tā de míngzì。',
           },
           {
             id: 'h301b-l24-w7',
@@ -27993,7 +27993,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'vase',
             exampleCn: '这个花瓶很漂亮。',
             exampleEn: 'This vase is very beautiful.',
-            examplePinyin: 'zhè ge huā píng hěn piào liàng。',
+            examplePinyin: 'zhège huāpíng hěnpiàoliàng。',
           },
           {
             id: 'h301b-l24-w8',
@@ -28003,7 +28003,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to throw',
             exampleCn: '花瓶摔在地上了。',
             exampleEn: 'The vase fell on the floor.',
-            examplePinyin: 'huā píng shuāi zài dì shàng le。',
+            examplePinyin: 'huāpíng shuāi zài dìshàng le。',
           },
           {
             id: 'h301b-l24-w9',
@@ -28013,7 +28013,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'broken',
             exampleCn: '花瓶摔碎了。',
             exampleEn: 'The vase broke.',
-            examplePinyin: 'huā píng shuāi suì le。',
+            examplePinyin: 'huāpíng shuāisuì le。',
           },
           {
             id: 'h301b-l24-w10',
@@ -28023,7 +28023,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pity',
             exampleCn: '真可惜，他明天要出差。',
             exampleEn: 'What a pity. He is going on a business trip tomorrow.',
-            examplePinyin: 'zhēn kě xī ， tā míng tiān yào chū chāi。',
+            examplePinyin: 'zhēn kěxī， tā míngtiān yào chūchāi。',
           },
           {
             id: 'h301b-l24-w11',
@@ -28033,7 +28033,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'urgent',
             exampleCn: '我有急事，不能去看电影了。',
             exampleEn: 'I have urgent business. I can\'t go to the movies.',
-            examplePinyin: 'wǒ yǒu jí shì ， bù néng qù kàn diàn yǐng le。',
+            examplePinyin: 'wǒ yǒu jíshì， bùnéng qù kàn diànyǐng le。',
           },
           {
             id: 'h301b-l24-w12',
@@ -28043,7 +28043,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'at once, immediately',
             exampleCn: '我马上给你打电话。',
             exampleEn: 'I\'ll call you right away.',
-            examplePinyin: 'wǒ mǎ shàng gěi nǐ dǎ diàn huà。',
+            examplePinyin: 'wǒ mǎshàng gěi nǐ dǎdiànhuà。',
           },
           {
             id: 'h301b-l24-w13',
@@ -28053,7 +28053,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to contact',
             exampleCn: '你多跟他联系。',
             exampleEn: 'Keep in contact with him.',
-            examplePinyin: 'nǐ duō gēn tā lián xì。',
+            examplePinyin: 'nǐ duō gēn tā liánxì。',
           },
           {
             id: 'h301b-l24-w14',
@@ -28063,7 +28063,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sorry',
             exampleCn: '真遗憾，我没见到他。',
             exampleEn: 'It\'s a pity that I didn\'t see him.',
-            examplePinyin: 'zhēn yí hàn ， wǒ méi jiàn dào tā。',
+            examplePinyin: 'zhēnyíhàn， wǒ méi jiàndào tā。',
           },
           {
             id: 'h301b-l24-w15',
@@ -28073,7 +28073,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to see',
             exampleCn: '我明天可以见他。',
             exampleEn: 'I can see him tomorrow.',
-            examplePinyin: 'wǒ míng tiān kě yǐ jiàn tā。',
+            examplePinyin: 'wǒ míngtiān kěyǐ jiàn tā。',
           },
           {
             id: 'h301b-l24-w16',
@@ -28083,7 +28083,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wind',
             exampleCn: '昨天风很大。',
             exampleEn: 'The wind was strong yesterday.',
-            examplePinyin: 'zuó tiān fēng hěn dà。',
+            examplePinyin: 'zuótiān fēng hěndà。',
           },
           {
             id: 'h301b-l24-w17',
@@ -28093,7 +28093,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bad, terrible',
             exampleCn: '糟糕，花瓶摔碎了。',
             exampleEn: 'Oh no, the vase broke.',
-            examplePinyin: 'zāo gāo ， huā píng shuāi suì le。',
+            examplePinyin: 'zāogāo， huāpíng shuāisuì le。',
           },
           {
             id: 'h301b-l24-w18',
@@ -28103,7 +28103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go out',
             exampleCn: '他出门了。',
             exampleEn: 'He has gone out.',
-            examplePinyin: 'tā chū mén le。',
+            examplePinyin: 'tā chūmén le。',
           },
           {
             id: 'h301b-l24-w19',
@@ -28113,7 +28113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'present',
             exampleCn: '这是我给你的礼物。',
             exampleEn: 'This is the present I give you.',
-            examplePinyin: 'zhè shì wǒ gěi nǐ de lǐ wù。',
+            examplePinyin: 'zhè shì wǒ gěi nǐ de lǐwù。',
           },
           {
             id: 'h301b-l24-w20',
@@ -28123,7 +28123,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to charge up',
             exampleCn: '我的手机没电了，要充电。',
             exampleEn: 'My phone is out of battery. I need to charge it.',
-            examplePinyin: 'wǒ de shǒu jī méi diàn le ， yào chōng diàn。',
+            examplePinyin: 'wǒ de shǒujī méi diàn le， yào chōngdiàn。',
           },
           {
             id: 'h301b-l24-w21',
@@ -28133,7 +28133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'red',
             exampleCn: '这朵花是红的。',
             exampleEn: 'This flower is red.',
-            examplePinyin: 'zhè duǒ huā shì hóng de。',
+            examplePinyin: 'zhè duǒhuā shì hóng de。',
           },
           {
             id: 'h301b-l24-w22',
@@ -28143,7 +28143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'yellow',
             exampleCn: '这些苹果是黄的。',
             exampleEn: 'These apples are yellow.',
-            examplePinyin: 'zhè xiē píng guǒ shì huáng de。',
+            examplePinyin: 'zhèxiē píngguǒ shì huáng de。',
           },
           {
             id: 'h301b-l24-w23',
@@ -28153,7 +28153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'white',
             exampleCn: '这件衣服是白的。',
             exampleEn: 'This piece of clothing is white.',
-            examplePinyin: 'zhè jiàn yī fú shì bái de。',
+            examplePinyin: 'zhèjiàn yīfú shì bái de。',
           },
         ],
       },
@@ -28171,7 +28171,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to decorate',
             exampleCn: '我们把房间布置了一下。',
             exampleEn: 'We decorated the room a bit.',
-            examplePinyin: 'wǒ men bǎ fáng jiān bù zhì le yī xià。',
+            examplePinyin: 'wǒmen bǎ fángjiān bùzhì le yīxià。',
           },
           {
             id: 'h301b-l25-w2',
@@ -28181,7 +28181,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'painting, drawing',
             exampleCn: '这张画儿很漂亮。',
             exampleEn: 'This painting is very pretty.',
-            examplePinyin: 'zhè zhāng huà ér hěn piào liàng。',
+            examplePinyin: 'zhè zhāng huàr hěnpiàoliàng。',
           },
           {
             id: 'h301b-l25-w3',
@@ -28191,7 +28191,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'beautiful, pretty',
             exampleCn: '我朋友买了一件很美的衣服。',
             exampleEn: 'My friend bought a very pretty dress.',
-            examplePinyin: 'wǒ péng yǒu mǎi le yī jiàn hěn měi de yī fú。',
+            examplePinyin: 'wǒ péngyǒu mǎi le yījiàn hěn měide yīfú。',
           },
           {
             id: 'h301b-l25-w4',
@@ -28201,7 +28201,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'also',
             exampleCn: '这件衣服又便宜又漂亮。',
             exampleEn: 'This dress is both cheap and pretty.',
-            examplePinyin: 'zhè jiàn yī fú yòu pián yi yòu piào liàng。',
+            examplePinyin: 'zhèjiàn yīfú yòu piányi yòu piàoliàng。',
           },
           {
             id: 'h301b-l25-w5',
@@ -28211,7 +28211,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'more, even more',
             exampleCn: '这件衣服很美，那件更美。',
             exampleEn: 'This dress is pretty, and that one is even prettier.',
-            examplePinyin: 'zhè jiàn yī fú hěn měi ， nà jiàn gèng měi。',
+            examplePinyin: 'zhèjiàn yīfú hěn měi， nà jiàn gèng měi。',
           },
           {
             id: 'h301b-l25-w6',
@@ -28221,7 +28221,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hand',
             exampleCn: '你妈妈的手真巧。',
             exampleEn: 'Your mother is really skillful with her hands.',
-            examplePinyin: 'nǐ mā mā de shǒu zhēn qiǎo。',
+            examplePinyin: 'nǐ māmā de shǒu zhēnqiǎo。',
           },
           {
             id: 'h301b-l25-w7',
@@ -28231,7 +28231,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'if',
             exampleCn: '要是你有钱，就买一件吧。',
             exampleEn: 'If you have money, just buy one.',
-            examplePinyin: 'yào shì nǐ yǒu qián ， jiù mǎi yī jiàn ba。',
+            examplePinyin: 'yàoshì nǐ yǒuqián， jiù mǎi yījiàn ba。',
           },
           {
             id: 'h301b-l25-w8',
@@ -28241,7 +28241,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'careless',
             exampleCn: '他做事马马虎虎。',
             exampleEn: 'He does things carelessly.',
-            examplePinyin: 'tā zuò shì mǎ mǎ hǔ hǔ。',
+            examplePinyin: 'tā zuòshì mǎmǎhǔhǔ。',
           },
           {
             id: 'h301b-l25-w9',
@@ -28251,7 +28251,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'table',
             exampleCn: '桌子上有一本词典。',
             exampleEn: 'There is a dictionary on the table.',
-            examplePinyin: 'zhuō zi shàng yǒu yī běn cí diǎn。',
+            examplePinyin: 'zhuōzi shàng yǒu yīběn cídiǎn。',
           },
           {
             id: 'h301b-l25-w10',
@@ -28261,7 +28261,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to put, to place',
             exampleCn: '词典放在桌子上。',
             exampleEn: 'The dictionary is put on the table.',
-            examplePinyin: 'cí diǎn fàng zài zhuō zi shàng。',
+            examplePinyin: 'cídiǎn fàngzài zhuōzi shàng。',
           },
           {
             id: 'h301b-l25-w11',
@@ -28271,7 +28271,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wardrobe',
             exampleCn: '衣柜里面有衣服。',
             exampleEn: 'There are clothes in the wardrobe.',
-            examplePinyin: 'yī guì lǐ miàn yǒu yī fú。',
+            examplePinyin: 'yīguì lǐmiàn yǒu yīfú。',
           },
           {
             id: 'h301b-l25-w12',
@@ -28281,7 +28281,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'convenient, easy',
             exampleCn: '衣柜放在这儿很方便。',
             exampleEn: 'It is very convenient to put the wardrobe here.',
-            examplePinyin: 'yī guì fàng zài zhè ér hěn fāng biàn。',
+            examplePinyin: 'yīguì fàngzài zhèr hěn fāngbiàn。',
           },
           {
             id: 'h301b-l25-w13',
@@ -28291,7 +28291,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'modal particle indicating that sth. speaks for itself',
             exampleCn: '这本词典很好嘛，你应该买一本。',
             exampleEn: 'This dictionary is so good, of course you should buy one.',
-            examplePinyin: 'zhè běn cí diǎn hěn hǎo ma ， nǐ yīng gāi mǎi yī běn。',
+            examplePinyin: 'zhè běncídiǎn hěn hǎo ma， nǐ yīnggāi mǎi yīběn。',
           },
           {
             id: 'h301b-l25-w14',
@@ -28301,7 +28301,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shape, appearance',
             exampleCn: '这件衣服的样子很好看。',
             exampleEn: 'This dress looks very nice.',
-            examplePinyin: 'zhè jiàn yī fú de yàng zi hěn hǎo kàn。',
+            examplePinyin: 'zhèjiàn yīfú de yàngzi hěn hǎokàn。',
           },
           {
             id: 'h301b-l25-w15',
@@ -28311,7 +28311,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to feel, to think',
             exampleCn: '我觉得这件衣服很漂亮。',
             exampleEn: 'I think this dress is very pretty.',
-            examplePinyin: 'wǒ jué de zhè jiàn yī fú hěn piào liàng。',
+            examplePinyin: 'wǒ juéde zhèjiàn yīfú hěnpiàoliàng。',
           },
           {
             id: 'h301b-l25-w16',
@@ -28321,7 +28321,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'colour',
             exampleCn: '这个颜色很漂亮。',
             exampleEn: 'This color is very pretty.',
-            examplePinyin: 'zhè ge yán sè hěn piào liàng。',
+            examplePinyin: 'zhège yánsè hěnpiàoliàng。',
           },
           {
             id: 'h301b-l25-w17',
@@ -28331,7 +28331,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'easy',
             exampleCn: '这件衣服很容易做。',
             exampleEn: 'This dress is easy to make.',
-            examplePinyin: 'zhè jiàn yī fú hěn róng yì zuò。',
+            examplePinyin: 'zhèjiàn yīfú hěn róngyì zuò。',
           },
           {
             id: 'h301b-l25-w18',
@@ -28341,7 +28341,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'oneself',
             exampleCn: '这件衣服是我自己做的。',
             exampleEn: 'I made this dress by myself.',
-            examplePinyin: 'zhè jiàn yī fú shì wǒ zì jǐ zuò de。',
+            examplePinyin: 'zhèjiàn yīfú shì wǒ zìjǐ zuò de。',
           },
           {
             id: 'h301b-l25-w19',
@@ -28351,7 +28351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to draw',
             exampleCn: '我自己画了一张画儿。',
             exampleEn: 'I drew a painting by myself.',
-            examplePinyin: 'wǒ zì jǐ huà le yī zhāng huà ér。',
+            examplePinyin: 'wǒ zìjǐ huà le yīzhāng huàr。',
           },
           {
             id: 'h301b-l25-w20',
@@ -28361,7 +28361,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'some',
             exampleCn: '我买了一些东西。',
             exampleEn: 'I bought some things.',
-            examplePinyin: 'wǒ mǎi le yī xiē dōng xī。',
+            examplePinyin: 'wǒ mǎi le yīxiē dōngxī。',
           },
           {
             id: 'h301b-l25-w21',
@@ -28371,7 +28371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pencil',
             exampleCn: '我用铅笔画了一张画儿。',
             exampleEn: 'I drew a painting with a pencil.',
-            examplePinyin: 'wǒ yòng qiān bǐ huà le yī zhāng huà ér。',
+            examplePinyin: 'wǒ yòng qiānbǐhuà le yīzhāng huàr。',
           },
           {
             id: 'h301b-l25-w22',
@@ -28381,7 +28381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'watch',
             exampleCn: '我有一块手表。',
             exampleEn: 'I have a watch.',
-            examplePinyin: 'wǒ yǒu yī kuài shǒu biǎo。',
+            examplePinyin: 'wǒ yǒu yīkuài shǒubiǎo。',
           },
           {
             id: 'h301b-l25-w23',
@@ -28391,7 +28391,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'like this, such',
             exampleCn: '这件衣服这么漂亮，是谁做的？',
             exampleEn: 'This dress is so pretty, who made it?',
-            examplePinyin: 'zhè jiàn yī fú zhè me piào liàng ， shì shuí zuò de？',
+            examplePinyin: 'zhèjiàn yīfú zhème piàoliàng， shì shuí zuò de？',
           },
         ],
       },
@@ -28409,7 +28409,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'result, achievement',
             exampleCn: '我的成绩很好。',
             exampleEn: 'My grades are very good.',
-            examplePinyin: 'wǒ de chéng jì hěn hǎo。',
+            examplePinyin: 'wǒ de chéngjì hěn hǎo。',
           },
           {
             id: 'h301b-l26-w2',
@@ -28419,7 +28419,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'all, very; entirely, completely',
             exampleCn: '我的书全在这儿。',
             exampleEn: 'All my books are here.',
-            examplePinyin: 'wǒ de shū quán zài zhè ér。',
+            examplePinyin: 'wǒ de shū quán zài zhèr。',
           },
           {
             id: 'h301b-l26-w3',
@@ -28429,7 +28429,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'class',
             exampleCn: '我们班同学很好。',
             exampleEn: 'Our classmates are very nice.',
-            examplePinyin: 'wǒ men bān tóng xué hěn hǎo。',
+            examplePinyin: 'wǒmen bān tóngxué hěn hǎo。',
           },
           {
             id: 'h301b-l26-w4',
@@ -28439,7 +28439,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give (or take) an examination',
             exampleCn: '我要考英文。',
             exampleEn: 'I have to take an English exam.',
-            examplePinyin: 'wǒ yào kǎo yīng wén。',
+            examplePinyin: 'wǒ yào kǎo yīngwén。',
           },
           {
             id: 'h301b-l26-w5',
@@ -28449,7 +28449,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to congratulate',
             exampleCn: '我祝贺你考了好成绩。',
             exampleEn: 'I congratulate you on your good grades.',
-            examplePinyin: 'wǒ zhù hè nǐ kǎo le hǎo chéng jì。',
+            examplePinyin: 'wǒ zhùhè nǐ kǎo le hǎo chéngjì。',
           },
           {
             id: 'h301b-l26-w6',
@@ -28459,7 +28459,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to congratulate',
             exampleCn: '祝你生日快乐。',
             exampleEn: 'Happy birthday to you.',
-            examplePinyin: 'zhù nǐ shēng rì kuài lè。',
+            examplePinyin: 'zhù nǐ shēngrìkuàilè。',
           },
           {
             id: 'h301b-l26-w7',
@@ -28469,7 +28469,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy',
             exampleCn: '我今天很快乐。',
             exampleEn: 'I am very happy today.',
-            examplePinyin: 'wǒ jīn tiān hěn kuài lè。',
+            examplePinyin: 'wǒ jīntiān hěn kuàilè。',
           },
           {
             id: 'h301b-l26-w8',
@@ -28479,7 +28479,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used in conjunction with "得" and "不" after a verb to express possibility',
             exampleCn: '这件衣服我做不了。',
             exampleEn: 'I cannot make this dress.',
-            examplePinyin: 'zhè jiàn yī fú wǒ zuò bù liǎo。',
+            examplePinyin: 'zhèjiàn yīfú wǒ zuòbùliǎo。',
           },
           {
             id: 'h301b-l26-w9',
@@ -28489,7 +28489,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to open',
             exampleCn: '我打开了词典。',
             exampleEn: 'I opened the dictionary.',
-            examplePinyin: 'wǒ dǎ kāi le cí diǎn。',
+            examplePinyin: 'wǒ dǎkāi le cídiǎn。',
           },
           {
             id: 'h301b-l26-w10',
@@ -28499,7 +28499,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'box',
             exampleCn: '请打开盒子。',
             exampleEn: 'Please open the box.',
-            examplePinyin: 'qǐng dǎ kāi hé zi。',
+            examplePinyin: 'qǐng dǎkāi hézi。',
           },
           {
             id: 'h301b-l26-w11',
@@ -28509,7 +28509,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'written exam',
             exampleCn: '笔试考得怎么样？',
             exampleEn: 'How did the written exam go?',
-            examplePinyin: 'bǐ shì kǎo dé zěn me yàng？',
+            examplePinyin: 'bǐshì kǎo dé zěnmeyàng？',
           },
           {
             id: 'h301b-l26-w12',
@@ -28519,7 +28519,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'credit points, marks',
             exampleCn: '我笔试考了一百分。',
             exampleEn: 'I got 100 points on the written exam.',
-            examplePinyin: 'wǒ bǐ shì kǎo le yì bǎi fēn。',
+            examplePinyin: 'wǒ bǐshì kǎo le yìbǎifēn。',
           },
           {
             id: 'h301b-l26-w13',
@@ -28529,7 +28529,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'oral exam',
             exampleCn: '我的口试考得不错。',
             exampleEn: 'I did well on the oral exam.',
-            examplePinyin: 'wǒ de kǒu shì kǎo dé bù cuò。',
+            examplePinyin: 'wǒ de kǒushì kǎo dé bùcuò。',
           },
           {
             id: 'h301b-l26-w14',
@@ -28539,7 +28539,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cake',
             exampleCn: '我想买个蛋糕。',
             exampleEn: 'I want to buy a cake.',
-            examplePinyin: 'wǒ xiǎng mǎi gè dàn gāo。',
+            examplePinyin: 'wǒ xiǎng mǎi gè dàngāo。',
           },
           {
             id: 'h301b-l26-w15',
@@ -28549,7 +28549,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'measure word for animals',
             exampleCn: '我家有一条小鱼。',
             exampleEn: 'I have a small fish at home.',
-            examplePinyin: 'wǒ jiā yǒu yī tiáo xiǎo yú。',
+            examplePinyin: 'wǒjiā yǒu yītiáo xiǎoyú。',
           },
           {
             id: 'h301b-l26-w16',
@@ -28559,7 +28559,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dog',
             exampleCn: '我朋友家有一只小狗。',
             exampleEn: 'My friend\'s family has a small dog.',
-            examplePinyin: 'wǒ péng yǒu jiā yǒu yī zhī xiǎo gǒu。',
+            examplePinyin: 'wǒ péngyǒujiā yǒu yīzhī xiǎogǒu。',
           },
           {
             id: 'h301b-l26-w17',
@@ -28569,7 +28569,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'lovely',
             exampleCn: '这只狗很可爱。',
             exampleEn: 'This dog is very lovely.',
-            examplePinyin: 'zhè zhǐ gǒu hěn kě ài。',
+            examplePinyin: 'zhè zhǐ gǒu hěn kěài。',
           },
           {
             id: 'h301b-l26-w18',
@@ -28579,7 +28579,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'happy; happiness',
             exampleCn: '祝你幸福。',
             exampleEn: 'I wish you happiness.',
-            examplePinyin: 'zhù nǐ xìng fú。',
+            examplePinyin: 'zhùnǐxìngfú。',
           },
           {
             id: 'h301b-l26-w19',
@@ -28589,7 +28589,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'door, gate',
             exampleCn: '门口有人。',
             exampleEn: 'There is someone at the door.',
-            examplePinyin: 'mén kǒu yǒu rén。',
+            examplePinyin: 'ménkǒu yǒurén。',
           },
           {
             id: 'h301b-l26-w20',
@@ -28599,7 +28599,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'problem, question',
             exampleCn: '我有一个问题。',
             exampleEn: 'I have a question.',
-            examplePinyin: 'wǒ yǒu yí gè wèn tí。',
+            examplePinyin: 'wǒ yǒu yígè wèntí。',
           },
           {
             id: 'h301b-l26-w21',
@@ -28609,7 +28609,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'difficult, hard',
             exampleCn: '这个问题很难。',
             exampleEn: 'This question is very difficult.',
-            examplePinyin: 'zhè ge wèn tí hěn nán。',
+            examplePinyin: 'zhège wèntí hěn nán。',
           },
           {
             id: 'h301b-l26-w22',
@@ -28619,7 +28619,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'WeChat',
             exampleCn: '你有微信吗？',
             exampleEn: 'Do you have WeChat?',
-            examplePinyin: 'nǐ yǒu wēi xìn ma？',
+            examplePinyin: 'nǐ yǒu wēixìn ma？',
           },
           {
             id: 'h301b-l26-w23',
@@ -28629,7 +28629,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'newly-wed',
             exampleCn: '祝贺你们新婚。',
             exampleEn: 'Congratulations on your marriage.',
-            examplePinyin: 'zhù hè nǐ men xīn hūn。',
+            examplePinyin: 'zhùhè nǐmen xīnhūn。',
           },
         ],
       },
@@ -28647,7 +28647,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'a little, slightly',
             exampleCn: '我有点儿饿。',
             exampleEn: 'I am a little hungry.',
-            examplePinyin: 'wǒ yǒu diǎn ér è。',
+            examplePinyin: 'wǒ yǒudiǎnr è。',
           },
           {
             id: 'h301b-l27-w2',
@@ -28657,7 +28657,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to cough',
             exampleCn: '他有点儿咳嗽。',
             exampleEn: 'He has a slight cough.',
-            examplePinyin: 'tā yǒu diǎn ér ké sòu。',
+            examplePinyin: 'tā yǒudiǎnr késòu。',
           },
           {
             id: 'h301b-l27-w3',
@@ -28677,7 +28677,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cigarette',
             exampleCn: '他抽了很多烟。',
             exampleEn: 'He smoked a lot of cigarettes.',
-            examplePinyin: 'tā chōu le hěn duō yān。',
+            examplePinyin: 'tā chōu le hěnduō yān。',
           },
           {
             id: 'h301b-l27-w5',
@@ -28687,7 +28687,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hospital',
             exampleCn: '他咳嗽，去医院看看。',
             exampleEn: 'He had a cough and went to the hospital.',
-            examplePinyin: 'tā ké sòu ， qù yī yuàn kàn kàn。',
+            examplePinyin: 'tā késòu， qù yīyuàn kànkàn。',
           },
           {
             id: 'h301b-l27-w6',
@@ -28697,7 +28697,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'accident',
             exampleCn: '路上出了事故。',
             exampleEn: 'There was an accident on the road.',
-            examplePinyin: 'lù shàng chū liǎo shì gù。',
+            examplePinyin: 'lùshàng chū le shìgù。',
           },
           {
             id: 'h301b-l27-w7',
@@ -28707,7 +28707,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'traffic',
             exampleCn: '这里的交通很好。',
             exampleEn: 'The traffic here is good.',
-            examplePinyin: 'zhè lǐ de jiāo tōng hěn hǎo。',
+            examplePinyin: 'zhèlǐ de jiāotōng hěn hǎo。',
           },
           {
             id: 'h301b-l27-w8',
@@ -28717,7 +28717,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'must, have to',
             exampleCn: '你咳嗽了，得去医院。',
             exampleEn: 'You are coughing; you must go to the hospital.',
-            examplePinyin: 'nǐ ké sòu le ， dé qù yī yuàn。',
+            examplePinyin: 'nǐ késòu le， dé qù yīyuàn。',
           },
           {
             id: 'h301b-l27-w9',
@@ -28727,7 +28727,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be careful',
             exampleCn: '你咳嗽了，要注意身体。',
             exampleEn: 'You are coughing, you should take care of yourself.',
-            examplePinyin: 'nǐ ké sòu le ， yào zhù yì shēn tǐ。',
+            examplePinyin: 'nǐ késòu le， yào zhùyì shēntǐ。',
           },
           {
             id: 'h301b-l27-w10',
@@ -28737,7 +28737,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'safe',
             exampleCn: '开车要注意安全。',
             exampleEn: 'Drive carefully and pay attention to safety.',
-            examplePinyin: 'kāi chē yào zhù yì ān quán。',
+            examplePinyin: 'kāichē yào zhùyìānquán。',
           },
           {
             id: 'h301b-l27-w11',
@@ -28747,7 +28747,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'every',
             exampleCn: '他每天都去医院。',
             exampleEn: 'He goes to the hospital every day.',
-            examplePinyin: 'tā měi tiān dōu qù yī yuàn。',
+            examplePinyin: 'tā měitiān dōu qù yīyuàn。',
           },
           {
             id: 'h301b-l27-w12',
@@ -28757,7 +28757,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'comfortable',
             exampleCn: '他今天不舒服。',
             exampleEn: 'He is not feeling comfortable today.',
-            examplePinyin: 'tā jīn tiān bù shū fú。',
+            examplePinyin: 'tā jīntiān bù shūfú。',
           },
           {
             id: 'h301b-l27-w13',
@@ -28767,7 +28767,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be used to; habit',
             exampleCn: '我习惯每天喝茶。',
             exampleEn: 'I am used to drinking tea every day.',
-            examplePinyin: 'wǒ xí guàn měi tiān hē chá。',
+            examplePinyin: 'wǒ xíguàn měitiān hēchá。',
           },
           {
             id: 'h301b-l27-w14',
@@ -28777,7 +28777,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'medicine',
             exampleCn: '他去医院拿药。',
             exampleEn: 'He went to the hospital to get medicine.',
-            examplePinyin: 'tā qù yī yuàn ná yào。',
+            examplePinyin: 'tā qù yīyuàn náyào。',
           },
           {
             id: 'h301b-l27-w15',
@@ -28787,7 +28787,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'technique',
             exampleCn: '他开车的技术很好。',
             exampleEn: 'His driving skills are very good.',
-            examplePinyin: 'tā kāi chē de jì shù hěn hǎo。',
+            examplePinyin: 'tā kāichē de jìshù hěn hǎo。',
           },
           {
             id: 'h301b-l27-w16',
@@ -28797,7 +28797,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be late',
             exampleCn: '他今天迟到了。',
             exampleEn: 'He was late today.',
-            examplePinyin: 'tā jīn tiān chí dào le。',
+            examplePinyin: 'tā jīntiān chídào le。',
           },
           {
             id: 'h301b-l27-w17',
@@ -28807,7 +28807,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'head',
             exampleCn: '我头不舒服。',
             exampleEn: 'My head doesn\'t feel comfortable.',
-            examplePinyin: 'wǒ tóu bù shū fú。',
+            examplePinyin: 'wǒ tóu bù shūfú。',
           },
           {
             id: 'h301b-l27-w18',
@@ -28817,7 +28817,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'painful, aching',
             exampleCn: '我头有点儿疼。',
             exampleEn: 'My head hurts a little.',
-            examplePinyin: 'wǒ tóu yǒu diǎn ér téng。',
+            examplePinyin: 'wǒ tóu yǒudiǎnr téng。',
           },
           {
             id: 'h301b-l27-w19',
@@ -28827,7 +28827,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to catch (a) cold; cold',
             exampleCn: '他感冒了，吃了药。',
             exampleEn: 'He caught a cold and took medicine.',
-            examplePinyin: 'tā gǎn mào le ， chī le yào。',
+            examplePinyin: 'tā gǎnmào le， chī le yào。',
           },
           {
             id: 'h301b-l27-w20',
@@ -28837,7 +28837,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'illness; to be sick',
             exampleCn: '他感冒了，病了一天。',
             exampleEn: 'He caught a cold and was sick for a day.',
-            examplePinyin: 'tā gǎn mào le ， bìng le yī tiān。',
+            examplePinyin: 'tā gǎnmào le， bìng le yītiān。',
           },
           {
             id: 'h301b-l27-w21',
@@ -28847,7 +28847,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'don\'t',
             exampleCn: '你不要抽太多烟。',
             exampleEn: 'Don\'t smoke too much.',
-            examplePinyin: 'nǐ bú yào chōu tài duō yān。',
+            examplePinyin: 'nǐ búyào chōu tài duō yān。',
           },
           {
             id: 'h301b-l27-w22',
@@ -28857,7 +28857,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'street, road',
             exampleCn: '马路上车很多。',
             exampleEn: 'There are many cars on the road.',
-            examplePinyin: 'mǎ lù shàng chē hěn duō。',
+            examplePinyin: 'mǎlù shàngchē hěnduō。',
           },
         ],
       },
@@ -28875,7 +28875,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'than',
             exampleCn: '今天比昨天冷。',
             exampleEn: 'Today is colder than yesterday.',
-            examplePinyin: 'jīn tiān bǐ zuó tiān lěng。',
+            examplePinyin: 'jīntiān bǐ zuótiān lěng。',
           },
           {
             id: 'h301b-l28-w2',
@@ -28885,7 +28885,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sometimes',
             exampleCn: '我有时候喝茶。',
             exampleEn: 'I sometimes drink tea.',
-            examplePinyin: 'wǒ yǒu shí hòu hē chá。',
+            examplePinyin: 'wǒ yǒushíhòu hēchá。',
           },
           {
             id: 'h301b-l28-w3',
@@ -28895,7 +28895,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rain, to fall',
             exampleCn: '今天下雨了。',
             exampleEn: 'It rained today.',
-            examplePinyin: 'jīn tiān xià yǔ le。',
+            examplePinyin: 'jīntiān xiàyǔ le。',
           },
           {
             id: 'h301b-l28-w4',
@@ -28905,7 +28905,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'rain',
             exampleCn: '今天下了雨。',
             exampleEn: 'It rained today.',
-            examplePinyin: 'jīn tiān xià le yǔ。',
+            examplePinyin: 'jīntiān xià le yǔ。',
           },
           {
             id: 'h301b-l28-w5',
@@ -28915,7 +28915,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to forecast; forecast',
             exampleCn: '天气预报说明天有雨。',
             exampleEn: 'The weather forecast says it will rain tomorrow.',
-            examplePinyin: 'tiān qì yù bào shuō míng tiān yǒu yǔ。',
+            examplePinyin: 'tiānqìyùbào shuō míngtiān yǒu yǔ。',
           },
           {
             id: 'h301b-l28-w6',
@@ -28925,7 +28925,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'temperature',
             exampleCn: '今天的气温是多少？',
             exampleEn: 'What is today\'s temperature?',
-            examplePinyin: 'jīn tiān de qì wēn shì duō shǎo？',
+            examplePinyin: 'jīntiān de qìwēn shì duōshǎo？',
           },
           {
             id: 'h301b-l28-w7',
@@ -28935,7 +28935,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'degree',
             exampleCn: '气温是二十度。',
             exampleEn: 'The temperature is 20 degrees.',
-            examplePinyin: 'qì wēn shì èr shí dù。',
+            examplePinyin: 'qìwēn shì èrshídù。',
           },
           {
             id: 'h301b-l28-w8',
@@ -28945,7 +28945,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'temperature',
             exampleCn: '今天和昨天的温度一样。',
             exampleEn: 'Today\'s temperature is the same as yesterday\'s.',
-            examplePinyin: 'jīn tiān hé zuó tiān de wēn dù yī yàng。',
+            examplePinyin: 'jīntiān hé zuótiān de wēndù yīyàng。',
           },
           {
             id: 'h301b-l28-w9',
@@ -28955,7 +28955,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'low',
             exampleCn: '今天的气温比昨天低。',
             exampleEn: 'Today\'s temperature is lower than yesterday\'s.',
-            examplePinyin: 'jīn tiān de qì wēn bǐ zuó tiān dī。',
+            examplePinyin: 'jīntiān de qìwēn bǐ zuótiān dī。',
           },
           {
             id: 'h301b-l28-w10',
@@ -28965,7 +28965,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'winter',
             exampleCn: '冬天很冷。',
             exampleEn: 'Winter is very cold.',
-            examplePinyin: 'dōng tiān hěn lěng。',
+            examplePinyin: 'dōngtiān hěn lěng。',
           },
           {
             id: 'h301b-l28-w11',
@@ -28975,7 +28975,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'snow',
             exampleCn: '冬天下雪。',
             exampleEn: 'It snows in winter.',
-            examplePinyin: 'dōng tiān xià xuě。',
+            examplePinyin: 'dōngtiān xiàxuě。',
           },
           {
             id: 'h301b-l28-w12',
@@ -28985,7 +28985,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'summer',
             exampleCn: '夏天很热。',
             exampleEn: 'Summer is very hot.',
-            examplePinyin: 'xià tiān hěn rè。',
+            examplePinyin: 'xiàtiān hěn rè。',
           },
           {
             id: 'h301b-l28-w13',
@@ -28995,7 +28995,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to skate',
             exampleCn: '冬天我们去滑冰吧。',
             exampleEn: 'Let\'s go skating in winter.',
-            examplePinyin: 'dōng tiān wǒ men qù huá bīng ba。',
+            examplePinyin: 'dōngtiān wǒmen qù huábīng ba。',
           },
           {
             id: 'h301b-l28-w14',
@@ -29005,7 +29005,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ice',
             exampleCn: '冬天有冰。',
             exampleEn: 'There is ice in winter.',
-            examplePinyin: 'dōng tiān yǒu bīng。',
+            examplePinyin: 'dōngtiān yǒu bīng。',
           },
           {
             id: 'h301b-l28-w15',
@@ -29015,7 +29015,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'warm',
             exampleCn: '这儿比那儿暖和。',
             exampleEn: 'It is warmer here than there.',
-            examplePinyin: 'zhè ér bǐ nà ér nuǎn huo。',
+            examplePinyin: 'zhèr bǐ nàr nuǎnhuo。',
           },
           {
             id: 'h301b-l28-w16',
@@ -29025,7 +29025,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'old',
             exampleCn: '这本书很旧。',
             exampleEn: 'This book is very old.',
-            examplePinyin: 'zhè běn shū hěn jiù。',
+            examplePinyin: 'zhè běnshū hěn jiù。',
           },
           {
             id: 'h301b-l28-w17',
@@ -29035,7 +29035,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thin',
             exampleCn: '他很瘦。',
             exampleEn: 'He is very thin.',
-            examplePinyin: 'tā hěn shòu。',
+            examplePinyin: 'tā hěnshòu。',
           },
           {
             id: 'h301b-l28-w18',
@@ -29045,7 +29045,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cool',
             exampleCn: '这儿早上很凉快。',
             exampleEn: 'It is cool here in the morning.',
-            examplePinyin: 'zhè ér zǎo shàng hěn liáng kuài。',
+            examplePinyin: 'zhèr zǎoshàng hěn liángkuài。',
           },
           {
             id: 'h301b-l28-w19',
@@ -29055,7 +29055,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fat',
             exampleCn: '他太胖了。',
             exampleEn: 'He is too fat.',
-            examplePinyin: 'tā tài pàng le。',
+            examplePinyin: 'tā tàipàng le。',
           },
           {
             id: 'h301b-l28-w20',
@@ -29065,7 +29065,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'autumn',
             exampleCn: '秋天很凉快。',
             exampleEn: 'Autumn is very cool.',
-            examplePinyin: 'qiū tiān hěn liáng kuài。',
+            examplePinyin: 'qiūtiān hěn liángkuài。',
           },
           {
             id: 'h301b-l28-w21',
@@ -29075,7 +29075,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'spring',
             exampleCn: '春天比冬天暖和。',
             exampleEn: 'Spring is warmer than winter.',
-            examplePinyin: 'chūn tiān bǐ dōng tiān nuǎn huo。',
+            examplePinyin: 'chūntiān bǐ dōngtiān nuǎnhuo。',
           },
           {
             id: 'h301b-l28-w22',
@@ -29085,7 +29085,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to blow',
             exampleCn: '今天刮大风。',
             exampleEn: 'It is windy today.',
-            examplePinyin: 'jīn tiān guā dà fēng。',
+            examplePinyin: 'jīntiān guā dàfēng。',
           },
         ],
       },
@@ -29103,7 +29103,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sports; to exercise',
             exampleCn: '刘京喜欢运动。',
             exampleEn: 'Liu Jing likes sports.',
-            examplePinyin: 'liú jīng xǐ huān yùn dòng。',
+            examplePinyin: 'liú jīng xǐhuān yùndòng。',
           },
           {
             id: 'h301b-l29-w2',
@@ -29113,7 +29113,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to climb',
             exampleCn: '他爬了十分钟。',
             exampleEn: 'He climbed for ten minutes.',
-            examplePinyin: 'tā pá le shí fēn zhōng。',
+            examplePinyin: 'tā pá le shífēnzhōng。',
           },
           {
             id: 'h301b-l29-w3',
@@ -29133,7 +29133,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to swim',
             exampleCn: '玛丽每天游泳。',
             exampleEn: 'Mary swims every day.',
-            examplePinyin: 'mǎ lì měi tiān yóu yǒng。',
+            examplePinyin: 'mǎlì měitiān yóuyǒng。',
           },
           {
             id: 'h301b-l29-w5',
@@ -29143,7 +29143,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to swim',
             exampleCn: '他不会游。',
             exampleEn: 'He can\'t swim.',
-            examplePinyin: 'tā bú huì yóu。',
+            examplePinyin: 'tā búhuì yóu。',
           },
           {
             id: 'h301b-l29-w6',
@@ -29153,7 +29153,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to compete; match',
             exampleCn: '我们看比赛吧。',
             exampleEn: 'Let\'s watch the match.',
-            examplePinyin: 'wǒ men kàn bǐ sài ba。',
+            examplePinyin: 'wǒmen kàn bǐsài ba。',
           },
           {
             id: 'h301b-l29-w7',
@@ -29163,7 +29163,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'team',
             exampleCn: '我们队明天比赛。',
             exampleEn: 'Our team will compete tomorrow.',
-            examplePinyin: 'wǒ men duì míng tiān bǐ sài。',
+            examplePinyin: 'wǒmen duì míngtiān bǐsài。',
           },
           {
             id: 'h301b-l29-w8',
@@ -29173,7 +29173,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'writing brush',
             exampleCn: '他的毛笔在这儿。',
             exampleEn: 'His writing brush is here.',
-            examplePinyin: 'tā de máo bǐ zài zhè ér。',
+            examplePinyin: 'tā de máobǐ zài zhèr。',
           },
           {
             id: 'h301b-l29-w9',
@@ -29183,7 +29183,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to kick, to play (soccer)',
             exampleCn: '他踢了一下。',
             exampleEn: 'He kicked once.',
-            examplePinyin: 'tā tī le yī xià。',
+            examplePinyin: 'tā tī le yīxià。',
           },
           {
             id: 'h301b-l29-w10',
@@ -29193,7 +29193,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'soccer, football',
             exampleCn: '你喜欢踢足球吗？',
             exampleEn: 'Do you like playing soccer?',
-            examplePinyin: 'nǐ xǐ huān tī zú qiú ma？',
+            examplePinyin: 'nǐ xǐhuān tīzúqiú ma？',
           },
           {
             id: 'h301b-l29-w11',
@@ -29203,7 +29203,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'basketball',
             exampleCn: '大卫打篮球打得好。',
             exampleEn: 'David plays basketball very well.',
-            examplePinyin: 'dà wèi dǎ lán qiú dǎ dé hǎo。',
+            examplePinyin: 'dàwèi dǎlánqiú dǎ dé hǎo。',
           },
           {
             id: 'h301b-l29-w12',
@@ -29213,7 +29213,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to practise',
             exampleCn: '大卫早上练游泳。',
             exampleEn: 'David practices swimming in the morning.',
-            examplePinyin: 'dà wèi zǎo shàng liàn yóu yǒng。',
+            examplePinyin: 'dàwèi zǎoshàng liàn yóuyǒng。',
           },
           {
             id: 'h301b-l29-w13',
@@ -29223,7 +29223,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to teach, to instruct',
             exampleCn: '王老师教我们游泳。',
             exampleEn: 'Teacher Wang teaches us swimming.',
-            examplePinyin: 'wáng lǎo shī jiào wǒ men yóu yǒng。',
+            examplePinyin: 'wánglǎoshī jiào wǒmen yóuyǒng。',
           },
           {
             id: 'h301b-l29-w14',
@@ -29233,7 +29233,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take a walk',
             exampleCn: '玛丽每天散步。',
             exampleEn: 'Mary takes a walk every day.',
-            examplePinyin: 'mǎ lì měi tiān sàn bù。',
+            examplePinyin: 'mǎlì měitiān sànbù。',
           },
           {
             id: 'h301b-l29-w15',
@@ -29243,7 +29243,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to jog',
             exampleCn: '他早上跑步。',
             exampleEn: 'He jogs in the morning.',
-            examplePinyin: 'tā zǎo shàng pǎo bù。',
+            examplePinyin: 'tā zǎoshàng pǎobù。',
           },
           {
             id: 'h301b-l29-w16',
@@ -29253,7 +29253,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to answer',
             exampleCn: '大卫回答得很好。',
             exampleEn: 'David answered very well.',
-            examplePinyin: 'dà wèi huí dá dé hěn hǎo。',
+            examplePinyin: 'dàwèi huídá dé hěn hǎo。',
           },
           {
             id: 'h301b-l29-w17',
@@ -29263,7 +29263,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dialect, speech',
             exampleCn: '他会说广东话。',
             exampleEn: 'He can speak Cantonese.',
-            examplePinyin: 'tā huì shuō guǎng dōng huà。',
+            examplePinyin: 'tā huì shuō guǎngdōnghuà。',
           },
           {
             id: 'h301b-l29-w18',
@@ -29273,7 +29273,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stand',
             exampleCn: '他站在这儿。',
             exampleEn: 'He stands here.',
-            examplePinyin: 'tā zhàn zài zhè ér。',
+            examplePinyin: 'tā zhàn zài zhèr。',
           },
           {
             id: 'h301b-l29-w19',
@@ -29283,7 +29283,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lie',
             exampleCn: '大卫累了，想躺一会儿。',
             exampleEn: 'David is tired and wants to lie down for a while.',
-            examplePinyin: 'dà wèi lèi le ， xiǎng tǎng yī huì er。',
+            examplePinyin: 'dàwèi lèi le， xiǎng tǎng yīhuìer。',
           },
           {
             id: 'h301b-l29-w20',
@@ -29293,7 +29293,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be on vacation',
             exampleCn: '放假的时候他想休息。',
             exampleEn: 'During vacation he wants to rest.',
-            examplePinyin: 'fàng jià de shí hòu tā xiǎng xiū xī。',
+            examplePinyin: 'fàngjià de shíhòu tā xiǎng xiūxī。',
           },
           {
             id: 'h301b-l29-w21',
@@ -29303,7 +29303,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to travel',
             exampleCn: '放假的时候他去旅行。',
             exampleEn: 'During vacation he travels.',
-            examplePinyin: 'fàng jià de shí hòu tā qù lǚ xíng。',
+            examplePinyin: 'fàngjià de shíhòu tā qù lǚxíng。',
           },
           {
             id: 'h301b-l29-w22',
@@ -29313,7 +29313,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'taijiquan',
             exampleCn: '他早上打太极拳。',
             exampleEn: 'He practices taijiquan in the morning.',
-            examplePinyin: 'tā zǎo shàng dǎ tài jí quán。',
+            examplePinyin: 'tā zǎoshàng dǎ tàijíquán。',
           },
           {
             id: 'h301b-l29-w23',
@@ -29323,7 +29323,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'key',
             exampleCn: '我的钥匙在这儿。',
             exampleEn: 'My key is here.',
-            examplePinyin: 'wǒ de yào shi zài zhè ér。',
+            examplePinyin: 'wǒ de yàoshi zài zhèr。',
           },
           {
             id: 'h301b-l29-w24',
@@ -29333,7 +29333,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lose',
             exampleCn: '大卫丢了钥匙。',
             exampleEn: 'David lost the key.',
-            examplePinyin: 'dà wèi diū le yào shi。',
+            examplePinyin: 'dàwèi diū le yàoshi。',
           },
         ],
       },
@@ -29351,7 +29351,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'pronunciation',
             exampleCn: '李红的发音很好。',
             exampleEn: 'Li Hong\'s pronunciation is very good.',
-            examplePinyin: 'lǐ hóng de fā yīn hěn hǎo。',
+            examplePinyin: 'lǐ hóng de fāyīn hěn hǎo。',
           },
           {
             id: 'h301b-l30-w2',
@@ -29361,7 +29361,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'comparatively',
             exampleCn: '汉语比较难。',
             exampleEn: 'Chinese is comparatively difficult.',
-            examplePinyin: 'hàn yǔ bǐ jiào nán。',
+            examplePinyin: 'hànyǔ bǐjiào nán。',
           },
           {
             id: 'h301b-l30-w3',
@@ -29371,7 +29371,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'father',
             exampleCn: '和子的父亲来了。',
             exampleEn: 'Hezi\'s father has come.',
-            examplePinyin: 'hé zi de fù qīn lái le。',
+            examplePinyin: 'hé zi de fùqīn lái le。',
           },
           {
             id: 'h301b-l30-w4',
@@ -29381,7 +29381,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'besides, in addition to, as well as',
             exampleCn: '除了汉语以外，他还学英语。',
             exampleEn: 'Besides Chinese, he also studies English.',
-            examplePinyin: 'chú le hàn yǔ yǐ wài ， tā hái xué yīng yǔ。',
+            examplePinyin: 'chúle hànyǔ yǐwài， tā hái xué yīngyǔ。',
           },
           {
             id: 'h301b-l30-w5',
@@ -29391,7 +29391,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'clear',
             exampleCn: '大卫说得比较清楚。',
             exampleEn: 'David speaks comparatively clearly.',
-            examplePinyin: 'dà wèi shuō dé bǐ jiào qīng chǔ。',
+            examplePinyin: 'dàwèi shuō dé bǐjiàoqīngchǔ。',
           },
           {
             id: 'h301b-l30-w6',
@@ -29401,7 +29401,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to check, to look up',
             exampleCn: '他查词典。',
             exampleEn: 'He checks the dictionary.',
-            examplePinyin: 'tā chá cí diǎn。',
+            examplePinyin: 'tā chá cídiǎn。',
           },
           {
             id: 'h301b-l30-w7',
@@ -29411,7 +29411,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to talk, to speak',
             exampleCn: '他喜欢和老师谈话。',
             exampleEn: 'He likes to talk with the teacher.',
-            examplePinyin: 'tā xǐ huān hé lǎo shī tán huà。',
+            examplePinyin: 'tā xǐhuān hé lǎoshī tánhuà。',
           },
           {
             id: 'h301b-l30-w8',
@@ -29421,7 +29421,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to raise, to improve',
             exampleCn: '他想提高发音。',
             exampleEn: 'He wants to improve his pronunciation.',
-            examplePinyin: 'tā xiǎng tí gāo fā yīn。',
+            examplePinyin: 'tā xiǎng tígāo fāyīn。',
           },
           {
             id: 'h301b-l30-w9',
@@ -29431,7 +29431,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ability',
             exampleCn: '他的能力提高了。',
             exampleEn: 'His ability has improved.',
-            examplePinyin: 'tā de néng lì tí gāo le。',
+            examplePinyin: 'tā de nénglì tígāo le。',
           },
           {
             id: 'h301b-l30-w10',
@@ -29441,7 +29441,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to clean, to tidy up',
             exampleCn: '和子在收拾东西。',
             exampleEn: 'Hezi is tidying up things.',
-            examplePinyin: 'hé zi zài shōu shí dōng xī。',
+            examplePinyin: 'hé zi zài shōushí dōngxī。',
           },
           {
             id: 'h301b-l30-w11',
@@ -29451,7 +29451,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to serve as',
             exampleCn: '她想当老师。',
             exampleEn: 'She wants to be a teacher.',
-            examplePinyin: 'tā xiǎng dāng lǎo shī。',
+            examplePinyin: 'tā xiǎng dāng lǎoshī。',
           },
           {
             id: 'h301b-l30-w12',
@@ -29461,7 +29461,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tourist guide',
             exampleCn: '她父亲当导游。',
             exampleEn: 'Her father serves as a tour guide.',
-            examplePinyin: 'tā fù qīn dāng dǎo yóu。',
+            examplePinyin: 'tā fùqīn dāng dǎoyóu。',
           },
           {
             id: 'h301b-l30-w13',
@@ -29471,7 +29471,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'common speech',
             exampleCn: '他说普通话。',
             exampleEn: 'He speaks Mandarin.',
-            examplePinyin: 'tā shuō pǔ tōng huà。',
+            examplePinyin: 'tā shuō pǔtōnghuà。',
           },
           {
             id: 'h301b-l30-w14',
@@ -29481,7 +29481,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to set one\'s mind at rest, to feel relieved',
             exampleCn: '你放心，我会帮你。',
             exampleEn: 'Don\'t worry, I will help you.',
-            examplePinyin: 'nǐ fàng xīn ， wǒ huì bāng nǐ。',
+            examplePinyin: 'nǐ fàngxīn， wǒhuì bāng nǐ。',
           },
           {
             id: 'h301b-l30-w15',
@@ -29491,7 +29491,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the day after tomorrow',
             exampleCn: '后天我父亲来。',
             exampleEn: 'My father will come the day after tomorrow.',
-            examplePinyin: 'hòu tiān wǒ fù qīn lái。',
+            examplePinyin: 'hòutiān wǒ fùqīn lái。',
           },
           {
             id: 'h301b-l30-w16',
@@ -29501,7 +29501,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hour',
             exampleCn: '他每天学两个小时。',
             exampleEn: 'He studies two hours every day.',
-            examplePinyin: 'tā měi tiān xué liǎng gè xiǎo shí。',
+            examplePinyin: 'tā měitiān xué liǎnggè xiǎoshí。',
           },
           {
             id: 'h301b-l30-w17',
@@ -29511,7 +29511,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to type',
             exampleCn: '他打字很快。',
             exampleEn: 'He types very fast.',
-            examplePinyin: 'tā dǎ zì hěn kuài。',
+            examplePinyin: 'tā dǎzì hěnkuài。',
           },
           {
             id: 'h301b-l30-w18',
@@ -29521,7 +29521,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'steamed stuffed bun',
             exampleCn: '他吃了两个包子。',
             exampleEn: 'He ate two steamed stuffed buns.',
-            examplePinyin: 'tā chī le liǎng gè bāo zi。',
+            examplePinyin: 'tā chī le liǎnggè bāozi。',
           },
           {
             id: 'h301b-l30-w19',
@@ -29531,7 +29531,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'washing machine',
             exampleCn: '洗衣机在这儿。',
             exampleEn: 'The washing machine is here.',
-            examplePinyin: 'xǐ yī jī zài zhè ér。',
+            examplePinyin: 'xǐyījī zài zhèr。',
           },
           {
             id: 'h301b-l30-w20',
@@ -29541,7 +29541,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'refrigerator',
             exampleCn: '冰箱很大。',
             exampleEn: 'The refrigerator is very big.',
-            examplePinyin: 'bīng xiāng hěn dà。',
+            examplePinyin: 'bīngxiāng hěndà。',
           },
           {
             id: 'h301b-l30-w21',
@@ -29551,7 +29551,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'grammar',
             exampleCn: '汉语语法不太难。',
             exampleEn: 'Chinese grammar is not too difficult.',
-            examplePinyin: 'hàn yǔ yǔ fǎ bù tài nán。',
+            examplePinyin: 'hànyǔ yǔfǎ bù tài nán。',
           },
           {
             id: 'h301b-l30-w22',
@@ -29561,7 +29561,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to rehearse, to preview',
             exampleCn: '他先预习，再查词典。',
             exampleEn: 'He previews first, then checks the dictionary.',
-            examplePinyin: 'tā xiān yù xí ， zài chá cí diǎn。',
+            examplePinyin: 'tā xiān yùxí， zài chá cídiǎn。',
           },
           {
             id: 'h301b-l30-w23',
@@ -29571,7 +29571,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to learn by heart',
             exampleCn: '他记了很多生词。',
             exampleEn: 'He memorized a lot of new words.',
-            examplePinyin: 'tā jì le hěn duō shēng cí。',
+            examplePinyin: 'tā jì le hěnduō shēngcí。',
           },
         ],
       },
@@ -29589,7 +29589,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'scenic spots and historical sites',
             exampleCn: '中国有很多名胜古迹，我们都想去看看。',
             exampleEn: 'China has many scenic spots and historical sites, and we all want to go and see them.',
-            examplePinyin: 'zhōng guó yǒu hěn duō míng shèng gǔ jì ， wǒ men dōu xiǎng qù kàn kàn。',
+            examplePinyin: 'zhōngguó yǒu hěnduō míngshènggǔjì， wǒmen dōu xiǎng qù kànkàn。',
           },
           {
             id: 'h301b-l31-w2',
@@ -29599,7 +29599,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be able to do something in time',
             exampleCn: '现在七点，我们去看电影还来得及。',
             exampleEn: 'It is seven o\'clock now. We still have time to go to the movie.',
-            examplePinyin: 'xiàn zài qī diǎn ， wǒ men qù kàn diàn yǐng hái lái de jí。',
+            examplePinyin: 'xiànzài qīdiǎn， wǒmen qù kàn diànyǐng hái láidejí。',
           },
           {
             id: 'h301b-l31-w3',
@@ -29609,7 +29609,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'too late to do..., to have no time to...',
             exampleCn: '我们走得太慢，现在去火车站来不及了。',
             exampleEn: 'We walked too slowly. Now it is too late to go to the train station.',
-            examplePinyin: 'wǒ men zǒu dé tài màn ， xiàn zài qù huǒ chē zhàn lái bù jí le。',
+            examplePinyin: 'wǒmen zǒu dé tàimàn， xiànzài qù huǒchēzhàn láibùjí le。',
           },
           {
             id: 'h301b-l31-w4',
@@ -29619,7 +29619,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go sight-seeing',
             exampleCn: '明天我们去游览名胜古迹。',
             exampleEn: 'Tomorrow we will go sight-seeing at the scenic spots and historical sites.',
-            examplePinyin: 'míng tiān wǒ men qù yóu lǎn míng shèng gǔ jì。',
+            examplePinyin: 'míngtiān wǒmen qù yóulǎn míngshènggǔjì。',
           },
           {
             id: 'h301b-l31-w5',
@@ -29629,7 +29629,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'scenery',
             exampleCn: '那儿的风景漂亮，游览的人也很多。',
             exampleEn: 'The scenery there is beautiful, and there are also many people sight-seeing.',
-            examplePinyin: 'nà ér de fēng jǐng piào liàng ， yóu lǎn de rén yě hěn duō。',
+            examplePinyin: 'nàr de fēngjǐng piàoliàng， yóulǎn de rén yě hěnduō。',
           },
           {
             id: 'h301b-l31-w6',
@@ -29639,7 +29639,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'high-speed rail',
             exampleCn: '我们坐高铁去，很快就到了。',
             exampleEn: 'We will go by high-speed rail, and we will arrive very soon.',
-            examplePinyin: 'wǒ men zuò gāo tiě qù ， hěn kuài jiù dào le。',
+            examplePinyin: 'wǒmen zuò gāotiě qù， hěnkuài jiù dào le。',
           },
           {
             id: 'h301b-l31-w7',
@@ -29649,7 +29649,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'then',
             exampleCn: '我们先去看风景，然后去买东西。',
             exampleEn: 'We will first go to see the scenery, then go shopping.',
-            examplePinyin: 'wǒ men xiān qù kàn fēng jǐng ， rán hòu qù mǎi dōng xī。',
+            examplePinyin: 'wǒmen xiān qù kàn fēngjǐng， ránhòu qù mǎi dōngxī。',
           },
           {
             id: 'h301b-l31-w8',
@@ -29659,7 +29659,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plan; to plan',
             exampleCn: '他的计划是先游览，然后回家。',
             exampleEn: 'His plan is to go sight-seeing first, then go home.',
-            examplePinyin: 'tā de jì huà shì xiān yóu lǎn ， rán hòu huí jiā。',
+            examplePinyin: 'tā de jìhuà shì xiān yóulǎn， ránhòu huíjiā。',
           },
           {
             id: 'h301b-l31-w9',
@@ -29669,7 +29669,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do, to make',
             exampleCn: '这个计划我们就这么办。',
             exampleEn: 'Let\'s carry out this plan this way.',
-            examplePinyin: 'zhè ge jì huà wǒ men jiù zhè me bàn。',
+            examplePinyin: 'zhège jìhuà wǒmen jiù zhème bàn。',
           },
           {
             id: 'h301b-l31-w10',
@@ -29679,7 +29679,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'city',
             exampleCn: '这是中国最大的城市，来的人很多。',
             exampleEn: 'This is the biggest city in China, and many people come here.',
-            examplePinyin: 'zhè shì zhōng guó zuì dà de chéng shì ， lái de rén hěn duō。',
+            examplePinyin: 'zhè shì zhōngguó zuìdà de chéngshì， lái de rén hěnduō。',
           },
           {
             id: 'h301b-l31-w11',
@@ -29689,7 +29689,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bustling with excitement, lively',
             exampleCn: '这儿晚上很热闹，商店开到十点。',
             exampleEn: 'It is very lively here in the evening, and the shops stay open until ten o\'clock.',
-            examplePinyin: 'zhè ér wǎn shàng hěn rè nào ， shāng diàn kāi dào shí diǎn。',
+            examplePinyin: 'zhèr wǎnshàng hěn rènào， shāngdiàn kāi dào shídiǎn。',
           },
           {
             id: 'h301b-l31-w12',
@@ -29699,7 +29699,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'every, each',
             exampleCn: '各位同学都到了，我们走吧。',
             exampleEn: 'All the students have arrived. Let\'s go.',
-            examplePinyin: 'gè wèi tóng xué dōu dào le ， wǒ men zǒu ba。',
+            examplePinyin: 'gèwèi tóngxué dōu dào le， wǒmen zǒu ba。',
           },
           {
             id: 'h301b-l31-w13',
@@ -29709,7 +29709,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'very, most',
             exampleCn: '这个城市的东西非常多。',
             exampleEn: 'There are a great many things in this city.',
-            examplePinyin: 'zhè ge chéng shì de dōng xī fēi cháng duō。',
+            examplePinyin: 'zhège chéngshì de dōngxī fēicháng duō。',
           },
           {
             id: 'h301b-l31-w14',
@@ -29719,7 +29719,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'refreshments',
             exampleCn: '这儿的小吃非常好吃。',
             exampleEn: 'The refreshments here are very tasty.',
-            examplePinyin: 'zhè ér de xiǎo chī fēi cháng hǎo chī。',
+            examplePinyin: 'zhèr de xiǎochī fēicháng hǎochī。',
           },
           {
             id: 'h301b-l31-w15',
@@ -29729,7 +29729,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'famous, well-known',
             exampleCn: '他说的那个饭店很有名，小吃也不贵。',
             exampleEn: 'The restaurant he mentioned is famous, and its refreshments are not expensive either.',
-            examplePinyin: 'tā shuō de nà ge fàn diàn hěn yǒu míng ， xiǎo chī yě bù guì。',
+            examplePinyin: 'tā shuō de nàge fàndiàn hěn yǒumíng， xiǎochī yě bù guì。',
           },
           {
             id: 'h301b-l31-w16',
@@ -29739,7 +29739,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by the way, at one\'s convenience',
             exampleCn: '你去书店的时候，顺便帮我买一本词典。',
             exampleEn: 'When you go to the bookstore, please buy me a dictionary on the way.',
-            examplePinyin: 'nǐ qù shū diàn de shí hòu ， shùn biàn bāng wǒ mǎi yī běn cí diǎn。',
+            examplePinyin: 'nǐ qù shūdiàn de shíhòu， shùnbiàn bāng wǒ mǎi yīběn cídiǎn。',
           },
           {
             id: 'h301b-l31-w17',
@@ -29749,7 +29749,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to develop',
             exampleCn: '这儿开发得很快，新商店也多了。',
             exampleEn: 'This place is developing very fast, and there are more new shops.',
-            examplePinyin: 'zhè ér kāi fā dé hěn kuài ， xīn shāng diàn yě duō le。',
+            examplePinyin: 'zhèr kāifā dé hěnkuài， xīn shāngdiàn yě duō le。',
           },
           {
             id: 'h301b-l31-w18',
@@ -29759,7 +29759,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'zone, district',
             exampleCn: '我们先去那个开发区看看。',
             exampleEn: 'Let\'s go to that development zone first and take a look.',
-            examplePinyin: 'wǒ men xiān qù nà ge kāi fā qū kàn kàn。',
+            examplePinyin: 'wǒmen xiān qù nàge kāifāqū kànkàn。',
           },
           {
             id: 'h301b-l31-w19',
@@ -29769,7 +29769,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'museum',
             exampleCn: '他在博物馆里看了两个小时。',
             exampleEn: 'He looked around in the museum for two hours.',
-            examplePinyin: 'tā zài bó wù guǎn lǐ kàn le liǎng gè xiǎo shí。',
+            examplePinyin: 'tā zài bówùguǎn lǐ kàn le liǎnggè xiǎoshí。',
           },
           {
             id: 'h301b-l31-w20',
@@ -29779,7 +29779,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'credit card',
             exampleCn: '在这儿买东西可以用信用卡。',
             exampleEn: 'You can use a credit card to buy things here.',
-            examplePinyin: 'zài zhè ér mǎi dōng xī kě yǐ yòng xìn yòng kǎ。',
+            examplePinyin: 'zài zhèr mǎi dōngxī kěyǐ yòng xìnyòngkǎ。',
           },
           {
             id: 'h301b-l31-w21',
@@ -29789,7 +29789,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'high-speed train',
             exampleCn: '坐动车去，比坐汽车快得多。',
             exampleEn: 'Going by high-speed train is much faster than going by bus.',
-            examplePinyin: 'zuò dòng chē qù ， bǐ zuò qì chē kuài dé duō。',
+            examplePinyin: 'zuò dòngchē qù， bǐ zuò qìchē kuàidéduō。',
           },
           {
             id: 'h301b-l31-w22',
@@ -29799,7 +29799,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'fruit',
             exampleCn: '他买了很多水果和小吃。',
             exampleEn: 'He bought a lot of fruit and refreshments.',
-            examplePinyin: 'tā mǎi le hěn duō shuǐ guǒ hé xiǎo chī。',
+            examplePinyin: 'tā mǎi le hěnduō shuǐguǒ hé xiǎochī。',
           },
           {
             id: 'h301b-l31-w23',
@@ -29809,7 +29809,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ball-pen',
             exampleCn: '我的圆珠笔在房间里，你帮我拿来吧。',
             exampleEn: 'My ball-pen is in the room. Please bring it to me.',
-            examplePinyin: 'wǒ de yuán zhū bǐ zài fáng jiān lǐ ， nǐ bāng wǒ ná lái ba。',
+            examplePinyin: 'wǒ de yuánzhūbǐ zài fángjiān lǐ， nǐ bāng wǒ nálái ba。',
           },
         ],
       },
@@ -29827,7 +29827,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hall',
             exampleCn: '和子在大厅里等我们。',
             exampleEn: 'Hezi is waiting for us in the hall.',
-            examplePinyin: 'hé zi zài dà tīng lǐ děng wǒ men。',
+            examplePinyin: 'hé zi zài dàtīng lǐ děng wǒmen。',
           },
           {
             id: 'h301b-l32-w2',
@@ -29837,7 +29837,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'within, under',
             exampleCn: '三天以内的火车票都没有了。',
             exampleEn: 'There are no train tickets within three days.',
-            examplePinyin: 'sān tiān yǐ nèi de huǒ chē piào dōu méi yǒu le。',
+            examplePinyin: 'sāntiān yǐnèi de huǒchēpiào dōu méiyǒu le。',
           },
           {
             id: 'h301b-l32-w3',
@@ -29847,7 +29847,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to book, to reserve',
             exampleCn: '你应该早点儿预订火车票。',
             exampleEn: 'You should book the train ticket earlier.',
-            examplePinyin: 'nǐ yīng gāi zǎo diǎn ér yù dìng huǒ chē piào。',
+            examplePinyin: 'nǐ yīnggāi zǎodiǎnér yùdìng huǒchēpiào。',
           },
           {
             id: 'h301b-l32-w4',
@@ -29857,7 +29857,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to help',
             exampleCn: '我买不到票，请你帮帮忙。',
             exampleEn: 'I cannot buy a ticket. Please help me.',
-            examplePinyin: 'wǒ mǎi bú dào piào ， qǐng nǐ bāng bāng máng。',
+            examplePinyin: 'wǒ mǎibúdào piào， qǐng nǐ bāngbāngmáng。',
           },
           {
             id: 'h301b-l32-w5',
@@ -29867,7 +29867,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to return',
             exampleCn: '他不去了，想退火车票。',
             exampleEn: 'He is not going, so he wants to return the train ticket.',
-            examplePinyin: 'tā bù qù le ， xiǎng tuì huǒ chē piào。',
+            examplePinyin: 'tā bù qù le， xiǎng tuì huǒchēpiào。',
           },
           {
             id: 'h301b-l32-w6',
@@ -29877,7 +29877,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'aspect particle indicating the continuation of a state',
             exampleCn: '预订的票上写着他的名字。',
             exampleEn: 'The booked ticket has his name written on it.',
-            examplePinyin: 'yù dìng de piào shàng xiě zhe tā de míng zì。',
+            examplePinyin: 'yùdìng de piào shàng xiě zhe tā de míngzì。',
           },
           {
             id: 'h301b-l32-w7',
@@ -29887,7 +29887,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'purse, wallet',
             exampleCn: '我找到钱包了，里边的钱都在。',
             exampleEn: 'I found my wallet, and all the money inside is there.',
-            examplePinyin: 'wǒ zhǎo dào qián bāo le ， lǐ biān de qián dōu zài。',
+            examplePinyin: 'wǒ zhǎodào qiánbāo le， lǐbiān de qián dōu zài。',
           },
           {
             id: 'h301b-l32-w8',
@@ -29897,7 +29897,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'window',
             exampleCn: '请到南边六号窗口去买票。',
             exampleEn: 'Please go to window number six on the south side to buy the ticket.',
-            examplePinyin: 'qǐng dào nán biān liù hào chuāng kǒu qù mǎi piào。',
+            examplePinyin: 'qǐng dào nánbiān liùhào chuāngkǒu qù mǎipiào。',
           },
           {
             id: 'h301b-l32-w9',
@@ -29907,7 +29907,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'through train',
             exampleCn: '我买了两张直达车的票。',
             exampleEn: 'I bought two through-train tickets.',
-            examplePinyin: 'wǒ mǎi le liǎng zhāng zhí dá chē de piào。',
+            examplePinyin: 'wǒ mǎi le liǎngzhāng zhídáchē de piào。',
           },
           {
             id: 'h301b-l32-w10',
@@ -29917,7 +29917,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sell',
             exampleCn: '明天的票卖完了，只有后天的。',
             exampleEn: 'Tomorrow\'s tickets are sold out. There are only the day after tomorrow\'s.',
-            examplePinyin: 'míng tiān de piào mài wán le ， zhǐ yǒu hòu tiān de。',
+            examplePinyin: 'míngtiān de piào màiwán le， zhǐyǒu hòutiān de。',
           },
           {
             id: 'h301b-l32-w11',
@@ -29927,7 +29927,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hard sleeper',
             exampleCn: '我想早上到，就买了硬卧。',
             exampleEn: 'I want to arrive in the morning, so I bought a hard sleeper.',
-            examplePinyin: 'wǒ xiǎng zǎo shàng dào ， jiù mǎi le yìng wò。',
+            examplePinyin: 'wǒ xiǎng zǎoshàng dào， jiù mǎi le yìngwò。',
           },
           {
             id: 'h301b-l32-w12',
@@ -29937,7 +29937,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'soft sleeper',
             exampleCn: '软卧比硬卧贵一点儿。',
             exampleEn: 'A soft sleeper is a little more expensive than a hard sleeper.',
-            examplePinyin: 'ruǎn wò bǐ yìng wò guì yì diǎn ér。',
+            examplePinyin: 'ruǎnwò bǐ yìngwò guì yìdiǎnér。',
           },
           {
             id: 'h301b-l32-w13',
@@ -29947,7 +29947,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'passport',
             exampleCn: '买飞机票的时候要用护照。',
             exampleEn: 'You need to use your passport when you buy a plane ticket.',
-            examplePinyin: 'mǎi fēi jī piào de shí hòu yào yòng hù zhào。',
+            examplePinyin: 'mǎi fēijīpiào de shíhòu yào yòng hùzhào。',
           },
           {
             id: 'h301b-l32-w14',
@@ -29957,7 +29957,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'advertisement',
             exampleCn: '我在大厅里看见了这个广告。',
             exampleEn: 'I saw this advertisement in the hall.',
-            examplePinyin: 'wǒ zài dà tīng lǐ kàn jiàn le zhè ge guǎng gào。',
+            examplePinyin: 'wǒ zài dàtīng lǐ kànjiàn le zhège guǎnggào。',
           },
           {
             id: 'h301b-l32-w15',
@@ -29967,7 +29967,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to check',
             exampleCn: '请您检查一下我的护照。',
             exampleEn: 'Please check my passport.',
-            examplePinyin: 'qǐng nín jiǎn chá yī xià wǒ de hù zhào。',
+            examplePinyin: 'qǐng nín jiǎncháyīxià wǒ de hùzhào。',
           },
           {
             id: 'h301b-l32-w16',
@@ -29977,7 +29977,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'visa',
             exampleCn: '我的护照和签证都在钱包里。',
             exampleEn: 'My passport and visa are both in my wallet.',
-            examplePinyin: 'wǒ de hù zhào hé qiān zhèng dōu zài qián bāo lǐ。',
+            examplePinyin: 'wǒ de hùzhào hé qiānzhèng dōu zài qiánbāo lǐ。',
           },
           {
             id: 'h301b-l32-w17',
@@ -29987,7 +29987,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'luggage',
             exampleCn: '他的行李不多，只有两件。',
             exampleEn: 'He does not have much luggage, only two pieces.',
-            examplePinyin: 'tā de xíng lǐ bù duō ， zhǐ yǒu liǎng jiàn。',
+            examplePinyin: 'tā de xínglǐ bù duō， zhǐyǒu liǎngjiàn。',
           },
           {
             id: 'h301b-l32-w18',
@@ -29997,7 +29997,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hang',
             exampleCn: '房间里挂着他的衣服。',
             exampleEn: 'His clothes are hanging in the room.',
-            examplePinyin: 'fáng jiān lǐ guà zhe tā de yī fú。',
+            examplePinyin: 'fángjiān lǐ guà zhe tā de yīfú。',
           },
           {
             id: 'h301b-l32-w19',
@@ -30007,7 +30007,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stop',
             exampleCn: '汽车停在门口，我们下车吧。',
             exampleEn: 'The car has stopped at the entrance. Let\'s get off.',
-            examplePinyin: 'qì chē tíng zài mén kǒu ， wǒ men xià chē ba。',
+            examplePinyin: 'qìchē tíng zài ménkǒu， wǒmen xiàchē ba。',
           },
           {
             id: 'h301b-l32-w20',
@@ -30017,7 +30017,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'library',
             exampleCn: '他进图书馆去看书了。',
             exampleEn: 'He went into the library to read books.',
-            examplePinyin: 'tā jìn tú shū guǎn qù kàn shū le。',
+            examplePinyin: 'tā jìn túshūguǎn qù kànshū le。',
           },
           {
             id: 'h301b-l32-w21',
@@ -30027,7 +30027,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'auditorium',
             exampleCn: '同学们都到礼堂去了。',
             exampleEn: 'The students have all gone to the auditorium.',
-            examplePinyin: 'tóng xué men dōu dào lǐ táng qù le。',
+            examplePinyin: 'tóngxuémen dōu dào lǐtáng qù le。',
           },
           {
             id: 'h301b-l32-w22',
@@ -30037,7 +30037,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to discuss',
             exampleCn: '我们在礼堂里讨论了两个小时。',
             exampleEn: 'We discussed for two hours in the auditorium.',
-            examplePinyin: 'wǒ men zài lǐ táng lǐ tǎo lùn le liǎng gè xiǎo shí。',
+            examplePinyin: 'wǒmen zài lǐtáng lǐ tǎolùn le liǎnggè xiǎoshí。',
           },
           {
             id: 'h301b-l32-w23',
@@ -30047,7 +30047,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'method',
             exampleCn: '他想了一个好办法，帮我买到了票。',
             exampleEn: 'He thought of a good method and helped me buy the ticket.',
-            examplePinyin: 'tā xiǎng le yí gè hǎo bàn fǎ ， bāng wǒ mǎi dào le piào。',
+            examplePinyin: 'tā xiǎng le yígè hǎo bànfǎ， bāng wǒ mǎi dào le piào。',
           },
         ],
       },
@@ -30065,7 +30065,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'at last, finally',
             exampleCn: '我们终于到家了。',
             exampleEn: 'We finally got home.',
-            examplePinyin: 'wǒ men zhōng yú dào jiā le。',
+            examplePinyin: 'wǒmen zhōngyú dào jiā le。',
           },
           {
             id: 'h301b-l33-w2',
@@ -30085,7 +30085,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to one\'s heart\'s content',
             exampleCn: '我们吃得痛快。',
             exampleEn: 'We ate to our heart\'s content.',
-            examplePinyin: 'wǒ men chī dé tòng kuài。',
+            examplePinyin: 'wǒmen chī dé tòngkuài。',
           },
           {
             id: 'h301b-l33-w4',
@@ -30095,7 +30095,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'structural particle used after an adjective or phrase to form an adverbial adjunct before the verb',
             exampleCn: '她高兴地说：“我们到家了。”',
             exampleEn: 'She said happily, "We\'re home."',
-            examplePinyin: 'tā gāo xìng dì shuō ：“ wǒ men dào jiā le。”',
+            examplePinyin: 'tā gāoxìng dì shuō： “ wǒmen dào jiā le。 ”',
           },
           {
             id: 'h301b-l33-w5',
@@ -30105,7 +30105,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to have a bath',
             exampleCn: '我热死了，要洗澡。',
             exampleEn: 'I am so hot, I want to take a bath.',
-            examplePinyin: 'wǒ rè sǐ le ， yào xǐ zǎo。',
+            examplePinyin: 'wǒ rè sǐ le， yào xǐzǎo。',
           },
           {
             id: 'h301b-l33-w6',
@@ -30115,7 +30115,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'if...then...',
             exampleCn: '你只要洗澡就不热了。',
             exampleEn: 'If you take a bath, you won\'t be hot.',
-            examplePinyin: 'nǐ zhǐ yào xǐ zǎo jiù bù rè le。',
+            examplePinyin: 'nǐ zhǐyào xǐzǎo jiù bù rè le。',
           },
           {
             id: 'h301b-l33-w7',
@@ -30125,7 +30125,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to enter',
             exampleCn: '请输入你的名字。',
             exampleEn: 'Please enter your name.',
-            examplePinyin: 'qǐng shū rù nǐ de míng zì。',
+            examplePinyin: 'qǐng shūrù nǐ de míngzì。',
           },
           {
             id: 'h301b-l33-w8',
@@ -30135,7 +30135,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'password',
             exampleCn: '请输入密码。',
             exampleEn: 'Please enter the password.',
-            examplePinyin: 'qǐng shū rù mì mǎ。',
+            examplePinyin: 'qǐng shūrù mìmǎ。',
           },
           {
             id: 'h301b-l33-w9',
@@ -30145,7 +30145,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to sign one\'s name',
             exampleCn: '请在这里签名。',
             exampleEn: 'Please sign here.',
-            examplePinyin: 'qǐng zài zhè lǐ qiān míng。',
+            examplePinyin: 'qǐng zài zhèlǐ qiānmíng。',
           },
           {
             id: 'h301b-l33-w10',
@@ -30155,7 +30155,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bag',
             exampleCn: '那个包很大。',
             exampleEn: 'That bag is very big.',
-            examplePinyin: 'nà ge bāo hěn dà。',
+            examplePinyin: 'nàge bāo hěndà。',
           },
           {
             id: 'h301b-l33-w11',
@@ -30165,7 +30165,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to fill in a form',
             exampleCn: '请先填表。',
             exampleEn: 'Please fill in the form first.',
-            examplePinyin: 'qǐng xiān tián biǎo。',
+            examplePinyin: 'qǐng xiān tiánbiǎo。',
           },
           {
             id: 'h301b-l33-w12',
@@ -30175,7 +30175,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'room card, key card',
             exampleCn: '这是你们的房卡。',
             exampleEn: 'This is your room card.',
-            examplePinyin: 'zhè shì nǐ men de fáng kǎ。',
+            examplePinyin: 'zhè shì nǐmen de fángkǎ。',
           },
           {
             id: 'h301b-l33-w13',
@@ -30185,7 +30185,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hungry',
             exampleCn: '我很饿，想吃东西。',
             exampleEn: 'I\'m very hungry and want to eat something.',
-            examplePinyin: 'wǒ hěn è ， xiǎng chī dōng xī。',
+            examplePinyin: 'wǒ hěn è， xiǎng chī dōngxī。',
           },
           {
             id: 'h301b-l33-w14',
@@ -30195,7 +30195,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'shirt, blouse',
             exampleCn: '我的衬衫在这里。',
             exampleEn: 'My shirt is here.',
-            examplePinyin: 'wǒ de chèn shān zài zhè lǐ。',
+            examplePinyin: 'wǒ de chènshān zài zhèlǐ。',
           },
           {
             id: 'h301b-l33-w15',
@@ -30205,7 +30205,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chair',
             exampleCn: '包放在椅子上。',
             exampleEn: 'The bag is put on the chair.',
-            examplePinyin: 'bāo fàng zài yǐ zi shàng。',
+            examplePinyin: 'bāo fàngzài yǐzi shàng。',
           },
           {
             id: 'h301b-l33-w16',
@@ -30215,7 +30215,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'thirsty',
             exampleCn: '我渴了，想喝水。',
             exampleEn: 'I\'m thirsty and want to drink water.',
-            examplePinyin: 'wǒ kě le ， xiǎng hē shuǐ。',
+            examplePinyin: 'wǒ kě le， xiǎng hēshuǐ。',
           },
           {
             id: 'h301b-l33-w17',
@@ -30225,7 +30225,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'skirt',
             exampleCn: '那条裙子很漂亮。',
             exampleEn: 'That skirt is very pretty.',
-            examplePinyin: 'nà tiáo qún zi hěn piào liàng。',
+            examplePinyin: 'nàtiáo qúnzi hěnpiàoliàng。',
           },
           {
             id: 'h301b-l33-w18',
@@ -30235,7 +30235,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'trunk, suitcase',
             exampleCn: '这个箱子是我的。',
             exampleEn: 'This suitcase is mine.',
-            examplePinyin: 'zhè ge xiāng zi shì wǒ de。',
+            examplePinyin: 'zhège xiāngzi shì wǒ de。',
           },
           {
             id: 'h301b-l33-w19',
@@ -30245,7 +30245,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'trousers, pants',
             exampleCn: '我的裤子在箱子里面。',
             exampleEn: 'My pants are inside the suitcase.',
-            examplePinyin: 'wǒ de kù zi zài xiāng zi lǐ miàn。',
+            examplePinyin: 'wǒ de kùzi zài xiāngzi lǐmiàn。',
           },
           {
             id: 'h301b-l33-w20',
@@ -30255,7 +30255,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'dining hall',
             exampleCn: '餐厅在旁边。',
             exampleEn: 'The dining hall is next door.',
-            examplePinyin: 'cān tīng zài páng biān。',
+            examplePinyin: 'cāntīng zài pángbiān。',
           },
         ],
       },
@@ -30273,7 +30273,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to begin',
             exampleCn: '我们开始吧。',
             exampleEn: 'Let\'s begin.',
-            examplePinyin: 'wǒ men kāi shǐ ba。',
+            examplePinyin: 'wǒmen kāishǐ ba。',
           },
           {
             id: 'h301b-l34-w2',
@@ -30293,7 +30293,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'mouth',
             exampleCn: '你的嗓子红了。',
             exampleEn: 'Your throat is red.',
-            examplePinyin: 'nǐ de sǎng zi hóng le。',
+            examplePinyin: 'nǐ de sǎngzi hóng le。',
           },
           {
             id: 'h301b-l34-w4',
@@ -30303,7 +30303,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to open',
             exampleCn: '请把嘴张开。',
             exampleEn: 'Please open your mouth.',
-            examplePinyin: 'qǐng bǎ zuǐ zhāng kāi。',
+            examplePinyin: 'qǐng bǎ zuǐ zhāngkāi。',
           },
           {
             id: 'h301b-l34-w5',
@@ -30313,7 +30313,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'no sooner...than...',
             exampleCn: '我一回家就睡觉。',
             exampleEn: 'As soon as I get home, I go to sleep.',
-            examplePinyin: 'wǒ yī huí jiā jiù shuì jiào。',
+            examplePinyin: 'wǒ yī huíjiā jiù shuìjiào。',
           },
           {
             id: 'h301b-l34-w6',
@@ -30323,7 +30323,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'throat',
             exampleCn: '我的嗓子不舒服。',
             exampleEn: 'My throat is uncomfortable.',
-            examplePinyin: 'wǒ de sǎng zi bù shū fú。',
+            examplePinyin: 'wǒ de sǎngzi bù shūfú。',
           },
           {
             id: 'h301b-l34-w7',
@@ -30333,7 +30333,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to measure',
             exampleCn: '请你量一下。',
             exampleEn: 'Please measure it.',
-            examplePinyin: 'qǐng nǐ liàng yī xià。',
+            examplePinyin: 'qǐng nǐ liàng yīxià。',
           },
           {
             id: 'h301b-l34-w8',
@@ -30343,7 +30343,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'body temperature',
             exampleCn: '大夫量了体温。',
             exampleEn: 'The doctor took the temperature.',
-            examplePinyin: 'dà fū liàng le tǐ wēn。',
+            examplePinyin: 'dàfū liàng le tǐwēn。',
           },
           {
             id: 'h301b-l34-w9',
@@ -30353,7 +30353,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to run a fever',
             exampleCn: '我发烧了。',
             exampleEn: 'I have a fever.',
-            examplePinyin: 'wǒ fā shāo le。',
+            examplePinyin: 'wǒ fāshāo le。',
           },
           {
             id: 'h301b-l34-w10',
@@ -30363,7 +30363,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to give an injection',
             exampleCn: '你发烧了，要打针吗？',
             exampleEn: 'You have a fever. Do you need an injection?',
-            examplePinyin: 'nǐ fā shāo le ， yào dǎ zhēn ma？',
+            examplePinyin: 'nǐ fāshāo le， yào dǎzhēn ma？',
           },
           {
             id: 'h301b-l34-w11',
@@ -30373,7 +30373,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be hospitalized',
             exampleCn: '他病了，要住院。',
             exampleEn: 'He is sick and needs to be hospitalized.',
-            examplePinyin: 'tā bìng le ， yào zhù yuàn。',
+            examplePinyin: 'tā bìng le， yào zhùyuàn。',
           },
           {
             id: 'h301b-l34-w12',
@@ -30383,7 +30383,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to suffer from',
             exampleCn: '他受伤了。',
             exampleEn: 'He got hurt.',
-            examplePinyin: 'tā shòu shāng le。',
+            examplePinyin: 'tā shòushāng le。',
           },
           {
             id: 'h301b-l34-w13',
@@ -30393,7 +30393,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wound; to wound',
             exampleCn: '他的手受伤了。',
             exampleEn: 'His hand is wounded.',
-            examplePinyin: 'tā de shǒu shòu shāng le。',
+            examplePinyin: 'tā de shǒu shòushāng le。',
           },
           {
             id: 'h301b-l34-w14',
@@ -30403,7 +30403,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the people',
             exampleCn: '中国人民很友好。',
             exampleEn: 'The Chinese people are very friendly.',
-            examplePinyin: 'zhōng guó rén mín hěn yǒu hǎo。',
+            examplePinyin: 'zhōngguó rénmín hěn yǒuhǎo。',
           },
           {
             id: 'h301b-l34-w15',
@@ -30413,7 +30413,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'situation',
             exampleCn: '你的情况怎么样？',
             exampleEn: 'How is your situation?',
-            examplePinyin: 'nǐ de qíng kuàng zěn me yàng？',
+            examplePinyin: 'nǐ de qíngkuàng zěnmeyàng？',
           },
           {
             id: 'h301b-l34-w16',
@@ -30433,7 +30433,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'file',
             exampleCn: '请把文件给我。',
             exampleEn: 'Please give me the file.',
-            examplePinyin: 'qǐng bǎ wén jiàn gěi wǒ。',
+            examplePinyin: 'qǐng bǎ wénjiàn gěi wǒ。',
           },
           {
             id: 'h301b-l34-w18',
@@ -30443,7 +30443,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to lock; lock',
             exampleCn: '请把门锁好。',
             exampleEn: 'Please lock the door.',
-            examplePinyin: 'qǐng bǎ mén suǒ hǎo。',
+            examplePinyin: 'qǐng bǎ ménsuǒ hǎo。',
           },
           {
             id: 'h301b-l34-w19',
@@ -30453,7 +30453,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'light',
             exampleCn: '请把灯开开。',
             exampleEn: 'Please turn on the light.',
-            examplePinyin: 'qǐng bǎ dēng kāi kāi。',
+            examplePinyin: 'qǐng bǎ dēng kāikāi。',
           },
           {
             id: 'h301b-l34-w20',
@@ -30463,7 +30463,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do physical training',
             exampleCn: '他每天都锻炼。',
             exampleEn: 'He exercises every day.',
-            examplePinyin: 'tā měi tiān dōu duàn liàn。',
+            examplePinyin: 'tā měitiān dōu duànliàn。',
           },
           {
             id: 'h301b-l34-w21',
@@ -30473,7 +30473,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'eye',
             exampleCn: '大夫看看他的眼睛。',
             exampleEn: 'The doctor looked at his eyes.',
-            examplePinyin: 'dà fū kàn kàn tā de yǎn jīng。',
+            examplePinyin: 'dàfū kànkàn tā de yǎnjīng。',
           },
           {
             id: 'h301b-l34-w22',
@@ -30483,7 +30483,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'operation',
             exampleCn: '他做了手术。',
             exampleEn: 'He had an operation.',
-            examplePinyin: 'tā zuò le shǒu shù。',
+            examplePinyin: 'tā zuò le shǒushù。',
           },
           {
             id: 'h301b-l34-w23',
@@ -30493,7 +30493,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to leave hospital',
             exampleCn: '他明天可以出院了。',
             exampleEn: 'He can leave the hospital tomorrow.',
-            examplePinyin: 'tā míng tiān kě yǐ chū yuàn le。',
+            examplePinyin: 'tā míngtiān kěyǐ chūyuàn le。',
           },
         ],
       },
@@ -30511,7 +30511,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used in a passive sentence to introduce the agent or doer',
             exampleCn: '我的书被同学拿走了。',
             exampleEn: 'My book was taken away by a classmate.',
-            examplePinyin: 'wǒ de shū bèi tóng xué ná zǒu le。',
+            examplePinyin: 'wǒ de shū bèi tóngxué názǒu le。',
           },
           {
             id: 'h301b-l35-w2',
@@ -30521,7 +30521,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to knock down',
             exampleCn: '王兰被车撞伤了。',
             exampleEn: 'Wang Lan was injured by being hit by a car.',
-            examplePinyin: 'wáng lán bèi chē zhuàng shāng le。',
+            examplePinyin: 'wáng lán bèichēzhuàng shāng le。',
           },
           {
             id: 'h301b-l35-w3',
@@ -30531,7 +30531,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'and so on',
             exampleCn: '我们给她带点儿水果什么的。',
             exampleEn: 'We\'ll bring her some fruit and things like that.',
-            examplePinyin: 'wǒ men gěi tā dài diǎn ér shuǐ guǒ shén me de。',
+            examplePinyin: 'wǒmen gěi tā dài diǎnr shuǐguǒ shénme de。',
           },
           {
             id: 'h301b-l35-w4',
@@ -30541,7 +30541,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'it seems..., one looks...',
             exampleCn: '看样子她今天好多了。',
             exampleEn: 'It seems she\'s much better today.',
-            examplePinyin: 'kàn yàng zi tā jīn tiān hǎo duō le。',
+            examplePinyin: 'kànyàngzi tā jīntiān hǎoduō le。',
           },
           {
             id: 'h301b-l35-w5',
@@ -30551,7 +30551,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'recently',
             exampleCn: '她最近觉得好一点儿了。',
             exampleEn: 'Recently she feels a little better.',
-            examplePinyin: 'tā zuì jìn jué de hǎo yì diǎn ér le。',
+            examplePinyin: 'tā zuìjìn juéde hǎo yìdiǎnér le。',
           },
           {
             id: 'h301b-l35-w6',
@@ -30561,7 +30561,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to ensure',
             exampleCn: '我保证你喜欢这些水果。',
             exampleEn: 'I guarantee you\'ll like this fruit.',
-            examplePinyin: 'wǒ bǎo zhèng nǐ xǐ huān zhè xiē shuǐ guǒ。',
+            examplePinyin: 'wǒ bǎozhèng nǐ xǐhuān zhèxiē shuǐguǒ。',
           },
           {
             id: 'h301b-l35-w7',
@@ -30571,7 +30571,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'glasses',
             exampleCn: '她的眼镜摔坏了，看书不方便。',
             exampleEn: 'Her glasses broke, making it hard to read books.',
-            examplePinyin: 'tā de yǎn jìng shuāi huài le ， kàn shū bù fāng biàn。',
+            examplePinyin: 'tā de yǎnjìng shuāihuài le， kànshū bù fāngbiàn。',
           },
           {
             id: 'h301b-l35-w8',
@@ -30581,7 +30581,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'uneasy',
             exampleCn: '别着急，我们下午去看你。',
             exampleEn: 'Don\'t worry, we\'ll go see you this afternoon.',
-            examplePinyin: 'bié zháo jí ， wǒ men xià wǔ qù kàn nǐ。',
+            examplePinyin: 'biézháojí， wǒmen xiàwǔ qù kàn nǐ。',
           },
           {
             id: 'h301b-l35-w9',
@@ -30591,7 +30591,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'weekend',
             exampleCn: '这个周末我们再去医院看她。',
             exampleEn: 'This weekend we\'ll go to the hospital to visit her again.',
-            examplePinyin: 'zhè ge zhōu mò wǒ men zài qù yī yuàn kàn tā。',
+            examplePinyin: 'zhège zhōumò wǒmen zài qù yīyuàn kàn tā。',
           },
           {
             id: 'h301b-l35-w10',
@@ -30601,7 +30601,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'on time',
             exampleCn: '下次我们准时去看你。',
             exampleEn: 'Next time we\'ll come see you on time.',
-            examplePinyin: 'xià cì wǒ men zhǔn shí qù kàn nǐ。',
+            examplePinyin: 'xiàcì wǒmen zhǔnshí qù kàn nǐ。',
           },
           {
             id: 'h301b-l35-w11',
@@ -30611,7 +30611,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'tree',
             exampleCn: '医院门口的那棵树被大风刮倒了。',
             exampleEn: 'The tree at the hospital entrance was blown down by strong wind.',
-            examplePinyin: 'yī yuàn mén kǒu de nà kē shù bèi dà fēng guā dào le。',
+            examplePinyin: 'yīyuàn ménkǒu de nà kē shù bèi dàfēng guādào le。',
           },
           {
             id: 'h301b-l35-w12',
@@ -30621,7 +30621,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to collapse',
             exampleCn: '大风把树刮倒了。',
             exampleEn: 'The strong wind blew down the tree.',
-            examplePinyin: 'dà fēng bǎ shù guā dào le。',
+            examplePinyin: 'dàfēng bǎ shù guādào le。',
           },
           {
             id: 'h301b-l35-w13',
@@ -30631,7 +30631,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sofa',
             exampleCn: '她坐在沙发上休息。',
             exampleEn: 'She\'s sitting on the sofa resting.',
-            examplePinyin: 'tā zuò zài shā fā shàng xiū xī。',
+            examplePinyin: 'tā zuòzài shāfā shàng xiūxī。',
           },
           {
             id: 'h301b-l35-w14',
@@ -30641,7 +30641,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'patient',
             exampleCn: '医院里的病人都需要安静。',
             exampleEn: 'Patients in the hospital all need quiet.',
-            examplePinyin: 'yī yuàn lǐ de bìng rén dōu xū yào ān jìng。',
+            examplePinyin: 'yīyuàn lǐ de bìngrén dōu xūyào ānjìng。',
           },
           {
             id: 'h301b-l35-w15',
@@ -30651,7 +30651,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'magazine',
             exampleCn: '我给病人带了几本杂志。',
             exampleEn: 'I brought several magazines for the patient.',
-            examplePinyin: 'wǒ gěi bìng rén dài le jǐ běn zá zhì。',
+            examplePinyin: 'wǒ gěi bìngrén dài le jǐběn zázhì。',
           },
           {
             id: 'h301b-l35-w16',
@@ -30661,7 +30661,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweets',
             exampleCn: '她喜欢吃糖，我买了些糖带去。',
             exampleEn: 'She likes sweets, so I bought some to bring along.',
-            examplePinyin: 'tā xǐ huān chī táng ， wǒ mǎi le xiē táng dài qù。',
+            examplePinyin: 'tā xǐhuān chītáng， wǒ mǎi le xiē táng dài qù。',
           },
           {
             id: 'h301b-l35-w17',
@@ -30671,7 +30671,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'instant noodles',
             exampleCn: '晚上饿了可以吃方便面。',
             exampleEn: 'If you\'re hungry at night you can eat instant noodles.',
-            examplePinyin: 'wǎn shàng è le kě yǐ chī fāng biàn miàn。',
+            examplePinyin: 'wǎnshàng è le kěyǐ chī fāngbiànmiàn。',
           },
           {
             id: 'h301b-l35-w18',
@@ -30681,7 +30681,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'bread',
             exampleCn: '我还带了面包和水果。',
             exampleEn: 'I also brought bread and fruit.',
-            examplePinyin: 'wǒ hái dài le miàn bāo hé shuǐ guǒ。',
+            examplePinyin: 'wǒ hái dài le miànbāo hé shuǐguǒ。',
           },
           {
             id: 'h301b-l35-w19',
@@ -30691,7 +30691,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'black',
             exampleCn: '天很黑，看不清路。',
             exampleEn: 'It\'s very dark, can\'t see the road clearly.',
-            examplePinyin: 'tiān hěn hēi ， kàn bù qīng lù。',
+            examplePinyin: 'tiān hěn hēi， kànbùqīng lù。',
           },
           {
             id: 'h301b-l35-w20',
@@ -30701,7 +30701,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to wear, to put on',
             exampleCn: '她戴着一副新眼镜。',
             exampleEn: 'She\'s wearing a new pair of glasses.',
-            examplePinyin: 'tā dài zhe yī fù xīn yǎn jìng。',
+            examplePinyin: 'tā dài zhe yīfù xīn yǎnjìng。',
           },
           {
             id: 'h301b-l35-w21',
@@ -30711,7 +30711,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sunglasses',
             exampleCn: '夏天出门要戴墨镜。',
             exampleEn: 'You need to wear sunglasses when going out in summer.',
-            examplePinyin: 'xià tiān chū mén yào dài mò jìng。',
+            examplePinyin: 'xiàtiān chūmén yào dài mòjìng。',
           },
         ],
       },
@@ -30729,7 +30729,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'for a long time',
             exampleCn: '好久没去学校了。',
             exampleEn: 'I haven\'t gone to school for a long time.',
-            examplePinyin: 'hǎo jiǔ méi qù xué xiào le。',
+            examplePinyin: 'hǎojiǔméi qù xuéxiào le。',
           },
           {
             id: 'h301b-l36-w2',
@@ -30739,7 +30739,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to, towards',
             exampleCn: '他向左边走去。',
             exampleEn: 'He walked toward the left.',
-            examplePinyin: 'tā xiàng zuǒ biān zǒu qù。',
+            examplePinyin: 'tā xiàng zuǒbiān zǒu qù。',
           },
           {
             id: 'h301b-l36-w3',
@@ -30749,7 +30749,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to depart, to say good-bye',
             exampleCn: '我来向你们告别。',
             exampleEn: 'I\'ve come to say goodbye to you all.',
-            examplePinyin: 'wǒ lái xiàng nǐ men gào bié。',
+            examplePinyin: 'wǒ lái xiàng nǐmen gàobié。',
           },
           {
             id: 'h301b-l36-w4',
@@ -30759,7 +30759,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to trouble, to bother',
             exampleCn: '对不起，打扰你了。',
             exampleEn: 'Sorry to have bothered you.',
-            examplePinyin: 'duì bù qǐ ， dǎ rǎo nǐ le。',
+            examplePinyin: 'duìbùqǐ， dǎrǎo nǐ le。',
           },
           {
             id: 'h301b-l36-w5',
@@ -30769,7 +30769,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be sorry',
             exampleCn: '常来打扰你，我很过意不去。',
             exampleEn: 'I often trouble you, and I feel really sorry about it.',
-            examplePinyin: 'cháng lái dǎ rǎo nǐ ， wǒ hěn guò yì bù qù。',
+            examplePinyin: 'cháng lái dǎrǎo nǐ， wǒ hěn guòyìbùqù。',
           },
           {
             id: 'h301b-l36-w6',
@@ -30779,7 +30779,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'in this way, like that',
             exampleCn: '你那么忙，不用送我了。',
             exampleEn: 'You\'re so busy, you don\'t need to see me off.',
-            examplePinyin: 'nǐ nà me máng ， bù yòng sòng wǒ le。',
+            examplePinyin: 'nǐ nàme máng， bùyòng sòng wǒ le。',
           },
           {
             id: 'h301b-l36-w7',
@@ -30789,7 +30789,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'at the same time',
             exampleCn: '他一边学习，一边工作。',
             exampleEn: 'He studies while working at the same time.',
-            examplePinyin: 'tā yī biān xué xí ， yī biān gōng zuò。',
+            examplePinyin: 'tā yībiān xuéxí， yībiān gōngzuò。',
           },
           {
             id: 'h301b-l36-w8',
@@ -30799,7 +30799,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'plural suffix',
             exampleCn: '朋友们都知道这件事了。',
             exampleEn: 'All the friends know about this.',
-            examplePinyin: 'péng yǒu men dōu zhī dào zhè jiàn shì le。',
+            examplePinyin: 'péngyǒu men dōu zhīdào zhèjiàn shì le。',
           },
           {
             id: 'h301b-l36-w9',
@@ -30809,7 +30809,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'some',
             exampleCn: '朋友们有的知道，有的不知道。',
             exampleEn: 'Some friends know, some don\'t.',
-            examplePinyin: 'péng yǒu men yǒu de zhī dào ， yǒu de bù zhī dào。',
+            examplePinyin: 'péngyǒu men yǒu de zhīdào， yǒu de bù zhīdào。',
           },
           {
             id: 'h301b-l36-w10',
@@ -30819,7 +30819,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'while',
             exampleCn: '趁这两天有空，我去向他们告别。',
             exampleEn: 'While I\'m free these two days, I\'ll go say goodbye to them.',
-            examplePinyin: 'chèn zhè liǎng tiān yǒu kòng ， wǒ qù xiàng tā men gào bié。',
+            examplePinyin: 'chèn zhè liǎngtiān yǒukòng， wǒ qùxiàng tāmen gàobié。',
           },
           {
             id: 'h301b-l36-w11',
@@ -30829,7 +30829,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'time, days',
             exampleCn: '在中国的日子过得真快。',
             exampleEn: 'The days in China passed really quickly.',
-            examplePinyin: 'zài zhōng guó de rì zi guò dé zhēn kuài。',
+            examplePinyin: 'zài zhōngguó de rìzi guò dé zhēn kuài。',
           },
           {
             id: 'h301b-l36-w12',
@@ -30839,7 +30839,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'already',
             exampleCn: '我来北京已经一年了。',
             exampleEn: 'I\'ve been in Beijing for a year already.',
-            examplePinyin: 'wǒ lái běi jīng yǐ jīng yī nián le。',
+            examplePinyin: 'wǒ lái běijīng yǐjīng yīnián le。',
           },
           {
             id: 'h301b-l36-w13',
@@ -30849,7 +30849,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'because',
             exampleCn: '因为忙，我没时间去看你。',
             exampleEn: 'Because I\'m busy, I don\'t have time to visit you.',
-            examplePinyin: 'yīn wèi máng ， wǒ méi shí jiān qù kàn nǐ。',
+            examplePinyin: 'yīnwèi máng， wǒ méi shíjiān qù kàn nǐ。',
           },
           {
             id: 'h301b-l36-w14',
@@ -30859,7 +30859,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take care of',
             exampleCn: '谢谢你对我的照顾。',
             exampleEn: 'Thank you for taking care of me.',
-            examplePinyin: 'xiè xiè nǐ duì wǒ de zhào gù。',
+            examplePinyin: 'xièxiè nǐ duì wǒ de zhàogù。',
           },
           {
             id: 'h301b-l36-w15',
@@ -30869,7 +30869,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be enough',
             exampleCn: '时间不够，我去不了了。',
             exampleEn: 'Not enough time, I can\'t go anymore.',
-            examplePinyin: 'shí jiān bù gòu ， wǒ qù bù liǎo le。',
+            examplePinyin: 'shíjiān bùgòu， wǒ qù bùliǎo le。',
           },
           {
             id: 'h301b-l36-w16',
@@ -30879,7 +30879,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to prepare',
             exampleCn: '我准备回国了。',
             exampleEn: 'I\'m preparing to return to my country.',
-            examplePinyin: 'wǒ zhǔn bèi huí guó le。',
+            examplePinyin: 'wǒ zhǔnbèi huíguó le。',
           },
           {
             id: 'h301b-l36-w17',
@@ -30889,7 +30889,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to continue',
             exampleCn: '回国以后我想继续学习中文。',
             exampleEn: 'After returning home I want to continue studying Chinese.',
-            examplePinyin: 'huí guó yǐ hòu wǒ xiǎng jì xù xué xí zhōng wén。',
+            examplePinyin: 'huíguó yǐhòu wǒ xiǎng jìxù xuéxí zhōngwén。',
           },
           {
             id: 'h301b-l36-w18',
@@ -30899,7 +30899,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to plan, to want; intention',
             exampleCn: '我打算一边工作一边学习。',
             exampleEn: 'I plan to work while studying at the same time.',
-            examplePinyin: 'wǒ dǎ suàn yī biān gōng zuò yī biān xué xí。',
+            examplePinyin: 'wǒ dǎsuàn yībiān gōngzuò yībiān xuéxí。',
           },
           {
             id: 'h301b-l36-w19',
@@ -30909,7 +30909,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'post-graduate',
             exampleCn: '他想当一名研究生。',
             exampleEn: 'He wants to be a post-graduate student.',
-            examplePinyin: 'tā xiǎng dāng yī míng yán jiū shēng。',
+            examplePinyin: 'tā xiǎng dāng yīmíng yánjiūshēng。',
           },
           {
             id: 'h301b-l36-w20',
@@ -30919,7 +30919,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to leave',
             exampleCn: '我要离开北京了。',
             exampleEn: 'I\'m about to leave Beijing.',
-            examplePinyin: 'wǒ yào lí kāi běi jīng le。',
+            examplePinyin: 'wǒ yào líkāi běijīng le。',
           },
           {
             id: 'h301b-l36-w21',
@@ -30929,7 +30929,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'news',
             exampleCn: '他喜欢看新闻。',
             exampleEn: 'He likes watching the news.',
-            examplePinyin: 'tā xǐ huān kàn xīn wén。',
+            examplePinyin: 'tā xǐhuān kàn xīnwén。',
           },
           {
             id: 'h301b-l36-w22',
@@ -30939,7 +30939,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to download',
             exampleCn: '我想下载一些音乐。',
             exampleEn: 'I want to download some music.',
-            examplePinyin: 'wǒ xiǎng xià zài yī xiē yīn yuè。',
+            examplePinyin: 'wǒ xiǎng xiàzài yīxiē yīnyuè。',
           },
           {
             id: 'h301b-l36-w23',
@@ -30949,7 +30949,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to chat',
             exampleCn: '我们常在网上聊天儿。',
             exampleEn: 'We often chat online.',
-            examplePinyin: 'wǒ men cháng zài wǎng shàng liáo tiān ér。',
+            examplePinyin: 'wǒmen cháng zài wǎngshàngliáotiān ér。',
           },
           {
             id: 'h301b-l36-w24',
@@ -30959,7 +30959,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'procedure',
             exampleCn: '出国要办很多手续。',
             exampleEn: 'Going abroad requires many procedures.',
-            examplePinyin: 'chū guó yào bàn hěn duō shǒu xù。',
+            examplePinyin: 'chūguó yào bàn hěnduō shǒuxù。',
           },
           {
             id: 'h301b-l36-w25',
@@ -30969,7 +30969,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'old, veteran',
             exampleCn: '他已经五十岁了，可是不老。',
             exampleEn: 'He is already fifty years old, but he is not old.',
-            examplePinyin: 'tā yǐ jīng wǔ shí suì le ， kě shì bù lǎo。',
+            examplePinyin: 'tā yǐjīng wǔshísuì le， kěshì bù lǎo。',
           },
           {
             id: 'h301b-l36-w26',
@@ -30979,7 +30979,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'chance, opportunity',
             exampleCn: '这是一个好机会。',
             exampleEn: 'This is a good opportunity.',
-            examplePinyin: 'zhè shì yí gè hǎo jī huì。',
+            examplePinyin: 'zhè shì yígè hǎo jīhuì。',
           },
         ],
       },
@@ -30997,7 +30997,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'more and more',
             exampleCn: '天气越来越暖和了。',
             exampleEn: 'The weather is getting warmer and warmer.',
-            examplePinyin: 'tiān qì yuè lái yuè nuǎn huo le。',
+            examplePinyin: 'tiānqì yuèláiyuè nuǎnhuo le。',
           },
           {
             id: 'h301b-l37-w2',
@@ -31007,7 +31007,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'though',
             exampleCn: '虽然今天很冷，但是我想出去走走。',
             exampleEn: 'Although it\'s cold today, I want to go out for a walk.',
-            examplePinyin: 'suī rán jīn tiān hěn lěng ， dàn shì wǒ xiǎng chū qù zǒu zǒu。',
+            examplePinyin: 'suīrán jīntiān hěn lěng， dànshì wǒ xiǎng chūqù zǒuzǒu。',
           },
           {
             id: 'h301b-l37-w3',
@@ -31017,7 +31017,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'deep, profound',
             exampleCn: '我们的友谊很深。',
             exampleEn: 'Our friendship is very deep.',
-            examplePinyin: 'wǒ men de yǒu yì hěn shēn。',
+            examplePinyin: 'wǒmen de yǒuyì hěn shēn。',
           },
           {
             id: 'h301b-l37-w4',
@@ -31027,7 +31027,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'communication',
             exampleCn: '我们用电话通讯。',
             exampleEn: 'We communicate by phone.',
-            examplePinyin: 'wǒ men yòng diàn huà tōng xùn。',
+            examplePinyin: 'wǒmen yòng diànhuà tōngxùn。',
           },
           {
             id: 'h301b-l37-w5',
@@ -31037,7 +31037,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'address',
             exampleCn: '这是我的地址。',
             exampleEn: 'This is my address.',
-            examplePinyin: 'zhè shì wǒ de dì zhǐ。',
+            examplePinyin: 'zhè shì wǒ de dìzhǐ。',
           },
           {
             id: 'h301b-l37-w6',
@@ -31047,7 +31047,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to keep sth. for, to leave sth. for',
             exampleCn: '我给你留了电话。',
             exampleEn: 'I left a phone number for you.',
-            examplePinyin: 'wǒ gěi nǐ liú le diàn huà。',
+            examplePinyin: 'wǒ gěi nǐ liú le diànhuà。',
           },
           {
             id: 'h301b-l37-w7',
@@ -31057,7 +31057,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to do field practice, to practise',
             exampleCn: '我在医院实习。',
             exampleEn: 'I am doing field practice at the hospital.',
-            examplePinyin: 'wǒ zài yī yuàn shí xí。',
+            examplePinyin: 'wǒ zài yīyuàn shíxí。',
           },
           {
             id: 'h301b-l37-w8',
@@ -31067,7 +31067,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take turns',
             exampleCn: '今天该你去买东西。',
             exampleEn: 'Today it\'s your turn to go shopping.',
-            examplePinyin: 'jīn tiān gāi nǐ qù mǎi dōng xī。',
+            examplePinyin: 'jīntiān gāi nǐ qù mǎi dōngxī。',
           },
           {
             id: 'h301b-l37-w9',
@@ -31077,7 +31077,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hate to part with…',
             exampleCn: '我舍不得走。',
             exampleEn: 'I don\'t want to leave.',
-            examplePinyin: 'wǒ shě bù dé zǒu。',
+            examplePinyin: 'wǒ shěbùdé zǒu。',
           },
           {
             id: 'h301b-l37-w10',
@@ -31087,7 +31087,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'farewell party',
             exampleCn: '我们开了一个欢送会。',
             exampleEn: 'We held a farewell party.',
-            examplePinyin: 'wǒ men kāi le yí gè huān sòng huì。',
+            examplePinyin: 'wǒmen kāi le yígè huānsònghuì。',
           },
           {
             id: 'h301b-l37-w11',
@@ -31097,7 +31097,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'program',
             exampleCn: '欢送会有很多节目。',
             exampleEn: 'The farewell party has many programs.',
-            examplePinyin: 'huān sòng huì yǒu hěn duō jié mù。',
+            examplePinyin: 'huānsònghuì yǒu hěnduō jiémù。',
           },
           {
             id: 'h301b-l37-w12',
@@ -31107,7 +31107,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'excellent, brilliant',
             exampleCn: '节目很精彩。',
             exampleEn: 'The program is excellent.',
-            examplePinyin: 'jié mù hěn jīng cǎi。',
+            examplePinyin: 'jiémù hěn jīngcǎi。',
           },
           {
             id: 'h301b-l37-w13',
@@ -31117,7 +31117,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'enthusiastic, warm',
             exampleCn: '老师对我们很热情。',
             exampleEn: 'The teacher is very warm to us.',
-            examplePinyin: 'lǎo shī duì wǒ men hěn rè qíng。',
+            examplePinyin: 'lǎoshī duì wǒmen hěn rèqíng。',
           },
           {
             id: 'h301b-l37-w14',
@@ -31127,7 +31127,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to send off, to see off',
             exampleCn: '我们去机场欢送他。',
             exampleEn: 'We go to the airport to see him off.',
-            examplePinyin: 'wǒ men qù jī chǎng huān sòng tā。',
+            examplePinyin: 'wǒmen qù jīchǎng huānsòng tā。',
           },
           {
             id: 'h301b-l37-w15',
@@ -31137,7 +31137,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to achieve',
             exampleCn: '我取得了好成绩。',
             exampleEn: 'I achieved good results.',
-            examplePinyin: 'wǒ qǔ dé le hǎo chéng jì。',
+            examplePinyin: 'wǒ qǔdé le hǎo chéngjì。',
           },
           {
             id: 'h301b-l37-w16',
@@ -31147,7 +31147,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to travel',
             exampleCn: '我想去旅游。',
             exampleEn: 'I want to go traveling.',
-            examplePinyin: 'wǒ xiǎng qù lǚ yóu。',
+            examplePinyin: 'wǒ xiǎng qù lǚyóu。',
           },
           {
             id: 'h301b-l37-w17',
@@ -31157,7 +31157,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'level',
             exampleCn: '你的中文水平很高。',
             exampleEn: 'Your Chinese level is very high.',
-            examplePinyin: 'nǐ de zhōng wén shuǐ píng hěn gāo。',
+            examplePinyin: 'nǐ de zhōngwén shuǐpíng hěn gāo。',
           },
           {
             id: 'h301b-l37-w18',
@@ -31167,7 +31167,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'age',
             exampleCn: '他年纪很大。',
             exampleEn: 'He is very old.',
-            examplePinyin: 'tā nián jì hěn dà。',
+            examplePinyin: 'tā niánjì hěndà。',
           },
           {
             id: 'h301b-l37-w19',
@@ -31177,7 +31177,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'blackboard',
             exampleCn: '老师把字写在黑板上。',
             exampleEn: 'The teacher writes characters on the blackboard.',
-            examplePinyin: 'lǎo shī bǎ zì xiě zài hēi bǎn shàng。',
+            examplePinyin: 'lǎoshī bǎ zì xiě zài hēibǎn shàng。',
           },
           {
             id: 'h301b-l37-w20',
@@ -31187,7 +31187,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the right side',
             exampleCn: '医院在学校的右边。',
             exampleEn: 'The hospital is on the right side of the school.',
-            examplePinyin: 'yī yuàn zài xué xiào de yòu biān。',
+            examplePinyin: 'yīyuàn zài xuéxiào de yòubiān。',
           },
           {
             id: 'h301b-l37-w21',
@@ -31197,7 +31197,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'wall',
             exampleCn: '墙上有一张纸。',
             exampleEn: 'There is a piece of paper on the wall.',
-            examplePinyin: 'qiáng shàng yǒu yī zhāng zhǐ。',
+            examplePinyin: 'qiángshàng yǒu yīzhāng zhǐ。',
           },
           {
             id: 'h301b-l37-w22',
@@ -31207,7 +31207,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to stick, to paste, to put up',
             exampleCn: '我把照片贴在墙上。',
             exampleEn: 'I stuck the photo on the wall.',
-            examplePinyin: 'wǒ bǎ zhào piān tiē zài qiáng shàng。',
+            examplePinyin: 'wǒ bǎ zhàopiān tiē zài qiángshàng。',
           },
           {
             id: 'h301b-l37-w23',
@@ -31217,7 +31217,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'the left side',
             exampleCn: '学校在医院的左边。',
             exampleEn: 'The school is on the left side of the hospital.',
-            examplePinyin: 'xué xiào zài yī yuàn de zuǒ biān。',
+            examplePinyin: 'xuéxiào zài yīyuàn de zuǒbiān。',
           },
         ],
       },
@@ -31235,7 +31235,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to inquire about',
             exampleCn: '我去打听一件事。',
             exampleEn: 'I\'m going to ask about something.',
-            examplePinyin: 'wǒ qù dǎ tīng yī jiàn shì。',
+            examplePinyin: 'wǒ qù dǎtīng yījiàn shì。',
           },
           {
             id: 'h301b-l38-w2',
@@ -31245,7 +31245,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to consign for transportation',
             exampleCn: '明天我去托运行李。',
             exampleEn: 'I\'ll go check my luggage tomorrow.',
-            examplePinyin: 'míng tiān wǒ qù tuō yùn xíng lǐ。',
+            examplePinyin: 'míngtiān wǒ qù tuōyùn xínglǐ。',
           },
           {
             id: 'h301b-l38-w3',
@@ -31255,7 +31255,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not only...but also...',
             exampleCn: '明天不但要打听，而且还要托运行李。',
             exampleEn: 'Tomorrow I not only have to ask, but also have to check my luggage.',
-            examplePinyin: 'míng tiān bù dàn yào dǎ tīng ， ér qiě hái yào tuō yùn xíng lǐ。',
+            examplePinyin: 'míngtiān bùdàn yào dǎtīng， érqiě háiyào tuōyùn xínglǐ。',
           },
           {
             id: 'h301b-l38-w4',
@@ -31265,7 +31265,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used after a verb to indicate the completion of an action or attainment of a goal',
             exampleCn: '我想起来了。',
             exampleEn: 'I just remembered.',
-            examplePinyin: 'wǒ xiǎng qǐ lái le。',
+            examplePinyin: 'wǒ xiǎng qǐlái le。',
           },
           {
             id: 'h301b-l38-w5',
@@ -31275,7 +31275,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'transportation expense',
             exampleCn: '托运的运费不便宜。',
             exampleEn: 'The checking fee is not cheap.',
-            examplePinyin: 'tuō yùn de yùn fèi bù biàn yí。',
+            examplePinyin: 'tuōyùn de yùnfèi bù piányi。',
           },
           {
             id: 'h301b-l38-w6',
@@ -31285,7 +31285,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to calculate',
             exampleCn: '帮我算一下运费。',
             exampleEn: 'Help me calculate the fee.',
-            examplePinyin: 'bāng wǒ suàn yī xià yùn fèi。',
+            examplePinyin: 'bāng wǒ suàn yīxià yùnfèi。',
           },
           {
             id: 'h301b-l38-w7',
@@ -31295,7 +31295,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'by, according to',
             exampleCn: '按照这个价目表算运费。',
             exampleEn: 'Calculate the freight according to this price list.',
-            examplePinyin: 'àn zhào zhè ge jià mù biǎo suàn yùn fèi。',
+            examplePinyin: 'ànzhào zhège jiàmùbiǎo suàn yùnfèi。',
           },
           {
             id: 'h301b-l38-w8',
@@ -31305,7 +31305,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'price list',
             exampleCn: '价目表上写着运费。',
             exampleEn: 'The price list shows the fee.',
-            examplePinyin: 'jià mù biǎo shàng xiě zhe yùn fèi。',
+            examplePinyin: 'jiàmùbiǎo shàng xiě zhe yùnfèi。',
           },
           {
             id: 'h301b-l38-w9',
@@ -31315,7 +31315,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to transport',
             exampleCn: '邮局可以运东西。',
             exampleEn: 'The post office can ship things.',
-            examplePinyin: 'yóu jú kě yǐ yùn dōng xī。',
+            examplePinyin: 'yóujú kěyǐ yùn dōngxī。',
           },
           {
             id: 'h301b-l38-w10',
@@ -31325,7 +31325,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to remove, to move, to carry',
             exampleCn: '这个行李我来搬。',
             exampleEn: 'I\'ll move this luggage.',
-            examplePinyin: 'zhè ge xíng lǐ wǒ lái bān。',
+            examplePinyin: 'zhège xínglǐ wǒ lái bān。',
           },
           {
             id: 'h301b-l38-w11',
@@ -31335,7 +31335,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to move',
             exampleCn: '这个行李太重，我一个人搬不动。',
             exampleEn: 'This luggage is too heavy. I can\'t carry it alone.',
-            examplePinyin: 'zhè ge xíng lǐ tài zhòng ， wǒ yí gè rén bān bù dòng。',
+            examplePinyin: 'zhège xínglǐ tàizhòng， wǒ yígè rén bān bù dòng。',
           },
           {
             id: 'h301b-l38-w12',
@@ -31345,7 +31345,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'modal particle used at the end of a conditional clause',
             exampleCn: '托运的话，运费贵一点儿。',
             exampleEn: 'If you check it, the fee is a bit expensive.',
-            examplePinyin: 'tuō yùn de huà ， yùn fèi guì yì diǎn ér。',
+            examplePinyin: 'tuōyùn dehuà， yùnfèi guì yìdiǎnér。',
           },
           {
             id: 'h301b-l38-w13',
@@ -31355,7 +31355,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to be overweight',
             exampleCn: '托运行李超重了。',
             exampleEn: 'The checked luggage is overweight.',
-            examplePinyin: 'tuō yùn xíng lǐ chāo zhòng le。',
+            examplePinyin: 'tuōyùn xínglǐ chāozhòng le。',
           },
           {
             id: 'h301b-l38-w14',
@@ -31365,7 +31365,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to transport by sea',
             exampleCn: '海运行李要一个月。',
             exampleEn: 'Shipping luggage by sea takes one month.',
-            examplePinyin: 'hǎi yùn xíng lǐ yào yí gè yuè。',
+            examplePinyin: 'hǎiyùn xínglǐ yào yígèyuè。',
           },
           {
             id: 'h301b-l38-w15',
@@ -31375,7 +31375,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'for, in order to',
             exampleCn: '为了托运方便，我去问。',
             exampleEn: 'For the convenience of checking, I\'ll go ask.',
-            examplePinyin: 'wèi le tuō yùn fāng biàn ， wǒ qù wèn。',
+            examplePinyin: 'wèile tuōyùn fāngbiàn， wǒ qù wèn。',
           },
           {
             id: 'h301b-l38-w16',
@@ -31385,7 +31385,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'customer, shopper, patron',
             exampleCn: '顾客来问运费。',
             exampleEn: 'The customer came to ask about the fee.',
-            examplePinyin: 'gù kè lái wèn yùn fèi。',
+            examplePinyin: 'gùkè lái wèn yùnfèi。',
           },
           {
             id: 'h301b-l38-w17',
@@ -31395,7 +31395,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get, to claim',
             exampleCn: '我下周去取。',
             exampleEn: 'I\'ll go pick it up next week.',
-            examplePinyin: 'wǒ xià zhōu qù qǔ。',
+            examplePinyin: 'wǒ xiàzhōu qùqǔ。',
           },
           {
             id: 'h301b-l38-w18',
@@ -31405,7 +31405,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'expressway',
             exampleCn: '走高速公路要三个小时。',
             exampleEn: 'It takes three hours on the expressway.',
-            examplePinyin: 'zǒu gāo sù gōng lù yào sān gè xiǎo shí。',
+            examplePinyin: 'zǒu gāosùgōnglù yào sāngè xiǎoshí。',
           },
           {
             id: 'h301b-l38-w19',
@@ -31415,7 +31415,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'parcel',
             exampleCn: '邮局有我的包裹。',
             exampleEn: 'The post office has my parcel.',
-            examplePinyin: 'yóu jú yǒu wǒ de bāo guǒ。',
+            examplePinyin: 'yóujú yǒu wǒ de bāoguǒ。',
           },
           {
             id: 'h301b-l38-w20',
@@ -31425,7 +31425,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'international',
             exampleCn: '这是国际包裹。',
             exampleEn: 'This is an international parcel.',
-            examplePinyin: 'zhè shì guó jì bāo guǒ。',
+            examplePinyin: 'zhè shì guójì bāoguǒ。',
           },
           {
             id: 'h301b-l38-w21',
@@ -31435,7 +31435,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to exchange',
             exampleCn: '我和朋友交流学习经验。',
             exampleEn: 'I exchange study experiences with my friend.',
-            examplePinyin: 'wǒ hé péng yǒu jiāo liú xué xí jīng yàn。',
+            examplePinyin: 'wǒ hé péngyǒu jiāoliúxuéxí jīngyàn。',
           },
           {
             id: 'h301b-l38-w22',
@@ -31445,7 +31445,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'centre',
             exampleCn: '国际交流中心很忙。',
             exampleEn: 'The International Exchange Center is very busy.',
-            examplePinyin: 'guó jì jiāo liú zhōng xīn hěn máng。',
+            examplePinyin: 'guójìjiāoliú zhōngxīn hěn máng。',
           },
           {
             id: 'h301b-l38-w23',
@@ -31455,7 +31455,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'embassy',
             exampleCn: '大使馆在中心旁边。',
             exampleEn: 'The embassy is next to the center.',
-            examplePinyin: 'dà shǐ guǎn zài zhōng xīn páng biān。',
+            examplePinyin: 'dàshǐguǎn zài zhōngxīn pángbiān。',
           },
           {
             id: 'h301b-l38-w24',
@@ -31465,7 +31465,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to handle official business',
             exampleCn: '周末不办公。',
             exampleEn: 'No business is handled on weekends.',
-            examplePinyin: 'zhōu mò bù bàn gōng。',
+            examplePinyin: 'zhōumò bù bàngōng。',
           },
         ],
       },
@@ -31483,7 +31483,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'for',
             exampleCn: '我替玛丽拿东西。',
             exampleEn: 'I\'m getting things for Mali.',
-            examplePinyin: 'wǒ tì mǎ lì ná dōng xī。',
+            examplePinyin: 'wǒ tì mǎlì ná dōngxī。',
           },
           {
             id: 'h301b-l39-w2',
@@ -31493,7 +31493,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hire, to order',
             exampleCn: '玛丽叫了一辆车。',
             exampleEn: 'Mali called/hired a car.',
-            examplePinyin: 'mǎ lì jiào le yī liàng chē。',
+            examplePinyin: 'mǎlì jiào le yīliàngchē。',
           },
           {
             id: 'h301b-l39-w3',
@@ -31503,7 +31503,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'express delivery',
             exampleCn: '快递明天就到。',
             exampleEn: 'The express delivery will arrive tomorrow.',
-            examplePinyin: 'kuài dì míng tiān jiù dào。',
+            examplePinyin: 'kuàidì míngtiān jiù dào。',
           },
           {
             id: 'h301b-l39-w4',
@@ -31513,7 +31513,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'not as good as, can\'t compare with',
             exampleCn: '坐火车不如坐飞机。',
             exampleEn: 'Taking the train is not as good as taking the plane.',
-            examplePinyin: 'zuò huǒ chē bù rú zuò fēi jī。',
+            examplePinyin: 'zuòhuǒchē bùrú zuòfēijī。',
           },
           {
             id: 'h301b-l39-w5',
@@ -31523,7 +31523,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to add',
             exampleCn: '你再添一件衣服吧。',
             exampleEn: 'Add another piece of clothing.',
-            examplePinyin: 'nǐ zài tiān yī jiàn yī fú ba。',
+            examplePinyin: 'nǐ zài tiān yījiàn yīfú ba。',
           },
           {
             id: 'h301b-l39-w6',
@@ -31533,7 +31533,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'disordered, chaotic',
             exampleCn: '房间里太乱了。',
             exampleEn: 'The room is too messy.',
-            examplePinyin: 'fáng jiān lǐ tài luàn le。',
+            examplePinyin: 'fángjiān lǐ tài luàn le。',
           },
           {
             id: 'h301b-l39-w7',
@@ -31543,7 +31543,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'handbag',
             exampleCn: '我的手提包里有东西。',
             exampleEn: 'There are things in my handbag.',
-            examplePinyin: 'wǒ de shǒu tí bāo lǐ yǒu dōng xī。',
+            examplePinyin: 'wǒ de shǒutíbāo lǐ yǒu dōngxī。',
           },
           {
             id: 'h301b-l39-w8',
@@ -31553,7 +31553,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'carry-on',
             exampleCn: '钱要随身带。',
             exampleEn: 'Money must be carried on you.',
-            examplePinyin: 'qián yào suí shēn dài。',
+            examplePinyin: 'qián yào suíshēndài。',
           },
           {
             id: 'h301b-l39-w9',
@@ -31563,7 +31563,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'or',
             exampleCn: '你坐火车或者飞机去都可以。',
             exampleEn: 'You can go by train or by plane.',
-            examplePinyin: 'nǐ zuò huǒ chē huò zhě fēi jī qù dōu kě yǐ。',
+            examplePinyin: 'nǐ zuòhuǒchē huòzhě fēijī qù dōu kěyǐ。',
           },
           {
             id: 'h301b-l39-w10',
@@ -31573,7 +31573,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'especially',
             exampleCn: '今天特别忙。',
             exampleEn: 'Today is especially busy.',
-            examplePinyin: 'jīn tiān tè bié máng。',
+            examplePinyin: 'jīntiān tèbié máng。',
           },
           {
             id: 'h301b-l39-w11',
@@ -31583,7 +31583,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'light',
             exampleCn: '这个包很轻。',
             exampleEn: 'This bag is very light.',
-            examplePinyin: 'zhè ge bāo hěn qīng。',
+            examplePinyin: 'zhège bāo hěn qīng。',
           },
           {
             id: 'h301b-l39-w12',
@@ -31593,7 +31593,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'idea',
             exampleCn: '你有好主意吗？',
             exampleEn: 'Do you have any good ideas?',
-            examplePinyin: 'nǐ yǒu hǎo zhǔ yì ma？',
+            examplePinyin: 'nǐ yǒu hǎo zhǔyì ma？',
           },
           {
             id: 'h301b-l39-w13',
@@ -31603,7 +31603,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'again',
             exampleCn: '我们重新看一下。',
             exampleEn: 'Let\'s look at it again.',
-            examplePinyin: 'wǒ men chóng xīn kàn yī xià。',
+            examplePinyin: 'wǒmen chóngxīn kàn yīxià。',
           },
           {
             id: 'h301b-l39-w14',
@@ -31613,7 +31613,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'moreover, besides; additional',
             exampleCn: '另外，我还有一本书。',
             exampleEn: 'Besides, I also have a book.',
-            examplePinyin: 'lìng wài ， wǒ hái yǒu yī běn shū。',
+            examplePinyin: 'lìngwài， wǒ háiyǒu yī běnshū。',
           },
           {
             id: 'h301b-l39-w15',
@@ -31623,7 +31623,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to pass to',
             exampleCn: '请把信转给刘京。',
             exampleEn: 'Please pass the letter to Liu Jing.',
-            examplePinyin: 'qǐng bǎ xìn zhuǎn gěi liú jīng。',
+            examplePinyin: 'qǐng bǎ xìn zhuǎngěi liú jīng。',
           },
           {
             id: 'h301b-l39-w16',
@@ -31633,7 +31633,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to report, to register',
             exampleCn: '你报名了吗？',
             exampleEn: 'Did you register?',
-            examplePinyin: 'nǐ bào míng le ma？',
+            examplePinyin: 'nǐ bàomíng le ma？',
           },
           {
             id: 'h301b-l39-w17',
@@ -31653,7 +31653,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'solid, durable',
             exampleCn: '这个包很结实。',
             exampleEn: 'This bag is very solid.',
-            examplePinyin: 'zhè ge bāo hěn jiē shí。',
+            examplePinyin: 'zhège bāo hěn jiēshí。',
           },
           {
             id: 'h301b-l39-w19',
@@ -31663,7 +31663,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'street',
             exampleCn: '前边的街不长。',
             exampleEn: 'The street ahead is not long.',
-            examplePinyin: 'qián biān de jiē bù zhǎng。',
+            examplePinyin: 'qiánbiān de jiē bù zhǎng。',
           },
           {
             id: 'h301b-l39-w20',
@@ -31673,7 +31673,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'quiet',
             exampleCn: '医院里很安静。',
             exampleEn: 'It\'s very quiet in the hospital.',
-            examplePinyin: 'yī yuàn lǐ hěn ān jìng。',
+            examplePinyin: 'yīyuàn lǐ hěn ānjìng。',
           },
           {
             id: 'h301b-l39-w21',
@@ -31683,7 +31683,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to know, to understand',
             exampleCn: '我想了解你。',
             exampleEn: 'I want to know about you.',
-            examplePinyin: 'wǒ xiǎng liǎo jiě nǐ。',
+            examplePinyin: 'wǒ xiǎng liǎojiě nǐ。',
           },
           {
             id: 'h301b-l39-w22',
@@ -31693,7 +31693,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'ward of a hospital',
             exampleCn: '他在病房休息。',
             exampleEn: 'He is resting in the ward.',
-            examplePinyin: 'tā zài bìng fáng xiū xī。',
+            examplePinyin: 'tā zài bìngfáng xiūxī。',
           },
         ],
       },
@@ -31711,7 +31711,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cold drink',
             exampleCn: '你想喝冷饮吗？',
             exampleEn: 'Do you want a cold drink?',
-            examplePinyin: 'nǐ xiǎng hē lěng yǐn ma？',
+            examplePinyin: 'nǐ xiǎng hē lěngyǐn ma？',
           },
           {
             id: 'h301b-l40-w2',
@@ -31721,7 +31721,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to leave the country',
             exampleCn: '他要出境了。',
             exampleEn: 'He is about to leave the country.',
-            examplePinyin: 'tā yào chū jìng le。',
+            examplePinyin: 'tā yào chūjìng le。',
           },
           {
             id: 'h301b-l40-w3',
@@ -31731,7 +31731,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'all the way',
             exampleCn: '一路上多保重。',
             exampleEn: 'Take good care of yourself along the way.',
-            examplePinyin: 'yī lù shàng duō bǎo zhòng。',
+            examplePinyin: 'yīlùshàng duō bǎozhòng。',
           },
           {
             id: 'h301b-l40-w4',
@@ -31741,7 +31741,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to take care',
             exampleCn: '你要多保重。',
             exampleEn: 'You need to take good care of yourself.',
-            examplePinyin: 'nǐ yào duō bǎo zhòng。',
+            examplePinyin: 'nǐ yào duō bǎozhòng。',
           },
           {
             id: 'h301b-l40-w5',
@@ -31751,7 +31751,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to hope; wish',
             exampleCn: '我希望你能来。',
             exampleEn: 'I hope you can come.',
-            examplePinyin: 'wǒ xī wàng nǐ néng lái。',
+            examplePinyin: 'wǒ xīwàng nǐ néng lái。',
           },
           {
             id: 'h301b-l40-w6',
@@ -31761,7 +31761,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'used for emphasis',
             exampleCn: '我可没时间。',
             exampleEn: 'I really don\'t have time.',
-            examplePinyin: 'wǒ kě méi shí jiān。',
+            examplePinyin: 'wǒ kě méi shíjiān。',
           },
           {
             id: 'h301b-l40-w7',
@@ -31771,7 +31771,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'safe',
             exampleCn: '祝你平安！',
             exampleEn: 'Wish you safety!',
-            examplePinyin: 'zhù nǐ píng ān！',
+            examplePinyin: 'zhùnǐpíngān！',
           },
           {
             id: 'h301b-l40-w8',
@@ -31781,7 +31781,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'airport lounge',
             exampleCn: '候机室里人很多。',
             exampleEn: 'There are many people in the airport lounge.',
-            examplePinyin: 'hòu jī shì lǐ rén hěn duō。',
+            examplePinyin: 'hòujīshì lǐ rén hěnduō。',
           },
           {
             id: 'h301b-l40-w9',
@@ -31791,7 +31791,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to run',
             exampleCn: '你别跑太快。',
             exampleEn: 'Don\'t run too fast.',
-            examplePinyin: 'nǐ bié pǎo tài kuài。',
+            examplePinyin: 'nǐ biépǎo tài kuài。',
           },
           {
             id: 'h301b-l40-w10',
@@ -31801,7 +31801,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'crowded, jammed; to squeeze',
             exampleCn: '车上太挤了。',
             exampleEn: 'It\'s too crowded on the bus.',
-            examplePinyin: 'chē shàng tài jǐ le。',
+            examplePinyin: 'chēshàng tài jǐ le。',
           },
           {
             id: 'h301b-l40-w11',
@@ -31811,7 +31811,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to delay',
             exampleCn: '别耽误时间。',
             exampleEn: 'Don\'t waste time.',
-            examplePinyin: 'bié dān wù shí jiān。',
+            examplePinyin: 'bié dānwùshíjiān。',
           },
           {
             id: 'h301b-l40-w12',
@@ -31821,7 +31821,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'proper',
             exampleCn: '这双鞋不合适。',
             exampleEn: 'This pair of shoes doesn\'t fit.',
-            examplePinyin: 'zhè shuāng xié bù hé shì。',
+            examplePinyin: 'zhè shuāng xié bù héshì。',
           },
           {
             id: 'h301b-l40-w13',
@@ -31831,7 +31831,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'sweat',
             exampleCn: '他出了很多汗。',
             exampleEn: 'He sweated a lot.',
-            examplePinyin: 'tā chū le hěn duō hàn。',
+            examplePinyin: 'tā chū le hěnduō hàn。',
           },
           {
             id: 'h301b-l40-w14',
@@ -31841,7 +31841,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'customs',
             exampleCn: '海关在那边。',
             exampleEn: 'Customs is over there.',
-            examplePinyin: 'hǎi guān zài nà biān。',
+            examplePinyin: 'hǎiguān zài nàbiān。',
           },
           {
             id: 'h301b-l40-w15',
@@ -31851,7 +31851,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to greet, to ask after',
             exampleCn: '我向老师问好。',
             exampleEn: 'I greet the teacher.',
-            examplePinyin: 'wǒ xiàng lǎo shī wèn hǎo。',
+            examplePinyin: 'wǒ xiàng lǎoshī wènhǎo。',
           },
           {
             id: 'h301b-l40-w16',
@@ -31861,7 +31861,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'cap, hat',
             exampleCn: '你的帽子呢？',
             exampleEn: 'Where is your cap?',
-            examplePinyin: 'nǐ de mào zi ne？',
+            examplePinyin: 'nǐ de màozi ne？',
           },
           {
             id: 'h301b-l40-w17',
@@ -31871,7 +31871,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'milk',
             exampleCn: '我想喝牛奶。',
             exampleEn: 'I want to drink milk.',
-            examplePinyin: 'wǒ xiǎng hē niú nǎi。',
+            examplePinyin: 'wǒ xiǎng hēniúnǎi。',
           },
           {
             id: 'h301b-l40-w18',
@@ -31881,7 +31881,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'careful, conscientious, earnest',
             exampleCn: '他学习很认真。',
             exampleEn: 'He studies very conscientiously.',
-            examplePinyin: 'tā xué xí hěn rèn zhēn。',
+            examplePinyin: 'tā xuéxí hěn rènzhēn。',
           },
           {
             id: 'h301b-l40-w19',
@@ -31891,7 +31891,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to think',
             exampleCn: '我再考虑一下。',
             exampleEn: 'Let me think about it a bit more.',
-            examplePinyin: 'wǒ zài kǎo lǜ yī xià。',
+            examplePinyin: 'wǒ zài kǎolǜyīxià。',
           },
           {
             id: 'h301b-l40-w20',
@@ -31901,7 +31901,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to make progress',
             exampleCn: '他进步很大。',
             exampleEn: 'He has made great progress.',
-            examplePinyin: 'tā jìn bù hěn dà。',
+            examplePinyin: 'tā jìnbù hěndà。',
           },
           {
             id: 'h301b-l40-w21',
@@ -31911,7 +31911,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'hardworking, industrious',
             exampleCn: '他工作很努力。',
             exampleEn: 'He works very hard.',
-            examplePinyin: 'tā gōng zuò hěn nǔ lì。',
+            examplePinyin: 'tā gōngzuò hěn nǔlì。',
           },
           {
             id: 'h301b-l40-w22',
@@ -31921,7 +31921,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to get off work, after work',
             exampleCn: '我下班去找你。',
             exampleEn: 'I\'ll go find you after work.',
-            examplePinyin: 'wǒ xià bān qù zhǎo nǐ。',
+            examplePinyin: 'wǒ xiàbān qù zhǎo nǐ。',
           },
           {
             id: 'h301b-l40-w23',
@@ -31931,7 +31931,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to exhibit; exhibition',
             exampleCn: '我们去看展览吧。',
             exampleEn: 'Let\'s go see the exhibition.',
-            examplePinyin: 'wǒ men qù kàn zhǎn lǎn ba。',
+            examplePinyin: 'wǒmen qù kàn zhǎnlǎn ba。',
           },
           {
             id: 'h301b-l40-w24',
@@ -31941,7 +31941,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to go to work',
             exampleCn: '他每天八点上班。',
             exampleEn: 'He goes to work at eight every day.',
-            examplePinyin: 'tā měi tiān bā diǎn shàng bān。',
+            examplePinyin: 'tā měitiān bādiǎn shàngbān。',
           },
           {
             id: 'h301b-l40-w25',
@@ -31951,7 +31951,7 @@ export const textbookVocabList: TextbookVocab[] = [
             english: 'to enter a country',
             exampleCn: '入境以后给我写信。',
             exampleEn: 'Write to me after entering the country.',
-            examplePinyin: 'rù jìng yǐ hòu gěi wǒ xiě xìn。',
+            examplePinyin: 'rùjìng yǐhòu gěi wǒ xiěxìn。',
           },
         ],
       },
