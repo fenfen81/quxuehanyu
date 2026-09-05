@@ -7,7 +7,7 @@ import { supabase } from './supabaseClient'
 
 export const CREDIT = {
   SIGNUP: 500,   // 注册赠送
-  SPEND: 20,     // 每次开始练习消耗
+  SPEND: 10,     // 每次开始练习消耗（2026-09-05 由 20 下调，同样积分可练两倍次数）
   SURVEY: 200,   // 完成问卷奖励
   DAILY: 100,    // 每日登录奖励
   REFERRAL: 100, // 推荐成功奖励
