@@ -8,11 +8,17 @@ import type { TextbookWord } from '../data/textbookDict'
 import { sfx } from '../utils/sfx'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
-import { useLang } from '@/i18n/useLang'
 import { categories } from '../data/content'
 import { WordPopup } from './practice/WordPopup'
 import { PaywallDialog } from '@/components/PaywallDialog'
 import { spendCredits, CREDIT } from '@/lib/credits'
+import { SpeakBtn } from './SpeakButton'
+import { speakWord, unlockAudio } from '../lib/speech'
+import { searchTextbookWords, getWordOccurrences } from '../lib/textbookLookup'
+import type { TbWordHit } from '../lib/textbookLookup'
+import { WordLookupDialog } from './vocab/WordLookupDialog'
+import { LessonVocabPreview } from './vocab/LessonVocabPreview'
+import { TextbookVocabPreview } from './vocab/TextbookVocabPreview'
 
 // ── 教材生词 → HskWord 适配器 ──
 function textbookWordToHskWord(w: TextbookWord): HskWord {
@@ -29,131 +35,7 @@ for (const tb of textbookVocabList) {
   }
 }
 
-// ══════════════════════════════════════════════════════════════════════════════
-//  TTS — 优先播放预生成 MP3（安卓兼容），回退到 speechSynthesis
-// ══════════════════════════════════════════════════════════════════════════════
-let audioUnlocked = false
-
-/** 安全获取 speechSynthesis */
-function getSynth(): SpeechSynthesis | null {
-  try {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      return window.speechSynthesis
-    }
-  } catch {}
-  return null
-}
-
-function getZhVoice(): SpeechSynthesisVoice | null {
-  const synth = getSynth()
-  if (!synth) return null
-  try {
-    const voices = synth.getVoices()
-    return voices.find(v => v.lang === 'zh-CN') || voices.find(v => v.lang.startsWith('zh')) || null
-  } catch {}
-  return null
-}
-
-/** 解锁音频播放（安卓要求首次用户手势触发 Audio/speechSynthesis） */
-/** 解锁音频播放（安卓要求首次用户手势触发 Audio/speechSynthesis） */
-function unlockAudio() {
-  if (audioUnlocked) return
-  // 播放静音WAV来解锁 Audio API（安卓兼容）
-  try {
-    const silent = new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=')
-    silent.volume = 0
-    silent.play().then(() => { audioUnlocked = true }).catch(() => {})
-  } catch {}
-  // 同时解锁 speechSynthesis 作为 fallback
-  const synth = getSynth()
-  if (synth) {
-    try {
-      const u = new SpeechSynthesisUtterance(' ')
-      u.volume = 0
-      synth.speak(u)
-    } catch {}
-  }
-}
-
-
-// Audio 缓存
-const wordAudioCache = new Map<string, HTMLAudioElement>()
-let currentWordAudio: HTMLAudioElement | null = null
-
-/** 朗读中文单词：优先播放预生成 MP3，回退到 speechSynthesis */
-function speakWord(text: string, wordId?: string) {
-  // 停止当前播放
-  if (currentWordAudio) {
-    currentWordAudio.pause()
-    currentWordAudio.currentTime = 0
-    currentWordAudio = null
-  }
-  const synth = getSynth()
-  if (synth) { try { synth.cancel() } catch {} }
-
-  // 优先播放预生成 MP3（安卓兼容，Audio.play() 在用户手势解锁后可自动播放）
-  if (wordId) {
-    const cached = wordAudioCache.get(wordId)
-    if (cached) {
-      currentWordAudio = cached
-      cached.currentTime = 0
-      cached.play().catch(() => {
-        // MP3 播放失败，回退到 speechSynthesis
-        speakWithSynth(text)
-      })
-      return
-    }
-    // 动态加载
-    const audio = new Audio(`./audio-words/${wordId}.mp3`)
-    audio.preload = 'auto'
-    wordAudioCache.set(wordId, audio)
-    currentWordAudio = audio
-    audio.currentTime = 0
-    audio.play().catch(() => {
-      // MP3 播放失败，回退到 speechSynthesis
-      speakWithSynth(text)
-    })
-    return
-  }
-
-  // 没有 wordId，直接用 speechSynthesis
-  speakWithSynth(text)
-}
-
-/** speechSynthesis 回退方案 */
-function speakWithSynth(text: string) {
-  const synth = getSynth()
-  if (!synth) return
-  try {
-    if (synth.paused) synth.resume()
-    synth.cancel()
-    setTimeout(() => {
-      try {
-        if (synth.paused) synth.resume()
-        const u = new SpeechSynthesisUtterance(text)
-        const v = getZhVoice()
-        if (v) u.voice = v
-        u.lang = 'zh-CN'
-        u.rate = 0.85
-        u.volume = 1
-        synth.speak(u)
-      } catch {}
-    }, 80)
-  } catch {}
-}
-
-function SpeakBtn({ text, wordId, className = '' }: { text: string; wordId?: string; className?: string }) {
-  const [playing, setPlaying] = useState(false)
-  const { lang } = useLang()
-  const speakTitle = t('words_tap_speak', lang)
-  return (
-    <button onClick={(e) => { e.stopPropagation(); unlockAudio(); speakWord(text, wordId); setPlaying(true); setTimeout(() => setPlaying(false), 1500); sfx.play('click') }}
-            className={`inline-flex items-center justify-center rounded-full transition-all duration-150 hover:scale-110 active:scale-95 ${playing ? 'animate-pulse' : ''} ${className}`}
-            title={speakTitle} aria-label={speakTitle}>
-      {playing ? '🔊' : '🔈'}
-    </button>
-  )
-}
+// 朗读（TTS）已抽离到 src/lib/speech.ts 与 src/components/SpeakButton.tsx，供查词弹窗等复用
 
 // ══════════════════════════════════════════════════════════════════════════════
 //  工具函数
@@ -275,6 +157,10 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [autoExampleAudio, setAutoExampleAudio]   = useState(true)
   const [searchQ, setSearchQ]                 = useState('')
   const [searchResults, setSearchResults]     = useState<HskWord[]>([])
+  const [tbSearchResults, setTbSearchResults] = useState<TbWordHit[]>([])
+  const [lookupHit, setLookupHit]             = useState<TbWordHit | null>(null)
+  const [previewLesson, setPreviewLesson]     = useState<{ textbookId: string; lessonId: string } | null>(null)
+  const [previewBookId, setPreviewBookId]   = useState<string | null>(null)
   const [showSettings, setShowSettings]       = useState(false)
   const [showWrongBook, setShowWrongBook]     = useState(false)
   const [sfxOn, setSfxOn]                     = useState(sfx.enabled)
@@ -334,7 +220,17 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     return () => clearTimeout(t)
   }, [flipped, autoExampleAudio, idx, sessionQueue, mode])
   useEffect(() => { if (!sessionQueue[idx] || mode !== 'quiz' || view !== 'learning') return; const pool = (vocabMode === 'textbook' ? sessionQueue : levelWords).filter(w => w.id !== sessionQueue[idx].id); const distractors = pickDistractors(sessionQueue[idx], pool, 3); setOptions(shuffle([sessionQueue[idx], ...distractors])); setChosen(null) }, [idx, mode, view, sessionQueue, levelWords, vocabMode])
-  useEffect(() => { if (!searchQ.trim()) { setSearchResults([]); return }; const q = searchQ.trim().toLowerCase(); setSearchResults(hskWords.filter(w => w.hanzi.includes(q) || w.pinyin.toLowerCase().includes(q) || w.english.toLowerCase().includes(q)).slice(0, 12)) }, [searchQ])
+  useEffect(() => {
+    if (!searchQ.trim()) { setSearchResults([]); setTbSearchResults([]); return }
+    const q = searchQ.trim().toLowerCase()
+    if (vocabMode === 'textbook') {
+      setSearchResults([])
+      setTbSearchResults(searchTextbookWords(q, 12))
+    } else {
+      setTbSearchResults([])
+      setSearchResults(hskWords.filter(w => w.hanzi.includes(q) || w.pinyin.toLowerCase().includes(q) || w.english.toLowerCase().includes(q)).slice(0, 12))
+    }
+  }, [searchQ, vocabMode])
   useEffect(() => { if (mode === 'type' && view === 'learning' && sessionQueue[idx]) { setTypeInput(''); setTypedCorrect(null); setTypeMistakes(0); setTimeout(() => typeInputRef.current?.focus(), 100) } }, [idx, mode, view, sessionQueue])
   useEffect(() => { const warmup = () => { sfx.warmup(); unlockAudio() }; document.addEventListener('click', warmup, { once: true }); document.addEventListener('keydown', warmup, { once: true }); document.addEventListener('touchstart', warmup, { once: true, passive: true }); return () => { document.removeEventListener('click', warmup); document.removeEventListener('keydown', warmup); document.removeEventListener('touchstart', warmup) } }, [])
 
@@ -420,6 +316,17 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       setView('learning'); setMode('flashcard'); sfx.play('complete')
     })
   }, [beginSession])
+  // 从查词结果直接进入练习：把这个词在所有教材中的条目依次排进队列
+  const startHitSession = useCallback((words: TextbookWord[], _label: string) => {
+    if (!words.length) return
+    setVocabMode('textbook')
+    beginSession(() => {
+      setSessionQueue(words.map(textbookWordToHskWord))
+      setIdx(0); setFlipped(false); setChosen(null)
+      setScore({ correct: 0, wrong: 0 }); setShowResult(false)
+      setView('learning'); setMode('flashcard'); sfx.play('complete')
+    })
+  }, [beginSession])
 
   const saveTbLessonProgress = useCallback((lessonKey: string, count: number) => {
     setTbLearnedLessons(prev => {
@@ -494,11 +401,26 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
         </div>
       )}
 
-      {/* 搜索栏 — 仅 HSK 模式 */}
-      {vocabMode === 'hsk' && view !== 'chooseMode' && (
+      {/* 搜索栏 — HSK 与教材模式通用 */}
+      {view !== 'chooseMode' && (
         <div className="relative"><span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
-          <input type="text" placeholder={tt('words_search_placeholder')} value={searchQ} onChange={e=>{setSearchQ(e.target.value);sfx.play('type')}} onFocus={()=>{if(searchQ)setView('search')}} onKeyDown={e=>{if(e.key==='Enter'&&searchResults[0]){const w=searchResults[0];beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning');sfx.play('click')})}}} className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"/>
-          {searchResults.length > 0 && (<div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto"><div className="grid grid-cols-1 sm:grid-cols-2 gap-0">{searchResults.map(w=><div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-indigo-50 cursor-pointer border-b border-slate-100" onClick={()=>{sfx.play('click');beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning')})}}><span className="text-2xl">{w.emoji}</span><div className="min-w-0 flex-1"><div className="font-bold text-slate-800 text-sm">{w.hanzi}</div><div className="text-xs text-indigo-600">{w.pinyin}</div><div className="text-xs text-slate-400 truncate">{w.english}</div></div><SpeakBtn text={w.hanzi} wordId={w.id} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/><span className="text-[10px] bg-slate-100 rounded px-1.5 py-0.5 shrink-0">HSK{w.level}</span></div>)}</div></div>)}
+          <input type="text" placeholder={vocabMode==='textbook'?tt('tb_search_placeholder'):tt('words_search_placeholder')} value={searchQ} onChange={e=>{setSearchQ(e.target.value);sfx.play('type')}} onFocus={()=>{if(searchQ&&vocabMode==='hsk')setView('search')}} onKeyDown={e=>{if(e.key==='Enter'&&searchResults[0]){const w=searchResults[0];beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning');sfx.play('click')})}}} className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-white text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"/>
+          {vocabMode === 'hsk' && searchResults.length > 0 && (<div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto"><div className="grid grid-cols-1 sm:grid-cols-2 gap-0">{searchResults.map(w=><div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-indigo-50 cursor-pointer border-b border-slate-100" onClick={()=>{sfx.play('click');beginSession(()=>{setSessionQueue([w]);setIdx(0);setFlipped(false);setMode('flashcard');setSearchQ('');setSearchResults([]);setShowResult(false);setView('learning')})}}><span className="text-2xl">{w.emoji}</span><div className="min-w-0 flex-1"><div className="font-bold text-slate-800 text-sm">{w.hanzi}</div><div className="text-xs text-indigo-600">{w.pinyin}</div><div className="text-xs text-slate-400 truncate">{w.english}</div></div><SpeakBtn text={w.hanzi} wordId={w.id} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/><span className="text-[10px] bg-slate-100 rounded px-1.5 py-0.5 shrink-0">HSK{w.level}</span></div>)}</div></div>)}
+          {vocabMode === 'textbook' && searchQ.trim() !== '' && (tbSearchResults.length > 0 ? (
+            <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-xl overflow-hidden max-h-[360px] overflow-y-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+                {tbSearchResults.map(hit => { const o = hit.occurrences[0]; return (
+                  <div key={hit.hanzi} className="flex items-center gap-2.5 px-3 py-2.5 hover:bg-sky-50 cursor-pointer border-b border-slate-100" onClick={()=>{sfx.play('click');setLookupHit(hit);setSearchQ('');setTbSearchResults([])}}>
+                    <div className="min-w-0 flex-1"><div className="font-bold text-slate-800 text-sm">{hit.hanzi}</div><div className="text-xs text-sky-600">{o.pinyin}</div><div className="text-xs text-slate-400 truncate">{o.english}</div></div>
+                    <SpeakBtn text={hit.hanzi} wordId={o.wordId} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/>
+                    <span className="text-[10px] bg-amber-50 text-amber-700 border border-amber-200 rounded px-1.5 py-0.5 shrink-0">{tt('tb_total_places').replace('{n}', String(hit.occurrences.length))}</span>
+                  </div>
+                )})}
+              </div>
+            </div>
+          ) : (
+            <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-white rounded-xl border border-slate-200 shadow-sm px-4 py-3 text-xs text-slate-400">{tt('tb_no_match')}</div>
+          ))}
         </div>
       )}
 
@@ -551,14 +473,17 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           {tbStep === 'textbook' && tbCategoryId && (
             <div className="grid grid-cols-1 gap-3">
               {textbookVocabList.filter(t => t.categoryId === tbCategoryId).map(tb => (
-                <button key={tb.textbookId} onClick={()=>{setTbTextbookId(tb.textbookId);setTbStep('lesson');sfx.play('click')}} className="rounded-xl border border-slate-200 bg-white p-5 text-left hover:border-emerald-300 hover:shadow-md transition-all group flex items-center gap-4">
-                  <div className="text-3xl group-hover:scale-110 transition-transform">📖</div>
-                  <div className="flex-1">
-                    <h4 className="font-bold text-slate-800">{lang==='en'?tb.titleEn:tb.title}</h4>
-                    <p className="text-xs text-slate-400 mt-0.5">{tb.lessons.length} {lang==='en'?'lessons':'课'} · {tb.lessons.reduce((s,l)=>s+l.words.length,0)} {lang==='en'?'words':'词'}</p>
-                  </div>
-                  <span className="text-slate-300">›</span>
-                </button>
+                <div key={tb.textbookId} className="relative rounded-xl border border-slate-200 bg-white p-5 hover:border-emerald-300 hover:shadow-md transition-all group flex items-center gap-4">
+                  <button onClick={()=>{setTbTextbookId(tb.textbookId);setTbStep('lesson');sfx.play('click')}} className="flex items-center gap-4 flex-1 min-w-0 text-left">
+                    <div className="text-3xl group-hover:scale-110 transition-transform">📖</div>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="font-bold text-slate-800">{lang==='en'?tb.titleEn:tb.title}</h4>
+                      <p className="text-xs text-slate-400 mt-0.5">{tb.lessons.length} {lang==='en'?'lessons':'课'} · {tb.lessons.reduce((s,l)=>s+l.words.length,0)} {lang==='en'?'words':'词'}</p>
+                    </div>
+                    <span className="text-slate-300">›</span>
+                  </button>
+                  <button onClick={()=>{sfx.play('click');setPreviewBookId(tb.textbookId)}} title={tt('tb_book_vocab_btn')} className="shrink-0 ml-2 px-2.5 py-1.5 rounded-lg text-[11px] font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 transition-colors">📋 {tt('tb_book_vocab_btn')}</button>
+                </div>
               ))}
             </div>
           )}
@@ -575,14 +500,17 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                   const total = lesson.words.length
                   const pct = total > 0 ? Math.round((done/total)*100) : 0
                   return (
-                    <button key={lesson.lessonId} onClick={()=>{setTbLessonId(lesson.lessonId);startTextbookLessonSession(tb.textbookId, lesson.lessonId)}} className={`rounded-xl border p-4 text-left hover:shadow-md transition-all group ${pct>=100?'border-emerald-300 bg-emerald-50':'border-slate-200 bg-white hover:border-indigo-300'}`}>
-                      <div className="flex items-center justify-between mb-1">
-                        <h4 className="font-bold text-slate-800 text-sm">{lang==='en'?lesson.lessonTitleEn:lesson.lessonTitle}</h4>
-                        {pct>=100 && <span className="text-xs text-emerald-600 font-bold">✓</span>}
-                      </div>
-                      <div className="text-xs text-slate-400">{total} {lang==='en'?'words':'个生词'}</div>
-                      {pct > 0 && <div className="mt-1.5 w-full h-1.5 bg-slate-100 rounded-full overflow-hidden"><div className="h-full rounded-full bg-emerald-400" style={{width:`${pct}%`}}/></div>}
-                    </button>
+                    <div key={lesson.lessonId} className={`relative rounded-xl border p-4 hover:shadow-md transition-all group ${pct>=100?'border-emerald-300 bg-emerald-50':'border-slate-200 bg-white hover:border-indigo-300'}`}>
+                      <button onClick={()=>{setTbLessonId(lesson.lessonId);startTextbookLessonSession(tb.textbookId, lesson.lessonId)}} className="w-full text-left pr-20">
+                        <div className="flex items-center justify-between mb-1">
+                          <h4 className="font-bold text-slate-800 text-sm">{lang==='en'?lesson.lessonTitleEn:lesson.lessonTitle}</h4>
+                          {pct>=100 && <span className="text-xs text-emerald-600 font-bold">✓</span>}
+                        </div>
+                        <div className="text-xs text-slate-400">{total} {lang==='en'?'words':'个生词'}</div>
+                        {pct > 0 && <div className="mt-1.5 w-full h-1.5 bg-slate-100 rounded-full overflow-hidden"><div className="h-full rounded-full bg-emerald-400" style={{width:`${pct}%`}}/></div>}
+                      </button>
+                      <button onClick={()=>{sfx.play('click');setPreviewLesson({textbookId: tb.textbookId, lessonId: lesson.lessonId})}} title={tt('tb_preview_btn')} className="absolute right-3 top-3 px-2 py-1 rounded-lg text-[11px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 transition-colors">👁 {tt('tb_preview_btn')}</button>
+                    </div>
                   )
                 })}
               </div>
@@ -818,6 +746,37 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
 
       {/* 笔顺弹窗 */}
       <WordPopup word={strokeWord} pinyin={current?.pinyin || ''} meaning={current?.english || ''} open={strokeOpen} onOpenChange={setStrokeOpen} lang={lang} />
+
+      {/* 教材查词 · 词条详情（展示该词出现在哪些教材的哪些课） */}
+      {lookupHit && (
+        <WordLookupDialog
+          hit={lookupHit}
+          lang={lang}
+          onClose={() => setLookupHit(null)}
+          onStartLesson={(tid, lid) => { setTbTextbookId(tid); setTbLessonId(lid); startTextbookLessonSession(tid, lid) }}
+          onStudyWords={startHitSession} />
+      )}
+
+      {/* 每课生词表预览 */}
+      {previewLesson && (
+        <LessonVocabPreview
+          textbookId={previewLesson.textbookId}
+          lessonId={previewLesson.lessonId}
+          lang={lang}
+          onClose={() => setPreviewLesson(null)}
+          onStartLesson={(tid, lid) => { setTbTextbookId(tid); setTbLessonId(lid); startTextbookLessonSession(tid, lid) }}
+          onLookupWord={(hanzi) => { const occ = getWordOccurrences(hanzi); if (occ.length) { setLookupHit({ hanzi, occurrences: occ }); setPreviewLesson(null) } }} />
+      )}
+
+      {/* 整本教材生词表 */}
+      {previewBookId && (
+        <TextbookVocabPreview
+          textbookId={previewBookId}
+          lang={lang}
+          onClose={() => setPreviewBookId(null)}
+          onStartLesson={(tid, lid) => { setTbTextbookId(tid); setTbLessonId(lid); startTextbookLessonSession(tid, lid) }}
+          onLookupWord={(hanzi) => { const occ = getWordOccurrences(hanzi); if (occ.length) { setLookupHit({ hanzi, occurrences: occ }); setPreviewBookId(null) } }} />
+      )}
 
       {/* 积分不足付费墙 */}
       {paywallOpen && (
