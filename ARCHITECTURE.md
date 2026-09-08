@@ -43,15 +43,19 @@
   split: string                    // 分词，空格分隔，如 "你 学 英语 吗"
   en:    string                    // 整句英文
   dict:  Record<string,string>     // 词→"拼音 / 英文"，如 "你": "nǐ / you"
-  chunkEn?: string[]               // 【HSK5 专属】意群分段后的逐段英文，与 chunkSentence 输出 1:1 对齐
+  chunkEn?: string[]               // 【意群分段教材】逐段英文，与 chunkSentence 输出 1:1 对齐（HSK5 有人工版；无则回退整句 en）
 }
 ```
 - `dict` 值格式固定 `"拼音 / 英文"`，取纯英文用 `dict[w].split(' / ').pop()`。
-- `chunkEn` 仅 HSK5 句子存在，由人工/语料对齐生成，顺序与 `chunkSentence` 输出一致。
+- `chunkEn` 仅意群分段教材需要：HSK5 有人工/语料对齐版；**《想说就说·商务汉语口语完全手册》未提供 chunkEn**，
+  分段练习时自动回退显示整句 `en`（自动按词拼的英文会生硬如 "expensive company"，故宁缺勿滥）。
 
 ### 2.2 id 命名规则（教材隔离核心）
 - 教材 textbook id 是 `hsk-standard-5`（注意不是 `hsk5-`）。
-- **句子 id 用 `hsk5-` 前缀**（如 `hsk5-l7n1`），这是判定"是否走意群分段"的唯一依据。
+- **句子 id 用 `hsk5-` 前缀**（如 `hsk5-l7n1`）；商务汉语手册用 `swcd-`（`swcd-l1-t1-s1`）。
+- 判定"是否走意群分段"的**唯一真相源**是 `src/utils/chunkSentence.ts` 的
+  `CHUNK_MODE_PREFIXES = ['hsk5','swcd']` + `isChunkedSentence(id)`，三处（DragPractice /
+  ChunkedTypePractice / gen_sentence_audio.cjs）统一调用它，**不要再各自写 startsWith**。
 - 汉语教程、HSK1-4 的句子 id 前缀各异（如 `l3t2s5`、`hsk1-...`），一律走逐词分词。
 
 ---
@@ -121,7 +125,7 @@ const chunks = isHsk5
 - 安卓 `speechSynthesis` 在 useEffect/setTimeout 被静默丢弃，统一用预生成 MP3 + `Audio.play()`。
 
 ### 4.3 生成脚本教材感知（`gen_sentence_audio.cjs`）
-- 删除阶段：`hsk5-` 的 -c 保留（已对齐 1760 段）；非 HSK5 旧意群 -c 删除重建为逐词。
+- 删除阶段：`isChunkedSentence(f)`（hsk5-/swcd-）的 -c 保留（已对齐）；其余旧意群 -c 删除重建为逐词。
 - `RESUME_SEG=1` 续跑：跳过已生成的非 HSK5 逐词 -c，仅补齐缺失（解决每次重跑被清空问题）。
 - 分段文本同步走 `isH5 ? chunkSentence : split.split(/\s+/)`。
 

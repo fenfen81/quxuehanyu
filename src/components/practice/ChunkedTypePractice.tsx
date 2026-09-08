@@ -1,7 +1,7 @@
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { sfx } from '@/utils/sfx'
-import { chunkSentence, normalizeText } from '@/utils/chunkSentence'
+import { chunkSentence, normalizeText, isChunkedSentence } from '@/utils/chunkSentence'
 import { lookupGloss } from '@/utils/chunkGloss'
 import { usePracticeSettings, INPUT_FONT, INPUT_HEIGHT, HINT_FONT } from '@/hooks/usePracticeSettings'
 import type { Sentence } from '@/types'
@@ -22,8 +22,8 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
   const fontSize = usePracticeSettings((s) => s.fontSize)
 
-  // 仅 HSK5（上）使用新意群分段；其余教材按原始 sentence.split 逐词分词
-  const isHsk5 = sentence.id.startsWith('hsk5-')
+  // 长句教材（HSK5 上、商务汉语手册）走意群分段；其余教材按 sentence.split 逐词分词
+  const isHsk5 = isChunkedSentence(sentence.id)
   const chunks = useMemo(() => {
     return isHsk5
       ? chunkSentence(sentence.cn, sentence.split)

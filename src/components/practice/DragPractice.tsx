@@ -3,7 +3,7 @@ import { sfx } from '@/utils/sfx'
 import type { Sentence } from '@/types'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
-import { chunkSentence } from '@/utils/chunkSentence'
+import { chunkSentence, isChunkedSentence } from '@/utils/chunkSentence'
 import { usePracticeSettings, CHIP_FONT } from '@/hooks/usePracticeSettings'
 
 interface DragPracticeProps {
@@ -36,8 +36,8 @@ const isTouchDevice = (() => {
 export function DragPractice({ sentence, onWordClick, onAnswer, lang = 'zh' }: DragPracticeProps) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
   const fontSize = usePracticeSettings((s) => s.fontSize)
-  // 仅 HSK5（上）使用新意群分段；其余教材（汉语教程、HSK1-4）按原始 sentence.split 逐词分词
-  const isHsk5 = sentence.id.startsWith('hsk5-')
+  // 长句教材（HSK5 上、商务汉语手册）走意群分段；其余教材按 sentence.split 逐词分词
+  const isHsk5 = isChunkedSentence(sentence.id)
   const words = useMemo(() => {
     return isHsk5
       ? chunkSentence(sentence.cn, sentence.split)

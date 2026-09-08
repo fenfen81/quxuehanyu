@@ -45276,6 +45276,10650 @@ export const textbooks: Textbook[] = [
         ]
       }
     ]
+  },
+  {
+    "id": "business-chinese-handbook",
+    "categoryId": "vocational",
+    "title": "《想说就说·商务汉语口语完全手册》",
+    "titleEn": "Business Chinese Speaking Handbook",
+    "level": "中级",
+    "lessons": [
+      {
+        "id": "lesson1",
+        "title": "Unit 1 Recruitment and Interview 招聘应聘",
+        "titleEn": "Unit 1",
+        "texts": [
+          {
+            "id": "swcd-l1-t1",
+            "label": "场景 1 求职面试",
+            "sentences": [
+              {
+                "id": "swcd-l1-t1-s1",
+                "cn": "请你先做个自我介绍吧。",
+                "split": "请 你 先 做 个 自我 介绍 吧",
+                "en": "Please introduce yourself.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你": "ni / you",
+                  "先": "xian / first",
+                  "做": "zuo / to do; to make",
+                  "个": "ge / (measure word)",
+                  "介绍": "jieshao / introduce",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s2",
+                "cn": "你对我们公司了解多少？",
+                "split": "你 对 我们 公司 了解 多少",
+                "en": "How much do you know about our company?",
+                "dict": {
+                  "你": "ni / you",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "了解": "liaojie / to know, to understand",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s3",
+                "cn": "你为什么选择来我们公司应聘？",
+                "split": "你 为 什么 选择 来 我们 公司 应聘",
+                "en": "Why did you choose to apply to our company?",
+                "dict": {
+                  "你": "ni / you",
+                  "为": "wei / for",
+                  "什么": "shenme / what",
+                  "来": "lai / to come",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "应聘": "yingpin / to apply for a job"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s4",
+                "cn": "你的核心竞争力是什么？",
+                "split": "你 的 核心 竞争力 是 什么",
+                "en": "What is your core competency?",
+                "dict": {
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "什么": "shenme / what"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s5",
+                "cn": "能说一下你的优势和劣势吗？",
+                "split": "能 说 一下 你 的 优势 和 劣势 吗",
+                "en": "What are your advantages and disadvantages?",
+                "dict": {
+                  "能": "neng / can; able to",
+                  "说": "shuo / to say; to speak",
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "优势": "youshi / advantage",
+                  "和": "he / and; with",
+                  "劣势": "lieshi / disadvantage",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s6",
+                "cn": "你有什么样的职业规划？",
+                "split": "你 有 什么 样 的 职业 规划",
+                "en": "What is your career plan?",
+                "dict": {
+                  "你": "ni / you",
+                  "有": "you / to have",
+                  "什么": "shenme / what",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s7",
+                "cn": "你对薪资有什么要求？",
+                "split": "你 对 薪资 有 什么 要求",
+                "en": "What are your salary expectations?",
+                "dict": {
+                  "你": "ni / you",
+                  "对": "dui / to; towards; correct",
+                  "有": "you / to have",
+                  "什么": "shenme / what"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s8",
+                "cn": "请你谈谈对跳槽的看法。",
+                "split": "请 你 谈谈 对 跳槽 的 看法",
+                "en": "What is your opinion on job-hopping?",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你": "ni / you",
+                  "谈谈": "tantan / to talk about",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s9",
+                "cn": "关于你的职位以及我们公司，你还有哪些想了解的？",
+                "split": "关于 你 的 职位 以及 我们 公司 你 还 有 哪些 想 了解 的",
+                "en": "Is there anything else you want to know about the position or our company?",
+                "dict": {
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "想": "xiang / want; think",
+                  "了解": "liaojie / to know, to understand"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s10",
+                "cn": "如果公司要求你经常出差或长期驻外，你能接受吗？",
+                "split": "如果 公司 要求 你 经常 出差 或 长期 驻 外 你 能 接受 吗",
+                "en": "If the position requires frequent business trips or long-term expat life, can you accept it?",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "你": "ni / you",
+                  "能": "neng / can; able to",
+                  "接受": "jieshou / to accept",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s11",
+                "cn": "我2015年在北京大学取得经济学硕士学位，专业方向是工商管理，在一家大企业实习过半年。",
+                "split": "我 2015 年 在 北京大学 取得 经济学 硕士学位 专业 方向 是 工商管理 在 一家 大 企业 实习 过 半年",
+                "en": "I got my master's degree in economics in Peking University in 2015. My major was business administration. I have worked as an intern in a big company for half a year.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "在": "zài / to be at; (at)",
+                  "专业": "zhuānyè / major",
+                  "是": "shì / to be (am/is/are)",
+                  "一家": "yījiā / a",
+                  "实习": "shíxí / to do an internship"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s12",
+                "cn": "据我所知，贵公司最近几年市场拓展很快。",
+                "split": "据 我 所 知 贵 公司 最近 几 年 市场 拓展 很 快",
+                "en": "As far as I know, your company has shown fast market growth in recent years.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "公司": "gongsi / company",
+                  "最近": "zuijin / recently",
+                  "几": "ji / how many; several",
+                  "很": "hen / very",
+                  "快": "kuai / quick; hurry"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s13",
+                "cn": "贵公司作为世界500强企业之一，为员工提供了良好的国际化工作环境和发展空间。",
+                "split": "贵 公司 作为 世界 500 强 企业 之 一 为 员工 提供了 良好 的 国际化 工作 环境 和 发展 空间",
+                "en": "As a Global Top 500, your company provides the employees with a comfortable and international workplace and good development opportunities.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "一": "yi / one",
+                  "为": "wei / for",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s14",
+                "cn": "首先，我对工作充满热爱和激情；其次，我有很强的学习能力；第三，我善于思考和总结；第四，我善于团队合作。",
+                "split": "首先 我 对 工作 充满 热爱 和 激情 其次 我 有 很 强 的 学习 能力 第三 我 善于 思考 和 总结 第四 我 善于 团队 合作",
+                "en": "First, I am deeply in love with and passionate about work; second, I have great learning abilities; third, I am good at thinking and summarizing; fourth, I am a good team member.",
+                "dict": {
+                  "首先": "shouxian / first; first of all",
+                  "我": "wo / I; me",
+                  "对": "dui / to; towards; correct",
+                  "工作": "gongzuo / work",
+                  "和": "he / and; with",
+                  "有": "you / to have",
+                  "很": "hen / very",
+                  "的": "de / (possessive/modifier particle)",
+                  "学习": "xuexi / study; learn"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s15",
+                "cn": "我有海外工作的背景，这会给我以后的工作带来很大的帮助，我的劣势在语言方面，不过给我几个月时间，我相信一定会有改善。",
+                "split": "我 有 海外 工作 的 背景 这 会 给 我 以后 的 工作 带来 很 大 的 帮助 我 的 劣势 在 语言 方面 不过 给 我 几 个 月 时间 我 相信 一定 会 有 改善",
+                "en": "I have worked overseas, which will benefit me a lot in my future work. And my weakness lies in my language skills. But after a few months' study, I am sure there will be some improvement.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "有": "you / to have",
+                  "工作": "gongzuo / work",
+                  "的": "de / (possessive/modifier particle)",
+                  "背景": "beijing / background",
+                  "会": "hui / can; will",
+                  "给": "gei / give; for",
+                  "以后": "yihou / after",
+                  "很": "hen / very",
+                  "帮助": "bangzhu / help",
+                  "劣势": "lieshi / disadvantage",
+                  "在": "zai / to be at; (at)",
+                  "不过": "buguo / but; however",
+                  "几": "ji / how many; several",
+                  "个": "ge / (measure word)",
+                  "时间": "shijian / time",
+                  "相信": "xiangxin / believe",
+                  "一定": "yiding / definitely"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s16",
+                "cn": "我对网络推广非常感兴趣，这个职业对我来说很有挑战性，也是我想长期从事的事业。",
+                "split": "我 对 网络 推广 非常 感 兴趣 这个 职业 对 我 来 说 很 有 挑战性 也 是 我 想 长期 从事 的 事业",
+                "en": "I am very interested in online marketing. It is a pretty challenging job which I'd like to choose as a career.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "对": "dui / to; towards; correct",
+                  "非常": "feichang / very",
+                  "这个": "zhege / this one",
+                  "来": "lai / to come",
+                  "说": "shuo / to say; to speak",
+                  "很": "hen / very",
+                  "有": "you / to have",
+                  "也": "ye / also; too",
+                  "是": "shi / to be (am/is/are)",
+                  "想": "xiang / want; think",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s17",
+                "cn": "我认为我能胜任产品经理的工作。",
+                "split": "我 认为 我 能 胜任 产品 经理 的 工作",
+                "en": "I believe I am qualified to be a product manager.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "能": "neng / can; able to",
+                  "经理": "jingli / manager",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l1-t1-s18",
+                "cn": "我想请问一下：贵公司能给职员提供培训机会吗？",
+                "split": "我 想 请问 一下 贵 公司 能 给 职员 提供 培训 机会 吗",
+                "en": "I want to know if there is any training opportunity for your employees.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "请问": "qingwen / excuse me, may I ask",
+                  "公司": "gongsi / company",
+                  "能": "neng / can; able to",
+                  "给": "gei / give; for",
+                  "职员": "zhiyuan / employee",
+                  "吗": "ma / (question particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t2",
+            "label": "场景 2 求职反馈",
+            "sentences": [
+              {
+                "id": "swcd-l1-t2-s1",
+                "cn": "您在几轮笔试和面试中的表现都很出色，被录用了。我们很快会把录用通知书发给您。",
+                "split": "您 在 几 轮 笔试 和 面试 中 的 表现 都 很 出色 被 录用 了 我们 很 快 会 把 录用 通知书 发 给 您",
+                "en": "Because of your excellent performance in both the written tests and interviews, we've decided to give you the offer. The offer letter will be sent to you in a short time.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "在": "zai / to be at; (at)",
+                  "几": "ji / how many; several",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dou / all; both",
+                  "很": "hen / very",
+                  "被": "bei / passive marker",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "快": "kuai / quick; hurry",
+                  "会": "hui / can; will",
+                  "把": "ba / BA marker",
+                  "给": "gei / give; for"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s2",
+                "cn": "你下周一能来报到吗？",
+                "split": "你 下 周 一 能 来 报到 吗",
+                "en": "Can you come and register next Monday?",
+                "dict": {
+                  "你": "ni / you",
+                  "一": "yi / one",
+                  "能": "neng / can; able to",
+                  "来": "lai / to come",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s3",
+                "cn": "请于5月20日到人力资源部，办理入职手续。",
+                "split": "请 于 5 月 20 日 到 人力 资源 部 办理 入职 手续",
+                "en": "Please go to the Human Resources Department on May 20th, and go through the registration procedures.",
+                "dict": {
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s4",
+                "cn": "欢迎加入我们公司！",
+                "split": "欢迎 加入 我们 公司",
+                "en": "Welcome to join us!",
+                "dict": {
+                  "欢迎": "huanying / welcome",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s5",
+                "cn": "如果在试用期内离职，工资按实际上班天数算。",
+                "split": "如果 在 试用期 内 离职 工资 按 实际 上班 天数 算",
+                "en": "If you quit during the probation period, your salary will be calculated by the days you are present at work.",
+                "dict": {
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s6",
+                "cn": "如果超过两周还没接到复试通知就不用再等了。",
+                "split": "如果 超过 两 周 还 没 接到 复试 通知 就 不用 再 等 了",
+                "en": "If you haven't got any notice for a second round test within two weeks, then you don't have to wait any more.",
+                "dict": {
+                  "还": "hai / still; also",
+                  "没": "mei / not (past)",
+                  "就": "jiu / just; simply",
+                  "不用": "buyong / no need",
+                  "再": "zai / again (future)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s7",
+                "cn": "我们经过讨论，觉得您各方面都非常优秀，但是跟我们的岗位不太匹配，很遗憾，您没有进入复试环节。",
+                "split": "我们 经过 讨论 觉得 您 各 方面 都 非常 优秀 但是 跟 我们 的 岗位 不 太 匹配 很 遗憾 您 没有 进入 复试 环节",
+                "en": "After discussion, we find that you are excellent, but may not be suitable for this position. We are sorry to inform you that you haven't got into the second round.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "觉得": "juede / feel; think",
+                  "您": "nin / you (polite)",
+                  "都": "dou / all; both",
+                  "非常": "feichang / very",
+                  "但是": "danshi / but; however",
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "太": "tai / too; excessively",
+                  "很": "hen / very",
+                  "没有": "meiyou / not have; haven't"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s8",
+                "cn": "谢谢您对我们公司的关注，祝您找到更合适的工作。",
+                "split": "谢谢 您 对 我们 公司 的 关注 祝 您 找到 更 合适 的 工作",
+                "en": "Thank you for your time. We hope you will find a suitable job.",
+                "dict": {
+                  "谢谢": "xiexie / thank you",
+                  "您": "nin / you (polite)",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "找到": "zhaodao / find",
+                  "更": "geng / more",
+                  "合适": "heshi / fitting, suitable",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s9",
+                "cn": "您好！我两周前参加了贵公司的面试，不知道结果怎么样？",
+                "split": "您好 我 两周 前 参加 了 贵 公司 的 面试 不 知道 结果 怎么样",
+                "en": "Excuse me, I attended an interview of your company two weeks ago, and I wonder what the result is.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "参加": "cānjiā / to participate",
+                  "了": "le / (particle: completed action / new situation)",
+                  "公司": "gōngsī / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bù / not",
+                  "知道": "zhīdào / know",
+                  "结果": "jiéguǒ / result",
+                  "怎么样": "zěnmeyàng / how about"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s10",
+                "cn": "请问，报到的时候应该带哪些材料？",
+                "split": "请问 报到 的 时候 应该 带 哪些 材料",
+                "en": "Excuse me, what materials should I bring when I come for registration?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shihou / time; moment",
+                  "应该": "yinggai / should"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s11",
+                "cn": "我在原单位还有一些事情要处理，大概需要一个星期的时间。",
+                "split": "我 在 原 单位 还有 一些 事情 要 处理 大概 需要 一个 星期 的 时间",
+                "en": "I still have some procedures to go through in my last company. That will take about one week.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "在": "zài / to be at; (at)",
+                  "还有": "háiyǒu / also have",
+                  "一些": "yīxiē / some; a few",
+                  "要": "yào / want; need; will",
+                  "处理": "chǔlǐ / to deal with",
+                  "大概": "dàgài / roughly, about",
+                  "需要": "xūyào / need",
+                  "一个": "yígè / one (a)",
+                  "星期": "xīngqī / week, day of the week",
+                  "的": "de / (possessive/modifier particle)",
+                  "时间": "shíjiān / time"
+                }
+              },
+              {
+                "id": "swcd-l1-t2-s12",
+                "cn": "感谢您给我这个机会，我会努力的。",
+                "split": "感谢 您 给 我 这个 机会 我 会 努力 的",
+                "en": "Thank you for giving me this opportunity. I will try my best.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "这个": "zhege / this one",
+                  "会": "hui / can; will",
+                  "努力": "nuli / hardworking",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t3",
+            "label": "场景 3 劳动合同",
+            "sentences": [
+              {
+                "id": "swcd-l1-t3-s1",
+                "cn": "试用期三个月，三个月以后转正，签订正式的劳动合同，一年一签。",
+                "split": "试用期 三 个 月 三 个 月 以后 转正 签订 正式 的 劳动 合同 一 年 一 签",
+                "en": "After a three-month period of probation, the employee will become a regular worker and sign a formal employment contract, which will be renewed annually.",
+                "dict": {
+                  "个": "ge / (measure word)",
+                  "以后": "yihou / after",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l1-t3-s2",
+                "cn": "试用期内月薪3000元。",
+                "split": "试用期 内 月薪 3000 元",
+                "en": "The salary during the probation period is 3,000 yuan per month.",
+                "dict": {}
+              },
+              {
+                "id": "swcd-l1-t3-s3",
+                "cn": "这是劳动合同，你看一看，如果没问题的话就在这里签字。",
+                "split": "这 是 劳动 合同 你 看 一 看 如果 没 问题 的话 就 在 这里 签字",
+                "en": "This is the employment contract. Please take a look. If you have no problem with it, please sign here.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "你": "ni / you",
+                  "看": "kan / to look; to see; to visit",
+                  "一": "yi / one",
+                  "没": "mei / not (past)",
+                  "问题": "wenti / problem",
+                  "就": "jiu / just; simply",
+                  "在": "zai / to be at; (at)",
+                  "签字": "qianzi / to sign"
+                }
+              },
+              {
+                "id": "swcd-l1-t3-s4",
+                "cn": "如果一方需要终止合同，最少要提前一个月通知对方。",
+                "split": "如果 一 方 需要 终止 合同 最 少 要 提前 一 个 月 通知 对方",
+                "en": "Either party who needs to terminate the contract should inform the other party at least one month beforehand.",
+                "dict": {
+                  "一": "yi / one",
+                  "需要": "xuyao / need",
+                  "终止": "zhongzhi / to terminate",
+                  "最": "zui / most",
+                  "要": "yao / want; need; will",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l1-t3-s5",
+                "cn": "如果年度考评不合格，或者严重违反劳动纪律，公司有权终止合同。",
+                "split": "如果 年度 考评 不 合格 或者 严重 违反 劳动 纪律 公司 有权 终止 合同",
+                "en": "In case of failure in annual assessment or serious breach of employment disciplines on the employee's part, the company has the right to terminate the contract.",
+                "dict": {
+                  "不": "bu / not",
+                  "合格": "hege / up to standard",
+                  "或者": "huozhe / or",
+                  "公司": "gongsi / company",
+                  "终止": "zhongzhi / to terminate"
+                }
+              },
+              {
+                "id": "swcd-l1-t3-s6",
+                "cn": "合同里工作内容、工作地点、薪资标准都写得很清楚。",
+                "split": "合同 里 工作 内容 工作 地点 薪资 标准 都 写 得 很 清楚",
+                "en": "The work content, location, and salary standards are all clearly stated in the contract.",
+                "dict": {
+                  "工作": "gongzuo / work",
+                  "地点": "didian / place of a meeting",
+                  "标准": "biaozhun / standard",
+                  "都": "dou / all; both",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l1-t3-s7",
+                "cn": "因为这个行业涉及商业机密和知识产权，所以合同里有竞业限制条款。",
+                "split": "因为 这个 行业 涉及 商业 机密 和 知识 产权 所以 合同 里 有 竞业 限制 条款",
+                "en": "Non-competition clauses are included in the contract as the field involves business secrets and intellectual property.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "这个": "zhege / this one",
+                  "机密": "jimi / confidential information",
+                  "和": "he / and; with",
+                  "所以": "suoyi / therefore",
+                  "有": "you / to have",
+                  "条款": "tiaokuan / terms"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t4",
+            "label": "场景 4 薪金福利",
+            "sentences": [
+              {
+                "id": "swcd-l1-t4-s1",
+                "cn": "月薪构成是基本工资加提成，基本保底工资3000，完成销售任务之后按档提成，从工资的2%到5%浮动。",
+                "split": "月薪 构成 是 基本 工资 加 提成 基本 保底 工资 3000 完成 销售 任务 之后 按 档 提成 从 工资 的 2 到 5 浮动",
+                "en": "The monthly salary includes basic salary and commission. The former is 3,000 yuan; the latter is calculated according to your sales performance after fulfilling the sales targets, which ranges from 2% to 5% of the basic salary.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "销售": "xiaoshou / sales",
+                  "从": "cong / from",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s2",
+                "cn": "年底根据个人绩效考核情况发奖金。",
+                "split": "年底 根据 个人 绩效 考核 情况 发 奖金",
+                "en": "The year-end bonus is calculated according to your performance.",
+                "dict": {
+                  "考核": "kaohe / to evaluate, to assess"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s3",
+                "cn": "公司负责交五险一金。",
+                "split": "公司 负责 交 五 险 一 金",
+                "en": "The company is responsible for the employee's five insurances (unemployment insurance, endowment insurance, medical insurance, maternity insurance, employment injury insurance) and one fund (housing fund).",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s4",
+                "cn": "带薪年假每年5天，工作五年以后延长为8天。",
+                "split": "带 薪 年假 每 年 5 天 工作 五 年 以后 延长 为 8 天",
+                "en": "The employee may enjoy five days of paid annual leave, which will extend to eight days after five years' work.",
+                "dict": {
+                  "年假": "nianjia / annual leave",
+                  "工作": "gongzuo / work",
+                  "以后": "yihou / after",
+                  "为": "wei / for"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s5",
+                "cn": "公司每年会组织员工集体旅游度假1次。",
+                "split": "公司 每 年 会 组织 员工 集体 旅游 度假 1 次",
+                "en": "The company will organize a group travel for all the employees annually.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "会": "hui / can; will"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s6",
+                "cn": "绩效考核的具体标准是什么？",
+                "split": "绩效 考核 的 具体 标准 是 什么",
+                "en": "What are the standards for the performance appraisal?",
+                "dict": {
+                  "考核": "kaohe / to evaluate, to assess",
+                  "的": "de / (possessive/modifier particle)",
+                  "标准": "biaozhun / standard",
+                  "是": "shi / to be (am/is/are)",
+                  "什么": "shenme / what"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s7",
+                "cn": "年底有双薪吗？",
+                "split": "年底 有 双 薪 吗",
+                "en": "Does the company provide double pay at the end of the year?",
+                "dict": {
+                  "有": "you / to have",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s8",
+                "cn": "出差有补助吗？",
+                "split": "出差 有 补助 吗",
+                "en": "Does the company provide subsidies for business trips?",
+                "dict": {
+                  "有": "you / to have",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s9",
+                "cn": "公司提供房补和车补吗？",
+                "split": "公司 提供 房补 和 车补 吗",
+                "en": "Does the company provide housing and traffic subsidies?",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "和": "he / and; with",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t4-s10",
+                "cn": "加班有加班费吗？",
+                "split": "加班 有 加班 费 吗",
+                "en": "Does the company provide overtime pay?",
+                "dict": {
+                  "有": "you / to have",
+                  "吗": "ma / (question particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t5",
+            "label": "场景 5 假期申请",
+            "sentences": [
+              {
+                "id": "swcd-l1-t5-s1",
+                "cn": "经理，我家里有点儿事，明天想跟您请一天事假。",
+                "split": "经理 我 家里 有点儿 事 明天 想 跟 您 请 一 天 事假",
+                "en": "Sir, I have some family issues and I want to take one day off tomorrow.",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "我": "wo / I; me",
+                  "有点儿": "youdianr / a bit",
+                  "明天": "mingtian / tomorrow",
+                  "想": "xiang / want; think",
+                  "跟": "gen / with",
+                  "您": "nin / you (polite)",
+                  "请": "qing / please; invite",
+                  "一": "yi / one",
+                  "事假": "shijia / personal leave"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s2",
+                "cn": "我五月要结婚，可以休几天婚假？",
+                "split": "我 五 月 要 结婚 可以 休 几 天 婚假",
+                "en": "I am getting married this May. How many days can I take for a leave?",
+                "dict": {
+                  "我": "wo / I; me",
+                  "要": "yao / want; need; will",
+                  "可以": "keyi / can; may; OK",
+                  "几": "ji / how many; several",
+                  "婚假": "hunjia / marriage leave"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s3",
+                "cn": "我下个月想休年假。",
+                "split": "我 下 个 月 想 休 年假",
+                "en": "I want to take annual leave next month.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "个": "ge / (measure word)",
+                  "想": "xiang / want; think",
+                  "年假": "nianjia / annual leave"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s4",
+                "cn": "你先填一张请假单，拿来找我签字，然后交给人力资源部。",
+                "split": "你 先 填 一张 请假单 拿来 找 我 签字 然后 交给 人力资源部",
+                "en": "Please fill out this form first and I will sign it for you. Then you can bring it to the Human Resources Department.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "先": "xiān / first",
+                  "一张": "yīzhāng / one (for flat objects)",
+                  "找": "zhǎo / to look for",
+                  "我": "wǒ / I; me",
+                  "签字": "qiānzì / to sign",
+                  "然后": "ránhòu / then; afterwards"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s5",
+                "cn": "你要请一周假吗？这得总裁审批了。",
+                "split": "你 要 请 一 周 假 吗 这 得 总裁 审批 了",
+                "en": "Do you want to take one week's leave? You need the president's approval.",
+                "dict": {
+                  "你": "ni / you",
+                  "要": "yao / want; need; will",
+                  "请": "qing / please; invite",
+                  "一": "yi / one",
+                  "吗": "ma / (question particle)",
+                  "审批": "shenpi / to go over and approve",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s6",
+                "cn": "休婚假得提前一周申请。",
+                "split": "休 婚假 得 提前 一 周 申请",
+                "en": "Anyone who wants to take marriage leave will have to ask for permission one week beforehand.",
+                "dict": {
+                  "婚假": "hunjia / marriage leave",
+                  "一": "yi / one",
+                  "申请": "shenqing / to apply"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s7",
+                "cn": "你回来了？去人力资源部销假了吗？",
+                "split": "你 回来 了 去 人力 资源 部 销假 了 吗",
+                "en": "Glad to see you back. Have you been to the Human Resources Department to report back from leave?",
+                "dict": {
+                  "你": "ni / you",
+                  "回来": "huilai / come back",
+                  "了": "le / (particle: completed action / new situation)",
+                  "去": "qu / to go",
+                  "销假": "xiaojia / to report back from leave",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s8",
+                "cn": "你已经超假两天，这两天的工资将从这个月扣除。",
+                "split": "你 已经 超 假 两 天 这 两 天 的 工资 将 从 这个 月 扣除",
+                "en": "You have taken two extra days of leave. The pay for these two days will be deducted from this month's salary.",
+                "dict": {
+                  "你": "ni / you",
+                  "已经": "yijing / already",
+                  "的": "de / (possessive/modifier particle)",
+                  "从": "cong / from",
+                  "这个": "zhege / this one"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s9",
+                "cn": "产假一共九十天。",
+                "split": "产假 一共 九十 天",
+                "en": "The maternity leave adds up to 90 days.",
+                "dict": {
+                  "产假": "chanjia / maternity leave",
+                  "一共": "yigong / altogether"
+                }
+              },
+              {
+                "id": "swcd-l1-t5-s10",
+                "cn": "你没有填请假单，所以只能按旷工处理了。",
+                "split": "你 没有 填 请假单 所以 只 能 按 旷工 处理 了",
+                "en": "You didn't fill out the application form for leave. We'll have to count it as absence without leave.",
+                "dict": {
+                  "你": "ni / you",
+                  "没有": "meiyou / not have; haven't",
+                  "所以": "suoyi / therefore",
+                  "只": "zhi / only",
+                  "能": "neng / can; able to",
+                  "处理": "chuli / to deal with",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t6",
+            "label": "场景 6 人事调动",
+            "sentences": [
+              {
+                "id": "swcd-l1-t6-s1",
+                "cn": "我和爱人长期两地分居，生活方面确实有困难。",
+                "split": "我 和 爱人 长期 两 地 分居 生活 方面 确实 有 困难",
+                "en": "My husband/wife and I live in different places all the time. This is indeed hard for us.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "和": "he / and; with",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s2",
+                "cn": "我希望调到总公司财务部工作。",
+                "split": "我 希望 调到 总 公司 财务 部 工作",
+                "en": "I hope to be transferred to the Finance Department in the headquarters.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "希望": "xiwang / hope; wish",
+                  "公司": "gongsi / company",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s3",
+                "cn": "这是我的工作调动申请，请您过目。",
+                "split": "这 是 我 的 工作 调动 申请 请 您 过目",
+                "en": "This is my application for job transfer. Please have a look.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "申请": "shenqing / to apply",
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s4",
+                "cn": "那边刚设立分公司，很缺人手，公司打算把你调去干一段时间。",
+                "split": "那边 刚 设立 分 公司 很 缺 人手 公司 打算 把 你 调去 干 一 段 时间",
+                "en": "A branch of our company has just been founded there. It's rather short-handed. We hope you can work there for some time.",
+                "dict": {
+                  "刚": "gang / just now",
+                  "公司": "gongsi / company",
+                  "很": "hen / very",
+                  "打算": "dasuan / to plan",
+                  "把": "ba / BA marker",
+                  "你": "ni / you",
+                  "一": "yi / one",
+                  "时间": "shijian / time"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s5",
+                "cn": "你把手头的工作跟小王交接一下。",
+                "split": "你 把 手头 的 工作 跟 小 王 交接 一下",
+                "en": "You can hand over your current work to Wang.",
+                "dict": {
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "跟": "gen / with"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s6",
+                "cn": "这是商调函，你拿到原单位盖章，然后再交到咱们公司的人力资源部。",
+                "split": "这 是 商调函 你 拿到 原 单位 盖 章 然后 再 交到 咱们 公司 的 人力 资源 部",
+                "en": "This is a personnel transfer letter. You can bring it to your last company for a stamp and then hand it in to the Human Resources Department of our company.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "你": "ni / you",
+                  "然后": "ranhou / then; afterwards",
+                  "再": "zai / again (future)",
+                  "咱们": "zanmen / we (inclusive)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s7",
+                "cn": "调动以后，要签新的劳动合同。",
+                "split": "调动 以后 要 签 新 的 劳动 合同",
+                "en": "After the job transfer, you need to sign a new employment contract.",
+                "dict": {
+                  "以后": "yihou / after",
+                  "要": "yao / want; need; will",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t6-s8",
+                "cn": "调动以后，工作年限还是会累积计算，包括年假在内的福利待遇以累积工作年限为准。",
+                "split": "调动 以后 工作 年限 还是 会 累积 计算 包括 年假 在 内 的 福利 待遇 以 累积 工作 年限 为 准",
+                "en": "After the job transfer, your years of work experience will add up together and your benefits package, including annual leave, is calculated by the total number of years.",
+                "dict": {
+                  "以后": "yihou / after",
+                  "工作": "gongzuo / work",
+                  "还是": "haishi / or",
+                  "会": "hui / can; will",
+                  "年假": "nianjia / annual leave",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "为": "wei / for"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l1-t7",
+            "label": "场景 7 升职离职",
+            "sentences": [
+              {
+                "id": "swcd-l1-t7-s1",
+                "cn": "我已经在公司工作了五年，对本部门的工作流程非常熟悉，希望竞聘部门经理的职位。",
+                "split": "我 已经 在 公司 工作了 五 年 对 本 部门 的 工作 流程 非常 熟悉 希望 竞聘 部门 经理 的 职位",
+                "en": "I would like to run for department manager, since I have worked in the company for five years and I am very familiar with the work procedure in our department.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "已经": "yijing / already",
+                  "在": "zai / to be at; (at)",
+                  "公司": "gongsi / company",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "流程": "liucheng / procedure",
+                  "非常": "feichang / very",
+                  "希望": "xiwang / hope; wish",
+                  "竞聘": "jingpin / to run for a position",
+                  "经理": "jingli / manager"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s2",
+                "cn": "我想申请华南大区销售总监的职位。",
+                "split": "我 想 申请 华南 大区 销售 总监 的 职位",
+                "en": "I would like to run for the sales director of the south China region.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "申请": "shenqing / to apply",
+                  "销售": "xiaoshou / sales",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s3",
+                "cn": "我相信我在这个职位上能为公司创造出更多的利润和价值。",
+                "split": "我 相信 我 在 这个 职位 上 能 为 公司 创造 出 更 多 的 利润 和 价值",
+                "en": "I believe I can bring more benefits and value to our company in this position.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "相信": "xiangxin / believe",
+                  "在": "zai / to be at; (at)",
+                  "这个": "zhege / this one",
+                  "上": "shang / to attend (a class)",
+                  "能": "neng / can; able to",
+                  "为": "wei / for",
+                  "公司": "gongsi / company",
+                  "更": "geng / more",
+                  "的": "de / (possessive/modifier particle)",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s4",
+                "cn": "我希望在3月31号以前完成工作交接，请您安排一下工作交接人。",
+                "split": "我 希望 在 3 月 31 号 以前 完成 工作 交接 请 您 安排 一下 工作 交接人",
+                "en": "I hope to finish the work transfer before the end of March. Can you help arrange related personnel?",
+                "dict": {
+                  "我": "wo / I; me",
+                  "希望": "xiwang / hope; wish",
+                  "在": "zai / to be at; (at)",
+                  "以前": "yiqian / before",
+                  "工作": "gongzuo / work",
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "安排": "anpai / to arrange"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s5",
+                "cn": "员工辞职需要提前30天提出申请。",
+                "split": "员工 辞职 需要 提前 30 天 提出 申请",
+                "en": "Anyone who wants to quit needs to apply 30 days beforehand.",
+                "dict": {
+                  "辞职": "cizhi / to resign, to quit",
+                  "需要": "xuyao / need",
+                  "申请": "shenqing / to apply"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s6",
+                "cn": "因为公司发展需要，现在我们面向集团内部招聘一个总工程师、两个项目经理，欢迎大家积极应聘。",
+                "split": "因为 公司 发展 需要 现在 我们 面向 集团 内部 招聘 一 个 总 工程师 两 个 项目 经理 欢迎 大家 积极 应聘",
+                "en": "As the company develops, we want to hire one chief engineer and two project managers inside the company. Everyone is welcome to apply.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "公司": "gongsi / company",
+                  "需要": "xuyao / need",
+                  "现在": "xianzai / now",
+                  "我们": "women / we; us",
+                  "招聘": "zhaopin / to recruit",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "经理": "jingli / manager",
+                  "欢迎": "huanying / welcome",
+                  "大家": "dajia / everyone",
+                  "应聘": "yingpin / to apply for a job"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s7",
+                "cn": "由于个人原因，我不能继续为公司服务了，这是我的辞职信。",
+                "split": "由于 个人 原因 我 不能 继续 为 公司 服务 了 这 是 我 的 辞职信",
+                "en": "I cannot work for the company any more for some personal reasons. This is my resignation letter.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "不能": "buneng / cannot",
+                  "继续": "jixu / continue",
+                  "为": "wei / for",
+                  "公司": "gongsi / company",
+                  "了": "le / (particle: completed action / new situation)",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s8",
+                "cn": "在过去的几年里，我得到了各位领导和同事的指导与帮助，在专业方面有了很大提高，感谢公司给我提供了这么好的平台，这五年多的工作经验是我人生中的一笔宝贵财富。",
+                "split": "在 过去 的 几 年 里 我 得到了 各 位 领导 和 同事 的 指导 与 帮助 在 专业 方面 有了 很 大 提高 感谢 公司 给 我 提供了 这么 好 的 平台 这 五 年 多 的 工作 经验 是 我 人生 中 的 一 笔 宝贵 财富",
+                "en": "In the last few years, I have got lots of guidance and help from you, my leaders and colleagues, and have improved much in my professional skills. Thank you for the great platform the company has provided. The five plus years of work experience will be a cherished treasure in my life.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "几": "ji / how many; several",
+                  "我": "wo / I; me",
+                  "领导": "lingdao / leader",
+                  "和": "he / and; with",
+                  "帮助": "bangzhu / help",
+                  "专业": "zhuanye / major",
+                  "很": "hen / very",
+                  "提高": "tigao / to improve",
+                  "公司": "gongsi / company",
+                  "给": "gei / give; for",
+                  "这么": "zheme / so",
+                  "好": "hao / good; well; OK",
+                  "工作": "gongzuo / work",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l1-t7-s9",
+                "cn": "根据公司规定，你和公司签订了保密协议，请你遵守相关协议规定。",
+                "split": "根据 公司 规定 你 和 公司 签订了 保密 协议 请 你 遵守 相关 协议 规定",
+                "en": "You have signed a non-disclosure agreement according to the company's regulations. Please obey relevant rules in the agreement.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "你": "ni / you",
+                  "和": "he / and; with",
+                  "协议": "xieyi / agreement",
+                  "请": "qing / please; invite"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson2",
+        "title": "Unit 2 Daily Work 日常办公",
+        "titleEn": "Unit 2",
+        "texts": [
+          {
+            "id": "swcd-l2-t1",
+            "label": "场景 1 同事关系",
+            "sentences": [
+              {
+                "id": "swcd-l2-t1-s1",
+                "cn": "我是新来的，请多多关照。",
+                "split": "我 是 新 来 的 请 多多 关照",
+                "en": "I am new here. Nice to meet you.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "来": "lai / to come",
+                  "的": "de / (possessive/modifier particle)",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s2",
+                "cn": "你帮我看看，这张单子怎么填啊？",
+                "split": "你 帮 我 看看 这 张 单子 怎么 填 啊",
+                "en": "Could you tell me how to fill out this form?",
+                "dict": {
+                  "你": "ni / you",
+                  "我": "wo / I; me",
+                  "看看": "kankan / to take a look",
+                  "张": "zhang / Zhang (surname)",
+                  "怎么": "zenme / how; why",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s3",
+                "cn": "我们部门打算参加8月的机械工业展会，到时候还要请你们联系一下物流。",
+                "split": "我们 部门 打算 参加 8 月 的 机械 工业 展会 到 时候 还 要 请 你们 联系 一下 物流",
+                "en": "Our department is planning to attend the Machinery Industry Fair in August. We may need you to help arrange the logistics.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "打算": "dasuan / to plan",
+                  "参加": "canjia / to participate",
+                  "的": "de / (possessive/modifier particle)",
+                  "展会": "zhanhui / exhibition",
+                  "时候": "shihou / time; moment",
+                  "还": "hai / still; also",
+                  "要": "yao / want; need; will",
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s4",
+                "cn": "广东区的小王说这一单是他先跟的，客户说你们部门的小李后来跟他们联系了，报价比小王低，麻烦你问问小李他是什么时候开始跟进的。",
+                "split": "广东 区 的 小 王 说 这 一 单 是 他 先 跟 的 客户 说 你们 部门 的 小 李 后来 跟 他们 联系 了 报价 比 小 王 低 麻烦 你 问问 小 李 他 是 什么 时候 开始 跟进 的",
+                "en": "Wang of the Guangdong market said he was on this deal first. But according to the client, later, Li from your department contacted them and offered a lower price. Could you please ask Li when he started to follow up?",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "说": "shuo / to say; to speak",
+                  "一": "yi / one",
+                  "是": "shi / to be (am/is/are)",
+                  "他": "ta / he; him",
+                  "先": "xian / first",
+                  "跟": "gen / with",
+                  "你们": "nimen / you (plural)",
+                  "后来": "houlai / afterwards; later",
+                  "他们": "tamen / they",
+                  "了": "le / (particle: completed action / new situation)",
+                  "比": "bi / than; to compare",
+                  "你": "ni / you",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "开始": "kaishi / start; begin"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s5",
+                "cn": "老张，客户说他们订的是TT-110，发过去的是TT-220，发错了。",
+                "split": "老 张 客户 说 他们 订 的 是 TT 110 发 过去 的 是 TT 220 发错 了",
+                "en": "Zhang, the client said they got the wrong type. It should be TT-110 instead of TT-220.",
+                "dict": {
+                  "张": "zhang / Zhang (surname)",
+                  "说": "shuo / to say; to speak",
+                  "他们": "tamen / they",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s6",
+                "cn": "听说南门附近新开了一家川菜馆儿，下班以后一起去尝尝？",
+                "split": "听说 南门 附近 新 开了 一 家 川菜 馆儿 下班 以后 一起 去 尝尝",
+                "en": "I hear that they've just opened a new Sichuan restaurant near the south gate. Do you want to have a try after work?",
+                "dict": {
+                  "听说": "tingshuo / I heard that",
+                  "一": "yi / one",
+                  "家": "jia / home; family",
+                  "以后": "yihou / after",
+                  "一起": "yiqi / together",
+                  "去": "qu / to go"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s7",
+                "cn": "这是我昨天新买的绿茶，明前龙井，你也来一杯吧！",
+                "split": "这 是 我 昨天 新 买 的 绿茶 明前 龙井 你 也 来 一 杯 吧",
+                "en": "This is the green tea I bought yesterday. It's Pre-Qingming Longjing Tea. Would you like a cup of it?",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "昨天": "zuotian / yesterday",
+                  "的": "de / (possessive/modifier particle)",
+                  "你": "ni / you",
+                  "也": "ye / also; too",
+                  "来": "lai / to come",
+                  "一": "yi / one",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s8",
+                "cn": "公司组织下个月去云南旅游，你去吗？",
+                "split": "公司 组织 下 个 月 去 云南 旅游 你 去 吗",
+                "en": "The company is organizing a trip to Yunnan next month. Are you coming?",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "个": "ge / (measure word)",
+                  "去": "qu / to go",
+                  "你": "ni / you",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l2-t1-s9",
+                "cn": "这条微信太逗了！我给你转发一下啊。",
+                "split": "这 条 微信 太 逗 了 我 给 你 转发 一下 啊",
+                "en": "This WeChat post is so hilarious! I will forward it to you.",
+                "dict": {
+                  "微信": "weixin / WeChat",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wo / I; me",
+                  "给": "gei / give; for",
+                  "你": "ni / you",
+                  "转发": "zhuanfa / to forward",
+                  "啊": "a / (interjection)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t2",
+            "label": "场景 2 打印复印",
+            "sentences": [
+              {
+                "id": "swcd-l2-t2-s1",
+                "cn": "你好，122办公室的打印机没有墨了，麻烦你们换个墨盒。",
+                "split": "你 好 122 办公室 的 打印机 没有 墨 了 麻烦 你们 换 个 墨盒",
+                "en": "Excuse me, the printer in Office 122 has run out of ink. Can you help change the ink cartridge?",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "办公室": "bangongshi / office",
+                  "的": "de / (possessive/modifier particle)",
+                  "没有": "meiyou / not have; haven't",
+                  "了": "le / (particle: completed action / new situation)",
+                  "你们": "nimen / you (plural)",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s2",
+                "cn": "这个文件需要彩打。",
+                "split": "这个 文件 需要 彩打",
+                "en": "This file needs to be printed in color.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "需要": "xuyao / need",
+                  "彩打": "caida / to print in color"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s3",
+                "cn": "打印单面还是双面？",
+                "split": "打印 单 面 还是 双 面",
+                "en": "Do you want it single-sided or double-sided?",
+                "dict": {
+                  "还是": "haishi / or"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s4",
+                "cn": "咱们部门打印和复印的密码是1234。",
+                "split": "咱们 部门 打印 和 复印 的 密码 是 1234",
+                "en": "The password for the printer and copier in our department is 1234.",
+                "dict": {
+                  "咱们": "zanmen / we (inclusive)",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)",
+                  "密码": "mima / password",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s5",
+                "cn": "小周，请你把这份文件复印一下，开会的人要人手一份。",
+                "split": "小 周 请 你 把 这 份 文件 复印 一下 开会 的 人 要 人 手 一 份",
+                "en": "Zhou, can you make some copies of this file? Make sure everyone at the meeting have one.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "的": "de / (possessive/modifier particle)",
+                  "要": "yao / want; need; will",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s6",
+                "cn": "如果复印量很大，可以选\"快速复印\"，按这个按钮。",
+                "split": "如果 复印量 很 大 可以 选 快速 复印 按 这个 按钮",
+                "en": "If the amount is large, you can press this button for \"fast copying\".",
+                "dict": {
+                  "很": "hen / very",
+                  "可以": "keyi / can; may; OK",
+                  "这个": "zhege / this one"
+                }
+              },
+              {
+                "id": "swcd-l2-t2-s7",
+                "cn": "这个文件给我复印件或发送扫描文件都行。",
+                "split": "这个 文件 给 我 复印件 或 发送 扫描 文件 都 行",
+                "en": "You can send either a copy or a scanned copy of this file to me.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "复印件": "fuyinjian / copy",
+                  "扫描": "saomiao / to scan",
+                  "都": "dou / all; both"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t3",
+            "label": "场景 3 接电留言",
+            "sentences": [
+              {
+                "id": "swcd-l2-t3-s1",
+                "cn": "你好，是联通营业厅吗？我要开通电话留言功能。",
+                "split": "你 好 是 联通 营业厅 吗 我 要 开通 电话 留言 功能",
+                "en": "Hello. Is this China Unicom? I want to apply for telephone answering service.",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "是": "shi / to be (am/is/are)",
+                  "吗": "ma / (question particle)",
+                  "我": "wo / I; me",
+                  "要": "yao / want; need; will",
+                  "电话": "dianhua / telephone; phone"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s2",
+                "cn": "您好，我是时代集团公司的陈希，我现在不在，请您留下您的姓名、电话和简短留言，我会尽快回电，谢谢。",
+                "split": "您 好 我 是 时代 集团 公司 的 陈 希 我 现在 不 在 请 您 留下 您 的 姓名 电话 和 简短 留言 我 会 尽快 回电 谢谢",
+                "en": "Hello. This is Chen Xi from the Times Group. I'm not available right now. Please leave a message. I'll call you back as soon as possible.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "现在": "xianzai / now",
+                  "不": "bu / not",
+                  "在": "zai / to be at; (at)",
+                  "请": "qing / please; invite",
+                  "电话": "dianhua / telephone; phone",
+                  "和": "he / and; with",
+                  "会": "hui / can; will",
+                  "谢谢": "xiexie / thank you"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s3",
+                "cn": "黄总您好，刚才我在跟刘经理讨论下月的外展方案，看到有您的三条留言信息，就赶紧给您打过去了。",
+                "split": "黄 总 您 好 刚才 我 在 跟 刘 经理 讨论 下 月 的 外展 方案 看到 有 您 的 三 条 留言 信息 就 赶紧 给 您 打 过去 了",
+                "en": "Hello, Mr. Huang. I was discussing the plan for next month's outreach with Mr. Liu and just saw the three messages you left, so I'm calling you now.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "刚才": "gangcai / just now",
+                  "我": "wo / I; me",
+                  "在": "zai / to be at; (at)",
+                  "跟": "gen / with",
+                  "经理": "jingli / manager",
+                  "的": "de / (possessive/modifier particle)",
+                  "有": "you / to have",
+                  "就": "jiu / just; simply",
+                  "给": "gei / give; for",
+                  "打": "da / to hit; to make (a phone call)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s4",
+                "cn": "抱歉，黄总现在不在办公室，您可以打他的手机。",
+                "split": "抱歉 黄 总 现在 不 在 办公室 您 可以 打 他 的 手机",
+                "en": "I'm sorry. Mr. Huang is not in the office right now. You can reach him on his cell phone.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "不": "bu / not",
+                  "在": "zai / to be at; (at)",
+                  "办公室": "bangongshi / office",
+                  "您": "nin / you (polite)",
+                  "可以": "keyi / can; may; OK",
+                  "打": "da / to hit; to make (a phone call)",
+                  "他": "ta / he; him",
+                  "的": "de / (possessive/modifier particle)",
+                  "手机": "shouji / mobile phone"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s5",
+                "cn": "您方便留下电话吗？等他回来我转告他，让他尽快给您回电，好吗？",
+                "split": "您 方便 留下 电话 吗 等 他 回来 我 转告 他 让 他 尽快 给 您 回电 好 吗",
+                "en": "Can you leave me your phone number? I will tell him to give you a call as soon as he comes back.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "电话": "dianhua / telephone; phone",
+                  "吗": "ma / (question particle)",
+                  "他": "ta / he; him",
+                  "回来": "huilai / come back",
+                  "我": "wo / I; me",
+                  "让": "rang / let; allow",
+                  "给": "gei / give; for",
+                  "好": "hao / good; well; OK"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s6",
+                "cn": "请稍等，我记一下，您请说。",
+                "split": "请 稍 等 我 记 一下 您 请 说",
+                "en": "Wait a minute. I'll take some notes. OK, please go on.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "说": "shuo / to say; to speak"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s7",
+                "cn": "他什么时候回来？请他尽快给我回个电话好吗？我有急事找他。我姓张，弓长张，新南方公司的，电话是13535806789。",
+                "split": "他 什么 时候 回来 请 他 尽快 给 我 回 个 电话 好 吗 我 有 急事 找 他 我 姓 张 弓 长 张 新 南方 公司 的 电话 是 13535806789",
+                "en": "When will he be back? Tell him to call me back ASAP, OK? It's urgent. My family name is Zhang with Gong and Chang. I'm from New South Company. My phone number is 13535806789.",
+                "dict": {
+                  "他": "ta / he; him",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "回来": "huilai / come back",
+                  "请": "qing / please; invite",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "回": "hui / to return; to reply",
+                  "个": "ge / (measure word)",
+                  "电话": "dianhua / telephone; phone",
+                  "好": "hao / good; well; OK",
+                  "吗": "ma / (question particle)",
+                  "有": "you / to have",
+                  "找": "zhao / to look for",
+                  "张": "zhang / Zhang (surname)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l2-t3-s8",
+                "cn": "麻烦您转告胡先生，我已经把最新的报价方案传真过去了，请他跟我联系，谢谢。",
+                "split": "麻烦 您 转告 胡 先生 我 已经 把 最 新 的 报价 方案 传真 过去 了 请 他 跟 我 联系 谢谢",
+                "en": "I've faxed the latest price list to Mr. Hu. Can you tell him to call me back? Thanks.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "先生": "xiansheng / sir",
+                  "我": "wo / I; me",
+                  "已经": "yijing / already",
+                  "把": "ba / BA marker",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "传真": "chuanzhen / fax",
+                  "了": "le / (particle: completed action / new situation)",
+                  "请": "qing / please; invite",
+                  "他": "ta / he; him",
+                  "跟": "gen / with",
+                  "谢谢": "xiexie / thank you"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t4",
+            "label": "场景 4 文件处理",
+            "sentences": [
+              {
+                "id": "swcd-l2-t4-s1",
+                "cn": "吴经理，这是总裁办公室签发的文件，请您签收一下。",
+                "split": "吴 经理 这 是 总裁 办公室 签发 的 文件 请 您 签收 一下",
+                "en": "Mr. Wu, this is a file issued by the President's Office. Can you sign for it?",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "是": "shi / to be (am/is/are)",
+                  "办公室": "bangongshi / office",
+                  "签发": "qianfa / to sign and issue",
+                  "的": "de / (possessive/modifier particle)",
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s2",
+                "cn": "你把今天讨论的结果整理一下，起草一份文件，发到相关部门。",
+                "split": "你 把 今天 讨论 的 结果 整理 一下 起草 一 份 文件 发到 相关 部门",
+                "en": "Please sort out the results of today's discussion, draw up a file and send it to related departments.",
+                "dict": {
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "今天": "jintian / today",
+                  "的": "de / (possessive/modifier particle)",
+                  "结果": "jieguo / result",
+                  "起草": "qicao / to draw up",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s3",
+                "cn": "徐总，刚才收到一份急件，请您过目。",
+                "split": "徐 总 刚才 收到 一 份 急件 请 您 过目",
+                "en": "Mr. Xu, an urgent file just came. Please have a look at it.",
+                "dict": {
+                  "刚才": "gangcai / just now",
+                  "一": "yi / one",
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s4",
+                "cn": "林秘书，你把我们去去年跟物业签的合同找出来，我看一看。",
+                "split": "林 秘书 你 把 我们 去 去年 跟 物业 签 的 合同 找 出来 我 看一看",
+                "en": "Lin, can you find the contract we signed with the property management company last year? I want to have a look.",
+                "dict": {
+                  "你": "nǐ / you",
+                  "把": "bǎ / BA marker",
+                  "我们": "wǒmen / we; us",
+                  "去": "qù / to go",
+                  "跟": "gēn / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "找": "zhǎo / to look for",
+                  "出来": "chūlái / come out",
+                  "我": "wǒ / I; me"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s5",
+                "cn": "对方上次给你发的那份协议草案呢？把它打出来我们下午讨论。",
+                "split": "对方 上 次 给 你 发 的 那 份 协议 草案 呢 把 它 打 出来 我们 下午 讨论",
+                "en": "Can you print out the draft agreement they sent you? We'll have a discussion about it this afternoon.",
+                "dict": {
+                  "上": "shang / to attend (a class)",
+                  "给": "gei / give; for",
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "协议": "xieyi / agreement",
+                  "草案": "cao'an / draft",
+                  "把": "ba / BA marker",
+                  "打": "da / to hit; to make (a phone call)",
+                  "出来": "chulai / come out",
+                  "我们": "women / we; us",
+                  "下午": "xiawu / afternoon"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s6",
+                "cn": "小周，我想看一下公司最近两年的财务报表。",
+                "split": "小 周 我 想 看 一下 公司 最近 两 年 的 财务 报表",
+                "en": "Zhou, I want to have a look at the company's financial statements for these two years.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "看": "kan / to look; to see; to visit",
+                  "公司": "gongsi / company",
+                  "最近": "zuijin / recently",
+                  "的": "de / (possessive/modifier particle)",
+                  "报表": "baobiao / statement"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s7",
+                "cn": "您在这里写一下借阅的文件名称、借阅日期，再签一下字。",
+                "split": "您 在 这里 写 一下 借阅 的 文件 名称 借阅 日期 再 签 一下 字",
+                "en": "Please write down the file name and the date you borrow it here. Then sign your name.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "再": "zai / again (future)"
+                }
+              },
+              {
+                "id": "swcd-l2-t4-s8",
+                "cn": "请你把这份劳动协议拿到人事部盖章。",
+                "split": "请 你 把 这 份 劳动 协议 拿到 人事部 盖 章",
+                "en": "Please bring this employment contract to the Human Resources Department and get it stamped.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "协议": "xieyi / agreement"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t5",
+            "label": "场景 5 收发邮件",
+            "sentences": [
+              {
+                "id": "swcd-l2-t5-s1",
+                "cn": "邮件收到，谢谢。保持联系。",
+                "split": "邮件 收到 谢谢 保持 联系",
+                "en": "I've received your email, thanks. Let's keep in touch.",
+                "dict": {
+                  "邮件": "youjian / email",
+                  "谢谢": "xiexie / thank you"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s2",
+                "cn": "你发给我的附件打不开，能不能再给我发一次？",
+                "split": "你 发 给 我 的 附件 打 不 开 能 不 能 再 给 我 发 一 次",
+                "en": "The attachment in your email cannot be opened. Can you send it once again?",
+                "dict": {
+                  "你": "ni / you",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "附件": "fujian / attachment",
+                  "打": "da / to hit; to make (a phone call)",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "再": "zai / again (future)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s3",
+                "cn": "合同草案请见附件。",
+                "split": "合同 草案 请 见 附件",
+                "en": "The draft contract is attached in the email.",
+                "dict": {
+                  "草案": "cao'an / draft",
+                  "请": "qing / please; invite",
+                  "附件": "fujian / attachment"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s4",
+                "cn": "我上周已经给你们发了邮件，但是一直都没得到回复。",
+                "split": "我 上周 已经 给 你们 发 了 邮件 但是 一直 都 没 得到 回复",
+                "en": "I sent you an email last week, but haven't got any reply.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "已经": "yǐjīng / already",
+                  "给": "gěi / give; for",
+                  "你们": "nǐmen / you (plural)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "邮件": "yóujiàn / email",
+                  "但是": "dànshì / but; however",
+                  "一直": "yìzhí / straight",
+                  "都": "dōu / all; both",
+                  "没": "méi / not (past)",
+                  "回复": "huífù / to reply"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s5",
+                "cn": "祝您工作顺利！",
+                "split": "祝 您 工作 顺利",
+                "en": "Good luck with your work!",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s6",
+                "cn": "愿我们合作成功！",
+                "split": "愿 我们 合作 成功",
+                "en": "May our cooperation be a success!",
+                "dict": {
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s7",
+                "cn": "魏先生，您好！您的邮件已收到，关于您反映的产品质量问题，我已经把您的邮件转发给质量管理部了，我们会尽快处理，对于给您造成的不便深表歉意。",
+                "split": "魏 先生 您 好 您 的 邮件 已 收到 关于 您 反映 的 产品 质量 问题 我 已经 把 您 的 邮件 转发 给 质量 管理 部 了 我们 会 尽快 处理 对于 给 您 造成 的 不便 深 表 歉意",
+                "en": "Hello, Mr. Wei. Your complaint email about the product quality has been received and already forwarded to the Quality Management Department. We'll take care of it as soon as possible. We are terribly sorry for the trouble caused.",
+                "dict": {
+                  "先生": "xiansheng / sir",
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "的": "de / (possessive/modifier particle)",
+                  "邮件": "youjian / email",
+                  "问题": "wenti / problem",
+                  "我": "wo / I; me",
+                  "已经": "yijing / already",
+                  "把": "ba / BA marker",
+                  "转发": "zhuanfa / to forward",
+                  "给": "gei / give; for",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "处理": "chuli / to deal with"
+                }
+              },
+              {
+                "id": "swcd-l2-t5-s8",
+                "cn": "请把这个通知转发给销售部的所有同事。",
+                "split": "请 把 这个 通知 转发 给 销售 部 的 所有 同事",
+                "en": "Please send this notice to all employees in the Department of Sales.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "把": "ba / BA marker",
+                  "这个": "zhege / this one",
+                  "转发": "zhuanfa / to forward",
+                  "给": "gei / give; for",
+                  "销售": "xiaoshou / sales",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t6",
+            "label": "场景 6 信件快递",
+            "sentences": [
+              {
+                "id": "swcd-l2-t6-s1",
+                "cn": "你好！快递公司吗？麻烦取一下包裹，地址是北京市海淀区学院路15号北京语言大学出版社。",
+                "split": "你 好 快递 公司 吗 麻烦 取 一下 包裹 地址 是 北京 市 海淀 区 学院 路 15 号 北京 语言 大学 出版社",
+                "en": "Hello, is this the express company? Could you come pick up my package? The address is Beijing Language and Culture University Press, at No. 15, Xueyuan Road, Haidian District, Beijing.",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "公司": "gongsi / company",
+                  "吗": "ma / (question particle)",
+                  "包裹": "baoguo / package",
+                  "是": "shi / to be (am/is/are)",
+                  "北京": "beijing / Beijing",
+                  "大学": "daxue / university"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s2",
+                "cn": "麻烦您填一下这张表，写上寄件人和收件人的名字、地址、联系方式，还有包裹里装的是什么东西。",
+                "split": "麻烦 您 填 一下 这 张 表 写上 寄件人 和 收件人 的 名字 地址 联系 方式 还 有 包裹 里 装 的 是 什么 东西",
+                "en": "Please fill out this form. Write down the names, addresses and phone numbers of both the sender and the receiver. Also, write down what it is in the package.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "张": "zhang / Zhang (surname)",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)",
+                  "名字": "mingzi / name",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "包裹": "baoguo / package",
+                  "是": "shi / to be (am/is/are)",
+                  "什么": "shenme / what",
+                  "东西": "dongxi / thing"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s3",
+                "cn": "您的包裹超重了，要加收5块邮费。",
+                "split": "您 的 包裹 超重 了 要 加 收 5 块 邮费",
+                "en": "Your package is overweight. You need to pay five extra yuan.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "包裹": "baoguo / package",
+                  "超重": "chaozhong / overweight",
+                  "了": "le / (particle: completed action / new situation)",
+                  "要": "yao / want; need; will"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s4",
+                "cn": "包裹里是易碎品，请你们装卸的时候小心一点儿。",
+                "split": "包裹 里 是 易碎品 请 你们 装卸 的 时候 小心 一点儿",
+                "en": "The items in the package are fragile. Please handle with care.",
+                "dict": {
+                  "包裹": "baoguo / package",
+                  "是": "shi / to be (am/is/are)",
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shihou / time; moment",
+                  "一点儿": "yidianr / a little bit"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s5",
+                "cn": "包裹里如果是贵重物品，您最好保价，这样的话万一丢了可以走保险。",
+                "split": "包裹 里 如果 是 贵重 物品 您 最好 保价 这样 的话 万一 丢了 可以 走 保险",
+                "en": "If the items in the package are valuables, you'd better buy an insurance. In case it's lost, you can get compensation.",
+                "dict": {
+                  "包裹": "baoguo / package",
+                  "是": "shi / to be (am/is/are)",
+                  "您": "nin / you (polite)",
+                  "可以": "keyi / can; may; OK",
+                  "保险": "baoxian / insurance"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s6",
+                "cn": "我的包裹已经发出一个星期了，怎么还没到啊？你帮我上网查一下，这是单号。",
+                "split": "我 的 包裹 已经 发出 一 个 星期 了 怎么 还 没 到 啊 你 帮 我 上网 查 一下 这 是 单 号",
+                "en": "My package was sent out a week ago. Why hasn't it arrived yet? Can you help me here? This is the tracking number.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "包裹": "baoguo / package",
+                  "已经": "yijing / already",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "星期": "xingqi / week, day of the week",
+                  "了": "le / (particle: completed action / new situation)",
+                  "怎么": "zenme / how; why",
+                  "还": "hai / still; also",
+                  "没": "mei / not (past)",
+                  "啊": "a / (interjection)",
+                  "你": "ni / you",
+                  "上网": "shangwang / to go online",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s7",
+                "cn": "您好，顺丰快递。是李文吗？这是您的包裹，请您签收一下。",
+                "split": "您 好 顺丰 快递 是 李 文 吗 这 是 您 的 包裹 请 您 签收 一下",
+                "en": "Hello, this is SF Express. Are you Li Wen? This is your package. Please sign for it.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "是": "shi / to be (am/is/are)",
+                  "吗": "ma / (question particle)",
+                  "的": "de / (possessive/modifier particle)",
+                  "包裹": "baoguo / package",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l2-t6-s8",
+                "cn": "她没在，我帮她代签吧。",
+                "split": "她 没 在 我 帮 她 代签 吧",
+                "en": "She's not available right now. I'll sign for her.",
+                "dict": {
+                  "她": "ta / she; her",
+                  "没": "mei / not (past)",
+                  "在": "zai / to be at; (at)",
+                  "我": "wo / I; me",
+                  "代签": "daiqian / to sign on behalf of",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l2-t7",
+            "label": "场景 7 设备维修",
+            "sentences": [
+              {
+                "id": "swcd-l2-t7-s1",
+                "cn": "喂，工程部吗？我们办公室上不了网了。",
+                "split": "喂 工程 部 吗 我们 办公室 上 不 了 网 了",
+                "en": "Hello, is this the Engineering Department? We cannot connect to the Internet in our office.",
+                "dict": {
+                  "喂": "wei / hello",
+                  "吗": "ma / (question particle)",
+                  "我们": "women / we; us",
+                  "办公室": "bangongshi / office",
+                  "上": "shang / to attend (a class)",
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s2",
+                "cn": "打印机现在不能用，没有墨，而且还卡了纸，维修人员说明天过来。",
+                "split": "打印机 现在 不 能 用 没有 墨 而且 还 卡了 纸 维修 人员 说 明天 过来",
+                "en": "The printer cannot work right now. It has run out of ink and has a paper jam. The repairman says he'll come tomorrow.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "没有": "meiyou / not have; haven't",
+                  "而且": "erqie / and; moreover",
+                  "还": "hai / still; also",
+                  "维修": "weixiu / to repair",
+                  "说": "shuo / to say; to speak",
+                  "明天": "mingtian / tomorrow"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s3",
+                "cn": "您好！A栋四楼有两个灯坏了，麻烦派人过来修一下。",
+                "split": "您 好 A 栋 四 楼 有 两 个 灯 坏 了 麻烦 派 人 过来 修 一下",
+                "en": "Hello, this is Building A, the fourth floor. We have two broken light bulbs. Please send someone here to fix them.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "有": "you / to have",
+                  "个": "ge / (measure word)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s4",
+                "cn": "怎么整栋楼都停电了？",
+                "split": "怎么 整 栋 楼 都 停电 了",
+                "en": "What is with this blackout in the whole building?",
+                "dict": {
+                  "怎么": "zenme / how; why",
+                  "都": "dou / all; both",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s5",
+                "cn": "这台机器出毛病了，噪音特别大。",
+                "split": "这 台 机器 出 毛病 了 噪音 特别 大",
+                "en": "Something is wrong with this machine. There is a terrible noise.",
+                "dict": {
+                  "了": "le / (particle: completed action / new situation)",
+                  "特别": "tebie / especially"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s6",
+                "cn": "空调不制冷了，吹的都是热风。",
+                "split": "空调 不 制冷 了 吹 的 都 是 热 风",
+                "en": "The cooling function of the air conditioner is not working. It only blows hot air.",
+                "dict": {
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)",
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dou / all; both",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s7",
+                "cn": "电脑死机了。",
+                "split": "电脑 死机 了",
+                "en": "The computer crashed.",
+                "dict": {
+                  "电脑": "diannao / computer",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s8",
+                "cn": "客服部吗？因为水管漏水，我们正在抢修，7层以下要停水一段时间，请你们跟客人解释一下。",
+                "split": "客服 部 吗 因为 水管 漏 水 我们 正在 抢修 7 层 以下 要 停 水 一 段 时间 请 你们 跟 客人 解释 一下",
+                "en": "Is this the Customer Service Department? The water pipe has sprung a leak and we are trying to repair it. The water supply below the seventh floor will be suspended for a while. Please make some explanation to the customers.",
+                "dict": {
+                  "吗": "ma / (question particle)",
+                  "因为": "yinwei / because",
+                  "我们": "women / we; us",
+                  "正在": "zhengzai / in the process of",
+                  "要": "yao / want; need; will",
+                  "一": "yi / one",
+                  "时间": "shijian / time",
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)",
+                  "跟": "gen / with"
+                }
+              },
+              {
+                "id": "swcd-l2-t7-s9",
+                "cn": "修好了，您试试能不能用。",
+                "split": "修好 了 您 试试 能 不 能 用",
+                "en": "It has been fixed: You can try and see if it works.",
+                "dict": {
+                  "了": "le / (particle: completed action / new situation)",
+                  "您": "nin / you (polite)",
+                  "试试": "shishi / to try",
+                  "能": "neng / can; able to",
+                  "不": "bu / not"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson3",
+        "title": "Unit 3 Client Reception 接待客户",
+        "titleEn": "Unit 3",
+        "texts": [
+          {
+            "id": "swcd-l3-t1",
+            "label": "场景 1 日程安排",
+            "sentences": [
+              {
+                "id": "swcd-l3-t1-s1",
+                "cn": "这次曹总来我们公司是要谈一个重要的合作项目，大客户部尽快把接待策划案做出来，具体的接待工作由市场部全权负责，一定要落实到人，把接待工作做好。",
+                "split": "这次 曹 总 来 我们 公司 是 要 谈 一个 重要 的 合作项目 大 客户部 尽快 把 接待 策划案 做 出来 具体 的 接待工作 由 市场部 全权负责 一定 要 落实到人 把 接待工作 做好",
+                "en": "Mr. Cao is here for an important cooperation program this time. The VIP Clients Department should make a reception plan as soon as possible. and the Marketing Department is responsible for the details. Make sure that the reception goes smoothly.",
+                "dict": {
+                  "这次": "zhècì / this time",
+                  "来": "lái / to come",
+                  "我们": "wǒmen / we; us",
+                  "公司": "gōngsī / company",
+                  "是": "shì / to be (am/is/are)",
+                  "要": "yào / want; need; will",
+                  "一个": "yígè / one (a)",
+                  "的": "de / (possessive/modifier particle)",
+                  "把": "bǎ / BA marker",
+                  "接待": "jiēdài / to receive, to entertain",
+                  "做": "zuò / to do; to make",
+                  "出来": "chūlái / come out",
+                  "一定": "yídìng / definitely"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s2",
+                "cn": "曹总的考察日程一共五天，这是我们制定的日程安排表。",
+                "split": "曹 总 的 考察 日程 一共 五 天 这 是 我们 制定 的 日程 安排 表",
+                "en": "Mr. Cao is to stay for five days. This is the schedule we have arranged for him.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "一共": "yigong / altogether",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "安排": "anpai / to arrange"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s3",
+                "cn": "他一个人吗？有没有陪同？",
+                "split": "他 一个 人 吗 有没有 陪同",
+                "en": "Is he alone? Is there anyone with him?",
+                "dict": {
+                  "他": "tā / he; him",
+                  "一个": "yígè / one (a)",
+                  "吗": "ma / (question particle)",
+                  "有没有": "yǒuméiyǒu / do you have"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s4",
+                "cn": "这次的接待按大客户规格走。",
+                "split": "这 次 的 接待 按 大客户 规格 走",
+                "en": "Make it a VIP reception.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "接待": "jidai / to receive, to entertain",
+                  "规格": "guige / specification"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s5",
+                "cn": "会议室预订了吗？别忘了借麦克风和投影仪。",
+                "split": "会议室 预订 了 吗 别 忘了 借 麦克风 和 投影仪",
+                "en": "Has the meeting room been booked? Don't forget to borrow a microphone and a projector.",
+                "dict": {
+                  "会议室": "huiyishi / meeting room",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)",
+                  "和": "he / and; with",
+                  "投影仪": "touyingyi / projector"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s6",
+                "cn": "吴秘书，肖总10月6号到10月9号是怎么安排的？跟曹总谈判的时间定在哪一天合适？",
+                "split": "吴 秘书 肖 总 10 月 6 号 到 10 月 9 号 是 怎么 安排 的 跟 曹 总 谈判 的 时间 定 在 哪 一 天 合适",
+                "en": "Wu, what is the schedule for Mr. Xiao from October 6th to 9th? Which day is convenient for the negotiation with Mr. Cao?",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "怎么": "zenme / how; why",
+                  "安排": "anpai / to arrange",
+                  "的": "de / (possessive/modifier particle)",
+                  "跟": "gen / with",
+                  "时间": "shijian / time",
+                  "在": "zai / to be at; (at)",
+                  "一": "yi / one",
+                  "合适": "heshi / fitting, suitable"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s7",
+                "cn": "曹总到达公司当天，门口要打电子欢迎牌。",
+                "split": "曹 总 到达 公司 当天 门口 要 打 电子 欢迎 牌",
+                "en": "When Mr. Cao arrives, there should be an electronic welcome sign at the front door.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "要": "yao / want; need; will",
+                  "打": "da / to hit; to make (a phone call)",
+                  "欢迎": "huanying / welcome"
+                }
+              },
+              {
+                "id": "swcd-l3-t1-s8",
+                "cn": "谢经理，你们产品部10月7号能不能给客户做一个专题介绍？",
+                "split": "谢 经理 你们 产品 部 10 月 7 号 能 不 能 给 客户 做 一 个 专题 介绍",
+                "en": "Mr. Xie, could any of you in the Product Management Department make an introduction for the clients on October 7th?",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "你们": "nimen / you (plural)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "给": "gei / give; for",
+                  "做": "zuo / to do; to make",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "介绍": "jieshao / introduce"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t2",
+            "label": "场景 2 机场接送",
+            "sentences": [
+              {
+                "id": "swcd-l3-t2-s1",
+                "cn": "你好，后勤服务部吗？我需要一辆商务车，用五天，要能坐七八个人的。",
+                "split": "你 好 后勤 服务 部 吗 我 需要 一 辆 商务 车 用 五 天 要 能 坐 七八 个 人 的",
+                "en": "Hello, is this the Logistics Department? I need a commercial vehicle for seven or eight people for five days.",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "吗": "ma / (question particle)",
+                  "我": "wo / I; me",
+                  "需要": "xuyao / need",
+                  "一": "yi / one",
+                  "要": "yao / want; need; will",
+                  "能": "neng / can; able to",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s2",
+                "cn": "航班号是UA898，北京时间晚上6点35到。",
+                "split": "航班 号 是 UA 898 北京 时间 晚上 6 点 35 到",
+                "en": "The flight number is UA898. It will arrive at 6:35 p.m., Beijing time.",
+                "dict": {
+                  "航班": "hangban / flight",
+                  "是": "shi / to be (am/is/are)",
+                  "北京": "beijing / Beijing",
+                  "时间": "shijian / time",
+                  "晚上": "wanshang / evening"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s3",
+                "cn": "金师傅，我们去机场三号航站楼。",
+                "split": "金 师傅 我们 去 机场 三 号 航站楼",
+                "en": "Mr. Jin, Terminal 3 of the airport, please.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "去": "qu / to go"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s4",
+                "cn": "咱们提前一个半小时到机场，应该不会耽误。",
+                "split": "咱们 提前 一 个 半 小时 到 机场 应该 不 会 耽误",
+                "en": "Let's get to the airport one and a half hours early, so that we won't miss the flight.",
+                "dict": {
+                  "咱们": "zanmen / we (inclusive)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "小时": "xiaoshi / hour",
+                  "应该": "yinggai / should",
+                  "不": "bu / not",
+                  "会": "hui / can; will"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s5",
+                "cn": "杨总，欢迎您来我们公司考察，您一路辛苦了！我是公关部的经理助理，叫钟林，钟声的钟，双木林，您叫我小钟就可以了。这是我的名片。",
+                "split": "杨 总 欢迎 您 来 我们 公司 考察 您 一路 辛苦 了 我 是 公关 部 的 经理 助理 叫 钟 林 钟 声 的 钟 双 木 林 您 叫 我 小 钟 就 可以 了 这 是 我 的 名片",
+                "en": "Mr. Yang, welcome to our company for inspection. You must have had a long trip. I am the manager assistant of the Public Affairs Department. My name is Zhong Lin. You can call me Xiao Zhong. This is my business card.",
+                "dict": {
+                  "欢迎": "huanying / welcome",
+                  "您": "nin / you (polite)",
+                  "来": "lai / to come",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "公关": "gongguan / public relation",
+                  "的": "de / (possessive/modifier particle)",
+                  "经理": "jingli / manager",
+                  "叫": "jiao / call; name",
+                  "就": "jiu / just; simply",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s6",
+                "cn": "本来我们安经理要亲自来接您的，但是董事长临时召开紧急会议，走不开，他让我向您转达歉意。",
+                "split": "本来 我们 安 经理 要 亲自 来 接 您 的 但是 董事长 临时 召开 紧急 会议 走 不 开 他 让 我 向 您 转达 歉意",
+                "en": "Mr. An was to meet you in person. But the chairman of the board called up an urgent meeting and Mr. An cannot leave. He wants you to accept his apologies.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "经理": "jingli / manager",
+                  "要": "yao / want; need; will",
+                  "来": "lai / to come",
+                  "接": "jie / to answer (a call); to receive",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "但是": "danshi / but; however",
+                  "不": "bu / not",
+                  "他": "ta / he; him",
+                  "让": "rang / let; allow",
+                  "我": "wo / I; me",
+                  "向": "xiang / towards"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s7",
+                "cn": "感谢您在百忙之中抽出时间来我们公司考察。",
+                "split": "感谢 您 在 百忙 之 中 抽出 时间 来 我们 公司 考察",
+                "en": "Thank you for taking your time to inspect our company.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "在": "zai / to be at; (at)",
+                  "时间": "shijian / time",
+                  "来": "lai / to come",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s8",
+                "cn": "这边请，我们的车停在地下二层。",
+                "split": "这边 请 我们 的 车 停 在 地下 二 层",
+                "en": "This way, please. Our our car is on the second floor underground.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "二": "er / two"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s9",
+                "cn": "路上还顺利吧？",
+                "split": "路上 还 顺利 吧",
+                "en": "Was everything alright on your way here?",
+                "dict": {
+                  "还": "hai / still; also",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s10",
+                "cn": "您下次有机会再来北京一定要给我打电话，我好好儿陪您玩儿玩儿。",
+                "split": "您 下次 有 机会 再 来 北京 一定 要 给 我 打电话 我 好好儿 陪您 玩儿 玩儿",
+                "en": "Next time you come to Beijing, do call me and I will take you around the city.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "有": "yǒu / to have",
+                  "再": "zài / again (future)",
+                  "来": "lái / to come",
+                  "北京": "běijīng / Beijing",
+                  "一定": "yídìng / definitely",
+                  "要": "yào / want; need; will",
+                  "给": "gěi / give; for",
+                  "我": "wǒ / I; me",
+                  "打电话": "dǎdiànhuà / to make a phone call",
+                  "玩儿": "wánér / to have fun; to play"
+                }
+              },
+              {
+                "id": "swcd-l3-t2-s11",
+                "cn": "祝您一路平安！",
+                "split": "祝 您 一路 平安",
+                "en": "Have a safe trip!",
+                "dict": {
+                  "您": "nin / you (polite)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t3",
+            "label": "场景 3 酒店住宿",
+            "sentences": [
+              {
+                "id": "swcd-l3-t3-s1",
+                "cn": "我先送您去酒店休息吧。",
+                "split": "我 先 送 您 去 酒店 休息 吧",
+                "en": "I will take you to the hotel first and you can have a good rest.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "先": "xian / first",
+                  "您": "nin / you (polite)",
+                  "去": "qu / to go",
+                  "休息": "xiuxi / to rest",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s2",
+                "cn": "这是一家四星级酒店，在市中心，交通非常方便。",
+                "split": "这 是 一 家 四星级 酒店 在 市 中心 交通 非常 方便",
+                "en": "This is a four-star hotel located in the downtown area and the public transportation is very convenient.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "家": "jia / home; family",
+                  "在": "zai / to be at; (at)",
+                  "非常": "feichang / very"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s3",
+                "cn": "你好，我上周预订了一个套间，我姓钟，电话号码是13901237676。",
+                "split": "你 好 我 上 周 预订了 一 个 套间 我 姓 钟 电话 号码 是 13901237676",
+                "en": "Hello, I booked a suite last week. My family name is Zhong. My phone number is 13901237676.",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "我": "wo / I; me",
+                  "上": "shang / to attend (a class)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "电话": "dianhua / telephone; phone",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s4",
+                "cn": "请出示一下您的身份证件。",
+                "split": "请 出示 一下 您 的 身份 证件",
+                "en": "Please show me your ID card.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s5",
+                "cn": "您的房间在15层，1523号房，这是您的房卡，退房时间是中午12点。",
+                "split": "您 的 房间 在 15 层 1523 号房 这 是 您 的 房卡 退房 时间 是 中午 12 点",
+                "en": "Your room is on the 15th floor. The room number is 1523 and this is your room card. The checkout time is 12 o'clock at noon.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "房间": "fángjiān / room",
+                  "在": "zài / to be at; (at)",
+                  "是": "shì / to be (am/is/are)",
+                  "时间": "shíjiān / time",
+                  "中午": "zhōngwǔ / noon"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s6",
+                "cn": "明天早上7点会有电话叫早，早餐在一楼餐厅，这是早餐券。",
+                "split": "明天 早上 7 点 会 有 电话 叫 早 早餐 在 一 楼 餐厅 这 是 早餐 券",
+                "en": "The wake-up call will be 7 o'clock tomorrow morning. Breakfast will be provided in the first floor restaurant. and this is your breakfast coupon.",
+                "dict": {
+                  "明天": "mingtian / tomorrow",
+                  "早上": "zaoshang / morning",
+                  "会": "hui / can; will",
+                  "有": "you / to have",
+                  "电话": "dianhua / telephone; phone",
+                  "叫": "jiao / call; name",
+                  "在": "zai / to be at; (at)",
+                  "一": "yi / one",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s7",
+                "cn": "您好好儿休息休息，我大概六点半过来接您，安经理晚上要给您接风。",
+                "split": "您 好好儿 休息 休息 我 大概 六 点 半 过来 接 您 安 经理 晚上 要 给 您 接风",
+                "en": "You can have a good rest first and I will pick you up around 6:30, Mr. An is holding a dinner party for you tonight.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "休息": "xiuxi / to rest",
+                  "我": "wo / I; me",
+                  "大概": "dagai / roughly, about",
+                  "接": "jie / to answer (a call); to receive",
+                  "经理": "jingli / manager",
+                  "晚上": "wanshang / evening",
+                  "要": "yao / want; need; will",
+                  "给": "gei / give; for"
+                }
+              },
+              {
+                "id": "swcd-l3-t3-s8",
+                "cn": "喂？服务台吗？你好，请给1523房间送一床被子过来。",
+                "split": "喂 服务台 吗 你 好 请 给 1523 房间 送 一 床 被子 过来",
+                "en": "Hello? Is this the service desk? Please send a quilt to Room 1523.",
+                "dict": {
+                  "喂": "wei / hello",
+                  "吗": "ma / (question particle)",
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "请": "qing / please; invite",
+                  "给": "gei / give; for",
+                  "房间": "fangjian / room",
+                  "一": "yi / one"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t4",
+            "label": "场景 4 参观访问",
+            "sentences": [
+              {
+                "id": "swcd-l3-t4-s1",
+                "cn": "宋总，您好！欢迎您莅临我们公司参观访问！我是生产基地的员工，叫李丽。",
+                "split": "宋 总 您 好 欢迎 您 莅临 我们 公司 参观 访问 我 是 生产 基地 的 员工 叫 李 丽",
+                "en": "Mr. Song, welcome to our company. I am Li Li, an employee of the production base.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "欢迎": "huanying / welcome",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "参观": "canguan / to visit",
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "生产": "shengchan / production",
+                  "的": "de / (possessive/modifier particle)",
+                  "叫": "jiao / call; name"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s2",
+                "cn": "这就是我们的厂区，离市中心很近，地理位置很优越，占地面积一共7.5平方公里。",
+                "split": "这 就是 我们 的 厂区 离 市 中心 很 近 地理 位置 很 优越 占地 面积 一共 7.5 平方 公里",
+                "en": "This is our factory. It is situated in a convenient position, near the downtown area, and covers a total area of 7.5 square kilometers.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "很": "hen / very",
+                  "一共": "yigong / altogether",
+                  "平方": "pingfang / square"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s3",
+                "cn": "我们公司建于1995年，注册资本1000万元，企业总投资5000万元，现有职工300多人，去年销售收入800万，实现利税450万元。",
+                "split": "我们 公司 建于 1995 年 注册资本 1000 万元 企业 总 投资 5000 万元 现有 职工 300 多 人 去年 销售收入 800 万 实现 利税 450 万元",
+                "en": "Our company was established in 1995, with a registered capital of 10 million yuan, and the total investment amounts to 50 million yuan. We have over 300 staff members. Our sales income last year reached eight million and the profits tax was 4.5 million.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "公司": "gōngsī / company"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s4",
+                "cn": "我们在国内的15个城市设立了分公司，在欧洲、美国和东南亚也都有办事处。",
+                "split": "我们 在 国内 的 15 个 城市 设立了 分 公司 在 欧洲 美国 和 东南亚 也 都 有 办事处",
+                "en": "We have set up branches in 15 cities in China and have offices in Europe, the United United States and Southeast Asia.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "个": "ge / (measure word)",
+                  "公司": "gongsi / company",
+                  "美国": "meiguo / America",
+                  "和": "he / and; with",
+                  "也": "ye / also; too",
+                  "都": "dou / all; both",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s5",
+                "cn": "我们的产品在国际市场上很有竞争力。",
+                "split": "我们 的 产品 在 国际 市场 上 很 有 竞争力",
+                "en": "Our products in the international market.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)",
+                  "很": "hen / very",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s6",
+                "cn": "这是我们的产品目录。",
+                "split": "这 是 我们 的 产品 目录",
+                "en": "This is our product catalogue.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s7",
+                "cn": "我们两年以前引进了新的生产线，现在80%的工序都是由电脑控制的，大大降低了人工成本。",
+                "split": "我们 两 年 以前 引进了 新 的 生产线 现在 80 的 工序 都 是 由 电脑 控制 的 大大 降低了 人工 成本",
+                "en": "Two years ago, we introduced a new product line. Now 80% of the procedure is operated by computers, which largely saves our labor cost.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "以前": "yiqian / before",
+                  "的": "de / (possessive/modifier particle)",
+                  "现在": "xianzai / now",
+                  "都": "dou / all; both",
+                  "是": "shi / to be (am/is/are)",
+                  "电脑": "diannao / computer"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s8",
+                "cn": "现在我们的生产能力已经比五年以前翻了一番。",
+                "split": "现在 我们 的 生产 能力 已经 比 五 年 以前 翻了 一 番",
+                "en": "Our productivity is twice as much as it was five years ago.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "生产": "shengchan / production",
+                  "已经": "yijing / already",
+                  "比": "bi / than; to compare",
+                  "以前": "yiqian / before",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s9",
+                "cn": "可以介绍一下你们的质量管理程序吗？",
+                "split": "可以 介绍 一下 你们 的 质量 管理 程序 吗",
+                "en": "Can you explain your procedure for quality management?",
+                "dict": {
+                  "可以": "keyi / can; may; OK",
+                  "介绍": "jieshao / introduce",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s10",
+                "cn": "我可以参观一下你们的产品陈列室吗？",
+                "split": "我 可以 参观 一下 你们 的 产品 陈列室 吗",
+                "en": "Can I take a look around your showroom?",
+                "dict": {
+                  "我": "wo / I; me",
+                  "可以": "keyi / can; may; OK",
+                  "参观": "canguan / to visit",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s11",
+                "cn": "你们的年产量是多少？",
+                "split": "你们 的 年产量 是 多少",
+                "en": "How much is your annual yield?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l3-t4-s12",
+                "cn": "百闻不如一见。",
+                "split": "百 闻 不 如 一 见",
+                "en": "Seeing is believing.",
+                "dict": {
+                  "不": "bu / not",
+                  "一": "yi / one"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t5",
+            "label": "场景 5 洽谈业务",
+            "sentences": [
+              {
+                "id": "swcd-l3-t5-s1",
+                "cn": "您好，吕总，非常感谢您亲自来我们公司考察，我们很希望有机会跟贵公司合作。",
+                "split": "您 好 吕 总 非常 感谢 您 亲自 来 我们 公司 考察 我们 很 希望 有 机会 跟 贵公司 合作",
+                "en": "Hello, Mr. Lu. Thank you for visiting our company in person. We are looking forward to working with your company.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "非常": "feichang / very",
+                  "来": "lai / to come",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "很": "hen / very",
+                  "希望": "xiwang / hope; wish",
+                  "有": "you / to have",
+                  "跟": "gen / with"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s2",
+                "cn": "我也非常希望这次见面能达成合作意向。",
+                "split": "我 也 非常 希望 这 次 见面 能 达成 合作 意向",
+                "en": "I also hope this meeting will lead to cooperation between our companies.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "也": "ye / also; too",
+                  "非常": "feichang / very",
+                  "希望": "xiwang / hope; wish",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s3",
+                "cn": "我想先请市场部毕总监大概介绍一下我们公司目前的市场分布状况。",
+                "split": "我 想 先 请 市场 部 毕 总监 大概 介绍 一下 我们 公司 目前 的 市场 分布 状况",
+                "en": "First I'd like Mr. Bi from the Marketing Department to give a brief introduction to the market distribution of our company.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "先": "xian / first",
+                  "请": "qing / please; invite",
+                  "大概": "dagai / roughly, about",
+                  "介绍": "jieshao / introduce",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s4",
+                "cn": "刚才我提到的几点能不能在合同里单独列出来？",
+                "split": "刚才 我 提到 的 几 点 能 不 能 在 合同 里 单独 列 出来",
+                "en": "Can we put what I just mentioned separately in the contract?",
+                "dict": {
+                  "刚才": "gangcai / just now",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "几": "ji / how many; several",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "在": "zai / to be at; (at)",
+                  "出来": "chulai / come out"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s5",
+                "cn": "我们的定价是比同行要高一点儿，但是从长远来看，贵公司今天的投入日后会带来更大的产出，我们的合作是一种双赢。",
+                "split": "我们 的 定价 是 比 同行 要 高 一点儿 但是 从 长远 来 看 贵公司 今天 的 投入 日后 会 带来 更 大 的 产出 我们 的 合作 是 一 种 双赢",
+                "en": "It is true that our price is a little higher than that of other companies. But in the long run, this investment will bring more benefits to your company in the future. This cooperation is a win-win situation.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "比": "bi / than; to compare",
+                  "要": "yao / want; need; will",
+                  "一点儿": "yidianr / a little bit",
+                  "但是": "danshi / but; however",
+                  "从": "cong / from",
+                  "来": "lai / to come",
+                  "看": "kan / to look; to see; to visit",
+                  "今天": "jintian / today",
+                  "会": "hui / can; will",
+                  "更": "geng / more",
+                  "一": "yi / one",
+                  "双赢": "shuangying / win-win"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s6",
+                "cn": "对不起，我打断一下，您刚才说的我没明白，能不能请您解释一下？",
+                "split": "对不起 我 打断 一下 您 刚才 说 的 我 没 明白 能 不 能 请 您 解释 一下",
+                "en": "Sorry to interrupt, but I didn't catch what you were talking about. Can you explain it?",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "刚才": "gangcai / just now",
+                  "说": "shuo / to say; to speak",
+                  "的": "de / (possessive/modifier particle)",
+                  "没": "mei / not (past)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s7",
+                "cn": "不好意思，我插一句。",
+                "split": "不 好意思 我 插 一 句",
+                "en": "Sorry to cut in, but I have something to say.",
+                "dict": {
+                  "不": "bu / not",
+                  "我": "wo / I; me",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s8",
+                "cn": "这个问题我方得慎重考虑。",
+                "split": "这个 问题 我 方 得 慎重 考虑",
+                "en": "We have to give this matter some deep thought.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "问题": "wenti / problem",
+                  "我": "wo / I; me"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s9",
+                "cn": "您说的这一点我理解，但是站在我方的立场，您提的条件还是苛刻了一些。",
+                "split": "您 说 的 这 一 点 我 理解 但是 站 在 我 方 的 立场 您 提 的 条件 还是 苛刻 了 一些",
+                "en": "I understand your point. But from our point of view, your offer is a little unacceptable.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "说": "shuo / to say; to speak",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one",
+                  "我": "wo / I; me",
+                  "但是": "danshi / but; however",
+                  "在": "zai / to be at; (at)",
+                  "还是": "haishi / or",
+                  "了": "le / (particle: completed action / new situation)",
+                  "一些": "yixie / some; a few"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s10",
+                "cn": "坦率地说，在这一点上，我们跟贵方的意见分歧很大。",
+                "split": "坦率 地 说 在 这 一 点 上 我们 跟 贵方 的 意见 分歧 很 大",
+                "en": "To be frank, we have very different points of view on this matter.",
+                "dict": {
+                  "说": "shuo / to say; to speak",
+                  "在": "zai / to be at; (at)",
+                  "一": "yi / one",
+                  "上": "shang / to attend (a class)",
+                  "我们": "women / we; us",
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "意见": "yijian / complaint",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s11",
+                "cn": "对于这种合作方式的前景，我们还有一点不能确定。",
+                "split": "对于 这 种 合作 方式 的 前景 我们 还 有 一 点 不 能 确定",
+                "en": "We are a little uncertain about the prospects of this way of cooperation.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "一": "yi / one",
+                  "不": "bu / not",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l3-t5-s12",
+                "cn": "我看今天上午的讨论先到这里吧，我们先吃饭，下午再继续。",
+                "split": "我 看 今天 上午 的 讨论 先 到 这里 吧 我们 先 吃 饭 下午 再 继续",
+                "en": "Let's stop here and go grab some lunch. We will go on with the discussion this afternoon.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "看": "kan / to look; to see; to visit",
+                  "今天": "jintian / today",
+                  "上午": "shangwu / morning",
+                  "的": "de / (possessive/modifier particle)",
+                  "先": "xian / first",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "我们": "women / we; us",
+                  "下午": "xiawu / afternoon",
+                  "再": "zai / again (future)",
+                  "继续": "jixu / continue"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t6",
+            "label": "场景 6 宴请宾客",
+            "sentences": [
+              {
+                "id": "swcd-l3-t6-s1",
+                "cn": "您下周五晚上有安排吗？我们公司举行招待会，想请您参加。",
+                "split": "您 下 周 五 晚上 有 安排 吗 我们 公司 举行 招待会 想 请 您 参加",
+                "en": "Are you available next Friday night? Our company will have a reception and we would like you to come.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "晚上": "wanshang / evening",
+                  "有": "you / to have",
+                  "安排": "anpai / to arrange",
+                  "吗": "ma / (question particle)",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "举行": "juxing / to hold (event)",
+                  "想": "xiang / want; think",
+                  "请": "qing / please; invite",
+                  "参加": "canjia / to participate"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s2",
+                "cn": "贵宾到了，欢迎欢迎！感谢您参加今天的宴会。",
+                "split": "贵宾 到 了 欢迎 欢迎 感谢 您 参加 今天 的 宴会",
+                "en": "Here is our distinguished guest. Welcome! Thank you for attending today's party.",
+                "dict": {
+                  "贵宾": "guibin / VIP",
+                  "了": "le / (particle: completed action / new situation)",
+                  "欢迎": "huanying / welcome",
+                  "您": "nin / you (polite)",
+                  "参加": "canjia / to participate",
+                  "今天": "jintian / today",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s3",
+                "cn": "这边请，我们订的包间在五层。",
+                "split": "这边 请 我们 订 的 包间 在 五 层",
+                "en": "This way, please. The room reserved for us is on the 5th floor.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s4",
+                "cn": "我提议，大家举杯，为我们的合作成功，干杯！",
+                "split": "我 提议 大家 举 杯 为 我们 的 合作 成功 干杯",
+                "en": "I propose a toast to our successful cooperation.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "大家": "dajia / everyone",
+                  "为": "wei / for",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s5",
+                "cn": "我敬您一杯，希望咱们合作顺利，新品大卖！",
+                "split": "我 敬 您 一 杯 希望 咱们 合作 顺利 新品 大 卖",
+                "en": "I propose a toast. May our cooperation be a success and our new product sell well!",
+                "dict": {
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "一": "yi / one",
+                  "希望": "xiwang / hope; wish",
+                  "咱们": "zanmen / we (inclusive)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s6",
+                "cn": "哪里，应当我敬您。以后咱们合作的机会还很多，多沟通，多交流。",
+                "split": "哪里 应当 我 敬 您 以后 咱们 合作 的 机会 还 很 多 多 沟通 多 交流",
+                "en": "No. It is me who should make this toast. We have lots of opportunities for cooperation in the future. Let's communicate more.",
+                "dict": {
+                  "哪里": "nali / not at all (modest)",
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "以后": "yihou / after",
+                  "咱们": "zanmen / we (inclusive)",
+                  "的": "de / (possessive/modifier particle)",
+                  "还": "hai / still; also",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s7",
+                "cn": "大家都动筷吧。",
+                "split": "大家 都 动 筷 吧",
+                "en": "Let's get started with the dinner.",
+                "dict": {
+                  "大家": "dajia / everyone",
+                  "都": "dou / all; both",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s8",
+                "cn": "烤鸭是这里的特色菜，您尝尝。",
+                "split": "烤鸭 是 这里 的 特色菜 您 尝尝",
+                "en": "The roast duck is a specialty here. Have a taste.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s9",
+                "cn": "怎么样？今天的菜还合您的口味吗？",
+                "split": "怎么样 今天 的 菜 还 合 您 的 口味 吗",
+                "en": "How is it? Do you like the food?",
+                "dict": {
+                  "怎么样": "zenmeyang / how about",
+                  "今天": "jintian / today",
+                  "的": "de / (possessive/modifier particle)",
+                  "还": "hai / still; also",
+                  "您": "nin / you (polite)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t6-s10",
+                "cn": "非常丰盛，感谢您这几天的热情接待。",
+                "split": "非常 丰盛 感谢 您 这 几 天 的 热情 接待",
+                "en": "Such a splendid dinner. Thank you for your warm hospitality these days.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "您": "nin / you (polite)",
+                  "几": "ji / how many; several",
+                  "的": "de / (possessive/modifier particle)",
+                  "接待": "jiedai / to receive, to entertain"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t7",
+            "label": "场景 7 礼品赠送",
+            "sentences": [
+              {
+                "id": "swcd-l3-t7-s1",
+                "cn": "这是一点儿心意，请笑纳。",
+                "split": "这 是 一点儿 心意 请 笑纳",
+                "en": "This is a little gift for you. Please accept it.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "一点儿": "yidianr / a little bit",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s2",
+                "cn": "一份小礼物，聊表心意。",
+                "split": "一 份 小 礼物 聊 表 心意",
+                "en": "This small gift is a token of my regard.",
+                "dict": {
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s3",
+                "cn": "非常感谢您这段时间对我的关照，一点儿小意，不成敬意。",
+                "split": "非常 感谢 您 这 段 时间 对 我 的 关照 一点儿 小 意 不 成 敬意",
+                "en": "Thank you for taking care of me all this time. It's just a small gift. Please accept it.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "您": "nin / you (polite)",
+                  "时间": "shijian / time",
+                  "对": "dui / to; towards; correct",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "一点儿": "yidianr / a little bit",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s4",
+                "cn": "听说您爱喝茶，这是一套紫砂茶具，希望您喜欢。",
+                "split": "听说 您 爱 喝 茶 这 是 一 套 紫砂 茶具 希望 您 喜欢",
+                "en": "I heard that you liked drinking tea. This is a set of sand-fired teapots. I hope you like it.",
+                "dict": {
+                  "听说": "tingshuo / I heard that",
+                  "您": "nin / you (polite)",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "希望": "xiwang / hope; wish",
+                  "喜欢": "xihuan / like; love"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s5",
+                "cn": "您是怎么知道我爱喝茶的？这套茶具太漂亮了！",
+                "split": "您 是 怎么 知道 我 爱 喝 茶 的 这 套 茶具 太 漂亮 了",
+                "en": "How do you know that I like tea? This set of teapots is so pretty!",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "是": "shi / to be (am/is/are)",
+                  "怎么": "zenme / how; why",
+                  "知道": "zhidao / know",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tai / too; excessively",
+                  "漂亮": "piaoliang / pretty",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s6",
+                "cn": "您太破费了。既然这样，那我就却之不恭了，谢谢您！",
+                "split": "您 太 破费 了 既然 这样 那 我 就 却之不恭 了 谢谢您",
+                "en": "You didn't have to buy this, but I'll take it. Thank you.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "太": "tài / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wǒ / I; me",
+                  "就": "jiù / just; simply"
+                }
+              },
+              {
+                "id": "swcd-l3-t7-s7",
+                "cn": "您的好意我心领了，但是这么贵重的礼物，我不能接受。",
+                "split": "您 的 好意 我 心领 了 但是 这么 贵重 的 礼物 我 不 能 接受",
+                "en": "I appreciate your kindness. But this is too expensive. I can't accept it.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我": "wo / I; me",
+                  "了": "le / (particle: completed action / new situation)",
+                  "但是": "danshi / but; however",
+                  "这么": "zheme / so",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "接受": "jieshou / to accept"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l3-t8",
+            "label": "场景 8 观光旅游",
+            "sentences": [
+              {
+                "id": "swcd-l3-t8-s1",
+                "cn": "齐经理，我把明后天的行程安排向您汇报一下，您看看是不是可行。",
+                "split": "齐 经理 我 把 明后天 的 行程 安排 向 您 汇报 一下 您 看看 是 不 是 可行",
+                "en": "Mr. Qi, let me brief you on the itinerary for the next two days so you can decide if it's OK.",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "我": "wo / I; me",
+                  "把": "ba / BA marker",
+                  "的": "de / (possessive/modifier particle)",
+                  "安排": "anpai / to arrange",
+                  "向": "xiang / towards",
+                  "您": "nin / you (polite)",
+                  "看看": "kankan / to take a look",
+                  "是": "shi / to be (am/is/are)",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s2",
+                "cn": "城里边堵车比较厉害，明天我们早一点儿出发怎么样？",
+                "split": "城 里边 堵车 比较 厉害 明天 我们 早 一点儿 出发 怎么样",
+                "en": "To avoid traffic jams in the city, how about we set off a bit earlier tomorrow?",
+                "dict": {
+                  "里边": "libian / inside",
+                  "比较": "bijiao / relatively",
+                  "厉害": "lihai / serious; severe",
+                  "明天": "mingtian / tomorrow",
+                  "我们": "women / we; us",
+                  "一点儿": "yidianr / a little bit",
+                  "出发": "chufa / to set off, depart",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s3",
+                "cn": "明天早上我8点去酒店接您，然后去长城，路上大概一个小时，我们可以坐缆车上山，再走下来，这样比较节省体力。下午去故宫，晚上我已经全聚德预订了位置，咱们去尝尝北京最负盛名的烤鸭。",
+                "split": "明天 早上 我 8 点 去 酒店 接 您 然后 去 长城 路上 大概 一个 小时 我们 可以 坐 缆车 上山 再 走 下来 这样 比较 节省 体力 下午 去 故宫 晚上 我 已经 全聚德 预订 了 位置 咱们 去 尝尝 北京 最 负 盛名 的 烤鸭",
+                "en": "I'll pick you up at the hotel at 8:00 tomorrow morning and then we'll head to the Great Wall. It'll take about one hour to get there. We can take the cable car to the top and walk our way down, which helps to save our energy. In the afternoon, we will visit the Forbidden City. and I have made a reservation in Quanjude. In the evening, we can go and feast on the most famous Peking duck.",
+                "dict": {
+                  "明天": "míngtiān / tomorrow",
+                  "早上": "zǎoshàng / morning",
+                  "我": "wǒ / I; me",
+                  "去": "qù / to go",
+                  "接": "jiē / to answer (a call); to receive",
+                  "您": "nín / you (polite)",
+                  "然后": "ránhòu / then; afterwards",
+                  "大概": "dàgài / roughly, about",
+                  "一个": "yígè / one (a)",
+                  "小时": "xiǎoshí / hour",
+                  "我们": "wǒmen / we; us",
+                  "可以": "kěyǐ / can; may; OK",
+                  "再": "zài / again (future)",
+                  "比较": "bǐjiào / relatively",
+                  "下午": "xiàwǔ / afternoon",
+                  "晚上": "wǎnshàng / evening",
+                  "已经": "yǐjīng / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "咱们": "zánmen / we (inclusive)",
+                  "北京": "běijīng / Beijing",
+                  "最": "zuì / most",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s4",
+                "cn": "不到长城非好汉，不吃烤鸭真遗憾。",
+                "split": "不 到 长城 非 好汉 不 吃 烤鸭 真 遗憾",
+                "en": "One who hasn't been to the Great Wall isn't a hero; one who has missed the roast duck will be full of regret!",
+                "dict": {
+                  "不": "bu / not",
+                  "真": "zhen / really; truly"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s5",
+                "cn": "现在正是旅游旺季，所以游客很多。",
+                "split": "现在 正 是 旅游 旺季 所以 游客 很 多",
+                "en": "This is the peak tourist season, so there are lots of tourists.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "正": "zheng / just; right",
+                  "是": "shi / to be (am/is/are)",
+                  "所以": "suoyi / therefore",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s6",
+                "cn": "我今天的任务就是陪您好好玩儿玩儿，尽兴而归。",
+                "split": "我 今天 的 任务 就是 陪 您 好好玩 儿玩儿 尽 兴 而 归",
+                "en": "My task today is to make sure you have fun.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "今天": "jintian / today",
+                  "的": "de / (possessive/modifier particle)",
+                  "陪": "pei / to accompany",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s7",
+                "cn": "有你当我的导游，真是太好了。",
+                "split": "有 你 当 我 的 导游 真是 太 好 了",
+                "en": "It's so so to have you as my guide.",
+                "dict": {
+                  "有": "you / to have",
+                  "你": "ni / you",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tai / too; excessively",
+                  "好": "hao / good; well; OK",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s8",
+                "cn": "这里有哪些值得一看的景点？",
+                "split": "这里 有 哪些 值得 一 看 的 景点",
+                "en": "What are the sites here worth visiting?",
+                "dict": {
+                  "有": "you / to have",
+                  "一": "yi / one",
+                  "看": "kan / to look; to see; to visit",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s9",
+                "cn": "我听说那边有一个古镇，风景不错。",
+                "split": "我 听说 那边 有 一 个 古镇 风景 不错",
+                "en": "I hear that there is an ancient town with beautiful scenery there.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "听说": "tingshuo / I heard that",
+                  "有": "you / to have",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "不错": "bucuo / not bad, quite good"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s10",
+                "cn": "这个季节看红叶还稍微早了一点儿。",
+                "split": "这个 季节 看 红叶 还 稍微 早 了 一点儿",
+                "en": "It's still a little too early to see maple leaves in this season.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "看": "kan / to look; to see; to visit",
+                  "还": "hai / still; also",
+                  "了": "le / (particle: completed action / new situation)",
+                  "一点儿": "yidianr / a little bit"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s11",
+                "cn": "这儿的景色太美了！今天真是不虚此行。",
+                "split": "这儿 的 景色 太 美 了 今天 真是 不虚此行",
+                "en": "What beautiful scenery! It's totally worth the trip today.",
+                "dict": {
+                  "这儿": "zhe'er / here",
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "今天": "jintian / today"
+                }
+              },
+              {
+                "id": "swcd-l3-t8-s12",
+                "cn": "我们一起合个影吧。",
+                "split": "我们 一起 合 个 影 吧",
+                "en": "Let's take a picture together.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "一起": "yiqi / together",
+                  "个": "ge / (measure word)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson4",
+        "title": "Unit 4 Conference 会议",
+        "titleEn": "Unit 4",
+        "texts": [
+          {
+            "id": "swcd-l4-t1",
+            "label": "场景 1 会议筹备",
+            "sentences": [
+              {
+                "id": "swcd-l4-t1-s1",
+                "cn": "根据年初制订的工作计划，8月要在深圳开一个用户会，现在该启动了。",
+                "split": "根据 年初 制订 的 工作 计划 8 月 要 在 深圳 开 一 个 用户 会 现在 该 启动 了",
+                "en": "According to the work plan we worked out at the beginning of the year, there will be a user conference in August in Shenzhen. It's time to start it.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "计划": "jihua / plan",
+                  "要": "yao / want; need; will",
+                  "在": "zai / to be at; (at)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "会": "hui / can; will",
+                  "现在": "xianzai / now",
+                  "启动": "qidong / commencement",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s2",
+                "cn": "我已经把会议策划做出来了，这次会议的主题是新品发布，主要面向企业的采购部门主管。",
+                "split": "我 已经 把 会议 策划 做 出来 了 这 次 会议 的 主题 是 新品 发布 主要 面向 企业 的 采购 部门 主管",
+                "en": "I have already worked out a conference plan and the theme is new product release. This conference is mainly targeted at managers of the Sourcing Department in enterprises.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "已经": "yijing / already",
+                  "把": "ba / BA marker",
+                  "做": "zuo / to do; to make",
+                  "出来": "chulai / come out",
+                  "了": "le / (particle: completed action / new situation)",
+                  "的": "de / (possessive/modifier particle)",
+                  "主题": "zhuti / topic",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s3",
+                "cn": "小任，你列一份邀请参会人员名单。",
+                "split": "小 任 你 列 一 份 邀请 参会 人员 名单",
+                "en": "Ren, make a list of all the attendees to be invited.",
+                "dict": {
+                  "你": "ni / you",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s4",
+                "cn": "5月10号以前要把邀请函和回执发出去，6月20号以前把参会人员名单整理出来。",
+                "split": "5 月 10 号 以前 要 把 邀请函 和 回执 发 出去 6 月 20 号 以前 把 参 会 人员 名单 整理 出来",
+                "en": "Send out the invitations and the read receipts before May 10th. And make a list of all the attendees before June 20th.",
+                "dict": {
+                  "以前": "yiqian / before",
+                  "要": "yao / want; need; will",
+                  "把": "ba / BA marker",
+                  "邀请函": "yaoqinghan / invitation letter",
+                  "和": "he / and; with",
+                  "会": "hui / can; will",
+                  "出来": "chulai / come out"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s5",
+                "cn": "会場定在南海大酒店的多功能厅，会后的自助餐也在酒店里。",
+                "split": "会場 定 在 南海 大 酒店 的 多功能厅 会 后 的 自助餐 也 在 酒店 里",
+                "en": "The meeting will be held in the multi-function hall of Nanhai Hotel and there will be a buffet in the hotel after the meeting.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "多功能厅": "duogongnengting / multi-function hall",
+                  "会": "hui / can; will",
+                  "也": "ye / also; too"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s6",
+                "cn": "我们需要在8月18号上午订一个可以容纳200人左右的会议室，会议间歇要提供茶点。",
+                "split": "我们 需要 在 8 月 18 号 上午 订 一 个 可以 容纳 200 人 左右 的 会议室 会议 间歇 要 提供 茶点",
+                "en": "We need to book a meeting room for around 200 people on the morning of August 18th. And there should be refreshments during the break.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "需要": "xuyao / need",
+                  "在": "zai / to be at; (at)",
+                  "上午": "shangwu / morning",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "可以": "keyi / can; may; OK",
+                  "的": "de / (possessive/modifier particle)",
+                  "会议室": "huiyishi / meeting room",
+                  "要": "yao / want; need; will",
+                  "茶点": "chadian / tea and pastries"
+                }
+              },
+              {
+                "id": "swcd-l4-t1-s7",
+                "cn": "展品都打包好了吗？快递公司什么时候来取？",
+                "split": "展品 都 打包 好 了 吗 快递 公司 什么 时候 来 取",
+                "en": "Are all the exhibits packed? When will the express courier come and get it?",
+                "dict": {
+                  "都": "dou / all; both",
+                  "好": "hao / good; well; OK",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)",
+                  "公司": "gongsi / company",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "来": "lai / to come"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t2",
+            "label": "场景 2 会场布置",
+            "sentences": [
+              {
+                "id": "swcd-l4-t2-s1",
+                "cn": "到时候会场需要全部铺上地毯。",
+                "split": "到 时候 会场 需要 全部 铺上 地毯",
+                "en": "The whole conference hall needs to be covered with carpet by then.",
+                "dict": {
+                  "时候": "shihou / time; moment",
+                  "需要": "xuyao / need"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s2",
+                "cn": "贵宾席要有明显的标识，入口处要安排四位礼仪小姐引导嘉宾入席。",
+                "split": "贵宾席 要 有 明显 的 标识 入口 处 要 安排 四 位 礼仪 小姐 引导 嘉宾 入席",
+                "en": "There have to be clear signs for VIP seats and we need four usherettes to stand at the entrance and guide the guests.",
+                "dict": {
+                  "要": "yao / want; need; will",
+                  "有": "you / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "安排": "anpai / to arrange",
+                  "小姐": "xiaojie / miss"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s3",
+                "cn": "赵亮，你跟王闯负责签到工作，统计好参会人数，准备好签到簿。",
+                "split": "赵 亮 你 跟 王 闯 负责 签到 工作 统计 好 参 会 人数 准备 好 签到簿",
+                "en": "Zhao Liang, you are in charge of the attendance register with Wang Chuang. Prepare a notepad beforehand and keep a good record.",
+                "dict": {
+                  "你": "ni / you",
+                  "跟": "gen / with",
+                  "签到": "qiandao / to sign the attendance sheet",
+                  "工作": "gongzuo / work",
+                  "好": "hao / good; well; OK",
+                  "会": "hui / can; will",
+                  "准备": "zhunbei / prepare",
+                  "签到簿": "qiandaobu / guest book"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s4",
+                "cn": "设备都调试过了吗？一定要确保笔记本和投影仪能正常使用。",
+                "split": "设备 都 调试过 了 吗 一定 要 确保 笔记本 和 投影仪 能 正常 使用",
+                "en": "Has all the equipment been debugged? Make sure the laptop and the projector work well.",
+                "dict": {
+                  "都": "dou / all; both",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)",
+                  "一定": "yiding / definitely",
+                  "要": "yao / want; need; will",
+                  "和": "he / and; with",
+                  "投影仪": "touyingyi / projector",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s5",
+                "cn": "主席台的灯光不够亮。另外，主席台的桌子中间要摆两束鲜花。",
+                "split": "主席台 的 灯光 不够 亮 另外 主席台 的 桌子 中间 要 摆 两 束 鲜花",
+                "en": "The light on the rostrum is not bright enough. Plus, remember to put two bouquets of flowers in the middle of the table.",
+                "dict": {
+                  "主席台": "zhuxitai / rostrum",
+                  "的": "de / (possessive/modifier particle)",
+                  "灯光": "dengguang / lamp light",
+                  "桌子": "zhuozi / table/desk",
+                  "中间": "zhongjian / middle, between",
+                  "要": "yao / want; need; will"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s6",
+                "cn": "我们需要五个麦克，一个立式的，两个座式的，两个耳麦。",
+                "split": "我们 需要 五 个 麦克 一 个 立 式 的 两 个 座 式 的 两 个 耳麦",
+                "en": "We need five microphones, one standing mic, two table-top mics, and two headsets.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "需要": "xuyao / need",
+                  "个": "ge / (measure word)",
+                  "麦克": "maike / Mike (name)",
+                  "一": "yi / one",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s7",
+                "cn": "这个位置是产品展示台是吗？大概需要几张桌子？要铺什么样的桌布？",
+                "split": "这个 位置 是 产品 展示台 是 吗 大概 需要 几 张 桌子 要 铺 什么 样 的 桌布",
+                "en": "Is this where the products are displayed? How many tables do we need? And what kind of table cloth is to be used?",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "是": "shi / to be (am/is/are)",
+                  "展示台": "zhanshitai / showcase, display stand",
+                  "吗": "ma / (question particle)",
+                  "大概": "dagai / roughly, about",
+                  "需要": "xuyao / need",
+                  "几": "ji / how many; several",
+                  "张": "zhang / Zhang (surname)",
+                  "桌子": "zhuozi / table/desk",
+                  "要": "yao / want; need; will",
+                  "什么": "shenme / what",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s8",
+                "cn": "一共需要两个条幅，一个挂在饭店大厅，一个挂在多功能厅门口。",
+                "split": "一共 需要 两 个 条幅 一 个 挂 在 饭店 大厅 一 个 挂 在 多功能厅 门口",
+                "en": "We need two banners. One hangs in the hotel lobby, and the other hangs at the entrance of the multi-function hall.",
+                "dict": {
+                  "一共": "yigong / altogether",
+                  "需要": "xuyao / need",
+                  "个": "ge / (measure word)",
+                  "条幅": "tiaofu / banner",
+                  "一": "yi / one",
+                  "在": "zai / to be at; (at)",
+                  "饭店": "fandian / hotel/restaurant",
+                  "多功能厅": "duogongnengting / multi-function hall"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s9",
+                "cn": "这边需要放几个引导牌。",
+                "split": "这边 需要 放 几 个 引导牌",
+                "en": "We need to place several guiding signs here.",
+                "dict": {
+                  "需要": "xuyao / need",
+                  "几": "ji / how many; several",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l4-t2-s10",
+                "cn": "电源插座不够，马上通知会务组购买两个五米长的接线板。",
+                "split": "电源 插座 不够 马上 通知 会务组 购买 两 个 五 米 长 的 接线板",
+                "en": "There are not enough power outlets. Call the meeting affairs group to buy two five-meter long power strips.",
+                "dict": {
+                  "会务组": "huiwuzu / meeting affairs team",
+                  "个": "ge / (measure word)",
+                  "米": "mi / meter",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t3",
+            "label": "场景 3 会务分工",
+            "sentences": [
+              {
+                "id": "swcd-l4-t3-s1",
+                "cn": "报到组管报到这一摊，代表登记签到、交会务费和住宿费、开发票都归你们。别忘了每天要跟酒店沟通，确保给出最精确的房间数，避免浪费。",
+                "split": "报到 组 管 报到 这 一 摊 代表 登记 签到 交 会务费 和 住宿费 开 发票 都 归 你们 别 忘了 每 天 要 跟 酒店 沟通 确保 给出 最 精确 的 房间 数 避免 浪费",
+                "en": "The registration team is responsible for registration-related matters, such as attendance register, membership fees, accommodation fees, and receipts. Don't forget to inform the hotel of the accurate number of rooms every day to avoid waste.",
+                "dict": {
+                  "一": "yi / one",
+                  "签到": "qiandao / to sign the attendance sheet",
+                  "和": "he / and; with",
+                  "发票": "fapiao / invoice",
+                  "都": "dou / all; both",
+                  "你们": "nimen / you (plural)",
+                  "要": "yao / want; need; will",
+                  "跟": "gen / with",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "房间": "fangjian / room"
+                }
+              },
+              {
+                "id": "swcd-l4-t3-s2",
+                "cn": "秘书组要做好会议的录音、拍照、摄像和会议记录工作，要有专人及时给司报发通讯稿。",
+                "split": "秘书 组 要 做好 会议 的 录音 拍照 摄像 和 会议 记录 工作 要 有 专人 及时 给 司报 发 通讯稿",
+                "en": "The secretary team is responsible for the sound recording, photographing, camera shooting, and minuting at the meeting. Also, there has to be someone in charge of sending news reports to the company's newsletter as soon as possible.",
+                "dict": {
+                  "要": "yao / want; need; will",
+                  "的": "de / (possessive/modifier particle)",
+                  "录音": "luyin / recording",
+                  "和": "he / and; with",
+                  "工作": "gongzuo / work",
+                  "有": "you / to have",
+                  "给": "gei / give; for"
+                }
+              },
+              {
+                "id": "swcd-l4-t3-s3",
+                "cn": "你负责订会议资料这一块儿，包括主持词、领导讲话、与会代表发言、会议手册、会议议程。",
+                "split": "你 负责 订 会议 资料 这 一 块儿 包括 主持词 领导 讲话 与会 代表 发言 会议 手册 会议 议程",
+                "en": "You are in charge of the meeting materials, including the host's speech, the leaders' speeches, the representatives' speeches, the meeting manual, and the meeting schedule.",
+                "dict": {
+                  "你": "ni / you",
+                  "资料": "ziliao / material, data",
+                  "一": "yi / one",
+                  "领导": "lingdao / leader",
+                  "讲话": "jianghua / to address the audience"
+                }
+              },
+              {
+                "id": "swcd-l4-t3-s4",
+                "cn": "跟媒体联系的工作交给宣传组，新闻记者的接送、接待、记者见面会这些就由你们负责。",
+                "split": "跟 媒体 联系 的 工作 交 给 宣传 组 新闻 记者 的 接送 接待 记者 见面会 这些 就 由 你们 负责",
+                "en": "The promotion team will be in charge of contact with the media, including the transportation and reception of the journalists and the press conference.",
+                "dict": {
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "给": "gei / give; for",
+                  "接待": "jiedai / to receive, to entertain",
+                  "这些": "zhexie / these",
+                  "就": "jiu / just; simply",
+                  "你们": "nimen / you (plural)"
+                }
+              },
+              {
+                "id": "swcd-l4-t3-s5",
+                "cn": "另外，宣传组还要在会议间歇播放公司形象宣传片。",
+                "split": "另外 宣传 组 还 要 在 会议 间歇 播放 公司 形象 宣传片",
+                "en": "Besides, the promotion team also has to display the propaganda film of the company during the meeting break.",
+                "dict": {
+                  "还": "hai / still; also",
+                  "要": "yao / want; need; will",
+                  "在": "zai / to be at; (at)",
+                  "公司": "gongsi / company"
+                }
+              },
+              {
+                "id": "swcd-l4-t3-s6",
+                "cn": "联系宾馆、安排就餐、茶水、派车、接机、赠送纪念品这些工作交给后勤保障组。每一项具体工作都要落实到人，不要出差错。",
+                "split": "联系 宾馆 安排 就餐 茶水 派车 接机 赠送 纪念品 这些 工作 交 给 后勤 保障 组 每 一 项 具体 工作 都 要 落实 到 人 不要 出 差错",
+                "en": "The logistics team will be in charge of contacting the hotel, and arranging meals, tea, transportation, and souvenirs. Every task should be assigned to a specific person. We do not allow any mistakes.",
+                "dict": {
+                  "安排": "anpai / to arrange",
+                  "这些": "zhexie / these",
+                  "工作": "gongzuo / work",
+                  "给": "gei / give; for",
+                  "一": "yi / one",
+                  "都": "dou / all; both",
+                  "要": "yao / want; need; will",
+                  "落实": "luoshi / to implement"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t4",
+            "label": "场景 4 接待引导",
+            "sentences": [
+              {
+                "id": "swcd-l4-t4-s1",
+                "cn": "请问您贵姓？是哪家公司的代表？",
+                "split": "请问 您 贵姓 是 哪 家 公司 的 代表",
+                "en": "Could you tell me your name and your company?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "您": "nin / you (polite)",
+                  "贵姓": "guixing / your surname (honorific)",
+                  "是": "shi / to be (am/is/are)",
+                  "家": "jia / home; family",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s2",
+                "cn": "免贵姓程，是华商集团的市场部总监。",
+                "split": "免 贵 姓 程 是 华商 集团 的 市场 部 总监",
+                "en": "I'm Cheng, Director of the Marketing Department of Huashang Group.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s3",
+                "cn": "请签一下到，这是会议手册和资料，请您收好。",
+                "split": "请 签 一下 到 这 是 会议 手册 和 资料 请 您 收好",
+                "en": "Please sign here. Here is a brochure and some materials for the meeting. Please keep them.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "是": "shi / to be (am/is/are)",
+                  "和": "he / and; with",
+                  "资料": "ziliao / material, data",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s4",
+                "cn": "会议室在五层，出了电梯您就能看到我们的指示牌。",
+                "split": "会议室 在 五 层 出了 电梯 您 就 能 看到 我们 的 指示牌",
+                "en": "The meeting room is on the 5th floor. You can see our sign right after you get out of the elevator.",
+                "dict": {
+                  "会议室": "huiyishi / meeting room",
+                  "在": "zai / to be at; (at)",
+                  "您": "nin / you (polite)",
+                  "就": "jiu / just; simply",
+                  "能": "neng / can; able to",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s5",
+                "cn": "王总，您好，您的座位在会场第一排贵宾席，我带您过去吧。",
+                "split": "王 总 您 好 您 的 座位 在 会场 第一 排 贵宾席 我 带 您 过去 吧",
+                "en": "Hello, Mr. Wang. You will be sitting in the VIP seat in the first row. Let me show you to the seat.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "我": "wo / I; me",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s6",
+                "cn": "请问中餐厅在哪儿？",
+                "split": "请问 中餐厅 在 哪儿",
+                "en": "Could you tell me where the Chinese dining hall is?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "在": "zai / to be at; (at)",
+                  "哪儿": "nar / where"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s7",
+                "cn": "对不起，我忘了带餐券。",
+                "split": "对不起 我 忘 了 带 餐券",
+                "en": "Sorry, I forgot to bring the meal coupon.",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "我": "wo / I; me",
+                  "忘": "wang / to forget",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s8",
+                "cn": "请您登记一下您的房间号。",
+                "split": "请 您 登记 一下 您 的 房间 号",
+                "en": "Please write down your room number here.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "房间": "fangjian / room"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s9",
+                "cn": "您请慢用。",
+                "split": "您 请 慢 用",
+                "en": "Enjoy your meal.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l4-t4-s10",
+                "cn": "您喝点儿什么？有绿茶、橙汁、可乐、葡萄酒、白酒。",
+                "split": "您 喝 点儿 什么 有 绿茶 橙汁 可乐 葡萄酒 白酒",
+                "en": "What would you like to drink? We have green tea, orange juice, cola, wine, and liquor.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "点儿": "dianr / a little",
+                  "什么": "shenme / what",
+                  "有": "you / to have",
+                  "可乐": "kele / Coke"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t5",
+            "label": "场景 5 主持会议",
+            "sentences": [
+              {
+                "id": "swcd-l4-t5-s1",
+                "cn": "尊敬的各位来宾，大家请就座，我们的会议很快要开始了。",
+                "split": "尊敬 的 各 位 来宾 大家 请 就座 我们 的 会议 很 快 要 开始 了",
+                "en": "Dear guests, please be seated. Our meeting will begin soon.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "大家": "dajia / everyone",
+                  "请": "qing / please; invite",
+                  "我们": "women / we; us",
+                  "很": "hen / very",
+                  "快": "kuai / quick; hurry",
+                  "要": "yao / want; need; will",
+                  "开始": "kaishi / start; begin",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s2",
+                "cn": "为了保证会议效果，请关闭您的手机，或者调到静音状态，谢谢您的配合。",
+                "split": "为了 保证 会议 效果 请 关闭 您 的 手机 或者 调到 静音 状态 谢谢 您 的 配合",
+                "en": "Please turn off or mute your phone during the meeting. Thank you for your cooperation.",
+                "dict": {
+                  "效果": "xiaoguo / effect, result",
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "手机": "shouji / mobile phone",
+                  "或者": "huozhe / or",
+                  "谢谢": "xiexie / thank you"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s3",
+                "cn": "今天的会议共有六项议程。",
+                "split": "今天 的 会议 共 有 六 项 议程",
+                "en": "We have six sessions for today's meeting.",
+                "dict": {
+                  "今天": "jintian / today",
+                  "的": "de / (possessive/modifier particle)",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s4",
+                "cn": "首先请允许我介绍一下莅临本次会议的各位领导和来宾。",
+                "split": "首先 请 允许 我 介绍 一下 莅临 本 次 会议 的 各 位 领导 和 来宾",
+                "en": "First, please allow me to introduce the leaders and guests present at today's meeting.",
+                "dict": {
+                  "首先": "shouxian / first; first of all",
+                  "请": "qing / please; invite",
+                  "我": "wo / I; me",
+                  "介绍": "jieshao / introduce",
+                  "的": "de / (possessive/modifier particle)",
+                  "领导": "lingdao / leader",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s5",
+                "cn": "让我们再次以热烈的掌声欢迎他们的到来！",
+                "split": "让 我们 再次 以 热烈 的 掌声 欢迎 他们 的 到来",
+                "en": "Let's applaud once again to give them our warmest welcome.",
+                "dict": {
+                  "让": "rang / let; allow",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "欢迎": "huanying / welcome",
+                  "他们": "tamen / they"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s6",
+                "cn": "同时，本次会议还邀请了《大泽报》、《新都市》等多家媒体前来全程参与报道，感谢媒体朋友们的光临，你们辛苦了！",
+                "split": "同时 本 次 会议 还 邀请了 大泽 报 新 都市 等 多 家 媒体 前来 全程 参与 报道 感谢 媒体 朋友们 的 光临 你们 辛苦 了",
+                "en": "In the meanwhile, we have invited Daze News, New Metropolitan, and many other media for full coverage of this meeting. Thank you for your presence and your hard work!",
+                "dict": {
+                  "还": "hai / still; also",
+                  "报": "bao / to report; to register",
+                  "家": "jia / home; family",
+                  "的": "de / (possessive/modifier particle)",
+                  "光临": "guanglin / to visit (polite)",
+                  "你们": "nimen / you (plural)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s7",
+                "cn": "现在我宣布，长三角地区第九届服装贸易洽谈会现在开始！",
+                "split": "现在 我 宣布 长三角 地区 第九 届 服装 贸易 洽谈会 现在 开始",
+                "en": "Now, the 9th Yangtze River Delta Clothing Trade Conference begins.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "我": "wo / I; me",
+                  "开始": "kaishi / start; begin"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s8",
+                "cn": "首先，请罗董事长致欢迎辞！",
+                "split": "首先 请 罗 董事长 致 欢迎辞",
+                "en": "First, let's welcome President Luo to deliver his welcome speech.",
+                "dict": {
+                  "首先": "shouxian / first; first of all",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s9",
+                "cn": "下面进行会议第二项议程。",
+                "split": "下面 进行 会议 第二 项 议程",
+                "en": "Next, we'll go to the second session.",
+                "dict": {
+                  "下面": "xiamian / under"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s10",
+                "cn": "彭总的讲话为我们今天的会议画上了圆满的句号。2013年度优秀经销商会议到这里就全部结束了，谢谢大家的热情参与！",
+                "split": "彭 总 的 讲话 为 我们 今天 的 会议 画 上 了 圆满 的 句号 2013 年度 优秀 经销商 会议 到 这里 就 全部 结束 了 谢谢 大家 的 热情 参与",
+                "en": "The speech by Mr. Peng draws a good conclusion for today's meeting. Now, I announce the end of the 2013 Conference for Outstanding Franchisers of the Year. Thank you for your presence!",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "讲话": "jianghua / to address the audience",
+                  "为": "wei / for",
+                  "我们": "women / we; us",
+                  "今天": "jintian / today",
+                  "上": "shang / to attend (a class)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "就": "jiu / just; simply",
+                  "结束": "jieshu / end; finish",
+                  "谢谢": "xiexie / thank you",
+                  "大家": "dajia / everyone"
+                }
+              },
+              {
+                "id": "swcd-l4-t5-s11",
+                "cn": "请大家稍事休息，7点我们的答谢晚宴准时在牡丹厅举行，晚宴进行过程中还有抽奖活动，大家不要错过啊！",
+                "split": "请 大家 稍事 休息 7 点 我们 的 答谢 晚宴 准时 在 牡丹厅 举行 晚宴 进行 过程 中 还 有 抽奖 活动 大家 不要 错过 啊",
+                "en": "Please take a short rest. Our banquet will take place at seven o'clock in the Peony Hall and there will be a lucky draw. Don't miss it!",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "大家": "dajia / everyone",
+                  "休息": "xiuxi / to rest",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "答谢": "daxie / to thank, to express appreciation",
+                  "准时": "zhunshi / on time, punctually",
+                  "在": "zai / to be at; (at)",
+                  "举行": "juxing / to hold (event)",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "抽奖": "choujiang / lucky draw",
+                  "啊": "a / (interjection)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t6",
+            "label": "场景 6 发表演讲",
+            "sentences": [
+              {
+                "id": "swcd-l4-t6-s1",
+                "cn": "值此新年到来之际，我们美林集团在这里隆重召开2017新年客户答谢会。",
+                "split": "值 此 新年 到来 之 际 我们 美林 集团 在 这里 隆重 召开 2017 新年 客户 答谢 会",
+                "en": "At the arrival of the New Year, our company, the Meilin Group, is holding the 2017 New Year Return Banquet to reward our clients.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "在": "zai / to be at; (at)",
+                  "答谢": "daxie / to thank, to express appreciation",
+                  "会": "hui / can; will"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s2",
+                "cn": "我谨代表公司全体员工，向远道而来的各位来宾致以诚挚的谢意和节日的问候！",
+                "split": "我 谨 代表 公司 全体 员工 向 远道 而 来 的 各 位 来宾 致 以 诚挚 的 谢意 和 节日 的 问候",
+                "en": "On this holiday, I, on behalf of all the employees of our company, express our sincere appreciation and warmest greetings to all the guests who have managed to come.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "公司": "gongsi / company",
+                  "向": "xiang / towards",
+                  "来": "lai / to come",
+                  "的": "de / (possessive/modifier particle)",
+                  "和": "he / and; with",
+                  "问候": "wenhou / to greet"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s3",
+                "cn": "恭祝各位身体健康、事业有成、家庭幸福、万事如意！",
+                "split": "恭祝 各 位 身体 健康 事业 有成 家庭 幸福 万事 如意",
+                "en": "I wish everyone good health, a successful career, a happy family, and good luck in everything.",
+                "dict": {
+                  "身体": "shenti / body; health"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s4",
+                "cn": "宁都集团于1997年成立之后，在二十年的时间里，从无到有，由小到大，大家与公司共同经历了无数风雨，在座的每一位员工都在和公司一起成长，一起成熟。",
+                "split": "宁都 集团 于 1997 年 成立 之后 在 二十 年 的 时间 里 从 无 到 有 由 小 到 大 大家 与 公司 共同 经历了 无数 风雨 在座 的 每 一 位 员工 都 在 和 公司 一起 成长 一起 成熟",
+                "en": "The Ningdu Group was founded in 1997. In the last 20 years, we have started from scratch and expanded greatly. We have gone through ups and downs and become mature together, thanks to the effort of everyone in the company.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "二十": "ershi / twenty",
+                  "的": "de / (possessive/modifier particle)",
+                  "时间": "shijian / time",
+                  "从": "cong / from",
+                  "有": "you / to have",
+                  "大家": "dajia / everyone",
+                  "公司": "gongsi / company",
+                  "一": "yi / one",
+                  "都": "dou / all; both",
+                  "和": "he / and; with",
+                  "一起": "yiqi / together"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s5",
+                "cn": "过去的一年，是我们全体员工辛勤工作、锐意进取、大有收获的一年。",
+                "split": "过去 的 一 年 是 我们 全体 员工 辛勤 工作 锐意 进取 大 有 收获 的 一 年",
+                "en": "In the past year, all of our employees have worked hard and determinedly. And we have seen great achievements.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "工作": "gongzuo / work",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s6",
+                "cn": "下面我就围绕这个主题讲四点意见。",
+                "split": "下面 我 就 围绕 这个 主题 讲 四 点 意见",
+                "en": "Now, I will make four points about this topic.",
+                "dict": {
+                  "下面": "xiamian / under",
+                  "我": "wo / I; me",
+                  "就": "jiu / just; simply",
+                  "这个": "zhege / this one",
+                  "主题": "zhuti / topic",
+                  "意见": "yijian / complaint"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s7",
+                "cn": "今天我的发言可以用八个字总结：四个关系、三个建议。",
+                "split": "今天 我 的 发言 可以 用 八 个 字 总结 四 个 关系 三 个 建议",
+                "en": "My speech today can be concluded with four words: four relations and three constructions.",
+                "dict": {
+                  "今天": "jintian / today",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "可以": "keyi / can; may; OK",
+                  "个": "ge / (measure word)",
+                  "关系": "guanxi / relation",
+                  "建议": "jianyi / to suggest"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s8",
+                "cn": "在新的经济形势下，我们既面临着前所未有的挑战，同时也面对着不可多得的机遇。",
+                "split": "在 新 的 经济 形势 下 我们 既 面临着 前所未有 的 挑战 同时 也 面对着 不可 多 得 的 机遇",
+                "en": "Under the new economic circumstances, we are facing the most challenging difficulties, as well as rare opportunities.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "也": "ye / also; too"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s9",
+                "cn": "在日趋白热化的市场竞争中，我们需要及时调整，不仅要保住目前的既有市场和占有率，同时还要花大力气开发新的市场。",
+                "split": "在 日趋 白热化 的 市场 竞争 中 我们 需要 及时 调整 不仅 要 保住 目前 的 既 有 市场 和 占有率 同时 还 要 花 大 力气 开发 新 的 市场",
+                "en": "Facing this fierce competition, we need to make instant adjustments to keep our current market and market share, and meanwhile make efforts to explore new markets.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "需要": "xuyao / need",
+                  "要": "yao / want; need; will",
+                  "有": "you / to have",
+                  "和": "he / and; with",
+                  "还": "hai / still; also"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s10",
+                "cn": "董事长的发言可以说是高屋建瓴，为我们指明了工作的方向和重点。我主要补充几点。",
+                "split": "董事长 的 发言 可以 说 是 高屋建瓴 为 我们 指明了 工作 的 方向 和 重点 我 主要 补充 几 点",
+                "en": "Those remarks by the president are strategically enlightening, showing us the direction and key points of our work. And I would like to add a few points.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "可以": "keyi / can; may; OK",
+                  "说": "shuo / to say; to speak",
+                  "是": "shi / to be (am/is/are)",
+                  "为": "wei / for",
+                  "我们": "women / we; us",
+                  "工作": "gongzuo / work",
+                  "和": "he / and; with",
+                  "我": "wo / I; me",
+                  "几": "ji / how many; several"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s11",
+                "cn": "我的发言就到这里，谢谢大家。",
+                "split": "我 的 发言 就 到 这里 谢谢 大家",
+                "en": "This is all I want to say today. Thank you all.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "就": "jiu / just; simply",
+                  "谢谢": "xiexie / thank you",
+                  "大家": "dajia / everyone"
+                }
+              },
+              {
+                "id": "swcd-l4-t6-s12",
+                "cn": "以后，有在座各位嘉宾一如既往的支持，我们将会更加努力，让你我携手同行，共同迈向事业的新高峰！",
+                "split": "以后 有 在座 各 位 嘉宾 一如既往 的 支持 我们 将 会 更加 努力 让 你 我 携手 同行 共同 迈 向 事业 的 新 高峰",
+                "en": "With the continuous support from all of you here, we will work even harder. In the future, let's join hands and head to a new level in our business.",
+                "dict": {
+                  "以后": "yihou / after",
+                  "有": "you / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "努力": "nuli / hardworking",
+                  "让": "rang / let; allow",
+                  "你": "ni / you",
+                  "我": "wo / I; me",
+                  "向": "xiang / towards"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t7",
+            "label": "场景 7 提问讨论",
+            "sentences": [
+              {
+                "id": "swcd-l4-t7-s1",
+                "cn": "下面是提问环节，我们还有30分钟时间，大家可以对自己感兴趣的话题进行进一步探讨。",
+                "split": "下面 是 提问 环节 我们 还 有 30 分钟 时间 大家 可以 对 自己 感 兴趣 的 话题 进行 进一 步 探讨",
+                "en": "Next is the Q & A session. We still have 30 minutes left. You can make some further discussion about things you are interested in.",
+                "dict": {
+                  "下面": "xiamian / under",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "时间": "shijian / time",
+                  "大家": "dajia / everyone",
+                  "可以": "keyi / can; may; OK",
+                  "对": "dui / to; towards; correct",
+                  "自己": "ziji / oneself",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s2",
+                "cn": "刚才陆先生做的主题报告太精彩了。各位有什么感想和疑问，欢迎踊跃发言。",
+                "split": "刚才 陆 先生 做 的 主题 报告 太 精彩 了 各 位 有 什么 感想 和 疑问 欢迎 踊跃 发言",
+                "en": "The keynote report Mr. Lu just gave us is so spectacular. Feel free to ask any questions.",
+                "dict": {
+                  "刚才": "gangcai / just now",
+                  "先生": "xiansheng / sir",
+                  "做": "zuo / to do; to make",
+                  "的": "de / (possessive/modifier particle)",
+                  "主题": "zhuti / topic",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "有": "you / to have",
+                  "什么": "shenme / what",
+                  "和": "he / and; with",
+                  "欢迎": "huanying / welcome"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s3",
+                "cn": "您刚才提到了版权问题，能不能请您详细谈一谈这个问题？",
+                "split": "您 刚才 提 到 了 版权 问题 能 不 能 请 您 详细 谈 一 谈 这个 问题",
+                "en": "You just mentioned the copyright issues. could you tell us about the details?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "刚才": "gangcai / just now",
+                  "了": "le / (particle: completed action / new situation)",
+                  "问题": "wenti / problem",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "请": "qing / please; invite",
+                  "一": "yi / one",
+                  "这个": "zhege / this one"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s4",
+                "cn": "想请问您两个问题，第一个问题，您认为植物油市场每年增长的比例和幅度具体会是多少？第二个问题是，您预计它的价格变化趋势是怎样的？",
+                "split": "想 请问 您 两 个 问题 第一 个 问题 您 认为 植物油 市场 每 年 增长 的 比例 和 幅度 具体 会 是 多少 第二 个 问题 是 您 预计 它 的 价格 变化 趋势 是 怎样 的",
+                "en": "I have two questions. First, what do you think will be the annual growth rate and range for the vegetable oil market? Second, can you foresee its price trends?",
+                "dict": {
+                  "想": "xiang / want; think",
+                  "请问": "qingwen / excuse me, may I ask",
+                  "您": "nin / you (polite)",
+                  "个": "ge / (measure word)",
+                  "问题": "wenti / problem",
+                  "的": "de / (possessive/modifier particle)",
+                  "和": "he / and; with",
+                  "会": "hui / can; will",
+                  "是": "shi / to be (am/is/are)",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s5",
+                "cn": "根据您的经验，在目前的市场条件下，采取哪些措施才能做到成本最小化？",
+                "split": "根据 您 的 经验 在 目前 的 市场 条件 下 采取 哪些 措施 才 能 做到 成本 最小化",
+                "en": "According to your experience, under the current market conditions, what measures can we take to minimize our cost?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "才": "cai / only then; just",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s6",
+                "cn": "对于中国目前的基金市场现状，您对投资者有哪些建议？",
+                "split": "对于 中国 目前 的 基金 市场 现状 您 对 投资者 有 哪些 建议",
+                "en": "Given the current funds market situation in China, do you have any advice for the investors?",
+                "dict": {
+                  "中国": "zhongguo / Chinese",
+                  "的": "de / (possessive/modifier particle)",
+                  "您": "nin / you (polite)",
+                  "对": "dui / to; towards; correct",
+                  "有": "you / to have",
+                  "建议": "jianyi / to suggest"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s7",
+                "cn": "感谢您的提问，这是一个非常好的问题。",
+                "split": "感谢 您 的 提问 这 是 一 个 非常 好 的 问题",
+                "en": "Thank you. This is a good question.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "非常": "feichang / very",
+                  "好": "hao / good; well; OK",
+                  "问题": "wenti / problem"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s8",
+                "cn": "我个人认为，这个市场还有很大的开发空间。",
+                "split": "我 个人 认为 这个 市场 还 有 很 大 的 开发 空间",
+                "en": "I personally think there is still much to tap into in this market.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "这个": "zhege / this one",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "很": "hen / very",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s9",
+                "cn": "不知道我解释得是否清楚，是否回答了您的问题。",
+                "split": "不 知道 我 解释 得 是否 清楚 是否 回答 了 您 的 问题",
+                "en": "Have I made myself clear? Have I answered your question?",
+                "dict": {
+                  "不": "bu / not",
+                  "知道": "zhidao / know",
+                  "我": "wo / I; me",
+                  "回答": "huida / answer",
+                  "了": "le / (particle: completed action / new situation)",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wenti / problem"
+                }
+              },
+              {
+                "id": "swcd-l4-t7-s10",
+                "cn": "这个问题牵涉到整个保险系统的方方面面，不是一两句话就能说清楚的，我想下来以后我们可以继续交流。",
+                "split": "这个 问题 牵涉 到 整个 保险 系统 的 方方面面 不 是 一两 句 话 就 能 说 清楚 的 我 想 下来 以后 我们 可以 继续 交流",
+                "en": "This is about the whole insurance system. And I cannot make it clear in just a few words. Maybe we can discuss it later.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "问题": "wenti / problem",
+                  "保险": "baoxian / insurance",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "是": "shi / to be (am/is/are)",
+                  "就": "jiu / just; simply",
+                  "能": "neng / can; able to",
+                  "说": "shuo / to say; to speak",
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "以后": "yihou / after",
+                  "我们": "women / we; us",
+                  "可以": "keyi / can; may; OK",
+                  "继续": "jixu / continue"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l4-t8",
+            "label": "场景 8 会议总结",
+            "sentences": [
+              {
+                "id": "swcd-l4-t8-s1",
+                "cn": "2015年10月13日至16日，我们公司参加了全国互联网行业高峰论坛。",
+                "split": "2015 年 10 月 13 日 至 16 日 我们 公司 参加了 全国 互联网 行业 高峰 论坛",
+                "en": "From October 13th to 16th, 2015, our company attended the National Internet Summit.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "论坛": "luntan / forum"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s2",
+                "cn": "在全体与会人员的共同努力下，本次会议取得了圆满成功。",
+                "split": "在 全体 与会 人员 的 共同 努力 下 本 次 会议 取得了 圆满 成功",
+                "en": "Thanks to everyone's effort, this conference is a great success.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "努力": "nuli / hardworking"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s3",
+                "cn": "这次会议我们得到了两家企业的赞助。",
+                "split": "这 次 会议 我们 得到了 两 家 企业 的 赞助",
+                "en": "We've been sponsored by two enterprises for this conference.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "家": "jia / home; family",
+                  "的": "de / (possessive/modifier particle)",
+                  "赞助": "zanzhu / sponsorship"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s4",
+                "cn": "来自全国仪器行业的50余名企业领导出席了本次会议。",
+                "split": "来自 全国 仪器 行业 的 50 余 名 企业 领导 出席了 本 次 会议",
+                "en": "Over 50 leaders from the nationwide instrument industry have attended this conference.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "领导": "lingdao / leader"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s5",
+                "cn": "本次技术交流会议主要是为了促进纺织技术研究前沿领域的讨论，推动本领域技术的发展。",
+                "split": "本 次 技术 交流 会议 主要 是 为了 促进 纺织 技术 研究 前沿 领域 的 讨论 推动 本 领域 技术 的 发展",
+                "en": "This technical seminar is held mainly to discuss some cutting-edge studies of textile technology and to promote the development of the technology in this field.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s6",
+                "cn": "在三天的会期中，10位专家应邀做了大会主题报告，125位学者在13个分会场就不同主题进行了研讨和交流。",
+                "split": "在 三 天 的 会期 中 10 位 专家 应邀 做了 大会 主题 报告 125 位 学者 在 13 个 分 会场 就 不同 主题 进行了 研讨 和 交流",
+                "en": "During the three-day conference, 10 experts have made their keynote reports and 125 scholars have held seminars and communicated with one another over different topics in 13 different branch venues.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "会期": "huiqi / date of a meeting",
+                  "主题": "zhuti / topic",
+                  "个": "ge / (measure word)",
+                  "就": "jiu / just; simply",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s7",
+                "cn": "另外，还有20多家企业展示了最新的技术革新成果。",
+                "split": "另外 还 有 20 多 家 企业 展示了 最 新 的 技术 革新 成果",
+                "en": "Besides, 20 or more enterprises have displayed their latest technological innovations.",
+                "dict": {
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "家": "jia / home; family",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s8",
+                "cn": "会议总结了上半年人力资源部的主要工作，并提出了下半年的工作计划。",
+                "split": "会议 总结了 上半年 人力 资源 部 的 主要 工作 并 提出了 下半年 的 工作 计划",
+                "en": "The meeting made a conclusion of the main work done by the Human Resources Department in the first half of the year and put forward a work plan for the second half of the year.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "计划": "jihua / plan"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s9",
+                "cn": "总的来说，本次会议组织严谨，各部门紧密配合，非常成功。",
+                "split": "总 的 来 说 本 次 会议 组织 严谨 各 部门 紧密 配合 非常 成功",
+                "en": "On the whole, this conference is well-organized and successful, with close cooperation among different departments.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "来": "lai / to come",
+                  "说": "shuo / to say; to speak",
+                  "非常": "feichang / very"
+                }
+              },
+              {
+                "id": "swcd-l4-t8-s10",
+                "cn": "尽管如此，会议在组织方面还是存在一些问题，因此我们提出以下改进方案。",
+                "split": "尽管 如此 会议 在 组织 方面 还是 存在 一些 问题 因此 我们 提出 以下 改进 方案",
+                "en": "Nonetheless, we still see some deficiencies regarding conference organization, so here is our improvement plan.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "还是": "haishi / or",
+                  "一些": "yixie / some; a few",
+                  "问题": "wenti / problem",
+                  "我们": "women / we; us"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson5",
+        "title": "Unit 5 Marketing 营销",
+        "titleEn": "Unit 5",
+        "texts": [
+          {
+            "id": "swcd-l5-t1",
+            "label": "场景 1 市场调研",
+            "sentences": [
+              {
+                "id": "swcd-l5-t1-s1",
+                "cn": "总部打算推出新品，最近得搞一次市场调查。",
+                "split": "总部 打算 推出 新品 最近 得 搞 一 次 市场 调查",
+                "en": "The headquarters is planning to release a new product. We will have to do a market survey.",
+                "dict": {
+                  "打算": "dasuan / to plan",
+                  "最近": "zuijin / recently",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s2",
+                "cn": "我们需要先搜集目标客户的信息，了解他们的喜好和期望。",
+                "split": "我们 需要 先 搜集 目标 客户 的 信息 了解 他们 的 喜好 和 期望",
+                "en": "First, we have to collect some information on our target customers and get to know their favorites and expectations.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "需要": "xuyao / need",
+                  "先": "xian / first",
+                  "的": "de / (possessive/modifier particle)",
+                  "了解": "liaojie / to know, to understand",
+                  "他们": "tamen / they",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s3",
+                "cn": "具体的调查工作就委托专业的调查公司来做吧。",
+                "split": "具体 的 调查 工作 就 委托 专业 的 调查 公司 来 做 吧",
+                "en": "The research itself will be entrusted to a research company.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "就": "jiu / just; simply",
+                  "专业": "zhuanye / major",
+                  "公司": "gongsi / company",
+                  "来": "lai / to come",
+                  "做": "zuo / to do; to make",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s4",
+                "cn": "喂，您好！这里是BHC公司市场部，您现在方便吗？能不能耽误您几分钟时间，做一个电话回访？",
+                "split": "喂 您 好 这里 是 BHC 公司 市场 部 您 现在 方便 吗 能 不 能 耽误 您 几 分钟 时间 做 一 个 电话 回访",
+                "en": "Hello, this is the Marketing Department of BHC. Are you busy right now? May I take you a few minutes and make a follow-up phone survey?",
+                "dict": {
+                  "喂": "wei / hello",
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "是": "shi / to be (am/is/are)",
+                  "公司": "gongsi / company",
+                  "现在": "xianzai / now",
+                  "吗": "ma / (question particle)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "几": "ji / how many; several",
+                  "时间": "shijian / time",
+                  "做": "zuo / to do; to make",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "电话": "dianhua / telephone; phone"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s5",
+                "cn": "从调查报告的结果来看，客户对我们的产品质量反馈很好，满意度很高。",
+                "split": "从 调查 报告 的 结果 来 看 客户 对 我们 的 产品 质量 反馈 很 好 满意度 很 高",
+                "en": "From the research report, we can see our products have received very positive feedback in terms of quality from our customers.",
+                "dict": {
+                  "从": "cong / from",
+                  "的": "de / (possessive/modifier particle)",
+                  "结果": "jieguo / result",
+                  "来": "lai / to come",
+                  "看": "kan / to look; to see; to visit",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "反馈": "fankui / feedback",
+                  "很": "hen / very",
+                  "好": "hao / good; well; OK"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s6",
+                "cn": "售后服务还是我们的软肋。",
+                "split": "售后 服务 还 是 我们 的 软肋",
+                "en": "Our weakness still lies in the after-sales service.",
+                "dict": {
+                  "还": "hai / still; also",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s7",
+                "cn": "我们从数据分析可以看出，价格对我们的目标客户似乎是一个非常重要的变量。",
+                "split": "我们 从 数据 分析 可以 看出 价格 对 我们 的 目标 客户 似乎 是 一 个 非常 重要 的 变量",
+                "en": "From the data analysis, we can see price is a very important parameter to our target customers.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "从": "cong / from",
+                  "可以": "keyi / can; may; OK",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "非常": "feichang / very"
+                }
+              },
+              {
+                "id": "swcd-l5-t1-s8",
+                "cn": "40~50岁的客户群品牌忠诚度最高。",
+                "split": "40 50 岁 的 客户群 品牌 忠诚度 最高",
+                "en": "The customers of 40~50 years old show the highest loyalty.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t2",
+            "label": "场景 2 广告宣传",
+            "sentences": [
+              {
+                "id": "swcd-l5-t2-s1",
+                "cn": "我们的广告费预算有限，钱要花在刀刃上。",
+                "split": "我们 的 广告费 预算 有限 钱 要 花 在 刀刃 上",
+                "en": "Our budget for advertising is tight. We have to spend the money only on urgent matters.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "要": "yao / want; need; will",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s2",
+                "cn": "我认为投放广播广告比电视广告更合适，一是费用相对比较低，二是我们的很大一部分目标客户是出租车司机，他们有边开车边听广播的习惯。",
+                "split": "我 认为 投放 广播 广告 比 电视 广告 更 合适 一 是 费用 相对 比较 低 二 是 我们 的 很 大 一 部分 目标 客户 是 出租车 司机 他们 有 边 开车 边 听 广播 的 习惯",
+                "en": "I think advertising on radio is better than on TV. First, it's cheaper; second, most of our target customers are taxi drivers, who are used to listening to the radio while driving.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "比": "bi / than; to compare",
+                  "电视": "dianshi / TV",
+                  "更": "geng / more",
+                  "合适": "heshi / fitting, suitable",
+                  "一": "yi / one",
+                  "是": "shi / to be (am/is/are)",
+                  "费用": "feiyong / cost",
+                  "比较": "bijiao / relatively",
+                  "二": "er / two",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "很": "hen / very",
+                  "出租车": "chuzuche / taxi",
+                  "他们": "tamen / they",
+                  "有": "you / to have",
+                  "开车": "kaiche / to drive"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s3",
+                "cn": "网络广告最大的优势是可以准确地统计出受众的数量。",
+                "split": "网络 广告 最 大 的 优势 是 可以 准确 地 统计 出 受众 的 数量",
+                "en": "The biggest advantage of online advertising is its accurate calculation of the audience.",
+                "dict": {
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "优势": "youshi / advantage",
+                  "是": "shi / to be (am/is/are)",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s4",
+                "cn": "我们跟品牌代言人的合同快要到期了，现在的问题是，我们是续签合同还是跟其他名人合作。",
+                "split": "我们 跟 品牌 代言人 的 合同 快 要 到期 了 现在 的 问题 是 我们 是 续签 合同 还是 跟 其他 名人 合作",
+                "en": "Our contract with the brand spokesperson is to be overdue. Now, do we prolong the contract or find a new celebrity spokesperson?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "快": "kuai / quick; hurry",
+                  "要": "yao / want; need; will",
+                  "了": "le / (particle: completed action / new situation)",
+                  "现在": "xianzai / now",
+                  "问题": "wenti / problem",
+                  "是": "shi / to be (am/is/are)",
+                  "还是": "haishi / or"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s5",
+                "cn": "依你看，这个电视节目值得赞助吗？",
+                "split": "依 你 看 这个 电视 节目 值得 赞助 吗",
+                "en": "Do you think this TV program is worth sponsoring?",
+                "dict": {
+                  "你": "ni / you",
+                  "看": "kan / to look; to see; to visit",
+                  "这个": "zhege / this one",
+                  "电视": "dianshi / TV",
+                  "节目": "jiemu / program",
+                  "赞助": "zanzhu / sponsorship",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s6",
+                "cn": "新一期广告要紧紧扣住目标受众的心理诉求。",
+                "split": "新 一 期 广告 要 紧紧 扣住 目标 受众 的 心理 诉求",
+                "en": "The new advertisement has to be tailored to the psychological needs of the target customers.",
+                "dict": {
+                  "一": "yi / one",
+                  "要": "yao / want; need; will",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s7",
+                "cn": "这是新品的广告文案，您看看怎么样？",
+                "split": "这 是 新品 的 广告 文案 您 看看 怎么样",
+                "en": "This is the new advertisement copy. What do you think of it?",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "您": "nin / you (polite)",
+                  "看看": "kankan / to take a look",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s8",
+                "cn": "最近销量上去了不少，我认为我们的广告达到了预期的效果。",
+                "split": "最近 销量 上去 了 不 少 我 认为 我们 的 广告 达到 了 预期 的 效果",
+                "en": "The sales has got much better recently. I think our advertisement has reached its goal.",
+                "dict": {
+                  "最近": "zuijin / recently",
+                  "了": "le / (particle: completed action / new situation)",
+                  "不": "bu / not",
+                  "我": "wo / I; me",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "效果": "xiaoguo / effect, result"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s9",
+                "cn": "在我看来，广告语给人的印象不够深。",
+                "split": "在 我 看 来 广告语 给 人 的 印象 不够 深",
+                "en": "I don't think the slogan is impressive enough.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "我": "wo / I; me",
+                  "看": "kan / to look; to see; to visit",
+                  "来": "lai / to come",
+                  "给": "gei / give; for",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t2-s10",
+                "cn": "一个五秒的广告，我们台黄金时间的广告费是24,000块，半年为一个周期。",
+                "split": "一个 五秒 的 广告 我们 台 黄金时间 的 广告费 是 24 000 块 半年 为 一个 周期",
+                "en": "Our channel charges 24,000 yuan for a five-second advertisement during prime time. And it will last for half a year.",
+                "dict": {
+                  "一个": "yígè / one (a)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "wǒmen / we; us",
+                  "是": "shì / to be (am/is/are)",
+                  "为": "wèi / for"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t3",
+            "label": "场景 3 产品促销",
+            "sentences": [
+              {
+                "id": "swcd-l5-t3-s1",
+                "cn": "\"十一\"快到了，这个购物季我们的促销得来点儿新鲜的。",
+                "split": "十一 快 到 了 这个 购物 季 我们 的 促销 得 来 点儿 新鲜 的",
+                "en": "The National Day is coming. This time we have to try some new sales methods.",
+                "dict": {
+                  "快": "kuai / quick; hurry",
+                  "了": "le / (particle: completed action / new situation)",
+                  "这个": "zhege / this one",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "来": "lai / to come",
+                  "点儿": "dianr / a little"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s2",
+                "cn": "我们跟各大商场合作，搞个\"宝宝时装秀\"怎么样？让小宝贝们穿上我们的童装，在商场的T台上走两圈？",
+                "split": "我们 跟 各 大 商场 合作 搞 个 宝宝 时装 秀 怎么样 让 小 宝贝们 穿上 我们 的 童装 在 商场 的 T 台 上 走 两 圈",
+                "en": "How about we cooperate with some big shopping malls and hold a baby fashion show? The babies can put on our children's clothes and walk around on the runway in the mall.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "跟": "gen / with",
+                  "个": "ge / (measure word)",
+                  "怎么样": "zenmeyang / how about",
+                  "让": "rang / let; allow",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s3",
+                "cn": "活动的目的就是吸引目标客户到店，增加进店率。",
+                "split": "活动 的 目的 就是 吸引 目标 客户 到 店 增加 进店率",
+                "en": "The goal of this activity is to attract target customers and increase foot traffic to our store.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s4",
+                "cn": "促销活动方案的初稿出来了，大家提提意见。",
+                "split": "促销 活动 方案 的 初稿 出来 了 大家 提提 意见",
+                "en": "The draft for the sales promotion is done. Feel free to give your opinions.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "出来": "chulai / come out",
+                  "了": "le / (particle: completed action / new situation)",
+                  "大家": "dajia / everyone",
+                  "意见": "yijian / complaint"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s5",
+                "cn": "活动时间就定在10月22~25号，跟商场5周年店庆同步，那几天客流量应该很大。",
+                "split": "活动 时间 就 定 在 10 月 22 25 号 跟 商场 5 周年 店 庆 同步 那 几天 客流量 应该 很大",
+                "en": "The sale will be held from October 22nd to 25th, the same days as the mall's five-year anniversary. There will be many customers.",
+                "dict": {
+                  "时间": "shíjiān / time",
+                  "就": "jiù / just; simply",
+                  "在": "zài / to be at; (at)",
+                  "跟": "gēn / with",
+                  "应该": "yīnggāi / should"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s6",
+                "cn": "租场地、物料、宣传材料、礼品，加上人工，预算大约一共要35万。",
+                "split": "租 场地 物料 宣传 材料 礼品 加上 人工 预算 大约 一共 要 35 万",
+                "en": "The rent, supplies, promotional materials, gifts and labor altogether will cost about 350,000 yuan.",
+                "dict": {
+                  "礼品": "lipin / gift",
+                  "一共": "yigong / altogether",
+                  "要": "yao / want; need; will"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s7",
+                "cn": "你把活动的时间、地点报工商了吗？",
+                "split": "你 把 活动 的 时间 地点 报 工商 了 吗",
+                "en": "Have you reported the time and place to the Industrial and Commercial Bureau?",
+                "dict": {
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "的": "de / (possessive/modifier particle)",
+                  "时间": "shijian / time",
+                  "地点": "didian / place of a meeting",
+                  "报": "bao / to report; to register",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s8",
+                "cn": "依我看，派发的礼品要重新考虑，马克杯跟我们促销的产品缺乏一致性。",
+                "split": "依 我 看 派发 的 礼品 要 重新 考虑 马克杯 跟 我们 促销 的 产品 缺乏 一致性",
+                "en": "I think we will have to change the gifts for customers. Mugs have nothing in common with our products.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "看": "kan / to look; to see; to visit",
+                  "的": "de / (possessive/modifier particle)",
+                  "礼品": "lipin / gift",
+                  "要": "yao / want; need; will",
+                  "跟": "gen / with",
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s9",
+                "cn": "这是活动当天交了订金没付全款的顾客名单和联系方式，你跟进一下。",
+                "split": "这 是 活动 当天 交了 订金 没 付 全款 的 顾客 名单 和 联系 方式 你 跟进 一下",
+                "en": "This is a list of the names and contact information of all the customers who have already paid the deposit on the day of the activity, but not the full amount. Remember to follow this up.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "没": "mei / not (past)",
+                  "的": "de / (possessive/modifier particle)",
+                  "和": "he / and; with",
+                  "你": "ni / you"
+                }
+              },
+              {
+                "id": "swcd-l5-t3-s10",
+                "cn": "三天促销期间，我们的销售额与六月整月的销售额持平，效果可观。",
+                "split": "三 天 促销 期间 我们 的 销售额 与 六 月 整 月 的 销售额 持平 效果 可观",
+                "en": "The volume of sales in the three-day promotion is equivalent to that in the whole June. The result is very considerable.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "效果": "xiaoguo / effect, result"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t4",
+            "label": "场景 4 售后服务",
+            "sentences": [
+              {
+                "id": "swcd-l5-t4-s1",
+                "cn": "我这冰箱刚买了一个月就不制冷了。昨天放进去的西瓜今天拿出来就坏了。",
+                "split": "我 这 冰箱 刚 买了 一 个 月 就 不 制冷 了 昨天 放 进去 的 西瓜 今天 拿 出来 就 坏 了",
+                "en": "The refrigerator was bought only one month ago. But it doesn't refrigerate any more and the watermelon I put in it yesterday has already gone bad.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "刚": "gang / just now",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "就": "jiu / just; simply",
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)",
+                  "昨天": "zuotian / yesterday",
+                  "进去": "jinqu / go in",
+                  "的": "de / (possessive/modifier particle)",
+                  "今天": "jintian / today",
+                  "出来": "chulai / come out"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s2",
+                "cn": "我的手机经常死机，最近还总是打着打着电话就自动关机了。",
+                "split": "我 的 手机 经常 死机 最近 还 总是 打着 打着 电话 就 自动 关机 了",
+                "en": "My phone often freezes. And now it keeps turning itself off when I am on the phone.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "手机": "shouji / mobile phone",
+                  "最近": "zuijin / recently",
+                  "还": "hai / still; also",
+                  "电话": "dianhua / telephone; phone",
+                  "就": "jiu / just; simply",
+                  "关机": "guanji / to turn off (one's phone)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s3",
+                "cn": "我要求退货。",
+                "split": "我 要求 退货",
+                "en": "I request a return.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "退货": "tuihuo / to return goods"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s4",
+                "cn": "您怎么称呼？发票您还留着吗？",
+                "split": "您 怎么 称呼 发票 您 还 留着 吗",
+                "en": "What's your name, Sir/Madam? Do you still have the receipt?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "怎么": "zenme / how; why",
+                  "发票": "fapiao / invoice",
+                  "还": "hai / still; also",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s5",
+                "cn": "非常抱歉我们的产品出了问题，给您造成了不便和困扰，我马上给您安排维修。",
+                "split": "非常 抱歉 我们 的 产品 出了 问题 给 您 造成了 不便 和 困扰 我 马上 给 您 安排 维修",
+                "en": "Sorry for the product defect and for the trouble caused. I will arrange a repair for you right away.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wenti / problem",
+                  "给": "gei / give; for",
+                  "您": "nin / you (polite)",
+                  "和": "he / and; with",
+                  "我": "wo / I; me",
+                  "安排": "anpai / to arrange",
+                  "维修": "weixiu / to repair"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s6",
+                "cn": "您的电脑已经过了保修期，我们可以上门维修，但是维修费和上门费需要您自己承担。",
+                "split": "您 的 电脑 已经 过了 保修期 我们 可以 上门 维修 但是 维修费 和 上门费 需要 您 自己 承担",
+                "en": "The warranty for your computer has expired. We can send someone to repair it, but you will have to afford the repair cost and the door-to-door service fee.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "电脑": "diannao / computer",
+                  "已经": "yijing / already",
+                  "保修期": "baoxiuqi / warranty period",
+                  "我们": "women / we; us",
+                  "可以": "keyi / can; may; OK",
+                  "维修": "weixiu / to repair",
+                  "但是": "danshi / but; however",
+                  "和": "he / and; with",
+                  "需要": "xuyao / need",
+                  "自己": "ziji / oneself"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s7",
+                "cn": "感谢您对我们公司产品的认可，很抱歉，像这种由于人为原因造成的损坏我们不保修。",
+                "split": "感谢 您 对 我们 公司 产品 的 认可 很 抱歉 像 这 种 由于 人为 原因 造成 的 损坏 我们 不 保修",
+                "en": "Thank you for your appreciation of our product. But sorry, the warranty doesn't cover man-made damages.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "很": "hen / very",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s8",
+                "cn": "抱歉，易耗品我们是不包退不包换的。",
+                "split": "抱歉 易耗品 我们 是 不 包 退 不 包 换 的",
+                "en": "Sorry, but consumables cannot be returned or replaced.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "是": "shi / to be (am/is/are)",
+                  "不": "bu / not",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s9",
+                "cn": "抱歉，因为MP3是赠品，按我们公司的规定，赠品是不在保修范围内的。",
+                "split": "抱歉 因为 MP 3 是 赠品 按 我们 公司 的 规定 赠品 是 不 在 保修 范围 内 的",
+                "en": "Sorry, but the MP3 is a giveaway and according to our company provisions, giveaways are not covered by the warranty.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s10",
+                "cn": "麻烦您在这张工单上签个字。",
+                "split": "麻烦 您 在 这 张 工单 上 签 个 字",
+                "en": "Please sign your name on this work order.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "在": "zai / to be at; (at)",
+                  "张": "zhang / Zhang (surname)",
+                  "上": "shang / to attend (a class)",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s11",
+                "cn": "您好！您上周五打电话报修空调漏水，请问我们的技术人员去修了吗？修好了吗？",
+                "split": "您 好 您 上 周 五 打 电话 报修 空调 漏 水 请问 我们 的 技术 人员 去 修 了 吗 修好了 吗",
+                "en": "Hello, you called last Friday to report the leak problem of your air conditioner. Did our technician go to yours? Has it been fixed?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "上": "shang / to attend (a class)",
+                  "打": "da / to hit; to make (a phone call)",
+                  "电话": "dianhua / telephone; phone",
+                  "报修": "baoxiu / to report a breakdown",
+                  "请问": "qingwen / excuse me, may I ask",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "去": "qu / to go",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t4-s12",
+                "cn": "您对这次服务满意吗？",
+                "split": "您 对 这 次 服务 满意 吗",
+                "en": "Are you satisfied with the service?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "对": "dui / to; towards; correct",
+                  "吗": "ma / (question particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t5",
+            "label": "场景 5 销售业绩",
+            "sentences": [
+              {
+                "id": "swcd-l5-t5-s1",
+                "cn": "上个季度我们开发了三个潜在客户，取得了很好的成效。",
+                "split": "上 个 季度 我们 开发了 三 个 潜在 客户 取得了 很 好 的 成效",
+                "en": "In the last quarter, we nailed three potential clients, and got a very good effect.",
+                "dict": {
+                  "上": "shang / to attend (a class)",
+                  "个": "ge / (measure word)",
+                  "我们": "women / we; us",
+                  "很": "hen / very",
+                  "好": "hao / good; well; OK",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s2",
+                "cn": "今年我们的销售状元完成了销售任务的137%。",
+                "split": "今年 我们 的 销售 状元 完成了 销售 任务 的 137",
+                "en": "This year, the best salesperson of our company completed 137% of the sales goal.",
+                "dict": {
+                  "今年": "jinnian / this year",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "销售": "xiaoshou / sales"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s3",
+                "cn": "年初我对去年销售额在20万以上的大客户进行了重点拜访，对销售任务做了细分，所以今年的销售任务完成得很顺利。",
+                "split": "年初 我 对 去年 销售额 在 20 万 以上 的 大 客户 进行了 重点 拜访 对 销售 任务 做了 细分 所以 今年 的 销售 任务 完成 得 很 顺利",
+                "en": "At the beginning of this year, I paid formal visits to all the clients to whom we sold over 200,000 yuan of products last year and subdivided the sales task, which has therefore been completed successfully.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "对": "dui / to; towards; correct",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "销售": "xiaoshou / sales",
+                  "所以": "suoyi / therefore",
+                  "今年": "jinnian / this year",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s4",
+                "cn": "最近广东市场的出货率降到了近五年的最低值。",
+                "split": "最近 广东 市场 的 出货率 降到了 近 五 年 的 最 低 值",
+                "en": "Recently, the delivery rate in the Guangdong market has decreased to a five-year low.",
+                "dict": {
+                  "最近": "zuijin / recently",
+                  "的": "de / (possessive/modifier particle)",
+                  "最": "zui / most"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s5",
+                "cn": "我认为，这个月业绩下滑是因为竞品最近在搞大规模的促销活动。",
+                "split": "我 认为 这个 月 业绩 下滑 是 因为 竞品 最近 在 搞 大 规模 的 促销 活动",
+                "en": "I think the decline in this month's sales performance results from the recent large-scale promotion of the competing goods.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "这个": "zhege / this one",
+                  "是": "shi / to be (am/is/are)",
+                  "因为": "yinwei / because",
+                  "最近": "zuijin / recently",
+                  "在": "zai / to be at; (at)",
+                  "规模": "guimo / scale",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s6",
+                "cn": "这批货的货龄太长，所以严重影响了销量。",
+                "split": "这 批 货 的 货龄 太 长 所以 严重 影响了 销量",
+                "en": "This batch of goods has been in stock for too long, which has seriously affected its sales.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tai / too; excessively",
+                  "所以": "suoyi / therefore"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s7",
+                "cn": "你上个月的销售任务没完成，提成先暂扣。",
+                "split": "你 上 个 月 的 销售 任务 没 完成 提成 先 暂 扣",
+                "en": "You failed to complete your sales goal last month, so your commission will be deducted temporarily.",
+                "dict": {
+                  "你": "ni / you",
+                  "上": "shang / to attend (a class)",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)",
+                  "销售": "xiaoshou / sales",
+                  "没": "mei / not (past)",
+                  "先": "xian / first"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s8",
+                "cn": "目前华南市场正在稳步增长。",
+                "split": "目前 华南 市场 正在 稳步 增长",
+                "en": "At present, the market in south China has been growing steadily.",
+                "dict": {
+                  "正在": "zhengzai / in the process of"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s9",
+                "cn": "经理，我跟进的那一单有戏，我想去一趟客户那儿。",
+                "split": "经理 我 跟进 的 那 一 单 有 戏 我 想 去 一 趟 客户 那儿",
+                "en": "Sir, I have seen some possibility in the deal I have been following up. I want to pay a visit to the client.",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one",
+                  "有": "you / to have",
+                  "想": "xiang / want; think",
+                  "去": "qu / to go",
+                  "那儿": "nar / there"
+                }
+              },
+              {
+                "id": "swcd-l5-t5-s10",
+                "cn": "这个大单总算拿到了。",
+                "split": "这个 大 单 总算 拿到 了",
+                "en": "I have finally wrapped up this big deal.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t6",
+            "label": "场景 6 商标注册",
+            "sentences": [
+              {
+                "id": "swcd-l5-t6-s1",
+                "cn": "这是我们最后定的商标，要跟商标局申请注册。",
+                "split": "这 是 我们 最后 定 的 商标 要 跟 商标 局 申请 注册",
+                "en": "This is the trademark we've finally agreed on. And we will have to file an application in the Trademark Bureau.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "最后": "zuihou / finally; last",
+                  "的": "de / (possessive/modifier particle)",
+                  "要": "yao / want; need; will",
+                  "跟": "gen / with",
+                  "申请": "shenqing / to apply",
+                  "注册": "zhuce / to register"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s2",
+                "cn": "申请注册还要提供加盖公章的营业执照复印件。",
+                "split": "申请 注册 还 要 提供 加盖 公章 的 营业 执照 复印件",
+                "en": "When applying to register a trademark, you'll have to offer a copy of your business license stamped with the official seal.",
+                "dict": {
+                  "申请": "shenqing / to apply",
+                  "注册": "zhuce / to register",
+                  "还": "hai / still; also",
+                  "要": "yao / want; need; will",
+                  "的": "de / (possessive/modifier particle)",
+                  "复印件": "fuyinjian / copy"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s3",
+                "cn": "这个商标谁申请在先，谁就能取得专用权。",
+                "split": "这个 商标 谁 申请 在 先 谁 就 能 取得 专用权",
+                "en": "He who applies for the trademark first gets its ownership.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "申请": "shenqing / to apply",
+                  "在": "zai / to be at; (at)",
+                  "先": "xian / first",
+                  "就": "jiu / just; simply",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s4",
+                "cn": "您申请注册的商标跟相同或类似商品的已注册商标近似，所以申请被驳回了。",
+                "split": "您 申请 注册 的 商标 跟 相同 或 类似 商品 的 已 注册 商标 近似 所以 申请 被 驳回 了",
+                "en": "A similar trademark for the same product or product of the same kind has been registered. So your application is rejected.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "申请": "shenqing / to apply",
+                  "注册": "zhuce / to register",
+                  "的": "de / (possessive/modifier particle)",
+                  "跟": "gen / with",
+                  "所以": "suoyi / therefore",
+                  "被": "bei / passive marker",
+                  "驳回": "bohui / to reject",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s5",
+                "cn": "您使用了已经注册的商标，侵权了。",
+                "split": "您 使用了 已经 注册 的 商标 侵权 了",
+                "en": "You have used someone else's registered trademark. It's an infringement.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "已经": "yijing / already",
+                  "注册": "zhuce / to register",
+                  "的": "de / (possessive/modifier particle)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s6",
+                "cn": "商标是我们的无形资产，一定要注册，才能得到保护。",
+                "split": "商标 是 我们 的 无形 资产 一定 要 注册 才 能 得到 保护",
+                "en": "The trademark is our intangible property and can only get protected after registration.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "一定": "yiding / definitely",
+                  "要": "yao / want; need; will",
+                  "注册": "zhuce / to register",
+                  "才": "cai / only then; just",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s7",
+                "cn": "现在商标申请还在审查过程中，可以用\"TM\"标记。",
+                "split": "现在 商标 申请 还 在 审查 过程 中 可以 用 TM 标记",
+                "en": "The trademark application is still under scrutiny. Mark with \"TM\".",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "申请": "shenqing / to apply",
+                  "还": "hai / still; also",
+                  "在": "zai / to be at; (at)",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s8",
+                "cn": "咱们申请的商标已经登出《初审公告》了，三个月之内如果没有人提出异议，就可以注册了。",
+                "split": "咱们 申请 的 商标 已经 登出 初审 公告 了 三 个 月 之 内 如果 没有 人 提出 异议 就 可以 注册 了",
+                "en": "A Preliminary Examination Notice on our trademark has already been put up. If no opposition rises within three months, then we can have it registered.",
+                "dict": {
+                  "咱们": "zanmen / we (inclusive)",
+                  "申请": "shenqing / to apply",
+                  "的": "de / (possessive/modifier particle)",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "个": "ge / (measure word)",
+                  "没有": "meiyou / not have; haven't",
+                  "就": "jiu / just; simply",
+                  "可以": "keyi / can; may; OK",
+                  "注册": "zhuce / to register"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s9",
+                "cn": "商标注册以后还要同时发布《注册公告》，三个月之内如果没有人提出异议，注册就生效了。",
+                "split": "商标 注册 以后 还 要 同时 发布 注册 公告 三 个 月 之 内 如果 没有 人 提出 异议 注册 就 生效 了",
+                "en": "After the registration, a Registration Notice has to be released. If no opposition rises within three months, the registration will take effect.",
+                "dict": {
+                  "注册": "zhuce / to register",
+                  "以后": "yihou / after",
+                  "还": "hai / still; also",
+                  "要": "yao / want; need; will",
+                  "个": "ge / (measure word)",
+                  "没有": "meiyou / not have; haven't",
+                  "就": "jiu / just; simply",
+                  "生效": "shengxiao / to take effect",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s10",
+                "cn": "这是您的注册证，请收好。",
+                "split": "这 是 您 的 注册证 请 收好",
+                "en": "This is your certificate of registration. Please keep it.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l5-t6-s11",
+                "cn": "注册商标的有效期是十年，十年以后如果要继续使用，得在到期之前的六个月内申请续展注册。",
+                "split": "注册 商标 的 有效期 是 十 年 十 年 以后 如果 要 继续 使用 得 在 到期 之前 的 六 个 月 内 申请 续展 注册",
+                "en": "The trademark will expire after ten years. If you still want to use it then, please file an application for extension six months beforehand.",
+                "dict": {
+                  "注册": "zhuce / to register",
+                  "的": "de / (possessive/modifier particle)",
+                  "有效期": "youxiaqi / period of validity",
+                  "是": "shi / to be (am/is/are)",
+                  "以后": "yihou / after",
+                  "要": "yao / want; need; will",
+                  "继续": "jixu / continue",
+                  "在": "zai / to be at; (at)",
+                  "个": "ge / (measure word)",
+                  "申请": "shenqing / to apply"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t7",
+            "label": "场景 7 技术转让",
+            "sentences": [
+              {
+                "id": "swcd-l5-t7-s1",
+                "cn": "我们打算从德国引进一套设备。",
+                "split": "我们 打算 从 德国 引进 一 套 设备",
+                "en": "We are planning to introduce a set of equipment from Germany.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "打算": "dasuan / to plan",
+                  "从": "cong / from",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s2",
+                "cn": "我们除了给你们提供设备以外，还可以帮你们安装、试车，提供操作技术。",
+                "split": "我们 除了 给 你们 提供 设备 以外 还 可以 帮 你们 安装 试 车 提供 操作 技术",
+                "en": "Besides providing the equipment, we can also help you install and trial it and offer the operating techniques.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "给": "gei / give; for",
+                  "你们": "nimen / you (plural)",
+                  "还": "hai / still; also",
+                  "可以": "keyi / can; may; OK",
+                  "安装": "anzhuang / to install"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s3",
+                "cn": "不知道贵公司有没有兴趣购买这项专利？",
+                "split": "不 知道 贵 公司 有 没有 兴趣 购买 这 项 专利",
+                "en": "Is your company interested in buying this patent?",
+                "dict": {
+                  "不": "bu / not",
+                  "知道": "zhidao / know",
+                  "公司": "gongsi / company",
+                  "有": "you / to have",
+                  "没有": "meiyou / not have; haven't"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s4",
+                "cn": "我们提供关键技术和图纸，你们负责生产配件和组装。",
+                "split": "我们 提供 关键 技术 和 图纸 你们 负责 生产 配件 和 组装",
+                "en": "We offer key technologies and diagrams, and you will be in charge of the production of spare parts and installation.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "和": "he / and; with",
+                  "你们": "nimen / you (plural)",
+                  "生产": "shengchan / production"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s5",
+                "cn": "利润分配就按投资比例算。",
+                "split": "利润 分配 就 按 投资 比例 算",
+                "en": "The profit will be distributed according to the investment rate.",
+                "dict": {
+                  "就": "jiu / just; simply"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s6",
+                "cn": "企业的财务管理双方共同参与。",
+                "split": "企业 的 财务 管理 双方 共同 参与",
+                "en": "Both sides shall be responsible for the financial management of the enterprise.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s7",
+                "cn": "我们以技术入股，日常经营管理由你们来做。",
+                "split": "我们 以 技术 入股 日常 经营 管理 由 你们 来 做",
+                "en": "We invest with our technology and you are in charge of the daily operation.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "你们": "nimen / you (plural)",
+                  "来": "lai / to come",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l5-t7-s8",
+                "cn": "如果你同意把这个技术转让给我们公司，我们先付一笔入门费，以后每年根据销量给你提成。",
+                "split": "如果 你 同意 把 这个 技术 转让 给 我们 公司 我们 先 付 一 笔 入门费 以后 每 年 根据 销量 给 你 提成",
+                "en": "With your approval of transferring this technology to us, we shall pay you an initial amount first and then pay the commission to you yearly according to sales performance.",
+                "dict": {
+                  "你": "ni / you",
+                  "同意": "tongyi / to agree",
+                  "把": "ba / BA marker",
+                  "这个": "zhege / this one",
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "先": "xian / first",
+                  "一": "yi / one",
+                  "以后": "yihou / after"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l5-t8",
+            "label": "场景 8 销售代理",
+            "sentences": [
+              {
+                "id": "swcd-l5-t8-s1",
+                "cn": "代理商可以帮助我们降低经营风险。",
+                "split": "代理商 可以 帮助 我们 降低 经营 风险",
+                "en": "An agent can help reduce our operational risks.",
+                "dict": {
+                  "代理商": "dailishang / agent",
+                  "可以": "keyi / can; may; OK",
+                  "帮助": "bangzhu / help",
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s2",
+                "cn": "能不能把贵公司在广东市场的代理交给我们做？",
+                "split": "能 不 能 把 贵 公司 在 广东 市场 的 代理 交 给 我们 做",
+                "en": "Can you make us your company's agent in the Guangdong market?",
+                "dict": {
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "把": "ba / BA marker",
+                  "公司": "gongsi / company",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s3",
+                "cn": "我们公司的注册资本达到了50万，有七个专职销售人员，经营这种产品已经有五年时间了。",
+                "split": "我们 公司 的 注册 资本 达到了 50 万 有 七 个 专职 销售 人员 经营 这 种 产品 已经 有 五 年 时间 了",
+                "en": "Our registered capital is 500,000 yuan. And we have been selling this product for five years, with seven professional salespeople.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "注册": "zhuce / to register",
+                  "有": "you / to have",
+                  "个": "ge / (measure word)",
+                  "销售": "xiaoshou / sales",
+                  "已经": "yijing / already",
+                  "时间": "shijian / time",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s4",
+                "cn": "请你们每个季度提交一份工作报告。",
+                "split": "请 你们 每 个 季度 提交 一 份 工作 报告",
+                "en": "Please submit a work report every quarter.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)",
+                  "个": "ge / (measure word)",
+                  "一": "yi / one",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s5",
+                "cn": "代理协议生效期间，以及协议终止后的一年时间里，不能同时代理其他任何品牌的竞品。",
+                "split": "代理 协议 生效 期间 以及 协议 终止 后 的 一 年 时间 里 不 能 同时 代理 其他 任何 品牌 的 竞品",
+                "en": "During the term of the agency agreement and within one year of the termination of the agreement, the agent cannot represent any competing goods of any other brand.",
+                "dict": {
+                  "协议": "xieyi / agreement",
+                  "生效": "shengxiao / to take effect",
+                  "终止": "zhongzhi / to terminate",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one",
+                  "时间": "shijian / time",
+                  "不": "bu / not",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s6",
+                "cn": "我们收到货款以后，在30天之内会付给你们佣金，佣金按发票金额算。",
+                "split": "我们 收到 货款 以后 在 30 天 之 内 会 付 给 你们 佣金 佣金 按 发票 金额 算",
+                "en": "We will pay the commission within 30 days after receiving the payment for goods and the commission will be paid according to the invoice value.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "以后": "yihou / after",
+                  "在": "zai / to be at; (at)",
+                  "会": "hui / can; will",
+                  "给": "gei / give; for",
+                  "你们": "nimen / you (plural)",
+                  "发票": "fapiao / invoice"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s7",
+                "cn": "你们要做的工作主要包括：售前咨询、设立服务热线、提供24小时电话咨询服务，上门安装以及售后维修、设备升级维护。",
+                "split": "你们 要 做 的 工作 主要 包括 售前 咨询 设立 服务 热线 提供 24 小时 电话 咨询 服务 上门 安装 以及 售后 维修 设备 升级 维护",
+                "en": "You'll have to be in charge of the following tasks: pre-sales consultancy, set-up of a service hotline, 24-hour phone consultancy service, door-to-door installation service, after-sales repair, and upgrading and maintenance of equipment.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "要": "yao / want; need; will",
+                  "做": "zuo / to do; to make",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "小时": "xiaoshi / hour",
+                  "电话": "dianhua / telephone; phone",
+                  "安装": "anzhuang / to install",
+                  "维修": "weixiu / to repair"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s8",
+                "cn": "在销售过程中，你们的口径要和公司保持一致。",
+                "split": "在 销售 过程 中 你们 的 口径 要 和 公司 保持 一致",
+                "en": "What you say has to be consistent with the company's position while you are selling products.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "销售": "xiaoshou / sales",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "要": "yao / want; need; will",
+                  "和": "he / and; with",
+                  "公司": "gongsi / company"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s9",
+                "cn": "如果投诉率达到10%，我们将扣除代理保证金的25%作为惩罚，并且解除代理协议。",
+                "split": "如果 投诉率 达到 10 我们 将 扣除 代理 保证金 的 25 作为 惩罚 并且 解除 代理 协议",
+                "en": "If the complaint rate reaches 10%, we shall deduct 25% from the agent margin as a punishment and terminate the agency agreement.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "解除": "jiechu / to remove, to terminate",
+                  "协议": "xieyi / agreement"
+                }
+              },
+              {
+                "id": "swcd-l5-t8-s10",
+                "cn": "如果连续三年没有完成最低销售额，我们会终止代理协议。",
+                "split": "如果 连续 三 年 没有 完成 最 低 销售额 我们 会 终止 代理 协议",
+                "en": "In case of a failure to reach the minimum sales target in three consecutive years, we will terminate the agency agreement.",
+                "dict": {
+                  "没有": "meiyou / not have; haven't",
+                  "最": "zui / most",
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "终止": "zhongzhi / to terminate",
+                  "协议": "xieyi / agreement"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson6",
+        "title": "Unit 6 Business Trip 出差",
+        "titleEn": "Unit 6",
+        "texts": [
+          {
+            "id": "swcd-l6-t1",
+            "label": "场景 1 出差申请",
+            "sentences": [
+              {
+                "id": "swcd-l6-t1-s1",
+                "cn": "经理，下个月西安有一个展会，我想去出趟差。",
+                "split": "经理 下 个 月 西安 有 一 个 展会 我 想 去 出 趟 差",
+                "en": "Sir, there will be a trade fair in Xi'an next month. I want to take a business trip there.",
+                "dict": {
+                  "经理": "jingli / manager",
+                  "个": "ge / (measure word)",
+                  "有": "you / to have",
+                  "一": "yi / one",
+                  "展会": "zhanhui / exhibition",
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "去": "qu / to go"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s2",
+                "cn": "你先填一下出差申请单吧。",
+                "split": "你 先 填 一下 出差 申请单 吧",
+                "en": "Please fill out the business trip application form first.",
+                "dict": {
+                  "你": "ni / you",
+                  "先": "xian / first",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s3",
+                "cn": "出差事由：为客户安装、调试设备。",
+                "split": "出差 事由 为 客户 安装 调试 设备",
+                "en": "Reasons for this business trip: installing and debugging equipment for clients.",
+                "dict": {
+                  "为": "wei / for",
+                  "安装": "anzhuang / to install",
+                  "调试": "tiaoshi / debugging"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s4",
+                "cn": "我想先预支一下差旅费。",
+                "split": "我 想 先 预支 一下 差旅费",
+                "en": "Can I have an advance on the business trip expenses?",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "先": "xian / first",
+                  "差旅费": "chailüfei / business trip expense"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s5",
+                "cn": "这次出差我计划大量收集客户资料，及时对客户进行分类跟进。",
+                "split": "这 次 出差 我 计划 大量 收集 客户 资料 及时 对 客户 进行 分类 跟进",
+                "en": "I plan to collect much client information on this business trip and make an immediate follow-up after categorization.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "计划": "jihua / plan",
+                  "资料": "ziliao / material, data",
+                  "对": "dui / to; towards; correct",
+                  "分类": "fenlei / to categorize"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s6",
+                "cn": "这次出差设三个部分，一行5人，行程7天。",
+                "split": "这 次 出差 设 三 个 部分 一行 5 人 行程 7 天",
+                "en": "This business trip is divided into three sections and will last for seven days with a group of five people.",
+                "dict": {
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s7",
+                "cn": "你把出差申请单送到人力资源部吧，好记出差期间的考勤。",
+                "split": "你 把 出差 申请单 送到 人力 资源 部 吧 好 记 出差 期间 的 考勤",
+                "en": "Please bring the business trip application form to the Human Resources Department for attendance recording.",
+                "dict": {
+                  "你": "ni / you",
+                  "把": "ba / BA marker",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "好": "hao / good; well; OK",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t1-s8",
+                "cn": "因为客户临时有事出国，申请出差日期延期3天。",
+                "split": "因为 客户 临时 有 事 出国 申请 出差 日期 延期 3 天",
+                "en": "Since the client has to go overseas for some time, the business trip will have to be put off for three days.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "有": "you / to have",
+                  "出国": "chuguo / to go abroad",
+                  "申请": "shenqing / to apply"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t2",
+            "label": "场景 2 行程计划",
+            "sentences": [
+              {
+                "id": "swcd-l6-t2-s1",
+                "cn": "这次我出差的时间是4天，先去广州，然后去江门，从江门到中山，最后去珠海。",
+                "split": "这 次 我 出差 的 时间 是 4 天 先 去 广州 然后 去 江门 从 江门 到 中山 最后 去 珠海",
+                "en": "This business trip will last four days and the destinations are Guangzhou, Jiangmen, Zhongshan, and Zhuhai in sequence.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "时间": "shijian / time",
+                  "是": "shi / to be (am/is/are)",
+                  "先": "xian / first",
+                  "去": "qu / to go",
+                  "然后": "ranhou / then; afterwards",
+                  "从": "cong / from",
+                  "最后": "zuihou / finally; last"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s2",
+                "cn": "3月1号早9:20分，从首都机场出发，坐国航CA3131次航班出发去大连。",
+                "split": "3 月 1 号 早 9 20 分 从 首都机场 出发 坐 国航 CA3131 次 航班 出发 去 大连",
+                "en": "We will take Flight CA3131 of Air China to Dalian at the Capital Airport at 9:20, March 1st.",
+                "dict": {
+                  "从": "cóng / from",
+                  "出发": "chūfā / to set off, depart",
+                  "航班": "hángbān / flight",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s3",
+                "cn": "明天蒋总出差，别忘了让车队派车送机。",
+                "split": "明天 蒋 总 出差 别 忘了 让 车队 派 车 送 机",
+                "en": "Tomorrow Mr. Jiang will leave for a business trip. Remember to send a car to take him to the airport.",
+                "dict": {
+                  "明天": "mingtian / tomorrow",
+                  "让": "rang / let; allow"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s4",
+                "cn": "3月1日晚，跟大连市众星经济开发区的有关领导见面，出席欢迎晚宴。",
+                "split": "3 月 1 日 晚 跟 大连 市 众星 经济 开发区 的 有关 领导 见面 出席 欢迎 晚宴",
+                "en": "On the evening of March 1st, there will be a welcome banquet where we'll meet some leaders of Zhongxing Economic Development Zone in Dalian.",
+                "dict": {
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "领导": "lingdao / leader",
+                  "欢迎": "huanying / welcome"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s5",
+                "cn": "3月2日，出席合作项目签字仪式。",
+                "split": "3 月 2 日 出席 合作 项目 签字 仪式",
+                "en": "On March 2nd, we will attend a signing ceremony for the cooperation program.",
+                "dict": {
+                  "签字": "qianzi / to sign"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s6",
+                "cn": "3月3日，和大连市重型机械协会相关人员座谈。",
+                "split": "3 月 3 日 和 大连 市 重型 机械 协会 相关 人员 座谈",
+                "en": "On March 3rd, we will have a symposium with the personnel of the Heavy Machinery Association in Dalian.",
+                "dict": {
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s7",
+                "cn": "3月4日，参观大连市第一重型机械厂。",
+                "split": "3 月 4 日 参观 大连 市 第一 重型 机械 厂",
+                "en": "On March 4th, we will pay a visit to the No. 1 Heavy Machinery Factory of Dalian.",
+                "dict": {
+                  "参观": "canguan / to visit"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s8",
+                "cn": "11月27日，从长沙到株洲，走访重点客户：江北化工集团采购部负责人、南方化学制品有限公司项目部负责人。",
+                "split": "11 月 27 日 从 长沙 到 株洲 走访 重点 客户 江北 化工 集团 采购 部 负责人 南方 化学 制品 有限 公司 项目 部 负责人",
+                "en": "On November 27th, we will leave Changsha for Zhuzhou and visit some important clients, namely manager of the Purchasing Department of Jiangbei Chemical Group and project manager of South Chemicals Co., Ltd.",
+                "dict": {
+                  "从": "cong / from",
+                  "负责人": "fuzeren / person in charge",
+                  "公司": "gongsi / company"
+                }
+              },
+              {
+                "id": "swcd-l6-t2-s9",
+                "cn": "11月30日，从柳州长途汽车站坐车回南宁。",
+                "split": "11 月 30 日 从 柳州 长途 汽车 站 坐 车 回 南宁",
+                "en": "On November 30th, we will take a coach from Liuzhou back to Nanning.",
+                "dict": {
+                  "从": "cong / from",
+                  "回": "hui / to return; to reply"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t3",
+            "label": "场景 3 票务预订",
+            "sentences": [
+              {
+                "id": "swcd-l6-t3-s1",
+                "cn": "我想订两张5月8号去杭州的机票。",
+                "split": "我 想 订 两 张 5 月 8 号 去 杭州 的 机票",
+                "en": "I want to book two flight tickets to Hangzhou on May 8th.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "张": "zhang / Zhang (surname)",
+                  "去": "qu / to go",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s2",
+                "cn": "请问下周二或周三去福州的机票有优惠吗？",
+                "split": "请问 下 周二 或 周三 去 福州 的 机票 有 优惠 吗",
+                "en": "Excuse me, is there any discount on the flight tickets to Fuzhou next Tuesday or Wednesday?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "去": "qu / to go",
+                  "的": "de / (possessive/modifier particle)",
+                  "有": "you / to have",
+                  "优惠": "youhui / discount",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s3",
+                "cn": "下周二晚上10点的红眼航班打五折，450。",
+                "split": "下 周二 晚上 10 点 的 红眼 航班 打 五折 450",
+                "en": "The red-eye flight at 22:00 next Tuesday enjoys a 50% discount. It's 450 yuan.",
+                "dict": {
+                  "晚上": "wǎnshàng / evening",
+                  "的": "de / (possessive/modifier particle)",
+                  "航班": "hángbān / flight",
+                  "打": "dǎ / to hit; to make (a phone call)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s4",
+                "cn": "机票价格是655，机场建设费170，一共825。",
+                "split": "机票价格 是 655 机场 建设费 170 一共 825",
+                "en": "The ticket is 655 yuan and the airport construction fee is 170 yuan. Altogether it is 825 yuan.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "一共": "yīgòng / altogether"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s5",
+                "cn": "我想要靠窗的座位。",
+                "split": "我 想要 靠 窗 的 座位",
+                "en": "I want to book a window seat.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s6",
+                "cn": "很抱歉，您预订的机票是3折的特价票，所以不能改签，也不能退票。",
+                "split": "很 抱歉 您 预订 的 机票 是 3 折 的 特价 票 所以 不 能 改签 也 不 能 退 票",
+                "en": "Sorry, your ticket enjoys a 70% off discount. It is a special airline ticket and cannot be changed or returned.",
+                "dict": {
+                  "很": "hen / very",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "特价": "tejia / special price",
+                  "所以": "suoyi / therefore",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "也": "ye / also; too"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s7",
+                "cn": "您要改签到第二天吗？可以，手续费是票价的5%。",
+                "split": "您 要 改签 到 第二天 吗 可以 手续费 是 票价 的 5",
+                "en": "Do you want to change your flight to the next day? OK, you'll have to pay a service charge of 5% of the ticket price.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "要": "yào / want; need; will",
+                  "吗": "ma / (question particle)",
+                  "可以": "kěyǐ / can; may; OK",
+                  "是": "shì / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s8",
+                "cn": "请问9月15号去厦门的动车还有余票吗？",
+                "split": "请问 9 月 15 号 去 厦门 的 动车 还 有 余 票 吗",
+                "en": "Excuse me, is there any bullet train ticket to Xiamen on September 15th left?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "去": "qu / to go",
+                  "的": "de / (possessive/modifier particle)",
+                  "动车": "dongche / bullet train",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s9",
+                "cn": "我查一下列车时刻表，看看最早的一趟车是几点。",
+                "split": "我 查 一下 列车 时刻 表 看看 最 早 的 一 趟 车 是 几 点",
+                "en": "Let me check the timetable and see what time the earliest train leaves.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "看看": "kankan / to take a look",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "一": "yi / one",
+                  "是": "shi / to be (am/is/are)",
+                  "几": "ji / how many; several"
+                }
+              },
+              {
+                "id": "swcd-l6-t3-s10",
+                "cn": "您已经成功预订了一张2月8日19:35分开往西安的Z2次火车票，订单号是153899767，请持本人有效身份证件前往各订票点就近取票。",
+                "split": "您 已经 成功 预订 了 一张 2 月 8 日 19 35 分开 往 西安 的 Z2 次 火车票 订单号 是 153899767 请 持 本人 有效 身份证件 前往 各 订票点 就近 取 票",
+                "en": "You have successfully booked a ticket of Train Z2 to Xi'an on February 8th. The train leaves at 19:35. Your ticket number is 153899767. Please bring your valid ID card and go fetch your ticket at any ticket station at your convenience.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "已经": "yǐjīng / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "一张": "yīzhāng / one (for flat objects)",
+                  "往": "wǎng / towards",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "请": "qǐng / please; invite"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t4",
+            "label": "场景 4 酒店预订",
+            "sentences": [
+              {
+                "id": "swcd-l6-t4-s1",
+                "cn": "喂，华天大酒店吗？请问10月5号到10月9号的套房还有吗？",
+                "split": "喂 华天 大 酒店 吗 请问 10 月 5 号 到 10 月 9 号 的 套房 还 有 吗",
+                "en": "Hello, is this Huatian Grand Hotel? Is there any suite available from October 5th to 9th?",
+                "dict": {
+                  "喂": "wei / hello",
+                  "吗": "ma / (question particle)",
+                  "请问": "qingwen / excuse me, may I ask",
+                  "的": "de / (possessive/modifier particle)",
+                  "套房": "taofang / suite",
+                  "还": "hai / still; also",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s2",
+                "cn": "先生，这个时间段的套房已经没有了，只剩下豪华大床房了。",
+                "split": "先生 这个 时间段 的 套房 已经 没有 了 只 剩下 豪华 大床房 了",
+                "en": "Sir, there is no suite left during that period, only deluxe king rooms.",
+                "dict": {
+                  "先生": "xiansheng / sir",
+                  "这个": "zhege / this one",
+                  "的": "de / (possessive/modifier particle)",
+                  "套房": "taofang / suite",
+                  "已经": "yijing / already",
+                  "没有": "meiyou / not have; haven't",
+                  "了": "le / (particle: completed action / new situation)",
+                  "只": "zhi / only",
+                  "大床房": "dachuangfang / king room"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s3",
+                "cn": "豪华大床房一晚多少钱？",
+                "split": "豪华 大床房 一 晚 多少 钱",
+                "en": "How much is a deluxe king room for one night?",
+                "dict": {
+                  "大床房": "dachuangfang / king room",
+                  "一": "yi / one",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s4",
+                "cn": "您哪天入住？离店时间是哪一天？",
+                "split": "您 哪 天 入住 离 店 时间 是 哪 一 天",
+                "en": "When will you check in and check out?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "时间": "shijian / time",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s5",
+                "cn": "标准双人间会员价398。",
+                "split": "标准 双人间 会员价 398",
+                "en": "The member price for a standard double room is 398 yuan.",
+                "dict": {
+                  "标准": "biaozhun / standard"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s6",
+                "cn": "请问从你们酒店到国际会展中心有多远？",
+                "split": "请问 从 你们 酒店 到 国际 会展 中心 有 多 远",
+                "en": "Excuse me, do you know how far it is from your hotel to the International Exhibition and Convention Center?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "从": "cong / from",
+                  "你们": "nimen / you (plural)",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s7",
+                "cn": "我们的酒店在东莞市东环区五一大道，离国际会展中心很近，大概10分钟车程，到深圳机场开车45分钟，走路10分钟可以到火车站。",
+                "split": "我们 的 酒店 在 东莞 市 东环 区 五一 大道 离 国际 会展 中心 很 近 大概 10 分钟 车程 到 深圳 机场 开 车 45 分钟 走 路 10 分钟 可以 到 火车站",
+                "en": "Our hotel is on Wuyi Avenue in the East Ring District of Dongguan, close to the International Exhibition and Convention Center. It takes a 10-minute drive to get to the International Exhibition and Convention Center, a 45-minute drive to Shenzhen Airport, and a 10-minute walk to the railway station.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "很": "hen / very",
+                  "大概": "dagai / roughly, about",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s8",
+                "cn": "你们提供接机服务吗？",
+                "split": "你们 提供 接机 服务 吗",
+                "en": "Do you have pick-up service?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s9",
+                "cn": "您订的是特价房，所以得提供一个信用卡号作为担保。",
+                "split": "您 订 的 是 特价房 所以 得 提供 一 个 信用卡 号 作为 担保",
+                "en": "The room you have booked enjoys a special price and you'll have to register your credit card number as collateral.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "所以": "suoyi / therefore",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l6-t4-s10",
+                "cn": "如果您需要取消预订，请提前48小时上网取消或者致电我们，如果我们没有及时得到通知，您的房费还是会从信用卡中扣除的。",
+                "split": "如果 您 需要 取消 预订 请 提前 48 小时 上网 取消 或者 致电 我们 如果 我们 没有 及时 得到 通知 您 的 房费 还是 会 从 信用卡 中 扣除 的",
+                "en": "If you want to cancel your reservation, please go to our website or call us to cancel it 48 hours beforehand. If your cancellation is not done in time, the room charge will still be deducted from your credit card.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "需要": "xuyao / need",
+                  "取消": "quxiao / to cancel",
+                  "请": "qing / please; invite",
+                  "小时": "xiaoshi / hour",
+                  "上网": "shangwang / to go online",
+                  "或者": "huozhe / or",
+                  "致电": "zhidian / to give a call",
+                  "我们": "women / we; us",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "还是": "haishi / or",
+                  "会": "hui / can; will",
+                  "从": "cong / from"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t5",
+            "label": "场景 5 走访客户",
+            "sentences": [
+              {
+                "id": "swcd-l6-t5-s1",
+                "cn": "您什么时候方便？我想跟您见个面，交流一下。",
+                "split": "您 什么 时候 方便 我 想 跟 您 见 个 面 交流 一下",
+                "en": "When are you available? Maybe we can meet and have a talk.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "我": "wo / I; me",
+                  "想": "xiang / want; think",
+                  "跟": "gen / with",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s2",
+                "cn": "你好！我跟许经理约好了，我是上海通用照明设备公司的。",
+                "split": "你 好 我 跟 许 经理 约好 了 我 是 上海 通用 照明 设备 公司 的",
+                "en": "Hello, I am with Shanghai General Lighting Equipment Company. I have made an appointment with Mr. Xu.",
+                "dict": {
+                  "你": "ni / you",
+                  "好": "hao / good; well; OK",
+                  "我": "wo / I; me",
+                  "跟": "gen / with",
+                  "经理": "jingli / manager",
+                  "了": "le / (particle: completed action / new situation)",
+                  "是": "shi / to be (am/is/are)",
+                  "上海": "shanghai / Shanghai",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s3",
+                "cn": "您稍等，我去通报一下。",
+                "split": "您 稍 等 我 去 通报 一下",
+                "en": "Please wait a minute. I'll go in and tell him.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "我": "wo / I; me",
+                  "去": "qu / to go"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s4",
+                "cn": "我是新联网络技术公司的销售员，这是我的名片。",
+                "split": "我 是 新联 网络 技术 公司 的 销售员 这 是 我 的 名片",
+                "en": "I am a salesman with Xinlian Internet Technology Company. This is my business card.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s5",
+                "cn": "我知道您的公司最近要开发一个新的楼盘，网络技术支持这一块儿能不能交给我们来做？",
+                "split": "我 知道 您 的 公司 最近 要 开发 一 个 新 的 楼盘 网络 技术 支持 这 一 块儿 能 不 能 交 给 我们 来 做",
+                "en": "I know that your company is going to develop a new building complex. Can you trust the Internet technology part to us?",
+                "dict": {
+                  "我": "wo / I; me",
+                  "知道": "zhidao / know",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "公司": "gongsi / company",
+                  "最近": "zuijin / recently",
+                  "要": "yao / want; need; will",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "来": "lai / to come",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s6",
+                "cn": "您看我们有没有合作的机会？",
+                "split": "您 看 我们 有 没有 合作 的 机会",
+                "en": "Is there any chance that we can cooperate?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "看": "kan / to look; to see; to visit",
+                  "我们": "women / we; us",
+                  "有": "you / to have",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s7",
+                "cn": "好久不见，黄工还是这么年轻，神采奕奕。",
+                "split": "好久 不 见 黄 工 还是 这么 年轻 神采奕奕",
+                "en": "Long time no see. Engineer Huang still looks this young and energetic.",
+                "dict": {
+                  "好久": "haojiu / a long time",
+                  "不": "bu / not",
+                  "还是": "haishi / or",
+                  "这么": "zheme / so"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s8",
+                "cn": "您看看上次那笔货款能不能尽快结了？",
+                "split": "您 看看 上 次 那 笔 货款 能 不 能 尽快 结 了",
+                "en": "Can you pay for the last order as soon as possible?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "看看": "kankan / to take a look",
+                  "上": "shang / to attend (a class)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s9",
+                "cn": "您对我们的工作有什么建议和意见吗？",
+                "split": "您 对 我们 的 工作 有 什么 建议 和 意见 吗",
+                "en": "Do you have any suggestions for our job?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "工作": "gongzuo / work",
+                  "有": "you / to have",
+                  "什么": "shenme / what",
+                  "建议": "jianyi / to suggest",
+                  "和": "he / and; with",
+                  "意见": "yijian / complaint",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s10",
+                "cn": "最近您这边市场反应怎么样？",
+                "split": "最近 您 这边 市场 反应 怎么样",
+                "en": "How has the market here reacted recently?",
+                "dict": {
+                  "最近": "zuijin / recently",
+                  "您": "nin / you (polite)",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s11",
+                "cn": "对不起，我明天要去日本开会，下周才能回来。你什么时候回郑州？",
+                "split": "对不起 我 明天 要 去 日本 开会 下 周 才 能 回来 你 什么 时候 回 郑州",
+                "en": "Sorry, I will leave for a conference in Japan tomorrow and get back next week. When will you return to Zhengzhou?",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "我": "wo / I; me",
+                  "明天": "mingtian / tomorrow",
+                  "要": "yao / want; need; will",
+                  "去": "qu / to go",
+                  "才": "cai / only then; just",
+                  "能": "neng / can; able to",
+                  "回来": "huilai / come back",
+                  "你": "ni / you",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "回": "hui / to return; to reply"
+                }
+              },
+              {
+                "id": "swcd-l6-t5-s12",
+                "cn": "从目前的市场反馈看，你们的产品价格有点儿偏高。",
+                "split": "从 目前 的 市场 反馈 看 你们 的 产品 价格 有点儿 偏 高",
+                "en": "Judging by current feedback from the market, your product price is a little high.",
+                "dict": {
+                  "从": "cong / from",
+                  "的": "de / (possessive/modifier particle)",
+                  "反馈": "fankui / feedback",
+                  "看": "kan / to look; to see; to visit",
+                  "你们": "nimen / you (plural)",
+                  "有点儿": "youdianr / a bit"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t6",
+            "label": "场景 6 账目报销",
+            "sentences": [
+              {
+                "id": "swcd-l6-t6-s1",
+                "cn": "出差期间，每天的生活补助是35，餐补30，住宿费150，市内交通补助40，城际交通费实报实销。",
+                "split": "出差 期间 每天 的 生活 补助 是 35 餐 补 30 住宿费 150 市内 交通 补助 40 城际 交通费 实报实销",
+                "en": "During the business trip, your daily allowance includes 35 yuan for living expenses, 30 for meals, 150 for accommodation, and 40 for intracity transportation, and the intercity transportation fee will be reimbursed upon actual cost.",
+                "dict": {
+                  "每天": "měitiān / every day",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "实报实销": "shíbàoshíxiāo / reimbursement upon actual cost"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s2",
+                "cn": "你的住宿费超标了，超标部分得自己负担。",
+                "split": "你 的 住宿费 超标 了 超标 部分 得 自己 负担",
+                "en": "Your accommodation fee is above the standard and you'll have to pay for the extra part by yourself.",
+                "dict": {
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "自己": "ziji / oneself"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s3",
+                "cn": "按公司规定，部门经理以上的级别才可以报销机票。",
+                "split": "按 公司 规定 部门 经理 以上 的 级别 才 可以 报销 机票",
+                "en": "According to the company rules, only department managers or above can enjoy flight reimbursement.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "经理": "jingli / manager",
+                  "的": "de / (possessive/modifier particle)",
+                  "级别": "jibie / level",
+                  "才": "cai / only then; just",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s4",
+                "cn": "当时因为是紧急情况，火车票买不到，所以买的机票，刘总同意了的。",
+                "split": "当时 因为 是 紧急 情况 火车票 买 不 到 所以 买 的 机票 刘 总 同意 了 的",
+                "en": "The situation was very urgent and train tickets were not available. So I bought this flight ticket. And I had Mr. Liu's approval.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "是": "shi / to be (am/is/are)",
+                  "不": "bu / not",
+                  "所以": "suoyi / therefore",
+                  "的": "de / (possessive/modifier particle)",
+                  "同意": "tongyi / to agree",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s5",
+                "cn": "那你补写一个申请，请刘总签字，好吗？",
+                "split": "那 你 补 写 一 个 申请 请 刘 总 签字 好 吗",
+                "en": "Well, you can fill out this application form and ask Mr. Liu to sign it for you. Is this OK?",
+                "dict": {
+                  "你": "ni / you",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "申请": "shenqing / to apply",
+                  "请": "qing / please; invite",
+                  "签字": "qianzi / to sign",
+                  "好": "hao / good; well; OK",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s6",
+                "cn": "你出差回来啦？别忘了去财务处报销冲账。",
+                "split": "你 出差 回来 啦 别 忘了 去 财务 处 报销 冲账",
+                "en": "Hey, you are back. Don't forget to go to the Finance Department and reimburse your expenses.",
+                "dict": {
+                  "你": "ni / you",
+                  "回来": "huilai / come back",
+                  "去": "qu / to go"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s7",
+                "cn": "你是去参加会议吗？要把会议通知附在报销单后面。",
+                "split": "你 是 去 参加 会议 吗 要 把 会议 通知 附 在 报销单 后面",
+                "en": "Did you go there for a conference? You need to attach the conference notice behind the reimbursement form.",
+                "dict": {
+                  "你": "ni / you",
+                  "是": "shi / to be (am/is/are)",
+                  "去": "qu / to go",
+                  "参加": "canjia / to participate",
+                  "吗": "ma / (question particle)",
+                  "要": "yao / want; need; will",
+                  "把": "ba / BA marker",
+                  "在": "zai / to be at; (at)",
+                  "报销单": "baoxiaodan / expense report",
+                  "后面": "houmian / behind"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s8",
+                "cn": "抱歉，我把火车票弄丢了。",
+                "split": "抱歉 我 把 火车票 弄丢 了",
+                "en": "Sorry, I lost my train ticket.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "把": "ba / BA marker",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s9",
+                "cn": "那你再补一张其他的金额一样的发票给我，然后写一个情况说明吧。",
+                "split": "那 你 再 补 一 张 其他 的 金额 一样 的 发票 给 我 然后 写 一 个 情况 说明 吧",
+                "en": "In that case, you can find some other invoice of the same amount and write an explanation.",
+                "dict": {
+                  "你": "ni / you",
+                  "再": "zai / again (future)",
+                  "一": "yi / one",
+                  "张": "zhang / Zhang (surname)",
+                  "的": "de / (possessive/modifier particle)",
+                  "发票": "fapiao / invoice",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "然后": "ranhou / then; afterwards",
+                  "个": "ge / (measure word)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l6-t6-s10",
+                "cn": "你预支了5000差旅费，实际开支3854.3，你要退现金还是从这个月工资里扣？",
+                "split": "你 预支了 5000 差旅费 实际 开支 3854.3 你 要 退 现金 还是 从 这个 月 工资 里 扣",
+                "en": "You were offered an advance of 5,000 yuan for reimbursement and only spent 3854.3 yuan. Do you want to refund the money in cash or want it to be deducted from this month's salary?",
+                "dict": {
+                  "你": "ni / you",
+                  "差旅费": "chailüfei / business trip expense",
+                  "要": "yao / want; need; will",
+                  "还是": "haishi / or",
+                  "从": "cong / from",
+                  "这个": "zhege / this one"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l6-t7",
+            "label": "场景 7 总结汇报",
+            "sentences": [
+              {
+                "id": "swcd-l6-t7-s1",
+                "cn": "我这个月15日到19日在江西南昌、九江、景德镇几个地方出差，这次主要完成了六项工作。",
+                "split": "我 这个 月 15 日 到 19 日 在 江西 南昌 九江 景德镇 几 个 地方 出差 这 次 主要 完成了 六 项 工作",
+                "en": "I went on a business trip this month from 15th to 19th in Nanchang, Jiujiang, and Jingdezhen in Jiangxi Province. And I have completed six tasks this time.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "这个": "zhege / this one",
+                  "在": "zai / to be at; (at)",
+                  "几": "ji / how many; several",
+                  "个": "ge / (measure word)",
+                  "地方": "difang / place",
+                  "工作": "gongzuo / work"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s2",
+                "cn": "我是4月1日到的长春，当天就走访了下个月要开业的两家分店。",
+                "split": "我 是 4 月 1 日 到 的 长春 当天 就 走访了 下 个 月 要 开业 的 两 家 分店",
+                "en": "I arrived in Changchun on April 1st and immediately visited the two branches to be open next month.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "就": "jiu / just; simply",
+                  "个": "ge / (measure word)",
+                  "要": "yao / want; need; will",
+                  "家": "jia / home; family"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s3",
+                "cn": "我和蓝光集团的刘总监就明年推进MBA培训一事沟通了一下，已经初步达成了合作意向。",
+                "split": "我 和 蓝光 集团 的 刘 总监 就 明年 推进 MBA 培训 一 事 沟通了 一下 已经 初步 达成了 合作 意向",
+                "en": "I have talked with Mr. Liu of Languang Group about the MBA training to be advanced next year. And we have roughly decided to establish business relations.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)",
+                  "就": "jiu / just; simply",
+                  "明年": "mingnian / next year",
+                  "一": "yi / one",
+                  "已经": "yijing / already"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s4",
+                "cn": "通过跟当地几家经销商的交流，我发现北方市场普遍存在几个问题。",
+                "split": "通过 跟 当地 几 家 经销商 的 交流 我 发现 北方 市场 普遍 存在 几 个 问题",
+                "en": "I have talked with some local franchisers and found a few common problems existing in the northern market.",
+                "dict": {
+                  "跟": "gen / with",
+                  "几": "ji / how many; several",
+                  "家": "jia / home; family",
+                  "的": "de / (possessive/modifier particle)",
+                  "我": "wo / I; me",
+                  "个": "ge / (measure word)",
+                  "问题": "wenti / problem"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s5",
+                "cn": "客户普遍反映当地的消费水平太低，我们的产品定价偏高，很难被市场接受。",
+                "split": "客户 普遍 反映 当地 的 消费 水平 太 低 我们 的 产品 定价 偏 高 很 难 被 市场 接受",
+                "en": "Most of our clients think compared with the low local consumption level, our product price is too high to be accepted.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "水平": "shuiping / level",
+                  "太": "tai / too; excessively",
+                  "我们": "women / we; us",
+                  "很": "hen / very",
+                  "被": "bei / passive marker",
+                  "接受": "jieshou / to accept"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s6",
+                "cn": "客户建议我们要在产品的异质化方面多做文章，不要跟在别人后面走老路。",
+                "split": "客户 建议 我们 要 在 产品 的 异质化 方面 多 做 文章 不要 跟 在 别人 后面 走 老路",
+                "en": "Our clients advise us to make our distinctive products and not to follow others' old path.",
+                "dict": {
+                  "建议": "jianyi / to suggest",
+                  "我们": "women / we; us",
+                  "要": "yao / want; need; will",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "做": "zuo / to do; to make",
+                  "跟": "gen / with",
+                  "后面": "houmian / behind"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s7",
+                "cn": "下一步，希望公司能协同处理，尽快解决交货速度过慢的问题，解除经销商的后顾之忧。",
+                "split": "下 一 步 希望 公司 能 协同 处理 尽快 解决 交货 速度 过 慢 的 问题 解除 经销商 的 后顾之忧",
+                "en": "Next, I hope the company can work together to solve the problem of slow delivery, and free the franchisers from worries.",
+                "dict": {
+                  "一": "yi / one",
+                  "希望": "xiwang / hope; wish",
+                  "公司": "gongsi / company",
+                  "能": "neng / can; able to",
+                  "处理": "chuli / to deal with",
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wenti / problem",
+                  "解除": "jiechu / to remove, to terminate"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s8",
+                "cn": "我这次出差基本达到了预期效果，跟客户签订了350万的订货合同。",
+                "split": "我 这 次 出差 基本 达到了 预期 效果 跟 客户 签订了 350 万 的 订货 合同",
+                "en": "Generally, I have completed my pre-set task during this business trip and have signed a purchase contract of 3.5 million yuan with the client.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "效果": "xiaoguo / effect, result",
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s9",
+                "cn": "这次我去山西回款率80%，其余20%客户承诺下个月到账。",
+                "split": "这 次 我 去 山西 回款率 80 其余 20 客户 承诺 下 个 月 到账",
+                "en": "I got back 80% of the payment owed to us during this trip to Shanxi. And the clients promise to pay off the rest 20% next month.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "去": "qu / to go",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l6-t7-s10",
+                "cn": "总的来说，内蒙市场现在的产品线单一、市场疲软、销售团队建设不良等一系列的问题都需要马上解决。",
+                "split": "总 的 来 说 内蒙 市场 现在 的 产品线 单一 市场 疲软 销售 团队 建设 不良 等 一系列 的 问题 都 需要 马上 解决",
+                "en": "Generally, the Inner Mongolia market faces many problems: a simplified product line, a sluggish market, unsuccessful sales team building, and so on. All of these have to be solved immediately.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "来": "lai / to come",
+                  "说": "shuo / to say; to speak",
+                  "现在": "xianzai / now",
+                  "销售": "xiaoshou / sales",
+                  "问题": "wenti / problem",
+                  "都": "dou / all; both",
+                  "需要": "xuyao / need"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson7",
+        "title": "Unit 7 Negotiation 谈判",
+        "titleEn": "Unit 7",
+        "texts": [
+          {
+            "id": "swcd-l7-t1",
+            "label": "场景 1 谈判准备",
+            "sentences": [
+              {
+                "id": "swcd-l7-t1-s1",
+                "cn": "这是我收集到的一些信息，这个档案袋里是关于对方公司的，下面这个是关于对方谈判小组成员的。",
+                "split": "这 是 我 收集 到 的 一些 信息 这个 档案 袋 里 是 关于 对方 公司 的 下面 这个 是 关于 对方 谈判 小组 成员 的",
+                "en": "Here is some information I've collected. This file is about their company; the one below it is about their negotiation group members.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "一些": "yixie / some; a few",
+                  "这个": "zhege / this one",
+                  "公司": "gongsi / company",
+                  "下面": "xiamian / under"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s2",
+                "cn": "这是这次谈判小组的人选，从里面挑出四个来，再请一位翻译，一位商法方面的律师。",
+                "split": "这 是 这 次 谈判 小组 的 人选 从 里面 挑 出 四 个 来 再 请 一 位 翻译 一 位 商法 方面 的 律师",
+                "en": "This is a list of candidates for the negotiation. Choose four of them and then go find a translator as well as a lawyer specializing in the Commercial Law.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "从": "cong / from",
+                  "个": "ge / (measure word)",
+                  "来": "lai / to come",
+                  "再": "zai / again (future)",
+                  "请": "qing / please; invite",
+                  "一": "yi / one",
+                  "翻译": "fanyi / interpreter, translator",
+                  "律师": "lüshi / lawyer"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s3",
+                "cn": "谈判方案定好了吗？还得准备一套备选方案。",
+                "split": "谈判 方案 定好 了 吗 还 得 准备 一 套 备选 方案",
+                "en": "Is the negotiation plan settled? We also need an alternative plan.",
+                "dict": {
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)",
+                  "还": "hai / still; also",
+                  "准备": "zhunbei / prepare",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s4",
+                "cn": "你认为对方可能会提出哪些要求？咱们在多大程度上能满足他们的要求？",
+                "split": "你 认为 对方 可能 会 提出 哪些 要求 咱们 在 多 大 程度 上 能 满足 他们 的 要求",
+                "en": "What requirements do you think they will make? To what extent can we satisfy their requirements?",
+                "dict": {
+                  "你": "ni / you",
+                  "可能": "keneng / possible; maybe",
+                  "会": "hui / can; will",
+                  "咱们": "zanmen / we (inclusive)",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)",
+                  "能": "neng / can; able to",
+                  "他们": "tamen / they",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s5",
+                "cn": "咱们先报2900，底线是2300。",
+                "split": "咱们 先 报 2900 底线 是 2300",
+                "en": "We can offer 2,900 first. But the bottom line is 2,300.",
+                "dict": {
+                  "咱们": "zanmen / we (inclusive)",
+                  "先": "xian / first",
+                  "报": "bao / to report; to register",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s6",
+                "cn": "谈判的第一阶段先解决交货条件和运输方式的问题，第二阶段讨论产品规格和质量标准，交易额、价格和支付方式到最后再定。",
+                "split": "谈判 的 第一 阶段 先 解决 交 货 条件 和 运输 方式 的 问题 第二 阶段 讨论 产品 规格 和 质量 标准 交易额 价格 和 支付 方式 到 最后 再 定",
+                "en": "In the negotiation, the first stage is to set up ground rules for delivery terms and means of transportation. The second is to discuss the parameters and quality standards of the product. The sum, price and method of payment will be decided in the end.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "先": "xian / first",
+                  "和": "he / and; with",
+                  "问题": "wenti / problem",
+                  "规格": "guige / specification",
+                  "标准": "biaozhun / standard",
+                  "最后": "zuihou / finally; last",
+                  "再": "zai / again (future)"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s7",
+                "cn": "我们什么时候预演一下谈判方案？",
+                "split": "我们 什么 时候 预演 一 下 谈判 方案",
+                "en": "When shall we run through the negotiation plan by ourselves?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s8",
+                "cn": "谈判地点要么选在咱们公司，要么选在第三方，去他们公司不行。",
+                "split": "谈判 地点 要么 选 在 咱们 公司 要么 选 在 第三 方 去 他们 公司 不行",
+                "en": "We have to hold the negotiation either at our company or in a third-party place. It cannot take place at their company.",
+                "dict": {
+                  "地点": "didian / place of a meeting",
+                  "在": "zai / to be at; (at)",
+                  "咱们": "zanmen / we (inclusive)",
+                  "公司": "gongsi / company",
+                  "去": "qu / to go",
+                  "他们": "tamen / they"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s9",
+                "cn": "我们在上一轮谈判当中明显占优势，所以我建议我们的态度应该再强硬一些。",
+                "split": "我们 在 上 一 轮 谈判 当中 明显 占 优势 所以 我 建议 我们 的 态度 应该 再 强硬 一些",
+                "en": "We've obviously gained the upper hand in the last round of negotiation, so I suggest we take a tougher stance.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)",
+                  "一": "yi / one",
+                  "优势": "youshi / advantage",
+                  "所以": "suoyi / therefore",
+                  "我": "wo / I; me",
+                  "建议": "jianyi / to suggest",
+                  "的": "de / (possessive/modifier particle)",
+                  "应该": "yinggai / should",
+                  "再": "zai / again (future)",
+                  "一些": "yixie / some; a few"
+                }
+              },
+              {
+                "id": "swcd-l7-t1-s10",
+                "cn": "明天的谈判你们俩唱红脸，我们俩唱白脸。",
+                "split": "明天 的 谈判 你们 俩 唱 红脸 我们 俩 唱 白脸",
+                "en": "Tomorrow, you two play the good cops in the negotiation, and we two play the bad cops.",
+                "dict": {
+                  "明天": "mingtian / tomorrow",
+                  "的": "de / (possessive/modifier particle)",
+                  "你们": "nimen / you (plural)",
+                  "我们": "women / we; us"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t2",
+            "label": "场景 2 询价报价",
+            "sentences": [
+              {
+                "id": "swcd-l7-t2-s1",
+                "cn": "您能不能给我发一份产品目录和详细的报价单？",
+                "split": "您 能 不 能 给 我 发 一 份 产品 目录 和 详细 的 报价单",
+                "en": "Can you give me a product catalogue and a detailed quotation?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me",
+                  "一": "yi / one",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s2",
+                "cn": "产品目录已经收到，我们对测温仪很感兴趣，请报一下CIF雅加达最低价。",
+                "split": "产品 目录 已经 收到 我们 对 测温仪 很 感 兴趣 请 报 一下 CIF 雅加达 最 低 价",
+                "en": "We have received the product catalogue and we are interested in your thermometers. Please quote your rock-bottom CIF Jakarta price.",
+                "dict": {
+                  "已经": "yijing / already",
+                  "我们": "women / we; us",
+                  "对": "dui / to; towards; correct",
+                  "很": "hen / very",
+                  "请": "qing / please; invite",
+                  "报": "bao / to report; to register",
+                  "最": "zui / most"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s3",
+                "cn": "所有价格都是离岸价，含贵方的3%佣金。",
+                "split": "所有 价格 都 是 离岸价 含 贵方 的 3 佣金",
+                "en": "All of the prices are FOB and contain 3% of your commission.",
+                "dict": {
+                  "都": "dou / all; both",
+                  "是": "shi / to be (am/is/are)",
+                  "离岸价": "li'anjia / FOB price",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s4",
+                "cn": "您什么时候能给我们最后确认的到岸价？",
+                "split": "您 什么 时候 能 给 我们 最后 确认 的 到岸价",
+                "en": "When can you give us your final confirmation on the CIF?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "能": "neng / can; able to",
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "最后": "zuihou / finally; last",
+                  "的": "de / (possessive/modifier particle)",
+                  "到岸价": "dao'anjia / CIF price"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s5",
+                "cn": "你们报的是船上交货价，能不能报一下到岸价？",
+                "split": "你们 报 的 是 船 上 交货价 能 不 能 报 一下 到岸价",
+                "en": "Your quote is FOB. Can you tell us the CIF?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "报": "bao / to report; to register",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "上": "shang / to attend (a class)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "到岸价": "dao'anjia / CIF price"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s6",
+                "cn": "请报一下成本加运费、保险费到华盛顿的最低价格，其中包括我方百分之五的佣金。",
+                "split": "请 报 一下 成本 加 运费 保险费 到 华盛顿 的 最 低 价格 其中 包括 我方 百 分 之 五 的 佣金",
+                "en": "Please offer the minimum quote, CIF Washington, including 5% for our commission.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "报": "bao / to report; to register",
+                  "运费": "yunfei / freight",
+                  "保险费": "baoxianfei / insurance",
+                  "的": "de / (possessive/modifier particle)",
+                  "最": "zui / most"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s7",
+                "cn": "您询价的产品目前没有现货，现在正在加紧生产，您能不能留下联系方式？到货以后我好通知您。",
+                "split": "您 询价 的 产品 目前 没有 现货 现在 正在 加 紧 生产 您 能 不 能 留下 联系 方式 到 货 以后 我 好 通知 您",
+                "en": "Sorry, the product you are querying is out of stock and the production is being expedited. Can you give me your contact information so that I can inform you the minute the cargo arrives?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "没有": "meiyou / not have; haven't",
+                  "现在": "xianzai / now",
+                  "正在": "zhengzai / in the process of",
+                  "生产": "shengchan / production",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "以后": "yihou / after",
+                  "我": "wo / I; me",
+                  "好": "hao / good; well; OK"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s8",
+                "cn": "如果要改变包装的话，单价就上去了。",
+                "split": "如果 要 改变 包装 的话 单价 就 上去 了",
+                "en": "If we were to change the wrappings, the price would increase accordingly.",
+                "dict": {
+                  "要": "yao / want; need; will",
+                  "单价": "danjia / unit price",
+                  "就": "jiu / just; simply",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s9",
+                "cn": "我们的报价三天之内有效。",
+                "split": "我们 的 报价 三 天 之 内 有效",
+                "en": "Our quote is valid within three days.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t2-s10",
+                "cn": "佣金的问题要看您的订货数量了。如果订货量太小，我们没有办法付佣金。",
+                "split": "佣金 的 问题 要 看 您 的 订货 数量 了 如果 订货量 太小 我们 没有 办法 付 佣金",
+                "en": "The commission depends on your amount of cargo. If the amount is too small, we may not be able to pay your commission.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wèntí / problem",
+                  "要": "yào / want; need; will",
+                  "看": "kàn / to look; to see; to visit",
+                  "您": "nín / you (polite)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "wǒmen / we; us",
+                  "没有": "méiyǒu / not have; haven't"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t3",
+            "label": "场景 3 讨价还价",
+            "sentences": [
+              {
+                "id": "swcd-l7-t3-s1",
+                "cn": "很遗憾，您的报价太高了，我们真的不能接受，能不能优惠一点儿？",
+                "split": "很 遗憾 您 的 报价 太 高 了 我们 真的 不 能 接受 能 不 能 优惠 一点儿",
+                "en": "Sorry that we cannot accept your high price offer. Can you offer a lower one?",
+                "dict": {
+                  "很": "hen / very",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "接受": "jieshou / to accept",
+                  "优惠": "youhui / discount",
+                  "一点儿": "yidianr / a little bit"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s2",
+                "cn": "如果质量好，价格也合理，我们可以考虑长期合作。",
+                "split": "如果 质量 好 价格 也 合理 我们 可以 考虑 长期 合作",
+                "en": "If the quality is fine and the price is reasonable, then we can consider long-time cooperation.",
+                "dict": {
+                  "好": "hao / good; well; OK",
+                  "也": "ye / also; too",
+                  "我们": "women / we; us",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s3",
+                "cn": "如果以这个价格买进，我们这笔生意只能赔本。",
+                "split": "如果 以 这个 价格 买进 我们 这 笔 生意 只 能 赔本",
+                "en": "If we buy at this price, we are sure to suffer losses.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "我们": "women / we; us",
+                  "只": "zhi / only",
+                  "能": "neng / can; able to"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s4",
+                "cn": "您需要多少？如果量大的话，可以优惠。",
+                "split": "您 需要 多少 如果 量 大 的话 可以 优惠",
+                "en": "How much do you want? If the amount is large, we can give you a discount.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "需要": "xuyao / need",
+                  "多少": "duoshao / how much",
+                  "可以": "keyi / can; may; OK",
+                  "优惠": "youhui / discount"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s5",
+                "cn": "我们并不是漫天要价，您可以跟其他厂家的价格比较一下，我们的利润空间已经很小了。",
+                "split": "我们 并 不 是 漫天 要价 您 可以 跟 其他 厂家 的 价格 比较 一下 我们 的 利润 空间 已经 很 小 了",
+                "en": "Our price is not so high. You can compare it with that of other factories, and you'll see we don't make much profit.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "是": "shi / to be (am/is/are)",
+                  "您": "nin / you (polite)",
+                  "可以": "keyi / can; may; OK",
+                  "跟": "gen / with",
+                  "的": "de / (possessive/modifier particle)",
+                  "比较": "bijiao / relatively",
+                  "已经": "yijing / already",
+                  "很": "hen / very",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s6",
+                "cn": "除非你们再降5%，要不然我们真的没办法合作。",
+                "split": "除非 你们 再 降 5 要不然 我们 真的 没 办法 合作",
+                "en": "Unless the price is cut by another 5%, we cannot continue the cooperation.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "再": "zai / again (future)",
+                  "我们": "women / we; us",
+                  "没": "mei / not (past)"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s7",
+                "cn": "这样吧，我们退一步，减3美元。",
+                "split": "这样 吧 我们 退 一 步 减 3 美元",
+                "en": "How about we make a concession and cut the price by three US dollars?",
+                "dict": {
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "我们": "women / we; us",
+                  "一": "yi / one",
+                  "美元": "meiyuan / US dollar"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s8",
+                "cn": "这段时间原材料价格暴涨，我们的成本已经增加了13%，而报价只比以前高了8%。",
+                "split": "这 段 时间 原材料 价格 暴涨 我们 的 成本 已经 增加了 13 而 报价 只 比 以前 高了 8",
+                "en": "The price of raw materials has been surging recently and our cost has increased by 13%. But the quote has only increased by 8%.",
+                "dict": {
+                  "时间": "shijian / time",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "已经": "yijing / already",
+                  "只": "zhi / only",
+                  "比": "bi / than; to compare",
+                  "以前": "yiqian / before"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s9",
+                "cn": "我们的报价相对于一些小厂商是高一些，但是价格只是一个方面，您还得考虑质量、售后服务这些方面，我们的产品质量通过了ISO9000认证。",
+                "split": "我们 的 报价 相对 于 一些 小 厂商 是 高 一些 但是 价格 只是 一 个 方面 您 还 得 考虑 质量 售后 服务 这些 方面 我们 的 产品 质量 通过了 ISO 9000 认证",
+                "en": "Compared to that of some small factories, our price is a little high. But besides the price, you also have to take quality and after-sales service into consideration. Our product has passed the ISO9000 audit.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "一些": "yixie / some; a few",
+                  "是": "shi / to be (am/is/are)",
+                  "但是": "danshi / but; however",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "您": "nin / you (polite)",
+                  "还": "hai / still; also",
+                  "这些": "zhexie / these"
+                }
+              },
+              {
+                "id": "swcd-l7-t3-s10",
+                "cn": "抱歉，这已经是我们能给的最低价了，不能再低了。",
+                "split": "抱歉 这 已经 是 我们 能 给 的 最 低 价 了 不 能 再 低 了",
+                "en": "Sorry, this price is our bottom line.",
+                "dict": {
+                  "已经": "yijing / already",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "能": "neng / can; able to",
+                  "给": "gei / give; for",
+                  "的": "de / (possessive/modifier particle)",
+                  "最": "zui / most",
+                  "了": "le / (particle: completed action / new situation)",
+                  "不": "bu / not",
+                  "再": "zai / again (future)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t4",
+            "label": "场景 4 质量数量",
+            "sentences": [
+              {
+                "id": "swcd-l7-t4-s1",
+                "cn": "产品质量以卖方6月11日提供的样品为准，保证货到时的质量同样品完全一致。",
+                "split": "产品 质量 以 卖方 6 月 11 日 提供 的 样品 为 准 保证 货 到 时 的 质量 同 样品 完全 一致",
+                "en": "The cargo quality shall be in line with the sample provided by the seller on June 11th. We promise the quality of the cargo received will be exactly the same as that of the sample.",
+                "dict": {
+                  "卖方": "maifang / seller",
+                  "的": "de / (possessive/modifier particle)",
+                  "样品": "yangpin / sample",
+                  "为": "wei / for"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s2",
+                "cn": "产品质量以买方样品为准。",
+                "split": "产品 质量 以 买方 样品 为 准",
+                "en": "The cargo quality shall be in line with the sample.",
+                "dict": {
+                  "买方": "maifang / buyer",
+                  "样品": "yangpin / sample",
+                  "为": "wei / for"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s3",
+                "cn": "产品以装运时的检验质量为准。",
+                "split": "产品 以 装运 时 的 检验 质量 为 准",
+                "en": "The cargo quality shall be in line with the quality inspected at the time of shipment.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "为": "wei / for"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s4",
+                "cn": "大米含水率最高15%，杂质最高1%，碎粒最高30%。",
+                "split": "大米 含 水率 最 高 15 杂质 最 高 1 碎粒 最 高 30",
+                "en": "The moisture content of rice cannot exceed 15%, the rate of impurities cannot exceed 1%, and the rate of broken grains cannot exceed 30%.",
+                "dict": {
+                  "最": "zui / most"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s5",
+                "cn": "福龙安溪铁观音规格：礼品包装，等级：特级。",
+                "split": "福龙 安溪 铁观音 规格 礼品 包装 等级 特级",
+                "en": "Tieguanyin Tea of Fulong Anxi Specifications: Gift packaging; Grade: Special Grade",
+                "dict": {
+                  "规格": "guige / specification",
+                  "礼品": "lipin / gift",
+                  "等级": "dengji / grade"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s6",
+                "cn": "产品品质要达到《日本工业标准（JIS）》的规定。",
+                "split": "产品 品质 要 达到 日本 工业 标准 JIS 的 规定",
+                "en": "The quality has to reach the Japan Industrial Standards (JIS).",
+                "dict": {
+                  "要": "yao / want; need; will",
+                  "标准": "biaozhun / standard",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s7",
+                "cn": "所交货物必须符合产品说明书规定的各项指标。",
+                "split": "所 交 货物 必须 符合 产品 说明书 规定 的 各 项 指标",
+                "en": "The cargo delivered must conform to the specifications in the product manual.",
+                "dict": {
+                  "说明书": "shuomingshu / product manual",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s8",
+                "cn": "卖方要按本商标产品通常的品质交货。",
+                "split": "卖方 要 按 本 商标 产品 通常 的 品质 交 货",
+                "en": "The seller must provide products in line with the normal product quality of this brand.",
+                "dict": {
+                  "卖方": "maifang / seller",
+                  "要": "yao / want; need; will",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s9",
+                "cn": "卖方应该提供浙江金华火腿。",
+                "split": "卖方 应该 提供 浙江 金华 火腿",
+                "en": "The seller should provide the Zhejiang Jinhua ham.",
+                "dict": {
+                  "卖方": "maifang / seller",
+                  "应该": "yinggai / should"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s10",
+                "cn": "红豆每袋净重100公斤，共1000袋，合计100公吨。",
+                "split": "红豆 每 袋 净重 100 公斤 共 1000 袋 合计 100 公吨",
+                "en": "Each bag of the red beans weighs 100 kilograms. One thousand bags weigh 100 metric tons.",
+                "dict": {
+                  "净重": "jingzhong / net weight",
+                  "合计": "heji / total"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s11",
+                "cn": "食糖净重200公吨，卖方可以溢装或短装5%。",
+                "split": "食糖 净重 200 公吨 卖方 可以 溢装 或 短装 5",
+                "en": "The net weight of sugar is 200 metric tons. We allow a 5% excess or deficiency.",
+                "dict": {
+                  "净重": "jingzhong / net weight",
+                  "卖方": "maifang / seller",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l7-t4-s12",
+                "cn": "中国盘锦产大米1000公吨，麻袋装，以毛作净，5%溢短装，按合同价格计算。",
+                "split": "中国 盘锦 产 大米 1000 公吨 麻袋 装 以 毛 作 净 5 溢短装 按 合同 价格 计算",
+                "en": "This is 1,000 metric tons of rice produced in Panjin, China, packed in sacks, gross for net. A 5% excess or deficiency is allowed, and the price is calculated in accordance with the contract.",
+                "dict": {
+                  "中国": "zhongguo / Chinese"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t5",
+            "label": "场景 5 合作方式",
+            "sentences": [
+              {
+                "id": "swcd-l7-t5-s1",
+                "cn": "咱们一起开个公司吧！共同出资，把蛋糕做大。",
+                "split": "咱们 一起 开 个 公司 吧 共同 出资 把 蛋糕 做大",
+                "en": "How about we join hands and open a company? We will split the investment and make a big pie.",
+                "dict": {
+                  "咱们": "zanmen / we (inclusive)",
+                  "一起": "yiqi / together",
+                  "个": "ge / (measure word)",
+                  "公司": "gongsi / company",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "把": "ba / BA marker"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s2",
+                "cn": "这家企业铺的摊子太大，资金周转出了问题，所以支撑不下去了，其实它经营的领域还是个朝阳产业，我在考虑把它买下来。",
+                "split": "这家 企业 铺 的 摊子 太 大 资金周转 出 了 问题 所以 支撑 不 下去 了 其实 它 经营 的 领域 还是 个 朝阳产业 我 在 考虑 把它买 下来",
+                "en": "This enterprise operates in too large a scale and now faces bankruptcy because of some capital turnover problems. But the business it is doing is a sunrise industry, so I am considering buying it.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "太": "tài / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "问题": "wèntí / problem",
+                  "所以": "suǒyǐ / therefore",
+                  "不": "bù / not",
+                  "其实": "qíshí / actually; in fact",
+                  "还是": "háishì / or",
+                  "个": "gè / (measure word)",
+                  "我": "wǒ / I; me",
+                  "在": "zài / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s3",
+                "cn": "你们厂的技术和生产能力符合我们的要求，我们想以贴牌生产的方式跟你们合作。",
+                "split": "你们 厂 的 技术 和 生产 能力 符合 我们 的 要求 我们 想 以 贴牌 生产 的 方式 跟 你们 合作",
+                "en": "Your technology and productivity meet our standards and we want to cooperate with you as the original equipment manufacturer (OEM).",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "和": "he / and; with",
+                  "生产": "shengchan / production",
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "跟": "gen / with"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s4",
+                "cn": "我们以商标入股，共同参与企业的经营管理。",
+                "split": "我们 以 商标 入 股 共同 参与 企业 的 经营 管理",
+                "en": "We want to invest in the company with our trademark and join with you in the operation and management of the company.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s5",
+                "cn": "我们打算把你们在公司的股份买下来。",
+                "split": "我们 打算 把 你们 在 公司 的 股份 买 下来",
+                "en": "We are planning to buy your shares in the company.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "打算": "dasuan / to plan",
+                  "把": "ba / BA marker",
+                  "你们": "nimen / you (plural)",
+                  "在": "zai / to be at; (at)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s6",
+                "cn": "我们一起合作开发这种技术，怎么样？",
+                "split": "我们 一起 合作 开发 这 种 技术 怎么样",
+                "en": "How about we develop this technology together?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "一起": "yiqi / together",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s7",
+                "cn": "我们想代理贵公司的产品。",
+                "split": "我们 想 代理 贵 公司 的 产品",
+                "en": "We would like to act for the products of your company.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t5-s8",
+                "cn": "这个项目咱们一起来做，有钱大家一起赚嘛！",
+                "split": "这个 项目 咱们 一起 来 做 有 钱 大家 一起 赚 嘛",
+                "en": "Let's do this project together and share the profits.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "咱们": "zanmen / we (inclusive)",
+                  "一起": "yiqi / together",
+                  "来": "lai / to come",
+                  "做": "zuo / to do; to make",
+                  "有": "you / to have",
+                  "大家": "dajia / everyone"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t6",
+            "label": "场景 6 合同条款",
+            "sentences": [
+              {
+                "id": "swcd-l7-t6-s1",
+                "cn": "双方同意按下列条款由买方购进卖方售出的下列商品。",
+                "split": "双方 同意 按 下列 条款 由 买方 购进 卖方 售出 的 下列 商品",
+                "en": "Both parties agree to the following terms for the buyer to purchase and the seller to sell the commodity mentioned below.",
+                "dict": {
+                  "同意": "tongyi / to agree",
+                  "条款": "tiaokuan / terms",
+                  "买方": "maifang / buyer",
+                  "卖方": "maifang / seller",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s2",
+                "cn": "信用证必须在45天前开到卖方，信用证的有效期应为装船期后15天。",
+                "split": "信用证 必须 在 45 天 前 开到 卖方 信用证 的 有效期 应 为 装船期 后 15 天",
+                "en": "The letter of credit must be delivered 45 days beforehand, and the letter shall be valid within 15 days after shipment.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "卖方": "maifang / seller",
+                  "的": "de / (possessive/modifier particle)",
+                  "有效期": "youxiaoqi / period of validity",
+                  "为": "wei / for"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s3",
+                "cn": "品质异议必须在货到目的港之日起30天内提出。",
+                "split": "品质 异议 必须 在 货 到 目的港 之 日 起 30 天 内 提出",
+                "en": "Quality discrepancy, if there is any, must be raised within 30 days after arrival at destination.",
+                "dict": {
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s4",
+                "cn": "数量异议必须在货到目的港之日起15天内提出。",
+                "split": "数量 异议 必须 在 货 到 目的港 之 日 起 15 天 内 提出",
+                "en": "Quantity discrepancy, if there is any, must be raised within 15 days after arrival at destination.",
+                "dict": {
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s5",
+                "cn": "信用证内容必须严格符合本合同的规定，否则修改信用证的费用由买方负担。",
+                "split": "信用证 内容 必须 严格 符合 本 合同 的 规定 否则 修改 信用证 的 费用 由 买方 负担",
+                "en": "The content of the letter of credit must be in strict conformity with the provisions of this contract, otherwise the amendment cost shall be paid by the buyer.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "修改": "xiugai / to amend",
+                  "费用": "feiyong / cost",
+                  "买方": "maifang / buyer"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s6",
+                "cn": "以产地证明书或中国有关机构所签发的品质检验证件为品质的交货依据。",
+                "split": "以 产地 证明书 或 中国 有关 机构 所 签发 的 品质 检验证 件为 品质 的 交 货 依据",
+                "en": "The certificate of origin or quality certificate issued by Chinese authorities shall be taken as evidence for the quality of the cargo delivered.",
+                "dict": {
+                  "产地": "chandi / place of origin",
+                  "中国": "zhongguo / Chinese",
+                  "签发": "qianfa / to sign and issue",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s7",
+                "cn": "因为不可抗力使卖方不能在本合同规定的期限内交货或不能交货，卖方不负责任，但是卖方必须立即以传真通知买方。",
+                "split": "因为 不可抗力 使 卖方 不 能 在 本 合同 规定 的 期限 内 交 货 或 不 能 交 货 卖方 不 负 责任 但是 卖方 必须 立即 以 传真 通知 买方",
+                "en": "The seller shall not be held responsible for the delay in shipment or non-delivery of the goods due to force majeure. The seller shall inform the buyer immediately of the occurrence mentioned above by fax.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "不可抗力": "bukekangli / force majeure",
+                  "使": "shi / make; cause",
+                  "卖方": "maifang / seller",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "责任": "zeren / responsibility",
+                  "但是": "danshi / but; however",
+                  "传真": "chuanzhen / fax",
+                  "买方": "maifang / buyer"
+                }
+              },
+              {
+                "id": "swcd-l7-t6-s8",
+                "cn": "因为执行本合同或有关本合同所发生的一切争执，双方应以友好方式协商解决。",
+                "split": "因为 执行 本 合同 或 有关 本 合同 所 发生 的 一切 争执 双方 应 以 友好 方式 协商 解决",
+                "en": "All disputes related to the execution of this contract shall be settled friendly by and between both parties through negotiation.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l7-t7",
+            "label": "场景 7 合同协商",
+            "sentences": [
+              {
+                "id": "swcd-l7-t7-s1",
+                "cn": "我们仔细审阅了一下合同草案，合同里有几条我们想再议一议。",
+                "split": "我们 仔细 审阅 了 一下 合同 草案 合同 里 有 几条 我们 想 再议 一 议",
+                "en": "We have carefully reviewed the contract draft and decide to have a discussion about some clauses.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "了": "le / (particle: completed action / new situation)",
+                  "草案": "cǎoàn / draft",
+                  "有": "yǒu / to have",
+                  "想": "xiǎng / want; think",
+                  "一": "yī / one"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s2",
+                "cn": "在正式签合同以前，有几个细节问题我们最好再过一下。",
+                "split": "在 正式 签 合同 以前 有 几 个 细节 问题 我们 最好 再 过 一下",
+                "en": "Before signing the formal contract, there are a few details we'd better go through again.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "以前": "yiqian / before",
+                  "有": "you / to have",
+                  "几": "ji / how many; several",
+                  "个": "ge / (measure word)",
+                  "问题": "wenti / problem",
+                  "我们": "women / we; us",
+                  "再": "zai / again (future)"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s3",
+                "cn": "我们希望在合同里加上一条。",
+                "split": "我们 希望 在 合同 里 加上 一 条",
+                "en": "We'd like to add one clause in the contract.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "希望": "xiwang / hope; wish",
+                  "在": "zai / to be at; (at)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s4",
+                "cn": "关于合同，您还有什么疑问或异议吗？",
+                "split": "关 于 合同 您 还 有 什么 疑问 或 异议 吗",
+                "en": "With regard to the contract, do you have any questions or objections?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "什么": "shenme / what",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s5",
+                "cn": "首先，关于包装，我们认为纸箱包装不合适。",
+                "split": "首先 关于 包装 我们 认为 纸箱 包装 不 合适",
+                "en": "First of all, we think it's inappropriate to use carton packaging.",
+                "dict": {
+                  "首先": "shouxian / first; first of all",
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "合适": "heshi / fitting, suitable"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s6",
+                "cn": "我们恐怕不能接受承兑交单付款，我们希望以信用证付款，这也是我们的惯例。",
+                "split": "我们 恐怕 不 能 接受 承兑 交单 付款 我们 希望 以 信用证 付款 这 也 是 我们 的 惯例",
+                "en": "I'm afraid we cannot accept payment by documents against acceptance. We hope to pay by letter of credit, which is our common practice.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "接受": "jieshou / to accept",
+                  "希望": "xiwang / hope; wish",
+                  "也": "ye / also; too",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s7",
+                "cn": "合同规定仲裁在美国进行，我们希望仲裁地点在第三国。",
+                "split": "合同 规定 仲裁 在 美国 进行 我们 希望 仲裁 地点 在 第三 国",
+                "en": "The contract says arbitration will take place in the United States. But we want it to take place in a third country.",
+                "dict": {
+                  "仲裁": "zhongcai / arbitration",
+                  "在": "zai / to be at; (at)",
+                  "美国": "meiguo / America",
+                  "我们": "women / we; us",
+                  "希望": "xiwang / hope; wish",
+                  "地点": "didian / place of a meeting"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s8",
+                "cn": "包装的问题我们同意按照你们说的，采用木箱包装。",
+                "split": "包装 的 问题 我们 同意 按照 你们 说 的 采用 木箱 包装",
+                "en": "With regard to packaging, we agree to what you have said and will use wooden packaging.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "问题": "wenti / problem",
+                  "我们": "women / we; us",
+                  "同意": "tongyi / to agree",
+                  "你们": "nimen / you (plural)",
+                  "说": "shuo / to say; to speak"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s9",
+                "cn": "至于仲裁，我们的合同一般都是这么约定的。实际上，以前我们也出现过一些争议，但最后都是以友好的方式解决的，很少走到仲裁这一步。",
+                "split": "至于 仲裁 我们 的 合同 一般 都 是 这么 约定 的 实际上 以前 我们 也 出现过 一些 争议 但 最后 都 是 以 友好 的 方式 解决 的 很 少 走到 仲裁 这 一 步",
+                "en": "As for arbitration, it has generally been stated this way in our contract. In fact, we have encountered some controversies before, but have always solved them in a friendly manner, and have rarely come to arbitration.",
+                "dict": {
+                  "仲裁": "zhongcai / arbitration",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dou / all; both",
+                  "是": "shi / to be (am/is/are)",
+                  "这么": "zheme / so",
+                  "以前": "yiqian / before",
+                  "也": "ye / also; too",
+                  "一些": "yixie / some; a few",
+                  "争议": "zhengyi / dispute",
+                  "最后": "zuihou / finally; last",
+                  "很": "hen / very",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s10",
+                "cn": "我们的意见就是这样，别的没有了。",
+                "split": "我们 的 意见 就是 这样 别 的 没有 了",
+                "en": "This is all we want. Nothing else.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "意见": "yijian / complaint",
+                  "没有": "meiyou / not have; haven't",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s11",
+                "cn": "那我们什么时候签合同？",
+                "split": "那 我们 什么 时候 签 合同",
+                "en": "Then when shall we sign the contract?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment"
+                }
+              },
+              {
+                "id": "swcd-l7-t7-s12",
+                "cn": "这两天我们把合同按照刚才咱们协商的结果修改一下，后天正式签署，怎么样？",
+                "split": "这 两 天 我们 把 合同 按照 刚才 咱们 协商 的 结果 修改 一下 后天 正式 签署 怎么样",
+                "en": "How about we make some final amendments these two days according to what we've just agreed on and sign the official contract the day after tomorrow?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "把": "ba / BA marker",
+                  "刚才": "gangcai / just now",
+                  "咱们": "zanmen / we (inclusive)",
+                  "的": "de / (possessive/modifier particle)",
+                  "结果": "jieguo / result",
+                  "修改": "xiugai / to amend",
+                  "怎么样": "zenmeyang / how about"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson8",
+        "title": "Unit 8 Dispute 纠纷",
+        "titleEn": "Unit 8",
+        "texts": [
+          {
+            "id": "swcd-l8-t1",
+            "label": "场景 1 客户投诉",
+            "sentences": [
+              {
+                "id": "swcd-l8-t1-s1",
+                "cn": "你们的产品质量不达标，跟合同约定不符。",
+                "split": "你们 的 产品 质量 不 达标 跟 合同 约定 不符",
+                "en": "Your product quality doesn't meet the standards, and it's a violation of the contract.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "跟": "gen / with"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s2",
+                "cn": "交货期是10月30号，现在已经11月8号了，还没收到你们的货。",
+                "split": "交货期 是 10 月 30 号 现在 已经 11 月 8 号 了 还 没 收到 你们 的 货",
+                "en": "The delivery date is October 30th. But today is November 8th, and we still haven't received your goods.",
+                "dict": {
+                  "交货期": "jiaohuoqi / time of delivery",
+                  "是": "shi / to be (am/is/are)",
+                  "现在": "xianzai / now",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "还": "hai / still; also",
+                  "没": "mei / not (past)",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s3",
+                "cn": "我们订的是DS-1110，你们发的却是DS-1210，现在客户急着要货呢。",
+                "split": "我们 订 的 是 DS 1110 你们 发 的 却 是 DS 1210 现在 客户 急 着要 货 呢",
+                "en": "We ordered DS-1110, but you sent us DS-1210. The customers are anxiously waiting for the goods.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "你们": "nimen / you (plural)",
+                  "现在": "xianzai / now"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s4",
+                "cn": "在检验货品的时候，我们发现将近20%的包装破了。",
+                "split": "在 检验 货品 的 时候 我们 发现 将近 20 的 包装 破 了",
+                "en": "When examining the goods, we found nearly 20% of the packages were broken.",
+                "dict": {
+                  "在": "zài / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shíhòu / time; moment",
+                  "我们": "wǒmen / we; us",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s5",
+                "cn": "合同规定收货10天之内付款，现在已经超过20天了，我们还没有收到你们的货款。",
+                "split": "合同 规定 收 货 10 天 之 内 付 款 现在 已经 超过 20 天 了 我们 还 没有 收到 你们 的 货款",
+                "en": "The contract says payment shall be effected by the Buyer within 10 days after receipt from the Seller. Now, it's been 20 days, and we still haven't got your payment.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "还": "hai / still; also",
+                  "没有": "meiyou / not have; haven't",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s6",
+                "cn": "再跟您确认一下您的信息，这批空调是去年5月买的，型号是A-113，现在的问题是20%的顾客投诉空调不制冷，是吗？",
+                "split": "再 跟 您 确认 一下 您 的 信息 这 批 空调 是 去年 5 月 买 的 型号 是 A 113 现在 的 问题 是 20 的 顾客 投诉 空调 不 制冷 是 吗",
+                "en": "Let me repeat your information. These air conditioners were bought in May last year, the type is A-113, and the problem now is 20% of the customers are complaining about the failure of refrigeration. Isn't it?",
+                "dict": {
+                  "再": "zai / again (future)",
+                  "跟": "gen / with",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "型号": "xinghao / type",
+                  "现在": "xianzai / now",
+                  "问题": "wenti / problem",
+                  "投诉": "tousu / to make a complaint",
+                  "不": "bu / not",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s7",
+                "cn": "我们会尽快核实您反映的情况，在5个工作日内给您答复。",
+                "split": "我们 会 尽快 核实 您 反映 的 情况 在 5 个 工作日 内 给 您 答复",
+                "en": "We will confirm what you have reported as soon as possible and reply to you within five workdays.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "核实": "heshi / to verify",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "个": "ge / (measure word)",
+                  "给": "gei / give; for"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s8",
+                "cn": "真对不起，我马上安排给您重新发货，一切费用由我们承担。因为发货单的货号有误，所以发错了型号，真抱歉。",
+                "split": "真 对不起 我 马上 安排 给 您 重新 发 货 一切 费用 由 我们 承担 因为 发货单 的 货号 有 误 所以 发错了 型号 真 抱歉",
+                "en": "I'm so sorry. I'll rearrange your delivery right now, and all costs will be covered by us. There was a mistake with the item number on the invoice, which resulted in the wrong delivery. We are really sorry.",
+                "dict": {
+                  "真": "zhen / really; truly",
+                  "对不起": "duibuqi / sorry",
+                  "我": "wo / I; me",
+                  "安排": "anpai / to arrange",
+                  "给": "gei / give; for",
+                  "您": "nin / you (polite)",
+                  "费用": "feiyong / cost",
+                  "我们": "women / we; us",
+                  "因为": "yinwei / because",
+                  "发货单": "fahuodan / invoice",
+                  "的": "de / (possessive/modifier particle)",
+                  "有": "you / to have",
+                  "所以": "suoyi / therefore",
+                  "型号": "xinghao / type"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s9",
+                "cn": "我对我方的失误表示道歉。这样的事情以后不会再发生了。",
+                "split": "我 对 我 方 的 失误 表示 道歉 这样 的 事情 以后 不 会 再 发生 了",
+                "en": "I apologize for our mistake. Such a thing will never happen again in the future.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)",
+                  "失误": "shiwu / fault, error",
+                  "以后": "yihou / after",
+                  "不": "bu / not",
+                  "会": "hui / can; will",
+                  "再": "zai / again (future)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s10",
+                "cn": "您前几天给我们打过电话反映产品技术参数有问题，我们的技术人员明天会过去帮您调试。",
+                "split": "您 前 几 天 给 我们 打过 电话 反映 产品 技术 参数 有 问题 我们 的 技术 人员 明天 会 过去 帮 您 调试",
+                "en": "You called us a few days ago reporting an error in the technical parameters of our product. Our technician will go to debug it for you tomorrow.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "几": "ji / how many; several",
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "电话": "dianhua / telephone; phone",
+                  "有": "you / to have",
+                  "问题": "wenti / problem",
+                  "的": "de / (possessive/modifier particle)",
+                  "明天": "mingtian / tomorrow",
+                  "会": "hui / can; will",
+                  "调试": "tiaoshi / debugging"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s11",
+                "cn": "您可以把有瑕疵的产品寄回来，运费到付。",
+                "split": "您 可以 把 有 瑕疵 的 产品 寄 回来 运费 到付",
+                "en": "You can send back the defective products freight collect.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "可以": "keyi / can; may; OK",
+                  "把": "ba / BA marker",
+                  "有": "you / to have",
+                  "的": "de / (possessive/modifier particle)",
+                  "回来": "huilai / come back",
+                  "运费": "yunfei / freight",
+                  "到付": "daofu / cash on delivery"
+                }
+              },
+              {
+                "id": "swcd-l8-t1-s12",
+                "cn": "好，感谢您的来电，稍后挂断电话以后，请您对我的服务进行评价。",
+                "split": "好 感谢 您 的 来电 稍后 挂断 电话 以后 请 您 对 我 的 服务 进行 评价",
+                "en": "Well, thanks for your call. Please comment on my service after hanging up.",
+                "dict": {
+                  "好": "hao / good; well; OK",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "电话": "dianhua / telephone; phone",
+                  "以后": "yihou / after",
+                  "请": "qing / please; invite",
+                  "对": "dui / to; towards; correct",
+                  "我": "wo / I; me"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l8-t2",
+            "label": "场景 2 客户索赔",
+            "sentences": [
+              {
+                "id": "swcd-l8-t2-s1",
+                "cn": "请你们尽快调查清楚短量的原因，在20天之内把货物补齐。",
+                "split": "请 你们 尽快 调查 清楚 短量 的 原因 在 20 天 之 内 把 货物 补齐",
+                "en": "Figure out the cause of weight shortage as soon as possible and fill it up in 20 days.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "把": "ba / BA marker"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s2",
+                "cn": "你们提供的产品质量低劣，我们要求品质索赔。",
+                "split": "你们 提供 的 产品 质量 低劣 我们 要求 品质 索赔",
+                "en": "The products you have offered are in poor quality. We claim for indemnity.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s3",
+                "cn": "鉴定报告已经出来了，是因为你们的不良包装导致货物破损，我们要求赔偿损失。",
+                "split": "鉴定 报告 已经 出来 了 是 因为 你们 的 不良 包装 导致 货物 破损 我们 要求 赔偿 损失",
+                "en": "The assessment report has come out. The goods damage was caused by your poor packaging. We claim for inferior quality.",
+                "dict": {
+                  "已经": "yijing / already",
+                  "出来": "chulai / come out",
+                  "了": "le / (particle: completed action / new situation)",
+                  "是": "shi / to be (am/is/are)",
+                  "因为": "yinwei / because",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "赔偿": "peichang / indemnity",
+                  "损失": "sunshi / loss"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s4",
+                "cn": "我们收到的货物跟样品不符，所以我们要求退回全部30箱货物。",
+                "split": "我们 收到 的 货物 跟 样品 不符 所以 我们 要求 退回 全部 30 箱 货物",
+                "en": "The goods we have received are not the same as the sample. We want to return all 30 boxes of them.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "跟": "gen / with",
+                  "样品": "yangpin / sample",
+                  "所以": "suoyi / therefore"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s5",
+                "cn": "我们要求贵公司赔偿合同全部金额的3%。",
+                "split": "我们 要求 贵 公司 赔偿 合同 全部 金额 的 3",
+                "en": "We ask for a compensation of 3% of the payment stated in the contract.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "赔偿": "peichang / indemnity",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s6",
+                "cn": "很遗憾我们不能接受你们提出的索赔要求。",
+                "split": "很 遗憾 我们 不 能 接受 你们 提出 的 索赔 要求",
+                "en": "We are sorry that we cannot accept your claim.",
+                "dict": {
+                  "很": "hen / very",
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "接受": "jieshou / to accept",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s7",
+                "cn": "对于贵方遭受的损失我们深表歉意，我们同意赔偿贵方1000美元。",
+                "split": "对于 贵方 遭受 的 损失 我们 深表 歉意 我们 同意 赔偿 贵 方 1000 美元",
+                "en": "We are deeply sorry for the losses you have suffered. We agree to pay you $1000 for compensation.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "损失": "sunshi / loss",
+                  "我们": "women / we; us",
+                  "同意": "tongyi / to agree",
+                  "赔偿": "peichang / indemnity",
+                  "美元": "meiyuan / US dollar"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s8",
+                "cn": "我们的这批产品质量确实存在瑕疵，所以我们同意赔偿合同货款的5%，再加上商检费。",
+                "split": "我们 的 这 批 产品 质量 确实 存在 瑕疵 所以 我们 同意 赔偿 合同 货款 的 5 再 加上 商检费",
+                "en": "We admit this shipment does have some quality flaws, and agree to pay you 5% of the payment stated in the contract, as well as the inspection fee.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "所以": "suoyi / therefore",
+                  "同意": "tongyi / to agree",
+                  "赔偿": "peichang / indemnity",
+                  "再": "zai / again (future)"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s9",
+                "cn": "我们接受贵方的所有索赔要求，希望这一次意外事件不会影响我们之间一直以来良好的合作关系。",
+                "split": "我们 接受 贵方 的 所有 索赔 要求 希望 这 一 次 意外 事件 不 会 影响 我们 之间 一直 以来 良好 的 合作 关系",
+                "en": "We accept all your claims and hope this incident will not affect the long-time good relationship between us.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "接受": "jieshou / to accept",
+                  "的": "de / (possessive/modifier particle)",
+                  "希望": "xiwang / hope; wish",
+                  "一": "yi / one",
+                  "不": "bu / not",
+                  "会": "hui / can; will",
+                  "一直": "yizhi / straight",
+                  "关系": "guanxi / relation"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s10",
+                "cn": "考虑到我们长期的业务关系，我们双方各让一步好不好？",
+                "split": "考虑 到 我们 长期 的 业务 关系 我们 双方 各 让 一 步 好 不 好",
+                "en": "Considering our long-term business relationship, how about we both make some concession?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "关系": "guanxi / relation",
+                  "让": "rang / let; allow",
+                  "一": "yi / one",
+                  "好": "hao / good; well; OK",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s11",
+                "cn": "我们会马上联系保险公司处理这件事，尽量减少你们的损失。",
+                "split": "我们 会 马上 联系 保险 公司 处理 这 件 事 尽量 减少 你们 的 损失",
+                "en": "We will immediately contact the insurance company and deal with this matter. We hope to minimize your losses.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "保险": "baoxian / insurance",
+                  "公司": "gongsi / company",
+                  "处理": "chuli / to deal with",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "损失": "sunshi / loss"
+                }
+              },
+              {
+                "id": "swcd-l8-t2-s12",
+                "cn": "您的货物延误是运输公司的责任，您应该找他们索赔。",
+                "split": "您 的 货物 延误 是 运输 公司 的 责任 您 应该 找 他们 索赔",
+                "en": "The shipping company is responsible for the delay of your cargo. You should ask them for compensation.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "延误": "yanwu / to delay",
+                  "是": "shi / to be (am/is/are)",
+                  "公司": "gongsi / company",
+                  "责任": "zeren / responsibility",
+                  "应该": "yinggai / should",
+                  "找": "zhao / to look for",
+                  "他们": "tamen / they"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l8-t3",
+            "label": "场景 3 合同违约",
+            "sentences": [
+              {
+                "id": "swcd-l8-t3-s1",
+                "cn": "你们没有按期发货，根据合同的违约条款，应该双倍返还我们的定金。",
+                "split": "你们 没有 按期 发 货 根据 合同 的 违约 条款 应该 双 倍 返还 我们 的 定金",
+                "en": "You did not deliver the goods on time. According to the breach clause in the contract, you should repay us double the amount of our deposit.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "条款": "tiaokuan / terms",
+                  "应该": "yinggai / should",
+                  "我们": "women / we; us",
+                  "定金": "dingjin / deposit"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s2",
+                "cn": "没有按期发货的原因是你们没有按时付款，所以我们不能退还定金。",
+                "split": "没有 按期 发 货 的 原因 是 你们 没有 按时 付 款 所以 我们 不 能 退还 定金",
+                "en": "The shipment is delayed owing to your delay of payment. So we cannot refund the deposit.",
+                "dict": {
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "你们": "nimen / you (plural)",
+                  "所以": "suoyi / therefore",
+                  "我们": "women / we; us",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "定金": "dingjin / deposit"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s3",
+                "cn": "你们没有按合同规定的规格交付货物，给我方造成了很大的经济损失，我们要求你们付违约金。",
+                "split": "你们 没有 按 合同 规定 的 规格 交付 货物 给 我方 造成了 很 大 的 经济 损失 我们 要求 你们 付 违约金",
+                "en": "You did not deliver the goods in line with the specifications stated in the contract, and caused us great economic losses. We claim for liquidated damages.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "规格": "guige / specification",
+                  "给": "gei / give; for",
+                  "很": "hen / very",
+                  "损失": "sunshi / loss",
+                  "我们": "women / we; us",
+                  "违约金": "weiyuejin / liquidated damages"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s4",
+                "cn": "你们提供的产品有严重的质量问题，我们只能解除合同，并且你们还应赔偿我们的经济损失。",
+                "split": "你们 提供 的 产品 有 严重 的 质量 问题 我们 只 能 解除 合同 并且 你们 还 应 赔偿 我们 的 经济 损失",
+                "en": "The products you provided have serious quality problems. We'll have to terminate the contract and you shall compensate for our economic losses.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "有": "you / to have",
+                  "问题": "wenti / problem",
+                  "我们": "women / we; us",
+                  "只": "zhi / only",
+                  "能": "neng / can; able to",
+                  "解除": "jiechu / to remove, to terminate",
+                  "还": "hai / still; also",
+                  "赔偿": "peichang / indemnity",
+                  "损失": "sunshi / loss"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s5",
+                "cn": "你们的货运到的时候全被暴雨淋湿了，商品品质严重下降，你们需要根据合同第十五条的规定赔偿我们的损失。",
+                "split": "你们 的 货 运到 的 时候 全 被 暴雨 淋湿 了 商品 品质 严重 下降 你们 需要 根据 合同 第十五 条 的 规定 赔偿 我们 的 损失",
+                "en": "The products you shipped were watered by the rainstorm on arrival and had a serious decline in quality. You shall compensate for our economic losses according to Clause 15 in the contract.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shihou / time; moment",
+                  "被": "bei / passive marker",
+                  "了": "le / (particle: completed action / new situation)",
+                  "需要": "xuyao / need",
+                  "赔偿": "peichang / indemnity",
+                  "我们": "women / we; us",
+                  "损失": "sunshi / loss"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s6",
+                "cn": "我们是按合同约定的日期把货运到目的港的，因为你们收货不及时才导致货被雨淋湿，这个责任不应该由我们承担。",
+                "split": "我们 是 按 合同 约定 的 日期 把 货 运到 目的港 的 因为 你们 收 货 不 及时 才 导致 货 被 雨 淋湿 这个 责任 不 应该 由 我们 承担",
+                "en": "The products were shipped to the destination port on the date agreed upon in the contract. The water damage was caused owing to your delay of receipt. We should not be held responsible for this.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "把": "ba / BA marker",
+                  "因为": "yinwei / because",
+                  "你们": "nimen / you (plural)",
+                  "不": "bu / not",
+                  "才": "cai / only then; just",
+                  "被": "bei / passive marker",
+                  "这个": "zhege / this one",
+                  "责任": "zeren / responsibility",
+                  "应该": "yinggai / should"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s7",
+                "cn": "你们不能履行合同并没有通知我们，所以我们的全部损失应该由你们承担。",
+                "split": "你们 不能 履行 合同 并 没有 通知 我们 所以 我们 的 全部 损失 应该 由 你们 承担",
+                "en": "You didn't notify us in advance of your inability to perform the contract. So, you shall take on all our damages.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "不能": "buneng / cannot",
+                  "履行": "lüxing / to perform",
+                  "没有": "meiyou / not have; haven't",
+                  "我们": "women / we; us",
+                  "所以": "suoyi / therefore",
+                  "的": "de / (possessive/modifier particle)",
+                  "损失": "sunshi / loss",
+                  "应该": "yinggai / should"
+                }
+              },
+              {
+                "id": "swcd-l8-t3-s8",
+                "cn": "客观上我们没有履行合同，但是这是由于不可抗力造成的，我们不应该承担违约责任。",
+                "split": "客观 上 我们 没有 履行 合同 但是 这 是 由于 不可抗力 造成 的 我们 不 应该 承担 违约 责任",
+                "en": "Objectively speaking, we didn't perform the contract. But this was caused by force majeure and we shouldn't be held responsible.",
+                "dict": {
+                  "上": "shang / to attend (a class)",
+                  "我们": "women / we; us",
+                  "没有": "meiyou / not have; haven't",
+                  "履行": "lüxing / to perform",
+                  "但是": "danshi / but; however",
+                  "是": "shi / to be (am/is/are)",
+                  "不可抗力": "bukekangli / force majeure",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "应该": "yinggai / should",
+                  "责任": "zeren / responsibility"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l8-t4",
+            "label": "场景 4 侵权责任",
+            "sentences": [
+              {
+                "id": "swcd-l8-t4-s1",
+                "cn": "你们的商标跟我们已经注册的商标非常近似，侵犯了我们的商标权。",
+                "split": "你们 的 商标 跟 我们 已经 注册 的 商标 非常 近似 侵犯了 我们 的 商标权",
+                "en": "Your trademark looks similar to what we have registered and it's an infringement of our trademark.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "跟": "gen / with",
+                  "我们": "women / we; us",
+                  "已经": "yijing / already",
+                  "注册": "zhuce / to register",
+                  "非常": "feichang / very"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s2",
+                "cn": "你们侵犯了我们3-110型号电池的专利权。",
+                "split": "你们 侵犯 了 我们 3 110 型号 电池 的 专利权",
+                "en": "You have violated the patent of our 3-110 type battery.",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "wǒmen / we; us",
+                  "型号": "xínghào / type",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s3",
+                "cn": "你们大规模生产和销售盗版光盘，这些光盘的知识产权都归我们公司所有，这种行为对我们的经济利益造成了极大损害，我们要求你们支付侵权费。",
+                "split": "你们 大 规模 生产 和 销售 盗版 光盘 这些 光盘 的 知识 产权 都 归 我们 公司 所有 这 种 行为 对 我们 的 经济 利益 造成了 极 大 损害 我们 要求 你们 支付 侵权费",
+                "en": "Your company have produced and sold massive pirated discs, which are our company's intellectual property. These acts have caused us huge economic losses. We ask for an infringement fee.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "规模": "guimo / scale",
+                  "生产": "shengchan / production",
+                  "和": "he / and; with",
+                  "销售": "xiaoshou / sales",
+                  "光盘": "guangpan / CD",
+                  "这些": "zhexie / these",
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dou / all; both",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "对": "dui / to; towards; correct",
+                  "侵权费": "qinquanfei / infringement fee"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s4",
+                "cn": "你们在没有得到我们公司许可的情况下，擅自修改和破解我公司开发的软件并提供下载，严重侵害了我们的知识产权。",
+                "split": "你们 在 没有 得到 我们 公司 许可 的 情况 下 擅自 修改 和 破解 我 公司 开发 的 软件 并 提供 下载 严重 侵害了 我们 的 知识 产权",
+                "en": "You have modified and cracked our software for downloading without our permission. It's a serious infringement of our intellectual property.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "在": "zai / to be at; (at)",
+                  "没有": "meiyou / not have; haven't",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "修改": "xiugai / to amend",
+                  "和": "he / and; with",
+                  "我": "wo / I; me"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s5",
+                "cn": "你们公司生产的汽车在外观上跟我们的DS-220汽车极为相似，侵犯了我们的外观设计权。",
+                "split": "你们 公司 生产 的 汽车 在 外观 上 跟 我们 的 DS 220 汽车 极为 相似 侵犯了 我们 的 外观 设计权",
+                "en": "The car your company produced looks extremely similar to our DS-220 in appearance. It's a violation of our design right.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "公司": "gongsi / company",
+                  "生产": "shengchan / production",
+                  "的": "de / (possessive/modifier particle)",
+                  "在": "zai / to be at; (at)",
+                  "上": "shang / to attend (a class)",
+                  "跟": "gen / with",
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s6",
+                "cn": "因为你们的产品缺陷对用户造成了人身伤害，我们要求你们承担侵权责任。",
+                "split": "因为 你们 的 产品 缺陷 对 用户 造成了 人身 伤害 我们 要求 你们 承担 侵权 责任",
+                "en": "The defect of your product has caused physical injury to the user. We demand that you should bear tort liability.",
+                "dict": {
+                  "因为": "yinwei / because",
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "对": "dui / to; towards; correct",
+                  "我们": "women / we; us",
+                  "责任": "zeren / responsibility"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s7",
+                "cn": "我们公司已经注册了这个域名，取得了域名的所有权，你们在没有经过我方授权的情况下私自把域名转让给第三方，侵犯了我们的域名权，我们要求你们在《新晚报》上刊登声明，并向我方公开道歉。",
+                "split": "我们 公司 已经 注册了 这个 域名 取得了 域名 的 所有权 你们 在 没有 经过 我方 授权 的 情况 下 私自 把 域名 转让 给 第三 方 侵犯了 我们 的 域名权 我们 要求 你们 在 新 晚报 上 刊登 声明 并 向 我方 公开 道歉",
+                "en": "Our company has registered the domain name, and has gained its ownership. Your transferring our domain name to a third party without our authorization is a violation of our domain name rights. We demand that you should publish a statement on New Evening News, and make a public apology.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "已经": "yijing / already",
+                  "这个": "zhege / this one",
+                  "的": "de / (possessive/modifier particle)",
+                  "你们": "nimen / you (plural)",
+                  "在": "zai / to be at; (at)",
+                  "没有": "meiyou / not have; haven't",
+                  "把": "ba / BA marker",
+                  "给": "gei / give; for",
+                  "上": "shang / to attend (a class)",
+                  "向": "xiang / towards"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s8",
+                "cn": "对于我们的产品缺陷给用户造成的伤害我们表示真挚的歉意，我们愿意赔偿10万美元。",
+                "split": "对于 我们 的 产品 缺陷 给 用户 造成 的 伤害 我们 表示 真挚 的 歉意 我们 愿意 赔偿 10 万 美元",
+                "en": "We are sincerely sorry for the harm to the user caused by the defect of our product. We are willing to offer $100,000 for compensation.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "给": "gei / give; for",
+                  "愿意": "yuanyi / willing to",
+                  "赔偿": "peichang / indemnity",
+                  "美元": "meiyuan / US dollar"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s9",
+                "cn": "我们将对全部问题产品进行召回，并对此给您造成的不便深表歉意。",
+                "split": "我们 将 对 全部 问题 产品 进行 召回 并 对 此 给 您 造成 的 不便 深 表 歉意",
+                "en": "We will recall all the defective products, and we are deeply sorry for the inconvenience caused.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "对": "dui / to; towards; correct",
+                  "问题": "wenti / problem",
+                  "给": "gei / give; for",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t4-s10",
+                "cn": "你们的汽车并没有在我们国家申请外观设计注册，我认为我们没有侵权。",
+                "split": "你们 的 汽车 并 没有 在 我们 国家 申请 外观 设计 注册 我 认为 我们 没有 侵权",
+                "en": "You did not apply for registration of design for your car in our country. I don't think we've infringed your right.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "没有": "meiyou / not have; haven't",
+                  "在": "zai / to be at; (at)",
+                  "我们": "women / we; us",
+                  "申请": "shenqing / to apply",
+                  "注册": "zhuce / to register",
+                  "我": "wo / I; me"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l8-t5",
+            "label": "场景 5 申请仲裁",
+            "sentences": [
+              {
+                "id": "swcd-l8-t5-s1",
+                "cn": "请求裁决被申请人按照双方签订的《购销合同》第三条第二款支付申请人违约金3000美元。",
+                "split": "请求 裁决 被申请人 按照 双方 签订 的 购销 合同 第三 条 第二 款 支付 申请人 违约金 3000 美元",
+                "en": "The applicant requests a verdict of a $3,000 compensation from the respondent to the applicant according to Clause 2 of Article 3 in the Contract of Purchase.",
+                "dict": {
+                  "裁决": "caijue / ruling",
+                  "被申请人": "beishenqingren / respondent",
+                  "的": "de / (possessive/modifier particle)",
+                  "违约金": "weiyuejin / liquidated damages",
+                  "美元": "meiyuan / US dollar"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s2",
+                "cn": "请求裁决被申请人支付仲裁产生的费用人民币880元整。",
+                "split": "请求 裁决 被申请人 支付 仲裁 产生 的 费用 人民币 880 元 整",
+                "en": "The applicant requests a verdict of RMB 880 for the arbitration-related costs from the respondent to the applicant.",
+                "dict": {
+                  "裁决": "caijue / ruling",
+                  "被申请人": "beishenqingren / respondent",
+                  "仲裁": "zhongcai / arbitration",
+                  "的": "de / (possessive/modifier particle)",
+                  "费用": "feiyong / cost",
+                  "人民币": "renminbi / RMB"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s3",
+                "cn": "期间我方多次询问被申请人货款支付问题，被申请人一直没有明确答复，在双方协商解决不了的情况下，我方只好按照合同第28条的规定提交黄石市仲裁委员会仲裁。",
+                "split": "期间 我方 多次 询问 被申请人 货款 支付 问题 被申请人 一直 没有 明确 答复 在 双方 协商 解决不了 的 情况 下 我方 只好 按照 合同 第 28 条 的 规定 提交 黄石市 仲裁 委员会 仲裁",
+                "en": "We have repeatedly asked the respondent about the payment, but received no clear answer. As the case cannot be resolved through consultation, we have to submit to the Arbitration Commission of Huangshi City for arbitration in accordance with Article 28 in the contract.",
+                "dict": {
+                  "被申请人": "bèishēnqǐngrén / respondent",
+                  "问题": "wèntí / problem",
+                  "一直": "yìzhí / straight",
+                  "没有": "méiyǒu / not have; haven't",
+                  "在": "zài / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "仲裁": "zhòngcái / arbitration"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s4",
+                "cn": "这一结果完全是由被申请人造成的，因此仲裁费用应该完全由被申请人承担。",
+                "split": "这 一 结果 完全 是 由 被申请人 造成 的 因此 仲裁 费用 应该 完全 由 被申请人 承担",
+                "en": "This result is entirely caused by the respondent. Therefore the arbitration fee should be fully borne by the respondent.",
+                "dict": {
+                  "一": "yi / one",
+                  "结果": "jieguo / result",
+                  "是": "shi / to be (am/is/are)",
+                  "被申请人": "beishenqingren / respondent",
+                  "的": "de / (possessive/modifier particle)",
+                  "仲裁": "zhongcai / arbitration",
+                  "费用": "feiyong / cost",
+                  "应该": "yinggai / should"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s5",
+                "cn": "附件包括《仲裁申请书》副本一份、证据清单一份及有关证据材料一份。",
+                "split": "附件 包括 仲裁 申请书 副本 一 份 证据 清单 一 份 及 有关 证据 材料 一 份",
+                "en": "The appendix includes a copy of the Application for Arbitration, an evidence list and a document of relevant evidence.",
+                "dict": {
+                  "附件": "fujian / attachment",
+                  "仲裁": "zhongcai / arbitration",
+                  "副本": "fuben / copy",
+                  "一": "yi / one",
+                  "证据": "zhengju / evidence"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s6",
+                "cn": "请求依法撤销反申请人与被反申请人签订的合同。",
+                "split": "请求 依法 撤销 反申请人 与 被反申请人 签订 的 合同",
+                "en": "We apply for legal termination of the contract signed between the counter-applicant and the counter-respondent.",
+                "dict": {
+                  "撤销": "chexiao / to revoke",
+                  "反申请人": "fanshenqingren / counter-applicant",
+                  "被反申请人": "beifanshenqingren / counter-respondent",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s7",
+                "cn": "请求依法驳回被反申请人全部仲裁申请。",
+                "split": "请求 依法 驳回 被反申请人 全部 仲裁 申请",
+                "en": "We apply for legal revocation of all the arbitration applications requested by the counter-respondent.",
+                "dict": {
+                  "驳回": "bohui / to reject",
+                  "被反申请人": "beifanshenqingren / counter-respondent",
+                  "仲裁": "zhongcai / arbitration",
+                  "申请": "shenqing / to apply"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s8",
+                "cn": "合同签订后被反申请人没有积极有效地履行合同约定的义务，致使反申请人的工作停滞，造成反申请人客户订单严重流失，导致了巨大的直接经济损失。",
+                "split": "合同 签订 后 被反申请人 没有 积极 有效 地 履行 合同 约定 的 义务 致使 反申请人 的 工作 停滞 造成 反申请人 客户 订单 严重 流失 导致了 巨大 的 直接 经济 损失",
+                "en": "After the signing of the contract, the counter-respondent didn't perform the contract actively and effectively, which resulted in the stagnation of the counter-applicant's work. As a result, the counter-applicant lost many orders and suffered great economic losses.",
+                "dict": {
+                  "被反申请人": "beifanshenqingren / counter-respondent",
+                  "没有": "meiyou / not have; haven't",
+                  "履行": "lüxing / to perform",
+                  "的": "de / (possessive/modifier particle)",
+                  "反申请人": "fanshenqingren / counter-applicant",
+                  "工作": "gongzuo / work",
+                  "损失": "sunshi / loss"
+                }
+              },
+              {
+                "id": "swcd-l8-t5-s9",
+                "cn": "因此我方提出以上仲裁请求，恳请仲裁庭依法予以支持，以维护反申请人的合法权益。",
+                "split": "因此 我方 提出 以上 仲裁 请求 恳请 仲裁庭 依法 予以 支持 以 维护 反申请人 的 合法 权益",
+                "en": "Therefore, we propose the above request for arbitration and appeal for help from the arbitral tribunal to safeguard the legitimate rights and interests of the counter-applicant.",
+                "dict": {
+                  "仲裁": "zhongcai / arbitration",
+                  "反申请人": "fanshenqingren / counter-applicant",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l8-t6",
+            "label": "场景 6 提出诉讼",
+            "sentences": [
+              {
+                "id": "swcd-l8-t6-s1",
+                "cn": "诉讼请求：（1）追回××国际贸易公司欠我公司货款18万美元。（2）责令被告赔偿所欠货款利息及有关损失。（3）责令被告承担原告提起诉讼而产生的一切损失，包括诉讼费、律师费等，依法维护我公司的合法权益。",
+                "split": "诉讼请求 1 追回 国际贸易 公司 欠 我 公司 货款 18 万美元 2 责令 被告 赔偿 所欠 货款 利息 及 有关 损失 3 责令 被告 承担 原告 提起 诉讼 而 产生 的 一切 损失 包括 诉讼费 律师费 等 依法 维护 我 公司 的 合法权益",
+                "en": "Request for litigation: (1) Retrieve the payment of $180,000 owed by xx International Trading Company to our company. (2) Request the defendant to pay interest on the debt and compensate for the losses caused. (3) Request the defendant to bear all the losses the plaintiff suffered in the process of the lawsuit, including legal fees and attorney fees, to safeguard the legitimate rights and interests of our company.",
+                "dict": {
+                  "公司": "gōngsī / company",
+                  "我": "wǒ / I; me",
+                  "被告": "bèigào / defendant",
+                  "赔偿": "péicháng / indemnity",
+                  "利息": "lìxī / interest",
+                  "损失": "sǔnshī / loss",
+                  "原告": "yuángào / plaintiff",
+                  "的": "de / (possessive/modifier particle)",
+                  "诉讼费": "sùsòngfèi / litigation cost"
+                }
+              },
+              {
+                "id": "swcd-l8-t6-s2",
+                "cn": "原告与被告于2012年3月3日签订建筑设计合同，原告委托被告对位于东二环建国路12号的写字楼进行设计。",
+                "split": "原告 与 被告 于 2012 年 3 月 3 日 签订 建筑设计 合同 原告 委托 被告 对 位于 东二环 建国路 12 号 的 写字楼 进行 设计",
+                "en": "The plaintiff and the defendant signed the contract for architectural design on March 3rd, 2012. The plaintiff commissioned the defendant to design the office building located at NO. 12, Jianguo Road, East Second Ring Road.",
+                "dict": {
+                  "原告": "yuángào / plaintiff",
+                  "被告": "bèigào / defendant",
+                  "对": "duì / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l8-t6-s3",
+                "cn": "双方签订的代理协议，是双方各自真实的意思表示，符合法律规定，双方理应履行各自的义务。",
+                "split": "双方 签订 的 代理 协议 是 双方 各自 真实 的 意思 表示 符合 法律 规定 双方 理应 履行 各自 的 义务",
+                "en": "The agency agreement was signed by the two sides at their own will and in line with the law. Both parties ought to fulfill their obligations.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "协议": "xieyi / agreement",
+                  "是": "shi / to be (am/is/are)",
+                  "意思": "yisi / meaning",
+                  "履行": "lüxing / to perform"
+                }
+              },
+              {
+                "id": "swcd-l8-t6-s4",
+                "cn": "由于被告严重违反合同，致使我公司经营活动受到了严重影响，直接经济损失估计8万元。",
+                "split": "由于 被告 严重 违反 合同 致使 我 公司 经营 活动 受到 了 严重 影响 直接 经济 损失估计 8 万元",
+                "en": "The defendant seriously breached the contract, resulting in severe effect on our business activities. The direct economic loss is estimated to be RMB 80,000.",
+                "dict": {
+                  "被告": "bèigào / defendant",
+                  "我": "wǒ / I; me",
+                  "公司": "gōngsī / company",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l8-t6-s5",
+                "cn": "上诉人因合同纠纷一案，不服苏州市桐城区人民法院民字236号民事判决书判决，请上级法院重新审理改判。",
+                "split": "上诉人 因 合同 纠纷 一 案 不服 苏州 市 桐城 区 人民 法院 民 字 236 号 民事 判决书 判决 请 上级 法院 重新 审理 改判",
+                "en": "The appellant appeals against No. 236 Civil Judgment by the People's Court of Tongcheng District, Suzhou City and requests for a second rehearing by the higher court.",
+                "dict": {
+                  "一": "yi / one",
+                  "不服": "bufu / dissatisfied, unconvinced",
+                  "判决": "panjue / judgment, verdict",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l8-t6-s6",
+                "cn": "上诉事实及理由如下：原判决第一款：\"将300套餐桌椅退回被告。\"上诉人不同意退货，并要求被上诉人赔偿损失，因为上诉人验收上述家具已达3个月，破损是由于被上诉人保管不善造成的。",
+                "split": "上诉 事实 及 理由 如下 原 判决 第一 款 将 300 套 餐桌椅 退回 被告 上诉人 不 同意 退 货 并 要求 被上诉人 赔偿 损失 因为 上诉人 验收 上述 家具 已 达 3 个 月 破损 是 由于 被上诉人 保管 不善 造成 的",
+                "en": "The facts and grounds of the appeal are as follows: Item 1 in the original judgment: \"Return the 300 sets of tables and chairs to the defendant.\" The appellant does not agree to the return, and wants the appellee to compensate for losses. It has been three months since the above furniture was received and examined; the damages were caused for lack of proper care on the appellee's part.",
+                "dict": {
+                  "上诉": "shangsu / to appeal against",
+                  "判决": "panjue / judgment, verdict",
+                  "被告": "beigao / defendant",
+                  "不": "bu / not",
+                  "同意": "tongyi / to agree",
+                  "赔偿": "peichang / indemnity",
+                  "损失": "sunshi / loss",
+                  "因为": "yinwei / because",
+                  "验收": "yanshou / check and acceptance",
+                  "个": "ge / (measure word)",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson9",
+        "title": "Unit 9 Foreign Trade 对外贸易",
+        "titleEn": "Unit 9",
+        "texts": [
+          {
+            "id": "swcd-l9-t1",
+            "label": "场景 1 招标投标",
+            "sentences": [
+              {
+                "id": "swcd-l9-t1-s1",
+                "cn": "听说贵公司准备对东贸二期的地产项目进行招标。",
+                "split": "听说 贵公司 准备 对 东贸 二期 的 地产 项目 进行 招标",
+                "en": "I hear that your company is about to call for bids for the second stage real estate project of Dongmao.",
+                "dict": {
+                  "听说": "tingshuo / I heard that",
+                  "准备": "zhunbei / prepare",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s2",
+                "cn": "我们对贵公司的招标公告很感兴趣，请问在哪儿能看到你们的招标文件？",
+                "split": "我们 对 贵公司 的 招标 公告 很 感 兴趣 请问 在 哪儿 能 看到 你们 的 招标 文件",
+                "en": "We are very interested in your company's bidding announcement. May I ask where I can find your ITB documents?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "对": "dui / to; towards; correct",
+                  "的": "de / (possessive/modifier particle)",
+                  "很": "hen / very",
+                  "请问": "qingwen / excuse me, may I ask",
+                  "在": "zai / to be at; (at)",
+                  "哪儿": "nar / where",
+                  "能": "neng / can; able to",
+                  "你们": "nimen / you (plural)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s3",
+                "cn": "您可以到我们公司设在广州的办事处领取。",
+                "split": "您 可以 到 我们 公司 设 在 广州 的 办事处 领取",
+                "en": "You can go to our office in Guangzhou and collect them.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "可以": "keyi / can; may; OK",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s4",
+                "cn": "你们准备什么时候招标？这次是公开招标吗？",
+                "split": "你们 准备 什么 时候 招标 这 次 是 公开 招标 吗",
+                "en": "When will the bidding start? Is this an open bidding?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "准备": "zhunbei / prepare",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "是": "shi / to be (am/is/are)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s5",
+                "cn": "招标大概在下个月中旬，招标截止日期是7月31号。",
+                "split": "招标 大概 在 下 个 月 中旬 招标 截止 日期 是 7 月 31 号",
+                "en": "The bidding will take place around the middle of next month and the deadline is July 31st.",
+                "dict": {
+                  "大概": "dagai / roughly, about",
+                  "在": "zai / to be at; (at)",
+                  "个": "ge / (measure word)",
+                  "是": "shi / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s6",
+                "cn": "这次招标是公开招标的形式。",
+                "split": "这 次 招标 是 公开 招标 的 形式",
+                "en": "This is an open bidding.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s7",
+                "cn": "我们以什么货币报价？",
+                "split": "我们 以 什么 货币 报价",
+                "en": "What currency should we use to quote our price?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "什么": "shenme / what",
+                  "货币": "huobi / currency"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s8",
+                "cn": "请以美元报价。",
+                "split": "请 以 美元 报价",
+                "en": "Please quote your price in US dollars.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "美元": "meiyuan / US dollar"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s9",
+                "cn": "这是我们的全套招标文件。",
+                "split": "这 是 我们 的 全套 招标 文件",
+                "en": "This is our complete set of ITB documents.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s10",
+                "cn": "我们什么时候把投标文件交给贵公司？",
+                "split": "我们 什么 时候 把 投标 文件 交 给 贵公司",
+                "en": "When shall we hand in the bidding documents to your company?",
+                "dict": {
+                  "我们": "women / we; us",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "把": "ba / BA marker",
+                  "给": "gei / give; for"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s11",
+                "cn": "我们下个月会发布招标公告，我们很希望你们公司能参加投标。",
+                "split": "我们 下 个 月 会 发布 招标 公告 我们 很 希望 你们 公司 能 参加 投标",
+                "en": "We will release the bidding announcement next month and we hope that your company will participate in the bidding.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "个": "ge / (measure word)",
+                  "会": "hui / can; will",
+                  "很": "hen / very",
+                  "希望": "xiwang / hope; wish",
+                  "你们": "nimen / you (plural)",
+                  "公司": "gongsi / company",
+                  "能": "neng / can; able to",
+                  "参加": "canjia / to participate"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s12",
+                "cn": "递交投标文件的时候，请附上保证金交纳证明。",
+                "split": "递交 投标 文件 的 时候 请 附上 保证金 交纳 证明",
+                "en": "Please attach the certificate of deposit payment when submitting the bidding documents.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shihou / time; moment",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l9-t1-s13",
+                "cn": "如果你们的投标文件能通过初步预审，我们会在15天之内通知您参加最后的竞标。",
+                "split": "如果 你们 的 投标 文件 能 通过 初步 预审 我们 会 在 15 天 之 内 通知 您 参加 最后 的 竞标",
+                "en": "If your bidding documents can pass our preliminary examination, we will notify you of the final bidding within 15 days.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "能": "neng / can; able to",
+                  "我们": "women / we; us",
+                  "会": "hui / can; will",
+                  "在": "zai / to be at; (at)",
+                  "您": "nin / you (polite)",
+                  "参加": "canjia / to participate",
+                  "最后": "zuihou / finally; last"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t2",
+            "label": "场景 2 订单确认",
+            "sentences": [
+              {
+                "id": "swcd-l9-t2-s1",
+                "cn": "我们1月5号已经下单了，一直没有得到答复，请尽快回复，确认订单。",
+                "split": "我们 1 月 5 号 已经 下单 了 一直 没有 得到 答复 请 尽快 回复 确认 订单",
+                "en": "We placed the order on January 5th and haven't got any reply since. Please reply to us as soon as possible and confirm the order.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "一直": "yizhi / straight",
+                  "没有": "meiyou / not have; haven't",
+                  "请": "qing / please; invite",
+                  "回复": "huifu / to reply"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s2",
+                "cn": "非常抱歉，因为购货方取消了合同，我们得取消3月4日的订单。",
+                "split": "非常 抱歉 因为 购货方 取消了 合同 我们 得 取消 3 月 4 日 的 订单",
+                "en": "I'm sorry. The buyer has cancelled the contract. Therefore we have to cancel the order of March 4th.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "因为": "yinwei / because",
+                  "我们": "women / we; us",
+                  "取消": "quxiao / to cancel",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s3",
+                "cn": "我们想增加32566号订单ASD-200型号测量仪的数量，由50台加到70台。",
+                "split": "我们 想 增加 32566 号 订单 ASD 200 型号 测量 仪 的 数量 由 50 台 加 到 70 台",
+                "en": "We would like to increase the number of ASD-200 measuring instruments in the No. 32566 order from 50 to 70.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "型号": "xinghao / type",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s4",
+                "cn": "贵公司5月11号关于100磅特级铁观音绿茶的订单已经收到。",
+                "split": "贵公司 5 月 11 号 关于 100 磅 特级 铁观音 绿茶 的 订单 已经 收到",
+                "en": "We have received your order for 100 pounds of premium Tieguanyin green tea placed on May 11th.",
+                "dict": {
+                  "磅": "bang / pound",
+                  "的": "de / (possessive/modifier particle)",
+                  "已经": "yijing / already"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s5",
+                "cn": "感谢您4月1号发来的订单，我们接受贵方的条件。",
+                "split": "感谢 您 4 月 1 号 发来 的 订单 我们 接受 贵方 的 条件",
+                "en": "Thank you for your order on April 1st. We accept your conditions.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "接受": "jieshou / to accept"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s6",
+                "cn": "您12月17号订的货会在1月28号前装船，订单号N17911。",
+                "split": "您 12 月 17 号 订 的 货 会 在 1 月 28 号 前 装船 订单号 N17911",
+                "en": "Your order on December 17th will be shipped before January 28th. The order number is N17911.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "会": "huì / can; will",
+                  "在": "zài / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s7",
+                "cn": "请贵公司尽快开出信用证，我们一收到信用证马上就可以装船。",
+                "split": "请 贵公司 尽快 开出 信用证 我们 一 收到 信用证 马上 就 可以 装 船",
+                "en": "Please issue the letter of credit as soon as possible. The goods will be shipped the minute we receive it.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "我们": "women / we; us",
+                  "一": "yi / one",
+                  "就": "jiu / just; simply",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s8",
+                "cn": "请放心，我们保证在2月14日以前交货。",
+                "split": "请 放心 我们 保证 在 2 月 14 日 以前 交 货",
+                "en": "Don't worry. We guarantee to deliver the goods before February 14th.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "我们": "women / we; us",
+                  "在": "zai / to be at; (at)",
+                  "以前": "yiqian / before"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s9",
+                "cn": "您的订单我们已经收到，但是目前我们的现货不够。",
+                "split": "您 的 订单 我们 已经 收到 但是 目前 我们 的 现货 不 够",
+                "en": "We have received your order, but now we are short of stock.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us",
+                  "已经": "yijing / already",
+                  "但是": "danshi / but; however",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l9-t2-s10",
+                "cn": "非常抱歉，我们公司最近原材料紧缺，无法接受贵公司的订单。",
+                "split": "非常 抱歉 我们 公司 最近 原材料 紧缺 无法 接受 贵公司 的 订单",
+                "en": "I'm sorry. Recently we've been short of raw materials, and cannot accept your order.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "最近": "zuijin / recently",
+                  "接受": "jieshou / to accept",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t3",
+            "label": "场景 3 发货交货",
+            "sentences": [
+              {
+                "id": "swcd-l9-t3-s1",
+                "cn": "您好！你上个月13号的订单会在下个月初发货。",
+                "split": "您 好 你 上 个 月 13 号 的 订单 会 在 下 个 月 初 发 货",
+                "en": "Hello! Your order on the 13th of last month will be shipped early next month.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "好": "hao / good; well; OK",
+                  "你": "ni / you",
+                  "上": "shang / to attend (a class)",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)",
+                  "会": "hui / can; will",
+                  "在": "zai / to be at; (at)"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s2",
+                "cn": "您订的最后一批货22号会发走。",
+                "split": "您 订 的 最后 一批 货 22 号 会 发 走",
+                "en": "The last shipment of your order will be issued on the 22nd.",
+                "dict": {
+                  "您": "nín / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "最后": "zuìhòu / finally; last",
+                  "会": "huì / can; will"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s3",
+                "cn": "您的订单已经全部发货了，请您尽快把合同余款打过来。",
+                "split": "您 的 订单 已经 全部 发 货 了 请 您 尽快 把 合同 余款 打 过来",
+                "en": "Your order has all been shipped. Please remit the balance under the contract as soon as possible.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "请": "qing / please; invite",
+                  "把": "ba / BA marker",
+                  "余款": "yukuan / balance",
+                  "打": "da / to hit; to make (a phone call)"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s4",
+                "cn": "发货的具体日期是哪一天？",
+                "split": "发 货 的 具体 日期 是 哪 一 天",
+                "en": "When is the specific delivery date?",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s5",
+                "cn": "抱歉，具体的发货日期是哪一天现在我还没有得到通知，一有消息我马上通知您。",
+                "split": "抱歉 具体 的 发 货 日期 是 哪 一 天 现在 我 还 没有 得到 通知 一 有 消息 我 马上 通知 您",
+                "en": "Sorry, I haven't been notified of the specific delivery date yet. I'll inform you the minute I know it.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "现在": "xianzai / now",
+                  "我": "wo / I; me",
+                  "还": "hai / still; also",
+                  "没有": "meiyou / not have; haven't",
+                  "有": "you / to have",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s6",
+                "cn": "下个月是我们的销售旺季。我建议您走铁路。",
+                "split": "下 个 月 是 我们 的 销售 旺季 我 建议 您 走 铁路",
+                "en": "Next month is our peak sales season. I recommend that you choose the railway.",
+                "dict": {
+                  "个": "ge / (measure word)",
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "销售": "xiaoshou / sales",
+                  "我": "wo / I; me",
+                  "建议": "jianyi / to suggest",
+                  "您": "nin / you (polite)",
+                  "铁路": "tielu / railway"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s7",
+                "cn": "我们现在还没有收到货物，如果下周二之前还收不到的话，我们只能退货了。",
+                "split": "我们 现在 还 没有 收到 货物 如果 下 周二 之前 还 收 不 到 的话 我们 只 能 退货 了",
+                "en": "We haven't received the shipment yet. If it cannot arrive before next Tuesday, we shall ask for a return.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "现在": "xianzai / now",
+                  "还": "hai / still; also",
+                  "没有": "meiyou / not have; haven't",
+                  "不": "bu / not",
+                  "只": "zhi / only",
+                  "能": "neng / can; able to",
+                  "退货": "tuihuo / to return goods",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s8",
+                "cn": "现在已经过了发货时间快10天了，我们还没有收到发货的消息，客户现在催得很紧。",
+                "split": "现在 已经 过了 发 货 时间 快 10 天 了 我们 还 没有 收到 发 货 的 消息 客户 现在 催 得 很 紧",
+                "en": "The delivery is nearly ten days overdue and we have not received any delivery notification. The client is breathing down our neck.",
+                "dict": {
+                  "现在": "xianzai / now",
+                  "已经": "yijing / already",
+                  "时间": "shijian / time",
+                  "快": "kuai / quick; hurry",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "还": "hai / still; also",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "很": "hen / very"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s9",
+                "cn": "由于你们延迟发货，客户取消了我们的订单，我们要求向贵方索赔。",
+                "split": "由于 你们 延迟 发 货 客户 取消了 我们 的 订单 我们 要求 向 贵方 索赔",
+                "en": "The client cancelled our order because of your delay of shipment. And we make a claim against you.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "向": "xiang / towards"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s10",
+                "cn": "我方已经收到贵公司第14453号订单，现在货物已经按照贵方要求完成装船。",
+                "split": "我方 已经 收到 贵 公司 第 14453 号 订单 现在 货物 已经 按照 贵方 要求 完成 装船",
+                "en": "We have received your No.14453 order. Now the shipment has been completed in accordance with your request.",
+                "dict": {
+                  "已经": "yǐjīng / already",
+                  "公司": "gōngsī / company",
+                  "现在": "xiànzài / now"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s11",
+                "cn": "真对不起，因为这几天这边有飓风，所以船走不了。",
+                "split": "真 对不起 因为 这 几 天 这边 有 飓风 所以 船 走 不 了",
+                "en": "I'm so sorry. The ship cannot set sail because of the hurricane these days.",
+                "dict": {
+                  "真": "zhen / really; truly",
+                  "对不起": "duibuqi / sorry",
+                  "因为": "yinwei / because",
+                  "几": "ji / how many; several",
+                  "有": "you / to have",
+                  "所以": "suoyi / therefore",
+                  "不": "bu / not",
+                  "了": "liao / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l9-t3-s12",
+                "cn": "货物已经收到，我们今天把款打到你们公司的账号上了，请你们查一下。",
+                "split": "货物 已经 收到 我们 今天 把 款 打 到 你们 公司 的 账号 上 了 请 你们 查 一下",
+                "en": "The goods have been received and the payment has been transferred to your account. Please confirm it.",
+                "dict": {
+                  "已经": "yijing / already",
+                  "我们": "women / we; us",
+                  "今天": "jintian / today",
+                  "把": "ba / BA marker",
+                  "打": "da / to hit; to make (a phone call)",
+                  "你们": "nimen / you (plural)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "上": "shang / to attend (a class)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "请": "qing / please; invite"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t4",
+            "label": "场景 4 物流运输",
+            "sentences": [
+              {
+                "id": "swcd-l9-t4-s1",
+                "cn": "请问上海港的装箱价格是多少？",
+                "split": "请问 上海 港 的 装 箱 价格 是 多少",
+                "en": "What is the packing price at the Port of Shanghai?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "上海": "shanghai / Shanghai",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s2",
+                "cn": "你们的报关费标准是怎么定的？",
+                "split": "你们 的 报关费 标准 是 怎么 定 的",
+                "en": "What are your declaration fees?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "报关费": "baoguanfei / customs charge",
+                  "标准": "biaozhun / standard",
+                  "是": "shi / to be (am/is/are)",
+                  "怎么": "zenme / how; why"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s3",
+                "cn": "你们是门到门服务吧？",
+                "split": "你们 是 门到门 服务 吧",
+                "en": "You offer door-to-door service, right?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "是": "shi / to be (am/is/are)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s4",
+                "cn": "我现在没有具体船期的信息，您能不能留一个电话，稍后我给您回过去？",
+                "split": "我 现在 没有 具体 船期 的 信息 您 能 不 能 留 一 个 电话 稍后 我 给 您 回 过去",
+                "en": "I do not have the specific shipping schedule right now. Can you tell me your phone number? I will call you back later.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "现在": "xianzai / now",
+                  "没有": "meiyou / not have; haven't",
+                  "的": "de / (possessive/modifier particle)",
+                  "您": "nin / you (polite)",
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "电话": "dianhua / telephone; phone",
+                  "给": "gei / give; for",
+                  "回": "hui / to return; to reply"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s5",
+                "cn": "运费可以预付，也可以到付。",
+                "split": "运费 可以 预付 也 可以 到付",
+                "en": "The freight can be paid in advance, or on delivery.",
+                "dict": {
+                  "运费": "yunfei / freight",
+                  "可以": "keyi / can; may; OK",
+                  "也": "ye / also; too",
+                  "到付": "daofu / cash on delivery"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s6",
+                "cn": "订舱委托书已经传真过去了。",
+                "split": "订舱 委托书 已经 传真 过去 了",
+                "en": "The booking note has already been faxed.",
+                "dict": {
+                  "已经": "yijing / already",
+                  "传真": "chuanzhen / fax",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s7",
+                "cn": "您收到我们的装箱说明书了吗？",
+                "split": "您 收到 我们 的 装 箱 说明书 了 吗",
+                "en": "Have you received our packing specifications?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "说明书": "shuomingshu / product manual",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s8",
+                "cn": "请您确认一下提单的内容对不对。",
+                "split": "请 您 确认 一下 提单 的 内容 对 不 对",
+                "en": "Please confirm the contents in the bill of lading.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "提单": "tidan / bill of lading",
+                  "的": "de / (possessive/modifier particle)",
+                  "对": "dui / to; towards; correct",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s9",
+                "cn": "这次的货物都是易碎品，装卸的时候一定要注意，出货也请小心一点儿。",
+                "split": "这 次 的 货物 都 是 易碎品 装卸 的 时候 一定 要 注意 出 货 也 请 小心 一点儿",
+                "en": "The goods are fragile. Please handle them carefully.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "都": "dou / all; both",
+                  "是": "shi / to be (am/is/are)",
+                  "时候": "shihou / time; moment",
+                  "一定": "yiding / definitely",
+                  "要": "yao / want; need; will",
+                  "注意": "zhuyi / pay attention to",
+                  "也": "ye / also; too",
+                  "请": "qing / please; invite",
+                  "一点儿": "yidianr / a little bit"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s10",
+                "cn": "4558号订单里的货物已经按照你们的要求全部装上维多利亚轮，今天下午3:00离开了我港。",
+                "split": "4558 号 订单 里 的 货物 已经 按照 你们 的 要求 全部 装 上 维多利亚 轮 今天下午 3 00 离开 了 我 港",
+                "en": "Order No. 4558 has been loaded to the Victoria Wheel in accordance with your requirements and left the harbor at 3:00 this afternoon.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "已经": "yǐjīng / already",
+                  "你们": "nǐmen / you (plural)",
+                  "上": "shàng / to attend (a class)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wǒ / I; me"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s11",
+                "cn": "货轮预计在11月12号到达目的港，请做好接货准备。",
+                "split": "货轮 预计 在 11 月 12 号 到达 目的港 请 做好 接货 准备",
+                "en": "The shipment is expected to reach the port of destination on November 12th. Please be prepared to pick it up.",
+                "dict": {
+                  "在": "zài / to be at; (at)",
+                  "请": "qǐng / please; invite",
+                  "准备": "zhǔnbèi / prepare"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s12",
+                "cn": "如果转运的话可以节约8个点的运费。",
+                "split": "如果 转运 的话 可以 节约 8 个 点 的 运费",
+                "en": "The transshipment can save eight percent of the freight.",
+                "dict": {
+                  "可以": "keyi / can; may; OK",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)",
+                  "运费": "yunfei / freight"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s13",
+                "cn": "之前我们约定的是航运，现在我们想改成用火车运货。",
+                "split": "之前 我们 约定 的 是 航运 现在 我们 想 改成 用 火车 运 货",
+                "en": "We agreed on shipping before. But now we want to change to rail freight transport.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "现在": "xianzai / now",
+                  "想": "xiang / want; think",
+                  "火车": "huoche / train"
+                }
+              },
+              {
+                "id": "swcd-l9-t4-s14",
+                "cn": "我们已经订好船了，要是非改不可的话，额外产生的费用得由你们负担。",
+                "split": "我们 已经 订好 船 了 要是 非 改 不可 的话 额外 产生 的 费用 得 由 你们 负担",
+                "en": "We have already booked the ship. If you insist on the change, you will have to bear the extra costs generated.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "已经": "yijing / already",
+                  "了": "le / (particle: completed action / new situation)",
+                  "的": "de / (possessive/modifier particle)",
+                  "费用": "feiyong / cost",
+                  "你们": "nimen / you (plural)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t5",
+            "label": "场景 5 信贷融资",
+            "sentences": [
+              {
+                "id": "swcd-l9-t5-s1",
+                "cn": "我们公司最近资金周转有点儿困难，想申请一笔贷款。",
+                "split": "我们 公司 最近 资金 周转 有点儿 困难 想 申请 一 笔 贷款",
+                "en": "Our company has had some cash flow problems recently and would like to apply for a loan.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "最近": "zuijin / recently",
+                  "有点儿": "youdianr / a bit",
+                  "想": "xiang / want; think",
+                  "申请": "shenqing / to apply",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s2",
+                "cn": "我们想申请三个月的短期贷款。",
+                "split": "我们 想 申请 三 个 月 的 短期 贷款",
+                "en": "We would like to apply for a short-term loan of three months.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "申请": "shenqing / to apply",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s3",
+                "cn": "这个低息贷款项目是专门针对注册资本在50万以下的中小型企业的。",
+                "split": "这个 低息 贷款 项目 是 专门 针对 注册 资本 在 50 万 以下 的 中 小型 企业 的",
+                "en": "This low-interest loan program is specifically designed for small and medium enterprises with a registered capital of 500,000 or less.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "是": "shi / to be (am/is/are)",
+                  "注册": "zhuce / to register",
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s4",
+                "cn": "我们银行要求有贷款担保人。",
+                "split": "我们 银行 要求 有 贷款 担保人",
+                "en": "Our bank demands that you have a loan guarantor.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "银行": "yinhang / bank",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s5",
+                "cn": "请问贷款利率是多少？",
+                "split": "请问 贷款 利率 是 多少",
+                "en": "What is the loan interest rate?",
+                "dict": {
+                  "请问": "qingwen / excuse me, may I ask",
+                  "利率": "lilü / interest rate",
+                  "是": "shi / to be (am/is/are)",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s6",
+                "cn": "一年期的利率是5%，两年期的是8.5%。",
+                "split": "一年期 的 利率 是 5 两年 期 的 是 8 5",
+                "en": "The one-year interest rate is 5%; the interest rate for a biennium is 8.5%.",
+                "dict": {
+                  "的": "de / (possessive/modifier particle)",
+                  "利率": "lìlǜ / interest rate",
+                  "是": "shì / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s7",
+                "cn": "您打算用什么做抵押？",
+                "split": "您 打算 用 什么 做 抵押",
+                "en": "What do you plan to use as collateral?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "打算": "dasuan / to plan",
+                  "什么": "shenme / what",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s8",
+                "cn": "我们可以用一处房产做抵押。",
+                "split": "我们 可以 用 一 处 房产 做 抵押",
+                "en": "We can use a real estate property as collateral.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "可以": "keyi / can; may; OK",
+                  "一": "yi / one",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s9",
+                "cn": "你们是贸易公司，申请的又是无抵押贷款，最少需要有三年的运营经历。",
+                "split": "你们 是 贸易 公司 申请 的 又 是 无抵押 贷款 最 少 需要 有 三 年 的 运营 经历",
+                "en": "As a trading company, your company has to be operated for at least three years before you apply for an unsecured loan.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "是": "shi / to be (am/is/are)",
+                  "公司": "gongsi / company",
+                  "申请": "shenqing / to apply",
+                  "的": "de / (possessive/modifier particle)",
+                  "又": "you / again",
+                  "最": "zui / most",
+                  "需要": "xuyao / need",
+                  "有": "you / to have"
+                }
+              },
+              {
+                "id": "swcd-l9-t5-s10",
+                "cn": "你们的贷款申请已经审批通过了。",
+                "split": "你们 的 贷款 申请 已经 审批 通过 了",
+                "en": "Your loan application has been approved.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "申请": "shenqing / to apply",
+                  "已经": "yijing / already",
+                  "审批": "shenpi / to go over and approve",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t6",
+            "label": "场景 6 入境手续",
+            "sentences": [
+              {
+                "id": "swcd-l9-t6-s1",
+                "cn": "请出示一下您的护照。",
+                "split": "请 出示 一下 您 的 护照",
+                "en": "Please show me your passport.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s2",
+                "cn": "您的通关申报表我看一下好吗？",
+                "split": "您 的 通关 申报表 我 看 一下 好 吗",
+                "en": "Can you show me your customs declaration?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "我": "wo / I; me",
+                  "看": "kan / to look; to see; to visit",
+                  "好": "hao / good; well; OK",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s3",
+                "cn": "您有没有需要申报的物品？",
+                "split": "您 有 没有 需要 申报 的 物品",
+                "en": "Do you have anything to declare?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "有": "you / to have",
+                  "没有": "meiyou / not have; haven't",
+                  "需要": "xuyao / need",
+                  "申报": "shenbao / declaration",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s4",
+                "cn": "您带了多少现金？",
+                "split": "您 带了 多少 现金",
+                "en": "How much cash are you bringing with you?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "多少": "duoshao / how much"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s5",
+                "cn": "您来中国的目的是商务活动还是旅游？",
+                "split": "您 来 中国 的 目的 是 商务 活动 还是 旅游",
+                "en": "Do you come to China for business purposes or for travel?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "来": "lai / to come",
+                  "中国": "zhongguo / Chinese",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "还是": "haishi / or"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s6",
+                "cn": "您好是来北京出差的吗？",
+                "split": "您好 是 来 北京 出差 的 吗",
+                "en": "Are you coming to Beijing on a business trip?",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "来": "lái / to come",
+                  "北京": "běijīng / Beijing",
+                  "的": "de / (possessive/modifier particle)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s7",
+                "cn": "您打算待多长时间？",
+                "split": "您 打算 待 多 长 时间",
+                "en": "How long are you going to stay here?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "打算": "dasuan / to plan",
+                  "时间": "shijian / time"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s8",
+                "cn": "请把您的箱子打开。",
+                "split": "请 把 您 的 箱子 打开",
+                "en": "Please open your suitcase.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "把": "ba / BA marker",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "箱子": "xiangzi / suitcase"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s9",
+                "cn": "您的具体行程是怎么样的？",
+                "split": "您 的 具体 行程 是 怎么样 的",
+                "en": "What is your detailed itinerary?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s10",
+                "cn": "现金我一共带了30000人民币。",
+                "split": "现金 我 一共 带了 30000 人民币",
+                "en": "I have brought a total of RMB 30,000 in cash with me.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "一共": "yigong / altogether",
+                  "人民币": "renminbi / RMB"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s11",
+                "cn": "对不起，您带的现金超过了限额，请跟我来。",
+                "split": "对不起 您 带 的 现金 超过了 限额 请 跟 我 来",
+                "en": "I'm sorry. The amount of cash you have brought exceeds the limit. Please come with me.",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "限额": "xian'e / limit, quota",
+                  "请": "qing / please; invite",
+                  "跟": "gen / with",
+                  "我": "wo / I; me",
+                  "来": "lai / to come"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s12",
+                "cn": "我是来参加一个商务谈判的。",
+                "split": "我 是 来 参加 一 个 商务 谈判 的",
+                "en": "I am here for a business negotiation.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "是": "shi / to be (am/is/are)",
+                  "来": "lai / to come",
+                  "参加": "canjia / to participate",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s13",
+                "cn": "我打算在北京待一周，然后去大连，29号从北京回美国。",
+                "split": "我 打算 在 北京 待 一 周 然后 去 大连 29 号 从 北京 回 美国",
+                "en": "I intend to stay in Beijing for a week, and then go to Dalian. On the 29th I will go back to the US from Beijing.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "打算": "dasuan / to plan",
+                  "在": "zai / to be at; (at)",
+                  "北京": "beijing / Beijing",
+                  "一": "yi / one",
+                  "然后": "ranhou / then; afterwards",
+                  "去": "qu / to go",
+                  "从": "cong / from",
+                  "回": "hui / to return; to reply",
+                  "美国": "meiguo / America"
+                }
+              },
+              {
+                "id": "swcd-l9-t6-s14",
+                "cn": "提醒您一下，您的护照有效期已经不足六个月了。",
+                "split": "提醒 您 一下 您 的 护照 有效期 已经 不足 六 个 月 了",
+                "en": "I need to remind you that your passport will be valid for less than six months.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "有效期": "youxiaoqi / period of validity",
+                  "已经": "yijing / already",
+                  "不足": "buzu / deficiency",
+                  "个": "ge / (measure word)",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t7",
+            "label": "场景 7 报关通关",
+            "sentences": [
+              {
+                "id": "swcd-l9-t7-s1",
+                "cn": "我们想委托贵公司代理报检业务。",
+                "split": "我们 想 委托 贵公司 代理 报检 业务",
+                "en": "We want to entrust your agency with the inspection affairs.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "报检": "baojian / inspection"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s2",
+                "cn": "你们已经超过索赔有效期了，现在报检没有用了。",
+                "split": "你们 已经 超过 索赔 有效期 了 现在 报检 没有 用 了",
+                "en": "Your claim period is overdue, and it's no use to report for inspection any more.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "已经": "yijing / already",
+                  "有效期": "youxiaoqi / period of validity",
+                  "了": "le / (particle: completed action / new situation)",
+                  "现在": "xianzai / now",
+                  "报检": "baojian / inspection",
+                  "没有": "meiyou / not have; haven't"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s3",
+                "cn": "我们要办出口退税。",
+                "split": "我们 要 办 出口 退税",
+                "en": "We are asking for an export tax rebate.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "要": "yao / want; need; will",
+                  "退税": "tuishui / tax rebate"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s4",
+                "cn": "我们想请海关保护我们的商标专用权，这是我们的备案申请。",
+                "split": "我们 想 请 海关 保护 我们 的 商标 专用权 这 是 我们 的 备案 申请",
+                "en": "We would like to ask the Customs to protect our exclusive right to use the trademark. This is our application for archival filing.",
+                "dict": {
+                  "我们": "wǒmen / we; us",
+                  "想": "xiǎng / want; think",
+                  "请": "qǐng / please; invite",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)",
+                  "申请": "shēnqǐng / to apply"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s5",
+                "cn": "我们从荷兰进口了一批鲜花，想办提前提货。",
+                "split": "我们 从 荷兰 进口了 一 批 鲜花 想 办 提前 提 货",
+                "en": "We have imported a batch of flowers from the Netherlands, and want to pick up the goods in advance.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "从": "cong / from",
+                  "一": "yi / one",
+                  "想": "xiang / want; think"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s6",
+                "cn": "提前提货是可以的，但是要预付一部分进口税。",
+                "split": "提前 提 货 是 可以 的 但是 要 预付 一 部分 进口 税",
+                "en": "Advance pick-up is available, but you'll have to pay some import duties.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "可以": "keyi / can; may; OK",
+                  "的": "de / (possessive/modifier particle)",
+                  "但是": "danshi / but; however",
+                  "要": "yao / want; need; will",
+                  "一": "yi / one"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s7",
+                "cn": "我们想先把货存在保税仓库，然后直接从仓库办出口。",
+                "split": "我们 想 先 把 货 存 在 保税 仓库 然后 直接 从 仓库 办 出口",
+                "en": "We want to put the stock in the bonded warehouse for some time, and then export directly from there.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "想": "xiang / want; think",
+                  "先": "xian / first",
+                  "把": "ba / BA marker",
+                  "在": "zai / to be at; (at)",
+                  "仓库": "cangku / warehouse",
+                  "然后": "ranhou / then; afterwards",
+                  "从": "cong / from"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s8",
+                "cn": "您是想延期提货是吗？如果从保税仓库直接出口不用办通关手续。",
+                "split": "您 是 想 延期 提 货 是 吗 如果 从 保税 仓库 直接 出口 不用 办 通关 手续",
+                "en": "Do you want to postpone the pick-up? Direct export from the bonded warehouse does not need clearance.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "是": "shi / to be (am/is/are)",
+                  "想": "xiang / want; think",
+                  "吗": "ma / (question particle)",
+                  "从": "cong / from",
+                  "仓库": "cangku / warehouse",
+                  "不用": "buyong / no need"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s9",
+                "cn": "您带进口许可证了吗？",
+                "split": "您 带 进口 许可证 了 吗",
+                "en": "Do you have the import license with you?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t7-s10",
+                "cn": "对不起，您提供的材料不全，海关不能放行。",
+                "split": "对不起 您 提供 的 材料 不 全 海关 不 能 放行",
+                "en": "I'm sorry, but the materials you have provided are incomplete. The Customs cannot release your goods.",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "不": "bu / not",
+                  "能": "neng / can; able to"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t8",
+            "label": "场景 8 国际税收",
+            "sentences": [
+              {
+                "id": "swcd-l9-t8-s1",
+                "cn": "这种税按公司股份总额的百分比来收。",
+                "split": "这 种 税 按 公司 股份 总额 的 百分比 来 收",
+                "en": "This tax is calculated by the percentage of shares in the company.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "来": "lai / to come"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s2",
+                "cn": "坏账在计算所得税的时候可以抵减。",
+                "split": "坏账 在 计算 所得税 的 时候 可以 抵减",
+                "en": "The bad debts can be offset in the calculation of income tax.",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "的": "de / (possessive/modifier particle)",
+                  "时候": "shihou / time; moment",
+                  "可以": "keyi / can; may; OK"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s3",
+                "cn": "我们公司是一家外资企业，想做一下税务登记。",
+                "split": "我们 公司 是 一 家 外资 企业 想 做 一下 税务 登记",
+                "en": "Our company is a foreign-funded enterprise and we want to have a tax registration.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "是": "shi / to be (am/is/are)",
+                  "一": "yi / one",
+                  "家": "jia / home; family",
+                  "想": "xiang / want; think",
+                  "做": "zuo / to do; to make"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s4",
+                "cn": "请您出示一下营业执照。",
+                "split": "请 您 出示 一下 营业 执照",
+                "en": "Please show me your operation license.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s5",
+                "cn": "你们公司的经营范围是什么？",
+                "split": "你们 公司 的 经营 范围 是 什么",
+                "en": "What is your company's business scope?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "什么": "shenme / what"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s6",
+                "cn": "我们公司是做通信业务的。",
+                "split": "我们 公司 是 做 通信 业务 的",
+                "en": "Our company does business in the field of communications.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "是": "shi / to be (am/is/are)",
+                  "做": "zuo / to do; to make",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s7",
+                "cn": "请填一下这张纳税申报表。",
+                "split": "请 填 一下 这 张 纳税 申报表",
+                "en": "Please fill out this tax return.",
+                "dict": {
+                  "请": "qing / please; invite",
+                  "张": "zhang / Zhang (surname)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s8",
+                "cn": "你们提交的免税申请通过了。",
+                "split": "你们 提交 的 免税 申请 通过 了",
+                "en": "Your application for tax exemption has been approved.",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "的": "de / (possessive/modifier particle)",
+                  "申请": "shenqing / to apply",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s9",
+                "cn": "你们公司是自营贸易吗？",
+                "split": "你们 公司 是 自营 贸易 吗",
+                "en": "Does your company deal in self-employed trade?",
+                "dict": {
+                  "你们": "nimen / you (plural)",
+                  "公司": "gongsi / company",
+                  "是": "shi / to be (am/is/are)",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s10",
+                "cn": "买卖股票要交股票交易印花税。",
+                "split": "买卖 股票 要 交 股票 交易 印花税",
+                "en": "The sale of stocks requires a payment of stamp duty.",
+                "dict": {
+                  "要": "yao / want; need; will"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s11",
+                "cn": "如果你们公司提供应税业务、转让无形资产、出卖不动产，都要交营业税。营业税的税率一般是3%~5%，娱乐业是5%~20%。",
+                "split": "如果 你们 公司 提供 应税 业务 转让 无形资产 出卖 不动产 都 要 交 营业税 营业税 的 税率 一般 是 3 5 娱乐业 是 5 20",
+                "en": "If your company is involved in taxable services, transfer of intangible assets, or property sale, you must pay sales tax. The sales tax rate is generally 3% to 5%, and for the entertainment industry, it is 5% to 20%.",
+                "dict": {
+                  "你们": "nǐmen / you (plural)",
+                  "公司": "gōngsī / company",
+                  "都": "dōu / all; both",
+                  "要": "yào / want; need; will",
+                  "营业税": "yíngyèshuì / sales tax",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shì / to be (am/is/are)"
+                }
+              },
+              {
+                "id": "swcd-l9-t8-s12",
+                "cn": "增值税是最大的税种，如果你销售商品、提供加工、修理等劳务以及进口货物，都要交增值税。",
+                "split": "增值税 是 最 大 的 税种 如果 你 销售 商品 提供 加工 修理 等 劳务 以及 进口 货物 都 要 交 增值税",
+                "en": "The value-added tax (VAT) is the biggest tax. Whether you're selling goods, providing processing, repairing or other services, or importing goods, you'll have to pay VAT.",
+                "dict": {
+                  "增值税": "zengzhishui / VAT",
+                  "是": "shi / to be (am/is/are)",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "你": "ni / you",
+                  "销售": "xiaoshou / sales",
+                  "都": "dou / all; both",
+                  "要": "yao / want; need; will"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l9-t9",
+            "label": "场景 9 保险事宜",
+            "sentences": [
+              {
+                "id": "swcd-l9-t9-s1",
+                "cn": "我们的500公斤茶叶已经按发票金额的110%投保了串味险。",
+                "split": "我们 的 500 公斤 茶叶 已经 按 发票 金额 的 110 投保了 串味险",
+                "en": "We have insured our 500 kilograms of tea for 110% of the invoice value in case of taint of odor.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "茶叶": "chaye / tea leaves",
+                  "已经": "yijing / already",
+                  "发票": "fapiao / invoice",
+                  "串味险": "chuanweixian / insurance against taint of odor risks"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s2",
+                "cn": "保险的期限是多长时间？从什么时候到什么时候？",
+                "split": "保险 的 期限 是 多 长 时间 从 什么 时候 到 什么 时候",
+                "en": "How long is the term of insurance? When does it start and end?",
+                "dict": {
+                  "保险": "baoxian / insurance",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "时间": "shijian / time",
+                  "从": "cong / from",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s3",
+                "cn": "如果您想投保特殊险，就得付额外保费。",
+                "split": "如果 您 想 投保 特殊险 就 得 付 额外 保费",
+                "en": "If you want to insure against special risks, you'll have to pay extra premium.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "想": "xiang / want; think",
+                  "就": "jiu / just; simply"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s4",
+                "cn": "保险费率是投保额的0.1%。",
+                "split": "保险费率 是 投保 额 的 0 1",
+                "en": "The premium rate is 0.1% of the sum.",
+                "dict": {
+                  "是": "shì / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s5",
+                "cn": "我们可以承保海运、空运和陆地运输的所有险别。",
+                "split": "我们 可以 承保 海运 空运 和 陆地 运输 的 所有 险别",
+                "en": "We can insure against all kinds of risks in maritime, air and land transportation.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "可以": "keyi / can; may; OK",
+                  "海运": "haiyun / maritime transport",
+                  "空运": "kongyun / air transport",
+                  "和": "he / and; with",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s6",
+                "cn": "我们用的是国际保险当中常用的\"仓到仓\"责任条款。",
+                "split": "我们 用 的 是 国际 保险 当中 常用 的 仓 到 仓 责任 条款",
+                "en": "We abide by the \"warehouse to warehouse\" liability clauses commonly used in international insurance.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)",
+                  "是": "shi / to be (am/is/are)",
+                  "保险": "baoxian / insurance",
+                  "责任": "zeren / responsibility",
+                  "条款": "tiaokuan / terms"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s7",
+                "cn": "我认为您最好再买一个破碎险。",
+                "split": "我 认为 您 最好 再 买 一 个 破碎险",
+                "en": "I think you'd better buy an insurance against breakage.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "再": "zai / again (future)",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s8",
+                "cn": "信用证只要求投保\"综合海运险\"，并不包括特殊险。",
+                "split": "信用证 只 要求 投保 综合 海运险 并 不 包括 特殊险",
+                "en": "The letter of credit only requires \"comprehensive insurance against maritime risks\", not including a special risk.",
+                "dict": {
+                  "只": "zhi / only",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l9-t9-s9",
+                "cn": "对不起，您的货物损失不在承保范围内，所以我们不能理赔。",
+                "split": "对不起 您 的 货物 损失 不 在 承保 范围 内 所以 我们 不 能 理赔",
+                "en": "I'm sorry. Your loss is not covered in the insurance and we cannot compensate for it.",
+                "dict": {
+                  "对不起": "duibuqi / sorry",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "损失": "sunshi / loss",
+                  "不": "bu / not",
+                  "在": "zai / to be at; (at)",
+                  "所以": "suoyi / therefore",
+                  "我们": "women / we; us",
+                  "能": "neng / can; able to",
+                  "理赔": "lipei / settlement of a claim"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lesson10",
+        "title": "Unit 10 Etiquette 礼仪",
+        "titleEn": "Unit 10",
+        "texts": [
+          {
+            "id": "swcd-l10-t1",
+            "label": "场景 1 着装规范",
+            "sentences": [
+              {
+                "id": "swcd-l10-t1-s1",
+                "cn": "公司规定见客户必须穿正装。",
+                "split": "公司 规定 见 客户 必须 穿 正装",
+                "en": "The company requires that the employees wear formal attire when meeting a client.",
+                "dict": {
+                  "公司": "gongsi / company",
+                  "正装": "zhengzhuang / formal attire"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s2",
+                "cn": "我们公司对着装没有什么要求。",
+                "split": "我们 公司 对 着装 没有 什么 要求",
+                "en": "Our company has no specific dress code.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "公司": "gongsi / company",
+                  "对": "dui / to; towards; correct",
+                  "没有": "meiyou / not have; haven't",
+                  "什么": "shenme / what"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s3",
+                "cn": "今天怎么穿得这么隆重？有约会吗？",
+                "split": "今天 怎么 穿 得 这么 隆重 有 约会 吗",
+                "en": "You dress up today. Do you have a date?",
+                "dict": {
+                  "今天": "jintian / today",
+                  "怎么": "zenme / how; why",
+                  "这么": "zheme / so",
+                  "有": "you / to have",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s4",
+                "cn": "晚上有个应酬，只好穿得正式一点儿了。",
+                "split": "晚上 有 个 应酬 只好 穿 得 正式 一点儿 了",
+                "en": "There is a social event tonight. So I have to wear formally.",
+                "dict": {
+                  "晚上": "wanshang / evening",
+                  "有": "you / to have",
+                  "个": "ge / (measure word)",
+                  "一点儿": "yidianr / a little bit",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s5",
+                "cn": "你怎么穿个T恤就来上班了？",
+                "split": "你 怎么 穿 个 T 恤 就 来 上班 了",
+                "en": "How come you come to work wearing a T-shirt?",
+                "dict": {
+                  "你": "ni / you",
+                  "怎么": "zenme / how; why",
+                  "个": "ge / (measure word)",
+                  "就": "jiu / just; simply",
+                  "来": "lai / to come",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s6",
+                "cn": "在正式场合要穿得庄重一点儿，这颜色太艳了吧？",
+                "split": "在 正式 场合 要 穿 得 庄重 一点儿 这 颜色 太 艳 了 吧",
+                "en": "You have to dress up on formal occasions. Isn't this color too bright?",
+                "dict": {
+                  "在": "zai / to be at; (at)",
+                  "要": "yao / want; need; will",
+                  "一点儿": "yidianr / a little bit",
+                  "颜色": "yanse / color",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s7",
+                "cn": "周五是\"自由着装日\"，可以穿得随便一点儿，没问题。",
+                "split": "周五 是 自由 着装 日 可以 穿 得 随便 一点儿 没 问题",
+                "en": "Friday is \"casual dress day\". You can dress casually. It doesn't matter.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "可以": "keyi / can; may; OK",
+                  "一点儿": "yidianr / a little bit",
+                  "没": "mei / not (past)",
+                  "问题": "wenti / problem"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s8",
+                "cn": "黑皮鞋配白袜子，有点儿不合适。",
+                "split": "黑 皮鞋 配 白 袜子 有点儿 不 合适",
+                "en": "Don't match black shoes with white socks. It seems a little inappropriate.",
+                "dict": {
+                  "有点儿": "youdianr / a bit",
+                  "不": "bu / not",
+                  "合适": "heshi / fitting, suitable"
+                }
+              },
+              {
+                "id": "swcd-l10-t1-s9",
+                "cn": "首饰戴得太多了，会分散别人的注意力。",
+                "split": "首饰 戴 得 太 多 了 会 分散 别人 的 注意力",
+                "en": "Don't wear too much jewelry. It will distract others' attention.",
+                "dict": {
+                  "首饰": "shoushi / jewelry",
+                  "太": "tai / too; excessively",
+                  "了": "le / (particle: completed action / new situation)",
+                  "会": "hui / can; will",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l10-t2",
+            "label": "场景 2 迎来送往",
+            "sentences": [
+              {
+                "id": "swcd-l10-t2-s1",
+                "cn": "这是我的名片，请多多指教。",
+                "split": "这 是 我 的 名片 请 多多 指教",
+                "en": "This is my business card. I'm looking forward to your guidance in the future.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s2",
+                "cn": "抱歉，我的名片正好用完了。",
+                "split": "抱歉 我 的 名片 正好 用完 了",
+                "en": "I'm sorry. I just gave out my last business cards.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "正好": "zhenghao / happens to be",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s3",
+                "cn": "非常抱歉，路上堵车，来晚了。",
+                "split": "非常 抱歉 路上 堵 车 来 晚 了",
+                "en": "I'm sorry for coming late. The traffic was so heavy.",
+                "dict": {
+                  "非常": "feichang / very",
+                  "来": "lai / to come",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s4",
+                "cn": "您请上车，小心碰头。",
+                "split": "您 请 上 车 小心 碰 头",
+                "en": "Please get in the car and watch your head.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "请": "qing / please; invite",
+                  "上": "shang / to attend (a class)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s5",
+                "cn": "这个箱子很沉吧？我来帮您提吧。",
+                "split": "这个 箱子 很 沉 吧 我 来 帮 您 提 吧",
+                "en": "This box must be very heavy. Let me help you with it.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "箱子": "xiangzi / suitcase",
+                  "很": "hen / very",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "我": "wo / I; me",
+                  "来": "lai / to come",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s6",
+                "cn": "女士优先。",
+                "split": "女士 优先",
+                "en": "Ladies first.",
+                "dict": {}
+              },
+              {
+                "id": "swcd-l10-t2-s7",
+                "cn": "我来给您二位介绍一下，这位是张忠英先生，GR公司的首席执行官，这位是李黎女士，我们公司的总经理。",
+                "split": "我 来 给 您 二 位 介绍 一下 这 位 是 张 忠英 先生 GR 公司 的 首席 执行官 这 位 是 李 黎 女士 我们 公司 的 总经理",
+                "en": "Let me introduce. This is Mr. Zhang Zhiying, CEO of GR Company. This is Ms. Li Li, General Manager of our company.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "来": "lai / to come",
+                  "给": "gei / give; for",
+                  "您": "nin / you (polite)",
+                  "二": "er / two",
+                  "介绍": "jieshao / introduce",
+                  "是": "shi / to be (am/is/are)",
+                  "张": "zhang / Zhang (surname)",
+                  "先生": "xiansheng / sir",
+                  "公司": "gongsi / company",
+                  "的": "de / (possessive/modifier particle)",
+                  "我们": "women / we; us"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s8",
+                "cn": "早就想认识您，今天终于有机会见面了。",
+                "split": "早 就 想 认识 您 今天 终于 有 机会 见面 了",
+                "en": "I've always wanted to meet you and finally got the opportunity.",
+                "dict": {
+                  "就": "jiu / just; simply",
+                  "想": "xiang / want; think",
+                  "认识": "renshi / know; recognize",
+                  "您": "nin / you (polite)",
+                  "今天": "jintian / today",
+                  "有": "you / to have",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s9",
+                "cn": "您这么忙，我就不打扰您了，先告辞了。",
+                "split": "您 这么 忙 我 就 不 打扰 您 了 先 告辞 了",
+                "en": "Since you are so busy now, I will not bother you any more. I'll take my leave.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "这么": "zheme / so",
+                  "我": "wo / I; me",
+                  "就": "jiu / just; simply",
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)",
+                  "先": "xian / first",
+                  "告辞": "gaoci / to take leave"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s10",
+                "cn": "好不容易来一趟，再坐一会儿吧，时间还早。",
+                "split": "好不 容易 来 一 趟 再 坐 一会儿 吧 时间 还 早",
+                "en": "It's so rare to have you here. Why not stay a little longer? It's still early.",
+                "dict": {
+                  "容易": "rongyi / easy",
+                  "来": "lai / to come",
+                  "一": "yi / one",
+                  "再": "zai / again (future)",
+                  "一会儿": "yihuir / a while",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "时间": "shijian / time",
+                  "还": "hai / still; also"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s11",
+                "cn": "不了，我还有事，下次咱们找时间再聊。",
+                "split": "不 了 我 还 有 事 下 次 咱们 找 时间 再 聊",
+                "en": "No, thanks. I still have to run some errands. Let's talk again next time.",
+                "dict": {
+                  "不": "bu / not",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wo / I; me",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "咱们": "zanmen / we (inclusive)",
+                  "找": "zhao / to look for",
+                  "时间": "shijian / time",
+                  "再": "zai / again (future)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s12",
+                "cn": "我们明天早上一早的飞机，回去还得收拾行李。",
+                "split": "我们 明天 早上 一 早 的 飞机 回去 还 得 收拾 行李",
+                "en": "Our flight leaves early tomorrow morning. We have to go back and pack things up.",
+                "dict": {
+                  "我们": "women / we; us",
+                  "明天": "mingtian / tomorrow",
+                  "早上": "zaoshang / morning",
+                  "一": "yi / one",
+                  "的": "de / (possessive/modifier particle)",
+                  "飞机": "feiji / airplane",
+                  "还": "hai / still; also",
+                  "行李": "xingli / baggage"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s13",
+                "cn": "我送送您。慢走，以后常来。祝您一路平安。",
+                "split": "我 送送 您 慢走 以后 常 来 祝 您 一路 平安",
+                "en": "Allow me to see you out. Take care and come visit us often. I wish you a safe journey.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "您": "nin / you (polite)",
+                  "以后": "yihou / after",
+                  "来": "lai / to come"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s14",
+                "cn": "您还有没有需要办的事情？尽管告诉我。",
+                "split": "您 还 有 没有 需要 办 的 事情 尽管 告诉 我",
+                "en": "Do you have anything else to take care of? Just let me know.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "还": "hai / still; also",
+                  "有": "you / to have",
+                  "没有": "meiyou / not have; haven't",
+                  "需要": "xuyao / need",
+                  "的": "de / (possessive/modifier particle)",
+                  "告诉": "gaosu / tell",
+                  "我": "wo / I; me"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s15",
+                "cn": "谢谢您的热情接待，您别送了。",
+                "split": "谢谢 您 的 热情 接待 您 别 送 了",
+                "en": "Thank you for your warm reception. See you.",
+                "dict": {
+                  "谢谢": "xiexie / thank you",
+                  "您": "nin / you (polite)",
+                  "的": "de / (possessive/modifier particle)",
+                  "接待": "jiedai / to receive, to entertain",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t2-s16",
+                "cn": "路上小心，有机会我们再聚！",
+                "split": "路上 小心 有 机会 我们 再 聚",
+                "en": "Take care! I hope we can meet again!",
+                "dict": {
+                  "有": "you / to have",
+                  "我们": "women / we; us",
+                  "再": "zai / again (future)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l10-t3",
+            "label": "场景 3 餐桌礼仪",
+            "sentences": [
+              {
+                "id": "swcd-l10-t3-s1",
+                "cn": "您请上座。",
+                "split": "您 请 上座",
+                "en": "Please sit here.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "请": "qing / please; invite"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s2",
+                "cn": "您能吃辣吗？有没有什么忌口的？",
+                "split": "您 能 吃 辣 吗 有 没有 什么 忌口 的",
+                "en": "Can you eat spicy food? Is there anything you cannot eat?",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "能": "neng / can; able to",
+                  "吗": "ma / (question particle)",
+                  "有": "you / to have",
+                  "没有": "meiyou / not have; haven't",
+                  "什么": "shenme / what",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s3",
+                "cn": "这是我最爱的铁观音，今年的秋茶，您尝尝味道。",
+                "split": "这 是 我 最 爱 的 铁观音 今年 的 秋茶 您 尝尝 味道",
+                "en": "This is my favorite Tieguanyin, produced this autumn. Please have a taste.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "最": "zui / most",
+                  "的": "de / (possessive/modifier particle)",
+                  "今年": "jinnian / this year",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s4",
+                "cn": "人都到齐了，我们开始吧。",
+                "split": "人 都 到齐 了 我们 开始 吧",
+                "en": "Everyone is here. Let's get started.",
+                "dict": {
+                  "都": "dou / all; both",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我们": "women / we; us",
+                  "开始": "kaishi / start; begin",
+                  "吧": "ba / (particle, soft suggestion/guess)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s5",
+                "cn": "中国人讲究\"无酒不成宴\"，我们今天少来一点儿，开一瓶红酒怎么样？",
+                "split": "中国人 讲究 无 酒 不 成 宴 我们 今天 少 来 一点儿 开 一 瓶 红酒 怎么样",
+                "en": "To Chinese people, a dinner without wine cannot be counted as a dinner. How about we open a bottle of red wine and drink a little?",
+                "dict": {
+                  "中国人": "zhongguoren / Chinese person",
+                  "不": "bu / not",
+                  "我们": "women / we; us",
+                  "今天": "jintian / today",
+                  "来": "lai / to come",
+                  "一点儿": "yidianr / a little bit",
+                  "一": "yi / one",
+                  "怎么样": "zenmeyang / how about"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s6",
+                "cn": "真抱歉，因为我今天还要开车，喝不了酒，今天就以茶代酒，祝各位旅途愉快，一切顺利！",
+                "split": "真 抱歉 因为 我 今天 还 要 开车 喝 不 了 酒 今天 就 以 茶 代 酒 祝 各 位 旅途 愉快 一切 顺利",
+                "en": "I'm so sorry. I have to drive today and cannot drink alcohol. I will drink tea instead and wish everyone a pleasant journey and hope that all goes well!",
+                "dict": {
+                  "真": "zhen / really; truly",
+                  "因为": "yinwei / because",
+                  "我": "wo / I; me",
+                  "今天": "jintian / today",
+                  "还": "hai / still; also",
+                  "要": "yao / want; need; will",
+                  "开车": "kaiche / to drive",
+                  "不": "bu / not",
+                  "了": "liao / (particle: completed action / new situation)",
+                  "就": "jiu / just; simply",
+                  "愉快": "yukuai / happy, cheerful"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s7",
+                "cn": "我代表同行的所有同事，向各位的盛情款待表示感谢！",
+                "split": "我 代表 同行 的 所有 同事 向 各 位 的 盛情 款待 表示 感谢",
+                "en": "I want to propose a toast, on behalf of all my colleagues, to thank you for your hospitality!",
+                "dict": {
+                  "我": "wo / I; me",
+                  "的": "de / (possessive/modifier particle)",
+                  "向": "xiang / towards"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s8",
+                "cn": "我干了，您随意。",
+                "split": "我 干 了 您 随意",
+                "en": "Cheers.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "了": "le / (particle: completed action / new situation)",
+                  "您": "nin / you (polite)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s9",
+                "cn": "既然您不能喝酒，那就不勉强了。",
+                "split": "既然 您 不 能 喝 酒 那 就 不 勉强 了",
+                "en": "Since you cannot drink, we will not push you.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "不": "bu / not",
+                  "能": "neng / can; able to",
+                  "就": "jiu / just; simply",
+                  "了": "le / (particle: completed action / new situation)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s10",
+                "cn": "谢谢，谢谢，我自己来。",
+                "split": "谢谢 谢谢 我 自己 来",
+                "en": "Thank you. I'll do it myself.",
+                "dict": {
+                  "谢谢": "xiexie / thank you",
+                  "我": "wo / I; me",
+                  "自己": "ziji / oneself",
+                  "来": "lai / to come"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s11",
+                "cn": "这个菜是酸甜的，您一定爱吃，我给您转过去。",
+                "split": "这个 菜 是 酸甜 的 您 一定 爱 吃 我 给 您 转 过去",
+                "en": "This dish is sweet and sour. I'm sure you'll like it. Let me rotate the turntable for you.",
+                "dict": {
+                  "这个": "zhege / this one",
+                  "是": "shi / to be (am/is/are)",
+                  "的": "de / (possessive/modifier particle)",
+                  "您": "nin / you (polite)",
+                  "一定": "yiding / definitely",
+                  "我": "wo / I; me",
+                  "给": "gei / give; for",
+                  "转": "zhuan / to transfer, to put through"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s12",
+                "cn": "能不能把牙签筒递给我一下？",
+                "split": "能 不 能 把 牙签筒 递 给 我 一下",
+                "en": "Can you pass the toothpick holder to me?",
+                "dict": {
+                  "能": "neng / can; able to",
+                  "不": "bu / not",
+                  "把": "ba / BA marker",
+                  "给": "gei / give; for",
+                  "我": "wo / I; me"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s13",
+                "cn": "服务员，给我们换个盘子，好吗？",
+                "split": "服务员 给 我们 换 个 盘子 好 吗",
+                "en": "Waiter, can you change the plate for us?",
+                "dict": {
+                  "给": "gei / give; for",
+                  "我们": "women / we; us",
+                  "个": "ge / (measure word)",
+                  "好": "hao / good; well; OK",
+                  "吗": "ma / (question particle)"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s14",
+                "cn": "您几位慢用，我先出去接个电话。",
+                "split": "您 几 位 慢 用 我 先 出去 接 个 电话",
+                "en": "Take your time to enjoy the meal. I'll go pick up the phone.",
+                "dict": {
+                  "您": "nin / you (polite)",
+                  "几": "ji / how many; several",
+                  "我": "wo / I; me",
+                  "先": "xian / first",
+                  "接": "jie / to answer (a call); to receive",
+                  "个": "ge / (measure word)",
+                  "电话": "dianhua / telephone; phone"
+                }
+              },
+              {
+                "id": "swcd-l10-t3-s15",
+                "cn": "下一次我做东，请你们尝尝我们广东的靓汤。",
+                "split": "下 一 次 我 做东 请 你们 尝尝 我们 广东 的 靓汤",
+                "en": "Next time I'll treat you guys to some Cantonese soup.",
+                "dict": {
+                  "一": "yi / one",
+                  "我": "wo / I; me",
+                  "请": "qing / please; invite",
+                  "你们": "nimen / you (plural)",
+                  "我们": "women / we; us",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "swcd-l10-t4",
+            "label": "场景 4 礼尚往来",
+            "sentences": [
+              {
+                "id": "swcd-l10-t4-s1",
+                "cn": "下个月是\"十一黄金周\"，我有三个朋友结婚，都得随份子。",
+                "split": "下 个 月 是 十一 黄金周 我 有 三 个 朋友 结婚 都 得 随 份子",
+                "en": "The \"Golden Week\" is coming next month. Three of my friends are getting married and I have to chip in.",
+                "dict": {
+                  "个": "ge / (measure word)",
+                  "是": "shi / to be (am/is/are)",
+                  "我": "wo / I; me",
+                  "有": "you / to have",
+                  "朋友": "pengyou / friend",
+                  "都": "dou / all; both"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s2",
+                "cn": "你什么时候搬家？到时候我们去给你温居啊！",
+                "split": "你 什么 时候 搬家 到 时候 我们 去 给 你 温居 啊",
+                "en": "When will you move? We are coming to your housewarming party.",
+                "dict": {
+                  "你": "ni / you",
+                  "什么": "shenme / what",
+                  "时候": "shihou / time; moment",
+                  "我们": "women / we; us",
+                  "去": "qu / to go",
+                  "给": "gei / give; for",
+                  "啊": "a / (interjection)"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s3",
+                "cn": "我儿子快要结婚了，欢迎大家去喝喜。",
+                "split": "我 儿子 快要 结婚 了 欢迎 大家 去 喝 喜",
+                "en": "My son is getting married. You are all welcome to the wedding party.",
+                "dict": {
+                  "我": "wǒ / I; me",
+                  "儿子": "érzi / son",
+                  "了": "le / (particle: completed action / new situation)",
+                  "欢迎": "huānyíng / welcome",
+                  "大家": "dàjiā / everyone",
+                  "去": "qù / to go"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s4",
+                "cn": "我女儿下周二满月，我请大家吃饭。",
+                "split": "我 女儿 下 周二 满月 我 请 大家 吃饭",
+                "en": "My daughter is one month old next Tuesday. I'd like to invite you to a dinner.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "女儿": "nü'er / daughter",
+                  "请": "qing / please; invite",
+                  "大家": "dajia / everyone",
+                  "吃饭": "chifan / to eat (a meal)"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s5",
+                "cn": "中秋节快到了，我订了20个月饼礼盒，里边除了月饼还有两瓶红酒，送客户用。",
+                "split": "中秋节 快 到 了 我 订了 20 个 月饼 礼盒 里边 除了 月饼 还有 两 瓶 红酒 送 客户 用",
+                "en": "The Mid-Autumn Festival is approaching. I have booked 20 boxes of mooncakes for our clients. Besides mooncakes, each box contains two bottles of red wine.",
+                "dict": {
+                  "快": "kuai / quick; hurry",
+                  "了": "le / (particle: completed action / new situation)",
+                  "我": "wo / I; me",
+                  "个": "ge / (measure word)",
+                  "里边": "libian / inside",
+                  "还有": "haiyou / also have"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s6",
+                "cn": "这是我们请专门的设计公司为贵公司做的台历，每一页都有公司重要活动的照片，公司重要的活动和纪念日上面都有提醒。",
+                "split": "这 是 我们 请 专门 的 设计 公司 为 贵 公司 做 的 台历 每 一 页 都 有 公司 重要 活动 的 照片 公司 重要 的 活动 和 纪念日 上面 都 有 提醒",
+                "en": "This is the calendar designed by a specialized design company we employed for you. It has photos of the important activities in your company on every page. It also has reminders for every important event and date of the company.",
+                "dict": {
+                  "是": "shi / to be (am/is/are)",
+                  "我们": "women / we; us",
+                  "请": "qing / please; invite",
+                  "的": "de / (possessive/modifier particle)",
+                  "公司": "gongsi / company",
+                  "为": "wei / for",
+                  "做": "zuo / to do; to make",
+                  "一": "yi / one",
+                  "都": "dou / all; both",
+                  "有": "you / to have",
+                  "照片": "zhaopian / photo",
+                  "和": "he / and; with"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s7",
+                "cn": "这周末去我家吃饭吧？请你尝尝我的手艺。",
+                "split": "这 周末 去 我 家 吃饭 吧 请 你 尝尝 我 的 手艺",
+                "en": "How about having dinner at my place this weekend? You can have a taste of my cooking.",
+                "dict": {
+                  "去": "qu / to go",
+                  "我": "wo / I; me",
+                  "家": "jia / home; family",
+                  "吃饭": "chifan / to eat (a meal)",
+                  "吧": "ba / (particle, soft suggestion/guess)",
+                  "请": "qing / please; invite",
+                  "你": "ni / you",
+                  "的": "de / (possessive/modifier particle)"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s8",
+                "cn": "我给小宝宝买了一个玩具，看看他喜欢不喜欢。",
+                "split": "我 给 小 宝宝 买了 一 个 玩具 看看 他 喜欢 不 喜欢",
+                "en": "I bought the baby a toy. I wonder if he likes it or not.",
+                "dict": {
+                  "我": "wo / I; me",
+                  "给": "gei / give; for",
+                  "一": "yi / one",
+                  "个": "ge / (measure word)",
+                  "看看": "kankan / to take a look",
+                  "他": "ta / he; him",
+                  "喜欢": "xihuan / like; love",
+                  "不": "bu / not"
+                }
+              },
+              {
+                "id": "swcd-l10-t4-s9",
+                "cn": "千里送鹅毛，礼轻情意重。",
+                "split": "千里 送 鹅毛 礼 轻 情意 重",
+                "en": "The gift itself may be insignificant, but the goodwill is deep.",
+                "dict": {}
+              },
+              {
+                "id": "swcd-l10-t4-s10",
+                "cn": "礼多人不怪。",
+                "split": "礼 多 人 不 怪",
+                "en": "Courtesy is never to blame.",
+                "dict": {
+                  "不": "bu / not"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }]
 
 // 将 HSK5(上) 分段英文（chunkEn，按 chunkSentence 输出顺序）挂载到对应句子，

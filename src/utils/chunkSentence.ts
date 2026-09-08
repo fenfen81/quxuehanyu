@@ -328,6 +328,18 @@ function controlFrags(frags: Frag[], totalHan: number): Frag[] {
   return frags
 }
 
+/**
+ * 走「意群分段 + 分段英文」的教材前缀（唯一真相源，三处共用）：
+ *  - hsk5 ：《HSK标准教程》第五册（上）
+ *  - swcd ：《想说就说·商务汉语口语完全手册》（句子长，按意群练习）
+ * 其余教材保持「逐词分词 + 每词英文」。
+ */
+export const CHUNK_MODE_PREFIXES = ['hsk5', 'swcd']
+
+export function isChunkedSentence(id: string): boolean {
+  return CHUNK_MODE_PREFIXES.some((p) => (id || '').startsWith(p + '-'))
+}
+
 export function chunkSentence(_cn: string, split: string): string[] {
   const raw = (split || '').split(/\s+/).filter(Boolean)
   if (raw.length === 0) return []

@@ -27,7 +27,7 @@ console.log('Bundling content.ts & chunkSentence.ts ...');
 execSync(`"${NODE}" "${ESBUILD}" src/data/content.ts --bundle --format=cjs --outfile=tmp_content_bundle.cjs`, { cwd: __dirname, stdio: 'ignore' });
 execSync(`"${NODE}" "${ESBUILD}" src/utils/chunkSentence.ts --bundle --format=cjs --outfile=tmp_chunk_bundle.cjs`, { cwd: __dirname, stdio: 'ignore' });
 const { textbooks } = require('./tmp_content_bundle.cjs');
-const { chunkSentence } = require('./tmp_chunk_bundle.cjs');
+const { chunkSentence, isChunkedSentence } = require('./tmp_chunk_bundle.cjs');
 
 // ── 2. 删除旧分段音频（保留单词音频 + 完整句子音频）──
 // 切分规则已变：所有 -c{n} 分段文件需重建；完整句子音频只取决于 cn，与切分无关，保留。
@@ -38,7 +38,7 @@ if (fs.existsSync(OUTPUT_DIR)) {
     if (/^w-\S+\.mp3$/.test(f)) continue;     // 保留单词音频(hash 命名)
     if (/^l\d+-w\d+\.mp3$/.test(f)) continue; // 保留教材单词音频
     if (/-c\d+\.mp3$/.test(f)) {              // 分段音频
-      if (f.startsWith('hsk5-')) continue;    // 保留 HSK5 意群分段（已对齐，避免重生成 1760 段）
+      if (isChunkedSentence(f)) continue;      // 保留意群分段教材（HSK5/商务汉语手册）的已对齐分段
       if (process.env.RESUME_SEG) continue;   // 续跑模式：保留已生成的非 HSK5 逐词分段，仅补齐缺失
       try { fs.unlinkSync(path.join(OUTPUT_DIR, f)); removed++; } catch (e) {} // 非 HSK5：改回逐词分段，删除旧意群分段重建
       continue;
@@ -63,7 +63,7 @@ for (const tb of textbooks) {
         const fullText = clean(s.cn);
         if (fullText) tasks.push({ file: `${s.id}.mp3`, text: fullText });
         // 分段规则与练习组件保持一致：HSK5 用意群，其余教材用原始逐词分词
-        const isH5 = s.id.startsWith('hsk5-');
+        const isH5 = isChunkedSentence(s.id);
         const chunks = isH5
           ? chunkSentence(s.cn, s.split)
           : s.split.split(/\s+/).filter(Boolean);
