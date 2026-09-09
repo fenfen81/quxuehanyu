@@ -154,6 +154,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [autoSpeak, setAutoSpeak]             = useState(true)
   const [showPinyin, setShowPinyin]           = useState(true)
   const [showExamplePinyin, setShowExamplePinyin] = useState(true)
+  const [showExampleEn, setShowExampleEn] = useState(true)
   const [autoExampleAudio, setAutoExampleAudio]   = useState(true)
   const [searchQ, setSearchQ]                 = useState('')
   const [searchResults, setSearchResults]     = useState<HskWord[]>([])
@@ -576,6 +577,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
             <button onClick={()=>{setAutoSpeak(a=>!a);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${autoSpeak?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{autoSpeak?'🔊':'🔇'}{tt('words_auto_read')}</button>
             <button onClick={()=>{setShowPinyin(p=>!p);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showPinyin?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showPinyin?'🔤':'🙈'}{tt('words_pinyin_toggle')}</button>
             <button onClick={()=>{setShowExamplePinyin(p=>!p);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showExamplePinyin?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showExamplePinyin?'🈶':'🙈'}{tt('words_example_pinyin_toggle')}</button>
+            <button onClick={()=>{setShowExampleEn(p=>!p);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${showExampleEn?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{showExampleEn?'🔤':'🙈'}{tt('words_example_en_toggle')}</button>
             <button onClick={()=>{setAutoExampleAudio(a=>!a);sfx.play('click')}} className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${autoExampleAudio?'bg-indigo-50 text-indigo-600 border-indigo-200':'bg-white text-slate-400 border-slate-200'}`}>{autoExampleAudio?'🔊':'🔇'}{tt('words_example_audio_toggle')}</button>
             {mode==='type' && (<div className="flex rounded-lg border border-slate-200 overflow-hidden ml-1"><button onClick={()=>{setTypeHintMode('english');sfx.play('click')}} className={`px-3 py-1.5 text-xs font-semibold ${typeHintMode==='english'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>英文释义</button><button onClick={()=>{setTypeHintMode('pinyin');sfx.play('click')}} className={`px-3 py-1.5 text-xs font-semibold border-l border-slate-200 ${typeHintMode==='pinyin'?'bg-purple-500 text-white':'bg-white text-slate-500 hover:bg-slate-50'}`}>拼音</button></div>)}
           </div>
@@ -624,7 +626,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                             <SpeakBtn text={ex.cn} wordId={current.id + '-ex'} className="w-8 h-8 text-sm bg-indigo-50 text-indigo-600 shrink-0" />
                           </div>
                           {showExamplePinyin && exPinyin && <div className="text-sm sm:text-base text-indigo-400 mt-1 font-medium">{exPinyin}</div>}
-                          <div className="text-sm sm:text-base text-slate-400 mt-1">{ex.en}</div>
+                          {showExampleEn && <div className="text-sm sm:text-base text-slate-400 mt-1">{ex.en}</div>}
                         </div>
                       )
                     })()}
