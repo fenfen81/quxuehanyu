@@ -25,10 +25,12 @@ export function ChunkedTypePractice({ sentence, mode, onAnswer, onPlayAudio, onP
   // 长句教材（HSK5 上、商务汉语手册）走意群分段；其余教材按 sentence.split 逐词分词
   const isHsk5 = isChunkedSentence(sentence.id)
   const chunks = useMemo(() => {
+    // ① 预生成意群分段（人工校订）② HSK5 启发式 ③ 逐词分词
+    if (sentence.chunk && sentence.chunk.length > 1) return sentence.chunk
     return isHsk5
       ? chunkSentence(sentence.cn, sentence.split)
       : sentence.split.split(/\s+/).filter(Boolean)
-  }, [sentence])
+  }, [sentence, isHsk5])
   const isSingleChunk = chunks.length <= 1
 
   const [phase, setPhase] = useState<'chunk' | 'full'>('chunk')

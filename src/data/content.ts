@@ -1,5 +1,6 @@
 import type { Category, CategorySlug, Textbook } from '@/types'
 import { hsk5ChunkEn } from './hsk5ChunkEn'
+import { swcdChunks } from './swcdChunks'
 
 export const categories: Category[] = [
   { slug: 'comprehensive', name: '综合汉语', nameEn: 'Comprehensive Chinese', description: '系统学习听、说、读、写，全面提高汉语水平', icon: '📚' },
@@ -55941,4 +55942,20 @@ export function getTextbookById(id: string): Textbook | undefined {
 
 export function getTextbooksByCategory(categoryId: CategorySlug): Textbook[] {
   return textbooks.filter((t) => t.categoryId === categoryId)
+}
+
+// 将《想说就说·商务汉语口语完全手册》人工校订的意群分段（chunk）与逐段英文（chunkEn）
+// 挂载到对应句子；练习组件优先使用，未命中才回退 chunkSentence 启发式切分。
+for (const tb of textbooks) {
+  for (const lesson of tb.lessons) {
+    for (const text of lesson.texts) {
+      for (const s of text.sentences) {
+        const sc = swcdChunks[s.id]
+        if (sc) {
+          s.chunk = sc.c
+          s.chunkEn = sc.e
+        }
+      }
+    }
+  }
 }

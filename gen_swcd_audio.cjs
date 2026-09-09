@@ -38,8 +38,8 @@ for (const L of book.lessons || []) {
       if (!s.id || !s.cn) continue
       const full = clean(s.cn)
       if (full) tasks.push({ file: `audio/${s.id}.mp3`, text: full })
-      // 与前端一致：本书走意群分段
-      const chunks = chunkSentence(s.cn, s.split)
+      // 与前端一致：优先用预生成的意群分段（swcdChunks），无则回退 chunkSentence
+      const chunks = (s.chunk && s.chunk.length > 1) ? s.chunk : chunkSentence(s.cn, s.split)
       if (chunks.length > 1) {
         chunks.forEach((c, n) => {
           const ct = clean(c)
