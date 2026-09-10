@@ -19,6 +19,7 @@ import type { TbWordHit } from '../lib/textbookLookup'
 import { WordLookupDialog } from './vocab/WordLookupDialog'
 import { LessonVocabPreview } from './vocab/LessonVocabPreview'
 import { TextbookVocabPreview } from './vocab/TextbookVocabPreview'
+import { HskVocabPrintPicker } from './vocab/HskVocabPrintPicker'
 
 // ── 教材生词 → HskWord 适配器 ──
 function textbookWordToHskWord(w: TextbookWord): HskWord {
@@ -155,6 +156,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [showPinyin, setShowPinyin]           = useState(true)
   const [showExamplePinyin, setShowExamplePinyin] = useState(true)
   const [showExampleEn, setShowExampleEn] = useState(true)
+  const [showHskPrint, setShowHskPrint]   = useState(false)
   const [autoExampleAudio, setAutoExampleAudio]   = useState(true)
   const [searchQ, setSearchQ]                 = useState('')
   const [searchResults, setSearchResults]     = useState<HskWord[]>([])
@@ -551,6 +553,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
             <button onClick={()=>setShowWrongBook(true)} className={`rounded-xl border p-4 text-left transition-all group ${wrongWords.length>0?'bg-red-50 border-red-200 hover:border-red-300 hover:shadow-md':'border-slate-200 bg-white hover:border-slate-300'}`}><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📝</div><div className="text-sm font-bold text-slate-700">{tt('words_wrong_book')}</div><div className={`text-xs ${wrongWords.length>0?'text-red-500 font-semibold':'text-slate-400'}`}>{wrongWords.length} {tt('words_wrong_count')}</div></button>
             <button onClick={startReviewAllSession} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-emerald-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📚</div><div className="text-sm font-bold text-slate-700">{tt('words_review_all')}</div><div className="text-xs text-slate-400">{totalWords} {tt('words_random_pick')}</div></button>
             <button onClick={()=>{beginSession(()=>{const nw=newWordsToLearn.length>0?newWordsToLearn.slice(0,plan.dailyGoal):shuffle(levelWords).slice(0,Math.max(plan.dailyGoal,20));setSessionQueue(shuffle(nw));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('type');sfx.play('click')})}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-purple-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">⌨️</div><div className="text-sm font-bold text-slate-700">{tt('words_type_practice')}</div><div className="text-xs text-slate-400">{tt('words_type_desc')}</div></button>
+            {/* 打印 / 导出 HSK 生词表 */}
+            <button onClick={()=>setShowHskPrint(true)} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🖨</div><div className="text-sm font-bold text-slate-700">{lang==='zh'?'打印生词表':'Print list'}</div><div className="text-xs text-slate-400">{lang==='zh'?'自选词 · 4 种模式':'Pick words · 4 modes'}</div></button>
             {/* 错词专项复习 */}
             {wrongWords.length > 0 && (
               <button onClick={()=>{if(wrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-orange-50 p-4 text-left hover:border-red-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🎯</div><div className="text-sm font-bold text-red-700">{tt('words_wrong_practice')}</div><div className="text-xs text-red-400">{tt('words_wrong_practice_desc')}</div></button>
@@ -699,6 +703,15 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       )}
 
       {/* 错词本弹窗 */}
+      {showHskPrint && (
+        <HskVocabPrintPicker
+          defaultLevel={plan.level}
+          favIds={favIds}
+          wrongWords={wrongWords}
+          lang={lang}
+          onClose={()=>setShowHskPrint(false)}
+        />
+      )}
       {showWrongBook && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={(e)=>{if(e.target===e.currentTarget){setShowWrongBook(false);sfx.play('click')}}}>
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"/>
