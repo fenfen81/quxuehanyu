@@ -4,6 +4,7 @@ import { getTextbookStats, getWordOccurrences } from '../../lib/textbookLookup'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
 import { SpeakButton } from '../SpeakButton'
+import { VocabPrintDialog } from './VocabPrintDialog'
 
 interface Props {
   textbookId: string
@@ -32,6 +33,7 @@ function fallbackCopy(text: string, done: () => void) {
 export function TextbookVocabPreview({ textbookId, lang, onClose, onStartLesson, onLookupWord }: Props) {
   const [repeatOnly, setRepeatOnly] = useState(false)
   const [copied, setCopied] = useState(false)
+  const [showPrint, setShowPrint] = useState(false)
 
   const tb = textbookVocabList.find(x => x.textbookId === textbookId)
   const stats = getTextbookStats(textbookId)
@@ -107,6 +109,10 @@ export function TextbookVocabPreview({ textbookId, lang, onClose, onStartLesson,
             onClick={handleCopy}
             className="px-3 py-1.5 rounded-lg text-xs font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 transition-colors"
           >{copied ? `✓ ${t('tb_copied', lang)}` : `📋 ${t('tb_copy_list', lang)}`}</button>
+          <button
+            onClick={() => setShowPrint(true)}
+            className="px-3 py-1.5 rounded-lg text-xs font-bold text-white bg-indigo-600 border border-indigo-600 hover:bg-indigo-700 transition-colors"
+          >🖨 {t('vocab_print_btn', lang)}</button>
         </div>
 
         {/* 词表（按课分组） */}
@@ -166,6 +172,16 @@ export function TextbookVocabPreview({ textbookId, lang, onClose, onStartLesson,
           >{t('close', lang)}</button>
         </div>
       </div>
+
+      {showPrint && (
+        <VocabPrintDialog
+          words={groups.flatMap(g => g.words.map(w => ({ hanzi: w.hanzi, pinyin: w.pinyin, pos: w.pos, english: w.english, exampleCn: w.exampleCn, exampleEn: w.exampleEn })))}
+          title={bookTitle}
+          subtitle={`${repeatOnly ? t('tb_filter_repeat', lang) + ' · ' : ''}${statLine}`}
+          lang={lang}
+          onClose={() => setShowPrint(false)}
+        />
+      )}
     </div>
   )
 }

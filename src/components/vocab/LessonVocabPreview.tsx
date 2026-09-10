@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { getLessonInfo, getWordOccurrences } from '../../lib/textbookLookup'
+import { VocabPrintDialog } from './VocabPrintDialog'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
 import { SpeakButton } from '../SpeakButton'
@@ -15,6 +17,7 @@ interface Props {
 
 /** 每课生词表预览：不进入练习，先整体看一遍这一课要学哪些词 */
 export function LessonVocabPreview({ textbookId, lessonId, lang, onClose, onStartLesson, onLookupWord }: Props) {
+  const [showPrint, setShowPrint] = useState(false)
   const info = getLessonInfo(textbookId, lessonId)
   if (!info) return null
   const { textbook, lesson } = info
@@ -85,16 +88,32 @@ export function LessonVocabPreview({ textbookId, lessonId, lang, onClose, onStar
 
         {/* 底部操作 */}
         <div className="border-t border-slate-100 px-5 py-3.5 flex items-center justify-between gap-3 bg-white">
-          <button
-            onClick={onClose}
-            className="px-4 py-2.5 rounded-xl text-sm font-bold text-slate-500 bg-white border border-slate-200 hover:bg-slate-50"
-          >{t('close', lang)}</button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={onClose}
+              className="px-4 py-2.5 rounded-xl text-sm font-bold text-slate-500 bg-white border border-slate-200 hover:bg-slate-50"
+            >{t('close', lang)}</button>
+            <button
+              onClick={() => setShowPrint(true)}
+              className="px-4 py-2.5 rounded-xl text-sm font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 hover:bg-indigo-100"
+            >🖨 {t('vocab_print_btn', lang)}</button>
+          </div>
           <button
             onClick={() => { onStartLesson(textbookId, lessonId); onClose() }}
             className="px-5 py-2.5 rounded-xl text-sm font-bold text-white bg-emerald-600 hover:bg-emerald-700 shadow-sm"
           >▶ {t('tb_start_lesson', lang)}</button>
         </div>
       </div>
+
+      {showPrint && (
+        <VocabPrintDialog
+          words={lesson.words.map(w => ({ hanzi: w.hanzi, pinyin: w.pinyin, pos: w.pos, english: w.english, exampleCn: w.exampleCn, exampleEn: w.exampleEn }))}
+          title={bookTitle}
+          subtitle={`${lessonTitle} · ${lesson.words.length} 词`}
+          lang={lang}
+          onClose={() => setShowPrint(false)}
+        />
+      )}
     </div>
   )
 }
