@@ -8,6 +8,7 @@ import type { TextbookWord } from '../data/textbookDict'
 import { sfx } from '../utils/sfx'
 import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
+import { reportLearning, type WrongWordEntry } from '@/lib/learningReport'
 import { categories } from '../data/content'
 import { WordPopup } from './practice/WordPopup'
 import { PaywallDialog } from '@/components/PaywallDialog'
@@ -242,7 +243,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     try {
       const raw = localStorage.getItem('qx_tb_vocab_jump')
       if (!raw) return
-      const { textbookId, lessonId, ts } = JSON.parse(raw)
+      const { textbookId, lessonId, ts, taskId, classId, lessonTitle } = JSON.parse(raw)
       // 5秒内的请求才有效，避免 stale 数据
       if (Date.now() - ts > 5000) { localStorage.removeItem('qx_tb_vocab_jump'); return }
       const tb = textbookVocabList.find(t => t.textbookId === textbookId)
@@ -251,6 +252,9 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       if (!lesson) { localStorage.removeItem('qx_tb_vocab_jump'); return }
       // 清除标记，防止重复触发
       localStorage.removeItem('qx_tb_vocab_jump')
+      // 若是任务来源，记录任务上下文（完成后上报学情）
+      sessionTaskRef.current = (taskId && classId) ? { taskId, classId, lessonTitle } : null
+      sessionStartRef.current = Date.now()
       // 自动进入教材模式 + 开始本课生词
       setVocabMode('textbook')
       setTbTextbookId(textbookId)
@@ -312,6 +316,8 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     if (!tb) return
     const lesson = tb.lessons.find(l => l.lessonId === lessonId)
     if (!lesson || !lesson.words.length) return
+    // 自由练习（非任务来源）→ 清掉任务上下文，避免误上报
+    sessionTaskRef.current = null
     beginSession(() => {
       const words = lesson.words.map(textbookWordToHskWord)
       setSessionQueue(words); setIdx(0); setFlipped(false); setChosen(null)
@@ -323,6 +329,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const startHitSession = useCallback((words: TextbookWord[], _label: string) => {
     if (!words.length) return
     setVocabMode('textbook')
+    sessionTaskRef.current = null
     beginSession(() => {
       setSessionQueue(words.map(textbookWordToHskWord))
       setIdx(0); setFlipped(false); setChosen(null)
@@ -339,10 +346,17 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     })
   }, [])
 
+  // 记录答错：同步到全局错词本 + 本轮学情累积
+  const recordWrong = (w: HskWord) => {
+    onWrongWord?.(w)
+    const entry: WrongWordEntry = { hanzi: w.hanzi, pinyin: w.pinyin, english: w.english }
+    if (!wrongWordsSessionRef.current.some(x => x.hanzi === w.hanzi)) wrongWordsSessionRef.current.push(entry)
+  }
+
   const handleAnswer = (word: HskWord) => {
     if (chosen) return; setChosen(word.id); const isCorrect = word.id === sessionQueue[idx].id
     setScore(s => ({ correct: s.correct+(isCorrect?1:0), wrong: s.wrong+(isCorrect?0:1) }))
-    if (isCorrect) { if(vocabMode==='hsk')markLearned(sessionQueue[idx].id); onXP?.(10); sfx.play('correct') } else { if(vocabMode==='hsk')markForReview(sessionQueue[idx].id); onWrongWord?.(sessionQueue[idx]); sfx.play('wrong') }
+    if (isCorrect) { if(vocabMode==='hsk')markLearned(sessionQueue[idx].id); onXP?.(10); sfx.play('correct') } else { if(vocabMode==='hsk')markForReview(sessionQueue[idx].id); recordWrong(sessionQueue[idx]); sfx.play('wrong') }
     setTimeout(() => { if(idx+1>=sessionQueue.length){finishSession()} else{setIdx(i=>i+1);setChosen(null)} }, 1000)
   }
   const nextCard = () => { if(idx+1>=sessionQueue.length){finishSession();return}; setIdx(i=>i+1);setFlipped(false);sfx.play('flip') }
@@ -355,7 +369,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
     const expected = current.hanzi.replace(/\s/g,''), actual = input.replace(/\s/g,'')
     const isCorrect = expected === actual
     if (isCorrect) { setTypedCorrect(true); if(vocabMode==='hsk')markLearned(current.id); onXP?.(10); sfx.play('correct'); setTimeout(()=>{if(idx+1>=sessionQueue.length){finishSession()}else{setIdx(i=>i+1);sfx.play('flip')}},1200) }
-    else { setTypedCorrect(false); setTypeMistakes(m=>m+1); if(vocabMode==='hsk')markForReview(current.id); onWrongWord?.(current); sfx.play('wrong'); setTimeout(()=>{setTypedCorrect(null);setTypeInput('')},800) }
+    else { setTypedCorrect(false); setTypeMistakes(m=>m+1); if(vocabMode==='hsk')markForReview(current.id); recordWrong(current); sfx.play('wrong'); setTimeout(()=>{setTypedCorrect(null);setTypeInput('')},800) }
   }
   const handleTypeSkip = () => { if(vocabMode==='hsk')markForReview(sessionQueue[idx].id); if(idx+1>=sessionQueue.length){finishSession();return}; setIdx(i=>i+1); sfx.play('delete') }
 
@@ -366,9 +380,46 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       const key = `${tbTextbookId}/${tbLessonId}`
       saveTbLessonProgress(key, sessionQueue.length)
     }
+    // 上报学情：仅当本轮是「老师布置的任务」来源
+    const task = sessionTaskRef.current
+    if (task && vocabMode === 'textbook' && tbTextbookId && tbLessonId) {
+      const wrongList = wrongWordsSessionRef.current
+      const learnedList: WrongWordEntry[] = sessionQueue
+        .filter(w => !wrongList.some(x => x.hanzi === w.hanzi))
+        .map(w => ({ hanzi: w.hanzi, pinyin: w.pinyin, english: w.english }))
+      reportLearning({
+        taskId: task.taskId,
+        classId: task.classId,
+        bookId: tbTextbookId,
+        lessonId: tbLessonId,
+        lessonTitle: task.lessonTitle,
+        kind: 'vocab',
+        mode,
+        total: sessionQueue.length,
+        viewed: sessionQueue.length,
+        correct: score.correct,
+        wrong: score.wrong,
+        wrongWords: wrongList,
+        learnedWords: learnedList,
+        durationSec: Math.max(0, Math.round((Date.now() - sessionStartRef.current) / 1000)),
+      }).then(res => { if (!res.ok) console.error('[learning] 学情上报失败：', res.error) })
+      // 上报后清空，避免同一自由练习被重复计入
+      sessionTaskRef.current = null
+    }
   }
 
   const current = sessionQueue[idx]
+
+  // ── 学情上报（仅「老师布置的任务」练习触发）──
+  // 任务上下文：从跳转标记读入，会话结束上报后清空，避免自由练习误报。
+  const sessionTaskRef = useRef<{ taskId: string; classId: string; lessonTitle?: string | null } | null>(null)
+  // 本轮答错的词（去重），用于上报 wrong_words
+  const wrongWordsSessionRef = useRef<WrongWordEntry[]>([])
+  // 本轮开始时间，用于统计用时
+  const sessionStartRef = useRef<number>(Date.now())
+  // 每次开新的一轮练习（sessionQueue 被赋新数组），清空答错累积
+  useEffect(() => { wrongWordsSessionRef.current = [] }, [sessionQueue])
+
 
   // ═════════ RENDER ═════════
   return (

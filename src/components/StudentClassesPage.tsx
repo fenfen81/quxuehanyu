@@ -16,7 +16,7 @@ type TaskRow = {
   class_id: string
   title: string
   type: 'textbook' | 'custom'
-  textbook_ref: { bookId?: string; bookTitle?: string } | null
+  textbook_ref: { bookId?: string; bookTitle?: string; lessonId?: string; lessonTitle?: string; focus?: 'sentences' | 'vocab' } | null
   custom_text: string | null
   audio_url: string | null
   due_at: string | null
@@ -29,11 +29,37 @@ type SubmissionRow = {
   submitted_at: string | null
 }
 
+// 课次数字映射（教材 lesson id 形如 lesson1..lesson13）
+const CN_NUM: Record<string, number> = { '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10 }
+function parseLessonCn(s: string): number {
+  if (s === '十') return 10
+  if (s.length === 1) return CN_NUM[s] ?? 0
+  if (s[0] === '十') return 10 + (CN_NUM[s[1]] ?? 0)   // 十一~十九
+  if (s[1] === '十') return (CN_NUM[s[0]] ?? 0) * 10   // 二十~九十
+  return 0
+}
+// 任务若存了 lessonId 直接用；否则从标题「第N课」反推（兼容早期未存课次的任务）
+function resolveLessonId(task: TaskRow): string | undefined {
+  if (task.textbook_ref?.lessonId) return task.textbook_ref.lessonId
+  const m = task.title.match(/第([一二三四五六七八九十]+)课/)
+  if (!m) return undefined
+  const n = parseLessonCn(m[1])
+  return n >= 1 ? `lesson${n}` : undefined
+}
+
+// 任务内容：优先用教科书引用里存的 focus；早期任务从标题「生词/单词/词汇」反推
+function resolveFocus(task: TaskRow): 'sentences' | 'vocab' {
+  if (task.textbook_ref?.focus) return task.textbook_ref.focus
+  return /生词|单词|词汇/.test(task.title) ? 'vocab' : 'sentences'
+}
+
 /** 学生端：输邀请码进班 + 我的班级 + 我的任务 + 标记完成 */
-export function StudentClassesPage({ session, lang = 'zh', onGoTeacher }: {
+export function StudentClassesPage({ session, lang = 'zh', onGoTeacher, onGoPractice, onGoVocab }: {
   session: Session
   lang?: Lang
   onGoTeacher?: () => void
+  onGoPractice?: (ref: { bookId?: string; lessonId?: string; taskId?: string; classId?: string }) => void
+  onGoVocab?: (ref: { bookId?: string; lessonId?: string; taskId?: string; classId?: string }) => void
 }) {
   const uid = session.user.id
 
@@ -198,8 +224,13 @@ export function StudentClassesPage({ session, lang = 'zh', onGoTeacher }: {
                           <audio controls src={task.audio_url} className="mt-2 w-full" />
                         )}
                         {task.type === 'textbook' && task.textbook_ref?.bookId && (
-                          <button onClick={() => { /* 跳转练习（可选增强） */ }}
-                            className="mt-1 text-xs text-indigo-600 hover:underline">{lang === 'en' ? 'Open practice →' : '去练习 →'}</button>
+                          resolveFocus(task) === 'vocab' && onGoVocab ? (
+                            <button onClick={() => onGoVocab({ bookId: task.textbook_ref!.bookId, lessonId: resolveLessonId(task), taskId: task.id, classId: task.class_id })}
+                              className="mt-1 text-xs text-indigo-600 hover:underline">{lang === 'en' ? 'Practice words →' : '背生词 →'}</button>
+                          ) : onGoPractice ? (
+                            <button onClick={() => onGoPractice({ bookId: task.textbook_ref!.bookId, lessonId: resolveLessonId(task), taskId: task.id, classId: task.class_id })}
+                              className="mt-1 text-xs text-indigo-600 hover:underline">{lang === 'en' ? 'Open practice →' : '去练习 →'}</button>
+                          ) : null
                         )}
                       </div>
                       {!done && (

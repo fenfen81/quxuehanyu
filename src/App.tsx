@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { categories } from '@/data/content'
+import { categories, getTextbookById } from '@/data/content'
 import { usePracticeStore } from '@/hooks/usePracticeStore'
 import { CategoryGrid } from '@/components/CategoryGrid'
 import { TextbookList } from '@/components/TextbookList'
@@ -28,7 +28,7 @@ type Page = 'home' | 'category' | 'practice' | 'words' | 'register' | 'profile' 
 export function App() {
   const [page, setPage] = useState<Page>('home')
   const [selectedCategory, setSelectedCategory] = useState<CategorySlug | null>(null)
-  const { setTextbook } = usePracticeStore()
+  const { setTextbook, setLesson, setText } = usePracticeStore()
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [wrongWords, setWrongWords] = useState<HskWord[]>(() => {
     try { return JSON.parse(localStorage.getItem('quxue-wrong-words') || '[]') }
@@ -186,6 +186,47 @@ export function App() {
 
   const goClasses = () => {
     setPage('classes')
+    setSidebarOpen(false)
+  }
+  // 从班级任务「去练习」：定位到指定教材/课次/课文，再进入练习页
+  const goPracticeFromTask = (ref: { bookId?: string; lessonId?: string; taskId?: string; classId?: string }) => {
+    if (!ref?.bookId) return
+    const book = getTextbookById(ref.bookId)
+    if (!book) return
+    setSelectedCategory(book.categoryId)
+    setTextbook(book.id)
+    const lesson = ref.lessonId ? book.lessons.find(l => l.id === ref.lessonId) : undefined
+    if (lesson) {
+      setLesson(lesson.id)
+      if (lesson.texts[0]) setText(lesson.texts[0].id)
+    }
+    setPage('practice')
+    setSidebarOpen(false)
+  }
+  // 从班级任务「背生词」：定位到指定教材/课次，并直接跳进生词练习页
+  const goWordsFromTask = (ref: { bookId?: string; lessonId?: string; taskId?: string; classId?: string }) => {
+    if (!ref?.bookId) return
+    const book = getTextbookById(ref.bookId)
+    if (!book) return
+    setSelectedCategory(book.categoryId)
+    setTextbook(book.id)
+    const lesson = ref.lessonId ? book.lessons.find(l => l.id === ref.lessonId) : undefined
+    if (ref.lessonId) setLesson(ref.lessonId)
+    // 写入跳转标记（WordCardPage 会在 5 秒内自动进入该课生词），再切到生词页。
+    // 任务上下文(taskId/classId/lessonTitle)一并写入，供完成后上报学情。
+    if (ref.lessonId) {
+      try {
+        localStorage.setItem('qx_tb_vocab_jump', JSON.stringify({
+          textbookId: book.id,
+          lessonId: ref.lessonId,
+          taskId: ref.taskId ?? null,
+          classId: ref.classId ?? null,
+          lessonTitle: lesson?.title ?? null,
+          ts: Date.now(),
+        }))
+      } catch {}
+    }
+    goWords()
     setSidebarOpen(false)
   }
   const teacherEntry = role === 'teacher' ? goTeacher : undefined
@@ -577,7 +618,7 @@ export function App() {
 
           {/* ── 学生端：我的班级 ── */}
           {page === 'classes' && session && (
-            <StudentClassesPage session={session} lang={lang} onGoTeacher={teacherEntry} />
+            <StudentClassesPage session={session} lang={lang} onGoTeacher={teacherEntry} onGoPractice={goPracticeFromTask} onGoVocab={goWordsFromTask} />
           )}
 
         </main>
