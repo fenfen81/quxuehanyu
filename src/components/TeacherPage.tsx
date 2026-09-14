@@ -77,6 +77,15 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
   const [confirmDel, setConfirmDel] = useState<string | null>(null)
   const [deleting, setDeleting] = useState(false)
 
+  // 重命名班级
+  const [renameId, setRenameId] = useState<string | null>(null)
+  const [renameVal, setRenameVal] = useState('')
+  const [renaming, setRenaming] = useState(false)
+
+  // 卡片摘要：每班任务数 / 最近一次练习时间
+  const [taskCount, setTaskCount] = useState<Record<string, number>>({})
+  const [lastPractice, setLastPractice] = useState<Record<string, string>>({})
+
   const load = useCallback(async () => {
     setLoading(true)
     setMsg(null)
@@ -99,6 +108,26 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       mmap[c.id] = count || 0
     }
     setMembers(mmap)
+
+    // 每班任务数 + 最近一次练习时间（learning_records.updated_at 取最大）
+    const ids = myClasses.map(c => c.id)
+    if (ids.length > 0) {
+      const { data: tasksAll } = await supabase.from('tasks').select('class_id').in('class_id', ids)
+      const tcmap: Record<string, number> = {}
+      ;(tasksAll || []).forEach((t: any) => { tcmap[t.class_id] = (tcmap[t.class_id] || 0) + 1 })
+      setTaskCount(tcmap)
+
+      const { data: recsAll } = await supabase
+        .from('learning_records').select('class_id, updated_at').in('class_id', ids)
+      const lp: Record<string, string> = {}
+      ;(recsAll || []).forEach((r: any) => {
+        if (!lp[r.class_id] || r.updated_at > lp[r.class_id]) lp[r.class_id] = r.updated_at
+      })
+      setLastPractice(lp)
+    } else {
+      setTaskCount({}); setLastPractice({})
+    }
+
     const err = e1 || e2
     if (err) setMsg({ kind: 'err', text: '数据读取失败：' + err.message })
     setLoading(false)
@@ -168,6 +197,13 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
     return m < 60 ? `${m}分${s % 60}秒` : `${Math.floor(m / 60)}时${m % 60}分`
   }
 
+  const fmtDateTime = (iso: string) => {
+    const d = new Date(iso)
+    if (isNaN(d.getTime())) return ''
+    const p = (n: number) => String(n).padStart(2, '0')
+    return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`
+  }
+
   // 导出 CSV
   const exportCsv = () => {
     const header = ['任务', '学生', '课次', '练词数', '答对', '答错', '正确率%', '用时(秒)', '错词']
@@ -227,6 +263,23 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       await load()
     } finally {
       setDeleting(false)
+    }
+  }
+
+  // 重命名班级
+  const renameClass = async (id: string) => {
+    setMsg(null)
+    const newName = renameVal.trim()
+    if (!newName) { setMsg({ kind: 'err', text: '班级名称不能为空' }); return }
+    setRenaming(true)
+    try {
+      const { error } = await supabase.from('classes').update({ name: newName }).eq('id', id)
+      if (error) { setMsg({ kind: 'err', text: '重命名失败：' + error.message }); return }
+      setMsg({ kind: 'ok', text: `已重命名为「${newName}」` })
+      setRenameId(null); setRenameVal('')
+      await load()
+    } finally {
+      setRenaming(false)
     }
   }
 
@@ -341,26 +394,63 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {classes.map(c => (
                 <div key={c.id} className="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm">
-                  <div className="flex items-center justify-between gap-2">
-                    <div className="font-bold text-slate-800 truncate">{c.name}</div>
-                    <div className="flex items-center gap-2 shrink-0">
-                      <span className="text-xs text-slate-400">{members[c.id] || 0} {lang === 'en' ? 'students' : '名学生'}</span>
-                      <button
-                        onClick={() => setConfirmDel(confirmDel === c.id ? null : c.id)}
-                        title={lang === 'en' ? 'Delete class' : '删除班级'}
-                        className="w-7 h-7 rounded-lg flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 transition-all">
-                        🗑
-                      </button>
+                  {renameId === c.id ? (
+                    <div className="space-y-2">
+                      <input value={renameVal} onChange={e => setRenameVal(e.target.value)} autoFocus
+                        onKeyDown={e => { if (e.key === 'Enter') renameClass(c.id); if (e.key === 'Escape') { setRenameId(null); setRenameVal('') } }}
+                        className="w-full px-3 py-2 rounded-lg border border-indigo-300 text-base bg-white focus:outline-none" />
+                      <div className="flex gap-2">
+                        <button onClick={() => renameClass(c.id)} disabled={renaming}
+                          className="px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 disabled:opacity-60 transition-all">
+                          {renaming ? (lang === 'en' ? 'Saving…' : '保存中…') : (lang === 'en' ? 'Save' : '保存')}
+                        </button>
+                        <button onClick={() => { setRenameId(null); setRenameVal('') }} disabled={renaming}
+                          className="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-500 text-xs font-bold hover:bg-slate-50 disabled:opacity-60 transition-all">
+                          {lang === 'en' ? 'Cancel' : '取消'}
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                  <div className="text-xs text-slate-400 mt-0.5">{c.grade || '—'}</div>
-                  <div className="mt-3 flex items-center gap-2 bg-slate-50 rounded-lg px-3 py-2">
-                    <span className="text-xs text-slate-400">{lang === 'en' ? 'Invite code' : '邀请码'}</span>
-                    <span className="font-black tracking-widest text-indigo-600">{c.invite_code}</span>
-                    <button onClick={() => { navigator.clipboard?.writeText(c.invite_code); setMsg({ kind: 'ok', text: '邀请码已复制' }) }}
-                      className="ml-auto text-xs text-indigo-500 hover:underline">{lang === 'en' ? 'Copy' : '复制'}</button>
-                  </div>
-                  {confirmDel === c.id && (
+                  ) : (
+                    <>
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="font-bold text-slate-800 truncate">{c.name}</div>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                          <span className="text-xs text-slate-400 hidden sm:inline">{members[c.id] || 0} {lang === 'en' ? 'students' : '名学生'}</span>
+                          <button
+                            onClick={() => { setRenameId(c.id); setRenameVal(c.name); setConfirmDel(null) }}
+                            title={lang === 'en' ? 'Rename class' : '重命名班级'}
+                            className="w-7 h-7 rounded-lg flex items-center justify-center text-slate-400 hover:text-indigo-500 hover:bg-indigo-50 transition-all">
+                            ✏️
+                          </button>
+                          <button
+                            onClick={() => setConfirmDel(confirmDel === c.id ? null : c.id)}
+                            title={lang === 'en' ? 'Delete class' : '删除班级'}
+                            className="w-7 h-7 rounded-lg flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 transition-all">
+                            🗑
+                          </button>
+                        </div>
+                      </div>
+                      <div className="text-xs text-slate-400 mt-0.5">{c.grade || '—'}</div>
+                      {/* 任务数 / 最近练习时间 */}
+                      <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-500">
+                        <span className="inline-flex items-center gap-1">
+                          <span>📝</span>{taskCount[c.id] || 0} {lang === 'en' ? 'tasks' : '个任务'}
+                        </span>
+                        <span className="inline-flex items-center gap-1">
+                          <span>🕒</span>
+                          {lang === 'en' ? 'Last practice: ' : '最近练习：'}
+                          {(lastPractice[c.id] && fmtDateTime(lastPractice[c.id])) || (lang === 'en' ? 'none yet' : '暂无')}
+                        </span>
+                      </div>
+                      <div className="mt-3 flex items-center gap-2 bg-slate-50 rounded-lg px-3 py-2">
+                        <span className="text-xs text-slate-400">{lang === 'en' ? 'Invite code' : '邀请码'}</span>
+                        <span className="font-black tracking-widest text-indigo-600">{c.invite_code}</span>
+                        <button onClick={() => { navigator.clipboard?.writeText(c.invite_code); setMsg({ kind: 'ok', text: '邀请码已复制' }) }}
+                          className="ml-auto text-xs text-indigo-500 hover:underline">{lang === 'en' ? 'Copy' : '复制'}</button>
+                      </div>
+                    </>
+                  )}
+                  {confirmDel === c.id && renameId !== c.id && (
                     <div className="mt-3 rounded-xl bg-red-50 border border-red-100 p-3">
                       <p className="text-xs text-red-600 font-medium leading-relaxed">
                         {lang === 'en'
