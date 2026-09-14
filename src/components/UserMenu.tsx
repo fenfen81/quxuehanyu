@@ -5,11 +5,13 @@ import type { Lang } from '@/i18n/translations'
 import { t } from '@/i18n/translations'
 
 /** 顶栏用户气泡：头像 + 姓名 + 积分 + 下拉箭头；点开菜单（个人中心/问卷/退出） */
-export function UserMenu({ session, lang = 'zh', onGoProfile, onGoSurvey, onLogout }: {
+export function UserMenu({ session, lang = 'zh', role, onGoProfile, onGoSurvey, onGoTeacher, onLogout }: {
   session: Session
   lang?: Lang
+  role?: 'student' | 'teacher'
   onGoProfile: () => void
   onGoSurvey: () => void
+  onGoTeacher?: () => void
   onLogout: () => void
 }) {
   const tt = (k: Parameters<typeof t>[0]) => t(k, lang)
@@ -62,6 +64,9 @@ export function UserMenu({ session, lang = 'zh', onGoProfile, onGoSurvey, onLogo
           </div>
           <div className="py-1">
             <MenuItem icon="👤" label={tt('nav_profile')} onClick={handle(onGoProfile)} />
+            {role === 'teacher' && onGoTeacher && (
+              <MenuItem icon="📚" label={lang === 'en' ? 'Teacher Center' : '老师中心'} onClick={handle(onGoTeacher)} />
+            )}
             <MenuItem icon="📋" label={tt('profile_survey_btn')} sub="+200" onClick={handle(onGoSurvey)} />
             <div className="my-1 mx-2 border-t border-slate-100" />
             <MenuItem icon="🚪" label={tt('logout')} danger onClick={handle(onLogout)} />

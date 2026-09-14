@@ -13,6 +13,10 @@ const D = {
     email: '邮箱',
     password: '密码（至少 6 位）',
     wantsPaid: '会员版内测时优先通知我',
+    roleLabel: '我要注册为',
+    roleStudent: '👨‍🎓 学生（来学汉语）',
+    roleTeacher: '👩‍🏫 老师（建班发任务）',
+    roleHint: '老师可创建班级、发布学习任务、查看学生进度',
     agreed: '我已阅读并同意《用户协议》和《隐私政策》',
     referralCode: '邀请码（选填）',
     referralHint: '填同学/老师的邀请码，TA 可得 100 积分，你也能加入互惠名单',
@@ -45,6 +49,10 @@ const D = {
     email: 'Email',
     password: 'Password (min 6 chars)',
     wantsPaid: 'Notify me first when VIP beta opens',
+    roleLabel: 'Register as',
+    roleStudent: '👨‍🎓 Student (learn Chinese)',
+    roleTeacher: '👩‍🏫 Teacher (manage classes)',
+    roleHint: 'Teachers can create classes, post tasks, and view progress',
     agreed: 'I have read and agree to the Terms and Privacy Policy',
     referralCode: 'Referral code (optional)',
     referralHint: 'Enter your classmate/teacher\u2019s code — they get +100 credits, and you join the mutual-aid list',
@@ -178,6 +186,8 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
   const [referralCode, setReferralCode] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'ok' | 'err'>('idle')
   const [msg, setMsg] = useState('')
+  const [role, setRole] = useState<'student' | 'teacher'>('student')
+
   const [user, setUser] = useState<{ email: string | null } | null>(null)
 
   // 从邀请链接 ?ref=CODE 预填邀请码
@@ -217,7 +227,7 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
-        options: { data: { full_name: fullName, phone: phoneVal, wants_paid: wantsPaid, referral_code: referralCode.trim().toUpperCase() } },
+        options: { data: { full_name: fullName, phone: phoneVal, wants_paid: wantsPaid, referral_code: referralCode.trim().toUpperCase(), role } },
       })
       if (error) { setStatus('err'); setMsg(error.message); return }
       if (data.session) {
@@ -414,6 +424,23 @@ export default function RegisterPage({ onGoHome }: { onGoHome: () => void }) {
                   className="w-full px-4 py-3 rounded-xl border border-[#c7d2fe] text-base bg-[#f8fafc] focus:bg-white focus:border-[#6366f1] focus:outline-none transition-colors"
                   type="text" placeholder={tt.name} value={fullName}
                   onChange={(e) => setFullName(e.target.value)} />
+              )}
+
+              {mode === 'register' && (
+                <div>
+                  <div className="text-xs font-semibold text-[#475569] mb-1.5 px-1">{tt.roleLabel}</div>
+                  <div className="flex gap-2">
+                    <button type="button" onClick={() => setRole('student')}
+                      className={`flex-1 py-3 rounded-xl text-sm font-bold border transition ${role === 'student' ? 'bg-[#6366f1] text-white border-[#6366f1] shadow' : 'bg-white text-[#64748b] border-[#c7d2fe]'}`}>
+                      {tt.roleStudent}
+                    </button>
+                    <button type="button" onClick={() => setRole('teacher')}
+                      className={`flex-1 py-3 rounded-xl text-sm font-bold border transition ${role === 'teacher' ? 'bg-[#6366f1] text-white border-[#6366f1] shadow' : 'bg-white text-[#64748b] border-[#c7d2fe]'}`}>
+                      {tt.roleTeacher}
+                    </button>
+                  </div>
+                  <p className="text-[11px] text-slate-400 mt-1.5 px-1">{tt.roleHint}</p>
+                </div>
               )}
               <input
                 className="w-full px-4 py-3 rounded-xl border border-[#c7d2fe] text-base bg-[#f8fafc] focus:bg-white focus:border-[#6366f1] focus:outline-none transition-colors"

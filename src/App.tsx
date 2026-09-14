@@ -7,6 +7,9 @@ import { PracticePage } from '@/components/PracticePage'
 import WordCardPage from '@/components/WordCardPage'
 import RegisterPage from '@/components/RegisterPage'
 import { UserMenu } from '@/components/UserMenu'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
+import { TeacherPage } from '@/components/TeacherPage'
+import { StudentClassesPage } from '@/components/StudentClassesPage'
 import { EarnCreditsTrigger } from '@/components/EarnCreditsPopover'
 import { CreditsToast, useLowCreditToast } from '@/components/CreditsToast'
 import { ProfilePage } from '@/components/ProfilePage'
@@ -20,7 +23,7 @@ import type { HskWord } from '@/data/hskWords'
 import { useLang } from '@/i18n/useLang'
 import { t } from '@/i18n/translations'
 
-type Page = 'home' | 'category' | 'practice' | 'words' | 'register' | 'profile' | 'survey'
+type Page = 'home' | 'category' | 'practice' | 'words' | 'register' | 'profile' | 'survey' | 'teacher' | 'classes'
 
 export function App() {
   const [page, setPage] = useState<Page>('home')
@@ -53,6 +56,30 @@ export function App() {
     })
     return () => sub.subscription.unsubscribe()
   }, [])
+
+  // ── 当前用户角色：登录后从 profiles 读 role（决定老师入口显示） ──
+  const [role, setRole] = useState<'student' | 'teacher' | null>(null)
+  const [roleError, setRoleError] = useState<string | null>(null)
+  useEffect(() => {
+    if (!session) { setRole(null); setRoleError(null); return }
+    const uid = session.user.id
+    // 先用本地记忆的身份兜底：避免读取偶发失败时老师中心莫名消失
+    let cached: 'student' | 'teacher' | null = null
+    try { cached = JSON.parse(localStorage.getItem('qx_role_' + uid) || 'null') } catch { /* ignore */ }
+    if (cached) setRole(cached)
+    supabase.from('profiles').select('role').eq('id', uid).single()
+      .then(({ data, error }) => {
+        if (error) {
+          console.error('[role] 读取 profiles.role 失败：', error.message)
+          setRoleError(error.message)
+          if (!cached) setRole('student')
+          return
+        }
+        const r = (data?.role as 'student' | 'teacher') || 'student'
+        setRole(r); setRoleError(null)
+        try { localStorage.setItem('qx_role_' + uid, JSON.stringify(r)) } catch { /* ignore */ }
+      })
+  }, [session])
 
   // ── 积分相关：余额 / 邀请码 / 低积分提醒（依赖 session） ──
   const { credits } = useCredits(session)
@@ -151,6 +178,17 @@ export function App() {
     setPage('survey')
     setSidebarOpen(false)
   }
+
+  const goTeacher = () => {
+    setPage('teacher')
+    setSidebarOpen(false)
+  }
+
+  const goClasses = () => {
+    setPage('classes')
+    setSidebarOpen(false)
+  }
+  const teacherEntry = role === 'teacher' ? goTeacher : undefined
 
   const handleLogout = async () => {
     await supabase.auth.signOut()
@@ -317,6 +355,9 @@ export function App() {
           <NavItem icon="🏠" label={tt('nav_home')} active={page === 'home'} onClick={goHome} />
           <NavItem icon="📖" label={tt('nav_words')} active={page === 'words'} onClick={goWords} badge={wrongWords.length > 0 ? wrongWords.length : undefined} />
           <NavItem icon="👤" label={tt('nav_profile')} active={page === 'profile' || page === 'survey'} onClick={goProfile} />
+          {session && (
+            <NavItem icon="🎓" label={lang === 'en' ? 'My Classes' : '我的班级'} active={page === 'classes'} onClick={goClasses} />
+          )}
           {session ? (
             <NavItem icon="🚪" label={lang === 'en' ? 'Log out' : '退出登录'} active={false} onClick={handleLogout} />
           ) : (
@@ -332,7 +373,14 @@ export function App() {
         </aside>
 
         {/* ── 主内容区 ── */}
+        <ErrorBoundary resetKey={page}>
         <main className="flex-1 min-w-0 px-4 sm:px-6 py-6 sm:py-8">
+
+          {roleError && (
+            <div className="mb-4 text-sm font-medium px-4 py-2.5 rounded-xl bg-amber-50 text-amber-700 border border-amber-200">
+              ⚠️ 身份读取异常（{roleError}）。老师/学生相关入口可能暂时隐藏，请刷新页面重试；若反复出现请把这句发给我。
+            </div>
+          )}
 
           {/* 首页 */}
           {page === 'home' && (
@@ -522,7 +570,18 @@ export function App() {
             <SurveyPage session={session} lang={lang} onDone={goProfile} onClose={goHome} />
           )}
 
+          {/* ── 老师中心 ── */}
+          {page === 'teacher' && session && (
+            <TeacherPage session={session} lang={lang} onGoClasses={goClasses} />
+          )}
+
+          {/* ── 学生端：我的班级 ── */}
+          {page === 'classes' && session && (
+            <StudentClassesPage session={session} lang={lang} onGoTeacher={teacherEntry} />
+          )}
+
         </main>
+        </ErrorBoundary>
       </div>
 
       {/* ── 移动端底部导航 ── */}
