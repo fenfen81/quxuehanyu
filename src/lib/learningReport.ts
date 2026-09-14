@@ -60,6 +60,34 @@ export async function reportLearning(r: LearningReport): Promise<{ ok: boolean; 
       }, { onConflict: 'task_id,student_id,lesson_id' })
 
     if (error) return { ok: false, error: error.message }
+    // 评分模式（四选一/打字）完成即视为任务完成，自动标记；翻卡浏览不算
+    if (r.mode === 'quiz' || r.mode === 'type') {
+      await markTaskCompleted(r.taskId)
+    }
+    return { ok: true }
+  } catch (e: any) {
+    return { ok: false, error: e?.message || String(e) }
+  }
+}
+
+/**
+ * 学生完成「有对错判定的评分练习」（四选一/打字）后，把对应任务标记为已完成。
+ * 翻卡浏览模式不调用本函数（浏览不等于练习）。
+ * 由 RLS 保证：学生只能写自己名下的提交行。
+ */
+export async function markTaskCompleted(taskId: string): Promise<{ ok: boolean; error?: string }> {
+  try {
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return { ok: false, error: '未登录' }
+    const { error } = await supabase
+      .from('task_submissions')
+      .upsert({
+        task_id: taskId,
+        student_id: user.id,
+        status: 'completed',
+        submitted_at: new Date().toISOString(),
+      }, { onConflict: 'task_id,student_id' })
+    if (error) return { ok: false, error: error.message }
     return { ok: true }
   } catch (e: any) {
     return { ok: false, error: e?.message || String(e) }

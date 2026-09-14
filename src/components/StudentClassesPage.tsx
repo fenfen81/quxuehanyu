@@ -125,6 +125,10 @@ export function StudentClassesPage({ session, lang = 'zh', onGoTeacher, onGoPrac
   }
 
   const markDone = async (taskId: string) => {
+    // 已通过练习完成（status=completed）的不降级回 submitted
+    const { data: ex } = await supabase
+      .from('task_submissions').select('status').eq('task_id', taskId).eq('student_id', uid).maybeSingle()
+    if (ex?.status === 'completed') { await load(); return }
     const { error } = await supabase
       .from('task_submissions')
       .upsert({ task_id: taskId, student_id: uid, status: 'submitted', submitted_at: new Date().toISOString() },
