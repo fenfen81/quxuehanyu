@@ -73,6 +73,10 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   const [members, setMembers] = useState<Record<string, number>>({})
 
+  // 删除班级（二次确认）
+  const [confirmDel, setConfirmDel] = useState<string | null>(null)
+  const [deleting, setDeleting] = useState(false)
+
   const load = useCallback(async () => {
     setLoading(true)
     setMsg(null)
@@ -210,6 +214,22 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
     await load()
   }
 
+  // 删除班级：会级联删掉该班的学生名单、任务与学情记录（不可恢复）
+  const deleteClass = async (id: string, name: string) => {
+    setMsg(null)
+    setDeleting(true)
+    try {
+      const { error } = await supabase.from('classes').delete().eq('id', id)
+      if (error) { setMsg({ kind: 'err', text: '删除失败：' + error.message }); return }
+      setMsg({ kind: 'ok', text: `班级「${name}」已删除` })
+      setConfirmDel(null)
+      if (tClass === id) setTClass('')   // 发布任务里选中的班级被删 → 清空
+      await load()
+    } finally {
+      setDeleting(false)
+    }
+  }
+
   const postTask = async () => {
     setMsg(null)
     setPosting(true)
@@ -321,9 +341,17 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {classes.map(c => (
                 <div key={c.id} className="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm">
-                  <div className="flex items-center justify-between">
-                    <div className="font-bold text-slate-800">{c.name}</div>
-                    <span className="text-xs text-slate-400">{members[c.id] || 0} {lang === 'en' ? 'students' : '名学生'}</span>
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="font-bold text-slate-800 truncate">{c.name}</div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <span className="text-xs text-slate-400">{members[c.id] || 0} {lang === 'en' ? 'students' : '名学生'}</span>
+                      <button
+                        onClick={() => setConfirmDel(confirmDel === c.id ? null : c.id)}
+                        title={lang === 'en' ? 'Delete class' : '删除班级'}
+                        className="w-7 h-7 rounded-lg flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 transition-all">
+                        🗑
+                      </button>
+                    </div>
                   </div>
                   <div className="text-xs text-slate-400 mt-0.5">{c.grade || '—'}</div>
                   <div className="mt-3 flex items-center gap-2 bg-slate-50 rounded-lg px-3 py-2">
@@ -332,6 +360,25 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
                     <button onClick={() => { navigator.clipboard?.writeText(c.invite_code); setMsg({ kind: 'ok', text: '邀请码已复制' }) }}
                       className="ml-auto text-xs text-indigo-500 hover:underline">{lang === 'en' ? 'Copy' : '复制'}</button>
                   </div>
+                  {confirmDel === c.id && (
+                    <div className="mt-3 rounded-xl bg-red-50 border border-red-100 p-3">
+                      <p className="text-xs text-red-600 font-medium leading-relaxed">
+                        {lang === 'en'
+                          ? `Delete "${c.name}"? Its ${members[c.id] || 0} students, all tasks and learning data will be removed permanently.`
+                          : `确认删除「${c.name}」？该班的 ${members[c.id] || 0} 名学生名单、已发布任务与全部学情记录都会被一并删除，且无法恢复。`}
+                      </p>
+                      <div className="flex gap-2 mt-2.5">
+                        <button onClick={() => deleteClass(c.id, c.name)} disabled={deleting}
+                          className="px-3 py-1.5 rounded-lg bg-red-500 text-white text-xs font-bold hover:bg-red-600 disabled:opacity-60 transition-all">
+                          {deleting ? (lang === 'en' ? 'Deleting…' : '删除中…') : (lang === 'en' ? 'Delete' : '确认删除')}
+                        </button>
+                        <button onClick={() => setConfirmDel(null)} disabled={deleting}
+                          className="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-500 text-xs font-bold hover:bg-slate-50 disabled:opacity-60 transition-all">
+                          {lang === 'en' ? 'Cancel' : '取消'}
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
