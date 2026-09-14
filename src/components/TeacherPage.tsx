@@ -14,6 +14,18 @@ type ClassRow = {
   member_count?: number
 }
 
+type TaskRow = {
+  id: string
+  class_id: string
+  title: string
+  type: 'textbook' | 'custom'
+  textbook_ref: { bookId: string; bookTitle: string; lessonId?: string; lessonTitle?: string; focus: 'sentences' | 'vocab' } | null
+  custom_text: string | null
+  audio_url: string | null
+  due_at: string | null
+  created_at: string
+}
+
 type LearnRec = {
   id: string
   task_id: string
@@ -64,6 +76,13 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
   const [tAudio, setTAudio] = useState<File | null>(null)
   const [tDue, setTDue] = useState('')
   const [posting, setPosting] = useState(false)
+
+  // 已发布任务列表 + 编辑/删除
+  const [tasks, setTasks] = useState<TaskRow[]>([])
+  const [editingId, setEditingId] = useState<string | null>(null)
+  const [editingAudioUrl, setEditingAudioUrl] = useState<string | null>(null)
+  const [confirmDelTask, setConfirmDelTask] = useState<string | null>(null)
+  const [deletingTask, setDeletingTask] = useState(false)
 
   // 进度（真实学情）
   const [learn, setLearn] = useState<LearnRec[]>([])
@@ -127,6 +146,17 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       setLastPractice(lp)
     } else {
       setTaskCount({}); setLastPractice({})
+    }
+
+    // 已发布任务列表（老师自己的班）
+    if (ids.length > 0) {
+      const { data: myTasks } = await supabase
+        .from('tasks')
+        .select('id, class_id, title, type, textbook_ref, custom_text, audio_url, due_at, created_at')
+        .in('class_id', ids).order('created_at', { ascending: false })
+      setTasks((myTasks as TaskRow[]) || [])
+    } else {
+      setTasks([])
     }
 
     const err = e1 || e2
@@ -300,6 +330,8 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       const { data: urlData } = supabase.storage.from('class-audio').getPublicUrl(path)
       audioUrl = urlData.publicUrl
     }
+    // 编辑时未重新上传音频 → 保留原有音频；新增时按上传结果
+    const storeAudio: string | null = tAudio ? audioUrl : (editingId ? editingAudioUrl : null)
 
     const row: any = {
       class_id: tClass,
@@ -307,7 +339,7 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       title: tTitle.trim(),
       type: tType,
       due_at: tDue ? new Date(tDue).toISOString() : null,
-      audio_url: audioUrl,
+      audio_url: storeAudio,
     }
     if (tType === 'textbook') {
       const b = textbooks.find(x => x.id === tBook)
@@ -319,13 +351,59 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
       row.custom_text = tCustom.trim() || null
     }
 
-    const { error } = await supabase.from('tasks').insert(row)
-    if (error) { setMsg({ kind: 'err', text: '发布失败：' + error.message }); return }
-    setMsg({ kind: 'ok', text: '任务已发布！' })
-      setTTitle(''); setTCustom(''); setTAudio(null); setTDue(''); setTClass(''); setTLesson(''); setTFocus('sentences')
+    let error: { message: string } | null = null
+    if (editingId) {
+      const { error: e } = await supabase.from('tasks').update(row).eq('id', editingId)
+      error = e
+      if (!e) setMsg({ kind: 'ok', text: '任务已修改！' })
+    } else {
+      const { error: e } = await supabase.from('tasks').insert(row)
+      error = e
+      if (!e) setMsg({ kind: 'ok', text: '任务已发布！' })
+    }
+    if (error) { setMsg({ kind: 'err', text: (editingId ? '保存失败：' : '发布失败：') + error.message }); return }
+    setTTitle(''); setTCustom(''); setTAudio(null); setTDue(''); setTClass(''); setTLesson(''); setTFocus('sentences')
+    setEditingId(null); setEditingAudioUrl(null)
       await load()
     } finally {
       setPosting(false)
+    }
+  }
+
+  // 进入编辑：把任务填回表单
+  const startEdit = (t: TaskRow) => {
+    setEditingId(t.id)
+    setTClass(t.class_id)
+    setTTitle(t.title)
+    setTType(t.type)
+    if (t.type === 'textbook' && t.textbook_ref) {
+      setTBook(t.textbook_ref.bookId || '')
+      setTLesson(t.textbook_ref.lessonId || '')
+      setTFocus(t.textbook_ref.focus || 'sentences')
+      setTCustom('')
+    } else {
+      setTCustom(t.custom_text || '')
+      setTBook(''); setTLesson(''); setTFocus('sentences')
+    }
+    setTAudio(null)
+    setEditingAudioUrl(t.audio_url)
+    setTDue(t.due_at ? new Date(t.due_at).toISOString().slice(0, 10) : '')
+    setConfirmDelTask(null)
+    if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  // 删除任务（级联清掉该任务的提交与学情，不可恢复）
+  const deleteTask = async (id: string) => {
+    setDeletingTask(true)
+    try {
+      const { error } = await supabase.from('tasks').delete().eq('id', id)
+      if (error) { setMsg({ kind: 'err', text: '删除失败：' + error.message }); return }
+      setMsg({ kind: 'ok', text: '任务已删除' })
+      setConfirmDelTask(null)
+      if (editingId === id) { setEditingId(null); setEditingAudioUrl(null) }
+      await load()
+    } finally {
+      setDeletingTask(false)
     }
   }
 
@@ -476,8 +554,67 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
           )}
         </div>
       ) : tab === 'tasks' ? (
-        <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm space-y-4">
-          <h3 className="text-sm font-bold text-slate-600">{lang === 'en' ? 'Assign a task' : '发布任务'}</h3>
+        <div className="space-y-4">
+          {/* 已发布任务列表 */}
+          {tasks.length > 0 && (
+            <div className="space-y-2">
+              <h3 className="text-sm font-bold text-slate-500">{lang === 'en' ? `Published tasks (${tasks.length})` : `已发布任务（${tasks.length}）`}</h3>
+              {tasks.map(t => {
+                const cls = classes.find(c => c.id === t.class_id)
+                const badge = t.type === 'textbook'
+                  ? (t.textbook_ref?.focus === 'vocab' ? (lang === 'en' ? 'Vocab' : '生词') : (lang === 'en' ? 'Sentences' : '句子'))
+                  : (lang === 'en' ? 'Custom' : '自定义')
+                return (
+                  <div key={t.id} className="bg-white rounded-2xl p-3 border border-slate-100 shadow-sm">
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="min-w-0">
+                        <div className="font-bold text-slate-800 truncate">{t.title}</div>
+                        <div className="text-xs text-slate-400 mt-0.5">
+                          🏫 {cls?.name || '—'}　·　<span className="px-1.5 py-0.5 rounded bg-slate-100 text-slate-500">{badge}</span>
+                          {t.due_at && <>　·　⏰ {new Date(t.due_at).toLocaleDateString('zh-CN')}</>}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button onClick={() => startEdit(t)} title={lang === 'en' ? 'Edit' : '编辑'}
+                          className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all">✏️</button>
+                        <button onClick={() => setConfirmDelTask(confirmDelTask === t.id ? null : t.id)} title={lang === 'en' ? 'Delete' : '删除'}
+                          className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 transition-all">🗑</button>
+                      </div>
+                    </div>
+                    {confirmDelTask === t.id && (
+                      <div className="mt-2 rounded-xl bg-red-50 border border-red-100 p-3">
+                        <p className="text-xs text-red-600 font-medium leading-relaxed">
+                          {lang === 'en'
+                            ? `Delete "${t.title}"? Its submissions and learning records will be removed permanently.`
+                            : `确认删除「${t.title}」？该任务的提交记录与学情数据都会被一并删除，且无法恢复。`}
+                        </p>
+                        <div className="flex gap-2 mt-2.5">
+                          <button onClick={() => deleteTask(t.id)} disabled={deletingTask}
+                            className="px-3 py-1.5 rounded-lg bg-red-500 text-white text-xs font-bold hover:bg-red-600 disabled:opacity-60 transition-all">
+                            {deletingTask ? (lang === 'en' ? 'Deleting…' : '删除中…') : (lang === 'en' ? 'Delete' : '确认删除')}
+                          </button>
+                          <button onClick={() => setConfirmDelTask(null)} disabled={deletingTask}
+                            className="px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-500 text-xs font-bold hover:bg-slate-50 disabled:opacity-60 transition-all">
+                            {lang === 'en' ? 'Cancel' : '取消'}
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          )}
+
+          {/* 发布 / 编辑表单 */}
+          <div className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-bold text-slate-600">{editingId ? (lang === 'en' ? 'Edit task' : '编辑任务') : (lang === 'en' ? 'Assign a task' : '发布任务')}</h3>
+              {editingId && (
+                <button onClick={() => { setEditingId(null); setEditingAudioUrl(null); setTTitle(''); setTCustom(''); setTAudio(null); setTDue(''); setTClass(''); setTLesson(''); setTFocus('sentences') }}
+                  className="text-xs text-slate-400 hover:text-slate-600">{lang === 'en' ? 'Cancel' : '取消编辑'}</button>
+              )}
+            </div>
           <div>
             <label className="text-xs font-semibold text-slate-500">{lang === 'en' ? 'To class' : '发布到班级'}</label>
             <select value={tClass} onChange={e => setTClass(e.target.value)}
@@ -555,9 +692,10 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
           </div>
           <button onClick={postTask} disabled={posting}
             className="w-full py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-blue-600 text-white font-bold hover:-translate-y-0.5 transition-all disabled:opacity-60">
-            {posting ? (lang === 'en' ? 'Posting…' : '发布中…') : (lang === 'en' ? 'Publish Task' : '发布任务')}
+            {posting ? (lang === 'en' ? 'Saving…' : '保存中…') : editingId ? (lang === 'en' ? 'Save changes' : '保存修改') : (lang === 'en' ? 'Publish Task' : '发布任务')}
           </button>
         </div>
+      </div>
       ) : (
         <div className="space-y-4">
           <div className="flex items-center justify-between">
