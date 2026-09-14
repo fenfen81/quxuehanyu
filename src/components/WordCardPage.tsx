@@ -262,7 +262,10 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       const words = lesson.words.map(textbookWordToHskWord)
       setSessionQueue(words); setIdx(0); setFlipped(false); setChosen(null)
       setScore({ correct: 0, wrong: 0 }); setShowResult(false)
-      beginSession(() => { setView('learning'); setMode('flashcard'); sfx.play('complete') })
+      // 任务来源 → 默认进「四选一」评分模式（这样老师才能看到真实正确率/错词）；
+      // 自由练习 → 默认翻卡浏览。学生仍可随时在顶部切换模式。
+      const startMode: Mode = (taskId && classId) ? 'quiz' : 'flashcard'
+      beginSession(() => { setView('learning'); setMode(startMode); sfx.play('complete') })
     } catch {}
   }, [beginSession])
 

@@ -20,6 +20,7 @@ type LearnRec = {
   class_id: string
   student_id: string
   kind: string
+  mode: string | null
   textbook_id: string
   lesson_id: string
   lesson_title: string | null
@@ -609,14 +610,14 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
                   </div>
                   <div className="divide-y divide-slate-50">
                     {recs.map(r => {
-                      const acc = r.accuracy != null ? `${r.accuracy}%` : '—'
+                      const acc = r.accuracy != null ? `${r.accuracy}%` : (r.mode === 'flashcard' ? '翻卡' : '—')
                       const isOpen = !!expanded[r.id]
                       return (
                         <div key={r.id} className="py-2">
                           <div className="flex items-center gap-3">
                             <span className="font-medium text-slate-700 min-w-[64px]">{stuName[r.student_id] || '学生'}</span>
                             <span className="text-xs text-slate-400">练 {r.viewed}/{r.total}</span>
-                            <span className={`text-xs font-bold ${r.accuracy != null && r.accuracy >= 80 ? 'text-emerald-600' : r.accuracy != null && r.accuracy >= 50 ? 'text-amber-600' : 'text-red-500'}`}>正确率 {acc}</span>
+                            <span className={`text-xs font-bold ${r.accuracy != null ? (r.accuracy >= 80 ? 'text-emerald-600' : r.accuracy >= 50 ? 'text-amber-600' : 'text-red-500') : 'text-slate-400'}`}>正确率 {acc}</span>
                             <span className="text-xs text-slate-400">⏱ {fmtDur(r.duration_sec)}</span>
                             <button onClick={() => setExpanded(e => ({ ...e, [r.id]: !e[r.id] }))}
                               className="ml-auto text-xs text-indigo-500 hover:underline">
@@ -634,7 +635,13 @@ export function TeacherPage({ session, lang = 'zh', onGoClasses }: {
                                   ))}
                                 </div>
                               ) : (
-                                <p className="text-xs text-slate-400">{lang === 'en' ? 'No wrong words — all correct!' : '本轮没有答错，全部正确 👍'}</p>
+                                <p className="text-xs text-slate-400">
+                                  {r.accuracy != null
+                                    ? (lang === 'en' ? 'No wrong words — all correct!' : '本轮没有答错，全部正确 👍')
+                                    : (lang === 'en'
+                                      ? 'Flashcard (browse) mode — no score recorded. Ask the student to use Quiz or Type mode.'
+                                      : '翻卡浏览模式：未统计正确率。可让学生用「四选一 / 打字」练习以记录成绩。')}
+                                </p>
                               )}
                             </div>
                           )}
