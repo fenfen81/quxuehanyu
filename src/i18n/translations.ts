@@ -266,6 +266,11 @@ export const translations = {
   tb_copied: { zh: '已复制', en: 'Copied' },
   tb_words_short: { zh: '词', en: 'words' },
   tb_empty_filter: { zh: '这本教材里没有在其他课次出现过的词', en: 'No word in this book appears elsewhere' },
+  tb_wrong_book: { zh: '教材错词本', en: 'Textbook Wrong Words' },
+  tb_wrong_book_hint: { zh: '教材练习中答错的词，按教材和课次分组显示', en: 'Wrong words from textbook practice, grouped by book & lesson' },
+  tb_wrong_count: { zh: '个教材错词', en: 'textbook wrong words' },
+  tb_wrong_books: { zh: '本教材有错词', en: 'books with wrong words' },
+  tb_wrong_short: { zh: '错', en: 'wrong' },
 
   // ── 分段练习 ──
   practice_full_mode: { zh: '整句', en: 'Full' },

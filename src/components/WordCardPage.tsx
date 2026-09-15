@@ -29,10 +29,13 @@ function textbookWordToHskWord(w: TextbookWord): HskWord {
 
 // 教材生词例句查找
 const tbExampleMap = new Map<string, { cn: string; en: string; pinyin?: string }>()
+// 教材词 → 所属教材/课次索引（注意：词 id 前缀不一定等于 textbookId，如 hsk5-l1-w1 属于 hsk-standard-5）
+const tbWordMeta = new Map<string, { tbId: string; lessonId: string }>()
 for (const tb of textbookVocabList) {
   for (const lesson of tb.lessons) {
     for (const w of lesson.words) {
       tbExampleMap.set(w.id, { cn: w.exampleCn, en: w.exampleEn, pinyin: w.examplePinyin })
+      tbWordMeta.set(w.id, { tbId: tb.textbookId, lessonId: lesson.lessonId })
     }
   }
 }
@@ -167,6 +170,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const [previewBookId, setPreviewBookId]   = useState<string | null>(null)
   const [showSettings, setShowSettings]       = useState(false)
   const [showWrongBook, setShowWrongBook]     = useState(false)
+  const [showTbWrongBook, setShowTbWrongBook] = useState(false)
   const [sfxOn, setSfxOn]                     = useState(sfx.enabled)
   const [sessionQueue, setSessionQueue]       = useState<HskWord[]>([])
   // 教材选择 state
@@ -212,6 +216,22 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
   const remainingToday = Math.max(0, plan.dailyGoal - todayLog.learned)
   const daysRemaining = plan.dailyGoal > 0 ? Math.ceil(newWordsToLearn.length / plan.dailyGoal) : 0
   const estimatedFinishDate = (() => { const d = new Date(); d.setDate(d.getDate() + daysRemaining); return d.toLocaleDateString(lang === 'en' ? 'en-US' : 'zh-CN', { month:'long', day:'numeric' }) })()
+
+  // ── 教材错词（从全局错词本中筛出 emoji='📘' 的教材词）──
+  const tbWrongWords = useMemo(() => wrongWords.filter(w => w.emoji === '📘'), [wrongWords])
+  // 按教材 ID 分组的教材错词
+  const tbWrongByBook = useMemo(() => {
+    const map = new Map<string, HskWord[]>()
+    for (const w of tbWrongWords) {
+      // 优先用索引拿真实 textbookId（词 id 前缀不一定等于 textbookId）
+      const bookId = tbWordMeta.get(w.id)?.tbId ?? w.id.replace(/-l\d+-w\d+$/, '')
+      if (!map.has(bookId)) map.set(bookId, [])
+      map.get(bookId)!.push(w)
+    }
+    return map
+  }, [tbWrongWords])
+  // ── HSK 错词（排除教材词）──
+  const hskWrongWords = useMemo(() => wrongWords.filter(w => w.emoji !== '📘'), [wrongWords])
 
   useEffect(() => { savePlan(plan) }, [plan])
   useEffect(() => { if (autoSpeak && view === 'learning' && !showResult && sessionQueue[idx]) { const t = setTimeout(() => speakWord(sessionQueue[idx].hanzi, sessionQueue[idx].id), 300); return () => clearTimeout(t) } }, [idx, autoSpeak, showResult, view, sessionQueue])
@@ -507,6 +527,19 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
       {/* ====== 视图：教材选择（三级钻取）====== */}
       {view === 'textbookSelect' && (
         <div className="space-y-4">
+          {/* 教材错词本入口（所有步骤可见） */}
+          {tbWrongWords.length > 0 && (
+            <div className="rounded-xl border border-red-200 bg-gradient-to-r from-red-50/80 to-orange-50/60 p-4 flex items-center gap-4">
+              <div className="text-3xl">📝</div>
+              <div className="flex-1 min-w-0">
+                <div className="font-bold text-red-700 text-sm">{tt('tb_wrong_book')}</div>
+                <div className="text-xs text-red-500 mt-0.5">{tbWrongWords.length} {tt('tb_wrong_count')} · {tbWrongByBook.size} {tt('tb_wrong_books')}</div>
+              </div>
+              <button onClick={()=>{setShowTbWrongBook(true);sfx.play('click')}} className="shrink-0 px-4 py-2 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">{tt('tb_wrong_book')}</button>
+              <button onClick={()=>{if(tbWrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(tbWrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="shrink-0 px-4 py-2 rounded-lg bg-white border border-red-300 text-red-600 text-xs font-bold hover:bg-red-50 active:scale-95 transition-all">{tt('words_wrong_practice')}</button>
+            </div>
+          )}
+
           {/* 面包屑 */}
           <div className="flex items-center gap-2 text-sm text-slate-400">
             <span className={tbStep==='category'?'font-bold text-slate-700':''}>{tt('vocab_tb_step_category')}</span>
@@ -529,19 +562,25 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           {/* Step 2: 选教材 */}
           {tbStep === 'textbook' && tbCategoryId && (
             <div className="grid grid-cols-1 gap-3">
-              {textbookVocabList.filter(t => t.categoryId === tbCategoryId).map(tb => (
+              {textbookVocabList.filter(t => t.categoryId === tbCategoryId).map(tb => {
+                const bookWrong = tbWrongByBook.get(tb.textbookId) || []
+                return (
                 <div key={tb.textbookId} className="relative rounded-xl border border-slate-200 bg-white p-5 hover:border-emerald-300 hover:shadow-md transition-all group flex items-center gap-4">
                   <button onClick={()=>{setTbTextbookId(tb.textbookId);setTbStep('lesson');sfx.play('click')}} className="flex items-center gap-4 flex-1 min-w-0 text-left">
                     <div className="text-3xl group-hover:scale-110 transition-transform">📖</div>
                     <div className="flex-1 min-w-0">
-                      <h4 className="font-bold text-slate-800">{lang==='en'?tb.titleEn:tb.title}</h4>
+                      <div className="flex items-center gap-2">
+                        <h4 className="font-bold text-slate-800">{lang==='en'?tb.titleEn:tb.title}</h4>
+                        {bookWrong.length > 0 && <span className="px-1.5 py-0.5 rounded-full bg-red-100 text-red-600 text-[10px] font-bold">{bookWrong.length} {tt('tb_wrong_short')}</span>}
+                      </div>
                       <p className="text-xs text-slate-400 mt-0.5">{tb.lessons.length} {lang==='en'?'lessons':'课'} · {tb.lessons.reduce((s,l)=>s+l.words.length,0)} {lang==='en'?'words':'词'}</p>
                     </div>
                     <span className="text-slate-300">›</span>
                   </button>
                   <button onClick={()=>{sfx.play('click');setPreviewBookId(tb.textbookId)}} title={tt('tb_book_vocab_btn')} className="shrink-0 ml-2 px-2.5 py-1.5 rounded-lg text-[11px] font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 transition-colors">📋 {tt('tb_book_vocab_btn')}</button>
                 </div>
-              ))}
+                )
+              })}
             </div>
           )}
 
@@ -549,6 +588,18 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           {tbStep === 'lesson' && tbTextbookId && (() => {
             const tb = textbookVocabList.find(t => t.textbookId === tbTextbookId)
             if (!tb) return null
+            // 当前教材的所有错词
+            const bookWrong = tbWrongByBook.get(tb.textbookId) || []
+            // 按课分组
+            const wrongByLesson = new Map<string, HskWord[]>()
+            for (const w of bookWrong) {
+              // 用索引拿真实 lessonId（词 id 前缀不一定等于 lessonId）
+              const lid = tbWordMeta.get(w.id)?.lessonId
+              if (!lid) continue
+              const key = `${tb.textbookId}/${lid}`
+              if (!wrongByLesson.has(key)) wrongByLesson.set(key, [])
+              wrongByLesson.get(key)!.push(w)
+            }
             return (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {tb.lessons.map(lesson => {
@@ -556,12 +607,16 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                   const done = tbLearnedLessons[key] || 0
                   const total = lesson.words.length
                   const pct = total > 0 ? Math.round((done/total)*100) : 0
+                  const lessonWrong = wrongByLesson.get(key) || []
                   return (
-                    <div key={lesson.lessonId} className={`relative rounded-xl border p-4 hover:shadow-md transition-all group ${pct>=100?'border-emerald-300 bg-emerald-50':'border-slate-200 bg-white hover:border-indigo-300'}`}>
+                    <div key={lesson.lessonId} className={`relative rounded-xl border p-4 hover:shadow-md transition-all group ${pct>=100?'border-emerald-300 bg-emerald-50':lessonWrong.length>0?'border-red-200 bg-red-50/30':'border-slate-200 bg-white hover:border-indigo-300'}`}>
                       <button onClick={()=>{setTbLessonId(lesson.lessonId);startTextbookLessonSession(tb.textbookId, lesson.lessonId)}} className="w-full text-left pr-20">
                         <div className="flex items-center justify-between mb-1">
                           <h4 className="font-bold text-slate-800 text-sm">{lang==='en'?lesson.lessonTitleEn:lesson.lessonTitle}</h4>
-                          {pct>=100 && <span className="text-xs text-emerald-600 font-bold">✓</span>}
+                          <div className="flex items-center gap-1">
+                            {pct>=100 && <span className="text-xs text-emerald-600 font-bold">✓</span>}
+                            {lessonWrong.length > 0 && <span className="px-1.5 py-0.5 rounded-full bg-red-100 text-red-600 text-[10px] font-bold">{lessonWrong.length} {tt('tb_wrong_short')}</span>}
+                          </div>
                         </div>
                         <div className="text-xs text-slate-400">{total} {lang==='en'?'words':'个生词'}</div>
                         {pct > 0 && <div className="mt-1.5 w-full h-1.5 bg-slate-100 rounded-full overflow-hidden"><div className="h-full rounded-full bg-emerald-400" style={{width:`${pct}%`}}/></div>}
@@ -604,14 +659,14 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button onClick={startLearningSession} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🆕</div><div className="text-sm font-bold text-slate-700">{tt('words_learn_new')}</div><div className="text-xs text-slate-400">{tt('words_remaining_count')} {newWordsToLearn.length}</div></button>
             <button onClick={()=>{if(plan.reviewIds.length===0){alert(tt('words_no_review'));return};const rw=plan.reviewIds.map(id=>levelWords.find(w=>w.id===id)).filter(Boolean)as HskWord[];if(!rw.length)return;beginSession(()=>{setSessionQueue(shuffle(rw));setIdx(0);setFlipped(false);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');sfx.play('click')})}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-orange-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🔄</div><div className="text-sm font-bold text-slate-700">{tt('words_review')}</div><div className="text-xs text-slate-400">{plan.reviewIds.length}</div></button>
-            <button onClick={()=>setShowWrongBook(true)} className={`rounded-xl border p-4 text-left transition-all group ${wrongWords.length>0?'bg-red-50 border-red-200 hover:border-red-300 hover:shadow-md':'border-slate-200 bg-white hover:border-slate-300'}`}><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📝</div><div className="text-sm font-bold text-slate-700">{tt('words_wrong_book')}</div><div className={`text-xs ${wrongWords.length>0?'text-red-500 font-semibold':'text-slate-400'}`}>{wrongWords.length} {tt('words_wrong_count')}</div></button>
+            <button onClick={()=>setShowWrongBook(true)} className={`rounded-xl border p-4 text-left transition-all group ${hskWrongWords.length>0?'bg-red-50 border-red-200 hover:border-red-300 hover:shadow-md':'border-slate-200 bg-white hover:border-slate-300'}`}><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📝</div><div className="text-sm font-bold text-slate-700">{tt('words_wrong_book')}</div><div className={`text-xs ${hskWrongWords.length>0?'text-red-500 font-semibold':'text-slate-400'}`}>{hskWrongWords.length} {tt('words_wrong_count')}</div></button>
             <button onClick={startReviewAllSession} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-emerald-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">📚</div><div className="text-sm font-bold text-slate-700">{tt('words_review_all')}</div><div className="text-xs text-slate-400">{totalWords} {tt('words_random_pick')}</div></button>
             <button onClick={()=>{beginSession(()=>{const nw=newWordsToLearn.length>0?newWordsToLearn.slice(0,plan.dailyGoal):shuffle(levelWords).slice(0,Math.max(plan.dailyGoal,20));setSessionQueue(shuffle(nw));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('type');sfx.play('click')})}} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-purple-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">⌨️</div><div className="text-sm font-bold text-slate-700">{tt('words_type_practice')}</div><div className="text-xs text-slate-400">{tt('words_type_desc')}</div></button>
             {/* 打印 / 导出 HSK 生词表 */}
             <button onClick={()=>setShowHskPrint(true)} className="rounded-xl border border-slate-200 bg-white p-4 text-left hover:border-indigo-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🖨</div><div className="text-sm font-bold text-slate-700">{lang==='zh'?'打印生词表':'Print list'}</div><div className="text-xs text-slate-400">{lang==='zh'?'自选词 · 4 种模式':'Pick words · 4 modes'}</div></button>
-            {/* 错词专项复习 */}
-            {wrongWords.length > 0 && (
-              <button onClick={()=>{if(wrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-orange-50 p-4 text-left hover:border-red-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🎯</div><div className="text-sm font-bold text-red-700">{tt('words_wrong_practice')}</div><div className="text-xs text-red-400">{tt('words_wrong_practice_desc')}</div></button>
+            {/* 错词专项复习（仅 HSK 错词） */}
+            {hskWrongWords.length > 0 && (
+              <button onClick={()=>{if(hskWrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(hskWrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-orange-50 p-4 text-left hover:border-red-300 hover:shadow-md transition-all group"><div className="text-2xl mb-1 group-hover:scale-110 inline-block transition-transform">🎯</div><div className="text-sm font-bold text-red-700">{tt('words_wrong_practice')}</div><div className="text-xs text-red-400">{tt('words_wrong_practice_desc')}</div></button>
             )}
           </div>
 
@@ -778,7 +833,7 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
               <button onClick={()=>{setShowWrongBook(false);sfx.play('click')}} className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 text-lg">×</button>
             </div>
             <div className="px-6 pb-6 pt-2">
-              {wrongWords.length === 0 ? (
+              {hskWrongWords.length === 0 ? (
                 <div className="text-center py-8">
                   <div className="text-4xl mb-2">✅</div>
                   <p className="text-sm text-slate-500 font-medium">{tt('words_no_wrong')}</p>
@@ -786,11 +841,11 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
               ) : (
                 <>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs text-red-500 font-semibold">{wrongWords.length} {tt('words_wrong_words')}</span>
-                    <button onClick={()=>{beginSession(()=>{setSessionQueue(shuffle(wrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setShowWrongBook(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">🎯 {tt('words_wrong_practice')}</button>
+                    <span className="text-xs text-red-500 font-semibold">{hskWrongWords.length} {tt('words_wrong_words')}</span>
+                    <button onClick={()=>{beginSession(()=>{setSessionQueue(shuffle(hskWrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setShowWrongBook(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">🎯 {tt('words_wrong_practice')}</button>
                   </div>
                   <div className="max-h-[360px] overflow-y-auto space-y-2 pr-1">
-                    {wrongWords.map(w => (
+                    {hskWrongWords.map(w => (
                       <div key={w.id} className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl bg-red-50/60 border border-red-100 hover:bg-red-50 transition-all">
                         <div className="text-2xl shrink-0">{w.emoji}</div>
                         <div className="min-w-0 flex-1">
@@ -802,6 +857,99 @@ export default function WordCardPage({ onXP, onWrongWord, wrongWords = [], onRem
                         <button onClick={()=>{onRemoveWrongWord?.(w.id);sfx.play('delete')}} className="w-7 h-7 flex items-center justify-center rounded-full text-slate-400 hover:text-red-500 hover:bg-red-100 shrink-0 transition-all" title={tt('words_remove_wrong')}>✕</button>
                       </div>
                     ))}
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 教材错词本弹窗 */}
+      {showTbWrongBook && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={(e)=>{if(e.target===e.currentTarget){setShowTbWrongBook(false);sfx.play('click')}}}>
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"/>
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-xl overflow-hidden">
+            <div className="flex items-center justify-between px-6 pt-5 pb-3">
+              <div>
+                <h3 className="text-lg font-bold text-slate-800">📝 {tt('tb_wrong_book')}</h3>
+                <p className="text-xs text-slate-400 mt-0.5">{tt('tb_wrong_book_hint')}</p>
+              </div>
+              <button onClick={()=>{setShowTbWrongBook(false);sfx.play('click')}} className="w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-100 hover:text-slate-600 text-lg">×</button>
+            </div>
+            <div className="px-6 pb-6 pt-2">
+              {tbWrongWords.length === 0 ? (
+                <div className="text-center py-8">
+                  <div className="text-4xl mb-2">✅</div>
+                  <p className="text-sm text-slate-500 font-medium">{tt('words_no_wrong')}</p>
+                </div>
+              ) : (
+                <>
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs text-red-500 font-semibold">{tbWrongWords.length} {tt('tb_wrong_count')} · {tbWrongByBook.size} {tt('tb_wrong_books')}</span>
+                    <button onClick={()=>{if(tbWrongWords.length===0)return;beginSession(()=>{setSessionQueue(shuffle(tbWrongWords));setIdx(0);setScore({correct:0,wrong:0});setShowResult(false);setShowTbWrongBook(false);setView('learning');setMode('quiz');sfx.play('click')})}} className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold hover:from-red-600 hover:to-orange-600 shadow-sm active:scale-95 transition-all">🎯 {tt('words_wrong_practice')}</button>
+                  </div>
+                  <div className="max-h-[440px] overflow-y-auto space-y-4 pr-1">
+                    {[...tbWrongByBook.entries()].map(([bookId, words]) => {
+                      const tb = textbookVocabList.find(t => t.textbookId === bookId)
+                      const bookTitle = tb ? (lang==='zh'?tb.title:tb.titleEn) : bookId
+                      // 按课次分组（用索引拿真实 lessonId，并按教材内课次顺序排列）
+                      const byLesson = new Map<string, { num: number; title: string; titleEn: string; lWords: HskWord[] }>()
+                      const noLesson: HskWord[] = []
+                      for (const w of words) {
+                        const meta = tbWordMeta.get(w.id)
+                        const m = w.id.match(/-l(\d+)-w\d+$/)
+                        const lid = meta?.lessonId ?? (m ? `l${m[1]}` : null)
+                        if (!lid) { noLesson.push(w); continue }
+                        if (!byLesson.has(lid)) {
+                          const lesson = tb?.lessons.find(l => l.lessonId === lid)
+                          const num = lesson?.lessonNum ?? (m ? Number(m[1]) : 0)
+                          const title = lesson?.lessonTitle ?? `${lang==='zh'?'第':'Lesson '}${num}${lang==='zh'?'课':''}`
+                          byLesson.set(lid, { num, title, titleEn: lesson?.lessonTitleEn ?? title, lWords: [] })
+                        }
+                        byLesson.get(lid)!.lWords.push(w)
+                      }
+                      const orderedLessons = [...byLesson.values()].sort((a,b)=>a.num-b.num)
+                      // 单张错词卡：音形义（汉字+拼音+英文）+ 朗读 + 移除
+                      const renderRow = (w: HskWord, lNum?: number) => (
+                        <div key={w.id} className="flex items-center gap-2.5 px-3 py-2 rounded-xl bg-white border border-red-100 hover:bg-red-50/70 hover:border-red-200 transition-all">
+                          <div className="w-7 h-7 rounded-lg shrink-0 flex items-center justify-center text-[11px] font-black bg-red-50 text-red-500 border border-red-100 leading-none">{lNum ?? '·'}</div>
+                          <div className="min-w-0 flex-1">
+                            <div className="font-kai font-bold text-slate-800 text-sm leading-tight">{w.hanzi}</div>
+                            <div className="text-xs text-indigo-600 leading-tight">{w.pinyin}</div>
+                            {w.english && <div className="text-xs text-slate-400 truncate leading-tight">{w.english}</div>}
+                          </div>
+                          <SpeakBtn text={w.hanzi} wordId={w.id} className="w-7 h-7 text-sm bg-slate-50 shrink-0"/>
+                          <button onClick={()=>{onRemoveWrongWord?.(w.id);sfx.play('delete')}} className="w-7 h-7 flex items-center justify-center rounded-full text-slate-400 hover:text-red-500 hover:bg-red-100 shrink-0 transition-all" title={tt('words_remove_wrong')}>✕</button>
+                        </div>
+                      )
+                      return (
+                        <div key={bookId} className="rounded-xl border border-red-100 overflow-hidden">
+                          <div className="px-4 py-2.5 bg-red-100/50 flex items-center gap-2">
+                            <span className="text-sm font-bold text-red-700">📖 {bookTitle}</span>
+                            <span className="text-xs text-red-400">· {words.length} {lang==='zh'?'个错词':'wrong'}</span>
+                          </div>
+                          <div className="px-3 py-2.5 space-y-3 bg-red-50/30">
+                            {orderedLessons.map(l => (
+                              <div key={l.title + l.num}>
+                                <div className="flex items-center gap-2 mb-1.5 pl-0.5">
+                                  <span className="text-[11px] font-bold text-red-600">{lang==='zh' ? l.title : l.titleEn}</span>
+                                  <span className="text-[10px] font-semibold text-red-400">{l.lWords.length}</span>
+                                  <div className="flex-1 h-px bg-red-100"/>
+                                </div>
+                                <div className="space-y-1.5">
+                                  {l.lWords.map(w => renderRow(w, l.num))}
+                                </div>
+                              </div>
+                            ))}
+                            {/* 无法归课的错词（兜底） */}
+                            {noLesson.length > 0 && (
+                              <div className="space-y-1.5">{noLesson.map(w => renderRow(w))}</div>
+                            )}
+                          </div>
+                        </div>
+                      )
+                    })}
                   </div>
                 </>
               )}
